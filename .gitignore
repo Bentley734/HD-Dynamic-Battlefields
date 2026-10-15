@@ -1,0 +1,7 @@
+art/**/*.png
+docs/evidence/*.png
+docs/evidence/*.jpg
+docs/evidence/*.jpeg
+__pycache__/
+*.pyc
+dist/

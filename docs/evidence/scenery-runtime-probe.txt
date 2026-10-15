@@ -1,0 +1,1 @@
+PASS official v0.3.88 Loader/Sandbox, original native Red battle renderer; scenery-only provider and Menu Customizer scenery consumer; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. Fixture only; full Menu Customizer stack and gameplay traversal remain untested.

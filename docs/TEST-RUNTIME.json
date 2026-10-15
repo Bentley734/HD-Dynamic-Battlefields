@@ -1,0 +1,9 @@
+{
+  "tag": "v0.3.88",
+  "release": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.88",
+  "published": "2026-10-14T22:24:46Z",
+  "asset": "gen1recomp-0.3.88.love",
+  "sha256": "sha256:ba38a32a5cf2be75c55aa3bc15bd530f2fe890edc3c54edba76e9fd1f4330940",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.88\\engine",
+  "version_source": "-- Single source of every compatibility-relevant number: engine release,\n-- mod API major, link protocol, save format and ROM cache generation.  Zero\n-- requires so it loads during love.conf and under plain Lua for tools and\n-- tests.\n\nlocal Version = {\n  engine = \"0.3.88\",   -- game/engine release (semver).  Repo default is the\n                          -- \"-dev\" placeholder; CI stamps the real X.Y.Z into\n                          -- the packed game.love only, never the working tree.\n  shell = "
+}

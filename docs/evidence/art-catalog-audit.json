@@ -1,0 +1,182 @@
+{
+  "scope": "Catalog decode/metadata integrity only; not art or release approval",
+  "registered_compositions": 70,
+  "prepared_periods": 131,
+  "decoded_files": 158,
+  "coverage": {
+    "grassland": {
+      "16:9": [
+        "grassland-01-16x9",
+        "grassland-02-16x9",
+        "grassland-03-16x9"
+      ],
+      "32:9": [
+        "grassland-01-32x9",
+        "grassland-02-32x9",
+        "grassland-03-32x9"
+      ],
+      "9:16": [
+        "grassland-01-9x16",
+        "grassland-02-9x16",
+        "grassland-03-9x16"
+      ],
+      "4:3": [
+        "grassland-02-4x3"
+      ],
+      "16:10": [
+        "grassland-02-16x10"
+      ],
+      "3:2": [
+        "grassland-02-3x2"
+      ],
+      "21:9": [
+        "grassland-02-21x9"
+      ],
+      "9:19.5": [
+        "grassland-02-9x19_5"
+      ],
+      "9:20": [
+        "grassland-02-9x20"
+      ]
+    },
+    "forest": {
+      "16:9": [
+        "forest-01-16x9",
+        "forest-02-16x9",
+        "forest-03-16x9"
+      ],
+      "32:9": [
+        "forest-01-32x9",
+        "forest-02-32x9"
+      ],
+      "9:16": [
+        "forest-01-9x16",
+        "forest-02-9x16"
+      ],
+      "4:3": [
+        "forest-02-4x3"
+      ],
+      "16:10": [
+        "forest-02-16x10"
+      ],
+      "3:2": [
+        "forest-02-3x2"
+      ],
+      "21:9": [
+        "forest-02-21x9"
+      ],
+      "9:19.5": [
+        "forest-02-9x19_5"
+      ],
+      "9:20": [
+        "forest-02-9x20"
+      ]
+    },
+    "cave": {
+      "16:9": [
+        "cave-01-16x9",
+        "cave-02-16x9",
+        "cave-03-16x9"
+      ],
+      "32:9": [
+        "cave-01-32x9",
+        "cave-02-32x9",
+        "cave-03-32x9"
+      ],
+      "9:16": [
+        "cave-01-9x16",
+        "cave-02-9x16",
+        "cave-03-9x16"
+      ]
+    },
+    "beach": {
+      "16:9": [
+        "beach-01-16x9",
+        "beach-02-16x9",
+        "beach-03-16x9"
+      ],
+      "32:9": [
+        "beach-01-32x9"
+      ],
+      "9:16": [
+        "beach-01-9x16"
+      ]
+    },
+    "mountain": {
+      "16:9": [
+        "mountain-01-16x9",
+        "mountain-02-16x9",
+        "mountain-03-16x9"
+      ],
+      "32:9": [
+        "mountain-01-32x9"
+      ],
+      "9:16": [
+        "mountain-01-9x16"
+      ],
+      "4:3": [
+        "mountain-01-4x3"
+      ],
+      "16:10": [
+        "mountain-01-16x10"
+      ],
+      "3:2": [
+        "mountain-01-3x2"
+      ],
+      "21:9": [
+        "mountain-01-21x9"
+      ],
+      "9:19.5": [
+        "mountain-01-9x19_5"
+      ],
+      "9:20": [
+        "mountain-01-9x20"
+      ]
+    },
+    "rocky_terrain": {
+      "16:9": [
+        "rocky_terrain-01-16x9",
+        "rocky_terrain-02-16x9",
+        "rocky_terrain-03-16x9"
+      ],
+      "32:9": [
+        "rocky_terrain-01-32x9"
+      ],
+      "9:16": [
+        "rocky_terrain-01-9x16"
+      ],
+      "4:3": [
+        "rocky_terrain-01-4x3"
+      ],
+      "16:10": [
+        "rocky_terrain-01-16x10"
+      ],
+      "3:2": [
+        "rocky_terrain-01-3x2"
+      ],
+      "21:9": [
+        "rocky_terrain-01-21x9"
+      ],
+      "9:19.5": [
+        "rocky_terrain-01-9x19_5"
+      ],
+      "9:20": [
+        "rocky_terrain-01-9x20"
+      ]
+    },
+    "river": {
+      "16:9": [
+        "river-01-16x9",
+        "river-02-16x9",
+        "river-03-16x9"
+      ]
+    },
+    "ocean": {
+      "16:9": [
+        "ocean-01-16x9",
+        "ocean-02-16x9",
+        "ocean-03-16x9"
+      ]
+    }
+  }
+}

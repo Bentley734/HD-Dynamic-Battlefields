@@ -1,0 +1,1 @@
+PASS official v0.3.88 Red renderer with Menu Customizer 3.35.4; bundled catalog removed for fixture; actual offline-imported cache selected for all 28 alignment renders and 36 variation renders; native sprite/UI calls and transforms unchanged. No network or live game-cache writes.

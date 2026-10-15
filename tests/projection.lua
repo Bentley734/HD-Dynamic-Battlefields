@@ -1,0 +1,8 @@
+local P=assert(loadfile(root..'/lib/projection.lua'))()
+local t=assert(P.between({x=36,y=68},{x=128,y=28},{x=540,y=550},{x=1380,y=350}))
+local ax,ay=t:point(36,68);local bx,by=t:point(128,28)
+assert(math.abs(ax-540)<1e-8 and math.abs(ay-550)<1e-8 and math.abs(bx-1380)<1e-8 and math.abs(by-350)<1e-8)
+local x,y=t:point(37,68);local u,v=t:point(36,69)
+assert(math.abs((x-ax)^2+(y-ay)^2-((u-ax)^2+(v-ay)^2))<1e-8)
+assert(not P.between({x=0,y=0},{x=0,y=0},{x=1,y=1},{x=2,y=2}))
+print('PASS animation projection endpoint registration, isotropic effect scale and degenerate rejection')

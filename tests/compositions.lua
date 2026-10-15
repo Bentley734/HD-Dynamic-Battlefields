@@ -1,0 +1,19 @@
+local M=assert(loadfile(root..'/lib/compositions.lua'))()
+for _,r in ipairs(M.ratios)do assert(M.aspect(r[2]*1000,1000)==r[1])end
+assert(M.aspect(5120,1440)=='32:9');assert(M.aspect(390,844)=='9:19.5');assert(not M.aspect(0,1))
+local catalog={};for _,ratio in ipairs({'16:9','9:16'})do for i=1,3 do catalog[#catalog+1]={id=ratio..':'..i,environment='forest',aspect_ratio=ratio,quality='HD',variation=i}end end
+local S=M.new(catalog,function()return true end,function()return 1 end)
+local context={environment='forest',game='red',map='VIRIDIAN_FOREST'};local battle={}
+local a=assert(S:choose(battle,context,{width=1920,height=1080}));local b=assert(S:choose(battle,context,{width=2560,height=1440}));assert(a.id==b.id)
+local portrait=assert(S:choose(battle,context,{width=900,height=1600}));assert(portrait.variation==a.variation and portrait.aspect_ratio=='9:16')
+local nextBattle=assert(S:choose({},context,{width=1920,height=1080}));assert(nextBattle.variation~=a.variation)
+local fixed=assert(S:choose({},context,{width=1920,height=1080},{mode='fixed'}))
+local fresh=M.new(catalog,function()return true end);assert(fresh:choose({},context,{width=1920,height=1080},{mode='fixed'}).id==fixed.id)
+assert(not S:choose({},context,{width=1920,height=1080},{quality='Ultra-HD'}))
+assert(not S:choose({},{},{width=1920,height=1080}))
+local assignments=S:exportAssignments();local restored=M.new(catalog,function()return true end)
+assert(restored:importAssignments(assignments));assert(restored:choose({},context,{width=1920,height=1080},{mode='fixed'}).id==fixed.id)
+assignments.changed='external';assert(restored:exportAssignments().changed==nil)
+assert(not restored:importAssignments({bad={}}));restored:resetAssignments();assert(next(restored.fixed)==nil)
+assert(not M.aspect(0/0,100));assert(not M.aspect(math.huge,100))
+print('PASS all ratio families, 5120x1440/phone selection, stable battle variation on resize/orientation, no immediate repeat, deterministic fixed assignments, missing-pack/native fallback')

@@ -1,0 +1,12 @@
+PASS runtime 0.3.88 Sandbox.envFor and ImportAccess cache
+PASS SHA-256 read/write and sandboxed downloaded texture loading
+PASS raw filesystem denied
+PASS all nine original environment/aspect prototype renders
+PASS separate grass/forest/cave mound textures with uniform scaling
+PASS actual v0.3.88 Red BattleState picture/UI capture, original imported sprites, send-out stages, native Water Gun OAM step/projection, both fainted sprite layers/player HUD transparency, scoped override/graphics-stack rollback; fixture only, no gameplay traversal
+PASS v0.3.88 Loader/Sandbox entry; exact imported map IDs; all three prototype environments/aspects; complete moveSelect/Mimic panel regions at 1920x1080, 5120x1440 and 900x1600; physical pixel-grid checks at nominal density 2.75; atomic draw-error rollback; fallback/downstream ownership/disable. No physical device or full gameplay traversal claim.
+CALIBRATION/RENDERER FIXTURES: not installed in the live game; no gameplay traversal or physical-device test
+OpenGL
+3.3.0 NVIDIA 616.56
+NVIDIA Corporation
+NVIDIA GeForce RTX 5080/PCIe/SSE2

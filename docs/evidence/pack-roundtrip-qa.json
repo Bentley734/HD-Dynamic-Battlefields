@@ -1,0 +1,74 @@
+{
+  "scope": "Unpublished local packs; no network or user game cache",
+  "packs": [
+    {
+      "id": "battlefields-16-10-hd",
+      "files": 17,
+      "installed_size": 45210041,
+      "archive_sha256": "64b228c846d4cf4c1a2832f0f59cfa3e25ef5d615586e120ba8cc5149b2b9e92"
+    },
+    {
+      "id": "battlefields-16-9-hd",
+      "files": 73,
+      "installed_size": 193219012,
+      "archive_sha256": "aa3df176420ed32c4438b266c6756600644cc12fbae1f4d4cf5c4e1243913c65"
+    },
+    {
+      "id": "battlefields-21-9-hd",
+      "files": 17,
+      "installed_size": 44795863,
+      "archive_sha256": "35a655faeae63a27520cfdb5210f267b937a5d479410432ee129cb2a333a3a02"
+    },
+    {
+      "id": "battlefields-32-9-hd",
+      "files": 33,
+      "installed_size": 89991345,
+      "archive_sha256": "224cbe6562fbc5de7b4871148a3771d277917cfc9846cbda902aea94b3559d61"
+    },
+    {
+      "id": "battlefields-3-2-hd",
+      "files": 17,
+      "installed_size": 45689078,
+      "archive_sha256": "79e18f7d1ba61d39bc4a7c1bf2726be6870739f851ede018b576e8007e87067c"
+    },
+    {
+      "id": "battlefields-4-3-hd",
+      "files": 17,
+      "installed_size": 44789742,
+      "archive_sha256": "2b20cf20d2265a515f198e1ffea4449e8c3802e7579fad606e8959577b2e4baf"
+    },
+    {
+      "id": "battlefields-9-16-hd",
+      "files": 33,
+      "installed_size": 89402674,
+      "archive_sha256": "9a6b9dcb359115c4f089e71729356526230d1cd308047321b52fb567a1babd90"
+    },
+    {
+      "id": "battlefields-9-19-5-hd",
+      "files": 17,
+      "installed_size": 44922483,
+      "archive_sha256": "e00ecb1e7cf12a949cac16b193d10eef3ecbe60b5679aef30f6d0fff56619d2e"
+    },
+    {
+      "id": "battlefields-9-20-hd",
+      "files": 17,
+      "installed_size": 45620846,
+      "archive_sha256": "796b8a266a1bd1d369a0582c2d3c93ec3ed0d9091f4fb1900c5ab7c499ca769b"
+    }
+  ],
+  "checks": [
+    "all release checksums",
+    "flat offline descriptors",
+    "runtime compatibility and metadata validation",
+    "fresh multiple-aspect offline imports",
+    "runtime content verification",
+    "torn-slot recovery",
+    "removal and reimport",
+    "corrupt archive rejection",
+    "corrupt-index preflight",
+    "unsafe path rejection",
+    "deterministic rebuild",
+    "stale output rejection"
+  ],
+  "isolated_cache": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-import-qa-20261015\\mod_cache\\hd-dynamic-battlefields"
+}
