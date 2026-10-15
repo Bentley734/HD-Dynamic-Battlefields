@@ -11,7 +11,7 @@ local adjusted=assert(scene:layout(viewport,{global={player={mound_x=.01,mound_y
 assert(G.apply(adjusted,base,profile))
 assert(math.abs(adjusted.player.mound.x-(400+36*7+19.2))<1e-8)
 assert(math.abs(adjusted.player.mound.y-(36+96*7-21.6))<1e-8)
-assert(adjusted.player.mound.scale==1.5 and adjusted.player.mound.bounds[1]==70*7)
+assert(adjusted.player.mound.scale==1.5 and adjusted.player.mound.bounds[1]==profile.player.width*7)
 assert(math.abs(base.player.mound.x-.28*1920)<1e-8,'Authored metadata was mutated')
 local explicit=assert(scene:layout(viewport))
 assert(G.apply(explicit,base,profile,{x=10,y=20,width=320,height=288}))
