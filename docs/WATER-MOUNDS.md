@@ -8,7 +8,7 @@ Three reusable transparent islet asset pairs are available for water composition
 | Mossy rock shelf | art/source/mound-islet-rock-01.png | art/source/mound-islet-rock-01-night.png | Wooded gorge |
 | Sand and short reeds | art/source/mound-islet-sand-01.png | art/source/mound-islet-sand-01-night.png | Meadow footbridge |
 
-They are separate scenery textures, never baked into the background. Each pair has a low profile and open central standing surface. Ocean 16:9 variations now reuse the same pairs: grass/pebbles for the archipelago, mossy rock for the basalt coast, and sand/reeds for the reef lagoon. Pond and lake backgrounds remain unregistered; the paths can be reused when matching compositions are authored.
+They are separate scenery textures, never baked into the background. Each pair has a low profile and open central standing surface. Ocean 16:9 variations reuse the same pairs: grass/pebbles for the archipelago, mossy rock for the basalt coast, and sand/reeds for the reef lagoon. Pond 16:9 variations pair them with willow bank, limestone woodland pool and lotus meadow respectively. Lake backgrounds remain unregistered.
 
 The background variation determines the islet and stays stable throughout the battle. Both sides have independent mound placement/scaling through existing Mounds settings. Native battle sprites and UI retain their original transforms. The native player panel can occlude much of the player's mound; this mod does not reposition that panel.
 

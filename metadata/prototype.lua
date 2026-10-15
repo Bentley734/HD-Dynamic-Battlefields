@@ -294,7 +294,7 @@ for _,spec in ipairs({
  end
  compositions[#compositions+1]=entry
 end
-for _,environment in ipairs({'river','ocean'})do
+for _,environment in ipairs({'river','ocean','pond'})do
 for variation,material in ipairs({'islet-grass','islet-rock','islet-sand'})do
  local id=environment..'-0'..variation..'-16x9'
  metadata[id]={inherits='meadow-perspective-16x9',composition_id=id,horizon_y=environment=='river'and .28 or .25,
@@ -307,13 +307,13 @@ end
 -- Outdoor periods are distinct original illustrations, not post-process
 -- lighting variants. Underground cave art has no outdoor day/night cycle.
 for _,entry in ipairs(compositions)do
- local materials={grassland='grass',forest='forest',beach='sand',mountain='highland',rocky_terrain='gravel',river='islet-grass',ocean='islet-grass'}
+ local materials={grassland='grass',forest='forest',beach='sand',mountain='highland',rocky_terrain='gravel',river='islet-grass',ocean='islet-grass',pond='islet-grass'}
  if materials[entry.environment]then
   local material=materials[entry.environment]
   if entry.id=='forest-03-16x9'then material='autumn'end
   if entry.id=='beach-03-16x9'then material='gray-sand'end
   if entry.id=='mountain-03-16x9'then material='terracotta'end
-  if entry.environment=='river'or entry.environment=='ocean'then material=({'islet-grass','islet-rock','islet-sand'})[entry.variation]end
+  if entry.environment=='river'or entry.environment=='ocean'or entry.environment=='pond'then material=({'islet-grass','islet-rock','islet-sand'})[entry.variation]end
   if entry.environment=='rocky_terrain'and entry.variation~=2 then
    material='pale-gravel'
    entry.mounds={player='art/source/mound-pale-gravel-01.png',opponent='art/source/mound-pale-gravel-01.png'}

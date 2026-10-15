@@ -182,8 +182,9 @@ function love.load()
  renderLogical(900,1600,'compatibility-native-logical-900x1600.png')
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
  if os.getenv('HDB_WATER_CONTEXT')then
-  local target=os.getenv('HDB_WATER_CONTEXT')=='ocean'and'ocean'or'river'
-  local route=target=='ocean'and'19'or'10'
+  local target=os.getenv('HDB_WATER_CONTEXT')
+  local route=({ocean='19',river='10',pond='6'})[target]
+  assert(route,'Unknown water-context fixture target: '..tostring(target))
   game.save.player.map='ROUTE_'..route;game.save.player.surfing=true
   renderLogical(1920,1080,target..'-automatic-surf-route-'..route..'.png')
   local d=loader.exports['hd-dynamic-battlefields'].diagnostics()
@@ -191,7 +192,7 @@ function love.load()
   write(target..'-automatic-context.json',Json.encode(d))
   game.save.player.surfing=false
   local originalBattle=battle
-  for _,sample in ipairs({{'river','ROUTE_10'},{'ocean','ROUTE_19'}})do
+  for _,sample in ipairs({{'river','ROUTE_10'},{'ocean','ROUTE_19'},{'pond','ROUTE_6'}})do
    game.save.player.map=sample[2]
    local hooked=Battle.newWild(game,'MAGIKARP',5,{hooked=true})
    hooked.phase='menu';hooked.introSlide=0;hooked.introBalls=false

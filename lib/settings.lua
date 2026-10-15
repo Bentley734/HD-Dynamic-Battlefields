@@ -40,7 +40,7 @@ return function(mod)
  local backgrounds={toggle('enabled','HD BACKGROUNDS'),choice('selection','VARIATION',{{'RANDOM','random'},{'FIXED','fixed'}}),
   choice('timeMode','TIME OF DAY',{{'AUTOMATIC','auto'},{'SYSTEM CLOCK','system'},{'DAY','day'},{'NIGHT','night'}}),
   choice('weatherMode','WEATHER',{{'AUTOMATIC','auto'},{'CLEAR','clear'},{'RAIN','rain'},{'SNOW','snow'},{'SANDSTORM','sandstorm'},{'FOG','fog'},{'SUNLIGHT','sun'}}),
-  choice('environment','ENVIRONMENT',{{'AUTOMATIC','auto'},{'GRASSLAND','grassland'},{'FOREST','forest'},{'CAVE','cave'},{'BEACH','beach'},{'MOUNTAIN','mountain'},{'ROCKY TERRAIN','rocky_terrain'},{'RIVER','river'},{'OCEAN','ocean'}})}
+  choice('environment','ENVIRONMENT',{{'AUTOMATIC','auto'},{'GRASSLAND','grassland'},{'FOREST','forest'},{'CAVE','cave'},{'BEACH','beach'},{'MOUNTAIN','mountain'},{'ROCKY TERRAIN','rocky_terrain'},{'RIVER','river'},{'OCEAN','ocean'},{'POND','pond'}})}
  local animation={choice('animation','QUALITY',{{'OFF','off'},{'LOW','low'},{'MEDIUM','medium'},{'HIGH','high'}})}
  local status=''
  local function action(id,label,callback)return{id='hd_action_'..id,label=label,value=function()return status end,activate=function(game)

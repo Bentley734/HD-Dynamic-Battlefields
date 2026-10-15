@@ -2,6 +2,28 @@
 
 The complete specification remains authoritative. This ledger tracks progress; it does not narrow release criteria.
 
+## Current evidence snapshot — after Alpha 1
+
+The table below supersedes the older chronological notes that follow. A shipped alpha is not completion of the full specification.
+
+| Area | Proven current state | Still required |
+|---|---|---|
+| Runtime and compatibility | Official v0.3.88 Loader/Sandbox and native Red renderer, standalone and with complete Menu Customizer 3.35.4; sprite/UI calls and transforms preserved | Other supported games, live traversal, sprite mods including 1025Dex/WildFollowers, tested KIM conflict policy |
+| Artwork | Alpha 1: 70 registered compositions, 158 decoded PNGs, 131 period combinations; eight environments; four variation families cover all nine ratios; three river/ocean island pairs | 3–5 variations for every specified environment, every major aspect family per composition, Mobile/Ultra-HD tiers, complete visual approval |
+| Positioning | Separate mounds, shared inherited metadata, normalized anchors and optional asset origins; native frame grounding, immutable global/aspect/composition mound adjustments; calibration export | Alternate species/sprites and contact data, shadow/hovering checks, visual anchor editing; later user instructions preserve native Pokémon positions and battle UI |
+| Time/weather/animation | Separate day/night paintings; local Gen 1 system clock/manual modes; underground policy; bounded rain/snow/sand/fog particles and animation-off checks | Additional game clock/weather adapters, illustrated foliage/waves/cascade/cloud animation and real device performance |
+| Environment selection | All 224 inspected Red map/tileset signatures mapped; explicit land/water, fishing, special arenas/legendaries; random/fixed selection and resets | Other games, real encounter scenarios, all missing environment artwork and assignment editing UI |
+| Configuration | Backgrounds, Animation, Mounds, Display, Asset Manager and Diagnostics pages implemented; namespaced runtime persistence | Live navigation/persistence QA and remaining required controls where consistent with later user scope |
+| Distribution | Published self-contained Alpha 1, source, checksums and verified GitHub assets; nine local HD aspect packs/imports validated; 64 actual installed-pack GPU renders; fault and deterministic rebuild checks | Lightweight production base, real published pack index/files and end-to-end HTTP downloads/updates/recovery, complete source artwork tiers |
+| QA/performance | 13 pure checks; PNG decode audit; wide/portrait/aspect batches; current textures released and no per-frame decode | Full specification scenario/device/sprite/game matrix, real transition/load/memory/frame timing and all uninspected visuals |
+| Final release | Alpha 1 is available for user bug reports | All original specification gates remain in force; the complete project is not achieved |
+
+Evidence: `ALPHA-1.md`, `evidence/art-catalog-audit.json`, `evidence/pack-roundtrip-qa.json`, `evidence/installed-pack-runtime-probe.txt` and the environment batch notes. Post-alpha additions are documented separately until validated.
+
+## Historical development notes
+
+The original table and entries below describe earlier intermediate states, including test deferrals subsequently superseded by batch evidence above.
+
 | Specification area | Current authoritative evidence | Remaining release gate |
 |---|---|---|
 | 1. Runtime investigation | Exact v0.3.88 artifact/provenance, source inspection, sandbox/cache GPU probe, Gen 1 capture and real Loader entry fixture | Complete generation adapters, full actual game/map contracts, compatibility policy |

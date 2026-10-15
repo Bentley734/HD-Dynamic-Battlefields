@@ -1748,6 +1748,78 @@
     "prompt": "prompts/ocean-03-16x9.txt"
   },
   {
+    "file": "source/pond-01-16x9-night.png",
+    "sha256": "f96acac7b379b72551918066a1b3f52709f7b79e5e1e454d363612fbd430550d",
+    "size": 2671726,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-01-16x9-night.txt"
+  },
+  {
+    "file": "source/pond-01-16x9.png",
+    "sha256": "009a9cd07b95c48e101e64c7a9835c2a1db5a0a7781e02700b6275b5f954b30b",
+    "size": 2769478,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-01-16x9.txt"
+  },
+  {
+    "file": "source/pond-02-16x9-night.png",
+    "sha256": "9ab4471d0b477aaa155e02b4d3067b6794be95f1e98643f7017cb36fd576e3a4",
+    "size": 3071555,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-02-16x9-night.txt"
+  },
+  {
+    "file": "source/pond-02-16x9.png",
+    "sha256": "5d5976e4f9fdfaeaa698f5308d5b6f927554e385404497adfd30e214954c2cde",
+    "size": 3338906,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-02-16x9.txt"
+  },
+  {
+    "file": "source/pond-03-16x9-night.png",
+    "sha256": "2c6915606dddb72617051371087e5d718984ecb3316f8cdcb81a8beb69bdbc25",
+    "size": 2547987,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-03-16x9-night.txt"
+  },
+  {
+    "file": "source/pond-03-16x9.png",
+    "sha256": "d73f872e39d1784454dec42fbadeb931115659a9910ad228d4849bfe4d27ce7c",
+    "size": 2572998,
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/pond-03-16x9.txt"
+  },
+  {
     "file": "source/river-01-16x9-night.png",
     "sha256": "d82f934035be3cdcdc8045c4892f46349d6e8797a83bbef7f02f3fee360da1d3",
     "size": 2812798,
