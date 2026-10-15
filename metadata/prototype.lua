@@ -306,6 +306,19 @@ end
 end
 -- Outdoor periods are distinct original illustrations, not post-process
 -- lighting variants. Underground cave art has no outdoor day/night cycle.
+for _,aspect in ipairs({'32x9','9x16'})do
+ local id='river-01-'..aspect
+ metadata[id]={inherits='meadow-perspective-'..aspect,composition_id=id,horizon_y=aspect=='32x9'and .24 or .21,
+  opponent={mound_origin={.5,.62}}}
+ local entry={id=id,environment='river',variation=1,aspect_ratio=aspect=='32x9'and'32:9'or'9:16',quality='HD',
+  metadata=id,background='art/source/'..id..'.png',
+  mounds={player='art/source/mound-islet-grass-01.png',opponent='art/source/mound-islet-grass-01.png'}}
+ if aspect=='32x9'then
+  -- Dedicated panorama retains its high distant bank in a uniform top sample.
+  entry.source_rect={x=0,y=0,width=1983,height=557.71875}
+ end
+ compositions[#compositions+1]=entry
+end
 for _,entry in ipairs(compositions)do
  local materials={grassland='grass',forest='forest',beach='sand',mountain='highland',rocky_terrain='gravel',river='islet-grass',ocean='islet-grass',pond='islet-grass'}
  if materials[entry.environment]then

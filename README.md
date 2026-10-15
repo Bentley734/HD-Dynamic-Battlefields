@@ -1,10 +1,10 @@
-# HD Dynamic Battlefields — Alpha 3
+# HD Dynamic Battlefields — Alpha 4
 
 Original illustrated backgrounds and independent mounds for gen1recomp **v0.3.88**. Battle commands, dialogue, HUDs, Pokémon and trainer sprites remain owned by the game and your other mods.
 
 ## Install and enable
 
-1. Close the game before installing. Download `HD-Dynamic-Battlefields-0.1.0-alpha.3.zip` from the release.
+1. Close the game before installing. Download `HD-Dynamic-Battlefields-0.1.0-alpha.4.zip` from the release.
 2. Extract its `hd-dynamic-battlefields` folder into `%APPDATA%\pokemon-love2d\mods`. It must directly contain `manifest.json` and `main.lua`.
 3. Enable the mod in Mod Manager and apply/restart as prompted.
 4. Open **Options → HD Battlefields → Backgrounds → HD Backgrounds → On**. It starts off by default. Keep **Display → Texture Tier** set to **HD** and artwork aspect **Automatic**.
@@ -13,7 +13,7 @@ The ZIP includes the current artwork; no asset download is needed. Menu Customiz
 
 ## Included
 
-- Grassland, forest, caves, beach, mountain, rocky terrain, river, ocean and ponds: 73 registered compositions, 164 registered PNG assets and 137 composition/period combinations.
+- Grassland, forest, caves, beach, mountain, rocky terrain, river, ocean and ponds: 75 registered compositions, 168 registered PNG assets and 141 composition/period combinations.
 - Four composition families have dedicated art for all nine supported aspect families. Other families cover fewer ratios; missing combinations retain native scenery.
 - Separate day/night paintings and matching mounds. Gen 1 Automatic uses local system time (day 06:00–17:59); caves use constant underground artwork.
 - Three tiny-island mound pairs for river/ocean encounters, including fishing and surfing detection.
@@ -29,4 +29,4 @@ Please report game version, other mods, map/encounter, window size, day/night se
 
 Git tracks code, metadata, tools, prompts, artwork checksums and written evidence. Large PNGs are in the release ZIP rather than Git history. Extract `art/` from the installed alpha into this checkout to run from source. No ROM, executable, saves or KIM artwork/code is included.
 
-See [alpha validation](docs/ALPHA-3.md), [full specification](docs/DEVELOPMENT-SPECIFICATION.md) and [scope ledger](docs/REQUIREMENTS.md). Older development notes describe intermediate states; alpha notes describe this release.
+See [alpha validation](docs/ALPHA-4.md), [full specification](docs/DEVELOPMENT-SPECIFICATION.md) and [scope ledger](docs/REQUIREMENTS.md). Older development notes describe intermediate states; alpha notes describe this release.

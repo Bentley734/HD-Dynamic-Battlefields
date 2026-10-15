@@ -1,8 +1,8 @@
 {
   "scope": "Catalog decode/metadata integrity only; not art or release approval",
-  "registered_compositions": 73,
-  "prepared_periods": 137,
-  "decoded_files": 164,
+  "registered_compositions": 75,
+  "prepared_periods": 141,
+  "decoded_files": 168,
   "coverage": {
     "grassland": {
       "16:9": [
@@ -169,6 +169,12 @@
         "river-01-16x9",
         "river-02-16x9",
         "river-03-16x9"
+      ],
+      "32:9": [
+        "river-01-32x9"
+      ],
+      "9:16": [
+        "river-01-9x16"
       ]
     },
     "ocean": {

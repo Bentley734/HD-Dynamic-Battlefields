@@ -1844,6 +1844,54 @@
     "prompt": "prompts/river-01-16x9.txt"
   },
   {
+    "file": "source/river-01-32x9-night.png",
+    "sha256": "3e8a21ce500da5fe41e7d0c246155380768cc65f86f3fb25de161cac6b3ae003",
+    "size": 2868607,
+    "width": 1983,
+    "height": 793,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/river-01-32x9-night.txt"
+  },
+  {
+    "file": "source/river-01-32x9.png",
+    "sha256": "f91d81624e418c1c4ac3be21fa447c6509b784cea117935cde64530d98508017",
+    "size": 3070855,
+    "width": 1983,
+    "height": 793,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/river-01-32x9.txt"
+  },
+  {
+    "file": "source/river-01-9x16-night.png",
+    "sha256": "4ff2e2c017d97813615d4fba8ae7b1d99b062304fae2a524193be186628958a5",
+    "size": 3042892,
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/river-01-9x16-night.txt"
+  },
+  {
+    "file": "source/river-01-9x16.png",
+    "sha256": "fe2167ee48183b2195fe7dc12ebc8a7a556aad99361b02a3b3b3e02c7e42ccef",
+    "size": 2586731,
+    "width": 941,
+    "height": 1672,
+    "mode": "RGB",
+    "generator": "built-in image_gen.imagegen",
+    "date": "2026-10-15",
+    "status": "prototype candidate",
+    "prompt": "prompts/river-01-9x16.txt"
+  },
+  {
     "file": "source/river-02-16x9-night.png",
     "sha256": "b18b32da581fb2ccbe651cd2617bbdc303bc5188f071b6118e85d7d007590424",
     "size": 2926768,
