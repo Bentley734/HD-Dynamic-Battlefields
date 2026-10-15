@@ -1,10 +1,10 @@
-# HD Dynamic Battlefields — Alpha 5
+# HD Dynamic Battlefields — Alpha 6
 
 Original illustrated backgrounds and independent mounds for gen1recomp **v0.3.88**. Battle commands, dialogue, HUDs, Pokémon and trainer sprites remain owned by the game and your other mods.
 
 ## Install and enable
 
-1. Close the game before installing. Download `HD-Dynamic-Battlefields-0.1.0-alpha.5.zip` from the release.
+1. Close the game before installing. Download `HD-Dynamic-Battlefields-0.1.0-alpha.6.zip` from the release.
 2. Extract its `hd-dynamic-battlefields` folder into `%APPDATA%\pokemon-love2d\mods`. It must directly contain `manifest.json` and `main.lua`.
 3. Enable the mod in Mod Manager and apply/restart as prompted.
 4. Open **Options → HD Battlefields → Backgrounds → HD Backgrounds → On**. It starts off by default. Keep **Display → Texture Tier** set to **HD** and artwork aspect **Automatic**.
@@ -29,4 +29,4 @@ Please report game version, other mods, map/encounter, window size, day/night se
 
 Git tracks code, metadata, tools, prompts, artwork checksums and written evidence. Large PNGs are in the release ZIP rather than Git history. Extract `art/` from the installed alpha into this checkout to run from source. No ROM, executable, saves or KIM artwork/code is included.
 
-See [alpha validation](docs/ALPHA-5.md), [full specification](docs/DEVELOPMENT-SPECIFICATION.md) and [scope ledger](docs/REQUIREMENTS.md). Older development notes describe intermediate states; alpha notes describe this release.
+See [alpha validation](docs/ALPHA-6.md), [full specification](docs/DEVELOPMENT-SPECIFICATION.md) and [scope ledger](docs/REQUIREMENTS.md). Older development notes describe intermediate states; alpha notes describe this release.

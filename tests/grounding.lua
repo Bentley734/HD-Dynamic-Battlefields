@@ -15,7 +15,7 @@ assert(adjusted.player.mound.scale==1.5 and adjusted.player.mound.bounds[1]==pro
 assert(math.abs(base.player.mound.x-.28*1920)<1e-8,'Authored metadata was mutated')
 local explicit=assert(scene:layout(viewport))
 assert(G.apply(explicit,base,profile,{x=10,y=20,width=320,height=288}))
-assert(explicit.opponent.mound.x==266 and explicit.opponent.mound.y==132)
+assert(explicit.opponent.mound.x==266 and explicit.opponent.mound.y==20+profile.opponent.y*2)
 assert(not G.apply(explicit,base,profile,{x=0/0,y=0,width=1,height=1}))
 local aspect=assert(scene:layout(viewport,{global={player={mound_x=.01}},aspects={['16:9']={player={mound_x=.02}}}}))
 assert(G.apply(aspect,base,profile));assert(math.abs(aspect.player.mound.x-(400+36*7+38.4))<1e-8)
