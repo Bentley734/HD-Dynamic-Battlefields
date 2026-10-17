@@ -81,6 +81,8 @@ function love.load()
  if os.getenv('HDB_REQUIRE_PUBLISHED_INDEX')=='1'then
   index=exports.assetPacks.updates.index
   assert(index.repository=='Bentley734/HD-Dynamic-Battlefields'and #index.packs==18,'Shipped index must expose all 18 verified download choices')
+  local schema=module('lib/pack_store.lua')
+  for _,pack in ipairs(index.packs)do local valid,why=schema.validate(pack);assert(valid,why)end
  else
   local f=assert(io.open(workspace..'/.work/hd-beta-1-release-shards/asset-index.json','rb'));index=Json.decode(f:read('*a'));f:close()
   exports.assetPacks.updates.index=index

@@ -1,3 +1,11 @@
+# Gen 1 Beta 1 current evidence
+
+The current test runtime is official gen1recomp v0.3.89 (TEST-RUNTIME-0.3.89.json). BETA-1.md records the current scope and evidence. Native Red rendering and Menu Customizer 3.35.4 isolated fixtures pass; full gameplay traversal, Blue/Yellow playthroughs, physical mobile devices and expanded/animated sprite combinations remain unverified. Gen 2/3 and link presentation are not integrated.
+
+Battle HUD, fonts, commands and dialogue remain controlled by the runtime or UI mod. Optional native Pokemon X/Y corrections now exist under Mounds > Player/Opponent and use integer native pixels. Custom sprite renderers that bypass drawBattlerPic require explicit provider integration; nonzero offsets with those renderers are not validated. KIM coexistence remains unverified.
+
+The sections below preserve historical development evidence. Older runtime versions, removed compositor designs, distribution status and statements that positioning controls do not exist are historical and do not supersede the current beta evidence.
+
 ## Consolidated day/night aspect batch
 
 The v0.3.88 full Menu Customizer fixture rendered 18 cases: day and night at 640x480, 1024x768, 1280x800, 1536x1024, 1279x799, 1281x801, 1920x1080, 5120x1440 and 900x1600. The fixture asserts active scenery and selected artwork period; output composition IDs are recorded in evidence/alignment-batch.json. The 4:3 day, 16:10 night and 3:2 day outputs were visually inspected for opponent foot/mound contact and horizon placement. The remaining images were generated but not all visually audited. Nearby window sizes exercise resize selection; these are isolated render fixtures, not a live gameplay traversal or physical device test.
