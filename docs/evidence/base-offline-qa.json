@@ -1,0 +1,7 @@
+{
+  "runtime": "0.3.89",
+  "base_bytes": 10177885,
+  "base_sha256": "3eda898a0689944ae5adec6650dc32909d99b24c3150f6be7bce9c5461f6dbf7",
+  "scope": "Actual extracted lightweight base with empty cache and unactivated catalog. 16:9 bundled fallback scenery; 32:9/portrait native fallback, return to wide, UI preservation, integer offsets, disabled/unknown fallback and error restoration passed. Final activated-index base needs rebuilding.",
+  "evidence": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-beta-base-offline-qa\\extracted\\hd-dynamic-battlefields\\docs\\evidence\\standalone-runtime-probe.txt"
+}

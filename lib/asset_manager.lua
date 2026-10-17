@@ -12,11 +12,17 @@ return function(mod,open,index,aspects)
    end;open(game,rows)
   end
  end
+ local function sizeLabel(bytes)
+  if type(bytes)~='number'then return'--'end
+  if bytes>=1000000000 then return string.format('%.2f GB',bytes/1000000000)end
+  if bytes>=1000000 then return string.format('%.1f MB',bytes/1000000)end
+  return string.format('%.1f KB',bytes/1000)
+ end
  local function details(game,pack)
   local rows={info('pack_version','VERSION',function()return pack.version end),
    info('pack_quality','QUALITY',function()return pack.quality end),
    info('pack_variations','VARIATIONS',function()return pack.variation_profile=='one'and'ONE PER AREA'or'ALL VARIATIONS'end),
-   info('pack_bytes','INSTALLED BYTES',function()return tostring(pack.installed_size)end),
+   info('pack_bytes','INSTALLED SIZE',function()return sizeLabel(pack.installed_size)end),
    info('pack_health','PACK HEALTH',function()local state=api.library.health[pack.id];return state and(state.valid and'VERIFIED'or state.error)or'NOT INSTALLED'end),
    action('download','DOWNLOAD / RESTORE',function()return store:start(pack)end),
    action('verify','VERIFY INSTALLED',function()local installed=store:installed(pack.id);if not installed then return nil,'NOT INSTALLED'end;local ok,err=store:verify(installed);api.library.health[pack.id]={valid=ok==true,error=err};if not ok then api.refresh()end;return ok,err end),

@@ -64,7 +64,7 @@ return function(mod)
   local remaining={};for _,value in ipairs(ids)do if value~=id then remaining[#remaining+1]=value end end
   ids=remaining;mod.cache:write('installed-pack-ids.json',Json.encode(ids));return assetLibrary:refresh(ids)
  end
- local diagnostics={stage='development prototype',status='disabled',game='unknown'}
+ local diagnostics={stage='Gen 1 Beta 1',status='disabled',game='unknown'}
  local loadedSave,lastAssignments,loadedAdjustments,lastLayout
  local environmentChoices={{'Automatic','auto'}}
  local environmentLabels={gym_rock='Pewter Gym',gym_water='Cerulean Gym',gym_electric='Vermilion Gym',

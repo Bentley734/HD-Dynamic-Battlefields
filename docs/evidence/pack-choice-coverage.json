@@ -1,0 +1,146 @@
+[
+  {
+    "id": "battlefields-16-10-hd-all",
+    "aspect": "16:10",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 423449874
+  },
+  {
+    "id": "battlefields-16-10-hd-one",
+    "aspect": "16:10",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 219031599
+  },
+  {
+    "id": "battlefields-16-9-hd-all",
+    "aspect": "16:9",
+    "profile": "all",
+    "areas": 83,
+    "compositions": 248,
+    "download_bytes": 864399892
+  },
+  {
+    "id": "battlefields-16-9-hd-one",
+    "aspect": "16:9",
+    "profile": "one",
+    "areas": 83,
+    "compositions": 83,
+    "download_bytes": 315566114
+  },
+  {
+    "id": "battlefields-21-9-hd-all",
+    "aspect": "21:9",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 410335346
+  },
+  {
+    "id": "battlefields-21-9-hd-one",
+    "aspect": "21:9",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 212675807
+  },
+  {
+    "id": "battlefields-32-9-hd-all",
+    "aspect": "32:9",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 412238640
+  },
+  {
+    "id": "battlefields-32-9-hd-one",
+    "aspect": "32:9",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 213870107
+  },
+  {
+    "id": "battlefields-3-2-hd-all",
+    "aspect": "3:2",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 428524719
+  },
+  {
+    "id": "battlefields-3-2-hd-one",
+    "aspect": "3:2",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 221298047
+  },
+  {
+    "id": "battlefields-4-3-hd-all",
+    "aspect": "4:3",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 421527720
+  },
+  {
+    "id": "battlefields-4-3-hd-one",
+    "aspect": "4:3",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 217733962
+  },
+  {
+    "id": "battlefields-9-16-hd-all",
+    "aspect": "9:16",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 426480427
+  },
+  {
+    "id": "battlefields-9-16-hd-one",
+    "aspect": "9:16",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 222373550
+  },
+  {
+    "id": "battlefields-9-19-5-hd-all",
+    "aspect": "9:19.5",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 419728974
+  },
+  {
+    "id": "battlefields-9-19-5-hd-one",
+    "aspect": "9:19.5",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 218129772
+  },
+  {
+    "id": "battlefields-9-20-hd-all",
+    "aspect": "9:20",
+    "profile": "all",
+    "areas": 46,
+    "compositions": 82,
+    "download_bytes": 422147856
+  },
+  {
+    "id": "battlefields-9-20-hd-one",
+    "aspect": "9:20",
+    "profile": "one",
+    "areas": 46,
+    "compositions": 46,
+    "download_bytes": 218054811
+  }
+]

@@ -49,16 +49,23 @@ def main():
     if existing.returncode == 0:
         assert json.loads(existing.stdout)['isDraft'], 'Refusing to overwrite a published pack release'
     else:
+        if '403' in existing.stderr or 'rate limit' in existing.stderr.lower():
+            raise RuntimeError(existing.stderr)
         gh('release','create',args.tag,'--repo',args.repository,'--target',args.target,'--draft',
            '--title','HD battlefield artwork packs '+index['version'],
            '--notes','Original HD per-aspect scenery packs. Use the latest mod release for installation instructions. Each pack ZIP needs its matching .pack.json for offline import. Missing environments and other quality tiers remain in development.')
+    identity=json.loads(gh('release','view',args.tag,'--repo',args.repository,'--json','databaseId'))
+    release_id=identity['databaseId']
+    pages=json.loads(gh('api',f'repos/{args.repository}/releases/{release_id}/assets?per_page=100','--paginate','--slurp'))
+    uploaded={asset['name']:asset for page in pages for asset in page}
+    files=[file for file in files if not(file.name in uploaded and uploaded[file.name]['state']=='uploaded'and uploaded[file.name]['size']==expected[file.name][0]and uploaded[file.name].get('digest')=='sha256:'+expected[file.name][1])]
     batches = [files[i:i+12] for i in range(0,len(files),12)]
     def upload(batch):
         gh('release','upload',args.tag,*batch,'--repo',args.repository,'--clobber')
         print(f'Uploaded {len(batch)} files', flush=True)
-    with ThreadPoolExecutor(max_workers=2) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         list(executor.map(upload,batches))
-    release = json.loads(gh('api',f'repos/{args.repository}/releases/tags/{args.tag}'))
+    release = json.loads(gh('api',f'repos/{args.repository}/releases/{release_id}'))
     assets = json.loads(gh('api',f'repos/{args.repository}/releases/{release["id"]}/assets?per_page=100','--paginate','--slurp'))
     remote = {asset['name']:asset for page in assets for asset in page}
     assert set(remote) == set(expected), 'Remote release file set differs'
@@ -66,7 +73,7 @@ def main():
         asset = remote[name]
         assert asset['state']=='uploaded' and asset['size']==size and asset['digest']=='sha256:'+digest,name
     gh('release','edit',args.tag,'--repo',args.repository,'--draft=false','--latest=false')
-    report = {'release':release['html_url'],'files':len(expected),'bytes':sum(v[0] for v in expected.values()),
+    report = {'release':'https://github.com/'+args.repository+'/releases/tag/'+args.tag,'files':len(expected),'bytes':sum(v[0] for v in expected.values()),
               'verification':'GitHub uploaded asset set, sizes and server SHA-256 digests match local files'}
     (build/'published-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report),flush=True)

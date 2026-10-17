@@ -1,5 +1,5 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
-local project=workspace..'/HD-Dynamic-Battlefields'
+local project=(os.getenv('HDB_PROJECT')or(workspace..'/HD-Dynamic-Battlefields')):gsub('\\','/')
 local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.88'
 local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
 local output=project..'/docs/evidence'
@@ -170,8 +170,9 @@ function love.load()
  assert(exports.applyAdjustments({global={player={pokemon_x=2/160,pokemon_y=-3/144},opponent={pokemon_x=-4/160,pokemon_y=1/144}}}))
  renderLogical(1920,1080,'standalone-offset-adjusted-logical.png')
  assert(exports.applyAdjustments({}))
- renderLogical(5120,1440,'standalone-native-logical-5120x1440.png')
- renderLogical(900,1600,'standalone-native-logical-900x1600.png')
+ renderLogical(5120,1440,'standalone-native-logical-5120x1440.png',os.getenv('HDB_BASE_ONLY')~='1')
+ renderLogical(900,1600,'standalone-native-logical-900x1600.png',os.getenv('HDB_BASE_ONLY')~='1')
+ if os.getenv('HDB_BASE_ONLY')=='1'then renderLogical(1920,1080,'base-offline-fallback-return.png')end
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
  game.save.player.map='UNKNOWN_PROBE_MAP'
  renderLogical(1920,1080,'standalone-native-fallback-unknown.png',false)
