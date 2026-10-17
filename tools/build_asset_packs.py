@@ -12,7 +12,7 @@ import zipfile
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT.parent / '.work/menu-3253-deps'))
+sys.path.insert(0, str(PROJECT.parent / '.work/hd-beta-deps'))
 
 
 def main():
@@ -44,7 +44,13 @@ def main():
     catalog = convert(raw)
     groups = {}
     for entry in catalog['compositions']:
-        groups.setdefault((entry['aspect_ratio'], entry['quality']), []).append(entry)
+        groups.setdefault((entry['aspect_ratio'], entry['quality'], 'all'), []).append(entry)
+    # Select one stable variation independently for every environment/aspect.
+    for (aspect, quality, profile), entries in list(groups.items()):
+        first = {}
+        for entry in sorted(entries, key=lambda item: (item.get('variation', 1), item['id'])):
+            first.setdefault(entry['environment'], entry)
+        groups[(aspect, quality, 'one')] = list(first.values())
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     if any(output.iterdir()):
@@ -52,8 +58,8 @@ def main():
     index = {'schema_version': 1, 'repository': args.repository, 'version': args.version, 'packs': []}
     checksums = {}
     release_url = f'https://github.com/{args.repository}/releases/download/{args.tag}/'
-    for (aspect, quality), entries in sorted(groups.items()):
-        identifier = 'battlefields-' + re.sub(r'[^a-z0-9]+', '-', aspect.lower() + '-' + quality.lower())
+    for (aspect, quality, profile), entries in sorted(groups.items()):
+        identifier = 'battlefields-' + re.sub(r'[^a-z0-9]+', '-', aspect.lower() + '-' + quality.lower()) + '-' + profile
         directory = output / identifier
         directory.mkdir(exist_ok=True)
         used_metadata = {}
@@ -99,7 +105,8 @@ def main():
                 package.writestr(info, data)
         pack = {'schema_version': 1, 'metadata_schema': 1, 'id': identifier,
                 'version': args.version, 'game_version': '>=0.3.88 <0.4.0',
-                'aspects': [aspect], 'quality': quality,
+                'aspects': [aspect], 'quality': quality, 'variation_profile': profile,
+                'label': f'{aspect} {quality} - ' + ('One variation per area' if profile == 'one' else 'All variations'),
                 'environments': sorted({item['environment'] for item in entries}),
                 'optional_dependencies': [], 'files': files,
                 'installed_size': sum(item['size'] for item in files),

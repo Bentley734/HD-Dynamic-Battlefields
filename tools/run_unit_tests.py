@@ -5,6 +5,7 @@ from pathlib import Path
 
 workspace = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(workspace / '.work/menu-3253-deps'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / '.work/hd-beta-deps'))
 from lupa.luajit21 import LuaRuntime
 
 project = Path(__file__).resolve().parents[1]

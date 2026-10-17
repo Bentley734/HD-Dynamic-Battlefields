@@ -2,58 +2,112 @@
   "scope": "Unpublished local packs; no network or user game cache",
   "packs": [
     {
-      "id": "battlefields-16-10-hd",
-      "files": 17,
-      "installed_size": 45210041,
-      "archive_sha256": "64b228c846d4cf4c1a2832f0f59cfa3e25ef5d615586e120ba8cc5149b2b9e92"
+      "id": "battlefields-16-10-hd-all",
+      "files": 167,
+      "installed_size": 437292506,
+      "archive_sha256": "41fa587e5345036bbb16ea3b3dc0106c8d0027eab9da0475d7ee0735268e2ea4"
     },
     {
-      "id": "battlefields-16-9-hd",
-      "files": 73,
-      "installed_size": 193219012,
-      "archive_sha256": "aa3df176420ed32c4438b266c6756600644cc12fbae1f4d4cf5c4e1243913c65"
+      "id": "battlefields-16-10-hd-one",
+      "files": 95,
+      "installed_size": 226660999,
+      "archive_sha256": "f34a694cdacbc37934d90bc0d2a6c4fd277462f803609547450043dd4ba367e1"
     },
     {
-      "id": "battlefields-21-9-hd",
-      "files": 17,
-      "installed_size": 44795863,
-      "archive_sha256": "35a655faeae63a27520cfdb5210f267b937a5d479410432ee129cb2a333a3a02"
+      "id": "battlefields-16-9-hd-all",
+      "files": 364,
+      "installed_size": 900097866,
+      "archive_sha256": "c8b33a5eba7a97efedba796909a0ba245c73d512454eff50cbe6e878e4b68af5"
     },
     {
-      "id": "battlefields-32-9-hd",
-      "files": 33,
-      "installed_size": 89991345,
-      "archive_sha256": "224cbe6562fbc5de7b4871148a3771d277917cfc9846cbda902aea94b3559d61"
+      "id": "battlefields-16-9-hd-one",
+      "files": 141,
+      "installed_size": 328064979,
+      "archive_sha256": "d297b367e326804471776b91aa38549179f09716770e26dd17464c5b86f5600f"
     },
     {
-      "id": "battlefields-3-2-hd",
-      "files": 17,
-      "installed_size": 45689078,
-      "archive_sha256": "79e18f7d1ba61d39bc4a7c1bf2726be6870739f851ede018b576e8007e87067c"
+      "id": "battlefields-21-9-hd-all",
+      "files": 167,
+      "installed_size": 423847699,
+      "archive_sha256": "3bb70f77cd9c895eab760b2964e8df225c29fb303172f48b7b6483b1100f362b"
     },
     {
-      "id": "battlefields-4-3-hd",
-      "files": 17,
-      "installed_size": 44789742,
-      "archive_sha256": "2b20cf20d2265a515f198e1ffea4449e8c3802e7579fad606e8959577b2e4baf"
+      "id": "battlefields-21-9-hd-one",
+      "files": 95,
+      "installed_size": 220240993,
+      "archive_sha256": "96d644012ae8f1258bf0c43621895182fd061bd554411f4ee94f4ab998f4dd24"
     },
     {
-      "id": "battlefields-9-16-hd",
-      "files": 33,
-      "installed_size": 89402674,
-      "archive_sha256": "9a6b9dcb359115c4f089e71729356526230d1cd308047321b52fb567a1babd90"
+      "id": "battlefields-32-9-hd-all",
+      "files": 167,
+      "installed_size": 425863824,
+      "archive_sha256": "6fa3f04d67e429b7faa9bb342330ead22f605425b894dfb8c03b142b136cc392"
     },
     {
-      "id": "battlefields-9-19-5-hd",
-      "files": 17,
-      "installed_size": 44922483,
-      "archive_sha256": "e00ecb1e7cf12a949cac16b193d10eef3ecbe60b5679aef30f6d0fff56619d2e"
+      "id": "battlefields-32-9-hd-one",
+      "files": 95,
+      "installed_size": 221563837,
+      "archive_sha256": "b339ba11bf4279082847b820757c6953bfb31fa259635de85a934ebf1af96725"
     },
     {
-      "id": "battlefields-9-20-hd",
-      "files": 17,
-      "installed_size": 45620846,
-      "archive_sha256": "796b8a266a1bd1d369a0582c2d3c93ec3ed0d9091f4fb1900c5ab7c499ca769b"
+      "id": "battlefields-3-2-hd-all",
+      "files": 167,
+      "installed_size": 443080339,
+      "archive_sha256": "14c8a2c7163d89b1a855719af5cb8aafb1e31057dada1f60dc8abe2b30ac1044"
+    },
+    {
+      "id": "battlefields-3-2-hd-one",
+      "files": 95,
+      "installed_size": 229400699,
+      "archive_sha256": "46a6558e32dce5dcafd79ae3b9ca0880805c1bf6ca45c87900073a92d47a8202"
+    },
+    {
+      "id": "battlefields-4-3-hd-all",
+      "files": 167,
+      "installed_size": 434859052,
+      "archive_sha256": "bdfcb8ffe3c571ca90c9212621265eebdeb7370c2f9fa12b00f7e2cbc62454ae"
+    },
+    {
+      "id": "battlefields-4-3-hd-one",
+      "files": 95,
+      "installed_size": 225151537,
+      "archive_sha256": "7c368843bb55c99956814b736021bdd2b0e525cf6d49d4eac1344ca181175943"
+    },
+    {
+      "id": "battlefields-9-16-hd-all",
+      "files": 167,
+      "installed_size": 439551745,
+      "archive_sha256": "6c05873d8b7676caf9ab18da77ac0c3a1d66f589f126d66d93ed87530394f3d2"
+    },
+    {
+      "id": "battlefields-9-16-hd-one",
+      "files": 95,
+      "installed_size": 229592248,
+      "archive_sha256": "e8bdf3cc8e100cbfd5c031f5d231312d2714a88e83c8f6fd11e11a0092b2f7c2"
+    },
+    {
+      "id": "battlefields-9-19-5-hd-all",
+      "files": 167,
+      "installed_size": 433288447,
+      "archive_sha256": "f97993c3acc96ca2c537a322fbe9d471e09ed199daa4e56d3632eef9c8fb50b5"
+    },
+    {
+      "id": "battlefields-9-19-5-hd-one",
+      "files": 95,
+      "installed_size": 225601119,
+      "archive_sha256": "d7edc6379debdaa3d908883261b83c69ec42b370db04f11ab8824602f2bf57de"
+    },
+    {
+      "id": "battlefields-9-20-hd-all",
+      "files": 167,
+      "installed_size": 435810443,
+      "archive_sha256": "e43e70e547f2cea2f5f949aaeb5c7e89c8b544031a05c8457f078aa10ddc736a"
+    },
+    {
+      "id": "battlefields-9-20-hd-one",
+      "files": 95,
+      "installed_size": 225545325,
+      "archive_sha256": "7a877ea1a6ade2c6a69faf5235a37f2dbc6218af78b356f5bde4fa39505dbafe"
     }
   ],
   "checks": [
@@ -70,5 +124,5 @@
     "deterministic rebuild",
     "stale output rejection"
   ],
-  "isolated_cache": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-import-qa-20261015\\mod_cache\\hd-dynamic-battlefields"
+  "isolated_cache": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-beta-1-pack-qa\\mod_cache\\hd-dynamic-battlefields"
 }

@@ -1,6 +1,7 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
 local project=workspace..'/HD-Dynamic-Battlefields'
-local engine=workspace..'/.work/hd-battlefields-latest/v0.3.88/engine'
+local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.88'
+local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
 local output=project..'/docs/evidence'
 local importedCache=os.getenv('HDB_TEST_PACK_CACHE')
 if importedCache then importedCache=importedCache:gsub('\\','/')end
@@ -9,7 +10,7 @@ local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));
 function love.load()
  local ok,err=xpcall(function()
  package.path=engine..'/?.lua;'..package.path
- assert(require('src.core.Version').engine=='0.3.88')
+ assert(require('src.core.Version').engine==runtimeVersion)
  local cache=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/red/'
  local function hostRead(path)
   local f=io.open(cache..path,'rb');if not f then return end
@@ -207,9 +208,9 @@ function love.load()
  end
  for name,method in pairs(methods)do Battle[name]=method end
  if importedCache then
-  write('installed-pack-runtime-probe.txt','PASS official v0.3.88 Red renderer with Menu Customizer 3.35.4; bundled catalog removed for fixture; actual offline-imported cache selected for all '..#batch..' alignment renders and '..#variants..' variation renders; native sprite/UI calls and transforms unchanged. No network or live game-cache writes.\n')
+  write('installed-pack-runtime-probe.txt','PASS official v'..runtimeVersion..' Red renderer with Menu Customizer 3.35.4; bundled catalog removed for fixture; actual offline-imported cache selected for all '..#batch..' alignment renders and '..#variants..' variation renders; native sprite/UI calls and transforms unchanged. No network or live game-cache writes.\n')
  end
- write('compatibility-runtime-probe.txt','PASS official v0.3.88 Loader/Sandbox, original native Red battle renderer; scenery-only provider and complete Menu Customizer v3.35.4; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. All 224 inspected Red map signatures classified. Fixture only; gameplay traversal remains untested.\n')
+ write('compatibility-runtime-probe.txt','PASS official v'..runtimeVersion..' Loader/Sandbox, original native Red battle renderer; scenery-only provider and complete Menu Customizer v3.35.4; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. All 224 inspected Red map signatures classified. Fixture only; gameplay traversal remains untested.\n')
  end,debug.traceback)
  love.graphics.setCanvas()
  if not ok then write('compatibility-runtime-error.txt',err)end

@@ -6,6 +6,7 @@ Never contacts GitHub or reads/writes the user's game cache.
 import argparse
 import hashlib
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -16,7 +17,7 @@ from install_offline_pack import atomic
 
 PROJECT = Path(__file__).resolve().parents[1]
 WORKSPACE = PROJECT.parent
-sys.path.insert(0, str(WORKSPACE / '.work/menu-3253-deps'))
+sys.path.insert(0, str(WORKSPACE / '.work/hd-beta-deps'))
 from lupa.luajit21 import LuaRuntime
 
 
@@ -68,7 +69,7 @@ def main():
 
     lua = LuaRuntime(encoding=None, unpack_returned_tuples=True)
     lua.globals().root = PROJECT.as_posix().encode()
-    lua.globals().engine = (WORKSPACE / '.work/hd-battlefields-latest/v0.3.88/engine').as_posix().encode()
+    lua.globals().engine = (WORKSPACE / ('.work/hd-battlefields-latest/v'+os.environ.get('HDB_RUNTIME_VERSION','0.3.88')+'/engine')).as_posix().encode()
     lua.globals().py_read, lua.globals().py_write, lua.globals().py_delete = read, write, delete
     lua.globals().py_digest = lambda data: hashlib.sha256(data).digest()
     lua.globals().py_hex = lambda data: data.hex().encode()

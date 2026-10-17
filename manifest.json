@@ -1,18 +1,23 @@
 {
   "id": "hd-dynamic-battlefields",
-  "name": "HD Dynamic Battlefields (Alpha)",
-  "version": "0.1.0-alpha.6",
-  "description": "Original Gen 1 battle backgrounds and independent mounds. Alpha: incomplete coverage; preserves battle UI and sprites.",
+  "name": "HD Dynamic Battlefields (Gen 1 Beta)",
+  "version": "0.1.0-beta.1",
+  "description": "Original Gen 1 battle scenery and independent mounds, with nine-aspect battle-area coverage and sprite position controls. Beta: gameplay and mod compatibility testing ongoing.",
   "api": 2,
   "entry": "main.lua",
   "profile": "overhaul",
-  "games": ["gen1"],
+  "games": [
+    "gen1"
+  ],
   "game_version": ">=0.3.88 <0.4.0",
   "category": "UI",
   "priority": 100,
   "experimental": true,
   "affects_link": false,
-  "permissions": ["engine_internals", "network"],
+  "permissions": [
+    "engine_internals",
+    "network"
+  ],
   "dependencies": [],
   "optional_dependencies": []
 }

@@ -1,0 +1,149 @@
+[
+  {
+    "file": "art/source/mound-asphalt-light-01-v2-clean-v3.png",
+    "source": "art/source/mound-asphalt-light-01-v2.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py --suffix=-clean-v3",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-asphalt-dark-01-clean-v3.png",
+    "source": "art/source/mound-asphalt-dark-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py --suffix=-clean-v3",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-dock-concrete-01-clean-v3.png",
+    "source": "art/source/mound-dock-concrete-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py --suffix=-clean-v3",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-asphalt-light-01-night-clean.png",
+    "source": "art/source/mound-asphalt-light-01-night.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-asphalt-dark-01-night-clean.png",
+    "source": "art/source/mound-asphalt-dark-01-night.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-dock-concrete-01-night-clean.png",
+    "source": "art/source/mound-dock-concrete-01-night.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-floor-gray-01-clean.png",
+    "source": "art/source/mound-floor-gray-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-carpet-blue-01-clean.png",
+    "source": "art/source/mound-carpet-blue-01.png",
+    "operation": "Transparent outer perimeter trim, 20 source pixels to remove the broad cyan fringe; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 20",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-carpet-burgundy-01-clean.png",
+    "source": "art/source/mound-carpet-burgundy-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; nearby retained paint RGB extended into antialiased/hidden edge. Interior paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-cave-violet-01-clean.png",
+    "source": "art/source/mound-cave-violet-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; retained interior RGB extended through antialiased edge. Interior paint and original preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 12",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-cave-pale-limestone-01-clean.png",
+    "source": "art/source/mound-cave-pale-limestone-01.png",
+    "operation": "Transparent outer perimeter trim, 24 source pixels; retained interior RGB extended through antialiased edge. Interior paint and original preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 24",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-cave-warm-basalt-01-clean.png",
+    "source": "art/source/mound-cave-warm-basalt-01.png",
+    "operation": "Transparent outer perimeter trim, 12 source pixels; retained interior RGB extended through antialiased edge. Interior paint and original preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 12",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-ice-cave-01-clean.png",
+    "source": "art/source/mound-ice-cave-01.png",
+    "operation": "Transparent outer perimeter trim, 28 source pixels; retained interior RGB extended through antialiased edge. Interior paint and original preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 28",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-ice-cave-03-v3-clean.png",
+    "source": "art/source/mound-ice-cave-03-v3.png",
+    "operation": "Transparent outer perimeter trim, 16 source pixels; retained interior RGB extended through antialiased edge. Interior paint and original preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 16",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-ice-cave-01-clean-round.png",
+    "source": "art/source/mound-ice-cave-01.png",
+    "operation": "Rounded high-density Gaussian perimeter inset, approximately 24 source pixels; retained interior RGB extended through edge. Interior paint and original preserved. Replaces the square-notch candidate.",
+    "tool": "tools/clean_mound_edges.py --trim 24 --rounded --suffix=-clean-round",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-carpet-lavender-01-clean.png",
+    "source": "art/source/mound-carpet-lavender-01.png",
+    "operation": "Rounded high-density Gaussian perimeter inset, approximately 20 source pixels; retained interior RGB extended through edge. Original carpet paint and original file preserved.",
+    "tool": "tools/clean_mound_edges.py --trim 20 --rounded",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/arcade-01-16x9-v2.png",
+    "source": "art/source/arcade-01-16x9.png",
+    "operation": "Targeted built-in image edit replaces videogame cabinets with mechanical reel/lever machines; original room, open floor, style and lighting retained. Original source preserved.",
+    "tool": "built-in image_gen.imagegen",
+    "date": "2026-10-16"
+  },
+  {
+    "file": "art/source/arcade-02-16x9-v2.png",
+    "source": "art/source/arcade-02-16x9.png",
+    "operation": "Targeted built-in image edit replaces videogame cabinets with mechanical reel/lever machines; original room, open floor, style and lighting retained. Original source preserved.",
+    "tool": "built-in image_gen.imagegen",
+    "date": "2026-10-16"
+  },
+  {
+    "file": "art/source/arcade-03-16x9-v2.png",
+    "source": "art/source/arcade-03-16x9.png",
+    "operation": "Targeted built-in image edit replaces videogame cabinets with mechanical reel/lever machines; original room, open floor, style and lighting retained. Original source preserved.",
+    "tool": "built-in image_gen.imagegen",
+    "date": "2026-10-16"
+  },
+  {
+    "file": "art/source/mound-village-earth-01-clean.png",
+    "source": "art/source/mound-village-earth-01.png",
+    "operation": "Rounded perimeter alpha inset, 24 source pixels; nearest retained paint extension in hidden edge; opaque interior and original preserved. Other cleanup studies are not selected.",
+    "tool": "tools/clean_mound_edges.py --trim 24 --rounded",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/source/mound-village-earth-01-night-clean.png",
+    "source": "art/source/mound-village-earth-01-night.png",
+    "operation": "Rounded perimeter alpha inset, 24 source pixels; nearest retained paint extension in hidden edge; opaque interior and original preserved. Other cleanup studies are not selected.",
+    "tool": "tools/clean_mound_edges.py --trim 24 --rounded",
+    "authorization_date": "2026-10-15"
+  }
+]

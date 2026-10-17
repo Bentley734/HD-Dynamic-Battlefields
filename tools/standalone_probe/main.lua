@@ -1,12 +1,13 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
 local project=workspace..'/HD-Dynamic-Battlefields'
-local engine=workspace..'/.work/hd-battlefields-latest/v0.3.88/engine'
+local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.88'
+local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
 local output=project..'/docs/evidence'
 local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));f:write(bytes);f:close()end
 function love.load()
  local ok,err=xpcall(function()
  package.path=engine..'/?.lua;'..package.path
- assert(require('src.core.Version').engine=='0.3.88')
+ assert(require('src.core.Version').engine==runtimeVersion)
  local cache=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/red/'
  local function hostRead(path)
   local f=io.open(cache..path,'rb');if not f then return end
@@ -119,6 +120,33 @@ function love.load()
  options.modOptions['hd-dynamic-battlefields'].enabled=true
  local scenic=render(1920,1080,'standalone-native-with-provider.png')
  assert(scenic==baseline,'Native sprite/UI method calls or transforms changed')
+ -- Observe native sprite image lookup from inside drawBattlerPic, after
+ -- the correction wrapper, while separately retaining the full UI trace.
+ local spriteTrace={};local nativeImage=Battle.picImage
+ local correctedPic=Battle.drawBattlerPic;local insidePic=false
+ Battle.drawBattlerPic=function(self,...)
+  insidePic=true;local result={correctedPic(self,...)};insidePic=false;return unpack(result)
+ end
+ Battle.picImage=function(self,sprite,...)
+  if insidePic and(sprite==self.player.sprite or sprite==self.enemy.sprite)then
+   local px,py=G.transformPoint(0,0)
+   spriteTrace[#spriteTrace+1]={sprite=sprite,x=px,y=py}
+  end
+  return nativeImage(self,sprite,...)
+ end
+ spriteTrace={};local zeroUI=render(1920,1080,'standalone-offset-zero.png');local before=spriteTrace
+ local exports=loader.exports['hd-dynamic-battlefields']
+ assert(exports.applyAdjustments({global={player={pokemon_x=2/160,pokemon_y=-3/144},opponent={pokemon_x=-4/160,pokemon_y=1/144}}}))
+ spriteTrace={};local movedUI=render(1920,1080,'standalone-offset-adjusted.png');local after=spriteTrace
+ assert(movedUI==zeroUI,'Sprite corrections changed native UI/effect layer calls')
+ assert(#before==#after and #before>=2,'Missing sprite transformation observations')
+ for i,a in ipairs(before)do
+  local b=after[i];assert(a.sprite==b.sprite)
+  local player=a.sprite==battle.player.sprite
+  local dx,dy=player and 2 or -4,player and -3 or 1
+  assert(math.abs(b.x-a.x-dx*7)<.001 and math.abs(b.y-a.y-dy*7)<.001,'Incorrect native sprite correction '..Json.encode({ax=a.x,ay=a.y,bx=b.x,by=b.y,dx=dx,dy=dy}))
+ end
+ assert(exports.applyAdjustments({}));Battle.picImage=nativeImage;Battle.drawBattlerPic=correctedPic
  -- Exercise the logical-canvas path and final full-window replay.
  local function renderLogical(w,h,name,expectScenery)
   G.setCanvas();assert(love.window.setMode(w,h,{resizable=true}))
@@ -139,6 +167,9 @@ function love.load()
   logical:release();return result
  end
  renderLogical(1920,1080,'standalone-native-logical-1920x1080.png')
+ assert(exports.applyAdjustments({global={player={pokemon_x=2/160,pokemon_y=-3/144},opponent={pokemon_x=-4/160,pokemon_y=1/144}}}))
+ renderLogical(1920,1080,'standalone-offset-adjusted-logical.png')
+ assert(exports.applyAdjustments({}))
  renderLogical(5120,1440,'standalone-native-logical-5120x1440.png')
  renderLogical(900,1600,'standalone-native-logical-900x1600.png')
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
@@ -158,9 +189,11 @@ function love.load()
  assert(G.rectangle==rectangle and rawget(battle,'_hdSceneryPaper')==nil)
 
  for name,method in pairs(methods)do Battle[name]=method end
- write('standalone-runtime-probe.txt','PASS official v0.3.88 Loader/Sandbox, original native Red battle renderer; scenery-only provider without Menu Customizer or another scenery consumer; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. All 224 inspected Red map signatures classified; unknown-map and disabled native fallbacks verified; native-error paper override restored. Fixture only; gameplay traversal remains untested.\n')
+ write('standalone-runtime-probe.txt','PASS official v'..runtimeVersion..' Loader/Sandbox, original native Red battle renderer; scenery-only provider without Menu Customizer or another scenery consumer; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. All 224 inspected Red map signatures classified; unknown-map and disabled native fallbacks verified; native-error paper override restored. Nonzero player/opponent corrections checked at native integer scale with unchanged HUD/text/effect layer traces and reset. Fixture only; gameplay traversal remains untested.\n')
  end,debug.traceback)
  love.graphics.setCanvas()
  if not ok then write('standalone-runtime-error.txt',err)end
  love.event.quit(ok and 0 or 1)
 end
+
+

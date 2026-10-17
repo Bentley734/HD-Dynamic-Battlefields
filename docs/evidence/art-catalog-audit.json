@@ -1,8 +1,9 @@
 {
   "scope": "Catalog decode/metadata integrity only; not art or release approval",
-  "registered_compositions": 75,
-  "prepared_periods": 141,
-  "decoded_files": 168,
+  "registered_compositions": 904,
+  "prepared_periods": 1279,
+  "decoded_files": 1331,
+  "failures": [],
   "coverage": {
     "grassland": {
       "16:9": [
@@ -21,22 +22,34 @@
         "grassland-03-9x16"
       ],
       "4:3": [
-        "grassland-02-4x3"
+        "grassland-02-4x3",
+        "grassland-01-4x3",
+        "grassland-03-4x3"
       ],
       "16:10": [
-        "grassland-02-16x10"
+        "grassland-02-16x10",
+        "grassland-01-16x10",
+        "grassland-03-16x10"
       ],
       "3:2": [
-        "grassland-02-3x2"
+        "grassland-02-3x2",
+        "grassland-01-3x2",
+        "grassland-03-3x2"
       ],
       "21:9": [
-        "grassland-02-21x9"
+        "grassland-02-21x9",
+        "grassland-01-21x9",
+        "grassland-03-21x9"
       ],
       "9:19.5": [
-        "grassland-02-9x19_5"
+        "grassland-02-9x19_5",
+        "grassland-01-9x19_5",
+        "grassland-03-9x19_5"
       ],
       "9:20": [
-        "grassland-02-9x20"
+        "grassland-02-9x20",
+        "grassland-01-9x20",
+        "grassland-03-9x20"
       ]
     },
     "forest": {
@@ -47,29 +60,43 @@
       ],
       "32:9": [
         "forest-01-32x9",
-        "forest-02-32x9"
+        "forest-02-32x9",
+        "forest-03-32x9"
       ],
       "9:16": [
         "forest-01-9x16",
-        "forest-02-9x16"
+        "forest-02-9x16",
+        "forest-03-9x16"
       ],
       "4:3": [
-        "forest-02-4x3"
+        "forest-02-4x3",
+        "forest-01-4x3",
+        "forest-03-4x3"
       ],
       "16:10": [
-        "forest-02-16x10"
+        "forest-02-16x10",
+        "forest-01-16x10",
+        "forest-03-16x10"
       ],
       "3:2": [
-        "forest-02-3x2"
+        "forest-02-3x2",
+        "forest-01-3x2",
+        "forest-03-3x2"
       ],
       "21:9": [
-        "forest-02-21x9"
+        "forest-02-21x9",
+        "forest-01-21x9",
+        "forest-03-21x9"
       ],
       "9:19.5": [
-        "forest-02-9x19_5"
+        "forest-02-9x19_5",
+        "forest-01-9x19_5",
+        "forest-03-9x19_5"
       ],
       "9:20": [
-        "forest-02-9x20"
+        "forest-02-9x20",
+        "forest-01-9x20",
+        "forest-03-9x20"
       ]
     },
     "cave": {
@@ -87,6 +114,36 @@
         "cave-01-9x16",
         "cave-02-9x16",
         "cave-03-9x16"
+      ],
+      "4:3": [
+        "cave-01-4x3",
+        "cave-02-4x3",
+        "cave-03-4x3"
+      ],
+      "16:10": [
+        "cave-01-16x10",
+        "cave-02-16x10",
+        "cave-03-16x10"
+      ],
+      "3:2": [
+        "cave-01-3x2",
+        "cave-02-3x2",
+        "cave-03-3x2"
+      ],
+      "21:9": [
+        "cave-01-21x9",
+        "cave-02-21x9",
+        "cave-03-21x9"
+      ],
+      "9:19.5": [
+        "cave-01-9x19_5",
+        "cave-02-9x19_5",
+        "cave-03-9x19_5"
+      ],
+      "9:20": [
+        "cave-01-9x20",
+        "cave-02-9x20",
+        "cave-03-9x20"
       ]
     },
     "beach": {
@@ -96,10 +153,44 @@
         "beach-03-16x9"
       ],
       "32:9": [
-        "beach-01-32x9"
+        "beach-01-32x9",
+        "beach-02-32x9",
+        "beach-03-32x9"
       ],
       "9:16": [
-        "beach-01-9x16"
+        "beach-01-9x16",
+        "beach-02-9x16",
+        "beach-03-9x16"
+      ],
+      "4:3": [
+        "beach-01-4x3",
+        "beach-02-4x3",
+        "beach-03-4x3"
+      ],
+      "16:10": [
+        "beach-01-16x10",
+        "beach-02-16x10",
+        "beach-03-16x10"
+      ],
+      "3:2": [
+        "beach-01-3x2",
+        "beach-02-3x2",
+        "beach-03-3x2"
+      ],
+      "21:9": [
+        "beach-01-21x9",
+        "beach-02-21x9",
+        "beach-03-21x9"
+      ],
+      "9:19.5": [
+        "beach-01-9x19_5",
+        "beach-02-9x19_5",
+        "beach-03-9x19_5"
+      ],
+      "9:20": [
+        "beach-01-9x20",
+        "beach-02-9x20",
+        "beach-03-9x20"
       ]
     },
     "mountain": {
@@ -109,28 +200,44 @@
         "mountain-03-16x9"
       ],
       "32:9": [
-        "mountain-01-32x9"
+        "mountain-01-32x9",
+        "mountain-02-32x9",
+        "mountain-03-32x9"
       ],
       "9:16": [
-        "mountain-01-9x16"
+        "mountain-01-9x16",
+        "mountain-02-9x16",
+        "mountain-03-9x16"
       ],
       "4:3": [
-        "mountain-01-4x3"
+        "mountain-01-4x3",
+        "mountain-02-4x3",
+        "mountain-03-4x3"
       ],
       "16:10": [
-        "mountain-01-16x10"
+        "mountain-01-16x10",
+        "mountain-02-16x10",
+        "mountain-03-16x10"
       ],
       "3:2": [
-        "mountain-01-3x2"
+        "mountain-01-3x2",
+        "mountain-02-3x2",
+        "mountain-03-3x2"
       ],
       "21:9": [
-        "mountain-01-21x9"
+        "mountain-01-21x9",
+        "mountain-02-21x9",
+        "mountain-03-21x9"
       ],
       "9:19.5": [
-        "mountain-01-9x19_5"
+        "mountain-01-9x19_5",
+        "mountain-02-9x19_5",
+        "mountain-03-9x19_5"
       ],
       "9:20": [
-        "mountain-01-9x20"
+        "mountain-01-9x20",
+        "mountain-02-9x20",
+        "mountain-03-9x20"
       ]
     },
     "rocky_terrain": {
@@ -140,28 +247,44 @@
         "rocky_terrain-03-16x9"
       ],
       "32:9": [
-        "rocky_terrain-01-32x9"
+        "rocky_terrain-01-32x9",
+        "rocky_terrain-02-32x9",
+        "rocky_terrain-03-32x9"
       ],
       "9:16": [
-        "rocky_terrain-01-9x16"
+        "rocky_terrain-01-9x16",
+        "rocky_terrain-02-9x16",
+        "rocky_terrain-03-9x16"
       ],
       "4:3": [
-        "rocky_terrain-01-4x3"
+        "rocky_terrain-01-4x3",
+        "rocky_terrain-02-4x3",
+        "rocky_terrain-03-4x3"
       ],
       "16:10": [
-        "rocky_terrain-01-16x10"
+        "rocky_terrain-01-16x10",
+        "rocky_terrain-02-16x10",
+        "rocky_terrain-03-16x10"
       ],
       "3:2": [
-        "rocky_terrain-01-3x2"
+        "rocky_terrain-01-3x2",
+        "rocky_terrain-02-3x2",
+        "rocky_terrain-03-3x2"
       ],
       "21:9": [
-        "rocky_terrain-01-21x9"
+        "rocky_terrain-01-21x9",
+        "rocky_terrain-02-21x9",
+        "rocky_terrain-03-21x9"
       ],
       "9:19.5": [
-        "rocky_terrain-01-9x19_5"
+        "rocky_terrain-01-9x19_5",
+        "rocky_terrain-02-9x19_5",
+        "rocky_terrain-03-9x19_5"
       ],
       "9:20": [
-        "rocky_terrain-01-9x20"
+        "rocky_terrain-01-9x20",
+        "rocky_terrain-02-9x20",
+        "rocky_terrain-03-9x20"
       ]
     },
     "river": {
@@ -171,10 +294,44 @@
         "river-03-16x9"
       ],
       "32:9": [
-        "river-01-32x9"
+        "river-01-32x9",
+        "river-02-32x9",
+        "river-03-32x9"
       ],
       "9:16": [
-        "river-01-9x16"
+        "river-01-9x16",
+        "river-02-9x16",
+        "river-03-9x16"
+      ],
+      "4:3": [
+        "river-01-4x3",
+        "river-02-4x3",
+        "river-03-4x3"
+      ],
+      "16:10": [
+        "river-01-16x10",
+        "river-02-16x10",
+        "river-03-16x10"
+      ],
+      "3:2": [
+        "river-01-3x2",
+        "river-02-3x2",
+        "river-03-3x2"
+      ],
+      "21:9": [
+        "river-01-21x9",
+        "river-02-21x9",
+        "river-03-21x9"
+      ],
+      "9:19.5": [
+        "river-01-9x19_5",
+        "river-02-9x19_5",
+        "river-03-9x19_5"
+      ],
+      "9:20": [
+        "river-01-9x20",
+        "river-02-9x20",
+        "river-03-9x20"
       ]
     },
     "ocean": {
@@ -182,6 +339,46 @@
         "ocean-01-16x9",
         "ocean-02-16x9",
         "ocean-03-16x9"
+      ],
+      "4:3": [
+        "ocean-01-4x3",
+        "ocean-02-4x3",
+        "ocean-03-4x3"
+      ],
+      "16:10": [
+        "ocean-01-16x10",
+        "ocean-02-16x10",
+        "ocean-03-16x10"
+      ],
+      "3:2": [
+        "ocean-01-3x2",
+        "ocean-02-3x2",
+        "ocean-03-3x2"
+      ],
+      "21:9": [
+        "ocean-01-21x9",
+        "ocean-02-21x9",
+        "ocean-03-21x9"
+      ],
+      "9:16": [
+        "ocean-01-9x16",
+        "ocean-02-9x16",
+        "ocean-03-9x16"
+      ],
+      "9:20": [
+        "ocean-01-9x20",
+        "ocean-02-9x20",
+        "ocean-03-9x20"
+      ],
+      "9:19.5": [
+        "ocean-01-9x19_5",
+        "ocean-02-9x19_5",
+        "ocean-03-9x19_5"
+      ],
+      "32:9": [
+        "ocean-01-32x9",
+        "ocean-02-32x9",
+        "ocean-03-32x9"
       ]
     },
     "pond": {
@@ -189,6 +386,1595 @@
         "pond-01-16x9",
         "pond-02-16x9",
         "pond-03-16x9"
+      ],
+      "4:3": [
+        "pond-01-4x3",
+        "pond-02-4x3",
+        "pond-03-4x3"
+      ],
+      "16:10": [
+        "pond-01-16x10",
+        "pond-02-16x10",
+        "pond-03-16x10"
+      ],
+      "3:2": [
+        "pond-01-3x2",
+        "pond-02-3x2",
+        "pond-03-3x2"
+      ],
+      "21:9": [
+        "pond-01-21x9",
+        "pond-02-21x9",
+        "pond-03-21x9"
+      ],
+      "9:16": [
+        "pond-01-9x16",
+        "pond-02-9x16",
+        "pond-03-9x16"
+      ],
+      "9:19.5": [
+        "pond-01-9x19_5",
+        "pond-02-9x19_5",
+        "pond-03-9x19_5"
+      ],
+      "9:20": [
+        "pond-01-9x20",
+        "pond-02-9x20",
+        "pond-03-9x20"
+      ],
+      "32:9": [
+        "pond-01-32x9",
+        "pond-02-32x9",
+        "pond-03-32x9"
+      ]
+    },
+    "silph_lift": {
+      "16:9": [
+        "silph_lift-room-1-16x9",
+        "silph_lift-room-2-16x9",
+        "silph_lift-room-3-16x9"
+      ]
+    },
+    "rocket_lift": {
+      "16:9": [
+        "rocket_lift-room-1-16x9",
+        "rocket_lift-room-2-16x9",
+        "rocket_lift-room-3-16x9"
+      ]
+    },
+    "department_training": {
+      "16:9": [
+        "department_training-room-1-16x9",
+        "department_training-room-2-16x9",
+        "department_training-room-3-16x9"
+      ]
+    },
+    "department_gifts": {
+      "16:9": [
+        "department_gifts-room-1-16x9",
+        "department_gifts-room-2-16x9",
+        "department_gifts-room-3-16x9"
+      ]
+    },
+    "department_supplies": {
+      "16:9": [
+        "department_supplies-room-1-16x9",
+        "department_supplies-room-2-16x9",
+        "department_supplies-room-3-16x9"
+      ]
+    },
+    "department_electronics": {
+      "16:9": [
+        "department_electronics-room-1-16x9",
+        "department_electronics-room-2-16x9",
+        "department_electronics-room-3-16x9"
+      ]
+    },
+    "department_lobby": {
+      "16:9": [
+        "department_lobby-room-1-16x9",
+        "department_lobby-room-2-16x9",
+        "department_lobby-room-3-16x9"
+      ]
+    },
+    "elevator": {
+      "16:9": [
+        "elevator-room-1-16x9",
+        "elevator-room-2-16x9",
+        "elevator-room-3-16x9"
+      ]
+    },
+    "forest_gate": {
+      "16:9": [
+        "forest_gate-room-1-16x9",
+        "forest_gate-room-2-16x9",
+        "forest_gate-room-3-16x9"
+      ]
+    },
+    "league_lobby": {
+      "16:9": [
+        "league_lobby-room-1-16x9",
+        "league_lobby-room-2-16x9",
+        "league_lobby-room-3-16x9"
+      ]
+    },
+    "safari_lodge": {
+      "16:9": [
+        "safari_lodge-room-1-16x9",
+        "safari_lodge-room-2-16x9",
+        "safari_lodge-room-3-16x9"
+      ]
+    },
+    "fan_club": {
+      "16:9": [
+        "fan_club-room-1-16x9",
+        "fan_club-room-2-16x9",
+        "fan_club-room-3-16x9"
+      ]
+    },
+    "meeting_room": {
+      "16:9": [
+        "meeting_room-room-1-16x9",
+        "meeting_room-room-2-16x9",
+        "meeting_room-room-3-16x9"
+      ]
+    },
+    "bills_cottage": {
+      "16:9": [
+        "bills_cottage-room-1-16x9",
+        "bills_cottage-room-2-16x9",
+        "bills_cottage-room-3-16x9"
+      ]
+    },
+    "bike_shop": {
+      "16:9": [
+        "bike_shop-room-1-16x9",
+        "bike_shop-room-2-16x9",
+        "bike_shop-room-3-16x9"
+      ]
+    },
+    "hall_of_fame": {
+      "16:9": [
+        "hall_of_fame-room-1-16x9",
+        "hall_of_fame-room-2-16x9",
+        "hall_of_fame-room-3-16x9"
+      ]
+    },
+    "link_room": {
+      "16:9": [
+        "link_room-room-1-16x9",
+        "link_room-room-2-16x9",
+        "link_room-room-3-16x9"
+      ]
+    },
+    "arena": {
+      "16:9": [
+        "arena-room-1-16x9",
+        "arena-room-2-16x9",
+        "arena-room-3-16x9"
+      ]
+    },
+    "museum_space": {
+      "16:9": [
+        "museum_space-room-1-16x9",
+        "museum_space-room-2-16x9",
+        "museum_space-room-3-16x9"
+      ]
+    },
+    "museum": {
+      "16:9": [
+        "museum-room-1-16x9",
+        "museum-room-2-16x9",
+        "museum-room-3-16x9"
+      ]
+    },
+    "arcade": {
+      "16:9": [
+        "arcade-room-1-16x9",
+        "arcade-room-2-16x9",
+        "arcade-room-3-16x9"
+      ]
+    },
+    "prize_room": {
+      "16:9": [
+        "prize_room-room-1-16x9",
+        "prize_room-room-2-16x9",
+        "prize_room-room-3-16x9"
+      ]
+    },
+    "hotel": {
+      "16:9": [
+        "hotel-room-1-16x9",
+        "hotel-room-2-16x9",
+        "hotel-room-3-16x9"
+      ]
+    },
+    "restaurant": {
+      "16:9": [
+        "restaurant-room-1-16x9",
+        "restaurant-room-2-16x9",
+        "restaurant-room-3-16x9"
+      ]
+    },
+    "gatehouse": {
+      "16:9": [
+        "gatehouse-room-1-16x9",
+        "gatehouse-room-2-16x9",
+        "gatehouse-room-3-16x9"
+      ]
+    },
+    "underground_tunnel": {
+      "16:9": [
+        "underground_tunnel-room-1-16x9",
+        "underground_tunnel-room-2-16x9",
+        "underground_tunnel-room-3-16x9"
+      ]
+    },
+    "pokemon_center": {
+      "16:9": [
+        "pokemon_center-room-1-16x9",
+        "pokemon_center-room-2-16x9",
+        "pokemon_center-room-3-16x9"
+      ]
+    },
+    "shop": {
+      "16:9": [
+        "shop-room-1-16x9",
+        "shop-room-2-16x9",
+        "shop-room-3-16x9"
+      ]
+    },
+    "house": {
+      "16:9": [
+        "house-room-1-16x9",
+        "house-room-2-16x9",
+        "house-room-3-16x9",
+        "house-room-4-16x9",
+        "house-room-5-16x9",
+        "house-room-6-16x9"
+      ],
+      "4:3": [
+        "house-01-4x3"
+      ],
+      "16:10": [
+        "house-01-16x10"
+      ],
+      "3:2": [
+        "house-01-3x2"
+      ],
+      "21:9": [
+        "house-01-21x9"
+      ],
+      "32:9": [
+        "house-01-32x9"
+      ],
+      "9:16": [
+        "house-01-9x16"
+      ],
+      "9:19.5": [
+        "house-01-9x19_5"
+      ],
+      "9:20": [
+        "house-01-9x20"
+      ]
+    },
+    "laboratory": {
+      "16:9": [
+        "laboratory-room-1-16x9",
+        "laboratory-room-2-16x9",
+        "laboratory-room-3-16x9"
+      ],
+      "4:3": [
+        "laboratory-01-4x3"
+      ],
+      "16:10": [
+        "laboratory-01-16x10"
+      ],
+      "3:2": [
+        "laboratory-01-3x2"
+      ],
+      "21:9": [
+        "laboratory-01-21x9"
+      ],
+      "32:9": [
+        "laboratory-01-32x9"
+      ],
+      "9:16": [
+        "laboratory-01-9x16"
+      ],
+      "9:19.5": [
+        "laboratory-01-9x19_5"
+      ],
+      "9:20": [
+        "laboratory-01-9x20"
+      ]
+    },
+    "power_plant": {
+      "16:9": [
+        "power_plant-room-1-16x9",
+        "power_plant-room-2-16x9",
+        "power_plant-room-3-16x9"
+      ],
+      "4:3": [
+        "power_plant-01-4x3"
+      ],
+      "16:10": [
+        "power_plant-01-16x10"
+      ],
+      "3:2": [
+        "power_plant-01-3x2"
+      ],
+      "21:9": [
+        "power_plant-01-21x9"
+      ],
+      "32:9": [
+        "power_plant-01-32x9"
+      ],
+      "9:16": [
+        "power_plant-01-9x16"
+      ],
+      "9:19.5": [
+        "power_plant-01-9x19_5"
+      ],
+      "9:20": [
+        "power_plant-01-9x20"
+      ]
+    },
+    "ship_interior": {
+      "16:9": [
+        "ship_interior-room-1-16x9",
+        "ship_interior-room-2-16x9",
+        "ship_interior-room-3-16x9"
+      ]
+    },
+    "ship_kitchen": {
+      "16:9": [
+        "ship_kitchen-room-1-16x9",
+        "ship_kitchen-room-2-16x9",
+        "ship_kitchen-room-3-16x9"
+      ]
+    },
+    "ship_captain": {
+      "16:9": [
+        "ship_captain-room-1-16x9",
+        "ship_captain-room-2-16x9",
+        "ship_captain-room-3-16x9"
+      ]
+    },
+    "haunted_tower": {
+      "16:9": [
+        "haunted_tower-room-1-16x9",
+        "haunted_tower-room-2-16x9",
+        "haunted_tower-room-3-16x9"
+      ],
+      "4:3": [
+        "haunted_tower-01-4x3"
+      ],
+      "16:10": [
+        "haunted_tower-01-16x10"
+      ],
+      "3:2": [
+        "haunted_tower-01-3x2"
+      ],
+      "21:9": [
+        "haunted_tower-01-21x9"
+      ],
+      "32:9": [
+        "haunted_tower-01-32x9"
+      ],
+      "9:16": [
+        "haunted_tower-01-9x16"
+      ],
+      "9:19.5": [
+        "haunted_tower-01-9x19_5"
+      ],
+      "9:20": [
+        "haunted_tower-01-9x20"
+      ]
+    },
+    "abandoned_mansion": {
+      "16:9": [
+        "abandoned_mansion-room-1-16x9",
+        "abandoned_mansion-room-2-16x9",
+        "abandoned_mansion-room-3-16x9"
+      ],
+      "4:3": [
+        "abandoned_mansion-01-4x3",
+        "abandoned_mansion-02-4x3",
+        "abandoned_mansion-03-4x3"
+      ],
+      "16:10": [
+        "abandoned_mansion-01-16x10",
+        "abandoned_mansion-02-16x10",
+        "abandoned_mansion-03-16x10"
+      ],
+      "3:2": [
+        "abandoned_mansion-01-3x2",
+        "abandoned_mansion-02-3x2",
+        "abandoned_mansion-03-3x2"
+      ],
+      "21:9": [
+        "abandoned_mansion-01-21x9",
+        "abandoned_mansion-02-21x9",
+        "abandoned_mansion-03-21x9"
+      ],
+      "32:9": [
+        "abandoned_mansion-01-32x9",
+        "abandoned_mansion-02-32x9",
+        "abandoned_mansion-03-32x9"
+      ],
+      "9:16": [
+        "abandoned_mansion-01-9x16",
+        "abandoned_mansion-02-9x16",
+        "abandoned_mansion-03-9x16"
+      ],
+      "9:19.5": [
+        "abandoned_mansion-01-9x19_5",
+        "abandoned_mansion-02-9x19_5",
+        "abandoned_mansion-03-9x19_5"
+      ],
+      "9:20": [
+        "abandoned_mansion-01-9x20",
+        "abandoned_mansion-02-9x20",
+        "abandoned_mansion-03-9x20"
+      ]
+    },
+    "gym_rock": {
+      "16:9": [
+        "gym_rock-room-1-16x9",
+        "gym_rock-room-2-16x9",
+        "gym_rock-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_rock-01-4x3"
+      ],
+      "16:10": [
+        "gym_rock-01-16x10"
+      ],
+      "3:2": [
+        "gym_rock-01-3x2"
+      ],
+      "21:9": [
+        "gym_rock-01-21x9"
+      ],
+      "32:9": [
+        "gym_rock-01-32x9"
+      ],
+      "9:16": [
+        "gym_rock-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_rock-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_rock-01-9x20"
+      ]
+    },
+    "gym_grass": {
+      "16:9": [
+        "gym_grass-room-1-16x9",
+        "gym_grass-room-2-16x9",
+        "gym_grass-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_grass-01-4x3"
+      ],
+      "16:10": [
+        "gym_grass-01-16x10"
+      ],
+      "3:2": [
+        "gym_grass-01-3x2"
+      ],
+      "21:9": [
+        "gym_grass-01-21x9"
+      ],
+      "32:9": [
+        "gym_grass-01-32x9"
+      ],
+      "9:16": [
+        "gym_grass-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_grass-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_grass-01-9x20"
+      ]
+    },
+    "gym_water": {
+      "16:9": [
+        "gym_water-room-1-16x9",
+        "gym_water-room-2-16x9",
+        "gym_water-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_water-01-4x3"
+      ],
+      "16:10": [
+        "gym_water-01-16x10"
+      ],
+      "3:2": [
+        "gym_water-01-3x2"
+      ],
+      "21:9": [
+        "gym_water-01-21x9"
+      ],
+      "32:9": [
+        "gym_water-01-32x9"
+      ],
+      "9:16": [
+        "gym_water-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_water-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_water-01-9x20"
+      ]
+    },
+    "gym_electric": {
+      "16:9": [
+        "gym_electric-room-1-16x9",
+        "gym_electric-room-2-16x9",
+        "gym_electric-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_electric-01-4x3"
+      ],
+      "16:10": [
+        "gym_electric-01-16x10"
+      ],
+      "3:2": [
+        "gym_electric-01-3x2"
+      ],
+      "21:9": [
+        "gym_electric-01-21x9"
+      ],
+      "32:9": [
+        "gym_electric-01-32x9"
+      ],
+      "9:16": [
+        "gym_electric-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_electric-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_electric-01-9x20"
+      ]
+    },
+    "gym_fire": {
+      "16:9": [
+        "gym_fire-room-1-16x9",
+        "gym_fire-room-2-16x9",
+        "gym_fire-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_fire-01-4x3"
+      ],
+      "16:10": [
+        "gym_fire-01-16x10"
+      ],
+      "3:2": [
+        "gym_fire-01-3x2"
+      ],
+      "21:9": [
+        "gym_fire-01-21x9"
+      ],
+      "32:9": [
+        "gym_fire-01-32x9"
+      ],
+      "9:16": [
+        "gym_fire-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_fire-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_fire-01-9x20"
+      ]
+    },
+    "gym_psychic": {
+      "16:9": [
+        "gym_psychic-room-1-16x9",
+        "gym_psychic-room-2-16x9",
+        "gym_psychic-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_psychic-01-4x3"
+      ],
+      "16:10": [
+        "gym_psychic-01-16x10"
+      ],
+      "3:2": [
+        "gym_psychic-01-3x2"
+      ],
+      "21:9": [
+        "gym_psychic-01-21x9"
+      ],
+      "32:9": [
+        "gym_psychic-01-32x9"
+      ],
+      "9:16": [
+        "gym_psychic-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_psychic-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_psychic-01-9x20"
+      ]
+    },
+    "gym_poison": {
+      "16:9": [
+        "gym_poison-room-1-16x9",
+        "gym_poison-room-2-16x9",
+        "gym_poison-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_poison-01-4x3"
+      ],
+      "16:10": [
+        "gym_poison-01-16x10"
+      ],
+      "3:2": [
+        "gym_poison-01-3x2"
+      ],
+      "21:9": [
+        "gym_poison-01-21x9"
+      ],
+      "32:9": [
+        "gym_poison-01-32x9"
+      ],
+      "9:16": [
+        "gym_poison-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_poison-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_poison-01-9x20"
+      ]
+    },
+    "gym_ground": {
+      "16:9": [
+        "gym_ground-room-1-16x9",
+        "gym_ground-room-2-16x9",
+        "gym_ground-room-3-16x9"
+      ],
+      "4:3": [
+        "gym_ground-01-4x3"
+      ],
+      "16:10": [
+        "gym_ground-01-16x10"
+      ],
+      "3:2": [
+        "gym_ground-01-3x2"
+      ],
+      "21:9": [
+        "gym_ground-01-21x9"
+      ],
+      "32:9": [
+        "gym_ground-01-32x9"
+      ],
+      "9:16": [
+        "gym_ground-01-9x16"
+      ],
+      "9:19.5": [
+        "gym_ground-01-9x19_5"
+      ],
+      "9:20": [
+        "gym_ground-01-9x20"
+      ]
+    },
+    "dojo": {
+      "16:9": [
+        "dojo-room-1-16x9",
+        "dojo-room-2-16x9",
+        "dojo-room-3-16x9"
+      ],
+      "4:3": [
+        "dojo-01-4x3"
+      ],
+      "16:10": [
+        "dojo-01-16x10"
+      ],
+      "3:2": [
+        "dojo-01-3x2"
+      ],
+      "21:9": [
+        "dojo-01-21x9"
+      ],
+      "32:9": [
+        "dojo-01-32x9"
+      ],
+      "9:16": [
+        "dojo-01-9x16"
+      ],
+      "9:19.5": [
+        "dojo-01-9x19_5"
+      ],
+      "9:20": [
+        "dojo-01-9x20"
+      ]
+    },
+    "elite_four_ice": {
+      "16:9": [
+        "elite_four_ice-room-1-16x9",
+        "elite_four_ice-room-2-16x9",
+        "elite_four_ice-room-3-16x9"
+      ],
+      "4:3": [
+        "elite_four_ice-01-4x3"
+      ],
+      "16:10": [
+        "elite_four_ice-01-16x10"
+      ],
+      "3:2": [
+        "elite_four_ice-01-3x2"
+      ],
+      "21:9": [
+        "elite_four_ice-01-21x9"
+      ],
+      "32:9": [
+        "elite_four_ice-01-32x9"
+      ],
+      "9:16": [
+        "elite_four_ice-01-9x16"
+      ],
+      "9:19.5": [
+        "elite_four_ice-01-9x19_5"
+      ],
+      "9:20": [
+        "elite_four_ice-01-9x20"
+      ]
+    },
+    "elite_four_rock": {
+      "16:9": [
+        "elite_four_rock-room-1-16x9",
+        "elite_four_rock-room-2-16x9",
+        "elite_four_rock-room-3-16x9"
+      ],
+      "4:3": [
+        "elite_four_rock-01-4x3"
+      ],
+      "16:10": [
+        "elite_four_rock-01-16x10"
+      ],
+      "3:2": [
+        "elite_four_rock-01-3x2"
+      ],
+      "21:9": [
+        "elite_four_rock-01-21x9"
+      ],
+      "32:9": [
+        "elite_four_rock-01-32x9"
+      ],
+      "9:16": [
+        "elite_four_rock-01-9x16"
+      ],
+      "9:19.5": [
+        "elite_four_rock-01-9x19_5"
+      ],
+      "9:20": [
+        "elite_four_rock-01-9x20"
+      ]
+    },
+    "elite_four_ghost": {
+      "16:9": [
+        "elite_four_ghost-room-1-16x9",
+        "elite_four_ghost-room-2-16x9",
+        "elite_four_ghost-room-3-16x9"
+      ],
+      "4:3": [
+        "elite_four_ghost-01-4x3"
+      ],
+      "16:10": [
+        "elite_four_ghost-01-16x10"
+      ],
+      "3:2": [
+        "elite_four_ghost-01-3x2"
+      ],
+      "21:9": [
+        "elite_four_ghost-01-21x9"
+      ],
+      "32:9": [
+        "elite_four_ghost-01-32x9"
+      ],
+      "9:16": [
+        "elite_four_ghost-01-9x16"
+      ],
+      "9:19.5": [
+        "elite_four_ghost-01-9x19_5"
+      ],
+      "9:20": [
+        "elite_four_ghost-01-9x20"
+      ]
+    },
+    "elite_four_dragon": {
+      "16:9": [
+        "elite_four_dragon-room-1-16x9",
+        "elite_four_dragon-room-2-16x9",
+        "elite_four_dragon-room-3-16x9"
+      ],
+      "4:3": [
+        "elite_four_dragon-01-4x3"
+      ],
+      "16:10": [
+        "elite_four_dragon-01-16x10"
+      ],
+      "3:2": [
+        "elite_four_dragon-01-3x2"
+      ],
+      "21:9": [
+        "elite_four_dragon-01-21x9"
+      ],
+      "32:9": [
+        "elite_four_dragon-01-32x9"
+      ],
+      "9:16": [
+        "elite_four_dragon-01-9x16"
+      ],
+      "9:19.5": [
+        "elite_four_dragon-01-9x19_5"
+      ],
+      "9:20": [
+        "elite_four_dragon-01-9x20"
+      ]
+    },
+    "champion": {
+      "16:9": [
+        "champion-room-1-16x9",
+        "champion-room-2-16x9",
+        "champion-room-3-16x9"
+      ],
+      "4:3": [
+        "champion-01-4x3",
+        "champion-02-4x3",
+        "champion-03-4x3"
+      ],
+      "16:10": [
+        "champion-01-16x10",
+        "champion-02-16x10",
+        "champion-03-16x10"
+      ],
+      "3:2": [
+        "champion-01-3x2",
+        "champion-02-3x2",
+        "champion-03-3x2"
+      ],
+      "21:9": [
+        "champion-01-21x9",
+        "champion-02-21x9",
+        "champion-03-21x9"
+      ],
+      "32:9": [
+        "champion-01-32x9",
+        "champion-02-32x9",
+        "champion-03-32x9"
+      ],
+      "9:16": [
+        "champion-01-9x16",
+        "champion-02-9x16",
+        "champion-03-9x16"
+      ],
+      "9:19.5": [
+        "champion-01-9x19_5",
+        "champion-02-9x19_5",
+        "champion-03-9x19_5"
+      ],
+      "9:20": [
+        "champion-01-9x20",
+        "champion-02-9x20",
+        "champion-03-9x20"
+      ]
+    },
+    "corporate_interior": {
+      "16:9": [
+        "corporate_interior-room-1-16x9",
+        "corporate_interior-room-2-16x9",
+        "corporate_interior-room-3-16x9"
+      ],
+      "4:3": [
+        "corporate_interior-01-4x3"
+      ],
+      "16:10": [
+        "corporate_interior-01-16x10"
+      ],
+      "3:2": [
+        "corporate_interior-01-3x2"
+      ],
+      "21:9": [
+        "corporate_interior-01-21x9"
+      ],
+      "32:9": [
+        "corporate_interior-01-32x9"
+      ],
+      "9:16": [
+        "corporate_interior-01-9x16"
+      ],
+      "9:19.5": [
+        "corporate_interior-01-9x19_5"
+      ],
+      "9:20": [
+        "corporate_interior-01-9x20"
+      ]
+    },
+    "rocket_hideout": {
+      "16:9": [
+        "rocket_hideout-room-1-16x9",
+        "rocket_hideout-room-2-16x9",
+        "rocket_hideout-room-3-16x9"
+      ],
+      "4:3": [
+        "rocket_hideout-01-4x3"
+      ],
+      "16:10": [
+        "rocket_hideout-01-16x10"
+      ],
+      "3:2": [
+        "rocket_hideout-01-3x2"
+      ],
+      "21:9": [
+        "rocket_hideout-01-21x9"
+      ],
+      "32:9": [
+        "rocket_hideout-01-32x9"
+      ],
+      "9:16": [
+        "rocket_hideout-01-9x16"
+      ],
+      "9:19.5": [
+        "rocket_hideout-01-9x19_5"
+      ],
+      "9:20": [
+        "rocket_hideout-01-9x20"
+      ]
+    },
+    "deep_cave": {
+      "16:9": [
+        "deep_cave-room-1-16x9",
+        "deep_cave-room-2-16x9",
+        "deep_cave-room-3-16x9"
+      ],
+      "4:3": [
+        "deep_cave-01-4x3",
+        "deep_cave-02-4x3",
+        "deep_cave-03-4x3"
+      ],
+      "16:10": [
+        "deep_cave-01-16x10",
+        "deep_cave-02-16x10",
+        "deep_cave-03-16x10"
+      ],
+      "3:2": [
+        "deep_cave-01-3x2",
+        "deep_cave-02-3x2",
+        "deep_cave-03-3x2"
+      ],
+      "21:9": [
+        "deep_cave-01-21x9",
+        "deep_cave-02-21x9",
+        "deep_cave-03-21x9"
+      ],
+      "32:9": [
+        "deep_cave-01-32x9",
+        "deep_cave-02-32x9",
+        "deep_cave-03-32x9"
+      ],
+      "9:16": [
+        "deep_cave-01-9x16",
+        "deep_cave-02-9x16",
+        "deep_cave-03-9x16"
+      ],
+      "9:19.5": [
+        "deep_cave-01-9x19_5",
+        "deep_cave-02-9x19_5",
+        "deep_cave-03-9x19_5"
+      ],
+      "9:20": [
+        "deep_cave-01-9x20",
+        "deep_cave-02-9x20",
+        "deep_cave-03-9x20"
+      ]
+    },
+    "seafoam_cave": {
+      "16:9": [
+        "seafoam_cave-room-1-16x9",
+        "seafoam_cave-room-2-16x9",
+        "seafoam_cave-room-3-16x9"
+      ],
+      "4:3": [
+        "seafoam_cave-01-4x3",
+        "seafoam_cave-02-4x3",
+        "seafoam_cave-03-4x3"
+      ],
+      "16:10": [
+        "seafoam_cave-01-16x10",
+        "seafoam_cave-02-16x10",
+        "seafoam_cave-03-16x10"
+      ],
+      "3:2": [
+        "seafoam_cave-01-3x2",
+        "seafoam_cave-02-3x2",
+        "seafoam_cave-03-3x2"
+      ],
+      "21:9": [
+        "seafoam_cave-01-21x9",
+        "seafoam_cave-02-21x9",
+        "seafoam_cave-03-21x9"
+      ],
+      "32:9": [
+        "seafoam_cave-01-32x9",
+        "seafoam_cave-02-32x9",
+        "seafoam_cave-03-32x9"
+      ],
+      "9:16": [
+        "seafoam_cave-01-9x16",
+        "seafoam_cave-02-9x16",
+        "seafoam_cave-03-9x16"
+      ],
+      "9:19.5": [
+        "seafoam_cave-01-9x19_5",
+        "seafoam_cave-02-9x19_5",
+        "seafoam_cave-03-9x19_5"
+      ],
+      "9:20": [
+        "seafoam_cave-01-9x20",
+        "seafoam_cave-02-9x20",
+        "seafoam_cave-03-9x20"
+      ]
+    },
+    "cave_water": {
+      "16:9": [
+        "cave_water-room-1-16x9",
+        "cave_water-room-2-16x9",
+        "cave_water-room-3-16x9"
+      ],
+      "4:3": [
+        "cave_water-01-4x3",
+        "cave_water-02-4x3",
+        "cave_water-03-4x3"
+      ],
+      "16:10": [
+        "cave_water-01-16x10",
+        "cave_water-02-16x10",
+        "cave_water-03-16x10"
+      ],
+      "3:2": [
+        "cave_water-01-3x2",
+        "cave_water-02-3x2",
+        "cave_water-03-3x2"
+      ],
+      "21:9": [
+        "cave_water-01-21x9",
+        "cave_water-02-21x9",
+        "cave_water-03-21x9"
+      ],
+      "32:9": [
+        "cave_water-01-32x9",
+        "cave_water-02-32x9",
+        "cave_water-03-32x9"
+      ],
+      "9:16": [
+        "cave_water-01-9x16",
+        "cave_water-02-9x16",
+        "cave_water-03-9x16"
+      ],
+      "9:19.5": [
+        "cave_water-01-9x19_5",
+        "cave_water-02-9x19_5",
+        "cave_water-03-9x19_5"
+      ],
+      "9:20": [
+        "cave_water-01-9x20",
+        "cave_water-02-9x20",
+        "cave_water-03-9x20"
+      ]
+    },
+    "legendary_mewtwo": {
+      "16:9": [
+        "legendary_mewtwo-room-1-16x9",
+        "legendary_mewtwo-room-2-16x9",
+        "legendary_mewtwo-room-3-16x9"
+      ],
+      "4:3": [
+        "legendary_mewtwo-01-4x3"
+      ],
+      "16:10": [
+        "legendary_mewtwo-01-16x10"
+      ],
+      "3:2": [
+        "legendary_mewtwo-01-3x2"
+      ],
+      "21:9": [
+        "legendary_mewtwo-01-21x9"
+      ],
+      "32:9": [
+        "legendary_mewtwo-01-32x9"
+      ],
+      "9:16": [
+        "legendary_mewtwo-01-9x16"
+      ],
+      "9:19.5": [
+        "legendary_mewtwo-01-9x19_5"
+      ],
+      "9:20": [
+        "legendary_mewtwo-01-9x20"
+      ]
+    },
+    "legendary_articuno": {
+      "16:9": [
+        "legendary_articuno-room-1-16x9",
+        "legendary_articuno-room-2-16x9",
+        "legendary_articuno-room-3-16x9"
+      ],
+      "4:3": [
+        "legendary_articuno-01-4x3"
+      ],
+      "16:10": [
+        "legendary_articuno-01-16x10"
+      ],
+      "3:2": [
+        "legendary_articuno-01-3x2"
+      ],
+      "21:9": [
+        "legendary_articuno-01-21x9"
+      ],
+      "32:9": [
+        "legendary_articuno-01-32x9"
+      ],
+      "9:16": [
+        "legendary_articuno-01-9x16"
+      ],
+      "9:19.5": [
+        "legendary_articuno-01-9x19_5"
+      ],
+      "9:20": [
+        "legendary_articuno-01-9x20"
+      ]
+    },
+    "legendary_zapdos": {
+      "16:9": [
+        "legendary_zapdos-room-1-16x9",
+        "legendary_zapdos-room-2-16x9",
+        "legendary_zapdos-room-3-16x9"
+      ],
+      "4:3": [
+        "legendary_zapdos-01-4x3"
+      ],
+      "16:10": [
+        "legendary_zapdos-01-16x10"
+      ],
+      "3:2": [
+        "legendary_zapdos-01-3x2"
+      ],
+      "21:9": [
+        "legendary_zapdos-01-21x9"
+      ],
+      "32:9": [
+        "legendary_zapdos-01-32x9"
+      ],
+      "9:16": [
+        "legendary_zapdos-01-9x16"
+      ],
+      "9:19.5": [
+        "legendary_zapdos-01-9x19_5"
+      ],
+      "9:20": [
+        "legendary_zapdos-01-9x20"
+      ]
+    },
+    "legendary_moltres": {
+      "16:9": [
+        "legendary_moltres-room-1-16x9",
+        "legendary_moltres-room-2-16x9",
+        "legendary_moltres-room-3-16x9"
+      ],
+      "4:3": [
+        "legendary_moltres-01-4x3"
+      ],
+      "16:10": [
+        "legendary_moltres-01-16x10"
+      ],
+      "3:2": [
+        "legendary_moltres-01-3x2"
+      ],
+      "21:9": [
+        "legendary_moltres-01-21x9"
+      ],
+      "32:9": [
+        "legendary_moltres-01-32x9"
+      ],
+      "9:16": [
+        "legendary_moltres-01-9x16"
+      ],
+      "9:19.5": [
+        "legendary_moltres-01-9x19_5"
+      ],
+      "9:20": [
+        "legendary_moltres-01-9x20"
+      ]
+    },
+    "village": {
+      "16:9": [
+        "village-01-16x9",
+        "village-02-16x9",
+        "village-03-16x9"
+      ],
+      "4:3": [
+        "village-01-4x3",
+        "village-02-4x3",
+        "village-03-4x3"
+      ],
+      "16:10": [
+        "village-01-16x10",
+        "village-02-16x10",
+        "village-03-16x10"
+      ],
+      "3:2": [
+        "village-01-3x2",
+        "village-02-3x2",
+        "village-03-3x2"
+      ],
+      "21:9": [
+        "village-01-21x9",
+        "village-02-21x9",
+        "village-03-21x9"
+      ],
+      "32:9": [
+        "village-01-32x9",
+        "village-02-32x9",
+        "village-03-32x9"
+      ],
+      "9:16": [
+        "village-01-9x16",
+        "village-02-9x16",
+        "village-03-9x16"
+      ],
+      "9:19.5": [
+        "village-01-9x19_5",
+        "village-02-9x19_5",
+        "village-03-9x19_5"
+      ],
+      "9:20": [
+        "village-01-9x20",
+        "village-02-9x20",
+        "village-03-9x20"
+      ]
+    },
+    "city": {
+      "16:9": [
+        "city-01-16x9",
+        "city-02-16x9",
+        "city-03-16x9"
+      ],
+      "4:3": [
+        "city-01-4x3",
+        "city-02-4x3",
+        "city-03-4x3"
+      ],
+      "16:10": [
+        "city-01-16x10",
+        "city-02-16x10",
+        "city-03-16x10"
+      ],
+      "3:2": [
+        "city-01-3x2",
+        "city-02-3x2",
+        "city-03-3x2"
+      ],
+      "21:9": [
+        "city-01-21x9",
+        "city-02-21x9",
+        "city-03-21x9"
+      ],
+      "32:9": [
+        "city-01-32x9",
+        "city-02-32x9",
+        "city-03-32x9"
+      ],
+      "9:16": [
+        "city-01-9x16",
+        "city-02-9x16",
+        "city-03-9x16"
+      ],
+      "9:19.5": [
+        "city-01-9x19_5",
+        "city-02-9x19_5",
+        "city-03-9x19_5"
+      ],
+      "9:20": [
+        "city-01-9x20",
+        "city-02-9x20",
+        "city-03-9x20"
+      ]
+    },
+    "safari_woodland": {
+      "16:9": [
+        "safari_woodland-01-16x9",
+        "safari_woodland-02-16x9",
+        "safari_woodland-03-16x9"
+      ],
+      "4:3": [
+        "safari_woodland-01-4x3",
+        "safari_woodland-02-4x3",
+        "safari_woodland-03-4x3"
+      ],
+      "16:10": [
+        "safari_woodland-01-16x10",
+        "safari_woodland-02-16x10",
+        "safari_woodland-03-16x10"
+      ],
+      "3:2": [
+        "safari_woodland-01-3x2",
+        "safari_woodland-02-3x2",
+        "safari_woodland-03-3x2"
+      ],
+      "21:9": [
+        "safari_woodland-01-21x9",
+        "safari_woodland-02-21x9",
+        "safari_woodland-03-21x9"
+      ],
+      "32:9": [
+        "safari_woodland-01-32x9",
+        "safari_woodland-02-32x9",
+        "safari_woodland-03-32x9"
+      ],
+      "9:16": [
+        "safari_woodland-01-9x16",
+        "safari_woodland-02-9x16",
+        "safari_woodland-03-9x16"
+      ],
+      "9:19.5": [
+        "safari_woodland-01-9x19_5",
+        "safari_woodland-02-9x19_5",
+        "safari_woodland-03-9x19_5"
+      ],
+      "9:20": [
+        "safari_woodland-01-9x20",
+        "safari_woodland-02-9x20",
+        "safari_woodland-03-9x20"
+      ]
+    },
+    "coastline": {
+      "16:9": [
+        "coastline-01-16x9",
+        "coastline-02-16x9",
+        "coastline-03-16x9"
+      ],
+      "4:3": [
+        "coastline-01-4x3",
+        "coastline-02-4x3",
+        "coastline-03-4x3"
+      ],
+      "16:10": [
+        "coastline-01-16x10",
+        "coastline-02-16x10",
+        "coastline-03-16x10"
+      ],
+      "3:2": [
+        "coastline-01-3x2",
+        "coastline-02-3x2",
+        "coastline-03-3x2"
+      ],
+      "21:9": [
+        "coastline-01-21x9",
+        "coastline-02-21x9",
+        "coastline-03-21x9"
+      ],
+      "32:9": [
+        "coastline-01-32x9",
+        "coastline-02-32x9",
+        "coastline-03-32x9"
+      ],
+      "9:16": [
+        "coastline-01-9x16",
+        "coastline-02-9x16",
+        "coastline-03-9x16"
+      ],
+      "9:19.5": [
+        "coastline-01-9x19_5",
+        "coastline-02-9x19_5",
+        "coastline-03-9x19_5"
+      ],
+      "9:20": [
+        "coastline-01-9x20",
+        "coastline-02-9x20",
+        "coastline-03-9x20"
+      ]
+    },
+    "mansion_roof": {
+      "16:9": [
+        "mansion_roof-01-16x9",
+        "mansion_roof-02-16x9",
+        "mansion_roof-03-16x9"
+      ]
+    },
+    "department_roof": {
+      "16:9": [
+        "department_roof-01-16x9",
+        "department_roof-02-16x9",
+        "department_roof-03-16x9"
+      ]
+    },
+    "ship_bow": {
+      "16:9": [
+        "ship_bow-01-16x9",
+        "ship_bow-02-16x9",
+        "ship_bow-03-16x9"
+      ],
+      "4:3": [
+        "ship_bow-01-4x3"
+      ],
+      "16:10": [
+        "ship_bow-01-16x10"
+      ],
+      "3:2": [
+        "ship_bow-01-3x2"
+      ],
+      "21:9": [
+        "ship_bow-01-21x9"
+      ],
+      "32:9": [
+        "ship_bow-01-32x9"
+      ],
+      "9:16": [
+        "ship_bow-01-9x16"
+      ],
+      "9:19.5": [
+        "ship_bow-01-9x19_5"
+      ],
+      "9:20": [
+        "ship_bow-01-9x20"
+      ]
+    },
+    "cycling_road": {
+      "16:9": [
+        "cycling_road-01-16x9",
+        "cycling_road-02-16x9",
+        "cycling_road-03-16x9"
+      ],
+      "4:3": [
+        "cycling_road-01-4x3"
+      ],
+      "16:10": [
+        "cycling_road-01-16x10"
+      ],
+      "3:2": [
+        "cycling_road-01-3x2"
+      ],
+      "21:9": [
+        "cycling_road-01-21x9"
+      ],
+      "32:9": [
+        "cycling_road-01-32x9"
+      ],
+      "9:16": [
+        "cycling_road-01-9x16"
+      ],
+      "9:19.5": [
+        "cycling_road-01-9x19_5"
+      ],
+      "9:20": [
+        "cycling_road-01-9x20"
+      ]
+    },
+    "harbor": {
+      "16:9": [
+        "harbor-01-16x9",
+        "harbor-02-16x9",
+        "harbor-03-16x9"
+      ]
+    },
+    "league_exterior": {
+      "16:9": [
+        "league_exterior-01-16x9",
+        "league_exterior-02-16x9",
+        "league_exterior-03-16x9"
+      ]
+    },
+    "league_approach": {
+      "16:9": [
+        "league_approach-01-16x9",
+        "league_approach-02-16x9",
+        "league_approach-03-16x9"
+      ],
+      "4:3": [
+        "league_approach-01-4x3"
+      ],
+      "16:10": [
+        "league_approach-01-16x10"
+      ],
+      "3:2": [
+        "league_approach-01-3x2"
+      ],
+      "21:9": [
+        "league_approach-01-21x9"
+      ],
+      "32:9": [
+        "league_approach-01-32x9"
+      ],
+      "9:16": [
+        "league_approach-01-9x16"
+      ],
+      "9:19.5": [
+        "league_approach-01-9x19_5"
+      ],
+      "9:20": [
+        "league_approach-01-9x20"
+      ]
+    },
+    "island_town": {
+      "16:9": [
+        "island_town-01-16x9",
+        "island_town-02-16x9",
+        "island_town-03-16x9"
+      ]
+    },
+    "harbor_city": {
+      "16:9": [
+        "harbor_city-01-16x9",
+        "harbor_city-02-16x9",
+        "harbor_city-03-16x9"
+      ]
+    },
+    "ship_cabin": {
+      "4:3": [
+        "ship_cabin-01-4x3"
+      ],
+      "16:9": [
+        "ship_cabin-01-16x9"
+      ],
+      "16:10": [
+        "ship_cabin-01-16x10"
+      ],
+      "3:2": [
+        "ship_cabin-01-3x2"
+      ],
+      "21:9": [
+        "ship_cabin-01-21x9"
+      ],
+      "32:9": [
+        "ship_cabin-01-32x9"
+      ],
+      "9:16": [
+        "ship_cabin-01-9x16"
+      ],
+      "9:19.5": [
+        "ship_cabin-01-9x19_5"
+      ],
+      "9:20": [
+        "ship_cabin-01-9x20"
+      ]
+    },
+    "ship_corridor": {
+      "4:3": [
+        "ship_corridor-01-4x3"
+      ],
+      "16:9": [
+        "ship_corridor-01-16x9"
+      ],
+      "16:10": [
+        "ship_corridor-01-16x10"
+      ],
+      "3:2": [
+        "ship_corridor-01-3x2"
+      ],
+      "21:9": [
+        "ship_corridor-01-21x9"
+      ],
+      "32:9": [
+        "ship_corridor-01-32x9"
+      ],
+      "9:16": [
+        "ship_corridor-01-9x16"
+      ],
+      "9:19.5": [
+        "ship_corridor-01-9x19_5"
+      ],
+      "9:20": [
+        "ship_corridor-01-9x20"
       ]
     }
   }

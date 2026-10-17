@@ -37,10 +37,12 @@ return function(mod)
  end
  local function group(id,label,rows)return{id='hd_group_'..id,label=label,group=true,value=function()return'OPEN'end,activate=function(game)open(game,rows)end}end
  local function toggle(key,label)return choice(key,label,{{'OFF',false},{'ON',true}})end
+ local environmentChoices={}
+ for _,item in ipairs(mod.exports.environmentChoices)do environmentChoices[#environmentChoices+1]={item[1]:upper(),item[2]}end
  local backgrounds={toggle('enabled','HD BACKGROUNDS'),choice('selection','VARIATION',{{'RANDOM','random'},{'FIXED','fixed'}}),
   choice('timeMode','TIME OF DAY',{{'AUTOMATIC','auto'},{'SYSTEM CLOCK','system'},{'DAY','day'},{'NIGHT','night'}}),
   choice('weatherMode','WEATHER',{{'AUTOMATIC','auto'},{'CLEAR','clear'},{'RAIN','rain'},{'SNOW','snow'},{'SANDSTORM','sandstorm'},{'FOG','fog'},{'SUNLIGHT','sun'}}),
-  choice('environment','ENVIRONMENT',{{'AUTOMATIC','auto'},{'GRASSLAND','grassland'},{'FOREST','forest'},{'CAVE','cave'},{'BEACH','beach'},{'MOUNTAIN','mountain'},{'ROCKY TERRAIN','rocky_terrain'},{'RIVER','river'},{'OCEAN','ocean'},{'POND','pond'}})}
+  choice('environment','ENVIRONMENT',environmentChoices)}
  local animation={choice('animation','QUALITY',{{'OFF','off'},{'LOW','low'},{'MEDIUM','medium'},{'HIGH','high'}})}
  local status=''
  local function action(id,label,callback)return{id='hd_action_'..id,label=label,value=function()return status end,activate=function(game)
@@ -87,7 +89,9 @@ return function(mod)
   mounds[#mounds+1]=group(side,title,{
    calibrationRow(side,'mound_x','HORIZONTAL OFFSET',0,.005,-.5,.5),
    calibrationRow(side,'mound_y','VERTICAL OFFSET',0,.005,-.5,.5),
-   calibrationRow(side,'mound_scale','MOUND SCALE',1,.05,.1,3)})
+   calibrationRow(side,'mound_scale','MOUND SCALE',1,.05,.1,3),
+   calibrationRow(side,'pokemon_x','POKEMON HORIZONTAL',0,1/160,-.5,.5),
+   calibrationRow(side,'pokemon_y','POKEMON VERTICAL',0,1/144,-.5,.5)})
  end
  mounds[#mounds+1]=action('reset_scope','RESET THIS SCOPE',function()
   local data=mod.exports.getAdjustments()

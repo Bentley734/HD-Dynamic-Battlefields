@@ -66,12 +66,56 @@ return function(mod)
  end
  local diagnostics={stage='development prototype',status='disabled',game='unknown'}
  local loadedSave,lastAssignments,loadedAdjustments,lastLayout
+ local environmentChoices={{'Automatic','auto'}}
+ local environmentLabels={gym_rock='Pewter Gym',gym_water='Cerulean Gym',gym_electric='Vermilion Gym',
+  gym_grass='Celadon Gym',gym_poison='Fuchsia Gym',gym_psychic='Saffron Gym',gym_fire='Cinnabar Gym',gym_ground='Viridian Gym',
+  elite_four_ice='Lorelei',elite_four_rock='Bruno',elite_four_ghost='Agatha',elite_four_dragon='Lance',
+  corporate_interior='Silph Co.',haunted_tower='Pokemon Tower',abandoned_mansion='Pokemon Mansion',
+  deep_cave='Cerulean Cave',seafoam_cave='Seafoam Islands',ship_interior='S.S. Anne lounge (unused)',ship_cabin='S.S. Anne cabins',ship_corridor='S.S. Anne corridor',
+  ship_bow='S.S. Anne foredeck',ship_kitchen='S.S. Anne galley',ship_captain='S.S. Anne captain cabin',
+  pokemon_center='Pokemon Center',shop='Supply shop',
+  gatehouse='Route gate',underground_tunnel='Underground passage',
+  hotel='Celadon hotel',restaurant='Celadon diner',
+  arcade='Celadon Game Corner',prize_room='Game Corner prize counters',
+  museum='Pewter fossil gallery',museum_space='Pewter space gallery',
+  arena='Link Colosseum',link_room='Communication room',hall_of_fame='Hall of Fame',
+  bills_cottage="Bill's cottage",bike_shop='Cerulean Bike Shop',
+  mansion_roof='Celadon Mansion rooftop',
+  department_roof='Celadon store rooftop',
+  silph_lift='Silph Co. lift',
+  rocket_lift='Rocket Hideout lift',
+  department_training='Celadon training supplies',
+  department_gifts='Celadon gifts and stones',
+  department_supplies='Celadon trainer supplies',department_electronics='Celadon TV and games',
+  department_lobby='Celadon store reception',elevator='Celadon store lift',
+  forest_gate='Viridian forest gate',
+  league_lobby='League reception',safari_lodge='Safari rest lodge',
+  fan_club='Vermilion Fan Club',meeting_room='Fuchsia meeting room',
+  league_exterior='Indigo Plateau',league_approach='Route 23 approach',island_town='Cinnabar Island',
+  harbor_city='Vermilion City',harbor='Vermilion Dock',
+  legendary_mewtwo='Mewtwo chamber',legendary_articuno='Articuno refuge',
+  legendary_zapdos='Zapdos generator hall',legendary_moltres='Moltres shelter'}
+ local seenEnvironment={}
+ for _,entry in ipairs(catalog.compositions)do
+  local key=entry.environment
+  if not seenEnvironment[key]then
+   seenEnvironment[key]=true
+   local label=environmentLabels[key]or key:gsub('_',' '):gsub('(%a)([%w]*)',function(first,rest)return first:upper()..rest end)
+   environmentChoices[#environmentChoices+1]={label,key}
+  end
+ end
+ table.sort(environmentChoices,function(a,b)
+  if a[2]=='auto'then return b[2]~='auto'end
+  if b[2]=='auto'then return false end
+  return a[1]<b[1]
+ end)
+ mod.exports.environmentChoices=environmentChoices
  -- Temporary development controls; final grouped OPTIONS screen is a
  -- separate required integration, not replaced by this native mod schema.
  mod.options:define({
   {key='enabled',label='Prototype enabled',type='toggle',default=false},
   {key='selection',label='Variation',type='choice',default='random',choices={{'Random','random'},{'Fixed','fixed'}}},
-  {key='environment',label='Environment',type='choice',default='auto',choices={{'Automatic','auto'},{'Grassland','grassland'},{'Forest','forest'},{'Cave','cave'},{'Beach','beach'},{'Mountain','mountain'},{'Rocky terrain','rocky_terrain'},{'River','river'},{'Ocean','ocean'}}},
+  {key='environment',label='Environment',type='choice',default='auto',choices=environmentChoices},
   {key='timeMode',label='Time of day',type='choice',default='auto',choices={{'Automatic','auto'},{'System time','system'},{'Day','day'},{'Night','night'}}},
   {key='weatherMode',label='Weather',type='choice',default='auto',choices={{'Automatic','auto'},{'Clear','clear'},{'Rain','rain'},{'Snow','snow'},{'Sandstorm','sandstorm'},{'Fog','fog'},{'Sunlight','sun'}}},
   {key='animation',label='Animation quality',type='choice',default='medium',choices={{'Off','off'},{'Low','low'},{'Medium','medium'},{'High','high'}}},
@@ -157,7 +201,9 @@ return function(mod)
   local environment=manual~='auto'and manual or detected and detected.environment
   diagnostics.classificationError=manual=='auto'and classificationError or nil
   diagnostics.waterSource=isFishing(battle)and'fishing'or(detected and detected.water and'surfing'or nil)
-  if battle.safari or battle.demo then environment=nil end
+  -- Safari shares the native battle metatable and scenery insertion path.
+  -- Its trainer, ball counter and command panels remain the consumer's UI.
+  if battle.demo then environment=nil end
   diagnostics.game,diagnostics.map,diagnostics.environment,diagnostics.viewport=Version.get(),map,environment,v
   if game.save~=loadedSave then
    loadedSave=game.save;local saved=mod.storage:read(game,'fixed-assignments')
@@ -209,6 +255,12 @@ return function(mod)
   if not ok then return fallback(drawErr)end
   return true
  end
+ local SpriteOffsets=module('lib/sprite_offsets.lua')
+ function provider.spriteOffset(side)
+  if not provider.enabled()or not lastLayout or diagnostics.status~='active'then return 0,0 end
+  return SpriteOffsets.resolve(mod.exports.getAdjustments(),diagnostics.aspect,diagnostics.metadata,side)
+ end
+ SpriteOffsets.install(Battle,g,provider.spriteOffset)
  module('lib/adapters/gen1_scenery.lua').install(mod,Battle,g,provider)
  module('lib/settings.lua')(mod)
 end

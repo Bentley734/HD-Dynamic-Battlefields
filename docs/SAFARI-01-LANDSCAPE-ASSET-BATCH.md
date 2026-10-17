@@ -1,0 +1,5 @@
+# Safari woodland variation 1 landscape batch
+
+Eight independent original day/night paintings added for 4:3, 16:10, 3:2 and 21:9. Built-in image generation; unchanged outputs art/source/safari_woodland-01-*.png, exact prompts art/prompts/safari_woodland-01-*.txt. Visual review: empty woodland preserve, distant fence, open short grass/earth, no creatures or baked mounds. Day/night are independent paintings.
+
+Registered inherited aspect metadata with uniform source regions and top insets to raise low rear scenery. Existing independent grass day/night mounds retained; UI and native geometry untouched. Source framing is provisional pending native calibration. The remaining eight portrait/superwide paintings are now saved and registered. All nine aspect families have original day/night artwork for variation 1. Visual review found no creatures, baked mounds or foreground obstacles. Portrait night rear boundaries required additional top insets; native calibration remains pending. No tests run during artwork hold.

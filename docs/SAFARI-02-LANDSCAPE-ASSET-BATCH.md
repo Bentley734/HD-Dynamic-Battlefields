@@ -1,0 +1,5 @@
+# Safari woodland variation 2 landscape batch
+
+Eight independent original day/night paintings added for 4:3, 16:10, 3:2 and 21:9 using built-in image generation. Saved unchanged in art/source/safari_woodland-02-*.png; exact prompts in art/prompts/safari_woodland-02-*.txt.
+
+Visual review: empty moss-green meadow, distant oak/alder woodland and small far-left reed pond. No creatures, baked mounds or foreground obstacles. Day/night are separate paintings. Uniform source regions with modest top insets registered; independent grass day/night mounds retained. No renderer or UI changes. Native framing, lighting/material blend and grounding remain untested. Eight more original superwide/portrait day/night paintings are saved and registered. Variation 2 now covers all nine aspect families. Visual review found no beings, baked mounds or obstacles. Uniform source regions and top insets raise the superwide and tall night rear scenery where needed; native calibration remains pending. No tests run during the asset hold.

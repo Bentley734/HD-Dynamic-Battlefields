@@ -1,6 +1,6 @@
 return function(mod,open,index,aspects)
  local api=mod.exports.assetPacks;local store=api.store
- local message='';local aspect='auto';local quality='HD'
+ local message='';local aspect='auto';local quality='HD';local variations='one'
  local function info(id,label,value)return{id='hd_assets_'..id,label=label,value=value}end
  local function action(id,label,fn)return{id='hd_assets_'..id,label=label,value=function()return message end,activate=function(game)
   local ok,err=fn(game);message=ok and'DONE'or tostring(err or'FAILED')
@@ -15,6 +15,7 @@ return function(mod,open,index,aspects)
  local function details(game,pack)
   local rows={info('pack_version','VERSION',function()return pack.version end),
    info('pack_quality','QUALITY',function()return pack.quality end),
+   info('pack_variations','VARIATIONS',function()return pack.variation_profile=='one'and'ONE PER AREA'or'ALL VARIATIONS'end),
    info('pack_bytes','INSTALLED BYTES',function()return tostring(pack.installed_size)end),
    info('pack_health','PACK HEALTH',function()local state=api.library.health[pack.id];return state and(state.valid and'VERIFIED'or state.error)or'NOT INSTALLED'end),
    action('download','DOWNLOAD / RESTORE',function()return store:start(pack)end),
@@ -29,10 +30,10 @@ return function(mod,open,index,aspects)
    if v then wanted=aspects.aspect(v.width,v.height)end
   end
   for _,pack in ipairs(source)do
-   local matches=aspect=='auto';for _,family in ipairs(pack.aspects)do if family==wanted then matches=true end end
-   if installedOnly or matches and pack.quality==quality then
+   local matches=wanted=='auto';for _,family in ipairs(pack.aspects)do if family==wanted then matches=true end end
+   if installedOnly or matches and pack.quality==quality and(pack.variation_profile or'all')==variations then
     local selected=pack
-    rows[#rows+1]={id='hd_assets_pack_'..pack.id,label=pack.id,value=function()
+    rows[#rows+1]={id='hd_assets_pack_'..pack.id,label=pack.label or pack.id,value=function()
      local installed=store:installed(selected.id)
      local health=api.library.health[selected.id]
      if installed and health and not health.valid then return'REPAIR NEEDED'end
@@ -46,7 +47,17 @@ return function(mod,open,index,aspects)
  local aspectValues={'auto'};for _,pair in ipairs(aspects.ratios)do aspectValues[#aspectValues+1]=pair[1]end
  local aspectRow,aspectActivate=choose('aspect','ASPECT FILTER',aspectValues,function()return aspect end,function(v)aspect=v end);aspectRow.activate=aspectActivate
  local qualityRow,qualityActivate=choose('quality','QUALITY FILTER',{'Mobile','HD','Ultra-HD'},function()return quality end,function(v)quality=v end);qualityRow.activate=qualityActivate
- local rows={aspectRow,qualityRow,
+ local variationRow,variationActivate=choose('variations','VARIATIONS',{'one','all'},function()return variations end,function(v)variations=v end);variationRow.activate=variationActivate
+ variationRow.value=function()return variations=='one'and'ONE PER AREA'or'ALL VARIATIONS'end
+ variationRow.activate=function(game)
+  local rows={}
+  for _,pair in ipairs({{'ONE VARIATION PER AREA','one'},{'ALL VARIATIONS','all'}})do
+   local label,value=pair[1],pair[2]
+   rows[#rows+1]={id='hd_assets_variations_'..value,label=label,activate=function(ctx)variations=value;ctx.stack:pop()end}
+  end
+  open(game,rows)
+ end
+ local rows={aspectRow,qualityRow,variationRow,
   info('recommended','DISPLAY RECOMMENDATION',function()local v=mod.exports.diagnostics().viewport;return v and(aspects.aspect(v.width,v.height)..' / '..quality)or'OPEN A BATTLE FIRST'end),
   action('browse','BROWSE AVAILABLE PACKS',function(game)return browse(game,false)end),
   action('installed','INSTALLED PACKS',function(game)return browse(game,true)end),
