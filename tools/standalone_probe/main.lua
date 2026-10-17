@@ -1,14 +1,17 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
 local project=(os.getenv('HDB_PROJECT')or(workspace..'/HD-Dynamic-Battlefields')):gsub('\\','/')
 local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.88'
+local gameVersion=os.getenv('HDB_GAME_VERSION')or'red'
+assert(gameVersion=='red'or gameVersion=='blue'or gameVersion=='yellow','Unsupported fixture game')
 local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
 local output=project..'/docs/evidence'
+if gameVersion~='red'then output=output..'/'..gameVersion end
 local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));f:write(bytes);f:close()end
 function love.load()
  local ok,err=xpcall(function()
  package.path=engine..'/?.lua;'..package.path
  assert(require('src.core.Version').engine==runtimeVersion)
- local cache=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/red/'
+ local cache=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..gameVersion..'/'
  local function hostRead(path)
   local f=io.open(cache..path,'rb');if not f then return end
   local bytes=f:read('*a');f:close();return bytes
@@ -23,7 +26,7 @@ function love.load()
  fs.load=function(p,...)local b=hostRead(p);if b then return loadstring(b,'@'..p)end;return oldLoad(p,...)end
  G.newImage=function(p,...)if type(p)=='string'then local b=hostRead(p);if b then p=fs.newFileData(b,p)end end;return oldImage(p,...)end
  love.image.newImageData=function(p,...)if type(p)=='string'then local b=hostRead(p);if b then p=fs.newFileData(b,p)end end;return oldPixels(p,...)end
- require('src.core.GameVersion').set('red')
+ require('src.core.GameVersion').set(gameVersion)
  local Blob=require('src.import.CacheBlob')
  local function cached(p)return Blob.decode(p,hostRead(p))end
  package.loaded['src.import.CacheFs']={loadActive=function(p)local b=cached(p);if b then return assert(loadstring(b))()end end,
@@ -68,10 +71,10 @@ function love.load()
   return originalImage(path,...)
  end
  local Loader=require('src.mods.Loader')
- local loader=Loader.new{fs=fs,generation=1,version='red',dev=false};loader.game=game
+ local loader=Loader.new{fs=fs,generation=1,version=gameVersion,dev=false};loader.game=game
  loader:load(game.data)
  assert(loader.mods['hd-dynamic-battlefields'].state=='loaded',table.concat(loader.errors,'\n'))
- game.mods=loader;game.save.version='red';game.save.meta={playthroughId='hd-probe'};game.save.player.map='ROUTE_1'
+ game.mods=loader;game.save.version=gameVersion;game.save.meta={playthroughId='hd-probe'};game.save.player.map='ROUTE_1'
  assert(game.data.maps.ROUTE_1,'Automatic map ID is not in the actual imported map table')
  battle.enemy.fainted=false;battle.player.fainted=false
 
@@ -85,15 +88,23 @@ function love.load()
   mapInfo[#mapInfo+1]=entry
  end
  table.sort(mapInfo,function(a,b)return a.id<b.id end)
- write('red-map-descriptors.json',Json.encode(mapInfo))
+ write(gameVersion..'-map-descriptors.json',Json.encode(mapInfo))
  local mapCatalog=assert(loadstring(assert(source('mods/hd-dynamic-battlefields/metadata/maps/gen1.lua'))))()
  local classifier=assert(loadstring(assert(source('mods/hd-dynamic-battlefields/lib/environments.lua'))))().new(mapCatalog)
- local inspected=0
+ local inspected,classified=0,0
+ local nativeFallbacks={}
  for id,map in pairs(data.maps)do
-  assert(classifier:detect({game='red',map=id,tileset=map.tileset,kind='wild'}),'Unclassified native map '..id)
+  local detected,why=classifier:detect({game=gameVersion,map=id,tileset=map.tileset,kind='wild'})
+  if detected then classified=classified+1
+  else
+   local expected=(id=='CERULEAN_MELANIES_HOUSE'and map.tileset=='HOUSE')or(id=='SUMMER_BEACH_HOUSE'and map.tileset=='BEACH_HOUSE')
+   assert(gameVersion=='yellow'and expected,'Unclassified native map '..id..': '..tostring(why))
+   nativeFallbacks[#nativeFallbacks+1]=id
+  end
   inspected=inspected+1
  end
- assert(inspected==224)
+ assert(inspected==(gameVersion=='yellow'and 225 or 224)and classified==(gameVersion=='yellow'and 223 or 224))
+ write('map-classification.json',Json.encode({game=gameVersion,inspected=inspected,classified=classified,native_fallbacks=nativeFallbacks}))
  local provider=assert(loader.exports['hd-dynamic-battlefields'].battlefieldScenery)
 
  for _,hook in ipairs(loader.hooks.chains['render.compose']or{})do assert(hook.owner~='hd-dynamic-battlefields')end
@@ -190,7 +201,7 @@ function love.load()
  assert(G.rectangle==rectangle and rawget(battle,'_hdSceneryPaper')==nil)
 
  for name,method in pairs(methods)do Battle[name]=method end
- write('standalone-runtime-probe.txt','PASS official v'..runtimeVersion..' Loader/Sandbox, original native Red battle renderer; scenery-only provider without Menu Customizer or another scenery consumer; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. All 224 inspected Red map signatures classified; unknown-map and disabled native fallbacks verified; native-error paper override restored. Nonzero player/opponent corrections checked at native integer scale with unchanged HUD/text/effect layer traces and reset. Fixture only; gameplay traversal remains untested.\n')
+ write('standalone-runtime-probe.txt','PASS official v'..runtimeVersion..' Loader/Sandbox, original native '..gameVersion..' battle renderer; scenery-only provider without Menu Customizer or another scenery consumer; identical native HUD/picture/text/effect calls and transforms before/after; full-window logical-canvas replay at 1920x1080, 5120x1440 and 900x1600. '..classified..' of '..inspected..' inspected '..gameVersion..' map signatures classified (unmapped nonbattle interiors retain native fallback); unknown-map and disabled native fallbacks verified; native-error paper override restored. Nonzero player/opponent corrections checked at native integer scale with unchanged HUD/text/effect layer traces and reset. Fixture only; gameplay traversal remains untested.\n')
  end,debug.traceback)
  love.graphics.setCanvas()
  if not ok then write('standalone-runtime-error.txt',err)end

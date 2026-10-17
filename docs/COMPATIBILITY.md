@@ -1,8 +1,10 @@
 # Gen 1 Beta 1 current evidence
 
-The current test runtime is official gen1recomp v0.3.89 (TEST-RUNTIME-0.3.89.json). BETA-1.md records the current scope and evidence. Native Red rendering and Menu Customizer 3.35.4 isolated fixtures pass; full gameplay traversal, Blue/Yellow playthroughs, physical mobile devices and expanded/animated sprite combinations remain unverified. Gen 2/3 and link presentation are not integrated.
+The current test runtime is official gen1recomp v0.3.89 (TEST-RUNTIME-0.3.89.json). BETA-1.md records the current scope and evidence. Native Red/Blue/Yellow rendering and the Red Menu Customizer 3.35.4 isolated fixtures pass; full gameplay traversal, Blue/Yellow playthroughs, physical mobile devices and expanded/animated sprite combinations remain unverified. Gen 2/3 and link presentation are not integrated.
 
 Battle HUD, fonts, commands and dialogue remain controlled by the runtime or UI mod. Optional native Pokemon X/Y corrections now exist under Mounds > Player/Opponent and use integer native pixels. Custom sprite renderers that bypass drawBattlerPic require explicit provider integration; nonzero offsets with those renderers are not validated. KIM coexistence remains unverified.
+
+Blue and Yellow native fixtures now run against their own imported data, with separate evidence folders. Blue classifies all 224 map signatures. Yellow classifies 223 of 225; Melanie's house and the Summer Beach House are nonbattle interiors and retain native fallback. Native layer traces, integer offsets/reset, unknown/disabled/error fallbacks and three display sizes passed. Wide final screenshots were visually reviewed. This adds native fixture evidence, not complete playthrough or Menu Customizer coverage for those versions.
 
 The sections below preserve historical development evidence. Older runtime versions, removed compositor designs, distribution status and statements that positioning controls do not exist are historical and do not supersede the current beta evidence.
 
