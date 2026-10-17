@@ -1,6 +1,6 @@
 # Gen 1 Beta 1
 
-Release candidate status: all nine artwork aspect releases published and remotely verified; all 18 download choices enabled in the shipped catalog. Main beta package publication is pending its extracted-package check.
+Published: [Gen 1 Beta 1](https://github.com/Bentley734/HD-Dynamic-Battlefields/releases/tag/v0.1.0-beta.1), marked latest. All nine artwork aspect releases and all three main release assets match their remote sizes and SHA-256 checksums. The final extracted base passed official v0.3.89 native rendering and shipped-catalog checks; the public latest-download index also matches its expected checksum.
 
 Coverage: 46 positively identified Gen 1 battle environment types have variation 1 in all nine supported artwork aspect families. Many natural environments additionally retain three complete variations. S.S. Anne trainer cabins use private cabin scenery and Gary uses corridor scenery. The former lounge paintings remain preserved for future use. Existing nonbattle paintings are retained; their missing aspect ratios remain deferred.
 
