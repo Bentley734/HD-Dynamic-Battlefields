@@ -1,0 +1,19 @@
+{
+  "release": "https://github.com/Bentley734/HD-Dynamic-Battlefields/releases/tag/v0.1.0-beta.2",
+  "latest": true,
+  "assets": {
+    "HD-Dynamic-Battlefields-0.1.0-beta.2-base.zip": [
+      10523138,
+      "sha256:ab78274f04d8f53c4ce8f113951fbb14ebe347a5937fa6e1a4b2ffa61f15c6e6"
+    ],
+    "asset-index.json": [
+      1159871,
+      "sha256:ccfb21c989d39e06cca904664a23d4b46051e84e2e7bd39d47fea3561e642718"
+    ],
+    "SHA256SUMS.txt": [
+      197,
+      "sha256:e74acc8b0b39361a11b74717e39acd5c93d6c9199049692879269ad8e30208b9"
+    ]
+  },
+  "verification": "Exact remote file set, byte lengths and server SHA-256; latest release identity confirmed"
+}
