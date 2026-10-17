@@ -6,6 +6,8 @@ Battle HUD, fonts, commands and dialogue remain controlled by the runtime or UI 
 
 Blue and Yellow native fixtures now run against their own imported data, with separate evidence folders. Blue classifies all 224 map signatures. Yellow classifies 223 of 225; Melanie's house and the Summer Beach House are nonbattle interiors and retain native fallback. Native layer traces, integer offsets/reset, unknown/disabled/error fallbacks and three display sizes passed. Wide final screenshots were visually reviewed. This adds native fixture evidence, not complete playthrough or Menu Customizer coverage for those versions.
 
+The HDB_SCENARIOS=1 batch passed 28 encounter scenarios at 1920x1080, 5120x1440 and 900x1600 in each of Red, Blue and Yellow (252 checks). It uses native constructors and stages their menu presentation for wild/trainer/rival, eight gym leaders, four Elite Four members, Champion, four legendary encounters, cabin/forest/cave and surfing/fishing contexts. Every enabled render selected the expected environment and matched its disabled native sprite/HUD/text/effect trace. Three Red wide screenshots (Misty, Champion and Mewtwo) were visually reviewed; other scenario screenshots have not all been visually audited. These are constructed rendering fixtures, not encounter initiation, combat simulation, fainting transitions or complete playthroughs.
+
 The sections below preserve historical development evidence. Older runtime versions, removed compositor designs, distribution status and statements that positioning controls do not exist are historical and do not supersede the current beta evidence.
 
 ## Consolidated day/night aspect batch

@@ -168,7 +168,7 @@ function love.load()
   G.setColor(1,1,1,1);G.draw(logical,math.floor((w-160*scale)/2),math.floor((h-144*scale)/2),0,scale,scale)
   local captured=false
   G.captureScreenshot(function(pixels)
-   write(name,pixels:encode('png'):getString())
+   if name then write(name,pixels:encode('png'):getString())end
    local r,g,b=pixels:getPixel(0,0)
    local changed=math.abs(r-.04)>.01 or math.abs(g-.04)>.01 or math.abs(b-.04)>.01
    assert(changed==(expectScenery~=false),'Scenery/native fallback did not match the requested state')
@@ -185,6 +185,12 @@ function love.load()
  renderLogical(900,1600,'standalone-native-logical-900x1600.png',os.getenv('HDB_BASE_ONLY')~='1')
  if os.getenv('HDB_BASE_ONLY')=='1'then renderLogical(1920,1080,'base-offline-fallback-return.png')end
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
+ if os.getenv('HDB_SCENARIOS')=='1'then
+  assert(loadfile(project..'/tools/standalone_probe/scenarios.lua'))()({
+   game=game,Battle=Battle,options=options.modOptions['hd-dynamic-battlefields'],exports=exports,
+   render=renderLogical,write=write,Json=Json,
+   setBattle=function(value)battle=value;game.battle=value end})
+ end
  game.save.player.map='UNKNOWN_PROBE_MAP'
  renderLogical(1920,1080,'standalone-native-fallback-unknown.png',false)
  assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='native fallback')
