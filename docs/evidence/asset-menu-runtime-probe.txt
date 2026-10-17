@@ -1,2 +1,1 @@
 PASS official v0.3.89 native OptionsMenu renders Asset Manager filters, nine compact aspect rows and pack details; no network or live cache writes. Screenshots require visual review.
-Visual review passed: filter labels, compact aspect labels and readable MB sizes fit native integer-scaled menu rows.
