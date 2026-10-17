@@ -1,6 +1,12 @@
 return function(mod,open,index,aspects)
  local api=mod.exports.assetPacks;local store=api.store
  local message='';local aspect='auto';local quality='HD';local variations='one'
+ local function sizeLabel(bytes)
+  if type(bytes)~='number'then return'--'end
+  if bytes>=1000000000 then return string.format('%.2f GB',bytes/1000000000)end
+  if bytes>=1000000 then return string.format('%.1f MB',bytes/1000000)end
+  return string.format('%.1f KB',bytes/1000)
+ end
  local function info(id,label,value)return{id='hd_assets_'..id,label=label,value=value}end
  local function action(id,label,fn)return{id='hd_assets_'..id,label=label,value=function()return message end,activate=function(game)
   local ok,err=fn(game);message=ok and'DONE'or tostring(err or'FAILED')
@@ -11,12 +17,6 @@ return function(mod,open,index,aspects)
     rows[#rows+1]={id='hd_assets_pick_'..id..item,label=item,activate=function(ctx)set(item);ctx.stack:pop()end}
    end;open(game,rows)
   end
- end
- local function sizeLabel(bytes)
-  if type(bytes)~='number'then return'--'end
-  if bytes>=1000000000 then return string.format('%.2f GB',bytes/1000000000)end
-  if bytes>=1000000 then return string.format('%.1f MB',bytes/1000000)end
-  return string.format('%.1f KB',bytes/1000)
  end
  local function details(game,pack)
   local rows={info('pack_version','VERSION',function()return pack.version end),
@@ -39,11 +39,11 @@ return function(mod,open,index,aspects)
    local matches=wanted=='auto';for _,family in ipairs(pack.aspects)do if family==wanted then matches=true end end
    if installedOnly or matches and pack.quality==quality and(pack.variation_profile or'all')==variations then
     local selected=pack
-    rows[#rows+1]={id='hd_assets_pack_'..pack.id,label=pack.label or pack.id,value=function()
+    rows[#rows+1]={id='hd_assets_pack_'..pack.id,label=(pack.aspects[1]or'?')..' / '..(pack.variation_profile=='one'and'COMPACT'or'FULL'),value=function()
      local installed=store:installed(selected.id)
      local health=api.library.health[selected.id]
      if installed and health and not health.valid then return'REPAIR NEEDED'end
-     return installed and(installed.version==selected.version and'INSTALLED'or'UPDATE')or selected.quality
+     return installed and(installed.version==selected.version and'INSTALLED'or'UPDATE')or sizeLabel(selected.installed_size)
     end,activate=function(ctx)details(ctx,selected)end}
    end
   end
@@ -64,7 +64,7 @@ return function(mod,open,index,aspects)
   open(game,rows)
  end
  local rows={aspectRow,qualityRow,variationRow,
-  info('recommended','DISPLAY RECOMMENDATION',function()local v=mod.exports.diagnostics().viewport;return v and(aspects.aspect(v.width,v.height)..' / '..quality)or'OPEN A BATTLE FIRST'end),
+  info('recommended','RECOMMENDED SIZE',function()local v=mod.exports.diagnostics().viewport;return v and(aspects.aspect(v.width,v.height)..' / '..quality)or'OPEN A BATTLE'end),
   action('browse','BROWSE AVAILABLE PACKS',function(game)return browse(game,false)end),
   action('installed','INSTALLED PACKS',function(game)return browse(game,true)end),
   info('progress','DOWNLOAD STATUS',function()return store.status..' '..math.floor((store.progress or 0)*100)..'%'end),
