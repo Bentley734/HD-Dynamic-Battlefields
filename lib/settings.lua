@@ -1,7 +1,12 @@
 -- Native options subpages; no battle rendering or input changes.
 return function(mod)
- local Menu=require('src.ui.OptionsMenu')
- local function open(game,rows)
+ local nativeWidth,nativeHeight=mod.exports.nativeSize()
+ local Version=require('src.core.GameVersion')
+ local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
+ local adapter=frlg and assert(loadstring(assert(mod:read('lib/adapters/frlg_settings.lua'))))()()or nil
+ local Menu=not frlg and require('src.ui.OptionsMenu')or nil
+ local function open(game,rows,title)
+  if adapter then return adapter.open(game,rows,title)end
   local page=Menu.new(game,{rows=rows});local update=page.update
   -- Native Options prioritizes activate over step. Our own pages intercept
   -- directional input only, retaining the runtime's other navigation.
@@ -35,7 +40,7 @@ return function(mod)
   end
   return row
  end
- local function group(id,label,rows)return{id='hd_group_'..id,label=label,group=true,value=function()return'OPEN'end,activate=function(game)open(game,rows)end}end
+ local function group(id,label,rows)return{id='hd_group_'..id,label=label,group=true,value=function()return'OPEN'end,activate=function(game)open(game,rows,label)end}end
  local function toggle(key,label)return choice(key,label,{{'OFF',false},{'ON',true}})end
  local environmentChoices={}
  for _,item in ipairs(mod.exports.environmentChoices)do environmentChoices[#environmentChoices+1]={item[1]:upper(),item[2]}end
@@ -68,7 +73,8 @@ return function(mod)
    step=function(game,dir)
     local data=mod.exports.getAdjustments();local group=adjustmentGroup(data,true);group[side]=group[side]or{}
     local value=math.max(minimum,math.min(maximum,current()+(dir or 1)*step))
-    group[side][key]=math.floor(value*10000+.5)/10000
+    local units=key=='pokemon_x'and nativeWidth or key=='pokemon_y'and nativeHeight or 10000
+    group[side][key]=math.floor(value*units+.5)/units
     local ok,err=mod.exports.applyAdjustments(data);status=ok and'SAVED'or tostring(err);return false
    end}
  end
@@ -90,9 +96,10 @@ return function(mod)
    calibrationRow(side,'mound_x','HORIZONTAL OFFSET',0,.005,-.5,.5),
    calibrationRow(side,'mound_y','VERTICAL OFFSET',0,.005,-.5,.5),
    calibrationRow(side,'mound_scale','MOUND SCALE',1,.05,.1,3),
-   calibrationRow(side,'pokemon_x','POKEMON HORIZONTAL',0,1/160,-.5,.5),
-   calibrationRow(side,'pokemon_y','POKEMON VERTICAL',0,1/144,-.5,.5)})
+   calibrationRow(side,'pokemon_x','POKEMON HORIZONTAL',0,1/nativeWidth,-.5,.5),
+   calibrationRow(side,'pokemon_y','POKEMON VERTICAL',0,1/nativeHeight,-.5,.5)})
  end
+ mounds[#mounds+1]=assert(loadstring(assert(mod:read('lib/species_settings.lua'))))()(mod,open,group)
  mounds[#mounds+1]=action('reset_scope','RESET THIS SCOPE',function()
   local data=mod.exports.getAdjustments()
   if scope=='global'then data.global=nil
@@ -117,6 +124,7 @@ return function(mod)
  local function module(path)return assert(loadstring(assert(mod:read(path)),'@'..mod.path..'/'..path))()end
  local assets=module('lib/asset_manager.lua')(mod,open,module('metadata/asset_index.lua'),module('lib/compositions.lua'))
  local rows={group('backgrounds','BACKGROUNDS',backgrounds),group('animation','ANIMATION',animation),group('mounds','MOUNDS',mounds),group('display','DISPLAY',display),assets,group('diagnostics','DIAGNOSTICS',diagnostics)}
+ if adapter then adapter.mount(group('root','HD BATTLEFIELDS',rows));return end
  mod.hooks:wrap('ui.options.rows',function(nextFn,game,native)
   local result=nextFn(game,native);local out={};for _,row in ipairs(result)do out[#out+1]=row end
   out[#out+1]=group('root','HD BATTLEFIELDS',rows);return out

@@ -2,7 +2,11 @@
 
 The complete specification remains authoritative. This ledger tracks progress; it does not narrow release criteria.
 
-## Current evidence snapshot — after Alpha 1
+## Current evidence — Kanto Beta 2
+
+See [BETA-2.md](BETA-2.md) for the current shipped scope, including Red/Blue/Yellow, FR/LG, expanded species positioning and the retained nine-aspect HD pack distribution. This is still a partial implementation of the complete specification. The table and chronological notes below preserve older Alpha 1 evidence.
+
+## Historical evidence snapshot — after Alpha 1
 
 The table below supersedes the older chronological notes that follow. A shipped alpha is not completion of the full specification.
 

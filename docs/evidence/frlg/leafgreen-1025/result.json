@@ -1,0 +1,13 @@
+{
+  "loaded": [
+    "1025dex",
+    "hd-dynamic-battlefields"
+  ],
+  "mode": "1025",
+  "runtime": "0.3.89",
+  "game": "leafgreen",
+  "mod_species_and_forms": 0,
+  "species": 1389,
+  "scope": "Actual published mods through official Loader/Sandbox; full effective registry chooser coverage. Optional native rendering fixture recorded separately; no live save writes.",
+  "render_checks": 36
+}

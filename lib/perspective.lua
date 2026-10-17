@@ -80,7 +80,7 @@ function M.validateAdjustments(a)
   end
   return true
  end
- for k in pairs(a)do if k~='global'and k~='aspects'and k~='compositions'then return nil,'unknown adjustment group'end end
+ for k in pairs(a)do if k~='global'and k~='aspects'and k~='compositions'and k~='species'then return nil,'unknown adjustment group'end end
  local ok,err=group(a.global);if not ok then return nil,err end
  if a.aspects~=nil then
   if type(a.aspects)~='table'then return nil,'invalid aspect adjustments'end
@@ -94,6 +94,16 @@ function M.validateAdjustments(a)
   for id,t in pairs(a.compositions)do
    if type(id)~='string'or #id==0 or #id>512 then return nil,'invalid composition key'end
    ok,err=group(t);if not ok then return nil,err end
+  end
+ end
+ if a.species~=nil then
+  if type(a.species)~='table'then return nil,'invalid species adjustments'end
+  for id,t in pairs(a.species)do
+   if type(id)~='string'or #id>160 or not id:match('^[a-z]+:[%w_.:-]+$')then return nil,'invalid species key'end
+   ok,err=group(t);if not ok then return nil,err end
+   for _,u in pairs(t)do for key,value in pairs(u)do
+    if(key~='pokemon_x'and key~='pokemon_y')or math.abs(value)>.5 then return nil,'invalid species correction'end
+   end end
   end
  end
  return true

@@ -1,4 +1,8 @@
-# Gen 1 Beta 1 current evidence
+# Kanto Beta 2 current evidence
+
+Current changes and exact validation scope are in [BETA-2.md](BETA-2.md): FR/LG native scenery and grouped OPTIONS adapter, effective species/form lists for National Dex/G9/HD Sprites or 1025Dex, per-game/species/side integer position corrections, and Red/Blue/Yellow regressions. Battle UI remains controlled by the runtime or UI mod. Gen 2, R/S/E and link scenery remain unintegrated. The following Beta 1 and earlier sections are historical evidence and do not supersede Beta 2.
+
+## Gen 1 Beta 1 evidence
 
 The current test runtime is official gen1recomp v0.3.89 (TEST-RUNTIME-0.3.89.json). BETA-1.md records the current scope and evidence. Native Red/Blue/Yellow rendering and the Red Menu Customizer 3.35.4 isolated fixtures pass; full gameplay traversal, Blue/Yellow playthroughs, physical mobile devices and expanded/animated sprite combinations remain unverified. Gen 2/3 and link presentation are not integrated.
 

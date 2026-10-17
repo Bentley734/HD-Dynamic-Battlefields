@@ -42,6 +42,8 @@ function love.load()
  local SaveData=require('src.core.SaveData')
  local options=SaveData.defaultOptions()
  options.mods={['hd-dynamic-battlefields']=true}
+ local withDex=os.getenv('HDB_1025')=='1'
+ if withDex then options.mods['1025dex']=true end
  options.modOptions={['hd-dynamic-battlefields']={enabled=false,selection='fixed',timeMode='day',weatherMode='clear',animation='off'}}
  local originalOptions=SaveData.loadOptions;SaveData.loadOptions=function()return options end
  local prefix='mods/hd-dynamic-battlefields/'
@@ -49,6 +51,7 @@ function love.load()
  local function source(p)
   local file
   if p:sub(1,#prefix)==prefix then file=project..'/'..p:sub(#prefix+1)
+  elseif p:sub(1,13)=='mods/1025dex/'then file=workspace..'/.work/hd-frlg-compat/1025Dex/extracted/1025dex/'..p:sub(14)
   elseif p:sub(1,22)=='mods/gen3transparency/' then file=workspace..'/.work/move-effects-audit/git-Menu-Customizer/'..p:sub(23)end
   if not file then return end
   local f=io.open(file,'rb');if not f then return end
@@ -58,10 +61,10 @@ function love.load()
  function fs.read(p)return disk[p]or source(p)end
  function fs.write(p,b)disk[p]=b;return true end
  function fs.getInfo(p)
-  if p=='mods'or p=='mods/hd-dynamic-battlefields'or p=='mods/gen3transparency'then return{type='directory'}end
+  if p=='mods'or p=='mods/hd-dynamic-battlefields'or p=='mods/gen3transparency'or p=='mods/1025dex'then return{type='directory'}end
   local b=fs.read(p);if b then return{type='file',size=#b}end
  end
- function fs.getDirectoryItems(p)if p=='mods'then return{'hd-dynamic-battlefields'}end;return{}end
+ function fs.getDirectoryItems(p)if p=='mods'then return withDex and{'hd-dynamic-battlefields','1025dex'}or{'hd-dynamic-battlefields'}end;return{}end
  function fs.load(p)return assert(loadstring(assert(fs.read(p)),'@'..p))end
  function fs.createDirectory()return true end
  function fs.remove(p)disk[p]=nil;return true end
@@ -106,6 +109,13 @@ function love.load()
  assert(inspected==(gameVersion=='yellow'and 225 or 224)and classified==(gameVersion=='yellow'and 223 or 224))
  write('map-classification.json',Json.encode({game=gameVersion,inspected=inspected,classified=classified,native_fallbacks=nativeFallbacks}))
  local provider=assert(loader.exports['hd-dynamic-battlefields'].battlefieldScenery)
+ if withDex then
+  assert(loader.mods['1025dex'].state=='loaded',table.concat(loader.errors,'\n'))
+  local rows=loader.exports['hd-dynamic-battlefields'].getSpeciesChoices();local listed={}
+  for _,row in ipairs(rows)do listed[row.id]=true end
+  assert(listed.PECHARUNT and listed.CHARIZARD_MEGA_X and #rows>=1025)
+  write('1025dex-species.json',Json.encode({game=gameVersion,version='1.5.0',species=#rows,last_species=true,alternate_forms=true}))
+ end
 
  for _,hook in ipairs(loader.hooks.chains['render.compose']or{})do assert(hook.owner~='hd-dynamic-battlefields')end
  local trace={};local methods={}
@@ -156,6 +166,13 @@ function love.load()
   local player=a.sprite==battle.player.sprite
   local dx,dy=player and 2 or -4,player and -3 or 1
   assert(math.abs(b.x-a.x-dx*7)<.001 and math.abs(b.y-a.y-dy*7)<.001,'Incorrect native sprite correction '..Json.encode({ax=a.x,ay=a.y,bx=b.x,by=b.y,dx=dx,dy=dy}))
+ end
+ assert(exports.applyAdjustments({species={[gameVersion..':SQUIRTLE']={player={pokemon_x=3/160,pokemon_y=-2/144}}}}))
+ spriteTrace={};local speciesUI=render(1920,1080,'standalone-species-adjusted.png');local targeted=spriteTrace
+ assert(speciesUI==zeroUI and #targeted==#before)
+ for i,a in ipairs(before)do
+  local b=targeted[i];local player=a.sprite==battle.player.sprite
+  assert(math.abs(b.x-a.x-(player and 21 or 0))<.001 and math.abs(b.y-a.y-(player and -14 or 0))<.001,'Species-only correction leaked or failed')
  end
  assert(exports.applyAdjustments({}));Battle.picImage=nativeImage;Battle.drawBattlerPic=correctedPic
  -- Exercise the logical-canvas path and final full-window replay.

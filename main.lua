@@ -10,12 +10,20 @@ return function(mod)
  local Scene=module('lib/scene.lua')
  local catalog=module('metadata/prototype.lua')
  local Grounding=module('lib/grounding.lua')
- local nativeProfile=module('metadata/native_gen1.lua')
- local environments=module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
- local Json=require('src.link.Json')
- local Battle=require('src.battle.BattleState')
- local isFishing=module('lib/adapters/gen1_context.lua').install(Battle)
  local Version=require('src.core.GameVersion')
+ local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
+ local nativeProfile=module(frlg and'metadata/native_frlg.lua'or'metadata/native_gen1.lua')
+ local environments=frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
+ local Json=require('src.link.Json')
+ local Battle=not frlg and require('src.battle.BattleState')or nil
+ local isFishing=not frlg and module('lib/adapters/gen1_context.lua').install(Battle)or function()return false end
+ local speciesCatalog=module('lib/species_catalog.lua').new(mod)
+ mod.exports.getSpeciesChoices=function()return speciesCatalog:refresh(mod.game)end
+ mod.exports.speciesIdentity=function(ref)return speciesCatalog:identity(ref)end
+ mod.events:on('mods.loaded',function()speciesCatalog:refresh(mod.game)end,-1000)
+ mod.exports.nativeSize=function()return nativeProfile.width,nativeProfile.height end
+ local frlgContext=frlg and module('lib/adapters/frlg_context.lua')(mod,mod.exports.speciesIdentity)
+ local function saveIdentity(game)return frlg and game.session or game.save end
  local g=love.graphics
  local climate=module('lib/climate.lua').new(module('metadata/climate.lua'),os.time,function()return tonumber(os.date('%H'))end)
  local atmosphere=module('lib/atmosphere.lua').new(g,function()return love.timer.getTime()end)
@@ -64,7 +72,7 @@ return function(mod)
   local remaining={};for _,value in ipairs(ids)do if value~=id then remaining[#remaining+1]=value end end
   ids=remaining;mod.cache:write('installed-pack-ids.json',Json.encode(ids));return assetLibrary:refresh(ids)
  end
- local diagnostics={stage='Gen 1 Beta 1',status='disabled',game='unknown'}
+ local diagnostics={stage='Kanto Beta 2',status='disabled',game='unknown'}
  local loadedSave,lastAssignments,loadedAdjustments,lastLayout
  local environmentChoices={{'Automatic','auto'}}
  local environmentLabels={gym_rock='Pewter Gym',gym_water='Cerulean Gym',gym_electric='Vermilion Gym',
@@ -134,7 +142,7 @@ return function(mod)
  mod.exports.getAdjustments=function()
   local game=mod.game
   if not game or not game.save then return {}end
-  local value=game.save==loadedSave and loadedAdjustments or mod.storage:read(game,'anchor-adjustments')
+  local value=saveIdentity(game)==loadedSave and loadedAdjustments or mod.storage:read(game,'anchor-adjustments')
   if not Perspective.validateAdjustments(value)then return {}end
   return Json.decode(Json.encode(value or{}))
  end
@@ -184,20 +192,23 @@ return function(mod)
  function provider.enabled()return mod.options:get('enabled')==true end
  function provider.prepare(x,y,width,height,nativeFrame)
   if not mod.options:get('enabled')then diagnostics.status='disabled';return false end
-  if Version.generation()~=1 then return fallback('Generation adapter not integrated')end
-  local game=mod.game;local battle=game and game.stack and game.stack:top()
-  if not battle or getmetatable(battle)~=Battle then return fallback('Native overlay or non-battle state')end
-  if battle.kind=='link'then return fallback('Link presentation is not yet validated')end
+  if Version.generation()~=1 and not frlg then return fallback('Generation adapter not integrated')end
+  local game=mod.game;local context,contextError
+  if frlg then context,contextError=frlgContext();if not context then return fallback(contextError)end end
+  local battle=context and context.battle or game and game.stack and game.stack:top()
+  if not battle or(not frlg and getmetatable(battle)~=Battle)then return fallback('Native overlay or non-battle state')end
+  if battle.kind=='link'or context and context.link then return fallback('Link presentation is not yet validated')end
   local v={x=x or 0,y=y or 0,width=width,height=height}
   if not width or not height or width<=0 or height<=0 then return fallback('Missing battle viewport')end
-  local map=game.save and game.save.player and game.save.player.map
+  local map=context and context.map or game.save and game.save.player and game.save.player.map
   local manual=mod.options:get('environment')
   local mover=game.overworld and game.overworld.player
   local mapData=game.data and game.data.maps and game.data.maps[map]
   local detected,classificationError=environments:detect({game=Version.get(),map=map,tileset=mapData and mapData.tileset,
+   mapType=context and context.mapType,water=context and context.water,
    fishing=isFishing(battle),
-   surfing=game.save.player.surfing==true or mover and mover.surfing==true,
-   kind=battle.kind,enemySpecies=battle.enemy and battle.enemy.mon and battle.enemy.mon.species})
+   surfing=game.save and game.save.player and game.save.player.surfing==true or mover and mover.surfing==true,
+   kind=context and context.kind or battle.kind,enemySpecies=context and context.enemySpecies or battle.enemy and battle.enemy.mon and battle.enemy.mon.species})
   local environment=manual~='auto'and manual or detected and detected.environment
   diagnostics.classificationError=manual=='auto'and classificationError or nil
   diagnostics.waterSource=isFishing(battle)and'fishing'or(detected and detected.water and'surfing'or nil)
@@ -205,8 +216,10 @@ return function(mod)
   -- Its trainer, ball counter and command panels remain the consumer's UI.
   if battle.demo then environment=nil end
   diagnostics.game,diagnostics.map,diagnostics.environment,diagnostics.viewport=Version.get(),map,environment,v
-  if game.save~=loadedSave then
-   loadedSave=game.save;local saved=mod.storage:read(game,'fixed-assignments')
+  diagnostics.playerSpecies=context and context.playerSpecies or battle.player and battle.player.mon and battle.player.mon.species
+  diagnostics.opponentSpecies=context and context.enemySpecies or battle.enemy and battle.enemy.mon and battle.enemy.mon.species
+  if saveIdentity(game)~=loadedSave then
+   loadedSave=saveIdentity(game);local saved=mod.storage:read(game,'fixed-assignments')
    selection:importAssignments(type(saved)=='table'and saved or{})
    lastAssignments=Json.encode(selection:exportAssignments())
    loadedAdjustments=mod.storage:read(game,'anchor-adjustments')
@@ -215,7 +228,7 @@ return function(mod)
    end
   end
   local state=climate:resolve(environment,mod.options:get('timeMode'),mod.options:get('weatherMode'),mod.options:get('animation'),
-   {battleWeather=battle.field and battle.field.weather})
+   {battleWeather=context and context.weather or battle.field and battle.field.weather})
   diagnostics.period,diagnostics.timeSource,diagnostics.weather,diagnostics.animation=state.period,state.timeSource,state.weather,state.level
   drawOptions.climate,drawOptions.tint=state,state.tint
   local entry,why=selection:choose(battle,{game=Version.get(),map=map,environment=environment},v,{mode=mod.options:get('selection'),aspect=mod.options:get('aspect'),quality=mod.options:get('quality')})
@@ -245,22 +258,40 @@ return function(mod)
   lastLayout=layout
   return layout
  end
- function provider.draw(x,y,width,height,nativeFrame)
+ function provider.draw(x,y,width,height,nativeFrame,options)
   local layout=provider.prepare(x,y,width,height,nativeFrame)
   if not layout then return false end
   -- Do not pass sprite callbacks: scenery is always painted behind the
   -- consumer's untouched native/custom battle rendering.
-  drawOptions.mounds,drawOptions.calibration=mod.options:get('mounds'),mod.options:get('calibration')
+  drawOptions.mounds=mod.options:get('mounds')and not(options and options.mounds==false)
+  drawOptions.calibration=mod.options:get('calibration')
   local ok,drawErr=scene:draw(layout,nil,drawOptions)
   if not ok then return fallback(drawErr)end
   return true
  end
  local SpriteOffsets=module('lib/sprite_offsets.lua')
- function provider.spriteOffset(side)
-  if not provider.enabled()or not lastLayout or diagnostics.status~='active'then return 0,0 end
-  return SpriteOffsets.resolve(mod.exports.getAdjustments(),diagnostics.aspect,diagnostics.metadata,side)
+ function provider.nativeMound(side)
+  if not mod.options:get('mounds')or not scene.entry then return end
+  local viewport={x=0,y=0,width=nativeProfile.width,height=nativeProfile.height}
+  local layout=scene:layout(viewport,loadedAdjustments);local baseline=scene:layout(viewport)
+  if not layout or not baseline then return end
+  layout=Grounding.apply(layout,baseline,nativeProfile,{x=0,y=0,width=nativeProfile.width,height=nativeProfile.height})
+  local mound=layout[side].mound
+  local image=scene.moundPaths and scene.textures[scene.moundPaths[side]]
+  if not image then return end
+  local scale=math.min(mound.bounds[1]/image:getWidth(),mound.bounds[2]/image:getHeight())*mound.scale
+  return image,mound.x,mound.y,scale,mound.origin or{.5,.5}
  end
- SpriteOffsets.install(Battle,g,provider.spriteOffset)
- module('lib/adapters/gen1_scenery.lua').install(mod,Battle,g,provider)
+ function provider.spriteOffset(side,species)
+  if not provider.enabled()or not lastLayout or diagnostics.status~='active'then return 0,0 end
+  if type(species)=='table'then species=species.mon and species.mon.species end
+  species=speciesCatalog:identity(species)
+  return SpriteOffsets.resolve(loadedAdjustments,diagnostics.aspect,diagnostics.metadata,side,Version.get(),species,nativeProfile.width,nativeProfile.height)
+ end
+ if frlg then module('lib/adapters/frlg_scenery.lua').install(mod,g,provider)
+ else
+  SpriteOffsets.install(Battle,g,provider.spriteOffset)
+  module('lib/adapters/gen1_scenery.lua').install(mod,Battle,g,provider)
+ end
  module('lib/settings.lua')(mod)
 end

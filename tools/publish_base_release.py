@@ -41,7 +41,7 @@ if release:
 else:
     release = gh('api', f'repos/{repo}/releases', '--method', 'POST',
                  '-f', 'tag_name='+tag, '-f', 'target_commitish='+a.target,
-                 '-F', 'draft=true', '-f', 'name=HD Dynamic Battlefields — Gen 1 Beta 1',
+                 '-F', 'draft=true', '-f', 'name=HD Dynamic Battlefields — '+version,
                  '-f', 'body='+(root/'docs/BETA-RELEASE-NOTES.md').read_text(encoding='utf-8'))
 identity = release['id']
 pages = gh('api', f'repos/{repo}/releases/{identity}/assets?per_page=100', '--paginate', '--slurp')
