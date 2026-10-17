@@ -77,8 +77,14 @@ function love.load()
 
  local Menu=require('src.ui.OptionsMenu');local opened
  local function module(path)return assert(loadfile(project..'/'..path))()end
- local f=assert(io.open(workspace..'/.work/hd-beta-1-release-shards/asset-index.json','rb'));local index=Json.decode(f:read('*a'));f:close()
- local exports=loader.exports['hd-dynamic-battlefields'];exports.assetPacks.updates.index=index
+ local exports=loader.exports['hd-dynamic-battlefields'];local index
+ if os.getenv('HDB_REQUIRE_PUBLISHED_INDEX')=='1'then
+  index=exports.assetPacks.updates.index
+  assert(index.repository=='Bentley734/HD-Dynamic-Battlefields'and #index.packs==18,'Shipped index must expose all 18 verified download choices')
+ else
+  local f=assert(io.open(workspace..'/.work/hd-beta-1-release-shards/asset-index.json','rb'));index=Json.decode(f:read('*a'));f:close()
+  exports.assetPacks.updates.index=index
+ end
  local rootPage=module('lib/asset_manager.lua')({exports=exports},function(_,rows)opened=Menu.new(game,{rows=rows})end,index,module('lib/compositions.lua'))
  rootPage.activate(game);local mainRows=opened.rows
  local function render(name)

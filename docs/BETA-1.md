@@ -1,6 +1,6 @@
 # Gen 1 Beta 1
 
-Release candidate status: six artwork aspect releases verified; remaining portraits uploading, main beta pending.
+Release candidate status: seven artwork aspect releases verified; remaining portraits uploading, main beta pending.
 
 Coverage: 46 positively identified Gen 1 battle environment types have variation 1 in all nine supported artwork aspect families. Many natural environments additionally retain three complete variations. S.S. Anne trainer cabins use private cabin scenery and Gary uses corridor scenery. The former lounge paintings remain preserved for future use. Existing nonbattle paintings are retained; their missing aspect ratios remain deferred.
 

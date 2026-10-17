@@ -45,23 +45,27 @@ def main():
     for pack in index['packs']:
         for entry in pack['files'] + [pack['offline_archive']]:
             assert entry['url'].startswith(prefix) and entry['url'][len(prefix):] in allowed
-    existing = subprocess.run(['gh','release','view',args.tag,'--repo',args.repository,'--json','isDraft'], capture_output=True,text=True)
-    if existing.returncode == 0:
-        assert json.loads(existing.stdout)['isDraft'], 'Refusing to overwrite a published pack release'
+    releases=json.loads(gh('api',f'repos/{args.repository}/releases?per_page=100','--paginate','--slurp'))
+    existing=next((release for page in releases for release in page if release['tag_name']==args.tag),None)
+    if existing:
+        assert existing['draft'],'Refusing to overwrite a published pack release'
+        release_id=existing['id']
     else:
-        if '403' in existing.stderr or 'rate limit' in existing.stderr.lower():
-            raise RuntimeError(existing.stderr)
-        gh('release','create',args.tag,'--repo',args.repository,'--target',args.target,'--draft',
-           '--title','HD battlefield artwork packs '+index['version'],
-           '--notes','Original HD per-aspect scenery packs. Use the latest mod release for installation instructions. Each pack ZIP needs its matching .pack.json for offline import. Missing environments and other quality tiers remain in development.')
-    identity=json.loads(gh('release','view',args.tag,'--repo',args.repository,'--json','databaseId'))
-    release_id=identity['databaseId']
+        created=json.loads(gh('api',f'repos/{args.repository}/releases','--method','POST',
+         '-f','tag_name='+args.tag,'-f','target_commitish='+args.target,'-F','draft=true',
+         '-f','name=HD battlefield artwork packs '+index['version'],
+         '-f','body=Original per-aspect compact/full artwork packs. Install the base mod first. Offline imports require the ZIP and matching .pack.json.'))
+        release_id=created['id']
     pages=json.loads(gh('api',f'repos/{args.repository}/releases/{release_id}/assets?per_page=100','--paginate','--slurp'))
     uploaded={asset['name']:asset for page in pages for asset in page}
     files=[file for file in files if not(file.name in uploaded and uploaded[file.name]['state']=='uploaded'and uploaded[file.name]['size']==expected[file.name][0]and uploaded[file.name].get('digest')=='sha256:'+expected[file.name][1])]
     batches = [files[i:i+12] for i in range(0,len(files),12)]
     def upload(batch):
-        gh('release','upload',args.tag,*batch,'--repo',args.repository,'--clobber')
+        for file in batch:
+            previous=uploaded.get(file.name)
+            if previous:gh('api',f'repos/{args.repository}/releases/assets/{previous["id"]}','--method','DELETE')
+            gh('api',f'https://uploads.github.com/repos/{args.repository}/releases/{release_id}/assets?name={file.name}',
+               '--method','POST','--input',file,'-H','Content-Type: application/octet-stream')
         print(f'Uploaded {len(batch)} files', flush=True)
     with ThreadPoolExecutor(max_workers=1) as executor:
         list(executor.map(upload,batches))
@@ -72,7 +76,7 @@ def main():
     for name,(size,digest) in expected.items():
         asset = remote[name]
         assert asset['state']=='uploaded' and asset['size']==size and asset['digest']=='sha256:'+digest,name
-    gh('release','edit',args.tag,'--repo',args.repository,'--draft=false','--latest=false')
+    gh('api',f'repos/{args.repository}/releases/{release_id}','--method','PATCH','-F','draft=false','-f','make_latest=false')
     report = {'release':'https://github.com/'+args.repository+'/releases/tag/'+args.tag,'files':len(expected),'bytes':sum(v[0] for v in expected.values()),
               'verification':'GitHub uploaded asset set, sizes and server SHA-256 digests match local files'}
     (build/'published-verification.json').write_text(json.dumps(report,indent=2)+'\n')
