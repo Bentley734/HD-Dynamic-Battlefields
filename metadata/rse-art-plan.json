@@ -6909,6 +6909,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rainforest",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/rainforest/rainforest-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/rainforest/rainforest-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -6951,6 +6965,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rainforest",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/rainforest/rainforest-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/rainforest/rainforest-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
@@ -6962,6 +6990,20 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7077,7 +7119,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 536,
+  "minimum_missing_base_sources": 533,
   "complete_day_night_source_families": [
     "ashfield"
   ]

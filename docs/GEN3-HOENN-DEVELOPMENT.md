@@ -186,3 +186,10 @@ Rainforest source progress: eight original paintings now cover day/night at
 16:9, 4:3, 3:2 and 9:16. Five aspect pairs remain. PNG integrity and source
 hashes pass; horizons and draft anchors reflect each painting, including
 the lower 3:2 daytime treeline. Gameplay calibration is still pending.
+
+Rainforest now also has 16:10, 21:9 and 32:9 day/night originals: fourteen
+active sources, seven aspect pairs. The 32:9 paintings arrived with excess
+canvas; reviewed crop rectangles trim only bottom canvas, preserve originals
+and standing regions, and pass pixel-for-pixel crop identity checks. Prompts
+and transformed draft anchors are retained. The two tall-phone aspect pairs
+remain, followed by complete-family validation and gameplay calibration.

@@ -1,6 +1,18 @@
 {
   "sources": [
     {
+      "source": "art/gen3/16x10/rainforest/rainforest-01-16x10-night.png",
+      "sha256": "84c6ab87ea3e3962b6d0616be2e416027bf1659f5718ac58d4bda58c4d68c87b",
+      "aspect": "16:10",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/16x10/rainforest/rainforest-01-16x10.png",
+      "sha256": "98a7e850e58af36abd6f53b55862a17df2fdfc7efd7410105586a9a6f1dc91fd",
+      "aspect": "16:10",
+      "period": "day"
+    },
+    {
       "source": "art/gen3/16x9/rainforest/rainforest-01-16x9-night.png",
       "sha256": "701f2791a92458067a55996d9021f5fd351921539a036619942a42ca54a6dc0c",
       "aspect": "16:9",
@@ -10,6 +22,30 @@
       "source": "art/gen3/16x9/rainforest/rainforest-01-16x9.png",
       "sha256": "2ec6db40639513d95ed290e523cc430a4db529a49f3497c7f4a40f091c2eb21a",
       "aspect": "16:9",
+      "period": "day"
+    },
+    {
+      "source": "art/gen3/21x9/rainforest/rainforest-01-21x9-night.png",
+      "sha256": "94a4dca932386bcfcd3016d93f3334cfa7a91b2ce0caaa2bc9e1e9766e7b6f6d",
+      "aspect": "21:9",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/21x9/rainforest/rainforest-01-21x9.png",
+      "sha256": "b5444686878a6e901331d7150f479c4ff4858c735fbaf6ddd25632c5eb1baa18",
+      "aspect": "21:9",
+      "period": "day"
+    },
+    {
+      "source": "art/gen3/32x9/rainforest/rainforest-01-32x9-night.png",
+      "sha256": "d0c5ef7ccbe8f8daf8b2c7a523ca39201b2304f2b2dc118fd5065382d8478703",
+      "aspect": "32:9",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+      "sha256": "0bcae497e77da8d8d8754107c9f8aba9ebda5daa6b4ad5fd0949f5679992c0b7",
+      "aspect": "32:9",
       "period": "day"
     },
     {
@@ -49,8 +85,9 @@
       "period": "day"
     }
   ],
-  "aspect_pairs_complete": 4,
+  "aspect_pairs_complete": 7,
   "aspect_pairs_required": 9,
   "runtime_calibrated": false,
-  "method": "Built-in image generation; separate day/night originals; unchanged source pixels"
+  "crop_pixel_identity_verified": true,
+  "method": "Built-in image generation; separate day/night originals; approved crop-only for32:9, no resampling"
 }
