@@ -193,3 +193,13 @@ canvas; reviewed crop rectangles trim only bottom canvas, preserve originals
 and standing regions, and pass pixel-for-pixel crop identity checks. Prompts
 and transformed draft anchors are retained. The two tall-phone aspect pairs
 remain, followed by complete-family validation and gameplay calibration.
+
+Rainforest's first day/night source family now covers all nine aspect ratios
+(18 paintings). `rainforest-source-verification.json` proves PNG integrity,
+source hashes, dimensions, draft anchor bounds and crop provenance. The final
+9:20 day crop trims only excess side canvas and keeps both standing regions;
+the original and exact prompt remain under drafts. These are authoring
+candidates, not evidence of runtime mound contact. Next: bind an appropriate
+forest mound, integrate the complete candidate family, and inspect native
+Hoenn captures at wide, ultrawide and portrait sizes before treating it as
+release-ready.

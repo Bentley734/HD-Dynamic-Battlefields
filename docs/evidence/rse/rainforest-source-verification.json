@@ -1,0 +1,176 @@
+{
+  "family": "rainforest",
+  "generation": 3,
+  "source_files": 18,
+  "aspects": 9,
+  "periods": [
+    "day",
+    "night"
+  ],
+  "verified": true,
+  "scope": "Source integrity, dimensions, draft anchor bounds and crop-only pixel provenance. Gameplay/mound contact remains unverified.",
+  "files": [
+    {
+      "path": "art/gen3/16x10/rainforest/rainforest-01-16x10-night.png",
+      "aspect_ratio": "16:10",
+      "period": "night",
+      "width": 1587,
+      "height": 991,
+      "sha256": "84c6ab87ea3e3962b6d0616be2e416027bf1659f5718ac58d4bda58c4d68c87b",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x10/rainforest/rainforest-01-16x10.png",
+      "aspect_ratio": "16:10",
+      "period": "day",
+      "width": 1586,
+      "height": 992,
+      "sha256": "98a7e850e58af36abd6f53b55862a17df2fdfc7efd7410105586a9a6f1dc91fd",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/rainforest/rainforest-01-16x9-night.png",
+      "aspect_ratio": "16:9",
+      "period": "night",
+      "width": 1672,
+      "height": 941,
+      "sha256": "701f2791a92458067a55996d9021f5fd351921539a036619942a42ca54a6dc0c",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/rainforest/rainforest-01-16x9.png",
+      "aspect_ratio": "16:9",
+      "period": "day",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2ec6db40639513d95ed290e523cc430a4db529a49f3497c7f4a40f091c2eb21a",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/rainforest/rainforest-01-21x9-night.png",
+      "aspect_ratio": "21:9",
+      "period": "night",
+      "width": 1916,
+      "height": 821,
+      "sha256": "94a4dca932386bcfcd3016d93f3334cfa7a91b2ce0caaa2bc9e1e9766e7b6f6d",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/rainforest/rainforest-01-21x9.png",
+      "aspect_ratio": "21:9",
+      "period": "day",
+      "width": 1916,
+      "height": 821,
+      "sha256": "b5444686878a6e901331d7150f479c4ff4858c735fbaf6ddd25632c5eb1baa18",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/32x9/rainforest/rainforest-01-32x9-night.png",
+      "aspect_ratio": "32:9",
+      "period": "night",
+      "width": 2172,
+      "height": 611,
+      "sha256": "d0c5ef7ccbe8f8daf8b2c7a523ca39201b2304f2b2dc118fd5065382d8478703",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+      "aspect_ratio": "32:9",
+      "period": "day",
+      "width": 2172,
+      "height": 611,
+      "sha256": "0bcae497e77da8d8d8754107c9f8aba9ebda5daa6b4ad5fd0949f5679992c0b7",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/3x2/rainforest/rainforest-01-3x2-night.png",
+      "aspect_ratio": "3:2",
+      "period": "night",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0eb1e1b992808dd4fbe0563d33cfce2de2b6c7fe976e6bb686126d31ee2a5169",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/3x2/rainforest/rainforest-01-3x2.png",
+      "aspect_ratio": "3:2",
+      "period": "day",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4039ae3787c7eb1e4533ac71483d5d2cf0a10c6ea2553617ced71dc6ec264973",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/rainforest/rainforest-01-4x3-night.png",
+      "aspect_ratio": "4:3",
+      "period": "night",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7b8285eda1813f51344422aadf097a49815ab8924ffc91c630fb97c562522f21",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/rainforest/rainforest-01-4x3.png",
+      "aspect_ratio": "4:3",
+      "period": "day",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "ff6f54cef1f1baa42e49edb19c40b19a9f6d2fd0c9d7ba82c1356b5896f692f0",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/rainforest/rainforest-01-9x16-night.png",
+      "aspect_ratio": "9:16",
+      "period": "night",
+      "width": 940,
+      "height": 1672,
+      "sha256": "eac37f452f14724306095e15c013c82c44a180d41a27a9ba9dcc107b6613ba94",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/rainforest/rainforest-01-9x16.png",
+      "aspect_ratio": "9:16",
+      "period": "day",
+      "width": 940,
+      "height": 1672,
+      "sha256": "e522e6723f9e0a4b45d46ff956b500f90d81ffd723bdf71fd616c6001971916d",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/rainforest/rainforest-01-9x19_5-night.png",
+      "aspect_ratio": "9:19.5",
+      "period": "night",
+      "width": 853,
+      "height": 1844,
+      "sha256": "c404b0f1cbe26a2655d5a8c6c67bef331fadd02b873c6781ec79fcafb67678b4",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/rainforest/rainforest-01-9x19_5.png",
+      "aspect_ratio": "9:19.5",
+      "period": "day",
+      "width": 852,
+      "height": 1846,
+      "sha256": "65e0737730cb36a53f376384171712c7be2920c02746956aad0461dcecbf4f9e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/rainforest/rainforest-01-9x20-night.png",
+      "aspect_ratio": "9:20",
+      "period": "night",
+      "width": 841,
+      "height": 1870,
+      "sha256": "d88f0e2a912979b9293883f82ee013a27364a1fdf640adbf45172d59ae8fa022",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/rainforest/rainforest-01-9x20.png",
+      "aspect_ratio": "9:20",
+      "period": "day",
+      "width": 798,
+      "height": 1774,
+      "sha256": "05f2dd052a4643969f4171ac62914e295d9643f954379a27fdd14d49d9b9b46f",
+      "crop_only": true
+    }
+  ]
+}

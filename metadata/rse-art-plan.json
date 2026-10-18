@@ -7105,6 +7105,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rainforest",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/rainforest/rainforest-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/rainforest/rainforest-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:20",
       "time_of_day": "night",
@@ -7117,10 +7131,25 @@
       "time_of_day": "day",
       "background": "art/gen3/9x20/ashfield/ashfield-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/rainforest/rainforest-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rainforest",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/rainforest/rainforest-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 533,
+  "minimum_missing_base_sources": 531,
   "complete_day_night_source_families": [
-    "ashfield"
+    "ashfield",
+    "rainforest"
   ]
 }
