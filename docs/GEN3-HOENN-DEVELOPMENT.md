@@ -253,3 +253,11 @@ mineral-basin16:9 day/night artwork (Gen1 unused desert variation3). Exact
 prompts and SHA provenance accompany its Gen3 candidate records. No new
 lighting simulation or resampling. Eight aspect pairs and gameplay
 calibration remain; the incomplete family is not runtime-enabled.
+
+Desert authoring progress: six new original paintings add4:3,3:2 and9:16
+day/night compositions to the reused16:9 pair. Eight sources now cover four
+of nine aspect pairs; five pairs remain. Exact built-in generation prompts
+and draft geometry accompany the sources. Partial PNG/hash/dimension/aspect
+checks pass;3:2 night horizon is recorded at its actual lower boundary,
+not the requested prompt value. No runtime desert integration or gameplay
+calibration is claimed.

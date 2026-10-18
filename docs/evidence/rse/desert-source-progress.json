@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "source": "art/gen3/16x9/desert/desert-01-16x9-night.png",
+      "sha256": "eebbdbe13486137583ea2672cacef35e00942dfab22b92cb188f190a7e784f46",
+      "period": "night",
+      "aspect": "16:9",
+      "reused": true
+    },
+    {
+      "source": "art/gen3/16x9/desert/desert-01-16x9.png",
+      "sha256": "43e22364e609b31b10880f277128fef7a249c0e525739e304e77a37195ad0912",
+      "period": "day",
+      "aspect": "16:9",
+      "reused": true
+    },
+    {
+      "source": "art/gen3/3x2/desert/desert-01-3x2-night.png",
+      "sha256": "1ed16742743fed201715ce6c640ffcffe85f4dc8d666b44392a4ed3270ee9dc2",
+      "period": "night",
+      "aspect": "3:2",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/3x2/desert/desert-01-3x2.png",
+      "sha256": "e6deef7090aa30229e8dc5783215a6a41efe884b3b9300f556a76a13a0088166",
+      "period": "day",
+      "aspect": "3:2",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/4x3/desert/desert-01-4x3-night.png",
+      "sha256": "4d7526b3c270bbcd337b212c5611889f089ed671f144d23482501231a4617426",
+      "period": "night",
+      "aspect": "4:3",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/4x3/desert/desert-01-4x3.png",
+      "sha256": "bbfe5fd40d9e83ddb6d1adabf91d3a94293131442b1eb7d5c3e9f6035882c33a",
+      "period": "day",
+      "aspect": "4:3",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/9x16/desert/desert-01-9x16-night.png",
+      "sha256": "64d440e485dd63c802894e5de96e3389210c2f34544fde49f80e368c63dd2485",
+      "period": "night",
+      "aspect": "9:16",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/9x16/desert/desert-01-9x16.png",
+      "sha256": "5eae21ef080ebcffcd634e53c40d6394bcfb3c64b487c134096bf445e52b7a53",
+      "period": "day",
+      "aspect": "9:16",
+      "reused": false
+    }
+  ],
+  "aspect_pairs_complete": 4,
+  "aspect_pairs_required": 9,
+  "runtime_calibrated": false,
+  "scope": "Partial source integrity, image dimensions, aspect ratios and draft ground anchors; not complete family coverage"
+}
