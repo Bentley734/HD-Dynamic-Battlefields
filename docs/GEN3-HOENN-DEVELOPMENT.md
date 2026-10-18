@@ -53,14 +53,20 @@ art bounds alone are insufficient to choose final custom mound ground anchors.
 
 ## Original artwork
 
-Route 113 ashfield day/night paintings are in
-`art/gen3/16x9/ashfield/` and `art/gen3/4x3/ashfield/`. They were separately generated using the built-in
+Route 113 ashfield day/night paintings now cover all nine aspect families,
+18 source compositions under `art/gen3/<size>/ashfield/`. They were separately generated using the built-in
 image tool. Exact prompts and SHA-256 authoring records are saved beside them.
 Original generated files are retained. No image stretching or lighting filter
-was used. The scenes contain no characters or baked-in mounds.
+was used. The scenes contain no characters or baked-in mounds. The generator's
+two 32:9 candidates included excess vertical canvas: approved crop-only trims
+produce the requested ratio while preserving source-space anchor provenance.
+Originals and prompts remain in `art/gen3/drafts/32x9/`.
 
 The night painting has its own provisional horizon and opponent ground anchor.
 These are authoring candidates, not calibrated runtime placements. Existing
-gray-sand/pale-gravel mounds are candidates only. The remaining seven aspects, native R/S/E
-integration, mound/material fit and special/double battle rendering remain work
+gray-sand/pale-gravel mounds are candidates only. All 18 source records pass
+dimensions, aspect tolerance, SHA-256, draft anchor bounds and crop pixel
+identity checks; evidence is `ashfield-source-verification.json`. Those checks
+do not certify native rendering or mound contact. Native R/S/E
+integration, the other Hoenn environments, mound/material fit and special/double battle rendering remain work
 to complete before a Hoenn beta is published.

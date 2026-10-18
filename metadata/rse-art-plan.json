@@ -6896,6 +6896,20 @@
   "generated_sources": [
     {
       "family": "ashfield",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/ashfield/ashfield-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/ashfield/ashfield-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
       "background": "art/gen3/16x9/ashfield/ashfield-01-16x9-night.png",
@@ -6906,6 +6920,48 @@
       "aspect_ratio": "16:9",
       "time_of_day": "day",
       "background": "art/gen3/16x9/ashfield/ashfield-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/ashfield/ashfield-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/ashfield/ashfield-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/ashfield/ashfield-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/ashfield/ashfield-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -6921,6 +6977,52 @@
       "time_of_day": "day",
       "background": "art/gen3/4x3/ashfield/ashfield-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/ashfield/ashfield-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/ashfield/ashfield-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/ashfield/ashfield-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/ashfield/ashfield-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
     }
+  ],
+  "minimum_missing_base_sources": 540,
+  "complete_day_night_source_families": [
+    "ashfield"
   ]
 }

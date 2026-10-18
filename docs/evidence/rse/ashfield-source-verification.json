@@ -1,0 +1,176 @@
+{
+  "family": "ashfield",
+  "generation": 3,
+  "source_files": 18,
+  "aspects": 9,
+  "periods": [
+    "day",
+    "night"
+  ],
+  "verified": true,
+  "scope": "Source integrity, dimensions, draft anchor bounds and crop-only pixel provenance. Gameplay/mound contact remains unverified.",
+  "files": [
+    {
+      "path": "art/gen3/16x10/ashfield/ashfield-01-16x10-night.png",
+      "aspect_ratio": "16:10",
+      "period": "night",
+      "width": 1586,
+      "height": 992,
+      "sha256": "d104d6baaf17fc0c058eda0a7a94d4fdc9e6df7aa732a1112319cad4212a0d74",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x10/ashfield/ashfield-01-16x10.png",
+      "aspect_ratio": "16:10",
+      "period": "day",
+      "width": 1586,
+      "height": 992,
+      "sha256": "2782f92c1996ae489b43be1ec70ae6657fb38bdc23b4b51e343298767485d36d",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/ashfield/ashfield-01-16x9-night.png",
+      "aspect_ratio": "16:9",
+      "period": "night",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9bdc1cd0a6d74e37500655ad7b8b0e6a4f27815349f044e538014ca37cdd8a66",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/ashfield/ashfield-01-16x9.png",
+      "aspect_ratio": "16:9",
+      "period": "day",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f681bcf2dcaeb85365921723e8875e3064015767cacafe5229025ecfb5d5a257",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/ashfield/ashfield-01-21x9-night.png",
+      "aspect_ratio": "21:9",
+      "period": "night",
+      "width": 1916,
+      "height": 821,
+      "sha256": "e8bea57a66784f848290b80dc92630c5516db843f77c7aa758c753fe3fb8768e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/ashfield/ashfield-01-21x9.png",
+      "aspect_ratio": "21:9",
+      "period": "day",
+      "width": 1916,
+      "height": 821,
+      "sha256": "e8222629a74ecc3a39646381951c23ebc4e892f0aafc44e125a55c6d102282fe",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/32x9/ashfield/ashfield-01-32x9-night.png",
+      "aspect_ratio": "32:9",
+      "period": "night",
+      "width": 2160,
+      "height": 608,
+      "sha256": "aa5e60a44dbb0d83cc5abf4eedb5b67b4a57a52e41a0c68ccc1553c3eaf7efb6",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "aspect_ratio": "32:9",
+      "period": "day",
+      "width": 2176,
+      "height": 612,
+      "sha256": "00ee41c89cc7465c697c2b2f4541b43aa22b4bfee48f7e74e2966b876ee5642f",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/3x2/ashfield/ashfield-01-3x2-night.png",
+      "aspect_ratio": "3:2",
+      "period": "night",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f741c9669f6f997824fa1e64a27d6a15b154dacb2f7d739ef99fd64e2b8cf7c6",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/3x2/ashfield/ashfield-01-3x2.png",
+      "aspect_ratio": "3:2",
+      "period": "day",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d81308b4dc2eee382c708c8413d8fee9112c91b03778bc1fe6b65931388f8541",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/ashfield/ashfield-01-4x3-night.png",
+      "aspect_ratio": "4:3",
+      "period": "night",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "2462ea9fb913bc02a18d7d736f549d7d05eaff2a135d15b9bdf2bd7cb6d6565a",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/ashfield/ashfield-01-4x3.png",
+      "aspect_ratio": "4:3",
+      "period": "day",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "d39957802029880a1852862ed7166ed802bf18adaa14a2b8aeb1a6cdf9d68ddc",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/ashfield/ashfield-01-9x16-night.png",
+      "aspect_ratio": "9:16",
+      "period": "night",
+      "width": 941,
+      "height": 1672,
+      "sha256": "bc4cfbe971c21a77b8f9a86fdc80cbbd28a7ff4fdb82bfad6b447d682ee2ded4",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/ashfield/ashfield-01-9x16.png",
+      "aspect_ratio": "9:16",
+      "period": "day",
+      "width": 941,
+      "height": 1672,
+      "sha256": "70427d2cc7f188f2c56bb3e526aa1e2113a0d7bcf8785dc5a3bd77421ab1e10b",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5-night.png",
+      "aspect_ratio": "9:19.5",
+      "period": "night",
+      "width": 853,
+      "height": 1844,
+      "sha256": "5fbbedf4cdcb63975771e2f86a743331b1f5a29c53f319201a6fbb5dbf64260d",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5.png",
+      "aspect_ratio": "9:19.5",
+      "period": "day",
+      "width": 853,
+      "height": 1844,
+      "sha256": "5af8cab7c414f04c5124de39d54ef6747c318ea9ae529c8b345c9abdf72899d6",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/ashfield/ashfield-01-9x20-night.png",
+      "aspect_ratio": "9:20",
+      "period": "night",
+      "width": 841,
+      "height": 1870,
+      "sha256": "5bfc285265076d2cbbcedc762f7709962fcfbf1ad2b0b037aab14c5489dc272b",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/ashfield/ashfield-01-9x20.png",
+      "aspect_ratio": "9:20",
+      "period": "day",
+      "width": 841,
+      "height": 1870,
+      "sha256": "0a42884f3a6335ae8177129b45611106e28f591885a02532a252535bc2546439",
+      "crop_only": false
+    }
+  ]
+}

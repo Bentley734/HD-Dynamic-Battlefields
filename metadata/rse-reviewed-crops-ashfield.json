@@ -1,0 +1,84 @@
+[
+  {
+    "generation": 3,
+    "source": "art/gen3/drafts/32x9/ashfield-01-32x9-original.png",
+    "family": "ashfield",
+    "aspect": "32x9",
+    "time_of_day": "day",
+    "crop_pixels": [
+      4,
+      50,
+      2180,
+      662
+    ],
+    "prompt_source": "art/gen3/drafts/32x9/ashfield-01-32x9-prompt.txt",
+    "mounds": [
+      "gray-sand",
+      "pale-gravel"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.375,
+      "player": {
+        "mound_anchor": [
+          0.32,
+          0.67
+        ],
+        "pokemon_ground_anchor": [
+          0.32,
+          0.65
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.68,
+          0.49
+        ],
+        "pokemon_ground_anchor": [
+          0.68,
+          0.47
+        ]
+      }
+    }
+  },
+  {
+    "generation": 3,
+    "source": "art/gen3/drafts/32x9/ashfield-01-32x9-night-original.png",
+    "family": "ashfield",
+    "aspect": "32x9",
+    "time_of_day": "night",
+    "crop_pixels": [
+      6,
+      24,
+      2166,
+      632
+    ],
+    "prompt_source": "art/gen3/drafts/32x9/ashfield-01-32x9-night-prompt.txt",
+    "mounds": [
+      "gray-sand",
+      "pale-gravel"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.45,
+      "player": {
+        "mound_anchor": [
+          0.32,
+          0.67
+        ],
+        "pokemon_ground_anchor": [
+          0.32,
+          0.65
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.68,
+          0.54
+        ],
+        "pokemon_ground_anchor": [
+          0.68,
+          0.52
+        ]
+      }
+    }
+  }
+]

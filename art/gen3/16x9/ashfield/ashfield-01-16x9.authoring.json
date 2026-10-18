@@ -48,11 +48,11 @@
   "opponent": {
     "mound_anchor": [
       0.72,
-      0.45
+      0.46
     ],
     "pokemon_ground_anchor": [
       0.72,
-      0.43
+      0.44
     ],
     "mound_scale": 0.75,
     "shadow_offset": [

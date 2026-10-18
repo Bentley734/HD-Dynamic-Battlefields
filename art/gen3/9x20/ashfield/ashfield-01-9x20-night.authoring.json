@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "ashfield-01-9x20-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 841,
+    "height": 1870
+  },
+  "aspect_ratio": "9:20",
+  "time_of_day": "night",
+  "horizon_y": 0.38,
+  "background": "art/gen3/9x20/ashfield/ashfield-01-9x20-night.png",
+  "sha256": "5bfc285265076d2cbbcedc762f7709962fcfbf1ad2b0b037aab14c5489dc272b",
+  "mound_material_candidates": [
+    "gray-sand",
+    "pale-gravel"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.48000000000000004
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.46
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

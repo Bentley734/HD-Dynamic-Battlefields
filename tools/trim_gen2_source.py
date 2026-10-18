@@ -21,11 +21,15 @@ def main():
         family, aspect = row['family'], row['aspect']
         night = row.get('time_of_day', 'indoor') == 'night'
         stem = f'{family}-01-{aspect}' + ('-night' if night else '')
-        folder = ROOT / 'art/gen2' / aspect / family
+        generation = row.get('generation', 2)
+        if generation not in (2, 3):
+            raise ValueError('Unsupported authoring generation')
+        folder = ROOT / f'art/gen{generation}' / aspect / family
         target = folder / (stem + '.png')
         metadata = folder / (stem + '.authoring.json')
         prompt = folder / 'prompts' / (stem + '.txt')
-        if target.exists() or metadata.exists() or prompt.exists():
+        prompt_bytes = (ROOT / row['prompt_source']).read_text(encoding='utf-8')
+        if target.exists() or metadata.exists() or (prompt.exists() and prompt.read_text(encoding='utf-8') != prompt_bytes):
             raise ValueError('Refusing to overwrite ' + stem)
         left, top, right, bottom = row['crop_pixels']
         aw, ah = map(float, aspect.replace('_', '.').split('x'))
@@ -50,10 +54,11 @@ def main():
                 raise ValueError('Standing anchor would be behind horizon')
             folder.mkdir(parents=True, exist_ok=True)
             prompt.parent.mkdir(exist_ok=True)
-            prompt.write_text((ROOT / row['prompt_source']).read_text(encoding='utf-8'), encoding='utf-8')
+            if not prompt.exists():
+                prompt.write_text(prompt_bytes, encoding='utf-8')
             original.crop((left, top, right, bottom)).save(target)
         command = [sys.executable, str(ROOT/'tools/import_gen2_source.py'),
-                   '--source', str(target), '--metadata-only', '--family', family,
+                   '--source', str(target), '--generation', str(generation), '--metadata-only', '--family', family,
                    '--aspect', aspect, '--horizon', str(horizon),
                    '--time-of-day', row.get('time_of_day', 'indoor')]
         for mound in row['mounds']:
@@ -64,7 +69,7 @@ def main():
             record[side].update(anchors[side])
         record['source_processing'] = {
             'operation': 'crop_only_no_resampling',
-            'authorization': 'User approved trimming excess canvas on 2026-10-17.',
+            'authorization': 'User explicitly approved trimming excess canvas without stretching.',
             'original': row['source'],
             'original_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
             'original_size': {'width': width, 'height': height},
