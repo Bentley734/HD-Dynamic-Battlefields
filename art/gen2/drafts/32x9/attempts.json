@@ -1,0 +1,42 @@
+[
+  {
+    "family": "sprout_tower",
+    "file": "art/gen2/drafts/32x9/sprout_tower-01-attempt-01.png",
+    "width": 2172,
+    "height": 724,
+    "status": "rejected_wrong_aspect_not_runtime_asset",
+    "required_aspect": "32:9"
+  },
+  {
+    "family": "tin_tower",
+    "file": "art/gen2/drafts/32x9/tin_tower-01-attempt-01.png",
+    "width": 2103,
+    "height": 748,
+    "status": "rejected_wrong_aspect_not_runtime_asset",
+    "required_aspect": "32:9"
+  },
+  {
+    "family": "sprout_tower",
+    "file": "art/gen2/drafts/32x9/sprout_tower-01-attempt-02.png",
+    "width": 2103,
+    "height": 748,
+    "status": "rejected_wrong_aspect_not_runtime_asset",
+    "required_aspect": "32:9"
+  },
+  {
+    "family": "tin_tower",
+    "file": "art/gen2/drafts/32x9/tin_tower-01-attempt-02.png",
+    "width": 2216,
+    "height": 709,
+    "status": "rejected_wrong_aspect_not_runtime_asset",
+    "required_aspect": "32:9"
+  },
+  {
+    "family": "burned_tower",
+    "file": "art/gen2/drafts/32x9/burned_tower-01-attempt-01.png",
+    "width": 2159,
+    "height": 728,
+    "status": "rejected_wrong_aspect_not_runtime_asset",
+    "required_aspect": "32:9"
+  }
+]

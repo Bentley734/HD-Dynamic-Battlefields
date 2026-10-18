@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "tin_tower_roof-01-9x19_5-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 852,
+    "height": 1846
+  },
+  "aspect_ratio": "9:19.5",
+  "time_of_day": "night",
+  "horizon_y": 0.325,
+  "background": "art/gen2/9x19_5/tin_tower_roof/tin_tower_roof-01-9x19_5-night.png",
+  "sha256": "799b7dc9a881490c89cba0ade0904a41d32acd0648f56e20be7561bf2ae3f20d",
+  "mound_material_candidates": [
+    "terracotta",
+    "floor-clay"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

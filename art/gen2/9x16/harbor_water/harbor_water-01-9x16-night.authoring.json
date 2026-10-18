@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "harbor_water-01-9x16-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 941,
+    "height": 1672
+  },
+  "aspect_ratio": "9:16",
+  "time_of_day": "night",
+  "horizon_y": 0.16,
+  "background": "art/gen2/9x16/harbor_water/harbor_water-01-9x16-night.png",
+  "sha256": "3a9a26e34c20e30fd345c46f2fe0fbd702158803d444f974c1f397d67df50624",
+  "mound_material_candidates": [
+    "islet-rock",
+    "ripple"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

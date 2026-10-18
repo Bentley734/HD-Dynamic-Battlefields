@@ -1,0 +1,47 @@
+[
+  {
+    "file": "burned_tower-01-attempt-01.png",
+    "requested_aspect": "9:19.5",
+    "actual_size": [
+      820,
+      1919
+    ],
+    "status": "rejected_wrong_aspect_not_runtime_asset"
+  },
+  {
+    "file": "sprout_tower-01-attempt-01.png",
+    "requested_aspect": "9:19.5",
+    "actual_size": [
+      820,
+      1919
+    ],
+    "status": "rejected_wrong_aspect_not_runtime_asset"
+  },
+  {
+    "file": "sprout_tower-01-attempt-02.png",
+    "requested_aspect": "9:19.5",
+    "actual_size": [
+      928,
+      1695
+    ],
+    "status": "rejected_wrong_aspect_not_runtime_asset"
+  },
+  {
+    "file": "tin_tower-01-attempt-01.png",
+    "requested_aspect": "9:19.5",
+    "actual_size": [
+      944,
+      1666
+    ],
+    "status": "rejected_wrong_aspect_not_runtime_asset"
+  },
+  {
+    "file": "underground_tunnel-01-attempt-01.png",
+    "requested_aspect": "9:19.5",
+    "actual_size": [
+      909,
+      1731
+    ],
+    "status": "rejected_wrong_aspect_not_runtime_asset"
+  }
+]
