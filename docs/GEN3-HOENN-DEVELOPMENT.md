@@ -231,3 +231,13 @@ behind the enemy mound. Review also exposes a remaining3:2 DAY issue: the
 forest floor is too low behind the enemy mound. Do not interpret passing
 render checks as visual calibration approval; fix this and inspect other
 daytime compositions before approving the family.
+
+Daytime native review found low forest boundaries in3:2,16:10 and21:9.
+All three now use separately saved v2 edits with preserved originals, prompts,
+image dimensions and draft geometry. Source validation and the30-case
+additional-aspect batch pass. Native captures of those three DAY revisions
+were visually reviewed with ground behind mounds. Additional reviewed samples:
+4:3day,9:19.5day and9:20night. Remaining known issue:4:3 NIGHT still has
+forest under the rear mound edge and needs a higher boundary. This family
+remains a development candidate pending that correction and broader species,
+resize, color-blending and compatibility review.

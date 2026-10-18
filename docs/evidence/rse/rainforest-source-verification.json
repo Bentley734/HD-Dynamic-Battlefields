@@ -20,12 +20,12 @@
       "crop_only": false
     },
     {
-      "path": "art/gen3/16x10/rainforest/rainforest-01-16x10.png",
+      "path": "art/gen3/16x10/rainforest/rainforest-01-16x10-v2.png",
       "aspect_ratio": "16:10",
       "period": "day",
-      "width": 1586,
+      "width": 1585,
       "height": 992,
-      "sha256": "98a7e850e58af36abd6f53b55862a17df2fdfc7efd7410105586a9a6f1dc91fd",
+      "sha256": "a20e85c1ff6b8b85b463e58c5b2c983b82217a6135cb59fa5f9bbbb200998ced",
       "crop_only": false
     },
     {
@@ -56,12 +56,12 @@
       "crop_only": false
     },
     {
-      "path": "art/gen3/21x9/rainforest/rainforest-01-21x9.png",
+      "path": "art/gen3/21x9/rainforest/rainforest-01-21x9-v2.png",
       "aspect_ratio": "21:9",
       "period": "day",
-      "width": 1916,
+      "width": 1915,
       "height": 821,
-      "sha256": "b5444686878a6e901331d7150f479c4ff4858c735fbaf6ddd25632c5eb1baa18",
+      "sha256": "c58a226d24647224e0b148c813914d87131ccc55b92c1baec5b8eac1eddc39ff",
       "crop_only": false
     },
     {
@@ -92,12 +92,12 @@
       "crop_only": false
     },
     {
-      "path": "art/gen3/3x2/rainforest/rainforest-01-3x2.png",
+      "path": "art/gen3/3x2/rainforest/rainforest-01-3x2-v2.png",
       "aspect_ratio": "3:2",
       "period": "day",
       "width": 1536,
       "height": 1024,
-      "sha256": "4039ae3787c7eb1e4533ac71483d5d2cf0a10c6ea2553617ced71dc6ec264973",
+      "sha256": "d1403e9b5413f4fda99811b6c7bf19a3595fe229684fc3cd0a451d4d45129110",
       "crop_only": false
     },
     {

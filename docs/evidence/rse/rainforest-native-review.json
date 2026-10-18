@@ -36,6 +36,45 @@
       "period": "night",
       "revision": "v2",
       "observation": "Raised treeline leaves clear ground behind enemy mound; sprite contact retained"
+    },
+    {
+      "game": "emerald",
+      "size": "1200x800",
+      "period": "day",
+      "revision": "v2",
+      "observation": "Raised forest floor gives clear ground behind enemy mound"
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "period": "day",
+      "revision": "v2",
+      "observation": "Raised forest floor gives clear ground behind enemy mound"
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "period": "day",
+      "revision": "v2",
+      "observation": "Raised forest floor gives clear ground behind enemy mound"
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "period": "day",
+      "observation": "Clear ground behind mound in reviewed sample"
+    },
+    {
+      "game": "emerald",
+      "size": "900x1950",
+      "period": "day",
+      "observation": "Clear ground behind mound in reviewed sample"
+    },
+    {
+      "game": "emerald",
+      "size": "900x2000",
+      "period": "night",
+      "observation": "Clear ground behind mound in reviewed sample"
     }
   ],
   "status": "partial calibration; known art correction pending",
@@ -50,9 +89,9 @@
   "additional_render_cases": 30,
   "known_visual_issues": [
     {
-      "size": "1200x800",
-      "period": "day",
-      "issue": "3:2 daytime treeline overlaps enemy mound; needs raised ground boundary"
+      "size": "1024x768",
+      "period": "night",
+      "issue": "4:3 night forest still overlaps rear mound edge; raise boundary before family approval"
     }
   ]
 }
