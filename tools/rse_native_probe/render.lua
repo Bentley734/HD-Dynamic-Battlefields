@@ -10,6 +10,7 @@ return function(project,game,Battle,cache,write)
  local Pokemon=require('src.core.game3.pokemon')
  local foeSpecies=assert(Pokemon.speciesFromName('POOCHYENA'))
  local version=game.session.version
+ local content=os.getenv('HDB_CONTENT_MODE')or'none'
  local prefix=({ruby='RU_',sapphire='SA_',emerald='EM_'})[version]
  local probeW,probeH=G.getDimensions()
  local function file(path)local f=io.open(path,'rb');if not f then return end;local b=f:read('*a');f:close();return b end
@@ -35,22 +36,23 @@ return function(project,game,Battle,cache,write)
   local x,y=G.transformPoint(0,0);trace[#trace+1]='healthbox:'..tostring(side)..':'..x..':'..y
   return healthbox(side,...)
  end
- local loader,loadedMods,speciesCount
+ local loader,loadedMods,speciesCount,modVersions
  local loaderMode=os.getenv('HDB_LOADER')=='1'
  if loaderMode then
-  mod,loader,loadedMods,speciesCount=assert(loadfile(project..'/tools/rse_native_probe/loader.lua'))()(project,game,values)
+  mod,loader,loadedMods,speciesCount,modVersions=assert(loadfile(project..'/tools/rse_native_probe/loader.lua'))()(project,game,values)
  else
   assert(loadfile(project..'/main.lua'))()(mod)
  end
  local checks={}
- local function start(map)
+ local function start(map,species)
+  species=species or foeSpecies
   Battle.reset();game.session.map=prefix..map
-  assert(Battle.start{playerParty=game.session.party,foe={species=foeSpecies,level=7},wild=true,
+  assert(Battle.start{playerParty=game.session.party,foe={species=species,level=7},wild=true,
    session=game.session,cache=cache,mapType=3,mapKind='outdoor',terrain=0,fade=false})
   Anim.reset{headless=true};Anim._headless=false;Anim.syncDisplayFromState(Battle.getState())
   Ui.reset{};Ui.bindState(Battle.getState(),game.session);Ui.openMenu(0)
   assert(Ui.sidePic(true,true,Pokemon.speciesOf(game.session.party[1])), 'Missing native player picture')
-  assert(Ui.sidePic(false,true,foeSpecies), 'Missing native opponent picture')
+  assert(Ui.sidePic(false,true,species), 'Missing opponent picture')
  end
  local function render(w,h,name)
   assert(G.getDimensions()==w,'Use a fresh fixture process per size')
@@ -77,6 +79,27 @@ return function(project,game,Battle,cache,write)
    checks[#checks+1]={map=case[1],environment=d.environment,period=d.period,width=size[1],height=size[2],
     aspect=d.aspect,composition=d.composition,native_ui_calls_unchanged=true}
   end
+ end
+ if content~='none'then
+  local added
+  for _,row in ipairs(mod.exports.getSpeciesChoices())do if row.id=='PECHARUNT'then added=row end end
+  assert(added and added.slot,'Missing added species slot')
+  start('ROUTE101',added.slot);values.timeMode='day'
+  -- Advance asynchronous sprite providers through their real update hook.
+  for _=1,240 do loader.hooks:call('core.update',function()end,game,1/60);Pokemon.frontPic(added.slot) end
+  local pic=assert(Ui.sidePic(false,false,added.slot),'Missing added sprite')
+  local canvas=G.newCanvas(pic.image:getWidth(),pic.image:getHeight())
+  G.push('all');G.setCanvas(canvas);G.clear(0,0,0,0);G.setShader();G.setColor(1,1,1,1);G.origin();G.draw(pic.image);G.pop()
+  local pixels=canvas:newImageData();local visible=false
+  for y=0,pixels:getHeight()-1 do for x=0,pixels:getWidth()-1 do local _,_,_,a=pixels:getPixel(x,y);if a>0 then visible=true;break end end;if visible then break end end
+  pixels:release();canvas:release()
+  assert(visible,'Added sprite is transparent; verify content asset-pack installation before claiming sprite compatibility')
+  values.enabled=false;local before=render(probeW,probeH,nil)
+  values.enabled=true;local after=render(probeW,probeH,'added-PECHARUNT')
+  assert(before==after,'Added species scenery changed native healthbox/menu transforms')
+  local d=mod.exports.diagnostics();assert(d.status=='active'and d.opponentSpecies=='PECHARUNT',Json.encode(d))
+  checks[#checks+1]={map='ROUTE101',environment=d.environment,period=d.period,width=probeW,height=probeH,
+   aspect=d.aspect,composition=d.composition,species='PECHARUNT',native_ui_calls_unchanged=true}
  end
  local nativeMenuVerified=false
  if loaderMode then
@@ -116,6 +139,6 @@ return function(project,game,Battle,cache,write)
  assert(mod.exports.diagnostics().status=='native fallback','Unfinished desert must retain native scenery')
  write(version..'-'..probeW..'x'..probeH..'-render.json',Json.encode({game=version,checks=checks,missing_family_native_fallback=true,native_clock_verified=true,
   real_loader=loaderMode,candidate_manifest_allowlist=loaderMode,native_options_verified=nativeMenuVerified,
-  loaded_mods=loadedMods,species_choices=speciesCount,
+  loaded_mods=loadedMods,mod_versions=modVersions,species_choices=speciesCount,content=content,
   saves_written=false,scope=loaderMode and'Real Loader/Sandbox with candidate game allowlist; native options; limited scenes/sizes. Doubles/animations/custom profiles remain untested.'or'Native engine with direct mod entry; real Loader, UI mods, doubles and animations not yet covered'}))
 end

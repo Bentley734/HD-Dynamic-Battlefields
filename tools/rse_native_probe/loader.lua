@@ -5,9 +5,14 @@ return function(project,game,values)
  local SaveData=require('src.core.SaveData')
  local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
  local function read(path)local f=io.open(path,'rb');if not f then return end;local b=f:read('*a');f:close();return b end
- local inventory=Json.decode(assert(read(workspace..'/.work/hd-rse-loader-directory-index.json')))
- local roots={['hd-dynamic-battlefields']=project,gen3transparency=os.getenv('HDB_MENU_ROOT')or workspace..'/.work/menu-gen3-font-fix'}
+ local inventory=Json.decode(assert(read(os.getenv('HDB_INVENTORY_PATH')or workspace..'/.work/hd-rse-loader-directory-index.json')))
+ local roots=assert(loadfile(project..'/tools/rse_native_probe/sources.lua'))()(workspace,project)
  local enabled={'hd-dynamic-battlefields'}
+ local content=os.getenv('HDB_CONTENT_MODE')or'none'
+ if content=='national'then
+  for _,id in ipairs({'national_dex_gen3','g9-battle-sprites-gen3','gen3-hd-sprites'})do enabled[#enabled+1]=id end
+ elseif content=='1025'then enabled[#enabled+1]='1025dex'
+ else assert(content=='none','Unknown content setup')end
  if os.getenv('HDB_MENU_CUSTOMIZER')=='1'then enabled[#enabled+1]='gen3transparency'end
  local function source(path)
   local id,rel=path:match('^mods/([^/]+)/(.+)$')
@@ -42,7 +47,20 @@ return function(project,game,values)
  end
  local exports=loader.exports['hd-dynamic-battlefields']
  local species=exports.getSpeciesChoices()
- local found=false;for _,row in ipairs(species)do if row.id=='TREECKO'then found=true end end
+ local found,listed=false,{}
+ for _,row in ipairs(species)do listed[row.id]=true;if row.id=='TREECKO'then found=true end end
  assert(found,'Native Treecko missing from species position chooser')
- return{exports=exports},loader,enabled,#species
+ if content~='none'then
+  assert(#species>=1025 and listed.PECHARUNT,'Expanded species missing from chooser')
+  if content=='national'then
+   assert(loader.exports['gen3-hd-sprites'].isActive(),'HD sprite provider inactive')
+   for _,row in ipairs(loader.exports.national_dex_gen3.listSpecies())do assert(listed[row.id],'Missing species '..row.id)end
+   for _,row in ipairs(loader.exports.national_dex_gen3.listForms())do assert(listed[row.id],'Missing form '..row.id)end
+  else assert(listed.CHARIZARD_MEGA_X,'1025Dex form missing from chooser')end
+  for id,record in loader.content.pokemon:each()do
+   if record.gen3Species then assert(listed[id],'Registered species/form missing '..id)end
+  end
+ end
+ local versions={};for _,id in ipairs(enabled)do versions[id]=loader.mods[id].manifest.version end
+ return{exports=exports},loader,enabled,#species,versions
 end

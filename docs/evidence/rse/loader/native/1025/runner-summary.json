@@ -1,0 +1,18 @@
+{
+  "mode": "loader",
+  "content": "1025",
+  "processes": 1,
+  "scene_cases": 4,
+  "candidate_manifest_only": true,
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 4
+    }
+  ],
+  "limitations": "Limited grassland/ashfield and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage.",
+  "compatibility_status": "incomplete_missing_separate_1025dex_artwork_pack",
+  "added_sprite_visibility_verified": false,
+  "note": "Earlier nonnil-picture assertions accepted transparent placeholders. Superseded by pixel-alpha assertion, which correctly fails without the separate artwork pack."
+}

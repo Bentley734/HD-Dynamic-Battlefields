@@ -4,6 +4,8 @@ local engine=workspace..'/.work/hd-battlefields-latest/v0.3.89/engine'
 local version=os.getenv('HDB_GAME_VERSION')or'emerald'
 local output=project..'/docs/evidence/rse'
 if os.getenv('HDB_LOADER')=='1'then output=output..'/loader/'..(os.getenv('HDB_MENU_CUSTOMIZER')=='1'and'menu-customizer'or'native')end
+local content=os.getenv('HDB_CONTENT_MODE')or'none'
+if content~='none'then output=output..'/'..content end
 local function read(path)local f=io.open(path,'rb');if not f then return end;local b=f:read('*a');f:close();return b end
 local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));f:write(bytes);f:close()end
 function love.load()
@@ -11,11 +13,11 @@ function love.load()
   assert(version=='ruby'or version=='sapphire'or version=='emerald')
   package.path=engine..'/?.lua;'..engine..'/?/init.lua;'..package.path
   local cacheRoot=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..version..'/'
+  local roots=assert(loadfile(project..'/tools/rse_native_probe/sources.lua'))()(workspace,project)
   local function source(path)
    if path:match('^%a:[/\\]')then return read(path)end
    local id,relative=path:match('^mods/([^/]+)/(.+)$')
-   if id=='hd-dynamic-battlefields'then return read(project..'/'..relative)end
-   if id=='gen3transparency'then return read((os.getenv('HDB_MENU_ROOT')or workspace..'/.work/menu-gen3-font-fix')..'/'..relative)end
+   if id and roots[id]then return read(roots[id]..'/'..relative)end
    local relative=path:gsub('^'..version..'/','')
    return read(cacheRoot..relative)or read(engine..'/'..path)
   end
@@ -28,6 +30,11 @@ function love.load()
   love.graphics.newImage=function(p,...)
    if type(p)=='string'then local b=source(p);if b then p=FS.newFileData(b,p)end end
    return oldImage(p,...)
+  end
+  local oldImageData=love.image.newImageData
+  love.image.newImageData=function(p,...)
+   if type(p)=='string'then local b=source(p);if b then p=FS.newFileData(b,p)end end
+   return oldImageData(p,...)
   end
   require('src.core.GameVersion').set(version)
   assert(require('src.core.Version').engine=='0.3.89')

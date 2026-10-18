@@ -1,0 +1,12 @@
+...D-Dynamic-Battlefields/tools/rse_native_probe/render.lua:96: Added sprite is transparent; verify content asset-pack installation before claiming sprite compatibility
+stack traceback:
+	[C]: in function 'assert'
+	...D-Dynamic-Battlefields/tools/rse_native_probe/render.lua:96: in function <...D-Dynamic-Battlefields/tools/rse_native_probe/render.lua:1>
+	main.lua:86: in function <main.lua:12>
+	[C]: in function 'xpcall'
+	main.lua:12: in function 'load'
+	[love "callbacks.lua"]:136: in function <[love "callbacks.lua"]:135>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:368: in function <[love "boot.lua"]:355>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:377: in function <[love "boot.lua"]:344>

@@ -144,3 +144,23 @@ Reproduce a full mode with `python tools/run_rse_probe.py --mode loader` or
 `--mode menu-customizer`. Use `--game emerald --size 1280x720` for one case.
 The runner accepts alternate LÖVE and Menu Customizer paths, prepares its
 directory inventory and records the exact limited run scope.
+
+
+Expanded-content candidate checks (2026-10-18): the real Loader runs with
+National Dex Gen3, G9 Battle Sprites and Gen3 HD Sprites in all three Hoenn
+games at 1280x720, 5120x1440 and 900x1600. All 36 scenery cases pass,
+including an added Pecharunt fixture with a nontransparent sprite pixel check.
+Registered species/forms are checked against the position chooser. Reports
+record exact loaded versions under `docs/evidence/rse/loader/native/national`.
+This is limited render/options evidence, not a full gameplay certification.
+
+The published 1025Dex 1.5.1 core package was separately downloaded and verified
+against its GitHub asset digest. Its chooser contains added species/forms,
+but the fixture does not yet install its separate persistent artwork pack.
+A blank placeholder was initially accepted by the nonnil-image assertion;
+that assertion is now supplemented by an alpha-pixel check, which correctly
+fails. The earlier 1025 reports explicitly record incomplete status and must
+not be used as sprite compatibility proof. Install the catalog-verified pack
+in the isolated fixture before repeating this matrix. No real saves were read
+or written. Inventory files are isolated by mode/content to avoid competing
+fixture runs replacing each other's mod directory listings.
