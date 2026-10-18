@@ -1,0 +1,126 @@
+{
+  "method": "Original imported grass platform RGBA alpha bounds; no image modification",
+  "limitations": "Art bounds alone do not prove sprite contact or correct custom mound anchors",
+  "platforms": [
+    {
+      "game": "ruby",
+      "side": "player",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        0,
+        96,
+        128,
+        112
+      ],
+      "rgba_sha256": "1cdfa8b19178cdd1c1fb7265e53d88bc4c6e07cf87ed29156eb9ce94ce07b11e"
+    },
+    {
+      "game": "ruby",
+      "side": "enemy",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        112,
+        48,
+        240,
+        80
+      ],
+      "rgba_sha256": "4d6408a2c4ca8e06a8491daef5783e84d1cacb6ccade1817d8eedfa7d3734862"
+    },
+    {
+      "game": "sapphire",
+      "side": "player",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        0,
+        96,
+        128,
+        112
+      ],
+      "rgba_sha256": "1cdfa8b19178cdd1c1fb7265e53d88bc4c6e07cf87ed29156eb9ce94ce07b11e"
+    },
+    {
+      "game": "sapphire",
+      "side": "enemy",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        112,
+        48,
+        240,
+        80
+      ],
+      "rgba_sha256": "4d6408a2c4ca8e06a8491daef5783e84d1cacb6ccade1817d8eedfa7d3734862"
+    },
+    {
+      "game": "emerald",
+      "side": "player",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        0,
+        96,
+        128,
+        112
+      ],
+      "rgba_sha256": "1cdfa8b19178cdd1c1fb7265e53d88bc4c6e07cf87ed29156eb9ce94ce07b11e"
+    },
+    {
+      "game": "emerald",
+      "side": "enemy",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        112,
+        48,
+        240,
+        80
+      ],
+      "rgba_sha256": "4d6408a2c4ca8e06a8491daef5783e84d1cacb6ccade1817d8eedfa7d3734862"
+    },
+    {
+      "game": "firered",
+      "side": "player",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        0,
+        96,
+        128,
+        112
+      ],
+      "rgba_sha256": "6933005c782f4a741e460a4bed26e2dd54dae8d9aa565e2bf985f5c4d94bcbbd"
+    },
+    {
+      "game": "firered",
+      "side": "enemy",
+      "image_size": [
+        256,
+        160
+      ],
+      "nontransparent_bounds": [
+        112,
+        40,
+        240,
+        80
+      ],
+      "rgba_sha256": "365b8e9df76e6cb64187161804e46a35818604a67513f21adc1d6132f7437bb1"
+    }
+  ]
+}

@@ -35,16 +35,32 @@ mechanics, sprite rendering or HUDs. It is deliberately not wired into main.lua
 until the scenery pipeline and fallbacks are validated with real Hoenn fixtures.
 Its regression checks pass alongside the existing Lua suite.
 
+`metadata/maps/rse.lua` now contains the compiled signatures, consumed by
+`lib/environments_rse.lua`. The classifier checks game/map type/battle-scene
+identity, applies per-battle terrain overrides and rejects uninspected water
+contexts instead of choosing dry scenery. Its tests cover all 478 candidates.
+
+The isolated `tools/rse_native_probe` runs against the actual v0.3.89 Dataset
+and constructs a native battle in each of Ruby, Sapphire and Emerald. All
+compiled signatures match those live datasets (142/142/194 respectively), and
+the adapter reads the native battle and resolves Route 101 to grassland.
+Reports are `docs/evidence/rse/*-native-context.json`. These fixtures do not
+claim scenery rendering, playthrough or sprite-mod compatibility coverage.
+
+The original native grass platform alpha bounds are recorded separately in
+`native-platform-bounds.json`. Hoenn's enemy platform differs from FR/LG's;
+art bounds alone are insufficient to choose final custom mound ground anchors.
+
 ## Original artwork
 
-The first Route 113 ashfield 16:9 day/night paintings are in
-`art/gen3/16x9/ashfield/`. They were separately generated using the built-in
+Route 113 ashfield day/night paintings are in
+`art/gen3/16x9/ashfield/` and `art/gen3/4x3/ashfield/`. They were separately generated using the built-in
 image tool. Exact prompts and SHA-256 authoring records are saved beside them.
 Original generated files are retained. No image stretching or lighting filter
 was used. The scenes contain no characters or baked-in mounds.
 
 The night painting has its own provisional horizon and opponent ground anchor.
 These are authoring candidates, not calibrated runtime placements. Existing
-gray-sand/pale-gravel mounds are candidates only. All other aspects, native R/S/E
+gray-sand/pale-gravel mounds are candidates only. The remaining seven aspects, native R/S/E
 integration, mound/material fit and special/double battle rendering remain work
 to complete before a Hoenn beta is published.
