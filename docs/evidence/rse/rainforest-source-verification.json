@@ -101,12 +101,12 @@
       "crop_only": false
     },
     {
-      "path": "art/gen3/4x3/rainforest/rainforest-01-4x3-night.png",
+      "path": "art/gen3/4x3/rainforest/rainforest-01-4x3-night-v2.png",
       "aspect_ratio": "4:3",
       "period": "night",
       "width": 1448,
       "height": 1086,
-      "sha256": "7b8285eda1813f51344422aadf097a49815ab8924ffc91c630fb97c562522f21",
+      "sha256": "3ab038ee52d1fcf90030a0c95d7407808364ea94f85f1a638f0d5451dfb87641",
       "crop_only": false
     },
     {

@@ -75,9 +75,16 @@
       "size": "900x2000",
       "period": "night",
       "observation": "Clear ground behind mound in reviewed sample"
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "period": "night",
+      "revision": "v2",
+      "observation": "Raised forest floor clears rear mound edge"
     }
   ],
-  "status": "partial calibration; known art correction pending",
+  "status": "sampled native calibration; broader species and compatibility review pending",
   "remaining": [
     "six unreviewed aspect families",
     "all species/contact points",
@@ -87,11 +94,5 @@
   ],
   "additional_aspect_batch": "loader/native/additional-aspects-summary.json",
   "additional_render_cases": 30,
-  "known_visual_issues": [
-    {
-      "size": "1024x768",
-      "period": "night",
-      "issue": "4:3 night forest still overlaps rear mound edge; raise boundary before family approval"
-    }
-  ]
+  "known_visual_issues": []
 }

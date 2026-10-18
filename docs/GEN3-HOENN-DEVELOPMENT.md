@@ -241,3 +241,15 @@ were visually reviewed with ground behind mounds. Additional reviewed samples:
 forest under the rear mound edge and needs a higher boundary. This family
 remains a development candidate pending that correction and broader species,
 resize, color-blending and compatibility review.
+
+The4:3 rainforest night v2 raises the remaining low treeline. Its native
+Emerald capture was reviewed with clear ground behind the rear mound edge;
+the five-case4:3 fixture and18-source integrity checks pass. Prior images
+and metadata remain preserved. Broader species/third-party compatibility and
+mound color blending still require review.
+
+Hoenn desert starts with byte-identical reuse of the existing original
+mineral-basin16:9 day/night artwork (Gen1 unused desert variation3). Exact
+prompts and SHA provenance accompany its Gen3 candidate records. No new
+lighting simulation or resampling. Eight aspect pairs and gameplay
+calibration remain; the incomplete family is not runtime-enabled.

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "composition_id": "desert-01-16x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspect_ratio": "16:9",
+  "time_of_day": "day",
+  "horizon_y": 0.25,
+  "background": "art/gen3/16x9/desert/desert-01-16x9.png",
+  "sha256": "43e22364e609b31b10880f277128fef7a249c0e525739e304e77a37195ad0912",
+  "mound_material_candidates": [
+    "sand",
+    "sandstone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "original": "art/gen1/16x9/desert/desert-03-16x9.png",
+    "original_sha256": "43e22364e609b31b10880f277128fef7a249c0e525739e304e77a37195ad0912",
+    "operation": "Byte-identical reuse of original project artwork; no lighting simulation or resampling",
+    "review": "Empty mineral-sand basin with clear standing ground, development candidate for HoennRoute111"
+  }
+}

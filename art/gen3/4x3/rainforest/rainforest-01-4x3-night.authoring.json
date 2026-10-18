@@ -8,9 +8,9 @@
   },
   "aspect_ratio": "4:3",
   "time_of_day": "night",
-  "horizon_y": 0.4,
-  "background": "art/gen3/4x3/rainforest/rainforest-01-4x3-night.png",
-  "sha256": "7b8285eda1813f51344422aadf097a49815ab8924ffc91c630fb97c562522f21",
+  "horizon_y": 0.3,
+  "background": "art/gen3/4x3/rainforest/rainforest-01-4x3-night-v2.png",
+  "sha256": "3ab038ee52d1fcf90030a0c95d7407808364ea94f85f1a638f0d5451dfb87641",
   "mound_material_candidates": [
     "forest"
   ],
@@ -59,5 +59,6 @@
       0.008
     ],
     "layer": 10
-  }
+  },
+  "revision_note": "Raised night clearing after native4:3 review showed forest under rear mound edge; originals preserved."
 }
