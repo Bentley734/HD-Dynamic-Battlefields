@@ -15,6 +15,11 @@ return function(project,game,values)
  else assert(content=='none','Unknown content setup')end
  if os.getenv('HDB_MENU_CUSTOMIZER')=='1'then enabled[#enabled+1]='gen3transparency'end
  local function source(path)
+  local asset=path:match('^mod_cache/1025dex/dex_assets/files/(.+)$')
+  if asset then
+   local assetRoot=os.getenv('HDB_DEX_ASSET_ROOT')or workspace..'/.work/hd-rse-compat-latest/dex-artwork'
+   return read(assetRoot..'/'..asset)
+  end
   local id,rel=path:match('^mods/([^/]+)/(.+)$')
   if id then
    local b=roots[id]and read(roots[id]..'/'..rel)

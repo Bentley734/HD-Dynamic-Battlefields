@@ -164,3 +164,20 @@ not be used as sprite compatibility proof. Install the catalog-verified pack
 in the isolated fixture before repeating this matrix. No real saves were read
 or written. Inventory files are isolated by mode/content to avoid competing
 fixture runs replacing each other's mod directory listings.
+
+
+Follow-up: the isolated fixture now reads the separately installed 1025Dex
+artwork through its injected cache filesystem. All 23,109 entries match the
+published core's size/SHA-256 catalog (`1025dex-artwork-verification.json`).
+Normal draw/update cycles bake the battle-scoped sprite sheets before capture;
+the initial transparent image was not evidence of an HDB renderer defect.
+The repeated matrix passes all 36 cases across R/S/E and three sizes. Emerald's
+Pecharunt screenshot was visually reviewed with the sprite above the mound.
+These reports supersede the preceding incomplete fixture results. Doubles,
+move animations and full playthroughs remain outside this proof.
+
+Rainforest now has its first original 16:9 day and separately painted night
+sources. Prompts and draft perspective records sit beside each PNG. The night
+treeline is lower, so its opponent ground anchor is recorded separately.
+Neither painting is runtime-enabled: eight aspect pairs and in-game mound
+calibration remain. Source integrity is recorded separately from coverage.

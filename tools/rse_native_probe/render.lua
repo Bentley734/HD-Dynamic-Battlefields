@@ -56,6 +56,7 @@ return function(project,game,Battle,cache,write)
  end
  local function render(w,h,name)
   assert(G.getDimensions()==w,'Use a fresh fixture process per size')
+  if content~='none'then for _=1,120 do Display.present(game,w,h);loader.hooks:call('core.update',function()end,game,1/60) end end
   G.setCanvas();G.origin();G.clear(.04,.04,.04,1);trace={}
   for _=1,2 do Display.present(game,w,h)end
   assert(not Display.planesBroken,'Native display planes failed')

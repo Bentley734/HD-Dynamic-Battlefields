@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "source": "art/gen3/16x9/rainforest/rainforest-01-16x9-night.png",
+      "sha256": "701f2791a92458067a55996d9021f5fd351921539a036619942a42ca54a6dc0c",
+      "aspect": "16:9",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/16x9/rainforest/rainforest-01-16x9.png",
+      "sha256": "2ec6db40639513d95ed290e523cc430a4db529a49f3497c7f4a40f091c2eb21a",
+      "aspect": "16:9",
+      "period": "day"
+    }
+  ],
+  "aspect_pairs_complete": 1,
+  "aspect_pairs_required": 9,
+  "runtime_calibrated": false,
+  "method": "Built-in image generation; separate day/night originals; unchanged source pixels"
+}
