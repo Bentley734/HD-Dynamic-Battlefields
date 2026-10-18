@@ -1,4 +1,4 @@
-"""Copy a visually reviewed original PNG into the Gen 2 authoring collection.
+"""Copy a visually reviewed original PNG into a Gen 2/3 authoring collection.
 
 This registers a source candidate, not a runtime composition. It never edits
 pixels or overwrites a prior painting. Runtime calibration remains explicit.
@@ -17,6 +17,8 @@ ASPECTS = {'4x3', '16x9', '16x10', '3x2', '21x9', '32x9', '9x16', '9x19_5', '9x2
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', required=True, type=Path)
+    parser.add_argument('--generation', default=2, type=int, choices=[2, 3],
+                        help='Authoring folder; existing Gen 2 imports retain their default')
     parser.add_argument('--metadata-only', action='store_true',
                         help='Register an existing original in its final path without touching its pixels')
     parser.add_argument('--family', required=True)
@@ -43,7 +45,7 @@ def main():
     name = f'{args.family}-{args.variation:02d}-{args.aspect}'
     if args.time_of_day == 'night':
         name += '-night'
-    folder = ROOT / 'art/gen2' / args.aspect / args.family
+    folder = ROOT / f'art/gen{args.generation}' / args.aspect / args.family
     target = folder / (name + '.png')
     metadata_path = folder / (name + '.authoring.json')
     prompt = folder / 'prompts' / (name + '.txt')

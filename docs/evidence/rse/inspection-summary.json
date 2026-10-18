@@ -1,0 +1,20 @@
+{
+  "ruby": {
+    "imported_maps": 394,
+    "positive_battle_maps": 142,
+    "wild_maps": 97,
+    "event_battle_maps": 95
+  },
+  "sapphire": {
+    "imported_maps": 394,
+    "positive_battle_maps": 142,
+    "wild_maps": 97,
+    "event_battle_maps": 95
+  },
+  "emerald": {
+    "imported_maps": 518,
+    "positive_battle_maps": 177,
+    "wild_maps": 116,
+    "event_battle_maps": 118
+  }
+}

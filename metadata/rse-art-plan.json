@@ -1,0 +1,6912 @@
+{
+  "schema_version": 1,
+  "stage": "authoring candidate; map/context and visual calibration pending",
+  "initial_variations": 1,
+  "aspects": [
+    "4:3",
+    "16:9",
+    "16:10",
+    "3:2",
+    "21:9",
+    "32:9",
+    "9:16",
+    "9:19.5",
+    "9:20"
+  ],
+  "maps": [
+    {
+      "game": "ruby",
+      "id": "RU_PETALBURG_CITY",
+      "native_name": "PetalburgCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 1,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SLATEPORT_CITY",
+      "native_name": "SlateportCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_DEWFORD_TOWN",
+      "native_name": "DewfordTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "pacifidlog_water",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE101",
+      "native_name": "Route101",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE102",
+      "native_name": "Route102",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE103",
+      "native_name": "Route103",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE104",
+      "native_name": "Route104",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MAUVILLE_CITY",
+      "native_name": "MauvilleCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "city",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE105",
+      "native_name": "Route105",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE106",
+      "native_name": "Route106",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE107",
+      "native_name": "Route107",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE108",
+      "native_name": "Route108",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE109",
+      "native_name": "Route109",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "beach",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110",
+      "native_name": "Route110",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE111",
+      "native_name": "Route111",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {
+        "SAND": "desert"
+      },
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE112",
+      "native_name": "Route112",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE113",
+      "native_name": "Route113",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "ashfield",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE114",
+      "native_name": "Route114",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "rocks": 20,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE115",
+      "native_name": "Route115",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE116",
+      "native_name": "Route116",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE117",
+      "native_name": "Route117",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE118",
+      "native_name": "Route118",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE119",
+      "native_name": "Route119",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 15
+      },
+      "land": "rainforest",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE120",
+      "native_name": "Route120",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "rainforest",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE121",
+      "native_name": "Route121",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE122",
+      "native_name": "Route122",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE123",
+      "native_name": "Route123",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE124",
+      "native_name": "Route124",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE125",
+      "native_name": "Route125",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE126",
+      "native_name": "Route126",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE127",
+      "native_name": "Route127",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE128",
+      "native_name": "Route128",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE129",
+      "native_name": "Route129",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE130",
+      "native_name": "Route130",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE131",
+      "native_name": "Route131",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE132",
+      "native_name": "Route132",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE133",
+      "native_name": "Route133",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE134",
+      "native_name": "Route134",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_LILYCOVE_CITY",
+      "native_name": "LilycoveCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_UNDERWATER1",
+      "native_name": "Underwater1",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_UNDERWATER2",
+      "native_name": "Underwater2",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MOSSDEEP_CITY",
+      "native_name": "MossdeepCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SOOTOPOLIS_CITY",
+      "native_name": "SootopolisCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 1,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY",
+      "native_name": "EverGrandeCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MAUVILLE_CITY_GYM",
+      "native_name": "MauvilleCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mauville_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_RUSTBORO_CITY_GYM",
+      "native_name": "RustboroCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "rustboro_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_FORTREE_CITY_GYM",
+      "native_name": "FortreeCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "fortree_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MOSSDEEP_CITY_GYM",
+      "native_name": "MossdeepCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mossdeep_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SOOTOPOLIS_CITY_GYM_1F",
+      "native_name": "SootopolisCity_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SOOTOPOLIS_CITY_GYM_B1F",
+      "native_name": "SootopolisCity_Gym_B1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "native_name": "EverGrandeCity_SidneysRoom",
+      "mapType": 8,
+      "battleType": 4,
+      "wild_rates": {},
+      "land": "sidney_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "native_name": "EverGrandeCity_PhoebesRoom",
+      "mapType": 8,
+      "battleType": 5,
+      "wild_rates": {},
+      "land": "phoebe_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "native_name": "EverGrandeCity_GlaciasRoom",
+      "mapType": 8,
+      "battleType": 6,
+      "wild_rates": {},
+      "land": "glacia_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "native_name": "EverGrandeCity_DrakesRoom",
+      "mapType": 8,
+      "battleType": 7,
+      "wild_rates": {},
+      "land": "drake_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "native_name": "EverGrandeCity_ChampionsRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "hoenn_champion",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_METEOR_FALLS_1F_1R",
+      "native_name": "MeteorFalls_1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_METEOR_FALLS_1F_2R",
+      "native_name": "MeteorFalls_1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_GRANITE_CAVE_STEVENS_ROOM",
+      "native_name": "GraniteCave_StevensRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_PETALBURG_WOODS",
+      "native_name": "PetalburgWoods",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "forest",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_CHIMNEY",
+      "native_name": "MtChimney",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "volcanic_crater",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_JAGGED_PASS",
+      "native_name": "JaggedPass",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "volcanic_slope",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_FIERY_PATH",
+      "native_name": "FieryPath",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "volcanic_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_1F",
+      "native_name": "MtPyre_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_2F",
+      "native_name": "MtPyre_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_3F",
+      "native_name": "MtPyre_3F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_4F",
+      "native_name": "MtPyre_4F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_5F",
+      "native_name": "MtPyre_5F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_METEOR_FALLS_B1F_1R",
+      "native_name": "MeteorFalls_B1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_6F",
+      "native_name": "MtPyre_6F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_EXTERIOR",
+      "native_name": "MtPyre_Exterior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_AQUA_HIDEOUT_1F",
+      "native_name": "AquaHideout_1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_AQUA_HIDEOUT_B1F",
+      "native_name": "AquaHideout_B1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_AQUA_HIDEOUT_B2F",
+      "native_name": "AquaHideout_B2F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ENTRANCE",
+      "native_name": "SeafloorCavern_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM1",
+      "native_name": "SeafloorCavern_Room1",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM2",
+      "native_name": "SeafloorCavern_Room2",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_METEOR_FALLS_B1F_2R",
+      "native_name": "MeteorFalls_B1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM3",
+      "native_name": "SeafloorCavern_Room3",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM4",
+      "native_name": "SeafloorCavern_Room4",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM5",
+      "native_name": "SeafloorCavern_Room5",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM6",
+      "native_name": "SeafloorCavern_Room6",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10,
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM7",
+      "native_name": "SeafloorCavern_Room7",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10,
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM8",
+      "native_name": "SeafloorCavern_Room8",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SEAFLOOR_CAVERN_ROOM9",
+      "native_name": "SeafloorCavern_Room9",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_ENTRANCE",
+      "native_name": "CaveOfOrigin_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_1F",
+      "native_name": "CaveOfOrigin_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_B1F",
+      "native_name": "CaveOfOrigin_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_RUSTURF_TUNNEL",
+      "native_name": "RusturfTunnel",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_B2F",
+      "native_name": "CaveOfOrigin_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_B3F",
+      "native_name": "CaveOfOrigin_B3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_CAVE_OF_ORIGIN_B4F",
+      "native_name": "CaveOfOrigin_B4F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_VICTORY_ROAD_1F",
+      "native_name": "VictoryRoad_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_VICTORY_ROAD_B1F",
+      "native_name": "VictoryRoad_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_VICTORY_ROAD_B2F",
+      "native_name": "VictoryRoad_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10
+      },
+      "land": "cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+      "native_name": "ShoalCave_LowTideEntranceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10,
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+      "native_name": "ShoalCave_LowTideInnerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10,
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "native_name": "ShoalCave_LowTideStairsRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+      "native_name": "ShoalCave_LowTideLowerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_NEW_MAUVILLE_ENTRANCE",
+      "native_name": "NewMauville_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_NEW_MAUVILLE_INSIDE",
+      "native_name": "NewMauville_Inside",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ABANDONED_SHIP_CORRIDORS_1F",
+      "native_name": "AbandonedShip_Corridors_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ABANDONED_SHIP_CORRIDORS_B1F",
+      "native_name": "AbandonedShip_Corridors_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ABANDONED_SHIP_ROOMS_B1F",
+      "native_name": "AbandonedShip_Rooms_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 20
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_DESERT_RUINS",
+      "native_name": "DesertRuins",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_desert_ruins",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ABANDONED_SHIP_ROOMS2_1F",
+      "native_name": "AbandonedShip_Rooms2_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+      "native_name": "AbandonedShip_HiddenFloorCorridors",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 20
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ISLAND_CAVE",
+      "native_name": "IslandCave",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_island_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ANCIENT_TOMB",
+      "native_name": "AncientTomb",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_ancient_tomb",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_GRANITE_CAVE_1F",
+      "native_name": "GraniteCave_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MAGMA_HIDEOUT_1F",
+      "native_name": "MagmaHideout_1F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MAGMA_HIDEOUT_B1F",
+      "native_name": "MagmaHideout_B1F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_MAGMA_HIDEOUT_B2F",
+      "native_name": "MagmaHideout_B2F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SKY_PILLAR_1F",
+      "native_name": "SkyPillar_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_GRANITE_CAVE_B1F",
+      "native_name": "GraniteCave_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SKY_PILLAR_3F",
+      "native_name": "SkyPillar_3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+      "native_name": "ShoalCave_LowTideIceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "seafoam_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SKY_PILLAR_5F",
+      "native_name": "SkyPillar_5F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SKY_PILLAR_TOP",
+      "native_name": "SkyPillar_Top",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "sky_pillar_summit",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_GRANITE_CAVE_B2F",
+      "native_name": "GraniteCave_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SS_TIDAL_LOWER_DECK",
+      "native_name": "SSTidalLowerDeck",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SS_TIDAL_ROOMS",
+      "native_name": "SSTidalRooms",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SAFARI_ZONE_NORTHWEST",
+      "native_name": "SafariZone_Northwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "fishing": 35,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SAFARI_ZONE_NORTHEAST",
+      "native_name": "SafariZone_Northeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 25,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SOUTHERN_ISLAND_INTERIOR",
+      "native_name": "SouthernIsland_Interior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "southern_island",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SAFARI_ZONE_SOUTHWEST",
+      "native_name": "SafariZone_Southwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "fishing": 35,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SAFARI_ZONE_SOUTHEAST",
+      "native_name": "SafariZone_Southeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE109_SEASHORE_HOUSE",
+      "native_name": "Route109_SeashoreHouse",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seashore_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE8",
+      "native_name": "Route110_TrickHousePuzzle8",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "native_name": "Route110_TrickHousePuzzle1",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE2",
+      "native_name": "Route110_TrickHousePuzzle2",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE3",
+      "native_name": "Route110_TrickHousePuzzle3",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE4",
+      "native_name": "Route110_TrickHousePuzzle4",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE6",
+      "native_name": "Route110_TrickHousePuzzle6",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE110_TRICK_HOUSE_PUZZLE7",
+      "native_name": "Route110_TrickHousePuzzle7",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE119_WEATHER_INSTITUTE_1F",
+      "native_name": "Route119_WeatherInstitute_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE119_WEATHER_INSTITUTE_2F",
+      "native_name": "Route119_WeatherInstitute_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_DEWFORD_TOWN_GYM",
+      "native_name": "DewfordTown_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "dewford_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_LAVARIDGE_TOWN_GYM_1F",
+      "native_name": "LavaridgeTown_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "lavaridge_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_PETALBURG_CITY_GYM",
+      "native_name": "PetalburgCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "petalburg_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "ruby",
+      "id": "RU_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+      "native_name": "SlateportCity_OceanicMuseum_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "oceanic_museum",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_PETALBURG_CITY",
+      "native_name": "PetalburgCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 1,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SLATEPORT_CITY",
+      "native_name": "SlateportCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_DEWFORD_TOWN",
+      "native_name": "DewfordTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "pacifidlog_water",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE101",
+      "native_name": "Route101",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE102",
+      "native_name": "Route102",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE103",
+      "native_name": "Route103",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE104",
+      "native_name": "Route104",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MAUVILLE_CITY",
+      "native_name": "MauvilleCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "city",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE105",
+      "native_name": "Route105",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE106",
+      "native_name": "Route106",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE107",
+      "native_name": "Route107",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE108",
+      "native_name": "Route108",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE109",
+      "native_name": "Route109",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "beach",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110",
+      "native_name": "Route110",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE111",
+      "native_name": "Route111",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30,
+        "rocks": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {
+        "SAND": "desert"
+      },
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE112",
+      "native_name": "Route112",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE113",
+      "native_name": "Route113",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "ashfield",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE114",
+      "native_name": "Route114",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30,
+        "rocks": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE115",
+      "native_name": "Route115",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE116",
+      "native_name": "Route116",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE117",
+      "native_name": "Route117",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE118",
+      "native_name": "Route118",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE119",
+      "native_name": "Route119",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 15,
+        "fishing": 30
+      },
+      "land": "rainforest",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE120",
+      "native_name": "Route120",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "rainforest",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE121",
+      "native_name": "Route121",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE122",
+      "native_name": "Route122",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE123",
+      "native_name": "Route123",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE124",
+      "native_name": "Route124",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE125",
+      "native_name": "Route125",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE126",
+      "native_name": "Route126",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE127",
+      "native_name": "Route127",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE128",
+      "native_name": "Route128",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE129",
+      "native_name": "Route129",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE130",
+      "native_name": "Route130",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE131",
+      "native_name": "Route131",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE132",
+      "native_name": "Route132",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE133",
+      "native_name": "Route133",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE134",
+      "native_name": "Route134",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_LILYCOVE_CITY",
+      "native_name": "LilycoveCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_UNDERWATER1",
+      "native_name": "Underwater1",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_UNDERWATER2",
+      "native_name": "Underwater2",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MOSSDEEP_CITY",
+      "native_name": "MossdeepCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SOOTOPOLIS_CITY",
+      "native_name": "SootopolisCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 1,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY",
+      "native_name": "EverGrandeCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MAUVILLE_CITY_GYM",
+      "native_name": "MauvilleCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mauville_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_RUSTBORO_CITY_GYM",
+      "native_name": "RustboroCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "rustboro_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_FORTREE_CITY_GYM",
+      "native_name": "FortreeCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "fortree_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MOSSDEEP_CITY_GYM",
+      "native_name": "MossdeepCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mossdeep_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SOOTOPOLIS_CITY_GYM_1F",
+      "native_name": "SootopolisCity_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SOOTOPOLIS_CITY_GYM_B1F",
+      "native_name": "SootopolisCity_Gym_B1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "native_name": "EverGrandeCity_SidneysRoom",
+      "mapType": 8,
+      "battleType": 4,
+      "wild_rates": {},
+      "land": "sidney_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "native_name": "EverGrandeCity_PhoebesRoom",
+      "mapType": 8,
+      "battleType": 5,
+      "wild_rates": {},
+      "land": "phoebe_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "native_name": "EverGrandeCity_GlaciasRoom",
+      "mapType": 8,
+      "battleType": 6,
+      "wild_rates": {},
+      "land": "glacia_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "native_name": "EverGrandeCity_DrakesRoom",
+      "mapType": 8,
+      "battleType": 7,
+      "wild_rates": {},
+      "land": "drake_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "native_name": "EverGrandeCity_ChampionsRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "hoenn_champion",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_METEOR_FALLS_1F_1R",
+      "native_name": "MeteorFalls_1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_METEOR_FALLS_1F_2R",
+      "native_name": "MeteorFalls_1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_GRANITE_CAVE_STEVENS_ROOM",
+      "native_name": "GraniteCave_StevensRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_PETALBURG_WOODS",
+      "native_name": "PetalburgWoods",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "forest",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_CHIMNEY",
+      "native_name": "MtChimney",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "volcanic_crater",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_JAGGED_PASS",
+      "native_name": "JaggedPass",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "volcanic_slope",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_FIERY_PATH",
+      "native_name": "FieryPath",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "volcanic_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_1F",
+      "native_name": "MtPyre_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_2F",
+      "native_name": "MtPyre_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_3F",
+      "native_name": "MtPyre_3F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_4F",
+      "native_name": "MtPyre_4F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_5F",
+      "native_name": "MtPyre_5F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_METEOR_FALLS_B1F_1R",
+      "native_name": "MeteorFalls_B1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_6F",
+      "native_name": "MtPyre_6F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_EXTERIOR",
+      "native_name": "MtPyre_Exterior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_AQUA_HIDEOUT_1F",
+      "native_name": "AquaHideout_1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_AQUA_HIDEOUT_B1F",
+      "native_name": "AquaHideout_B1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_AQUA_HIDEOUT_B2F",
+      "native_name": "AquaHideout_B2F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ENTRANCE",
+      "native_name": "SeafloorCavern_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM1",
+      "native_name": "SeafloorCavern_Room1",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM2",
+      "native_name": "SeafloorCavern_Room2",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_METEOR_FALLS_B1F_2R",
+      "native_name": "MeteorFalls_B1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM3",
+      "native_name": "SeafloorCavern_Room3",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM4",
+      "native_name": "SeafloorCavern_Room4",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM5",
+      "native_name": "SeafloorCavern_Room5",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM6",
+      "native_name": "SeafloorCavern_Room6",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM7",
+      "native_name": "SeafloorCavern_Room7",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM8",
+      "native_name": "SeafloorCavern_Room8",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SEAFLOOR_CAVERN_ROOM9",
+      "native_name": "SeafloorCavern_Room9",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_ENTRANCE",
+      "native_name": "CaveOfOrigin_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_1F",
+      "native_name": "CaveOfOrigin_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_B1F",
+      "native_name": "CaveOfOrigin_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_RUSTURF_TUNNEL",
+      "native_name": "RusturfTunnel",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_B2F",
+      "native_name": "CaveOfOrigin_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_B3F",
+      "native_name": "CaveOfOrigin_B3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_CAVE_OF_ORIGIN_B4F",
+      "native_name": "CaveOfOrigin_B4F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_VICTORY_ROAD_1F",
+      "native_name": "VictoryRoad_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_VICTORY_ROAD_B1F",
+      "native_name": "VictoryRoad_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_VICTORY_ROAD_B2F",
+      "native_name": "VictoryRoad_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+      "native_name": "ShoalCave_LowTideEntranceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+      "native_name": "ShoalCave_LowTideInnerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "native_name": "ShoalCave_LowTideStairsRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+      "native_name": "ShoalCave_LowTideLowerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_NEW_MAUVILLE_ENTRANCE",
+      "native_name": "NewMauville_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_NEW_MAUVILLE_INSIDE",
+      "native_name": "NewMauville_Inside",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ABANDONED_SHIP_CORRIDORS_1F",
+      "native_name": "AbandonedShip_Corridors_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ABANDONED_SHIP_CORRIDORS_B1F",
+      "native_name": "AbandonedShip_Corridors_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ABANDONED_SHIP_ROOMS_B1F",
+      "native_name": "AbandonedShip_Rooms_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 20
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_DESERT_RUINS",
+      "native_name": "DesertRuins",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_desert_ruins",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ABANDONED_SHIP_ROOMS2_1F",
+      "native_name": "AbandonedShip_Rooms2_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+      "native_name": "AbandonedShip_HiddenFloorCorridors",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 20
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ISLAND_CAVE",
+      "native_name": "IslandCave",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_island_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ANCIENT_TOMB",
+      "native_name": "AncientTomb",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_ancient_tomb",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_GRANITE_CAVE_1F",
+      "native_name": "GraniteCave_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MAGMA_HIDEOUT_1F",
+      "native_name": "MagmaHideout_1F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MAGMA_HIDEOUT_B1F",
+      "native_name": "MagmaHideout_B1F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MAGMA_HIDEOUT_B2F",
+      "native_name": "MagmaHideout_B2F",
+      "mapType": 8,
+      "battleType": 2,
+      "wild_rates": {},
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SKY_PILLAR_1F",
+      "native_name": "SkyPillar_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_GRANITE_CAVE_B1F",
+      "native_name": "GraniteCave_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SKY_PILLAR_3F",
+      "native_name": "SkyPillar_3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+      "native_name": "ShoalCave_LowTideIceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "seafoam_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SKY_PILLAR_5F",
+      "native_name": "SkyPillar_5F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SKY_PILLAR_TOP",
+      "native_name": "SkyPillar_Top",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "sky_pillar_summit",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_GRANITE_CAVE_B2F",
+      "native_name": "GraniteCave_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SS_TIDAL_LOWER_DECK",
+      "native_name": "SSTidalLowerDeck",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SS_TIDAL_ROOMS",
+      "native_name": "SSTidalRooms",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SAFARI_ZONE_NORTHWEST",
+      "native_name": "SafariZone_Northwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "land": 25,
+        "fishing": 35
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SAFARI_ZONE_NORTHEAST",
+      "native_name": "SafariZone_Northeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 25,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SOUTHERN_ISLAND_INTERIOR",
+      "native_name": "SouthernIsland_Interior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "southern_island",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SAFARI_ZONE_SOUTHWEST",
+      "native_name": "SafariZone_Southwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "land": 25,
+        "fishing": 35
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SAFARI_ZONE_SOUTHEAST",
+      "native_name": "SafariZone_Southeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE109_SEASHORE_HOUSE",
+      "native_name": "Route109_SeashoreHouse",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seashore_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE8",
+      "native_name": "Route110_TrickHousePuzzle8",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "native_name": "Route110_TrickHousePuzzle1",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE2",
+      "native_name": "Route110_TrickHousePuzzle2",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE3",
+      "native_name": "Route110_TrickHousePuzzle3",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE4",
+      "native_name": "Route110_TrickHousePuzzle4",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE6",
+      "native_name": "Route110_TrickHousePuzzle6",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE110_TRICK_HOUSE_PUZZLE7",
+      "native_name": "Route110_TrickHousePuzzle7",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE119_WEATHER_INSTITUTE_1F",
+      "native_name": "Route119_WeatherInstitute_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE119_WEATHER_INSTITUTE_2F",
+      "native_name": "Route119_WeatherInstitute_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_DEWFORD_TOWN_GYM",
+      "native_name": "DewfordTown_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "dewford_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_LAVARIDGE_TOWN_GYM_1F",
+      "native_name": "LavaridgeTown_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "lavaridge_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_PETALBURG_CITY_GYM",
+      "native_name": "PetalburgCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "petalburg_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+      "native_name": "SlateportCity_OceanicMuseum_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "oceanic_museum",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_PETALBURG_CITY",
+      "native_name": "PetalburgCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 1
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SLATEPORT_CITY",
+      "native_name": "SlateportCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_DEWFORD_TOWN",
+      "native_name": "DewfordTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "mapType": 1,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "pacifidlog_water",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE101",
+      "native_name": "Route101",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE102",
+      "native_name": "Route102",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE103",
+      "native_name": "Route103",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE104",
+      "native_name": "Route104",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAUVILLE_CITY",
+      "native_name": "MauvilleCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "city",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE105",
+      "native_name": "Route105",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE106",
+      "native_name": "Route106",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE107",
+      "native_name": "Route107",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE108",
+      "native_name": "Route108",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE109",
+      "native_name": "Route109",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "beach",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110",
+      "native_name": "Route110",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE111",
+      "native_name": "Route111",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 10,
+        "rocks": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {
+        "SAND": "desert"
+      },
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE112",
+      "native_name": "Route112",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE113",
+      "native_name": "Route113",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "ashfield",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE114",
+      "native_name": "Route114",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20,
+        "rocks": 20
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_RUSTBORO_CITY",
+      "native_name": "RustboroCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "city",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE115",
+      "native_name": "Route115",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE116",
+      "native_name": "Route116",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "grassland",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE117",
+      "native_name": "Route117",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE118",
+      "native_name": "Route118",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE119",
+      "native_name": "Route119",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 15,
+        "fishing": 30
+      },
+      "land": "rainforest",
+      "water": "river",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE120",
+      "native_name": "Route120",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "rainforest",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE121",
+      "native_name": "Route121",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE122",
+      "native_name": "Route122",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE123",
+      "native_name": "Route123",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "grassland",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE124",
+      "native_name": "Route124",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE125",
+      "native_name": "Route125",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE126",
+      "native_name": "Route126",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE127",
+      "native_name": "Route127",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE128",
+      "native_name": "Route128",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE129",
+      "native_name": "Route129",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE130",
+      "native_name": "Route130",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE131",
+      "native_name": "Route131",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE132",
+      "native_name": "Route132",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE133",
+      "native_name": "Route133",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE134",
+      "native_name": "Route134",
+      "mapType": 6,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 30,
+        "water": 4
+      },
+      "land": "ocean",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_LILYCOVE_CITY",
+      "native_name": "LilycoveCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_UNDERWATER_ROUTE124",
+      "native_name": "Underwater_Route124",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_UNDERWATER_ROUTE126",
+      "native_name": "Underwater_Route126",
+      "mapType": 5,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4
+      },
+      "land": "underwater_ocean",
+      "water": "underwater_ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MOSSDEEP_CITY",
+      "native_name": "MossdeepCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SOOTOPOLIS_CITY",
+      "native_name": "SootopolisCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 1
+      },
+      "land": "city",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY",
+      "native_name": "EverGrandeCity",
+      "mapType": 2,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "city",
+      "water": "ocean",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAUVILLE_CITY_GYM",
+      "native_name": "MauvilleCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mauville_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_RUSTBORO_CITY_GYM",
+      "native_name": "RustboroCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "rustboro_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_FORTREE_CITY_GYM",
+      "native_name": "FortreeCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "fortree_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MOSSDEEP_CITY_GYM",
+      "native_name": "MossdeepCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "mossdeep_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MOSSDEEP_CITY_SPACE_CENTER_1F",
+      "native_name": "MossdeepCity_SpaceCenter_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "space_center",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SOOTOPOLIS_CITY_GYM_1F",
+      "native_name": "SootopolisCity_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SOOTOPOLIS_CITY_GYM_B1F",
+      "native_name": "SootopolisCity_Gym_B1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "sootopolis_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "native_name": "EverGrandeCity_SidneysRoom",
+      "mapType": 8,
+      "battleType": 4,
+      "wild_rates": {},
+      "land": "sidney_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "native_name": "EverGrandeCity_PhoebesRoom",
+      "mapType": 8,
+      "battleType": 5,
+      "wild_rates": {},
+      "land": "phoebe_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "native_name": "EverGrandeCity_GlaciasRoom",
+      "mapType": 8,
+      "battleType": 6,
+      "wild_rates": {},
+      "land": "glacia_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "native_name": "EverGrandeCity_DrakesRoom",
+      "mapType": 8,
+      "battleType": 7,
+      "wild_rates": {},
+      "land": "drake_chamber",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_EVER_GRANDE_CITY_CHAMPIONS_ROOM",
+      "native_name": "EverGrandeCity_ChampionsRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "hoenn_champion",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_METEOR_FALLS_1F_1R",
+      "native_name": "MeteorFalls_1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_METEOR_FALLS_1F_2R",
+      "native_name": "MeteorFalls_1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_GRANITE_CAVE_STEVENS_ROOM",
+      "native_name": "GraniteCave_StevensRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ARTISAN_CAVE_1F",
+      "native_name": "ArtisanCave_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "artisan_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MARINE_CAVE_END",
+      "native_name": "MarineCave_End",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "marine_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_TERRA_CAVE_END",
+      "native_name": "TerraCave_End",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "terra_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ALTERING_CAVE",
+      "native_name": "AlteringCave",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 7
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_METEOR_FALLS_STEVENS_CAVE",
+      "native_name": "MeteorFalls_StevensCave",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "meteor_falls",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_PETALBURG_WOODS",
+      "native_name": "PetalburgWoods",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "forest",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_CHIMNEY",
+      "native_name": "MtChimney",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "volcanic_crater",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_JAGGED_PASS",
+      "native_name": "JaggedPass",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 20
+      },
+      "land": "volcanic_slope",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_FIERY_PATH",
+      "native_name": "FieryPath",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "volcanic_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_1F",
+      "native_name": "MtPyre_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_2F",
+      "native_name": "MtPyre_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_3F",
+      "native_name": "MtPyre_3F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_4F",
+      "native_name": "MtPyre_4F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_5F",
+      "native_name": "MtPyre_5F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_METEOR_FALLS_B1F_1R",
+      "native_name": "MeteorFalls_B1F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_6F",
+      "native_name": "MtPyre_6F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_interior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_EXTERIOR",
+      "native_name": "MtPyre_Exterior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "mt_pyre_exterior",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_AQUA_HIDEOUT_1F",
+      "native_name": "AquaHideout_1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_AQUA_HIDEOUT_B1F",
+      "native_name": "AquaHideout_B1F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_AQUA_HIDEOUT_B2F",
+      "native_name": "AquaHideout_B2F",
+      "mapType": 8,
+      "battleType": 3,
+      "wild_rates": {},
+      "land": "aqua_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ENTRANCE",
+      "native_name": "SeafloorCavern_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM1",
+      "native_name": "SeafloorCavern_Room1",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM2",
+      "native_name": "SeafloorCavern_Room2",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_METEOR_FALLS_B1F_2R",
+      "native_name": "MeteorFalls_B1F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "meteor_falls",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM3",
+      "native_name": "SeafloorCavern_Room3",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM4",
+      "native_name": "SeafloorCavern_Room4",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM5",
+      "native_name": "SeafloorCavern_Room5",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM6",
+      "native_name": "SeafloorCavern_Room6",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM7",
+      "native_name": "SeafloorCavern_Room7",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 4,
+        "fishing": 10
+      },
+      "land": "seafloor_cavern",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM8",
+      "native_name": "SeafloorCavern_Room8",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SEAFLOOR_CAVERN_ROOM9",
+      "native_name": "SeafloorCavern_Room9",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seafloor_cavern",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_CAVE_OF_ORIGIN_ENTRANCE",
+      "native_name": "CaveOfOrigin_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_CAVE_OF_ORIGIN_1F",
+      "native_name": "CaveOfOrigin_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 4
+      },
+      "land": "cave_of_origin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_RUSTURF_TUNNEL",
+      "native_name": "RusturfTunnel",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_VICTORY_ROAD_1F",
+      "native_name": "VictoryRoad_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_VICTORY_ROAD_B1F",
+      "native_name": "VictoryRoad_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_VICTORY_ROAD_B2F",
+      "native_name": "VictoryRoad_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 30
+      },
+      "land": "cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+      "native_name": "ShoalCave_LowTideEntranceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+      "native_name": "ShoalCave_LowTideInnerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 4,
+        "land": 10,
+        "fishing": 10
+      },
+      "land": "shoal_cave",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "native_name": "ShoalCave_LowTideStairsRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+      "native_name": "ShoalCave_LowTideLowerRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "shoal_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_NEW_MAUVILLE_ENTRANCE",
+      "native_name": "NewMauville_Entrance",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_NEW_MAUVILLE_INSIDE",
+      "native_name": "NewMauville_Inside",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "new_mauville",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_CORRIDORS_1F",
+      "native_name": "AbandonedShip_Corridors_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_ROOMS_1F",
+      "native_name": "AbandonedShip_Rooms_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_CORRIDORS_B1F",
+      "native_name": "AbandonedShip_Corridors_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_ROOMS_B1F",
+      "native_name": "AbandonedShip_Rooms_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 20,
+        "water": 4
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_DESERT_RUINS",
+      "native_name": "DesertRuins",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_desert_ruins",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_ROOMS2_1F",
+      "native_name": "AbandonedShip_Rooms2_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "abandoned_ship",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+      "native_name": "AbandonedShip_HiddenFloorCorridors",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "fishing": 20,
+        "water": 4
+      },
+      "land": "abandoned_ship",
+      "water": "cave_water",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ISLAND_CAVE",
+      "native_name": "IslandCave",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_island_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ANCIENT_TOMB",
+      "native_name": "AncientTomb",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "regi_ancient_tomb",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_GRANITE_CAVE_1F",
+      "native_name": "GraniteCave_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SKY_PILLAR_1F",
+      "native_name": "SkyPillar_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_GRANITE_CAVE_B1F",
+      "native_name": "GraniteCave_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SKY_PILLAR_3F",
+      "native_name": "SkyPillar_3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+      "native_name": "ShoalCave_LowTideIceRoom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "seafoam_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SKY_PILLAR_5F",
+      "native_name": "SkyPillar_5F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "sky_pillar",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SKY_PILLAR_TOP",
+      "native_name": "SkyPillar_Top",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "sky_pillar_summit",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_1F",
+      "native_name": "MagmaHideout_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_2F_1R",
+      "native_name": "MagmaHideout_2F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_2F_2R",
+      "native_name": "MagmaHideout_2F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_3F_1R",
+      "native_name": "MagmaHideout_3F_1R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_GRANITE_CAVE_B2F",
+      "native_name": "GraniteCave_B2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 20,
+        "land": 10
+      },
+      "land": "granite_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_3F_2R",
+      "native_name": "MagmaHideout_3F_2R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_4F",
+      "native_name": "MagmaHideout_4F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_3F_3R",
+      "native_name": "MagmaHideout_3F_3R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_2F_3R",
+      "native_name": "MagmaHideout_2F_3R",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "magma_hideout",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MIRAGE_TOWER_1F",
+      "native_name": "MirageTower_1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "desert_ruin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MIRAGE_TOWER_2F",
+      "native_name": "MirageTower_2F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "desert_ruin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MIRAGE_TOWER_3F",
+      "native_name": "MirageTower_3F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "desert_ruin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MIRAGE_TOWER_4F",
+      "native_name": "MirageTower_4F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "desert_ruin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_DESERT_UNDERPASS",
+      "native_name": "DesertUnderpass",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "desert_underpass",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ARTISAN_CAVE_B1F",
+      "native_name": "ArtisanCave_B1F",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 10
+      },
+      "land": "artisan_cave",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SS_TIDAL_LOWER_DECK",
+      "native_name": "SSTidalLowerDeck",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SS_TIDAL_ROOMS",
+      "native_name": "SSTidalRooms",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "ship_cabin",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE01",
+      "native_name": "BattlePyramidSquare01",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE02",
+      "native_name": "BattlePyramidSquare02",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE03",
+      "native_name": "BattlePyramidSquare03",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE04",
+      "native_name": "BattlePyramidSquare04",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE05",
+      "native_name": "BattlePyramidSquare05",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE06",
+      "native_name": "BattlePyramidSquare06",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE07",
+      "native_name": "BattlePyramidSquare07",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE08",
+      "native_name": "BattlePyramidSquare08",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE09",
+      "native_name": "BattlePyramidSquare09",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE10",
+      "native_name": "BattlePyramidSquare10",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE11",
+      "native_name": "BattlePyramidSquare11",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE12",
+      "native_name": "BattlePyramidSquare12",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE13",
+      "native_name": "BattlePyramidSquare13",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE14",
+      "native_name": "BattlePyramidSquare14",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE15",
+      "native_name": "BattlePyramidSquare15",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_PYRAMID_SQUARE16",
+      "native_name": "BattlePyramidSquare16",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_NORTHWEST",
+      "native_name": "SafariZone_Northwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "land": 25,
+        "fishing": 35
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_NORTH",
+      "native_name": "SafariZone_North",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 25,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SOUTHERN_ISLAND_INTERIOR",
+      "native_name": "SouthernIsland_Interior",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "southern_island",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_NORTHEAST",
+      "native_name": "SafariZone_Northeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "rocks": 25,
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_SOUTHEAST",
+      "native_name": "SafariZone_Southeast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "land": 25,
+        "fishing": 35
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_OUTSIDE_EAST",
+      "native_name": "BattleFrontier_OutsideEast",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "frontier_gardens",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleTowerMultiBattleRoom",
+      "mapType": 8,
+      "battleType": 8,
+      "wild_rates": {},
+      "land": "hoenn_battle_tower",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_SOUTHWEST",
+      "native_name": "SafariZone_Southwest",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "water": 9,
+        "land": 25,
+        "fishing": 35
+      },
+      "land": "hoenn_safari",
+      "water": "pond",
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_DOME_PRE_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleDomePreBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_dome",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_DOME_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleDomeBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_dome",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattlePalaceBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_palace",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PYRAMID_FLOOR",
+      "native_name": "BattleFrontier_BattlePyramidFloor",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PYRAMID_TOP",
+      "native_name": "BattleFrontier_BattlePyramidTop",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_pyramid",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SAFARI_ZONE_SOUTH",
+      "native_name": "SafariZone_South",
+      "mapType": 3,
+      "battleType": 0,
+      "wild_rates": {
+        "land": 25
+      },
+      "land": "hoenn_safari",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleArenaBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_arena",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleFactoryPreBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_factory",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleFactoryBattleRoom",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_factory",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL",
+      "native_name": "BattleFrontier_BattlePikeRoomNormal",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_pike",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_FINAL",
+      "native_name": "BattleFrontier_BattlePikeRoomFinal",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_pike",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS",
+      "native_name": "BattleFrontier_BattlePikeRoomWildMons",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "battle_pike",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_FARAWAY_ISLAND_INTERIOR",
+      "native_name": "FarawayIsland_Interior",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "faraway_island",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BIRTH_ISLAND_EXTERIOR",
+      "native_name": "BirthIsland_Exterior",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "birth_island",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_NAVEL_ROCK_TOP",
+      "native_name": "NavelRock_Top",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "navel_rock_summit",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_BATTLE_FRONTIER_BATTLE_TOWER_BATTLE_ROOM",
+      "native_name": "BattleFrontier_BattleTowerBattleRoom",
+      "mapType": 8,
+      "battleType": 8,
+      "wild_rates": {},
+      "land": "hoenn_battle_tower",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_NAVEL_ROCK_BOTTOM",
+      "native_name": "NavelRock_Bottom",
+      "mapType": 4,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "navel_rock_depths",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "native battle-special location"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE109_SEASHORE_HOUSE",
+      "native_name": "Route109_SeashoreHouse",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "seashore_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE8",
+      "native_name": "Route110_TrickHousePuzzle8",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE1",
+      "native_name": "Route110_TrickHousePuzzle1",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE2",
+      "native_name": "Route110_TrickHousePuzzle2",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE3",
+      "native_name": "Route110_TrickHousePuzzle3",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE4",
+      "native_name": "Route110_TrickHousePuzzle4",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE6",
+      "native_name": "Route110_TrickHousePuzzle6",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE110_TRICK_HOUSE_PUZZLE7",
+      "native_name": "Route110_TrickHousePuzzle7",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "trick_house",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE119_WEATHER_INSTITUTE_1F",
+      "native_name": "Route119_WeatherInstitute_1F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE119_WEATHER_INSTITUTE_2F",
+      "native_name": "Route119_WeatherInstitute_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "weather_institute",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_DEWFORD_TOWN_GYM",
+      "native_name": "DewfordTown_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "dewford_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_LAVARIDGE_TOWN_GYM_1F",
+      "native_name": "LavaridgeTown_Gym_1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "lavaridge_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_LAVARIDGE_TOWN_GYM_B1F",
+      "native_name": "LavaridgeTown_Gym_B1F",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "lavaridge_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_PETALBURG_CITY_GYM",
+      "native_name": "PetalburgCity_Gym",
+      "mapType": 8,
+      "battleType": 1,
+      "wild_rates": {},
+      "land": "petalburg_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SLATEPORT_CITY_OCEANIC_MUSEUM_2F",
+      "native_name": "SlateportCity_OceanicMuseum_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "oceanic_museum",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    }
+  ],
+  "reuse_candidates": {
+    "beach": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "cave": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "cave_water": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "city": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "forest": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "grassland": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "ocean": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "pond": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "river": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "seafoam_cave": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    },
+    "ship_cabin": {
+      "available_aspects": [
+        "16:10",
+        "16:9",
+        "21:9",
+        "32:9",
+        "3:2",
+        "4:3",
+        "9:16",
+        "9:19.5",
+        "9:20"
+      ],
+      "complete": true
+    }
+  },
+  "new_or_incomplete_families": [
+    "abandoned_ship",
+    "aqua_hideout",
+    "artisan_cave",
+    "ashfield",
+    "battle_arena",
+    "battle_dome",
+    "battle_factory",
+    "battle_palace",
+    "battle_pike",
+    "battle_pyramid",
+    "birth_island",
+    "cave_of_origin",
+    "desert",
+    "desert_ruin",
+    "desert_underpass",
+    "dewford_gym",
+    "drake_chamber",
+    "faraway_island",
+    "fortree_gym",
+    "frontier_gardens",
+    "glacia_chamber",
+    "granite_cave",
+    "hoenn_battle_tower",
+    "hoenn_champion",
+    "hoenn_safari",
+    "lavaridge_gym",
+    "magma_hideout",
+    "marine_cave",
+    "mauville_gym",
+    "meteor_falls",
+    "mossdeep_gym",
+    "mt_pyre_exterior",
+    "mt_pyre_interior",
+    "navel_rock_depths",
+    "navel_rock_summit",
+    "new_mauville",
+    "oceanic_museum",
+    "pacifidlog_water",
+    "petalburg_gym",
+    "phoebe_chamber",
+    "rainforest",
+    "regi_ancient_tomb",
+    "regi_desert_ruins",
+    "regi_island_cave",
+    "rustboro_gym",
+    "seafloor_cavern",
+    "seashore_house",
+    "shoal_cave",
+    "sidney_chamber",
+    "sky_pillar",
+    "sky_pillar_summit",
+    "sootopolis_gym",
+    "southern_island",
+    "space_center",
+    "terra_cave",
+    "trick_house",
+    "underwater_ocean",
+    "volcanic_cave",
+    "volcanic_crater",
+    "volcanic_slope",
+    "weather_institute"
+  ],
+  "unclassified_battle_maps": [],
+  "excluded_unused_maps": [
+    {
+      "game": "ruby",
+      "map": "RU_ROUTE104_PROTOTYPE",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "ruby",
+      "map": "RU_ROUTE104_PROTOTYPE_PRETTY_PETAL_FLOWER_SHOP",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "sapphire",
+      "map": "SA_ROUTE104_PROTOTYPE",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "sapphire",
+      "map": "SA_ROUTE104_PROTOTYPE_PRETTY_PETAL_FLOWER_SHOP",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "emerald",
+      "map": "EM_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP1",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "emerald",
+      "map": "EM_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "emerald",
+      "map": "EM_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "emerald",
+      "map": "EM_ROUTE104_PROTOTYPE",
+      "reason": "Unused/prototype native map; no artwork queued"
+    },
+    {
+      "game": "emerald",
+      "map": "EM_ROUTE104_PROTOTYPE_PRETTY_PETAL_FLOWER_SHOP",
+      "reason": "Unused/prototype native map; no artwork queued"
+    }
+  ],
+  "minimum_new_aspect_compositions": 549,
+  "limitations": [
+    "New families still need original art, separate outdoor night scenes and mound pairing.",
+    "Review mixed-terrain routes, story/legendary specials and generated Frontier battles before enabling.",
+    "Existing scenery is a reuse candidate, not proof of matching Hoenn interiors or sprite contact."
+  ],
+  "generated_sources": [
+    {
+      "family": "ashfield",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/ashfield/ashfield-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "ashfield",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/ashfield/ashfield-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    }
+  ]
+}
