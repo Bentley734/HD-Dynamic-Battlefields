@@ -22,14 +22,37 @@
       "size": "900x1600",
       "period": "night",
       "observation": "clear ground and visible sprite/mound contact"
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "period": "night",
+      "revision": "v2",
+      "observation": "Raised treeline leaves clear ground behind enemy mound; sprite contact retained"
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "period": "night",
+      "revision": "v2",
+      "observation": "Raised treeline leaves clear ground behind enemy mound; sprite contact retained"
     }
   ],
-  "status": "partial calibration; development only",
+  "status": "partial calibration; known art correction pending",
   "remaining": [
     "six unreviewed aspect families",
     "all species/contact points",
     "third-party sprite/UI combinations after integration",
     "doubles and move animations",
     "mound color blending"
+  ],
+  "additional_aspect_batch": "loader/native/additional-aspects-summary.json",
+  "additional_render_cases": 30,
+  "known_visual_issues": [
+    {
+      "size": "1200x800",
+      "period": "day",
+      "issue": "3:2 daytime treeline overlaps enemy mound; needs raised ground boundary"
+    }
   ]
 }

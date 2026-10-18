@@ -13,7 +13,8 @@ WORKSPACE = ROOT.parent
 p = argparse.ArgumentParser(description=__doc__)
 p.add_argument('--mode', choices=['direct', 'loader', 'menu-customizer'], default='loader')
 p.add_argument('--game', action='append', choices=['ruby', 'sapphire', 'emerald'])
-p.add_argument('--size', action='append', choices=['1280x720', '5120x1440', '900x1600'])
+p.add_argument('--size', action='append', choices=['1280x720', '5120x1440', '900x1600', '1024x768', '1440x900', '1200x800', '2100x900', '900x1950', '900x2000'])
+p.add_argument('--report-name',default='runner-summary.json',choices=['runner-summary.json','additional-aspects-summary.json'])
 p.add_argument('--love', type=Path, default=WORKSPACE / '.tools/love-audio-runtime/love-probe.exe')
 p.add_argument('--menu-root', type=Path, default=WORKSPACE / '.work/menu-gen3-font-fix')
 p.add_argument('--content', choices=['none', 'national', '1025'], default='none')
@@ -79,5 +80,5 @@ for game in a.game or ['ruby', 'sapphire', 'emerald']:
 summary = {'mode': a.mode, 'content': a.content, 'processes': len(reports), 'scene_cases': sum(r['scene_checks'] for r in reports),
            'candidate_manifest_only': loader, 'reports': reports,
            'limitations': 'Limited grassland/ashfield/rainforest and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage.'}
-(output / 'runner-summary.json').write_text(json.dumps(summary, indent=2) + '\n')
+(output / a.report_name).write_text(json.dumps(summary, indent=2) + '\n')
 print(json.dumps(summary))

@@ -220,3 +220,14 @@ call transforms, clocks, missing-family fallback and options. The Lua suite
 also passes. This does not certify all nine aspects, arbitrary resizing,
 species contact points, sprite/UI mod combinations, doubles or animations.
 Further art/mound color blending and remaining aspect calibration are pending.
+
+Additional-aspect native captures now include Emerald4:3,16:10,3:2,21:9,
+9:19.5 and9:20 (30 limited render checks). Review exposed low nighttime
+treelines in16:10 and21:9: separately saved v2 edits raise them, preserve
+originals/prior metadata and have correct image reference dimensions. The
+final additional-aspect batch and source integrity checks pass. Native
+captures of those two revisions were visually reviewed with clear ground
+behind the enemy mound. Review also exposes a remaining3:2 DAY issue: the
+forest floor is too low behind the enemy mound. Do not interpret passing
+render checks as visual calibration approval; fix this and inspect other
+daytime compositions before approving the family.
