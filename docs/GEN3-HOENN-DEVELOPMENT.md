@@ -277,3 +277,14 @@ standing regions and preserves originals;9:20 sources match their ratio.
 Full-family source checks pass (hashes, dimensions, anchor bounds and crop
 pixel provenance). Mound material selection, native integration and gameplay
 calibration are next; source completion does not imply release readiness.
+
+Desert candidate integration: catalog126 compositions/14 families. Route111
+SAND selects desert, with separate outdoor night art. Yellow sand mounds were
+visibly mismatched; original pale mineral-sand day/night cutouts replace them,
+with approved perimeter cleanup and preserved originals/prompts. Reviewed:
+Ruby16:9day/night, Emerald32:9night and9:16day, clear ground and contact.
+The63-case final native batch passes across R/S/E and three sizes; Lua suite
+passes. Missing-art fallback explicitly selects unfinished underwater scenery
+now that desert is available. Six aspect families, third-party sprite/UI
+combinations, all species, doubles, animations and sandstorm appearance remain
+unverified. Published eligibility/packs unchanged; no partial release.

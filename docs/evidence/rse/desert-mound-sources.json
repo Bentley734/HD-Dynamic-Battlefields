@@ -1,0 +1,27 @@
+{
+  "mounds": [
+    {
+      "period": "day",
+      "source": "art/mounds/mineral-sand/mound-mineral-sand-01.png",
+      "source_sha256": "0db32ea31b6daaa22bf1f9a55e3c3fbbd6b10377c64be03c169b9026f7e95540",
+      "cleaned": "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+      "cleaned_sha256": "85397e6223c01e9cecc1c53b79353073ea4cff4257ffa5dad61925c9fdc2af8e",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "period": "night",
+      "source": "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+      "source_sha256": "b78a2ffffaa5f937ff9dc873ccc97e191ac4a9a20af065c6e22bd841179aba84",
+      "cleaned": "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+      "cleaned_sha256": "ccbf1e604aa0eeb5b71689b083c3cdeaea5041b2961c064c225339b9645c91ff",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ],
+  "method": "Separate built-in day/night generation, approved perimeter cleanup; originals and exact prompts retained"
+}

@@ -1,0 +1,34 @@
+{
+  "status": "development candidate, partial calibration",
+  "catalog_compositions": 126,
+  "catalog_families": 14,
+  "runtime_report": "loader/native/runner-summary.json",
+  "render_cases": 63,
+  "reviewed": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "period": "day and night",
+      "observation": "Contact on clear ground, matching pale mineral palette"
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "period": "night",
+      "observation": "Clear ground and contact"
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "period": "day",
+      "observation": "Clear ground and contact"
+    }
+  ],
+  "remaining": [
+    "six aspect families native review",
+    "sprite/UI mod combinations",
+    "other species/forms",
+    "doubles and animations",
+    "weather/sandstorm appearance"
+  ]
+}
