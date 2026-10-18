@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/desert-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/desert-01-32x9-original.txt",
+    "family": "desert",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "sand",
+      "sandstone"
+    ],
+    "crop_pixels": [
+      5,
+      0,
+      2085,
+      585
+    ],
+    "source_geometry": {
+      "horizon_y": 0.19,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5134308510638298
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.49787234042553197
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.35006648936170215
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33450797872340426
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/desert-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/desert-01-32x9-night-original.txt",
+    "family": "desert",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "sand",
+      "sandstone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2172,
+      611
+    ],
+    "source_geometry": {
+      "horizon_y": 0.22,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5569889502762431
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5401104972375691
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.37976519337016573
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3628867403314917
+        ]
+      }
+    }
+  }
+]

@@ -261,3 +261,11 @@ and draft geometry accompany the sources. Partial PNG/hash/dimension/aspect
 checks pass;3:2 night horizon is recorded at its actual lower boundary,
 not the requested prompt value. No runtime desert integration or gameplay
 calibration is claimed.
+
+Desert now adds16:10,21:9 and32:9 separate day/night sources, bringing
+the initial family to14 paintings across seven aspect pairs. Exact prompts
+and draft geometry are retained. The32:9 generator returned excess canvas;
+reviewed crop-only rectangles remove spare ground without stretching, keep
+both standing positions and pass pixel identity checks against preserved
+originals. Two tall-phone pairs and complete-family validation/calibration
+remain. These assets are not runtime-enabled or release-approved yet.

@@ -1,6 +1,20 @@
 {
   "sources": [
     {
+      "source": "art/gen3/16x10/desert/desert-01-16x10-night.png",
+      "sha256": "3a6af30deaf31b363b643464e9ab3d159e76a3c63b4bcc1a3067683f2266dfb9",
+      "period": "night",
+      "aspect": "16:10",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/16x10/desert/desert-01-16x10.png",
+      "sha256": "afe2958bbb10574d1f6929794cf1f48bc950be8a7210c185c46807328062279e",
+      "period": "day",
+      "aspect": "16:10",
+      "reused": false
+    },
+    {
       "source": "art/gen3/16x9/desert/desert-01-16x9-night.png",
       "sha256": "eebbdbe13486137583ea2672cacef35e00942dfab22b92cb188f190a7e784f46",
       "period": "night",
@@ -13,6 +27,34 @@
       "period": "day",
       "aspect": "16:9",
       "reused": true
+    },
+    {
+      "source": "art/gen3/21x9/desert/desert-01-21x9-night.png",
+      "sha256": "d7233cc91582066f6c4807abc1c29371d1f322c0418ecfbdc7b4383b47d7b55e",
+      "period": "night",
+      "aspect": "21:9",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/21x9/desert/desert-01-21x9.png",
+      "sha256": "01f50203480865a315168219cd5a2dcdb8cff67972447af0b4242ed9e66233a1",
+      "period": "day",
+      "aspect": "21:9",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/32x9/desert/desert-01-32x9-night.png",
+      "sha256": "f189f0d7817ae09de6190ef704b7ab525f7c785dce4dec23a115e2aeba7aa99d",
+      "period": "night",
+      "aspect": "32:9",
+      "reused": false
+    },
+    {
+      "source": "art/gen3/32x9/desert/desert-01-32x9.png",
+      "sha256": "3a017b5fd633987a1a6d044b2a65f4361c616ab4e35586e0ccaf7bcba7cacdab",
+      "period": "day",
+      "aspect": "32:9",
+      "reused": false
     },
     {
       "source": "art/gen3/3x2/desert/desert-01-3x2-night.png",
@@ -57,8 +99,9 @@
       "reused": false
     }
   ],
-  "aspect_pairs_complete": 4,
+  "aspect_pairs_complete": 7,
   "aspect_pairs_required": 9,
   "runtime_calibrated": false,
-  "scope": "Partial source integrity, image dimensions, aspect ratios and draft ground anchors; not complete family coverage"
+  "crop_pixel_identity_verified": true,
+  "scope": "Partial source integrity, image dimensions, aspect ratios, crop-only provenance and draft ground anchors; not complete family coverage"
 }

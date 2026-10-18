@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "desert-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2080,
+    "height": 585
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.24423931623931625,
+  "background": "art/gen3/32x9/desert/desert-01-32x9.png",
+  "sha256": "3a017b5fd633987a1a6d044b2a65f4361c616ab4e35586e0ccaf7bcba7cacdab",
+  "mound_material_candidates": [
+    "sand",
+    "sandstone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3494471153846153,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.3494471153846153,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6510336538461539,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.6510336538461539,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/32x9/desert-01-32x9-original.png",
+    "original_sha256": "a31998b6c760fbc874207d66fefab2b0d1659c5b5145a7b5d24bb7041b58867a",
+    "original_size": {
+      "width": 2091,
+      "height": 752
+    },
+    "crop_pixels": [
+      5,
+      0,
+      2085,
+      585
+    ],
+    "source_geometry": {
+      "horizon_y": 0.19,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5134308510638298
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.49787234042553197
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.35006648936170215
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33450797872340426
+        ]
+      }
+    }
+  }
+}
