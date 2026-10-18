@@ -302,3 +302,13 @@ ambient lighting, not a terrestrial room; outdoor rain/snow must not appear.
 Eight aspect sources, appropriate blue seabed mound material and native
 calibration remain. The catalog builder also needs ambient-only family
 integration support before this family becomes runtime-enabled.
+
+Underwater ocean's initial ambient source set now has nine original paintings,
+one dedicated composition per aspect family. Exact built-in generation prompts
+are saved beside each source.32:9 and9:20 use reviewed user-authorized crops
+without resampling, with originals preserved. Full source validation passes:
+PNG integrity/SHA, dimensions, ratios, draft anchor bounds and exact crop
+pixels. These are ambient indoor-period records to prevent outdoor rain/snow
+underwater; this is not terrestrial indoor art. Native calibration, a matching
+blue seabed mound and ambient-only catalog integration remain pending. The
+family is not runtime-enabled, and no new release is published.

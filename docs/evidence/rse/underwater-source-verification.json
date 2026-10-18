@@ -1,0 +1,94 @@
+{
+  "family": "underwater_ocean",
+  "generation": 3,
+  "source_files": 9,
+  "aspects": 9,
+  "periods": [
+    "indoor"
+  ],
+  "verified": true,
+  "scope": "Source integrity, dimensions, draft anchor bounds and crop-only pixel provenance. Gameplay/mound contact remains unverified.",
+  "files": [
+    {
+      "path": "art/gen3/16x10/underwater_ocean/underwater_ocean-01-16x10.png",
+      "aspect_ratio": "16:10",
+      "period": "indoor",
+      "width": 1586,
+      "height": 992,
+      "sha256": "d87ad8398d8d2525654361db97634c2686d8fffbf02ef5fbd46cf0c7d268094e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/underwater_ocean/underwater_ocean-01-16x9.png",
+      "aspect_ratio": "16:9",
+      "period": "indoor",
+      "width": 1672,
+      "height": 941,
+      "sha256": "77b93ec7a370c00667f85dc2349385198d2a516b8502dee01795fa0cbe6dd263",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/underwater_ocean/underwater_ocean-01-21x9.png",
+      "aspect_ratio": "21:9",
+      "period": "indoor",
+      "width": 1916,
+      "height": 821,
+      "sha256": "84dd78677044114601b55f49492a0188625a6576a73c108ae4b50efee275ef89",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/32x9/underwater_ocean/underwater_ocean-01-32x9.png",
+      "aspect_ratio": "32:9",
+      "period": "indoor",
+      "width": 2172,
+      "height": 611,
+      "sha256": "d27b6dc70091daca7e3661bf5146cadde33999a4e3ee0527eb77d0c37c3a1da4",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/3x2/underwater_ocean/underwater_ocean-01-3x2.png",
+      "aspect_ratio": "3:2",
+      "period": "indoor",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "14ef8837787d0106176a2ca0242856c5a40f1adbf4d00201632a0d004c4e707a",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/underwater_ocean/underwater_ocean-01-4x3.png",
+      "aspect_ratio": "4:3",
+      "period": "indoor",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "fd208ca5cf47467ec96931f7a49f2489cd9ba40abe698dea8eda20dc3c3a6a24",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/underwater_ocean/underwater_ocean-01-9x16.png",
+      "aspect_ratio": "9:16",
+      "period": "indoor",
+      "width": 941,
+      "height": 1672,
+      "sha256": "eb95bdddf576bef4fe6001fe0ad974466be02877504975ca103858362dffec29",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/underwater_ocean/underwater_ocean-01-9x19_5.png",
+      "aspect_ratio": "9:19.5",
+      "period": "indoor",
+      "width": 853,
+      "height": 1844,
+      "sha256": "af648796ece41e7c425ad8692c7b951edcef159c42de6a43c69acb97f430bce2",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/underwater_ocean/underwater_ocean-01-9x20.png",
+      "aspect_ratio": "9:20",
+      "period": "indoor",
+      "width": 798,
+      "height": 1774,
+      "sha256": "f1022bec79b7c0f94a90f0ee002fc84a68e1a4e689f0299166e306cf6b85c05c",
+      "crop_only": true
+    }
+  ]
+}
