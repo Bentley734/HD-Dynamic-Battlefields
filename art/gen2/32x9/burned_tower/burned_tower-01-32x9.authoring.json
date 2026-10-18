@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "burned_tower-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2144,
+    "height": 603
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.3559535655058043,
+  "background": "art/gen2/32x9/burned_tower/burned_tower-01-32x9.png",
+  "sha256": "cb16f789671ce3ea6dafd44bc00980946eeee78a8cc5c77e88d59b3a84e2bf39",
+  "mound_material_candidates": [
+    "floor-charcoal",
+    "cave-warm-basalt"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3491837686567164,
+      0.6939966832504146
+    ],
+    "pokemon_ground_anchor": [
+      0.3491837686567164,
+      0.6698507462686567
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6512826492537314,
+      0.4404643449419569
+    ],
+    "pokemon_ground_anchor": [
+      0.6512826492537314,
+      0.41631840796019903
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User approved trimming excess canvas on 2026-10-17.",
+    "original": "art/gen2/drafts/32x9/burned_tower-01-attempt-01.png",
+    "original_sha256": "267776b2935f3e3648bfbe35d38a572d06ac8ef7ef9aa9353c941811abbf0b7d",
+    "original_size": {
+      "width": 2159,
+      "height": 728
+    },
+    "crop_pixels": [
+      7,
+      62,
+      2151,
+      665
+    ],
+    "source_geometry": {
+      "horizon_y": 0.38,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "composition_id": "cinnabar_coast-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2144,
+    "height": 603
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.2727031509121061,
+  "background": "art/gen2/32x9/cinnabar_coast/cinnabar_coast-01-32x9.png",
+  "sha256": "5f44e322508e09b6fc81637908b29512a0b32bf4426801438c47ec4d0c211ba2",
+  "mound_material_candidates": [
+    "islet-rock"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.34804104477611936,
+      0.6929353233830846
+    ],
+    "pokemon_ground_anchor": [
+      0.34804104477611936,
+      0.668922056384743
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6519589552238806,
+      0.4648092868988391
+    ],
+    "pokemon_ground_anchor": [
+      0.6519589552238806,
+      0.44079601990049755
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User approved trimming excess canvas on 2026-10-17.",
+    "original": "art/gen2/drafts/32x9/cinnabar_coast-01-attempt-01.png",
+    "original_sha256": "48c3d6880091eb503c5dd4d3ed5fe5d5cc3ae1f906af87c807a5d0699db77936",
+    "original_size": {
+      "width": 2172,
+      "height": 724
+    },
+    "crop_pixels": [
+      14,
+      60,
+      2158,
+      663
+    ],
+    "source_geometry": {
+      "horizon_y": 0.31,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  }
+}

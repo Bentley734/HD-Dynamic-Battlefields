@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "tin_tower_roof-01-32x9-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2144,
+    "height": 603
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "night",
+  "horizon_y": 0.5397014925373135,
+  "background": "art/gen2/32x9/tin_tower_roof/tin_tower_roof-01-32x9-night.png",
+  "sha256": "2ecef94bb2e7efbf5be6d1d0dbc10591a5b7b1cea80f64c0fccc8f310de04ed3",
+  "mound_material_candidates": [
+    "floor-clay",
+    "sandstone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.34888059701492535,
+      0.7570149253731343
+    ],
+    "pokemon_ground_anchor": [
+      0.34888059701492535,
+      0.7328689883913765
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6511194029850746,
+      0.612139303482587
+    ],
+    "pokemon_ground_anchor": [
+      0.6511194029850746,
+      0.5879933665008292
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User approved trimming excess canvas on 2026-10-17.",
+    "original": "art/gen2/drafts/32x9/tin_tower_roof-01-night-attempt-01.png",
+    "original_sha256": "864fb4d38638a67781bb7a167be3619ccb09e2988677be39f3515a8471524699",
+    "original_size": {
+      "width": 2160,
+      "height": 728
+    },
+    "crop_pixels": [
+      8,
+      24,
+      2152,
+      627
+    ],
+    "source_geometry": {
+      "horizon_y": 0.48,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.54
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.52
+        ]
+      }
+    }
+  }
+}
