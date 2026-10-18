@@ -203,3 +203,20 @@ candidates, not evidence of runtime mound contact. Next: bind an appropriate
 forest mound, integrate the complete candidate family, and inspect native
 Hoenn captures at wide, ultrawide and portrait sizes before treating it as
 release-ready.
+
+Rainforest candidate integration (2026-10-18): the development catalog now
+contains117 compositions across13 families. Rainforest uses separate cleaned
+day/night forest mound cutouts, preserving original art and recording edge
+processing in art/derivatives.json. Its outdoor policy enables the independently
+painted night image. The published manifest/download packs remain unchanged.
+
+The first native16:9 night capture exposed the enemy mound overlapping the
+forest backdrop. A targeted image edit raised the ground boundary; the v1
+image and metadata remain preserved, and the active record references v2
+with its own SHA/geometry and saved edit prompt. Emerald1280x720 v2 was
+visually reviewed, plus5120x1440 and900x1600 night captures. All45 final
+render checks pass across R/S/E and those three sizes, including native UI
+call transforms, clocks, missing-family fallback and options. The Lua suite
+also passes. This does not certify all nine aspects, arbitrary resizing,
+species contact points, sprite/UI mod combinations, doubles or animations.
+Further art/mound color blending and remaining aspect calibration are pending.

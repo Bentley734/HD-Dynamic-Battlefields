@@ -5,6 +5,10 @@
     "ashfield": {
       "day": "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
       "night": "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png"
+    },
+    "rainforest": {
+      "day": "art/mounds/forest/mound-forest-01-clean.png",
+      "night": "art/mounds/forest/mound-forest-01-night-clean.png"
     }
   }
 }

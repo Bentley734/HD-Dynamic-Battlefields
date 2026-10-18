@@ -1,7 +1,7 @@
 -- Explicit atmosphere policy; interiors must never acquire outdoor weather
 -- merely because their map name resembles an outdoor location.
 return {
- ashfield={outdoor=true},
+ ashfield={outdoor=true},rainforest={outdoor=true},
  tin_tower_roof={outdoor=true},harbor_water={outdoor=true},cinnabar_coast={outdoor=true},
  grassland={outdoor=true},forest={outdoor=true},mountain={outdoor=true},rocky_terrain={outdoor=true},
  beach={outdoor=true},coastline={outdoor=true},ocean={outdoor=true},river={outdoor=true},pond={outdoor=true},

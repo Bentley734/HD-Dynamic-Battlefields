@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "composition_id": "rainforest-01-16x9-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspect_ratio": "16:9",
+  "time_of_day": "night",
+  "horizon_y": 0.46,
+  "background": "art/gen3/16x9/rainforest/rainforest-01-16x9-night.png",
+  "sha256": "701f2791a92458067a55996d9021f5fd351921539a036619942a42ca54a6dc0c",
+  "mound_material_candidates": [
+    "forest"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.51
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.5
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

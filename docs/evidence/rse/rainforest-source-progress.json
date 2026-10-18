@@ -13,8 +13,8 @@
       "period": "day"
     },
     {
-      "source": "art/gen3/16x9/rainforest/rainforest-01-16x9-night.png",
-      "sha256": "701f2791a92458067a55996d9021f5fd351921539a036619942a42ca54a6dc0c",
+      "source": "art/gen3/16x9/rainforest/rainforest-01-16x9-night-v2.png",
+      "sha256": "5e53fc700c3e91c34fd0359f71b0b19696ac744dc8195e971879179c231bc133",
       "aspect": "16:9",
       "period": "night"
     },

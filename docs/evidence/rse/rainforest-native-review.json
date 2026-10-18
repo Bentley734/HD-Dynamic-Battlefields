@@ -1,0 +1,35 @@
+{
+  "catalog_compositions": 117,
+  "families": 13,
+  "runtime_batch": "loader/native/runner-summary.json",
+  "runtime_cases": 45,
+  "visual_review": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "period": "night",
+      "revision": "16x9v2",
+      "observation": "enemy mound rests over clear ground; native UI retained"
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "period": "night",
+      "observation": "ground behind enemy mound, sprite on mound"
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "period": "night",
+      "observation": "clear ground and visible sprite/mound contact"
+    }
+  ],
+  "status": "partial calibration; development only",
+  "remaining": [
+    "six unreviewed aspect families",
+    "all species/contact points",
+    "third-party sprite/UI combinations after integration",
+    "doubles and move animations",
+    "mound color blending"
+  ]
+}

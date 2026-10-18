@@ -70,7 +70,7 @@ for game in a.game or ['ruby', 'sapphire', 'emerald']:
         if process.returncode or error.exists():
             raise RuntimeError(error.read_text() if error.exists() else process.stdout + process.stderr)
         report = json.loads((output / f'{game}-{size}-render.json').read_text())
-        assert len(report['checks']) == (3 if a.content == 'none' else 4) and report['native_clock_verified'] and report['missing_family_native_fallback']
+        assert len(report['checks']) == (5 if a.content == 'none' else 6) and report['native_clock_verified'] and report['missing_family_native_fallback']
         assert all(c['native_ui_calls_unchanged'] for c in report['checks'])
         if loader:
             assert report['real_loader'] and report['native_options_verified'] and report['species_choices'] >= 386
@@ -78,6 +78,6 @@ for game in a.game or ['ruby', 'sapphire', 'emerald']:
         print(a.mode, game, size, 'PASS', flush=True)
 summary = {'mode': a.mode, 'content': a.content, 'processes': len(reports), 'scene_cases': sum(r['scene_checks'] for r in reports),
            'candidate_manifest_only': loader, 'reports': reports,
-           'limitations': 'Limited grassland/ashfield and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage.'}
+           'limitations': 'Limited grassland/ashfield/rainforest and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage.'}
 (output / 'runner-summary.json').write_text(json.dumps(summary, indent=2) + '\n')
 print(json.dumps(summary))

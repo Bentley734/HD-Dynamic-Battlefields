@@ -68,7 +68,7 @@ return function(project,game,Battle,cache,write)
   end
   return table.concat(trace,'\n')
  end
- for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'}})do
+ for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'},{'ROUTE119','rainforest','day'},{'ROUTE119','rainforest','night'}})do
   start(case[1]);values.timeMode=case[3]
   for _,size in ipairs({{probeW,probeH,'current'}})do
    local stem=case[2]..'-'..case[3]..'-'..size[3]

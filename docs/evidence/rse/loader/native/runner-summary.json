@@ -1,14 +1,55 @@
 {
   "mode": "loader",
-  "processes": 1,
-  "scene_cases": 3,
+  "content": "none",
+  "processes": 9,
+  "scene_cases": 45,
   "candidate_manifest_only": true,
   "reports": [
     {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 5
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 5
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 5
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 5
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 5
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 5
+    },
+    {
       "game": "emerald",
       "size": "1280x720",
-      "scene_checks": 3
+      "scene_checks": 5
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 5
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 5
     }
   ],
-  "limitations": "Limited grassland/ashfield fixtures. No full playthrough, doubles, animations, custom UI profiles or external sprite-mod coverage."
+  "limitations": "Limited grassland/ashfield/rainforest and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
 }
