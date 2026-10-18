@@ -3,6 +3,7 @@ local project=workspace..'/HD-Dynamic-Battlefields'
 local engine=workspace..'/.work/hd-battlefields-latest/v0.3.89/engine'
 local version=os.getenv('HDB_GAME_VERSION')or'emerald'
 local output=project..'/docs/evidence/rse'
+if os.getenv('HDB_LOADER')=='1'then output=output..'/loader/'..(os.getenv('HDB_MENU_CUSTOMIZER')=='1'and'menu-customizer'or'native')end
 local function read(path)local f=io.open(path,'rb');if not f then return end;local b=f:read('*a');f:close();return b end
 local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));f:write(bytes);f:close()end
 function love.load()
@@ -12,6 +13,9 @@ function love.load()
   local cacheRoot=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..version..'/'
   local function source(path)
    if path:match('^%a:[/\\]')then return read(path)end
+   local id,relative=path:match('^mods/([^/]+)/(.+)$')
+   if id=='hd-dynamic-battlefields'then return read(project..'/'..relative)end
+   if id=='gen3transparency'then return read((os.getenv('HDB_MENU_ROOT')or workspace..'/.work/menu-gen3-font-fix')..'/'..relative)end
    local relative=path:gsub('^'..version..'/','')
    return read(cacheRoot..relative)or read(engine..'/'..path)
   end
@@ -46,8 +50,10 @@ function love.load()
    count=count+1
   end
   local prefix=({ruby='RU_',sapphire='SA_',emerald='EM_'})[version]
-  local session={version=version,playerName='PROBE',trainerId=1,map=prefix..'ROUTE101',party={}}
+  local session={version=version,playerName='PROBE',trainerId=1,map=prefix..'ROUTE101',party={},
+   meta={playthroughId='hd-rse-native-fixture'}}
   local game={data={maps=maps,pokemon={},generation=3,constants={}},session=session,phase='field'}
+  game.save=require('src.core.game3.save_schema_firered').toSaveTable(session)
   require('src.core.Game3')._exposeModData(game)
   require('src.mods.Gen3Compat').bind(function()return game end)
   local SaveData=require('src.core.SaveData');local options=SaveData.defaultOptions()

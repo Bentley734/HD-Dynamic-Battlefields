@@ -100,8 +100,47 @@ A separately painted higher-horizon v2 replaces that source reference, with a
 crop-only 32:9 derivative. The v1 painting and authoring record remain preserved.
 The revised native 5120×1440 capture places the mound over visible ground.
 
-These checks use direct mod entry into the real engine, not the real mod
+These first checks use direct mod entry into the real engine, not the real mod
 Loader/Sandbox. They do not validate UI-mod profiles, sprite-mod combinations,
 double battles, animations, every species or the other ten candidate families.
 The cleaned mound palette/texture also needs broader visual review. No Hoenn
 release has been published from this development stage.
+
+## Loader, Menu Customizer and native options batch
+
+The next batch loads the actual mod through v0.3.89's Loader/Sandbox. The
+published manifest remains unchanged; the fixture adds only its active Hoenn
+game to a candidate manifest in the virtual filesystem. This proves execution
+under the real sandbox, not production eligibility or release readiness.
+
+Eighteen isolated processes cover all three games at 1280×720, 5120×1440 and
+900×1600, once with HD Battlefields alone and once with Menu Customizer 3.35.15
+at its default configuration. Grassland day and ashfield day/night produce
+54 scene cases. Native healthbox/menu call transforms remain equal with scenery
+disabled/enabled. Native clock selection and unfinished-desert fallback pass.
+
+Each process also opens the actual game-specific OPTIONS pages, navigates
+HD Battlefields → Mounds → Species Positions, selects native Treecko, applies
+a one-native-pixel horizontal correction and resets it. All 386 native species
+are exposed by the chooser. The fixture uses the native save schema to create
+an identified save facade alongside its session; storage writes go only to the
+virtual filesystem, not live game saves. Early storage rejection was a fixture
+omission of that facade, not evidence of a runtime storage defect.
+
+The options bridge now resolves the active screen through Screens.get instead
+of assuming FR/LG's menu. Ruby/Sapphire use their native _pages stack; Emerald
+uses _st.pages. Public adjustment guards follow the active Game3 session.
+FireRed with National Dex Gen 3 + G9 Battle Sprites + Gen3 HD Sprites passes a
+separate 1280×720 regression, including its chooser and twelve habitat cases.
+
+Evidence: `docs/evidence/rse/loader/integration-summary.json` and
+`docs/evidence/rse/frlg-options-regression.json`. The Menu Customizer screenshots
+were visually reviewed in Emerald; default consumer font/layout behavior is
+preserved, not claimed repaired. User-defined UI profiles, other sprite mods,
+double battles, animation scripts and full gameplay traversal remain untested
+by this batch. Other candidate environments still need visual calibration.
+
+Reproduce a full mode with `python tools/run_rse_probe.py --mode loader` or
+`--mode menu-customizer`. Use `--game emerald --size 1280x720` for one case.
+The runner accepts alternate LÖVE and Menu Customizer paths, prepares its
+directory inventory and records the exact limited run scope.

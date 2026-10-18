@@ -1,0 +1,14 @@
+{
+  "mode": "loader",
+  "processes": 1,
+  "scene_cases": 3,
+  "candidate_manifest_only": true,
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 3
+    }
+  ],
+  "limitations": "Limited grassland/ashfield fixtures. No full playthrough, doubles, animations, custom UI profiles or external sprite-mod coverage."
+}

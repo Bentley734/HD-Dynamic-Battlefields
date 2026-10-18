@@ -1,0 +1,162 @@
+{
+  "engine": "0.3.89",
+  "processes": 18,
+  "scene_cases": 54,
+  "native_options_navigation_adjustment_reset": true,
+  "native_ui_call_transforms_unchanged": true,
+  "menu_customizer_version": "3.35.15",
+  "candidate_manifest_only": true,
+  "published_manifest_unchanged": true,
+  "save_files_written": false,
+  "reports": [
+    {
+      "mode": "native",
+      "game": "ruby",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/ruby-1280x720-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "ruby",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/ruby-5120x1440-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "ruby",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/ruby-900x1600-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "sapphire",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/sapphire-1280x720-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "sapphire",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/sapphire-5120x1440-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "sapphire",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/sapphire-900x1600-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "emerald",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/emerald-1280x720-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "emerald",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/emerald-5120x1440-render.json"
+    },
+    {
+      "mode": "native",
+      "game": "emerald",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/native/emerald-900x1600-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "ruby",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/ruby-1280x720-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "ruby",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/ruby-5120x1440-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "ruby",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/ruby-900x1600-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "sapphire",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/sapphire-1280x720-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "sapphire",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/sapphire-5120x1440-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "sapphire",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/sapphire-900x1600-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "emerald",
+      "size": "1280x720",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/emerald-1280x720-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "emerald",
+      "size": "5120x1440",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/emerald-5120x1440-render.json"
+    },
+    {
+      "mode": "menu-customizer",
+      "game": "emerald",
+      "size": "900x1600",
+      "checks": 3,
+      "species_choices": 386,
+      "report": "docs/evidence/rse/loader/menu-customizer/emerald-900x1600-render.json"
+    }
+  ],
+  "limitations": [
+    "Candidate manifest adds only the active Hoenn game in virtual filesystem; production release manifest still excludes R/S/E",
+    "Menu Customizer default configuration tested; custom profiles and other sprite mods not covered",
+    "Doubles, animations, all species, other candidate families and full gameplay traversal remain unverified"
+  ]
+}

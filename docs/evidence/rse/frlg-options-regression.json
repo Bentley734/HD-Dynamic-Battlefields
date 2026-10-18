@@ -1,0 +1,22 @@
+{
+  "game": "firered",
+  "engine": "0.3.89",
+  "size": [
+    1280,
+    720
+  ],
+  "actual_loader": true,
+  "candidate_manifest": false,
+  "mods": [
+    "national_dex_gen3",
+    "g9-battle-sprites-gen3",
+    "gen3-hd-sprites",
+    "hd-dynamic-battlefields"
+  ],
+  "native_species_menu": true,
+  "species_and_forms": 1153,
+  "native_ui_trace_unchanged": true,
+  "native_pixel_offsets_verified": true,
+  "habitat_render_cases": 12,
+  "scope": "Regression of shared native options bridge and existing FRLG provider after Hoenn changes. One game/size/mod configuration; not full gameplay."
+}

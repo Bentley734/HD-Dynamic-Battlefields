@@ -148,20 +148,20 @@ return function(mod)
  mod.exports.apiVersion=1
  mod.exports.getAdjustments=function()
   local game=mod.game
-  if not game or not game.save then return {}end
+  if not game or not saveIdentity(game)then return {}end
   local value=saveIdentity(game)==loadedSave and loadedAdjustments or mod.storage:read(game,'anchor-adjustments')
   if not Perspective.validateAdjustments(value)then return {}end
   return Json.decode(Json.encode(value or{}))
  end
  mod.exports.resetAssignments=function()
-  local game=mod.game;if not game or not game.save then return nil,'No active playthrough'end
+  local game=mod.game;if not game or not saveIdentity(game)then return nil,'No active playthrough'end
   local ok,err=mod.storage:write(game,'fixed-assignments',{})
   if not ok then return nil,err end
   selection:resetAssignments();lastAssignments=Json.encode({});return true
  end
  mod.exports.applyAdjustments=function(adjustments)
   local valid,why=Perspective.validateAdjustments(adjustments);if not valid then return nil,why end
-  local game=mod.game;if not game or not game.save then return nil,'No active playthrough'end
+  local game=mod.game;if not game or not saveIdentity(game)then return nil,'No active playthrough'end
   local copied=Json.decode(Json.encode(adjustments or{}))
   local ok,err=mod.storage:write(game,'anchor-adjustments',copied)
   if not ok then return nil,err end
