@@ -181,3 +181,8 @@ sources. Prompts and draft perspective records sit beside each PNG. The night
 treeline is lower, so its opponent ground anchor is recorded separately.
 Neither painting is runtime-enabled: eight aspect pairs and in-game mound
 calibration remain. Source integrity is recorded separately from coverage.
+
+Rainforest source progress: eight original paintings now cover day/night at
+16:9, 4:3, 3:2 and 9:16. Five aspect pairs remain. PNG integrity and source
+hashes pass; horizons and draft anchors reflect each painting, including
+the lower 3:2 daytime treeline. Gameplay calibration is still pending.

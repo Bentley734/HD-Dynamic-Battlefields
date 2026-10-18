@@ -11,9 +11,45 @@
       "sha256": "2ec6db40639513d95ed290e523cc430a4db529a49f3497c7f4a40f091c2eb21a",
       "aspect": "16:9",
       "period": "day"
+    },
+    {
+      "source": "art/gen3/3x2/rainforest/rainforest-01-3x2-night.png",
+      "sha256": "0eb1e1b992808dd4fbe0563d33cfce2de2b6c7fe976e6bb686126d31ee2a5169",
+      "aspect": "3:2",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/3x2/rainforest/rainforest-01-3x2.png",
+      "sha256": "4039ae3787c7eb1e4533ac71483d5d2cf0a10c6ea2553617ced71dc6ec264973",
+      "aspect": "3:2",
+      "period": "day"
+    },
+    {
+      "source": "art/gen3/4x3/rainforest/rainforest-01-4x3-night.png",
+      "sha256": "7b8285eda1813f51344422aadf097a49815ab8924ffc91c630fb97c562522f21",
+      "aspect": "4:3",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/4x3/rainforest/rainforest-01-4x3.png",
+      "sha256": "ff6f54cef1f1baa42e49edb19c40b19a9f6d2fd0c9d7ba82c1356b5896f692f0",
+      "aspect": "4:3",
+      "period": "day"
+    },
+    {
+      "source": "art/gen3/9x16/rainforest/rainforest-01-9x16-night.png",
+      "sha256": "eac37f452f14724306095e15c013c82c44a180d41a27a9ba9dcc107b6613ba94",
+      "aspect": "9:16",
+      "period": "night"
+    },
+    {
+      "source": "art/gen3/9x16/rainforest/rainforest-01-9x16.png",
+      "sha256": "e522e6723f9e0a4b45d46ff956b500f90d81ffd723bdf71fd616c6001971916d",
+      "aspect": "9:16",
+      "period": "day"
     }
   ],
-  "aspect_pairs_complete": 1,
+  "aspect_pairs_complete": 4,
   "aspect_pairs_required": 9,
   "runtime_calibrated": false,
   "method": "Built-in image generation; separate day/night originals; unchanged source pixels"
