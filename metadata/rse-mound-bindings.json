@@ -9,6 +9,10 @@
     "rainforest": {
       "day": "art/mounds/forest/mound-forest-01-clean.png",
       "night": "art/mounds/forest/mound-forest-01-night-clean.png"
+    },
+    "desert": {
+      "day": "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+      "night": "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
     }
   }
 }

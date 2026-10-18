@@ -2,54 +2,54 @@
   "mode": "loader",
   "content": "none",
   "processes": 9,
-  "scene_cases": 45,
+  "scene_cases": 63,
   "candidate_manifest_only": true,
   "reports": [
     {
       "game": "ruby",
       "size": "1280x720",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "ruby",
       "size": "5120x1440",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "ruby",
       "size": "900x1600",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "sapphire",
       "size": "1280x720",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "sapphire",
       "size": "5120x1440",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "sapphire",
       "size": "900x1600",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "1280x720",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "5120x1440",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "900x1600",
-      "scene_checks": 5
+      "scene_checks": 7
     }
   ],
-  "limitations": "Limited grassland/ashfield/rainforest and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
+  "limitations": "Limited grassland/ashfield/rainforest/desert and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
 }

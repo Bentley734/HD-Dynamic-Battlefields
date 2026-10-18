@@ -188,5 +188,33 @@
     "operation": "Rounded transparent perimeter inset, 12 source pixels, nearest interior color extension; original retained",
     "tool": "tools/clean_mound_edges.py --rounded",
     "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/sand/mound-sand-01-clean.png",
+    "source": "art/mounds/sand/mound-sand-01.png",
+    "operation": "Rounded12-source-pixel transparent perimeter inset and nearest interior color extension; originals retained",
+    "tool": "tools/clean_mound_edges.py --rounded",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/sand/mound-sand-01-night-clean.png",
+    "source": "art/mounds/sand/mound-sand-01-night.png",
+    "operation": "Rounded12-source-pixel transparent perimeter inset and nearest interior color extension; originals retained",
+    "tool": "tools/clean_mound_edges.py --rounded",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+    "source": "art/mounds/mineral-sand/mound-mineral-sand-01.png",
+    "operation": "Rounded12-source-pixel transparent perimeter inset and nearest interior color extension; originals retained",
+    "tool": "tools/clean_mound_edges.py --rounded",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+    "source": "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+    "operation": "Rounded12-source-pixel transparent perimeter inset and nearest interior color extension; originals retained",
+    "tool": "tools/clean_mound_edges.py --rounded",
+    "authorization_date": "2026-10-15"
   }
 ]
