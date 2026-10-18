@@ -75,6 +75,8 @@ def main():
         paths = set()
         for entry in entries:
             include_metadata(entry['metadata'])
+            if entry.get('night_metadata'):
+                include_metadata(entry['night_metadata'])
             paths.add(entry['background'])
             paths.update(entry.get('backgrounds', {}).values())
             paths.update(entry.get('mounds', {}).values())

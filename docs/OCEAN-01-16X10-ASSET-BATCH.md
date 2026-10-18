@@ -1,6 +1,6 @@
 # Ocean first variation: laptop and tablet
 
-Original dedicated 16:10 day/night paintings made with built-in ImageGen. Unchanged sources saved as `art/source/ocean-01-16x10.png` and `art/source/ocean-01-16x10-night.png`. Exact matching prompts retained under `art/prompts`.
+Original dedicated 16:10 day/night paintings made with built-in ImageGen. Unchanged sources saved as `art/gen1/16x10/ocean/ocean-01-16x10.png` and `art/gen1/16x10/ocean/ocean-01-16x10-night.png`. Exact matching prompts retained under `art/prompts`.
 
 Both visually inspected for high horizon, distant islands, open standing regions and absence of baked mounds. Each period independently painted. Registered with 16:10 metadata and independent grass-islet day/night mound textures. No renderer or map-rule changes.
 

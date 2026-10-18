@@ -4,12 +4,12 @@ Generated locally with built-in image_gen on 2026-10-15, after the instruction t
 
 | Aspect | Day source | Separate night source |
 |---|---|---|
-| 4:3 | art/source/river-01-4x3.png | art/source/river-01-4x3-night.png |
-| 16:10 | art/source/river-01-16x10.png | art/source/river-01-16x10-night.png |
-| 3:2 | art/source/river-01-3x2.png | art/source/river-01-3x2-night.png |
-| 21:9 | art/source/river-01-21x9.png | art/source/river-01-21x9-night.png |
-| 9:19.5 | art/source/river-01-9x19_5.png | art/source/river-01-9x19_5-night.png |
-| 9:20 | art/source/river-01-9x20.png | art/source/river-01-9x20-night.png |
+| 4:3 | art/gen1/4x3/river/river-01-4x3.png | art/gen1/4x3/river/river-01-4x3-night.png |
+| 16:10 | art/gen1/16x10/river/river-01-16x10.png | art/gen1/16x10/river/river-01-16x10-night.png |
+| 3:2 | art/gen1/3x2/river/river-01-3x2.png | art/gen1/3x2/river/river-01-3x2-night.png |
+| 21:9 | art/gen1/21x9/river/river-01-21x9.png | art/gen1/21x9/river/river-01-21x9-night.png |
+| 9:19.5 | art/gen1/9x19_5/river/river-01-9x19_5.png | art/gen1/9x19_5/river/river-01-9x19_5-night.png |
+| 9:20 | art/gen1/9x20/river/river-01-9x20.png | art/gen1/9x20/river/river-01-9x20-night.png |
 
 Prompt files have the same stems under art/prompts/. art/SOURCES.json records actual dimensions, SHA-256 hashes and provenance. Original generator outputs remain in the Codex generated_images directory as well.
 

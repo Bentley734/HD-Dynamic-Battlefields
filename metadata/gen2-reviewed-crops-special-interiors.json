@@ -1,0 +1,157 @@
+[
+  {
+    "family": "battle_tower",
+    "source": "art/gen2/drafts/32x9/battle_tower-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/battle_tower-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      7,
+      43,
+      2215,
+      664
+    ],
+    "mounds": [
+      "floor-gray",
+      "floor-ivory"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "dance_theater",
+    "source": "art/gen2/drafts/32x9/dance_theater-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/dance_theater-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      8,
+      43,
+      2216,
+      664
+    ],
+    "mounds": [
+      "floor-beige",
+      "sandstone"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.42,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "elite_four_karen",
+    "source": "art/gen2/drafts/32x9/elite_four_karen-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/elite_four_karen-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      44,
+      2212,
+      665
+    ],
+    "mounds": [
+      "carpet-blue"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.31,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "olivine_lighthouse",
+    "source": "art/gen2/drafts/32x9/olivine_lighthouse-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/olivine_lighthouse-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      44,
+      2212,
+      665
+    ],
+    "mounds": [
+      "limestone",
+      "floor-ivory"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.37,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  }
+]

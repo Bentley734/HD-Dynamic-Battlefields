@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "repository": "Bentley734/HD-Dynamic-Battlefields",
+  "source_commit": "7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8",
+  "remote_commit_verified": true,
+  "files_verified_against_remote_git_tree": 1584,
+  "http_samples_verified": 27,
+  "packs": 18,
+  "index_sha256": "3adb17f2883e3584cfed79ab412f55e1e3e09d683e7712f2a400574ba14fef90"
+}

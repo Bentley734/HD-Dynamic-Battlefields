@@ -4,9 +4,9 @@ Three reusable transparent islet asset pairs are available for water composition
 
 | Material | Day asset | Night asset | Current river pairing |
 |---|---|---|---|
-| Grass and pebbles | art/source/mound-islet-grass-01.png | art/source/mound-islet-grass-01-night.png | Willow bend |
-| Mossy rock shelf | art/source/mound-islet-rock-01.png | art/source/mound-islet-rock-01-night.png | Wooded gorge |
-| Sand and short reeds | art/source/mound-islet-sand-01.png | art/source/mound-islet-sand-01-night.png | Meadow footbridge |
+| Grass and pebbles | art/mounds/islet-grass/mound-islet-grass-01.png | art/mounds/islet-grass/mound-islet-grass-01-night.png | Willow bend |
+| Mossy rock shelf | art/mounds/islet-rock/mound-islet-rock-01.png | art/mounds/islet-rock/mound-islet-rock-01-night.png | Wooded gorge |
+| Sand and short reeds | art/mounds/islet-sand/mound-islet-sand-01.png | art/mounds/islet-sand/mound-islet-sand-01-night.png | Meadow footbridge |
 
 They are separate scenery textures, never baked into the background. Each pair has a low profile and open central standing surface. Ocean 16:9 variations reuse the same pairs: grass/pebbles for the archipelago, mossy rock for the basalt coast, and sand/reeds for the reef lagoon. Pond 16:9 variations pair them with willow bank, limestone woodland pool and lotus meadow respectively. Lake backgrounds remain unregistered.
 

@@ -1,6 +1,6 @@
 # Silph Co. lift artwork
 
-Three original widescreen enclosed cabin paintings generated with built-in ImageGen. Unchanged originals retained at `art/source/silph_lift-01-16x9.png` through `03`. Exact matching prompt set retained under `art/prompts`.
+Three original widescreen enclosed cabin paintings generated with built-in ImageGen. Unchanged originals retained at `art/gen1/16x9/silph_lift/silph_lift-01-16x9.png` through `03`. Exact matching prompt set retained under `art/prompts`.
 
 All three visually inspected. Distinct door position, wall arrangement, rails, control recesses and lighting distinguish the variants. Independent mound materials are gray, ivory and sage. Floors remain seamless. Draft uniform source insets raise the generated wall junctions; native framing, grounding and material blending remain untested.
 

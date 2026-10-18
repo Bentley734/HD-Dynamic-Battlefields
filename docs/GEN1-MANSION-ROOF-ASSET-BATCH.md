@@ -1,6 +1,6 @@
 # Celadon Mansion rooftop
 
-Three original widescreen day/night pairs generated with built-in ImageGen. Unchanged sources saved under `art/source/mansion_roof-01-16x9.png` through `03`, with independently painted `-night.png` counterparts. Exact prompts retained under `art/prompts` using matching basenames.
+Three original widescreen day/night pairs generated with built-in ImageGen. Unchanged sources saved under `art/gen1/16x9/mansion_roof/mansion_roof-01-16x9.png` through `03`, with independently painted `-night.png` counterparts. Exact prompts retained under `art/prompts` using matching basenames.
 
 All six visually inspected. Layouts differ in rooftop cottage position, doors, roof form, parapets, planters, benches and skyline. Seamless concrete floors use independent selected cleaned concrete day/night mounds. Draft source insets raise low rear boundaries; native framing, contact alignment and material blending remain untested.
 

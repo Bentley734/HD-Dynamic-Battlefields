@@ -1,0 +1,2470 @@
+{
+  "schema_version": 1,
+  "metadata_schema": 1,
+  "id": "battlefields-16-9-hd-all",
+  "version": "0.2.0-beta.1",
+  "game_version": ">=0.3.89 <0.4.0",
+  "aspects": [
+    "16:9"
+  ],
+  "quality": "HD",
+  "variation_profile": "all",
+  "label": "16:9 HD - All variations",
+  "environments": [
+    "abandoned_mansion",
+    "arcade",
+    "arena",
+    "azalea_gym",
+    "battle_tower",
+    "beach",
+    "bike_shop",
+    "bills_cottage",
+    "blackthorn_gym",
+    "burned_tower",
+    "cave",
+    "cave_water",
+    "champion",
+    "cinnabar_coast",
+    "city",
+    "coastline",
+    "corporate_interior",
+    "cycling_road",
+    "dance_theater",
+    "deep_cave",
+    "department_electronics",
+    "department_gifts",
+    "department_lobby",
+    "department_roof",
+    "department_supplies",
+    "department_training",
+    "dojo",
+    "dragons_den",
+    "ecruteak_gym",
+    "elevator",
+    "elite_four_dragon",
+    "elite_four_ghost",
+    "elite_four_ice",
+    "elite_four_karen",
+    "elite_four_rock",
+    "fan_club",
+    "forest",
+    "forest_gate",
+    "gatehouse",
+    "goldenrod_gym",
+    "grassland",
+    "gym_electric",
+    "gym_fire",
+    "gym_grass",
+    "gym_ground",
+    "gym_poison",
+    "gym_psychic",
+    "gym_rock",
+    "gym_water",
+    "hall_of_fame",
+    "harbor",
+    "harbor_city",
+    "harbor_water",
+    "haunted_tower",
+    "hotel",
+    "house",
+    "island_town",
+    "laboratory",
+    "league_approach",
+    "league_exterior",
+    "league_lobby",
+    "legendary_articuno",
+    "legendary_mewtwo",
+    "legendary_moltres",
+    "legendary_zapdos",
+    "link_room",
+    "lugia_chamber",
+    "mahogany_gym",
+    "mansion_roof",
+    "meeting_room",
+    "mountain",
+    "museum",
+    "museum_space",
+    "ocean",
+    "olivine_gym",
+    "olivine_lighthouse",
+    "pokemon_center",
+    "pond",
+    "power_plant",
+    "prize_room",
+    "radio_tower",
+    "restaurant",
+    "river",
+    "rocket_hideout",
+    "rocket_lift",
+    "rocky_terrain",
+    "ruins_of_alph",
+    "safari_lodge",
+    "safari_woodland",
+    "seafoam_cave",
+    "ship_bow",
+    "ship_cabin",
+    "ship_captain",
+    "ship_corridor",
+    "ship_interior",
+    "ship_kitchen",
+    "shop",
+    "silph_lift",
+    "sprout_tower",
+    "tin_tower",
+    "tin_tower_roof",
+    "underground_tunnel",
+    "village",
+    "violet_gym",
+    "warehouse"
+  ],
+  "optional_dependencies": [],
+  "files": [
+    {
+      "path": "art/gen1/16x9/abandoned_mansion/abandoned_mansion-01-16x9.png",
+      "size": 2759103,
+      "sha256": "de3195ee4abe4b1d8f0032098b2312d08e5dde70174ebe4a54f299199164c396",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/abandoned_mansion/abandoned_mansion-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/abandoned_mansion/abandoned_mansion-02-16x9.png",
+      "size": 2554677,
+      "sha256": "5637c7e6c3c46b4c964010082c63760ad67eb473e9e169c11eb47c452d8a28c5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/abandoned_mansion/abandoned_mansion-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/abandoned_mansion/abandoned_mansion-03-16x9.png",
+      "size": 2482919,
+      "sha256": "8e7057f693af24d0145ee43d8c6456a06d91214ea93b33b05d4314c04003f5c4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/abandoned_mansion/abandoned_mansion-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/arcade/arcade-01-16x9-v2.png",
+      "size": 2055297,
+      "sha256": "13e721d038d86f4b010f339192f5ccb53a6ae859ceeafe4c972de14bfd3c8eb8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arcade/arcade-01-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/arcade/arcade-02-16x9-v2.png",
+      "size": 2035344,
+      "sha256": "b4ee79b76cb6083ef843bc47168bd5fdba68cc8f28cb159fbc1895cbede1cdba",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arcade/arcade-02-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/arcade/arcade-03-16x9-v2.png",
+      "size": 1972614,
+      "sha256": "08cde1c27e91923729b7a48e3540b05c6acdade3af5aea5254ddcc98b8e58419",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arcade/arcade-03-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/arena/arena-01-16x9.png",
+      "size": 2271523,
+      "sha256": "5b619405e6af7b3eb2cc52432992ab472101d3a8b20a9496e34771ad7b293230",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arena/arena-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/arena/arena-02-16x9.png",
+      "size": 2086569,
+      "sha256": "9ea26fb2b4299aab920343bc763f747e6a1988ab69bc38ade975cff846d98b78",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arena/arena-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/arena/arena-03-16x9.png",
+      "size": 2175116,
+      "sha256": "20f5a4162a508fa8fd06fdaec60b2e8bf775f41979b3630222a8cc7c2ba1e4bd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/arena/arena-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-01-16x9-night.png",
+      "size": 2927376,
+      "sha256": "8dfab7bbd911d11c8db33c06515b4483c9dcedd345cd9a4bb2b0e69c064c79db",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-01-16x9.png",
+      "size": 2779491,
+      "sha256": "7b319cd32cb8b0619abac88eff5018522798710017fa7ac13be3d81ce08a9894",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-02-16x9-night.png",
+      "size": 3106362,
+      "sha256": "41201bed96d29832424a59d68690810c954ad2040dac8f7ab0d77030b3ebebf0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-02-16x9.png",
+      "size": 2357285,
+      "sha256": "d2923c70ca35338c833a49629658bf52f83a740e079d1fbebb5b3c4efeab0479",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-03-16x9-night.png",
+      "size": 3108426,
+      "sha256": "a854472c187abdd26e9998d7653bd30aad9dc0fe7034bab564af2f7f058033b2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/beach/beach-03-16x9.png",
+      "size": 2908057,
+      "sha256": "9ab288733343746d3c2139a73328441cdb9c91128b3753ce50c03b0cf325e3ca",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/beach/beach-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bike_shop/bike_shop-01-16x9.png",
+      "size": 2186632,
+      "sha256": "c281366e4ba6c4f774eab6d3f254e84f7c2c7e3230fe2f659d9c76e23e964ef4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bike_shop/bike_shop-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bike_shop/bike_shop-02-16x9.png",
+      "size": 2305411,
+      "sha256": "9ef7a4fbb2f87d517ecce0dbae176dcdca06437989336a9c26818ee1dec8df16",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bike_shop/bike_shop-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bike_shop/bike_shop-03-16x9.png",
+      "size": 2282531,
+      "sha256": "9e1a2747b6f92a32bf19628cc3003658c61a233ccfe16c59fb9ba7d5875690e3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bike_shop/bike_shop-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bills_cottage/bills_cottage-01-16x9.png",
+      "size": 2176362,
+      "sha256": "ff0a8ee373eb0aed0eed0ec9ee3e8c8fb8b097f2c3dddc29ce5d537fd8f68863",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bills_cottage/bills_cottage-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bills_cottage/bills_cottage-02-16x9.png",
+      "size": 2177627,
+      "sha256": "a8e528015a1689fed161c9ad936da9fcb70b0389105222eb973fe8fa746c600c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bills_cottage/bills_cottage-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/bills_cottage/bills_cottage-03-16x9.png",
+      "size": 2177166,
+      "sha256": "a3368a42e0a6fa00f2f2ec0e80e837ed6bdbc645306044af049f84d7193f0db2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/bills_cottage/bills_cottage-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave/cave-01-16x9.png",
+      "size": 3234244,
+      "sha256": "990eddff9045647b4ff6244be57edafd31db2b2b04ed11513250cc685468a077",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave/cave-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave/cave-02-16x9.png",
+      "size": 3180009,
+      "sha256": "b9bb3446b6dd75c1acded7a289a53ccf71eb2d7d9d1d3611e3eac3c642799ff9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave/cave-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave/cave-03-16x9.png",
+      "size": 3403231,
+      "sha256": "64f34d16c41d77bda846d949745701994bff9a0df9dc9d72b1078e0556223181",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave/cave-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave_water/cave_water-01-16x9.png",
+      "size": 2448080,
+      "sha256": "d21c2a7e8c8f4af62e8a3947047911d4b96959b032fc2731866a70a68ec5ae6d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave_water/cave_water-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave_water/cave_water-02-16x9.png",
+      "size": 2680828,
+      "sha256": "bf4d53ac37e38b17aefac0ac8e472a7d9479d0ef2cc939da17a9bbb0db5ff98a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave_water/cave_water-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cave_water/cave_water-03-16x9.png",
+      "size": 2422008,
+      "sha256": "e439dd18968aa47766e818a203dd6bf30c07d5270bb18c2276b57c6a226669d6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cave_water/cave_water-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/champion/champion-01-16x9.png",
+      "size": 2617390,
+      "sha256": "1a56bd92b6a14be5cfa7d928344f862e1438558b2c00708691e87136a221ec95",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/champion/champion-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/champion/champion-02-16x9.png",
+      "size": 2200617,
+      "sha256": "6f07ff4ae76172cab165f5c2fd632ce95e1b16a56c8ae782a261ca78f9652e88",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/champion/champion-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/champion/champion-03-16x9.png",
+      "size": 2512547,
+      "sha256": "a5369347d31766775e267042d6fff7354c6197be83c1ee5db1b458d6ceba17e7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/champion/champion-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-01-16x9-night.png",
+      "size": 2680187,
+      "sha256": "1950c8c0447a337457935c49fc89e976d709973eaa29986acbe818d9d952a3da",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-01-16x9.png",
+      "size": 3109505,
+      "sha256": "86e02a77e5bb424b9c476a54ec3895e3e175dae25e62d515fe277ec070956483",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-02-16x9-night.png",
+      "size": 2666882,
+      "sha256": "17398f5787433bd9427e8e47ac3d095d2841d44f69d583979db2a21c4ae67bf5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-02-16x9.png",
+      "size": 2537258,
+      "sha256": "f57c7d4d40fb94772457ec03d74f009c73ebabc86df3b1fd31e31e9b700048bb",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-03-16x9-night.png",
+      "size": 2705562,
+      "sha256": "5922f3ce36fb92222aee4a0221fbab8e4afcaed25d3c1cd630997a4b8abf2a84",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/city/city-03-16x9.png",
+      "size": 3068464,
+      "sha256": "277b62656e88c52dac268c2d61464ee800282689a86055e67301b27d6cc23d83",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/city/city-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-01-16x9-night.png",
+      "size": 2867086,
+      "sha256": "8e2d323a5a6fbec136c712dad22104a01187389df0fa364fd907949682fe64a7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-01-16x9.png",
+      "size": 2891360,
+      "sha256": "6dc21337f572b80d3ee2d35ee747f42e818c7590ec5a1786abcf3bdfabb13571",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-02-16x9-night.png",
+      "size": 2827679,
+      "sha256": "80aa4506860773de750b1c17b07872e8999ab25dbf87121ae124b8cbba30ccac",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-02-16x9.png",
+      "size": 2545073,
+      "sha256": "1be016e0dc8ab92f693e2b80cc8f955b97212888849277eb4e5727b00c4691bb",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-03-16x9-night.png",
+      "size": 2972973,
+      "sha256": "142a6572df5c76f600ad4d634824a9e4f02482924ba2d9274a07cdefccb7fb57",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/coastline/coastline-03-16x9.png",
+      "size": 3455732,
+      "sha256": "99b5a09a7b75bcc81d3f6f2dfb0d197aed067946a0724384b2d860034f984788",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/coastline/coastline-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/corporate_interior/corporate_interior-01-16x9.png",
+      "size": 2156305,
+      "sha256": "17d9a3d78fc97a775d7f675435569bb472a0453219bb7c29c2d10d33d3d674c4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/corporate_interior/corporate_interior-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/corporate_interior/corporate_interior-02-16x9.png",
+      "size": 2437455,
+      "sha256": "44ff51356713e8b9e52e94bac8b404f2255b3160b2f7ea711000b9f3620e513f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/corporate_interior/corporate_interior-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/corporate_interior/corporate_interior-03-16x9.png",
+      "size": 2476842,
+      "sha256": "04cbcf9af6d143f5dc22befbadfc60f2e5ce580fe4c8386005e26a626d87871c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/corporate_interior/corporate_interior-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-01-16x9-night.png",
+      "size": 2938579,
+      "sha256": "d3506faa835ef421af49cee4365db147696eeb86f9bbebb8fd9386ca3fe1f5db",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-01-16x9.png",
+      "size": 2992433,
+      "sha256": "a6fed138d74e3f7cec754c11bc692d165162d084a29cab96bd069c8a14dc123a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-02-16x9-night.png",
+      "size": 2823680,
+      "sha256": "6c1a60d3e555fb42f0d59c0b64bb85631c3cc8490ec402ae29434cf398957e14",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-02-16x9.png",
+      "size": 3072121,
+      "sha256": "b380841ce8cb09f6fedc50ab902bd54bee9e1a8885ab46143e48713cbc666756",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-03-16x9-night.png",
+      "size": 3086725,
+      "sha256": "45c323724d6cedad2ebcd2b6e94ff95b01dcc702018ac181144d9c3a8e1bdc7f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/cycling_road/cycling_road-03-16x9.png",
+      "size": 3289641,
+      "sha256": "a820fd3d79c2f7503b044ae354a05adea7d67b3c45916751678fd8ca15deca50",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/cycling_road/cycling_road-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/deep_cave/deep_cave-01-16x9.png",
+      "size": 3031526,
+      "sha256": "039f152415c29e0cb110636b9cbfe60d97f76fec182ffbd7e86e82ce5ad769c3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/deep_cave/deep_cave-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/deep_cave/deep_cave-02-16x9.png",
+      "size": 3030432,
+      "sha256": "f3c0626246476ae35c9cbb6a550607e05bdba4e08403839da0e7f4a25794741f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/deep_cave/deep_cave-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/deep_cave/deep_cave-03-16x9.png",
+      "size": 3302189,
+      "sha256": "30054b3657a4914eb3145feb84bbabe93330936b74a7e8e775e5dce150173c0c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/deep_cave/deep_cave-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_electronics/department_electronics-01-16x9.png",
+      "size": 2367512,
+      "sha256": "98cca9fb1c938bd7595155f33b6da176f5f2f569ca9445aa0ef10e5b02cae22d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_electronics/department_electronics-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_electronics/department_electronics-02-16x9.png",
+      "size": 1886153,
+      "sha256": "a228d930b65be8b602cfac4fde636a3767c667d2e39e6813ff2b5bed1b28ce94",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_electronics/department_electronics-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_electronics/department_electronics-03-16x9.png",
+      "size": 1860339,
+      "sha256": "017190b733739ebeb4539f1ddccde49c14040ab51be81138fd234fb1ffe7be90",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_electronics/department_electronics-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_gifts/department_gifts-01-16x9.png",
+      "size": 2232462,
+      "sha256": "0b26cdbd784c9f7d71d789b9c738199d2edfa51ae006a3b775e4f189d0d37ecd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_gifts/department_gifts-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_gifts/department_gifts-02-16x9.png",
+      "size": 2204862,
+      "sha256": "dd3fa85b4ad33f68e967f5960880205e250fa445a3787322cae82de7e7fd50ed",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_gifts/department_gifts-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_gifts/department_gifts-03-16x9.png",
+      "size": 2128663,
+      "sha256": "acfc29a6e283aa4d5058c5ee103bce30061acf8d14a26ed5490e730a9ac7a32f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_gifts/department_gifts-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_lobby/department_lobby-01-16x9.png",
+      "size": 1956869,
+      "sha256": "5bbf15e62de88d64b86c5fee69d9bf935369a933aad114b6d2d5b65926a0ecba",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_lobby/department_lobby-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_lobby/department_lobby-02-16x9.png",
+      "size": 2559967,
+      "sha256": "86616a723842ea4135ce338b0bcce9c8db23e26ee61625b3d8bbf7bdf588eb63",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_lobby/department_lobby-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_lobby/department_lobby-03-16x9.png",
+      "size": 1947304,
+      "sha256": "2a9d61ff579b684e6036ac5c123e7789b70e6b7030eca5afaedb05c5bd13d802",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_lobby/department_lobby-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-01-16x9-night.png",
+      "size": 2272084,
+      "sha256": "9cda0cef331e02cdc04f06086cd1cbf670f8262f21a7900ff08f321121553c8f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-01-16x9.png",
+      "size": 2439116,
+      "sha256": "0029105281fcb3359fe0c9aa0b53cd3f5599b955dc92b57324ed432315522b50",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-02-16x9-night.png",
+      "size": 2266753,
+      "sha256": "5886722a1fca3c13dc6bc080018a7dc41226d9bcde2ae9ca9226ce3ecb25df83",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-02-16x9.png",
+      "size": 2227182,
+      "sha256": "fb62822873f2a3561b4fcc644277997144082fbaf66e9c2be2b279b28ec85f3d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-03-16x9-night.png",
+      "size": 2324065,
+      "sha256": "e4438b3d36c956b79916e66a46b6929c6bc6699405abfbd6d0b26e7a7ab9c5d5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_roof/department_roof-03-16x9.png",
+      "size": 2446568,
+      "sha256": "f528d281bb35c81d295e24a81d7762e5537409247d097149436b3ad256943f9e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_roof/department_roof-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_supplies/department_supplies-01-16x9.png",
+      "size": 1973401,
+      "sha256": "4d2d43be76a48f2d1767a6999209a70b730e2055e9d50034e9cb73a70b4b8e5c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_supplies/department_supplies-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_supplies/department_supplies-02-16x9.png",
+      "size": 1990292,
+      "sha256": "640bda6aeffb66a95d61d90f800871263c54ba9f2bbc62fe56d12972dd70bd5c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_supplies/department_supplies-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_supplies/department_supplies-03-16x9.png",
+      "size": 2094025,
+      "sha256": "86ccc0aa7860082d87f04d20d2dbb9cd606659bed03df3f4dc6edfcdbab073df",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_supplies/department_supplies-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_training/department_training-01-16x9.png",
+      "size": 2177682,
+      "sha256": "df0e1e0446c5e4bcfa11677b95e0d76e1cee7dbaf9844c5a146ab73b29a89dd4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_training/department_training-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_training/department_training-02-16x9.png",
+      "size": 2484038,
+      "sha256": "fe6e9179d67ace838bf5a324cecde80e2f2e3f976854aa7ee04b3da461bf3bd1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_training/department_training-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/department_training/department_training-03-16x9.png",
+      "size": 2169854,
+      "sha256": "a9178f7f6b474403b9367bf90fbf6803e5f3dd32ef55cb46ab6a1f27e4cbdf4a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/department_training/department_training-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/dojo/dojo-01-16x9.png",
+      "size": 2826766,
+      "sha256": "dfc09f7ccda06f72b6648bb7299931e93bf9bb58c71d5393bd3120f15effea7c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/dojo/dojo-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/dojo/dojo-02-16x9.png",
+      "size": 2664852,
+      "sha256": "1b591b958a0d1fde40077de20e16af811ad3d43cfda30378c7fcbcf3ab8d8a6d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/dojo/dojo-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/dojo/dojo-03-16x9.png",
+      "size": 2168533,
+      "sha256": "e0d0fe8a712f4e21df5e9d7f7ab906a9ac686915e16ef0208dc5d711aee32e53",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/dojo/dojo-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elevator/elevator-01-16x9.png",
+      "size": 2121156,
+      "sha256": "c5f9e4bbd4acc612c3bbd5c9bc7c6b2f03cafafeaa6a49c38b4787f39c0b3c06",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elevator/elevator-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elevator/elevator-02-16x9.png",
+      "size": 1865484,
+      "sha256": "a843fb2e3010d322d4650aa98cd007df1934c19dfa39f1fc8ffa35f9288c430d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elevator/elevator-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elevator/elevator-03-16x9.png",
+      "size": 2005974,
+      "sha256": "f39ad1eeba90a8dae9a376301f0b0d15f8723c978e94be8f9c4e50a1f5a0e5da",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elevator/elevator-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_dragon/elite_four_dragon-01-16x9.png",
+      "size": 2266229,
+      "sha256": "74e3df764a36f1a1b90277c4bd1ec6be0118b315d72b5cc41ea5f452f1b7a90d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_dragon/elite_four_dragon-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_dragon/elite_four_dragon-02-16x9-v2.png",
+      "size": 2809744,
+      "sha256": "dd2715e452c55031ec3aa0c6c88173182314899e1723c5698174b9d523b082ba",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_dragon/elite_four_dragon-02-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_dragon/elite_four_dragon-03-16x9.png",
+      "size": 2196215,
+      "sha256": "20bc76fb3b527ca114979a324d8bef6efadb5980059d87b4428c5302b9d4c0e6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_dragon/elite_four_dragon-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ghost/elite_four_ghost-01-16x9.png",
+      "size": 2588406,
+      "sha256": "7e399beb7d1ec87995d2715dcaaa306328065fc40a72835affa9edefab289a99",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ghost/elite_four_ghost-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ghost/elite_four_ghost-02-16x9.png",
+      "size": 2364606,
+      "sha256": "5c21c6e69dd440e9148b49af7ce83ca118eed911ef1bc93899df2fab531bfe69",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ghost/elite_four_ghost-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ghost/elite_four_ghost-03-16x9.png",
+      "size": 2964820,
+      "sha256": "367e2bdadf8e6e28c9f0db894e4c285280dade46778b225536ab330e3aeb6596",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ghost/elite_four_ghost-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ice/elite_four_ice-01-16x9.png",
+      "size": 2253460,
+      "sha256": "5e09eae2d1d6bc8d6954bff0d4df39c237027157f89088affe6446b9c5c96deb",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ice/elite_four_ice-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ice/elite_four_ice-02-16x9.png",
+      "size": 2253195,
+      "sha256": "607e401741ee70b5bff02a80effa0caf14733ca6a95895aa722d55c2c847a1b7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ice/elite_four_ice-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_ice/elite_four_ice-03-16x9.png",
+      "size": 2233873,
+      "sha256": "e6f6d4cd5818d87f0c2b691c0b8452d760cd0465e6b38751c06586f94fef7404",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_ice/elite_four_ice-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_rock/elite_four_rock-01-16x9.png",
+      "size": 2864878,
+      "sha256": "ad1aeb4753e5cc192971ef7828cbe514679d2c8465e093f6f190ecb3e62663c8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_rock/elite_four_rock-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_rock/elite_four_rock-02-16x9.png",
+      "size": 2670616,
+      "sha256": "ea4c6cd1ddb3626206fbfe9faa6e495ba0ad45806d2ebaabc187cb7cc666dc50",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_rock/elite_four_rock-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/elite_four_rock/elite_four_rock-03-16x9.png",
+      "size": 2497839,
+      "sha256": "41f5e684bbff80f4cc369ec1b6fce3a12e1d9db1bb2a6950db5f1cdf700a94c7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/elite_four_rock/elite_four_rock-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/fan_club/fan_club-01-16x9.png",
+      "size": 2219415,
+      "sha256": "b744f03b84a34f2b20d3d0e6ffde970e7231711954fc6c2c0020ce7b07a5d08e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/fan_club/fan_club-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/fan_club/fan_club-02-16x9.png",
+      "size": 2017346,
+      "sha256": "205fcf566c2ea81ac0c651526ba4392b5b356ac42a569407c94c5d61669291c8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/fan_club/fan_club-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/fan_club/fan_club-03-16x9.png",
+      "size": 2772058,
+      "sha256": "9c05512890ae336bf0aae1e87cc52d75d633a8ee04047cb5037416df3f633901",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/fan_club/fan_club-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-01-16x9-night.png",
+      "size": 3214048,
+      "sha256": "2ac9a31f3adc6acdfe199912c55a8128a08751855c3f7b6a73239be2ef21ec5f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-01-16x9.png",
+      "size": 3654561,
+      "sha256": "94df2b488a794f5281f14748c6d4e0bfcf49bfb11a95757c2a905af72a5c4daa",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-02-16x9-night.png",
+      "size": 3412544,
+      "sha256": "c8eb0289014b134a42cc4ee3adb729d753767d8d6d60bc6df1d8c6b8af7a5091",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-02-16x9.png",
+      "size": 3564791,
+      "sha256": "f43052af1000fb5ae122938b6f2608c7437c3811ebe884f1e76b91428ca8a3e8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-03-16x9-night.png",
+      "size": 3477046,
+      "sha256": "99e2fc164ece91d54ccc0ad7912fa277007c7bd1f69ffcf3e8f9c5e00d9499fe",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest/forest-03-16x9.png",
+      "size": 3916824,
+      "sha256": "a402bb1f0b18d1fa5c75dd04995eb3b73c847a4738d0cfda72faa2a41ffc1950",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest/forest-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest_gate/forest_gate-01-16x9.png",
+      "size": 2093011,
+      "sha256": "5f02e6d7f83109568a053a8a760d4004761b25fe5bf4d72852c89e12222389c3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest_gate/forest_gate-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest_gate/forest_gate-02-16x9.png",
+      "size": 2009743,
+      "sha256": "670a5ad7be89de415673e4c7b8d753010a9dfb53dc1e4979468e9a4833d0967c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest_gate/forest_gate-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/forest_gate/forest_gate-03-16x9.png",
+      "size": 2111215,
+      "sha256": "5ad11cf217605542c5ce4bf45638d3718e302d6fc4d7cf07de63e9eeaadcce34",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/forest_gate/forest_gate-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gatehouse/gatehouse-01-16x9.png",
+      "size": 2121878,
+      "sha256": "922b02cee9d8a899b6e847653fd9d823d47c811347b0b28c896272bb5b80757e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gatehouse/gatehouse-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gatehouse/gatehouse-02-16x9.png",
+      "size": 1975477,
+      "sha256": "ecd3d9372e43010ccf6c52afc87637d9be33c8f4361dbcae78e5439aedd612d3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gatehouse/gatehouse-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gatehouse/gatehouse-03-16x9.png",
+      "size": 2098810,
+      "sha256": "b0f6b7049cf9bcf6d850051593857a924ccb8d1eb0c2a9cda8b2da35a9c4c4ed",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gatehouse/gatehouse-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-01-16x9-night.png",
+      "size": 3056347,
+      "sha256": "2030d94c15f29b9b31a86e85b935c59ba1c8c66afe9104d7c7613b025650e0dd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-01-16x9.png",
+      "size": 3145459,
+      "sha256": "dc67413a4ea2cef4adff2e089691b2c10a509617ee167ef4ab94df573813828d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-02-16x9-night.png",
+      "size": 2884425,
+      "sha256": "f8dc45ed0e1d24e4da7f1f79912d1d2b177057f2ca16118fdb43f7a2cfc8871b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-02-16x9.png",
+      "size": 3249714,
+      "sha256": "b97f08ddeb1d1e7e4c6ae68c31342627f99c77bf88103b2121200281222c81f1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-03-16x9-night.png",
+      "size": 3436717,
+      "sha256": "d5548e490676045b4f0cadff4376d721bb6a4994c757729b8cd5956d17ba02dd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/grassland/grassland-03-16x9.png",
+      "size": 3333502,
+      "sha256": "299956d86085f5f11206bdcfe0659f53a6fbf7bcd24542c326e8a4d2eb08fb66",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/grassland/grassland-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_electric/gym_electric-01-16x9.png",
+      "size": 2343200,
+      "sha256": "c9576af67f92ca5cdf4e91fdbbfc4ae4caec61e67122bad13ade89b0f849004a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_electric/gym_electric-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_electric/gym_electric-02-16x9.png",
+      "size": 2336929,
+      "sha256": "afd82e5bb2e59ab185dcbcb16736bf24b4c07016af1738d00f44775b6f33b23f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_electric/gym_electric-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_electric/gym_electric-03-16x9.png",
+      "size": 2403368,
+      "sha256": "a64c0f160905540a960b33c8dcc0a5804a5c897943935a276bd953edb283e480",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_electric/gym_electric-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_fire/gym_fire-01-16x9.png",
+      "size": 2393673,
+      "sha256": "0aabdde08ca3c9d562099c97377c2c034e35c513e40b16a62f1046721b693e2a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_fire/gym_fire-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_fire/gym_fire-02-16x9.png",
+      "size": 2840846,
+      "sha256": "af8cc39d3572a4c733faccdde657a3669235611b5a62127b1de26b31400207e1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_fire/gym_fire-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_fire/gym_fire-03-16x9.png",
+      "size": 2941937,
+      "sha256": "0a7d34b6faefa55009cc82e58d405b17fd39360a4ce8db6aab0f1e3010842cfe",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_fire/gym_fire-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_grass/gym_grass-01-16x9.png",
+      "size": 2527204,
+      "sha256": "ce8269584e9b7da32a5c6f3548457a14d433b30ad8943c5ebb6e4556d92a45cc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_grass/gym_grass-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_grass/gym_grass-02-16x9.png",
+      "size": 2637595,
+      "sha256": "f5dff267154366a6f1006a0105561d61956e11246939380a605a185af88574cb",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_grass/gym_grass-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_grass/gym_grass-03-16x9.png",
+      "size": 2972014,
+      "sha256": "58bfb53602fdd4fe00ef029fa17fff616197271f51cef36b2331a006d933a06c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_grass/gym_grass-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_ground/gym_ground-01-16x9.png",
+      "size": 2633177,
+      "sha256": "f5c2859cfc656d580247abc4f8658c026144edadafe3d3cf41b02a34d46ee561",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_ground/gym_ground-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_ground/gym_ground-02-16x9.png",
+      "size": 2313661,
+      "sha256": "46a61f613b7f016cf5bfedf2ebd0dc3322e10079b577713847a98d9a9bd3ec00",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_ground/gym_ground-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_ground/gym_ground-03-16x9.png",
+      "size": 2364020,
+      "sha256": "39fddb72de7df34740ef2c7a9abe86938be7e4e518794d68fb6906b3f7e1bc78",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_ground/gym_ground-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_poison/gym_poison-01-16x9-v2.png",
+      "size": 2167653,
+      "sha256": "7255624f11377471c8095ccacf7e803aa08ce870ba925975b46e3cd2fc27816e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_poison/gym_poison-01-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_poison/gym_poison-02-16x9.png",
+      "size": 2926581,
+      "sha256": "80ce607a79146774f3421c3e95a6524ab13ede324f9f5f290ec6afab3a585876",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_poison/gym_poison-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_poison/gym_poison-03-16x9.png",
+      "size": 2092339,
+      "sha256": "cb6420e274aab3100bdd6dbdcb3cdbf9eaa518d3fa79caa416edad6d3a2908a4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_poison/gym_poison-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_psychic/gym_psychic-01-16x9.png",
+      "size": 2396147,
+      "sha256": "c47058f9a695d87e851cc5589d9abac27a003955edc69345ac1922a2e2a4f457",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_psychic/gym_psychic-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_psychic/gym_psychic-02-16x9.png",
+      "size": 2187452,
+      "sha256": "b75e8a49b0747f15175b1a96cc29b91901dbf5fc828ce98cdefe5b7ef54b41be",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_psychic/gym_psychic-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_psychic/gym_psychic-03-16x9.png",
+      "size": 2530031,
+      "sha256": "4d79d82810d41b57f1fea1b4d12cdc9cd14447324b4a32535a66663f1ff8f167",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_psychic/gym_psychic-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_rock/gym_rock-01-16x9.png",
+      "size": 2995404,
+      "sha256": "e38518ff56a382ade3b003c29d3904941852add4d74c8932d638f2f06222dd3d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_rock/gym_rock-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_rock/gym_rock-02-16x9.png",
+      "size": 3462046,
+      "sha256": "ccc6a1e7434067c7a5fa7db1f2346f5472d3a8d7f874a627d5befda91815d90b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_rock/gym_rock-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_rock/gym_rock-03-16x9.png",
+      "size": 2737775,
+      "sha256": "1580dfdac24b250e60f9b07e0976fce2efc831b0d1fe8ef86bc9b525eb3ba5a2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_rock/gym_rock-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_water/gym_water-01-16x9.png",
+      "size": 2268333,
+      "sha256": "31b591e6a168ab7ea06d3a0b5ce8eedd753ebf4e90ea47736153224cfb4efe87",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_water/gym_water-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_water/gym_water-02-16x9.png",
+      "size": 2437396,
+      "sha256": "7f11430b6df4e80438061514b5450fa90c6d6c1ebc6f92746b92688265ee9149",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_water/gym_water-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/gym_water/gym_water-03-16x9.png",
+      "size": 2724450,
+      "sha256": "8fc30e85be736ade1d42f647a7bee719961b6138d0e54d111b01db7d212dfcd2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/gym_water/gym_water-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hall_of_fame/hall_of_fame-01-16x9.png",
+      "size": 2044439,
+      "sha256": "a9985b245e636bebd5c6d22fd767ea92369063620836efc397387eaf89478dc6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hall_of_fame/hall_of_fame-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hall_of_fame/hall_of_fame-02-16x9.png",
+      "size": 2436481,
+      "sha256": "30efde871d714b53bd5ea4915472cac1be51d2d9475131a8740a63d0ee2ca0b6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hall_of_fame/hall_of_fame-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hall_of_fame/hall_of_fame-03-16x9.png",
+      "size": 2185343,
+      "sha256": "4335a61a40cdb70b80392d034437962e3430282abeb75a69f4a6a68a0e10c709",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hall_of_fame/hall_of_fame-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-01-16x9-night.png",
+      "size": 2665841,
+      "sha256": "eccf75507d6263faa0374812a18e63d786f41cc96b94447434af7b88205dd6bc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-01-16x9.png",
+      "size": 2738426,
+      "sha256": "21372a3b04633b3e0501b2acd5bb5c26ae8e135d1bab08516e3398cb4d12bade",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-02-16x9-night.png",
+      "size": 2799491,
+      "sha256": "71dcfddcd57fd27273a8ac20e56ed47de98b91221a9b6d91acfb8082bc969acd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-02-16x9.png",
+      "size": 2964945,
+      "sha256": "2534fd902fda54e9d00b0f799333b142545b20524e314101e6c3fdd0703cfef1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-03-16x9-night.png",
+      "size": 2605231,
+      "sha256": "36b328026873226aca65280be56c62ce0f4ca3403cb0b40a0bcb014d6243c391",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor/harbor-03-16x9.png",
+      "size": 3082734,
+      "sha256": "ef5d83ead590ef7252816d830c62f9b30fd812d07053f54862d9012f1c56e277",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor/harbor-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-01-16x9-night.png",
+      "size": 2560533,
+      "sha256": "390ae6ceda39dd98894a3173178e33bcff861bce8e4752272cb1136cd1e2e893",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-01-16x9.png",
+      "size": 2578354,
+      "sha256": "1b40a775734d27b59cafcd08afb84ae68a3e1240ac929cae2cc6c121f9716801",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-02-16x9-night.png",
+      "size": 2970520,
+      "sha256": "8d399e872a11ed406427c143ded6606723ea8c14086e70204672c760c245b84f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-02-16x9.png",
+      "size": 3296645,
+      "sha256": "289f2b1fae220e912d02f87f922478831b6777478261e231ba238b015b38b593",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-03-16x9-night.png",
+      "size": 2724005,
+      "sha256": "0291405d6b1c2c8ee0e54e0b2e05b73f307fa728422cce1dbcaf5615105a489e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/harbor_city/harbor_city-03-16x9.png",
+      "size": 2909526,
+      "sha256": "c9cad7bc710befcab9a777504ce8aca403224ec3737926625f39939b70715663",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/harbor_city/harbor_city-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/haunted_tower/haunted_tower-01-16x9.png",
+      "size": 2496854,
+      "sha256": "96bfd6252b0df8dbc72ea8ec80d8207c984fb81c6ce37d0a9fae30a1e5b2f27e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/haunted_tower/haunted_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/haunted_tower/haunted_tower-02-16x9.png",
+      "size": 2485576,
+      "sha256": "06430581c169d748c75608ceb9166e9a38d493367a6aeb1b430d332a21b236be",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/haunted_tower/haunted_tower-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/haunted_tower/haunted_tower-03-16x9.png",
+      "size": 2723899,
+      "sha256": "1b969f86d4548c76f8b856c64f79aaebf7f9715a9063cb8c977fda545006e65c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/haunted_tower/haunted_tower-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hotel/hotel-01-16x9.png",
+      "size": 2660289,
+      "sha256": "e07609425bfb7cb0ab383097e94116fde18856e6b2c6ef658230ddd04961416f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hotel/hotel-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hotel/hotel-02-16x9.png",
+      "size": 2391348,
+      "sha256": "acc0c9aa34e1427b2979da783bcb0cb5d4f30cff1d77bc7fdc068eeb4c662ab2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hotel/hotel-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/hotel/hotel-03-16x9.png",
+      "size": 2091340,
+      "sha256": "0e19e117233b71fce31e12df9db4dcb8db74ccbcfdd9aae866f535acbc8c997c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/hotel/hotel-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-01-16x9-v2.png",
+      "size": 2162022,
+      "sha256": "e8c18a5741eb35b60ad63132e8b4f3e510abd68e7df6d64ba22f297282ede4fa",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-01-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-01-carpet-moss-16x9.png",
+      "size": 2971364,
+      "sha256": "ba1a183bfc4b1902532b5dce8d720f8c42a3e365f72357b30e0d2f92402173ae",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-01-carpet-moss-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-02-16x9-v2.png",
+      "size": 2105017,
+      "sha256": "9715ee4093e9acd9e6a471a8a437d9afe41b0d484a34422c721f7b76b649e416",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-02-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-02-carpet-blue-16x9.png",
+      "size": 2578287,
+      "sha256": "ad365af3b8ea45a4cdc9a6bd4b15e32807e20bc49170b24a338fc53afa0913e1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-02-carpet-blue-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-03-16x9-v2.png",
+      "size": 2148990,
+      "sha256": "dabd90c6550360cb687560cd0abe425ba6afb271e518db97a8b7d594e28dd25f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-03-16x9-v2.png"
+    },
+    {
+      "path": "art/gen1/16x9/house/house-03-carpet-burgundy-16x9.png",
+      "size": 2703323,
+      "sha256": "a34f77b86fecaf93d13dbd9a4b962366de6c0a7b66dec953252ec20dfb3e4d59",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/house/house-03-carpet-burgundy-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-01-16x9-night.png",
+      "size": 2600816,
+      "sha256": "03508c1230e8acbffc3bd75f7532638df11eabcdb5b16597d132aa858f75db80",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-01-16x9.png",
+      "size": 2420480,
+      "sha256": "21a95335f1b2dc54d3b2f3f6ebb58dd77f2e7abd4160e125a116758196f586ef",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-02-16x9-night.png",
+      "size": 2517366,
+      "sha256": "8761235aff14d7043c7decba70d6ef46870d948b7a2a447747f525ebd24b4832",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-02-16x9.png",
+      "size": 2591970,
+      "sha256": "f85ca3426d20f9856996c2e4526d65d0d58b41412cf8729745f728fc749dcbd3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-03-16x9-night.png",
+      "size": 2879975,
+      "sha256": "041f23e1c3d5ab6e15841fc0fed4baddd544927ecb1c9aefff51e80be67a283d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/island_town/island_town-03-16x9.png",
+      "size": 2851940,
+      "sha256": "dc99558961b6a7aae4b73c179ae4c9323b8f7f751c62f70fcf81664e591adaea",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/island_town/island_town-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/laboratory/laboratory-01-16x9.png",
+      "size": 2113451,
+      "sha256": "37a8918b95857382f0f2cd0d29ac8ee82d046f6ee71b9b7b2bb278a1af9cb616",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/laboratory/laboratory-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/laboratory/laboratory-02-16x9.png",
+      "size": 2501405,
+      "sha256": "f8ccdeaa256bd5b09650858e8e097d386b1d16a48adef4bff76e75f6cd066fc3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/laboratory/laboratory-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/laboratory/laboratory-03-16x9.png",
+      "size": 2287027,
+      "sha256": "52a86661014abc33bebeb3b0964a81a9b887290f287d78f0f5dd3af6adf87ae0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/laboratory/laboratory-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-01-16x9-night.png",
+      "size": 2923080,
+      "sha256": "89298960d9994e3f85918b116133fb2dc4b43c24c72e4fc13e703bc711febd8d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-01-16x9.png",
+      "size": 3158886,
+      "sha256": "65eb7b7403f10decda11cb5cda24aa328a38784ed423849c25e7b0b941830356",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-02-16x9-night.png",
+      "size": 2972137,
+      "sha256": "5f003334d9322f5af2727e4918a6def7cbec321b4661a3b65ce388ccebba06ff",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-02-16x9.png",
+      "size": 2777383,
+      "sha256": "bc47f146d58aae57b548108ce78365c6d471bb681f79960f017ebb5acb1ce1d5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-03-16x9-night.png",
+      "size": 2805096,
+      "sha256": "a2bacd7c98fb78a09cacae270586ced17528172337df2f66930fd83ce5df25fc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_approach/league_approach-03-16x9.png",
+      "size": 3125601,
+      "sha256": "fc8413afb5218d93c983942e8dc3d49fb1831a4386b5184c79a3e408a25d9f1d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_approach/league_approach-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-01-16x9-night.png",
+      "size": 2376733,
+      "sha256": "43a82289ab3a1b33a0dcba7196c0a28029c4ad12afc634921a2f6617069d6f5e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-01-16x9.png",
+      "size": 2356205,
+      "sha256": "496454e09da6a25995823b32f877e1c1045f121c8ef3fcba41310aac5bd36e58",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-02-16x9-night.png",
+      "size": 2517727,
+      "sha256": "9d7b302f7e085260c2634fd09d6662f82d157c8395756d7031f21ceee479abd6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-02-16x9.png",
+      "size": 2740295,
+      "sha256": "ec5393bc379e42ed39c602b70043129a0ebf75f0f39ea136a515b87ef18c35a5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-03-16x9-night.png",
+      "size": 2628397,
+      "sha256": "c5f5e18c851e310df0e095bf94a45fc7cb0aeee894ae605140ea75095e8fa9f4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_exterior/league_exterior-03-16x9.png",
+      "size": 2467042,
+      "sha256": "924677112cd499a9e8e1e9e2c43b60d9236f9974fa5250df46a7981a662e6b96",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_exterior/league_exterior-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_lobby/league_lobby-01-16x9.png",
+      "size": 1894492,
+      "sha256": "cfcd8ff66248e9be54615ab8f9dd3e3e8b50c0239db1fea5a0184bc3db234a28",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_lobby/league_lobby-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_lobby/league_lobby-02-16x9.png",
+      "size": 2369780,
+      "sha256": "f53f9dac008a6e87143986c369d5cba47dd29a5e9eb8b581096b3b2f64974cf1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_lobby/league_lobby-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/league_lobby/league_lobby-03-16x9.png",
+      "size": 1873838,
+      "sha256": "e51f57d989e453e7280ea9f261f9f4131c84675e25edc3babbb45ca9a53daa2d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/league_lobby/league_lobby-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_articuno/legendary_articuno-01-16x9.png",
+      "size": 2670891,
+      "sha256": "8fabae56dcec59aadab07d97489f1eb6efbf49d2d7b895f013bb6e2b60bb70ba",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_articuno/legendary_articuno-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_articuno/legendary_articuno-02-16x9.png",
+      "size": 2901026,
+      "sha256": "e3f741d13ec7e27614f4e2a9121f2e6a691ebe702627d0bbf368fcceb828ee99",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_articuno/legendary_articuno-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_articuno/legendary_articuno-03-16x9.png",
+      "size": 2930417,
+      "sha256": "a4fb1c1c0ec0f8d6f23d3c82ab7c02915125f601c2be405ce47d5749e36bf9fa",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_articuno/legendary_articuno-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-01-16x9.png",
+      "size": 3173745,
+      "sha256": "9b2df21c16936f6fc177fd7a1af30a20ad95e910f9a63c4acc409d81fe47f313",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-02-16x9.png",
+      "size": 2834348,
+      "sha256": "d706f4843652bab095715c794b0b82cd6808d79db9e1119dfea0b4bad30b8919",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-03-16x9.png",
+      "size": 2854398,
+      "sha256": "5b26997744549063ce2b6e30ae647f18ee484bc6e020e0a8987cfbb5c1206e20",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_mewtwo/legendary_mewtwo-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_moltres/legendary_moltres-01-16x9.png",
+      "size": 2757918,
+      "sha256": "519d9a6b1cfe0f25bf926967a297b087a194b761f4bd34391e4cd46fa5cdf97d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_moltres/legendary_moltres-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_moltres/legendary_moltres-02-16x9.png",
+      "size": 2581620,
+      "sha256": "fc4d1afcd1fbe0ad3aac1b3cc01c790b47d1c6fb09218b552f8960e9747cdaf4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_moltres/legendary_moltres-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_moltres/legendary_moltres-03-16x9.png",
+      "size": 2751995,
+      "sha256": "506476150f495f3b21a28bc6bae7d2ff1e80e2f40504516c70447c27c83de153",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_moltres/legendary_moltres-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_zapdos/legendary_zapdos-01-16x9.png",
+      "size": 2668365,
+      "sha256": "0deedf668a428eaa6214a56ff067b34bea02ac12d64a78320b12a08bf59bf769",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_zapdos/legendary_zapdos-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_zapdos/legendary_zapdos-02-16x9.png",
+      "size": 2831871,
+      "sha256": "d9358752e90f826a6e63930dcfabfddc55d7532067402df51523bcf961473395",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_zapdos/legendary_zapdos-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/legendary_zapdos/legendary_zapdos-03-16x9.png",
+      "size": 2851904,
+      "sha256": "e54c37f0388725af4722bfbd1104763cd702ab60c7db1a94842ace5c2874b760",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/legendary_zapdos/legendary_zapdos-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/link_room/link_room-01-16x9.png",
+      "size": 1981390,
+      "sha256": "ae4d952683ea60af99a82beb9c9cba5f17e325ce857ed23b4e0e0694e8e09b76",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/link_room/link_room-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/link_room/link_room-02-16x9.png",
+      "size": 1878484,
+      "sha256": "1562a287f12c8e5e823422f8b81e62dbe37f27bab582c165e26ed01ba06b06a1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/link_room/link_room-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/link_room/link_room-03-16x9.png",
+      "size": 1981645,
+      "sha256": "fc4dfd0d4d8e6f63e32c3098eb246cf25b9c31f78fedf672328939dd38b8c1f3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/link_room/link_room-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-01-16x9-night.png",
+      "size": 2301077,
+      "sha256": "d71a74c1304efbc1c1bb5eaf0526a93b0094955ff615ddf94f7745d0d75382d5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-01-16x9.png",
+      "size": 2489779,
+      "sha256": "8b31a8801768dc6bd1e39f101c69a03f6af63bc1b9b57d549c47713139bb6fa1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-02-16x9-night.png",
+      "size": 2190569,
+      "sha256": "2e1a1f13d48a82712b2d25ac5554f26f0aee4578afc39b39696c4209ce140dd1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-02-16x9.png",
+      "size": 2378958,
+      "sha256": "dcf2294b0f6f438b156337615542b4ff2c410884d2c3ce296c37c229b7701f4d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-03-16x9-night.png",
+      "size": 2344031,
+      "sha256": "d1345bfad6fc00957ca8d5ea67aef6530de2edee0505a77a5284a6b033fc5c64",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mansion_roof/mansion_roof-03-16x9.png",
+      "size": 2362228,
+      "sha256": "aabec0e4270a2a6fe524c5f8ee3c3b9cebdaad7e59891053b7fcd27d16025cdc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mansion_roof/mansion_roof-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/meeting_room/meeting_room-01-16x9.png",
+      "size": 2100702,
+      "sha256": "23215c3c0dcd9d9d65c1e9248a054444b8cf008b6462d4aecd10e9118b903a55",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/meeting_room/meeting_room-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/meeting_room/meeting_room-02-16x9.png",
+      "size": 1961237,
+      "sha256": "eccd9a8d3b088f71e4f2485fe03be47c67eebda3cc96cd677f31d573a51ba7e9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/meeting_room/meeting_room-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/meeting_room/meeting_room-03-16x9.png",
+      "size": 1964808,
+      "sha256": "9bc963a82c84c6db2c2a10a36ecbfc88593affd8ea2d1bfb198008b7586636ee",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/meeting_room/meeting_room-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-01-16x9-night.png",
+      "size": 3333464,
+      "sha256": "8e1a61d3b34bd42d6914b0ae0d670acbcf83f9b529af1dc3c26c0f37307dffee",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-01-16x9.png",
+      "size": 3544842,
+      "sha256": "b3771245901b3438f78a094edffe91975b6b7469303c08c3d7aa091911a0f567",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-02-16x9-night.png",
+      "size": 3578654,
+      "sha256": "d00f1526a73a853f9fbdcc3de551d2ed1dd2017ae21c070959fa3c9ca6bb56dd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-02-16x9.png",
+      "size": 3617967,
+      "sha256": "2fde03d485794d0728c415f6f48ef316acbc4679737d5292e0c3023a66753a87",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-03-16x9-night.png",
+      "size": 3220819,
+      "sha256": "4e6bb3ea1123db96949b21a19ff071c80db8af3d5765cd2acdfd3f77f97e36ef",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/mountain/mountain-03-16x9.png",
+      "size": 3266094,
+      "sha256": "8d157431a34f932be92d0bc4deb5067fb9b304b04ded74eab47700db45f64e61",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/mountain/mountain-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum/museum-01-16x9.png",
+      "size": 2246021,
+      "sha256": "68cf5552d3e6d86ba7e049a4d47d56b5c1888c804717b38f4d225bde2497c49f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum/museum-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum/museum-02-16x9.png",
+      "size": 2367980,
+      "sha256": "406c09e0a4aefe4f0ab53c1f11bd9d4c05eecf26650a38dbce37754aabb5be8b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum/museum-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum/museum-03-16x9.png",
+      "size": 1920811,
+      "sha256": "540733092514ac7d4690a891a40cc46aaf82398ba0a8f17da550359761fbe997",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum/museum-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum_space/museum_space-01-16x9.png",
+      "size": 2247706,
+      "sha256": "f875c7af00acb4d22a37272f7e3c28e350766c7399d5ebd130cae0c4f462d7a7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum_space/museum_space-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum_space/museum_space-02-16x9.png",
+      "size": 1962660,
+      "sha256": "6de795fbee6d271c7ae7c38ab598199b937c03e7d4ae80ca0822accbc1ac3db2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum_space/museum_space-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/museum_space/museum_space-03-16x9.png",
+      "size": 2335197,
+      "sha256": "11047d44fc6ce3e50c6a707a1b0ef34c20eb7dac5381b577a54448aa469b1a37",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/museum_space/museum_space-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-01-16x9-night.png",
+      "size": 2762058,
+      "sha256": "e96780033a9602c00b9c38b95cf7aafeb291f5f502fdf2dbd80e56fe7b00a46d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-01-16x9.png",
+      "size": 2830694,
+      "sha256": "343d707e49c1f8fba0d3a7717d35b23e1c9f98f7a5739ea4705a54395f00887f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-02-16x9-night.png",
+      "size": 2678467,
+      "sha256": "aedb25e0ff061d3b7e0e5bd77ea749b398459a841c0fc21ed93d8c0fa061b7a0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-02-16x9.png",
+      "size": 2782522,
+      "sha256": "9b44af998f21a650371379cc356259c76d14a448a3a00bc40dc897bf06942416",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-03-16x9-night.png",
+      "size": 2880587,
+      "sha256": "c2c67b11f5718c5d6d1dbd37d234dfbe8e9155d234c5b202a0d5dcc7564a1e0b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ocean/ocean-03-16x9.png",
+      "size": 2853927,
+      "sha256": "278ce72efbca1c68bc150354802cdd0ed4286685bbbd71b92730e56e36e47596",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ocean/ocean-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pokemon_center/pokemon_center-01-16x9.png",
+      "size": 1954733,
+      "sha256": "ccf59c9af4ade65d5f1e1689096999942881b2354791764861f11c081470fe6f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pokemon_center/pokemon_center-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pokemon_center/pokemon_center-02-16x9.png",
+      "size": 2060558,
+      "sha256": "8d4747bfcbc21c10f5c3af31aaee714b1ea538f0c0d78e72c2152d3a363c1654",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pokemon_center/pokemon_center-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pokemon_center/pokemon_center-03-16x9.png",
+      "size": 2352045,
+      "sha256": "99e1367b8799a141edacef3d9eef540f5c3019ab852c09b394c6d4c17824fb8f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pokemon_center/pokemon_center-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-01-16x9-night.png",
+      "size": 2671726,
+      "sha256": "f96acac7b379b72551918066a1b3f52709f7b79e5e1e454d363612fbd430550d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-01-16x9.png",
+      "size": 2769478,
+      "sha256": "009a9cd07b95c48e101e64c7a9835c2a1db5a0a7781e02700b6275b5f954b30b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-02-16x9-night.png",
+      "size": 3071555,
+      "sha256": "9ab4471d0b477aaa155e02b4d3067b6794be95f1e98643f7017cb36fd576e3a4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-02-16x9.png",
+      "size": 3338906,
+      "sha256": "5d5976e4f9fdfaeaa698f5308d5b6f927554e385404497adfd30e214954c2cde",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-03-16x9-night.png",
+      "size": 2547987,
+      "sha256": "2c6915606dddb72617051371087e5d718984ecb3316f8cdcb81a8beb69bdbc25",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/pond/pond-03-16x9.png",
+      "size": 2572998,
+      "sha256": "d73f872e39d1784454dec42fbadeb931115659a9910ad228d4849bfe4d27ce7c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/pond/pond-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/power_plant/power_plant-01-16x9.png",
+      "size": 2970623,
+      "sha256": "fb8b06a71f8cb0d0e05e25f705f3b2d975470340f6710aea0de7e70d336a9fa5",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/power_plant/power_plant-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/power_plant/power_plant-02-16x9.png",
+      "size": 2723692,
+      "sha256": "55cf3bc54d510e81a99f02a959bafdd75c4fe8413594e5fa5ec6d8630ad9fb35",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/power_plant/power_plant-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/power_plant/power_plant-03-16x9.png",
+      "size": 3083730,
+      "sha256": "52e28a7874cc492b0f2899c267d28af9fc80f7cd51d46f764bf0217d35d1071f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/power_plant/power_plant-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/prize_room/prize_room-01-16x9.png",
+      "size": 2034708,
+      "sha256": "f04945051c32958332d5b0703d468225218990d594fd5e01c019749fc74e9a02",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/prize_room/prize_room-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/prize_room/prize_room-02-16x9.png",
+      "size": 2154994,
+      "sha256": "ff70968e38b442bfd5d735691dc5bea73edf448bf3341439d550348360bff6db",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/prize_room/prize_room-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/prize_room/prize_room-03-16x9.png",
+      "size": 2093031,
+      "sha256": "0687a5d26783b0ca85d3c82814504db79e2c737f4a91f4256cd0cd8008344b21",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/prize_room/prize_room-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/restaurant/restaurant-01-16x9.png",
+      "size": 2160101,
+      "sha256": "cedf40f7b8e2cca314cd0e36ff2742da70863090eaad722f0a5196236209d775",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/restaurant/restaurant-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/restaurant/restaurant-02-16x9.png",
+      "size": 2155216,
+      "sha256": "098e90a2fc07e30774bd523f6975156f458965ff438831f0f905cb08e26a489c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/restaurant/restaurant-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/restaurant/restaurant-03-16x9.png",
+      "size": 2002049,
+      "sha256": "1456791f4e468ab1ee495a8e9b349e76489a75ebf1265e5e428205234417a34f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/restaurant/restaurant-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-01-16x9-night.png",
+      "size": 2812798,
+      "sha256": "d82f934035be3cdcdc8045c4892f46349d6e8797a83bbef7f02f3fee360da1d3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-01-16x9.png",
+      "size": 2884626,
+      "sha256": "6d2d2d304aa82b6072ff3a1f4fb922bd3af01c7dfd8dd556c781b90faf2bee5d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-02-16x9-night.png",
+      "size": 2926768,
+      "sha256": "b18b32da581fb2ccbe651cd2617bbdc303bc5188f071b6118e85d7d007590424",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-02-16x9.png",
+      "size": 3064485,
+      "sha256": "4c7e86f4b6ee0f33a6885f740091c2e51a94bc330ab9ab47cb6e8f6fc81acdd2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-03-16x9-night.png",
+      "size": 2726184,
+      "sha256": "974f58cc8e1b273433bc4ece498847de17cf0b8009564627206dee93cc4cc4b7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/river/river-03-16x9.png",
+      "size": 2862213,
+      "sha256": "17180d444b63f7906e015ecd4d79494d5aec4ef975ef5374afcb2d084b724301",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/river/river-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_hideout/rocket_hideout-01-16x9.png",
+      "size": 2388094,
+      "sha256": "5ecd76068aaf4bf59dace6d73ba743a133bc9fdd33268cfb5f18f1c0eda67d13",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_hideout/rocket_hideout-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_hideout/rocket_hideout-02-16x9.png",
+      "size": 2306687,
+      "sha256": "c56e6452df23321214819a8084511771d78d72a3be07ac39fcb4739a8016daf4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_hideout/rocket_hideout-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_hideout/rocket_hideout-03-16x9.png",
+      "size": 2750212,
+      "sha256": "6d21125e59725ea02e0343e5ce62b98d1a97cbf3d0db4041c8a9a68944e96dff",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_hideout/rocket_hideout-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_lift/rocket_lift-01-16x9.png",
+      "size": 2157471,
+      "sha256": "fff30f312be4534adb4fba8db3177c226e236455cd0369fe7827ffe4cf36cfd9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_lift/rocket_lift-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_lift/rocket_lift-02-16x9.png",
+      "size": 2268800,
+      "sha256": "45dc10f17d22f19d844f6a244147e444b0f3666f250e7f2ab6665f1b92c579b3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_lift/rocket_lift-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocket_lift/rocket_lift-03-16x9.png",
+      "size": 2378099,
+      "sha256": "c8b3313aa11c74b15f0fbe6be52e754b911ef5f195cc36567a39450a1900426c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocket_lift/rocket_lift-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-01-16x9-night.png",
+      "size": 3740978,
+      "sha256": "422a72c8336ef10104e7f2773251a1ec8ab7c5cf7c0cc2d806ae918fab25fbb9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-01-16x9.png",
+      "size": 3742236,
+      "sha256": "9df02df77b22892565980cef42b4fb6909d9dda47c15d623d0edfd4693c89f0b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-02-16x9-night.png",
+      "size": 3912166,
+      "sha256": "80682de60586e8f6ffa81222720ebfd395ca6c62b03a601c0a50db21810c915a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-02-16x9.png",
+      "size": 3832814,
+      "sha256": "292b0d955fe9e26618872b20d7545a94f223b4394e3015df4d28046d1757f12e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-03-16x9-night.png",
+      "size": 3476585,
+      "sha256": "aa008993d19d5af6ec8a610e45cbb61da9fc7cdaa3559bb230b58bb22a3d0d45",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/rocky_terrain/rocky_terrain-03-16x9.png",
+      "size": 3692283,
+      "sha256": "d123e43f114f3853cc26f0291b5be2e4a6f7aac828e7b0ba40865ab711d56839",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/rocky_terrain/rocky_terrain-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_lodge/safari_lodge-01-16x9.png",
+      "size": 2200617,
+      "sha256": "a363378653c8044395b9e54c4b5397147a3b17e86a2ca6437c3f2d3b9e7bb4bd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_lodge/safari_lodge-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_lodge/safari_lodge-02-16x9.png",
+      "size": 2143049,
+      "sha256": "089f5adca19d0e6ba356b117c732aa88d7254b938655a735e8800c35ab39f88b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_lodge/safari_lodge-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_lodge/safari_lodge-03-16x9.png",
+      "size": 2012147,
+      "sha256": "3590ac98ed24b1c03b16d956d4c0750f705803fd06988468a9276ad8a7631ac6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_lodge/safari_lodge-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-01-16x9-night.png",
+      "size": 2880006,
+      "sha256": "6b4ef65b58145914f9bbc187dc68904017c09e3a7dea6ef0bb977a8171322a3e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-01-16x9.png",
+      "size": 2980286,
+      "sha256": "00804266f0ce1b4e381417abd7d9e5d56b55f1656350b0087b2154a9349bf4d7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-02-16x9-night.png",
+      "size": 2940425,
+      "sha256": "cdec1932e56a60ba895af280fbc156c58718d9f7eb439d7e6c699d5f9cd0461e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-02-16x9.png",
+      "size": 3396643,
+      "sha256": "dcc546d08fa4b271a0b2dec6cfc4b11a3bdd8d2784f6b7e7ed0c96c73b116f75",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-03-16x9-night.png",
+      "size": 2837159,
+      "sha256": "4bf2c2eb1e93d3c149b1e6dcb2b75f6891f83a1a297661aa525d8634c797864b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/safari_woodland/safari_woodland-03-16x9.png",
+      "size": 3067910,
+      "sha256": "a73d95b1ebd0da465bb4c4be2bcad733dfd847b3b1c316fbc1fc24555301d7e1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/safari_woodland/safari_woodland-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/seafoam_cave/seafoam_cave-01-16x9.png",
+      "size": 3264109,
+      "sha256": "d51dfa6a554497c1ae4b58b86ec193112c7c8145921f73bd5ff4a2b6c8a6e372",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/seafoam_cave/seafoam_cave-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/seafoam_cave/seafoam_cave-02-16x9.png",
+      "size": 2770227,
+      "sha256": "bf313794ee27e578ec08ba64ad38af5a74f249ad18cb527bca4e32d23365f612",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/seafoam_cave/seafoam_cave-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/seafoam_cave/seafoam_cave-03-16x9.png",
+      "size": 2787528,
+      "sha256": "6e44c0da12d1acfc7410a6cea4963cadbc9019311f026b04f3d3882b65ca54fe",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/seafoam_cave/seafoam_cave-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-01-16x9-night.png",
+      "size": 2208116,
+      "sha256": "86657165a56aed1809d7841492d8c0087a0fa41c32af8bf484c39ce885dbac86",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-01-16x9.png",
+      "size": 2291897,
+      "sha256": "4a7ec795f25631869199475c35f429db640b0a2dcd6d2789f5ff68a35ae5a18f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-02-16x9-night.png",
+      "size": 2419512,
+      "sha256": "4992fc7f23492d83030020b47a8281c706503e5721a28ae8568c491534c72447",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-02-16x9.png",
+      "size": 2363628,
+      "sha256": "4ad6be47b0f0da77601e8e1adcd6bea9a389887a3fe67ee2406d6fb558cab02c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-03-16x9-night.png",
+      "size": 2216683,
+      "sha256": "431ed0d19cd93cd19e437983b366f2349e98c85a1a6395db7b34916ea7b62464",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_bow/ship_bow-03-16x9.png",
+      "size": 2278988,
+      "sha256": "fbc647d5a15ea3aa9e0213a2396512fd5b768ac5482334ab7c2a28056bc9e131",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_bow/ship_bow-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_cabin/ship_cabin-01-16x9.png",
+      "size": 2408870,
+      "sha256": "dd074351166d9ec5003bf062fe0258a28b28a21bd1e991f1f90e78423f20d8a4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_cabin/ship_cabin-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_captain/ship_captain-01-16x9.png",
+      "size": 2748890,
+      "sha256": "c0a323f6a95d35ab3b7f4646c1c08eed4bf5b318679d709c8d32267c8a73d797",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_captain/ship_captain-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_captain/ship_captain-02-16x9.png",
+      "size": 2633156,
+      "sha256": "f98efd02e9170ce286d6f8eea0b50c60da5ddf65d6065b98d82e1168bca5b47e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_captain/ship_captain-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_captain/ship_captain-03-16x9.png",
+      "size": 2284982,
+      "sha256": "24ccd573d0fbedc8cb19615070a3cd84ec0c42caa436f1a7bf27b38c759a5a1f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_captain/ship_captain-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_corridor/ship_corridor-01-16x9.png",
+      "size": 2388006,
+      "sha256": "f75141a7262609e19a5f9a6ebdb0468b3d5469d5ea9f0ab52417d17c3dd18d48",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_corridor/ship_corridor-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_interior/ship_interior-01-16x9.png",
+      "size": 2486261,
+      "sha256": "63c4d93a79114ce4f99e0439620f84f3b434548669330a017adf54e8d60e6120",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_interior/ship_interior-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_interior/ship_interior-02-16x9.png",
+      "size": 2623371,
+      "sha256": "6a0f7f6551784d9119b5da3d50c38089e23017f8ff028735c15f261cd672002d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_interior/ship_interior-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_interior/ship_interior-03-16x9.png",
+      "size": 2464400,
+      "sha256": "2a6112293229b8969ec1e94d89bcac2074c78a372e105d480750617293d167e6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_interior/ship_interior-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_kitchen/ship_kitchen-01-16x9.png",
+      "size": 2446846,
+      "sha256": "1e717ac34e9873c81ea83e5c70da2034389c4404cb4ded4ef0c815db2d4a1708",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_kitchen/ship_kitchen-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_kitchen/ship_kitchen-02-16x9.png",
+      "size": 2215020,
+      "sha256": "06d86d7f94ec4fda844f51e3c5a0e9fc7231821036f67e64b693db7d4afc0373",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_kitchen/ship_kitchen-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/ship_kitchen/ship_kitchen-03-16x9.png",
+      "size": 2138247,
+      "sha256": "3f6ae11c90aca78b57aa0d3a64903dd07bba3553d765e10951a253546ef6309e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/ship_kitchen/ship_kitchen-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/shop/shop-01-16x9.png",
+      "size": 2215200,
+      "sha256": "2117adcf7c08ab27465854280adee3539cb2b752d1890a87b5905f947f181aa4",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/shop/shop-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/shop/shop-02-16x9.png",
+      "size": 2371068,
+      "sha256": "fdda56a7874fcd7e1c58f7a38c7658a6d396da74416964a443d8adf53004e417",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/shop/shop-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/shop/shop-03-16x9.png",
+      "size": 2069243,
+      "sha256": "02279bf8142f15fbc6bfe3a0a086f19f6b54219753e62e7154a5d97ea7d255bb",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/shop/shop-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/silph_lift/silph_lift-01-16x9.png",
+      "size": 2148084,
+      "sha256": "f5a279771271d14ba94c913de1f3f18e7f45309383985884eef87c8decd6bf52",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/silph_lift/silph_lift-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/silph_lift/silph_lift-02-16x9.png",
+      "size": 1965563,
+      "sha256": "e14466bbbaedb8db9f37341c993ea728b828aee487e94cb0400f1db9f816680d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/silph_lift/silph_lift-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/silph_lift/silph_lift-03-16x9.png",
+      "size": 2124336,
+      "sha256": "074255d8621eb67d688fa7b21254100cf91d0b2fb8bd55ef95030554110536e0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/silph_lift/silph_lift-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/underground_tunnel/underground_tunnel-01-16x9.png",
+      "size": 2475841,
+      "sha256": "698136f0456fb7dd7b784cbd4a0b98936809e942e7d542801255c00014bd698a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/underground_tunnel/underground_tunnel-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/underground_tunnel/underground_tunnel-02-16x9.png",
+      "size": 2591858,
+      "sha256": "aa69847879fa5da78415e3a87d306c1dc96dc507bb105b5d9d022c9f857e0e7a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/underground_tunnel/underground_tunnel-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/underground_tunnel/underground_tunnel-03-16x9.png",
+      "size": 2353543,
+      "sha256": "de55edb78072bfe132b9de9ac45fce50e361bc4efe57e8c53a84023d4d775d17",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/underground_tunnel/underground_tunnel-03-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-01-16x9-night.png",
+      "size": 2787027,
+      "sha256": "1f1d9ba1e10d0dcc916969b750190c21dc03eee8fabc2ad38f09b7833f96aa2f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-01-16x9.png",
+      "size": 2912500,
+      "sha256": "e8d30f479f81acc180c4647e637b9a0c699c70aa5eb4c6a3cb54f1d361898091",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-01-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-02-16x9-night.png",
+      "size": 3605410,
+      "sha256": "d5cc9748e6ea32c102a66d6fec75ec1fca04cc132d04390cfbd393dde94d685e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-02-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-02-16x9.png",
+      "size": 3241345,
+      "sha256": "95a6168d67d25a56fd9da78f607ba8d2d63872d0070b5ed8edf2ca9a116a73a9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-02-16x9.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-03-16x9-night.png",
+      "size": 3420392,
+      "sha256": "8b22951bf186d6efa2eeaab4742daa1883555adc668a0996c364f8692c58725f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-03-16x9-night.png"
+    },
+    {
+      "path": "art/gen1/16x9/village/village-03-16x9.png",
+      "size": 3749904,
+      "sha256": "2ed0ad4d254359299923d5a4b5d6130e1d057d55db0ab871748e3468038fdf6d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen1/16x9/village/village-03-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/azalea_gym/azalea_gym-01-16x9.png",
+      "size": 3019171,
+      "sha256": "0aba1ed0df2fb989220eded60101fe7cb33f631a5bf512ed90a208695975ef23",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/azalea_gym/azalea_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/battle_tower/battle_tower-01-16x9.png",
+      "size": 2364108,
+      "sha256": "2f46720c790406def2fb2b86cc6850a66411ed33db31601e5303706947a2ce35",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/battle_tower/battle_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/blackthorn_gym/blackthorn_gym-01-16x9.png",
+      "size": 2733979,
+      "sha256": "8aff0960ee1295391f6c232d5d97f1bf962b737ae7e3b6f64f03bc3d8bfb5d0d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/blackthorn_gym/blackthorn_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/burned_tower/burned_tower-01-16x9.png",
+      "size": 3531451,
+      "sha256": "d4e33d4bd74dd408820f51b98708efed7609cf3ca97952079e101f1116ea50c1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/burned_tower/burned_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/cinnabar_coast/cinnabar_coast-01-16x9-night.png",
+      "size": 2396811,
+      "sha256": "d03209daa53f2d3967a92aebcc5bdba246eea86c64a0ca57453ec92f6a3d0b6c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/cinnabar_coast/cinnabar_coast-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen2/16x9/cinnabar_coast/cinnabar_coast-01-16x9.png",
+      "size": 2562759,
+      "sha256": "951eca8ee0bb47701597a5153c84ac61094ecce13e964993179d24e8fe6bc02a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/cinnabar_coast/cinnabar_coast-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/dance_theater/dance_theater-01-16x9.png",
+      "size": 2215023,
+      "sha256": "8bb940e6cbab8f7077793651dda9dea725853536d52edf52060329474f5bd0e3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/dance_theater/dance_theater-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/dragons_den/dragons_den-01-16x9.png",
+      "size": 2574511,
+      "sha256": "a510859f8359d03937bfaaff5c6a70d8120a449a35d0a80ef9ba843173a7f703",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/dragons_den/dragons_den-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/ecruteak_gym/ecruteak_gym-01-16x9.png",
+      "size": 2492118,
+      "sha256": "4e6f7db15d92755d4f2f4c37246dffd532022f9ba8130f38e80fe9972a5fa2ca",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/ecruteak_gym/ecruteak_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/elite_four_karen/elite_four_karen-01-16x9.png",
+      "size": 2624895,
+      "sha256": "fc714b9f278e8b9373a51ba7e7a7d3438320ffcc7e9cad26c577f5790699c4df",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/elite_four_karen/elite_four_karen-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/goldenrod_gym/goldenrod_gym-01-16x9.png",
+      "size": 2646552,
+      "sha256": "eb61e5454b446f472eadbeda9d85bac56a70a70fbee9299521914c85246791bf",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/goldenrod_gym/goldenrod_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/harbor_water/harbor_water-01-16x9-night.png",
+      "size": 2860399,
+      "sha256": "2ebe334f5a017d7d64b7082cb94ed49957c9753474d6c3d7f72f6b3c4ce30cbc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/harbor_water/harbor_water-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen2/16x9/harbor_water/harbor_water-01-16x9.png",
+      "size": 2944174,
+      "sha256": "4aaeb3b51f617175ec728894b8182370420c75ff8955c67ccf9840ef58f37f4a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/harbor_water/harbor_water-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/lugia_chamber/lugia_chamber-01-16x9.png",
+      "size": 3245359,
+      "sha256": "9fbe62edc11a7f5032b9008bda1e907fcbfb1b29fcccc7633cae651faf6e2a2b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/lugia_chamber/lugia_chamber-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/mahogany_gym/mahogany_gym-01-16x9.png",
+      "size": 2616251,
+      "sha256": "803be5de2628314a92de9a6ac994ab7ce3647c46ae9a8c4fe2fa326d4e6f1e4a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/mahogany_gym/mahogany_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/olivine_gym/olivine_gym-01-16x9.png",
+      "size": 2456845,
+      "sha256": "831330311344af71877874fd41145a4939f235e535b2301f5fa085ba39b411a2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/olivine_gym/olivine_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/olivine_lighthouse/olivine_lighthouse-01-16x9.png",
+      "size": 2509511,
+      "sha256": "e4a118ada97a6c3d04edb8a03ea8bdf253db6155c24ded0b6bffc79a1a4c7844",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/olivine_lighthouse/olivine_lighthouse-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/radio_tower/radio_tower-01-16x9.png",
+      "size": 3040782,
+      "sha256": "be37062d67961fe9431c6ff4fdcadda5d393fba51b12e0d657b5f9e832c6e6b2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/radio_tower/radio_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/ruins_of_alph/ruins_of_alph-01-16x9.png",
+      "size": 3024153,
+      "sha256": "283872bba1c43e5112a48fd812af6deb6237a14ee873fe4cd87b79481d660b50",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/ruins_of_alph/ruins_of_alph-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/sprout_tower/sprout_tower-01-16x9.png",
+      "size": 2682658,
+      "sha256": "d22da939f8486d4b8b5ba05afcb931687592eb16d9a918713b09de6623d5b85b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/sprout_tower/sprout_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/tin_tower/tin_tower-01-16x9.png",
+      "size": 2674174,
+      "sha256": "9b180f7d76ccf7ba0d61f7e8112fba7695329b5b10b86fe0b294087cb08123d9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/tin_tower/tin_tower-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/tin_tower_roof/tin_tower_roof-01-16x9-night.png",
+      "size": 2359650,
+      "sha256": "cbffa4f19133b5f14198ade370d4d2ab28a637b707bf2c352ce1ad7702564e8f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/tin_tower_roof/tin_tower_roof-01-16x9-night.png"
+    },
+    {
+      "path": "art/gen2/16x9/tin_tower_roof/tin_tower_roof-01-16x9.png",
+      "size": 2638014,
+      "sha256": "9a9dcf309469e41a7f3e69ca8aff58979ca83c3b1cecd4d9f9ada085e80932b9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/tin_tower_roof/tin_tower_roof-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/violet_gym/violet_gym-01-16x9.png",
+      "size": 3202185,
+      "sha256": "4d88b32564d22b1125bfcf16ed2b1b4846ee2b9c6c7b69ea1889251d4eb9fd3d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/violet_gym/violet_gym-01-16x9.png"
+    },
+    {
+      "path": "art/gen2/16x9/warehouse/warehouse-01-16x9.png",
+      "size": 2830561,
+      "sha256": "f8ce62558da394d1aa76e9abd45b559be43fe383b4cbd73cd82411f74f9059dc",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/gen2/16x9/warehouse/warehouse-01-16x9.png"
+    },
+    {
+      "path": "art/mounds/asphalt-dark/mound-asphalt-dark-01-clean-v3.png",
+      "size": 1943385,
+      "sha256": "c28c351414df3e250bc233cf977c934187ffd9963054ccfda894697a0190115d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/asphalt-dark/mound-asphalt-dark-01-clean-v3.png"
+    },
+    {
+      "path": "art/mounds/asphalt-dark/mound-asphalt-dark-01-night-clean.png",
+      "size": 1851407,
+      "sha256": "8e56c9955277d4d4cc52a31d5a0f2a75ad49a4891eed502876f40c521776e76e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/asphalt-dark/mound-asphalt-dark-01-night-clean.png"
+    },
+    {
+      "path": "art/mounds/asphalt-light/mound-asphalt-light-01-night-clean.png",
+      "size": 1619378,
+      "sha256": "f7f387cb42b3d862619b93fc652d2641e8cc21a28199781461f20595e11c9032",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/asphalt-light/mound-asphalt-light-01-night-clean.png"
+    },
+    {
+      "path": "art/mounds/asphalt-light/mound-asphalt-light-01-v2-clean-v3.png",
+      "size": 1610775,
+      "sha256": "f6a9c98ad000492158e42a03c2dddfad1d14f61e0ac91fb4f2bf0812cc8baf06",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/asphalt-light/mound-asphalt-light-01-v2-clean-v3.png"
+    },
+    {
+      "path": "art/mounds/autumn/mound-autumn-01-night.png",
+      "size": 2193083,
+      "sha256": "2fc7d857c40f79764ad4504905431dfb5aaba51eb9a10358658f113c374f1740",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/autumn/mound-autumn-01-night.png"
+    },
+    {
+      "path": "art/mounds/autumn/mound-autumn-01.png",
+      "size": 2326658,
+      "sha256": "c820d90d894570440a963b294293688cbf57b4316195f5713b999ec0f4429e5a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/autumn/mound-autumn-01.png"
+    },
+    {
+      "path": "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png",
+      "size": 2074699,
+      "sha256": "2bc88ce5b0c82f14e79097711568eb0fd6a1df6d94331ffa46289a39f8bb7687",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/carpet-blue/mound-carpet-blue-01-clean.png"
+    },
+    {
+      "path": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png",
+      "size": 2269985,
+      "sha256": "94b386a0957246ac87976ccccf427f550402dabb5f2a2eb1489e8fd76294584e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png"
+    },
+    {
+      "path": "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png",
+      "size": 1679556,
+      "sha256": "24154549f4dbd759a8e2f1c330e4a0ccd4f14b14bd6472428e0c44fde065ee3d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png"
+    },
+    {
+      "path": "art/mounds/carpet-moss/mound-carpet-moss-01.png",
+      "size": 2615524,
+      "sha256": "2de8eb91b62bfb16b4b904a3424d6edfab102cf6092f735be78008d6b188796c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/carpet-moss/mound-carpet-moss-01.png"
+    },
+    {
+      "path": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+      "size": 1511048,
+      "sha256": "e6f73c6a6372c2e14465b70f309eedf1ce84d3cdc737ea31d00c868e1f896948",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+    },
+    {
+      "path": "art/mounds/cave-violet/mound-cave-violet-01-clean.png",
+      "size": 1703433,
+      "sha256": "0e04d6977bb9d254fdc78beb76a4fb6e889265b39e74f417aa0747d971fb1da1",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/cave-violet/mound-cave-violet-01-clean.png"
+    },
+    {
+      "path": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+      "size": 1314203,
+      "sha256": "3c96ff7bb31c53010c0457556eb825811b6119cc6cfc630e30d83129eb877c4c",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+    },
+    {
+      "path": "art/mounds/cave/mound-cave-01.png",
+      "size": 1728760,
+      "sha256": "522f99f39d349f8e84f1d1454bfca6b8f15d09d30b88cfd951472763fa01835a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/cave/mound-cave-01.png"
+    },
+    {
+      "path": "art/mounds/dock-concrete/mound-dock-concrete-01-clean-v3.png",
+      "size": 1657566,
+      "sha256": "e98d3bc40d5f84cfb2e990bd63869335345e17bd97fd0f36013959dcb960173b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/dock-concrete/mound-dock-concrete-01-clean-v3.png"
+    },
+    {
+      "path": "art/mounds/dock-concrete/mound-dock-concrete-01-night-clean.png",
+      "size": 1626546,
+      "sha256": "09b334c1537e1770868017e6a49b1497948d99775e7a10b9978434016335fc6b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/dock-concrete/mound-dock-concrete-01-night-clean.png"
+    },
+    {
+      "path": "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+      "size": 1516015,
+      "sha256": "c38f08abb6e63fe07e2a1fb8bea99a56ea914d757a4d812db8d9fd8dee783bb6",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    {
+      "path": "art/mounds/floor-beige/mound-floor-beige-02.png",
+      "size": 1940718,
+      "sha256": "34c0809c59ba4b619f1743169faeb41b56cdb3b855d0f3213810398cf2209ea2",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-beige/mound-floor-beige-02.png"
+    },
+    {
+      "path": "art/mounds/floor-charcoal/mound-floor-charcoal-01.png",
+      "size": 2059673,
+      "sha256": "9381cfd8cea698c82c34e180b87ac4199035d1f2a7978da6db55aad47f9c6189",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+    },
+    {
+      "path": "art/mounds/floor-clay/mound-floor-clay-02.png",
+      "size": 2237531,
+      "sha256": "7c67d243c405805838c1df545b5189fae45e491be35bbc92d08146aa6227d6a9",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-clay/mound-floor-clay-02.png"
+    },
+    {
+      "path": "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png",
+      "size": 1216600,
+      "sha256": "7368f7e2dc91d34c1a93f98b76dae166fc4877987c64da11f6f9e74fa32b9162",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+    },
+    {
+      "path": "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+      "size": 813469,
+      "sha256": "77dd2d51d923b088f45a2c710ef34d7db2f673b2fa2bc4a53d837be32e4ccd88",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+    },
+    {
+      "path": "art/mounds/floor-ivory/mound-floor-ivory-01.png",
+      "size": 1542289,
+      "sha256": "34f19eb5202848091fe48496e255ea25a92070276426ea911a9cc55247068a44",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-ivory/mound-floor-ivory-01.png"
+    },
+    {
+      "path": "art/mounds/floor-sage/mound-floor-sage-02.png",
+      "size": 2128426,
+      "sha256": "e4042fb8e0df5fcb14a143a444701b8f06f0dc284d928652375488cd25b13ab8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/floor-sage/mound-floor-sage-02.png"
+    },
+    {
+      "path": "art/mounds/forest/mound-forest-01-night.png",
+      "size": 2373185,
+      "sha256": "1ae4a9224117f24a67a55d5867b5c7680d928925c99aa39d9f8c4c01633674e7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/forest/mound-forest-01-night.png"
+    },
+    {
+      "path": "art/mounds/forest/mound-forest-01.png",
+      "size": 2499308,
+      "sha256": "611c2a57c4809d2ae7a751f2dd65efdab1d7cd0315cd045956937f079e5f8551",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/forest/mound-forest-01.png"
+    },
+    {
+      "path": "art/mounds/grass/mound-grass-01-night.png",
+      "size": 1810791,
+      "sha256": "f49f1019aee6f2a237cec92b0eb8ebc1d0f5d4b4e003fcbe73a2eb81ed1811fd",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/grass/mound-grass-01-night.png"
+    },
+    {
+      "path": "art/mounds/grass/mound-grass-01.png",
+      "size": 1861802,
+      "sha256": "2f31ff6c2936ae6e0d6c206ed9abab03c620ad8a13cd3361704dae0e1c1307a7",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/grass/mound-grass-01.png"
+    },
+    {
+      "path": "art/mounds/gravel/mound-gravel-01-night.png",
+      "size": 1833663,
+      "sha256": "77e62fd47b524de9afdec65cfeca608e635c3d865b671b71989d931de954acb3",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/gravel/mound-gravel-01-night.png"
+    },
+    {
+      "path": "art/mounds/gravel/mound-gravel-01.png",
+      "size": 2072943,
+      "sha256": "27b94f9534518766a6bededa66fd6d7a8248f8a92f8f2f4e76b459b616b7fe19",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/gravel/mound-gravel-01.png"
+    },
+    {
+      "path": "art/mounds/gray-sand/mound-gray-sand-01-night.png",
+      "size": 1880575,
+      "sha256": "a5fc33564a463603a767831535e025573d7708ff189f9a39f3f7247bd543c15f",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/gray-sand/mound-gray-sand-01-night.png"
+    },
+    {
+      "path": "art/mounds/gray-sand/mound-gray-sand-01.png",
+      "size": 2018840,
+      "sha256": "e569163d0129975b3f2100fdf4f10eb1a63a2f91360e67b8f7bb9e14921a062e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/gray-sand/mound-gray-sand-01.png"
+    },
+    {
+      "path": "art/mounds/gym-pool-platform/mound-gym-pool-platform-01.png",
+      "size": 1047998,
+      "sha256": "820b4b0b2d1ed520a0f255c1ec4e4dbcacc52bce2eff06f45ab44d2bc83b088b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/gym-pool-platform/mound-gym-pool-platform-01.png"
+    },
+    {
+      "path": "art/mounds/highland/mound-highland-01-night.png",
+      "size": 2002604,
+      "sha256": "c72155880f863c11200c36e0e6c0960500f6087a43b9ebb6a26e5725150586ce",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/highland/mound-highland-01-night.png"
+    },
+    {
+      "path": "art/mounds/highland/mound-highland-01.png",
+      "size": 2108541,
+      "sha256": "f8d7697702343e0f850122658b41f8604f87392d3ff4388d9e16b11fc9f07ba8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/highland/mound-highland-01.png"
+    },
+    {
+      "path": "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png",
+      "size": 1234758,
+      "sha256": "e3e25b31d3f614d2aa1cb71b26aafd1c71fe4a964b428ffaa4b7ad412c5b140e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/ice-cave/mound-ice-cave-01-clean-round.png"
+    },
+    {
+      "path": "art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png",
+      "size": 955382,
+      "sha256": "539ba4878c8721f4a7d2a6abca5869e9ee67dba761249d0ec36c1357557a7690",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png"
+    },
+    {
+      "path": "art/mounds/islet-grass/mound-islet-grass-01-night.png",
+      "size": 1033043,
+      "sha256": "a0964e690b599bef8cc9f5f4c3ecd8fca10302994cdb2e63bb6ccbea7961624d",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-grass/mound-islet-grass-01-night.png"
+    },
+    {
+      "path": "art/mounds/islet-grass/mound-islet-grass-01.png",
+      "size": 1050969,
+      "sha256": "3262790dd644f5ce8bd2adc9b4597fb5fd17255a0cb2c4da0e611407b3164a4a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-grass/mound-islet-grass-01.png"
+    },
+    {
+      "path": "art/mounds/islet-rock/mound-islet-rock-01-night.png",
+      "size": 1147140,
+      "sha256": "0baa2cb5b49d168f6d6e9a1432863651fb92d3d54a008965632999674cd45897",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-rock/mound-islet-rock-01-night.png"
+    },
+    {
+      "path": "art/mounds/islet-rock/mound-islet-rock-01.png",
+      "size": 1147560,
+      "sha256": "63a26715b37a79503ec7cade0d9b8969d6852e34eda8a7b0f9a799aa9476d77a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-rock/mound-islet-rock-01.png"
+    },
+    {
+      "path": "art/mounds/islet-sand/mound-islet-sand-01-night.png",
+      "size": 1115229,
+      "sha256": "be3dde582c3f43c6c3e39c3dd0c3f1ed1f8b60b501054134bf66816890ae51f0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-sand/mound-islet-sand-01-night.png"
+    },
+    {
+      "path": "art/mounds/islet-sand/mound-islet-sand-01.png",
+      "size": 965411,
+      "sha256": "435fe2cf9e812d71eee240fef509034868597014dec297e5e9a0a25beca11ad8",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/islet-sand/mound-islet-sand-01.png"
+    },
+    {
+      "path": "art/mounds/limestone/mound-limestone-02.png",
+      "size": 1730082,
+      "sha256": "6ab87ddd7ea4f5ea7464105cb0a407e726282cb82cea0292b6b4c6b4c4ca0474",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/limestone/mound-limestone-02.png"
+    },
+    {
+      "path": "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+      "size": 2110755,
+      "sha256": "0252bafdc72e1bfc7b8fc03192473c29249b7fbc15d0321106fbd4c39a999b89",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+    },
+    {
+      "path": "art/mounds/pale-gravel/mound-pale-gravel-01.png",
+      "size": 2133461,
+      "sha256": "69a5eb76a93c0203e06f041404d211af49c53d14cc20cb6eff2a16dbaea8c32b",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/pale-gravel/mound-pale-gravel-01.png"
+    },
+    {
+      "path": "art/mounds/sand/mound-sand-01-night.png",
+      "size": 1793010,
+      "sha256": "6fcccf9b69382ac7cf527a09bdb4f501d83ccdb9f3fe00b9c6dfc6e46910ca68",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/sand/mound-sand-01-night.png"
+    },
+    {
+      "path": "art/mounds/sand/mound-sand-01.png",
+      "size": 1883832,
+      "sha256": "4af2e7b9e11ec53073375dd6a5a669043b9bfc2adcb7cee4a1f3519457b3b0e0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/sand/mound-sand-01.png"
+    },
+    {
+      "path": "art/mounds/sandstone/mound-sandstone-01.png",
+      "size": 1686344,
+      "sha256": "f1fc268f6c07ad6b69091dab561667ae3ad94d73ca4797c976399c6c51e628ef",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/sandstone/mound-sandstone-01.png"
+    },
+    {
+      "path": "art/mounds/terracotta/mound-terracotta-01-night.png",
+      "size": 2039612,
+      "sha256": "2b769e09629479ba4e9bc2d44a4033b10140dfd49ece72169aa736a830434999",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/terracotta/mound-terracotta-01-night.png"
+    },
+    {
+      "path": "art/mounds/terracotta/mound-terracotta-01.png",
+      "size": 2282042,
+      "sha256": "99d237ecf9b53b120d30c1bf1199aaa6d2ed4da9a9d1eea3f9d6be49c3fa896a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/terracotta/mound-terracotta-01.png"
+    },
+    {
+      "path": "art/mounds/village-earth/mound-village-earth-01-clean-v3.png",
+      "size": 1430545,
+      "sha256": "85f94e9bcabc26898057b36e98692a29048e7be5ce4c6777db6fe6ab5cfdb6d0",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/village-earth/mound-village-earth-01-clean-v3.png"
+    },
+    {
+      "path": "art/mounds/village-earth/mound-village-earth-01-clean.png",
+      "size": 1230944,
+      "sha256": "c967f2719e6dc2500ff614cbdd2af62d927201dad5dfe7201b637924297a3a6e",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/village-earth/mound-village-earth-01-clean.png"
+    },
+    {
+      "path": "art/mounds/village-earth/mound-village-earth-01-night-clean.png",
+      "size": 1102855,
+      "sha256": "d94f5b1a4ff40727aa494622c77e0a54638ee13545e5da615a94c19f517c927a",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/art/mounds/village-earth/mound-village-earth-01-night-clean.png"
+    },
+    {
+      "path": "compositions.json",
+      "size": 165867,
+      "sha256": "4558cb8315beb06fb5370713a66688778058cf01501525664d778d9e35ba6283",
+      "url": "https://raw.githubusercontent.com/Bentley734/HD-Dynamic-Battlefields/7765f9dc4d71a1df318dc8e2fe44a2a48fda13d8/asset-packs/0.2.0-beta.1/battlefields-16-9-hd-all/compositions.json"
+    }
+  ],
+  "installed_size": 971326185
+}

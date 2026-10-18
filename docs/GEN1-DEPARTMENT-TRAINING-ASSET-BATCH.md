@@ -1,6 +1,6 @@
 # Celadon training department
 
-Three original widescreen paintings generated with built-in ImageGen. Unchanged originals saved as `art/source/department_training-01-16x9.png` through `department_training-03-16x9.png`. Exact prompts retained with matching basenames under `art/prompts`.
+Three original widescreen paintings generated with built-in ImageGen. Unchanged originals saved as `art/gen1/16x9/department_training/department_training-01-16x9.png` through `department_training-03-16x9.png`. Exact prompts retained with matching basenames under `art/prompts`.
 
 Visually inspected variants differ in counters, supply shelving, windows, doors and room arrangement. Selected independent materials: sage floor, blue carpet and beige floor. Seamless standing surfaces avoid tile and hardwood alignment problems. Draft horizons are source-reviewed; native grounding and material blending remain untested.
 

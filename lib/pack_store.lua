@@ -10,6 +10,18 @@ local function path(s)
  return true
 end
 local function digest(s) return type(s) == 'string' and #s == 64 and s:match('^[a-f0-9]+$') end
+-- New catalogs pin source downloads to an immutable Git commit. Keep release
+-- URLs readable so installations from older catalogs remain repairable.
+function M.assetUrl(url,repository)
+ if type(url)~='string' then return false end
+ local owner,repo=url:match('^https://github%.com/([%w_.-]+)/([%w_.-]+)/releases/download/[^/]+/[^/]+$')
+ if not owner then
+  local commit,relative
+  owner,repo,commit,relative=url:match('^https://raw%.githubusercontent%.com/([%w_.-]+)/([%w_.-]+)/([a-f0-9]+)/(.+)$')
+  if not owner or #commit~=40 or not path(relative) then return false end
+ end
+ return not repository or owner..'/'..repo==repository
+end
 function M.validate(pack)
  if type(pack) ~= 'table' or pack.schema_version ~= 1 or pack.metadata_schema ~= 1 then return nil, 'Unsupported pack or perspective schema' end
  if not token(pack.id) or not token(pack.version) then return nil, 'Invalid pack identity' end
@@ -21,7 +33,7 @@ function M.validate(pack)
   if type(f) ~= 'table' then return nil, 'Invalid file entry' end
   if not path(f.path) or seen[f.path] or not digest(f.sha256) then return nil, 'Invalid or duplicate asset path/checksum' end
   if type(f.size) ~= 'number' or f.size < 1 or f.size % 1 ~= 0 or f.size > 64*1024*1024 then return nil, 'Asset exceeds cache file limit' end
-  if type(f.url) ~= 'string' or not f.url:match('^https://github%.com/[%w_.-]+/[%w_.-]+/releases/download/[^/]+/[^/]+$') then return nil, 'Asset URL must name a GitHub release download' end
+  if not M.assetUrl(f.url) then return nil, 'Asset URL must name an immutable GitHub source file or release download' end
   seen[f.path], total = true, total + f.size
  end
  if pack.installed_size ~= total then return nil, 'Installed size does not match file manifest' end

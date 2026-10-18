@@ -31,7 +31,7 @@ function love.load()
   assert(backend.validate({files={{path=candidate.background},{path=candidate.mounds.player}}},function(p)if p=='compositions.json'then return catalogBytes end end))
   local bad=Json.decode(catalogBytes);bad.metadata[candidate.metadata].schema_version=99
   assert(not backend.validate({files={}},function()return Json.encode(bad)end))
-  local imageBytes=read('art/source/grassland-01-16x9.png')
+  local imageBytes=read('art/gen1/16x9/grassland/grassland-01-16x9.png')
   assert(cache:write('probe/grassland.png',imageBytes))
   assert(backend.hash(assert(cache:read('probe/grassland.png')))==backend.hash(imageBytes))
   local sandboxLoad=assert(Sandbox.compile('return function(path) return love.graphics.newImage(path) end','@image-probe',env))()

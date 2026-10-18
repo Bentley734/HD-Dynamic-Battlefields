@@ -1,6 +1,6 @@
 # Celadon gift department
 
-Three original widescreen scenes made with built-in ImageGen. Unchanged sources saved at `art/source/department_gifts-01-16x9.png`, `department_gifts-02-16x9.png` and `department_gifts-03-16x9.png`. Exact corresponding prompts retained under `art/prompts`.
+Three original widescreen scenes made with built-in ImageGen. Unchanged sources saved at `art/gen1/16x9/department_gifts/department_gifts-01-16x9.png`, `department_gifts-02-16x9.png` and `department_gifts-03-16x9.png`. Exact corresponding prompts retained under `art/prompts`.
 
 Variants differ in mineral display cabinets, gift shelving, counter arrangement, doors and windows. Independent materials are sage floor, burgundy carpet and beige floor. Seamless standing surfaces avoid tiles and hardwood alignment problems. All three images were visually inspected; uniform 16:9 source insets raise their rear fixtures. Framing and material matching are draft metadata, not native calibration evidence.
 

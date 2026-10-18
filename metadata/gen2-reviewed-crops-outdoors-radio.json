@@ -1,0 +1,160 @@
+[
+  {
+    "family": "radio_tower",
+    "source": "art/gen2/drafts/32x9/radio_tower-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/radio_tower-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      84,
+      2084,
+      669
+    ],
+    "mounds": [
+      "carpet-blue",
+      "floor-gray"
+    ],
+    "time_of_day": "indoor",
+    "source_geometry": {
+      "horizon_y": 0.38,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "tin_tower_roof",
+    "source": "art/gen2/drafts/32x9/tin_tower_roof-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/tin_tower_roof-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      13,
+      81,
+      2093,
+      666
+    ],
+    "mounds": [
+      "floor-clay",
+      "sandstone"
+    ],
+    "time_of_day": "day",
+    "source_geometry": {
+      "horizon_y": 0.42,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "harbor_water",
+    "source": "art/gen2/drafts/32x9/harbor_water-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/harbor_water-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      13,
+      81,
+      2093,
+      666
+    ],
+    "mounds": [
+      "islet-rock"
+    ],
+    "time_of_day": "day",
+    "source_geometry": {
+      "horizon_y": 0.29,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "family": "cinnabar_coast",
+    "source": "art/gen2/drafts/32x9/cinnabar_coast-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/cinnabar_coast-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      14,
+      60,
+      2158,
+      663
+    ],
+    "mounds": [
+      "islet-rock"
+    ],
+    "time_of_day": "day",
+    "source_geometry": {
+      "horizon_y": 0.31,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.47
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.45
+        ]
+      }
+    }
+  }
+]

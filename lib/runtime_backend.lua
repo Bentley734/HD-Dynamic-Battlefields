@@ -72,6 +72,13 @@ return function(mod, perspective)
    if not meta then return nil,err end
    if meta.composition_id~=entry.id then return nil,'Composition metadata identity mismatch'end
    if meta.aspect_ratio~=entry.aspect_ratio then return nil,'Composition aspect metadata mismatch' end
+   local nightMeta=meta
+   if entry.night_metadata~=nil then
+    if type(entry.night_metadata)~='string'or not entry.backgrounds then return nil,'Invalid night perspective reference'end
+    nightMeta,err=perspective.resolve(data.metadata,entry.night_metadata)
+    if not nightMeta then return nil,err end
+    if nightMeta.composition_id~=entry.night_metadata or nightMeta.aspect_ratio~=entry.aspect_ratio then return nil,'Night perspective identity/aspect mismatch'end
+   end
    if not files[entry.background] then return nil,'Undeclared background texture' end
    if type(entry.mounds)~='table' or not files[entry.mounds.player] or not files[entry.mounds.opponent] then return nil,'Missing independent mound assets' end
    if entry.backgrounds then
@@ -80,7 +87,7 @@ return function(mod, perspective)
    end
    local matches,why=artwork(entry.background,entry.source_rect,meta);if not matches then return nil,why end
    if entry.backgrounds then
-    matches,why=artwork(entry.backgrounds.night,entry.night_source_rect or entry.source_rect,meta)
+    matches,why=artwork(entry.backgrounds.night,entry.night_source_rect or entry.source_rect,nightMeta)
     if not matches then return nil,why end
    end
    for _,field in ipairs({'mounds','night_mounds'})do

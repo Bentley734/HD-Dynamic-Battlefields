@@ -1,0 +1,158 @@
+[
+  {
+    "family": "sprout_tower",
+    "source": "art/gen2/drafts/32x9/sprout_tower-01-attempt-02.png",
+    "prompt_source": "art/gen2/drafts/32x9/sprout_tower-01-attempt-02.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      11,
+      81,
+      2091,
+      666
+    ],
+    "mounds": [
+      "floor-beige",
+      "sandstone"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "tin_tower",
+    "source": "art/gen2/drafts/32x9/tin_tower-01-attempt-02.png",
+    "prompt_source": "art/gen2/drafts/32x9/tin_tower-01-attempt-02.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      44,
+      2212,
+      665
+    ],
+    "mounds": [
+      "floor-beige",
+      "sandstone"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "burned_tower",
+    "source": "art/gen2/drafts/32x9/burned_tower-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/burned_tower-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      7,
+      62,
+      2151,
+      665
+    ],
+    "mounds": [
+      "floor-charcoal",
+      "cave-warm-basalt"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.38,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "underground_tunnel",
+    "source": "art/gen2/drafts/9x19_5/underground_tunnel-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/9x19_5/underground_tunnel-01-attempt-01.txt",
+    "aspect": "9x19_5",
+    "crop_pixels": [
+      55,
+      1,
+      853,
+      1730
+    ],
+    "mounds": [
+      "floor-gray",
+      "floor-charcoal"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.11,
+      "player": {
+        "mound_anchor": [
+          0.32,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.32,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.68,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.68,
+          0.43
+        ]
+      }
+    }
+  }
+]

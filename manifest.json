@@ -1,13 +1,14 @@
 {
   "id": "hd-dynamic-battlefields",
-  "name": "HD Dynamic Battlefields (Kanto Beta)",
-  "version": "0.1.0-beta.2",
-  "description": "Original battle scenery for Gen 1 and FireRed/LeafGreen, independent mounds and per-species sprite positions including mod-added Pokemon and forms. Battle UI remains unchanged.",
+  "name": "HD Dynamic Battlefields (Kanto + Johto Beta)",
+  "version": "0.2.0-beta.1",
+  "description": "HD battle scenery for Gen 1, Gold/Silver/Crystal and FireRed/LeafGreen, with independent mounds, species positions and optional source-backed artwork downloads. Battle UI remains unchanged.",
   "api": 2,
   "entry": "main.lua",
   "profile": "overhaul",
   "games": [
     "gen1",
+    "gen2",
     "firered",
     "leafgreen"
   ],
@@ -21,5 +22,10 @@
     "network"
   ],
   "dependencies": [],
-  "optional_dependencies": ["national_dex_gen3", "g9-battle-sprites-gen3", "gen3-hd-sprites", "1025dex"]
+  "optional_dependencies": [
+    "national_dex_gen3",
+    "g9-battle-sprites-gen3",
+    "gen3-hd-sprites",
+    "1025dex"
+  ]
 }

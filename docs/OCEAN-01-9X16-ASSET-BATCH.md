@@ -1,6 +1,6 @@
 # Ocean first variation: mobile portrait
 
-Original dedicated 9:16 day/night paintings made with built-in ImageGen. Unchanged sources saved as `art/source/ocean-01-9x16.png` and `art/source/ocean-01-9x16-night.png`. Exact matching prompts retained under `art/prompts`.
+Original dedicated 9:16 day/night paintings made with built-in ImageGen. Unchanged sources saved as `art/gen1/9x16/ocean/ocean-01-9x16.png` and `art/gen1/9x16/ocean/ocean-01-9x16-night.png`. Exact matching prompts retained under `art/prompts`.
 
 Both visually inspected: high horizon, distant islands, open water through standing regions and no baked mounds. Registered with portrait metadata and independent grass-islet day/night materials. No renderer or map-rule changes.
 

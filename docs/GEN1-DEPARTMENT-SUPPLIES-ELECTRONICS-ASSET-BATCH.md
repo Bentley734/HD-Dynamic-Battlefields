@@ -1,6 +1,6 @@
 # Celadon supplies and electronics floors
 
-Six original widescreen paintings produced with built-in ImageGen. Saved originals: `art/source/department_supplies-01-16x9.png` through `03`, and `department_electronics-01-16x9.png` through `03`. Exact prompts are saved under `art/prompts` using the same basenames.
+Six original widescreen paintings produced with built-in ImageGen. Saved originals: `art/gen1/16x9/department_supplies/department_supplies-01-16x9.png` through `03`, and `department_electronics-01-16x9.png` through `03`. Exact prompts are saved under `art/prompts` using the same basenames.
 
 Second-floor scenes vary sales-counter arrangement, supply shelving, technique cases, windows and architecture. Materials: sage, beige and gray. Third-floor scenes vary CRT television displays, game counters and stock layout. Materials: blue carpet, beige and gray. All floors remain seamless with no tile/plank alignment requirement. Independent mound textures reference existing selected source materials.
 

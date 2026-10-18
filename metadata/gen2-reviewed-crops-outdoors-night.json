@@ -1,0 +1,120 @@
+[
+  {
+    "family": "tin_tower_roof",
+    "source": "art/gen2/drafts/32x9/tin_tower_roof-01-night-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/tin_tower_roof-01-night-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      8,
+      24,
+      2152,
+      627
+    ],
+    "mounds": [
+      "floor-clay",
+      "sandstone"
+    ],
+    "time_of_day": "night",
+    "source_geometry": {
+      "horizon_y": 0.48,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.54
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.52
+        ]
+      }
+    }
+  },
+  {
+    "family": "harbor_water",
+    "source": "art/gen2/drafts/32x9/harbor_water-01-night-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/harbor_water-01-night-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      20,
+      2212,
+      641
+    ],
+    "mounds": [
+      "islet-rock"
+    ],
+    "time_of_day": "night",
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "cinnabar_coast",
+    "source": "art/gen2/drafts/32x9/cinnabar_coast-01-night-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/cinnabar_coast-01-night-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      14,
+      24,
+      2158,
+      627
+    ],
+    "mounds": [
+      "islet-rock"
+    ],
+    "time_of_day": "night",
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  }
+]

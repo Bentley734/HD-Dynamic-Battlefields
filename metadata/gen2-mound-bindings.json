@@ -1,0 +1,77 @@
+{
+  "stage": "Candidate bindings pending contact, edge and color review",
+  "families": {
+    "azalea_gym": {
+      "day": "art/mounds/village-earth/mound-village-earth-01-clean-v3.png"
+    },
+    "battle_tower": {
+      "day": "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+    },
+    "blackthorn_gym": {
+      "day": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+    },
+    "burned_tower": {
+      "day": "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+    },
+    "cinnabar_coast": {
+      "day": "art/mounds/islet-rock/mound-islet-rock-01.png",
+      "night": "art/mounds/islet-rock/mound-islet-rock-01-night.png"
+    },
+    "dance_theater": {
+      "day": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "dragons_den": {
+      "day": "art/mounds/islet-rock/mound-islet-rock-01.png"
+    },
+    "ecruteak_gym": {
+      "day": "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+    },
+    "elite_four_karen": {
+      "day": "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png"
+    },
+    "goldenrod_gym": {
+      "day": "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png"
+    },
+    "harbor_water": {
+      "day": "art/mounds/islet-rock/mound-islet-rock-01.png",
+      "night": "art/mounds/islet-rock/mound-islet-rock-01-night.png"
+    },
+    "lugia_chamber": {
+      "day": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+    },
+    "mahogany_gym": {
+      "day": "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png"
+    },
+    "olivine_gym": {
+      "day": "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+    },
+    "olivine_lighthouse": {
+      "day": "art/mounds/floor-ivory/mound-floor-ivory-01.png"
+    },
+    "radio_tower": {
+      "day": "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png"
+    },
+    "ruins_of_alph": {
+      "day": "art/mounds/sandstone/mound-sandstone-01.png"
+    },
+    "sprout_tower": {
+      "day": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "tin_tower": {
+      "day": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "tin_tower_roof": {
+      "day": "art/mounds/terracotta/mound-terracotta-01.png",
+      "night": "art/mounds/terracotta/mound-terracotta-01-night.png"
+    },
+    "violet_gym": {
+      "day": "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png"
+    },
+    "warehouse": {
+      "day": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "underground_tunnel": {
+      "day": "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+    }
+  }
+}

@@ -11,9 +11,10 @@ a = p.parse_args()
 repo = 'Bentley734/HD-Dynamic-Battlefields'
 version = json.loads((root/'manifest.json').read_text())['version']
 tag = 'v'+version
-proof = json.loads((root/'docs/evidence/published-artwork-verification.json').read_text())
-assert len(proof) == 9 and all(item['verified'] for item in proof)
 index = json.loads(a.index.read_text())
+proof = json.loads((root/'docs/evidence/source-artwork-verification.json').read_text())
+assert proof['verified'] and proof['index_sha256'] == hashlib.sha256(a.index.read_bytes()).hexdigest()
+assert proof['repository'] == repo and proof['remote_commit_verified']
 assert index['repository'] == repo and len(index['packs']) == 18
 seed = (root/'metadata/asset_index.lua').read_bytes()
 assert json.dumps(index, separators=(',', ':')).encode() in seed

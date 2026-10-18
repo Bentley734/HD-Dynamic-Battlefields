@@ -1,0 +1,4 @@
+TACKLE: 40 steps, 22 scanline-canvas frames, frames 8/24 rendered disabled/enabled with identical native call transforms.
+SURF: 40 steps, 30 scanline-canvas frames, frames 8/24 rendered disabled/enabled with identical native call transforms.
+PSYCHIC_M: 40 steps, 40 scanline-canvas frames, frames 8/24 rendered disabled/enabled with identical native call transforms.
+EARTHQUAKE: 40 steps, 40 scanline-canvas frames, frames 8/24 rendered disabled/enabled with identical native call transforms.

@@ -27,4 +27,20 @@ assert(not scene:prepare(entry,catalog.metadata,'sunset'))
 assert(scene:prepare(entry,catalog.metadata,'day'))
 assert(night.released and scene.backgroundPath==entry.backgrounds.day)
 scene:release()
+-- Separately composed night art can retain its own calibrated standing points.
+local nightId=entry.id..'-night-test'
+catalog.metadata[nightId]={inherits=entry.metadata,composition_id=nightId,
+ player={pokemon_ground_anchor={.31,.61}}}
+local separate={};for k,v in pairs(entry)do separate[k]=v end
+separate.night_metadata=nightId
+assert(scene:prepare(separate,catalog.metadata,'night'))
+assert(scene.metadata.composition_id==nightId)
+assert(scene.metadata.player.pokemon_ground_anchor[1]==.31)
+assert(scene.metadata.player.pokemon_ground_anchor[2]==.61)
+assert(scene:prepare(separate,catalog.metadata,'day'))
+assert(scene.metadata.composition_id==entry.metadata)
+separate.night_metadata='missing-night-metadata'
+assert(not scene:prepare(separate,catalog.metadata,'night'))
+assert(scene.period=='day'and scene.metadata.composition_id==entry.metadata)
+scene:release()
 print('PASS separate day/night artwork and mounds, live period replacement/release, failed/missing night-art retention and invalid-period rejection')

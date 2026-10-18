@@ -1,4 +1,10 @@
 local P = assert(loadfile(root..'/lib/pack_store.lua'))()
+local raw='https://raw.githubusercontent.com/example/assets/'..string.rep('a',40)..'/art/gen2/16x9/room/room-01.png'
+assert(P.assetUrl(raw,'example/assets'))
+assert(not P.assetUrl(raw,'other/assets'))
+assert(not P.assetUrl(raw:gsub(string.rep('a',40),'main')))
+assert(not P.assetUrl(raw:gsub('/art/','/../')))
+assert(not P.assetUrl(raw..'?redirect=elsewhere'))
 local Json = assert(loadfile(engine..'/src/link/Json.lua'))()
 local disk, requests, transfers = {}, {}, 0
 local rejectCommit, corruptBody, rejectMetadata = false, false, false

@@ -1,0 +1,41 @@
+[
+  {
+    "family": "warehouse",
+    "source": "art/gen2/drafts/32x9/warehouse-01-attempt-02.png",
+    "prompt_source": "art/gen2/drafts/32x9/warehouse-01-attempt-02.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      13,
+      0,
+      2093,
+      585
+    ],
+    "mounds": [
+      "floor-gray",
+      "floor-charcoal"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.31,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.58
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.56
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.42
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.4
+        ]
+      }
+    }
+  }
+]

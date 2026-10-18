@@ -202,6 +202,10 @@ function love.load()
  renderLogical(900,1600,'standalone-native-logical-900x1600.png',os.getenv('HDB_BASE_ONLY')~='1')
  if os.getenv('HDB_BASE_ONLY')=='1'then renderLogical(1920,1080,'base-offline-fallback-return.png')end
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
+ if os.getenv('HDB_WIDE')=='1'then
+  assert(loadfile(project..'/tools/standalone_probe/wide.lua'))()({G=G,game=game,battle=battle,exports=exports,
+   options=options.modOptions['hd-dynamic-battlefields'],Json=Json,write=write,gameVersion=gameVersion,runtime=runtimeVersion})
+ end
  if os.getenv('HDB_SCENARIOS')=='1'then
   assert(loadfile(project..'/tools/standalone_probe/scenarios.lua'))()({
    game=game,Battle=Battle,options=options.modOptions['hd-dynamic-battlefields'],exports=exports,

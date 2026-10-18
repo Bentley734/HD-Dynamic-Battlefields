@@ -31,7 +31,7 @@ for relative in artwork:
     path.relative_to(project)
     if not path.is_file():
         parser.error(f'Catalog artwork is missing: {relative}')
-prompts = {'art/prompts/' + Path(path).stem + '.txt' for path in artwork}
+prompts = {(Path(path).parent / 'prompts' / (Path(path).stem + '.txt')).as_posix() for path in artwork}
 derivatives_path = project / 'art/derivatives.json'
 if derivatives_path.is_file():
     sources = {item['file']: item['source'] for item in json.loads(derivatives_path.read_text(encoding='utf-8'))}
@@ -42,7 +42,7 @@ if derivatives_path.is_file():
                 parser.error(f'Cyclic artwork provenance: {relative}')
             seen.add(relative)
             relative = sources[relative]
-            prompts.add('art/prompts/' + Path(relative).stem + '.txt')
+            prompts.add((Path(relative).parent / 'prompts' / (Path(relative).stem + '.txt')).as_posix())
 files = []
 for path in sorted(project.rglob('*')):
     if not path.is_file():
@@ -54,9 +54,9 @@ for path in sorted(project.rglob('*')):
         continue
     if rel.parts[:2] == ('docs', 'evidence') and path.suffix == '.png':
         continue
-    if rel.parts[:2] == ('art', 'source') and rel.as_posix() not in artwork:
+    if rel.parts[0] == 'art' and path.suffix == '.png' and rel.as_posix() not in artwork:
         continue
-    if rel.parts[:2] == ('art', 'prompts') and rel.as_posix() not in prompts:
+    if rel.parts[0] == 'art' and 'prompts' in rel.parts and rel.as_posix() not in prompts:
         continue
     data = path.read_bytes()
     files.append((rel.as_posix(), path, len(data), hashlib.sha256(data).hexdigest()))

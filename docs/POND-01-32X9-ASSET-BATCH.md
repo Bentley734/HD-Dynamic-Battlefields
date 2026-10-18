@@ -1,6 +1,6 @@
 # Pond super-ultrawide asset batch
 
-Two independent original paintings produced using the built-in image tool, 2026-10-16. Saved unchanged as art/source/pond-01-32x9.png and art/source/pond-01-32x9-night.png; exact prompts under art/prompts with matching basenames.
+Two independent original paintings produced using the built-in image tool, 2026-10-16. Saved unchanged as art/gen1/32x9/pond/pond-01-32x9.png and art/gen1/32x9/pond/pond-01-32x9-night.png; exact prompts under art/prompts with matching basenames.
 
 Visual review: continuous distant wooded bank and broad open freshwater, no baked mounds. Generated sources are wider panoramas but not exact 32:9; authored source regions provide exact 32:9 framing without stretching or modifying originals. Day region 2210 by 621.5625 at y40; night 2103 by 591.46875 at y80. Independent grass-islet mounds retained.
 

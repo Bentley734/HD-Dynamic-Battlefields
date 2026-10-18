@@ -1,0 +1,1 @@
+PASS v0.3.89 native Gen2 battle fixture, classic/wide/portrait rendering, identical classic native HUD/picture/panel call order and transforms disabled/enabled. No saves written. Fixture evidence only; gameplay traversal, animations and consumer compatibility remain pending.

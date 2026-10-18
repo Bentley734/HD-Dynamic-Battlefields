@@ -1,0 +1,13 @@
+.../HD-Dynamic-Battlefields/tools/standalone_probe/wide.lua:27: Canvas:newImageData cannot be called while that Canvas is currently active.
+stack traceback:
+	[C]: in function 'newImageData'
+	.../HD-Dynamic-Battlefields/tools/standalone_probe/wide.lua:27: in function 'render'
+	.../HD-Dynamic-Battlefields/tools/standalone_probe/wide.lua:52: in function <.../HD-Dynamic-Battlefields/tools/standalone_probe/wide.lua:1>
+	main.lua:206: in function <main.lua:11>
+	[C]: in function 'xpcall'
+	main.lua:11: in function 'load'
+	[love "callbacks.lua"]:136: in function <[love "callbacks.lua"]:135>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:368: in function <[love "boot.lua"]:355>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:377: in function <[love "boot.lua"]:344>

@@ -22,8 +22,8 @@ for path in sorted(root.rglob('*')):
  if not path.is_file():continue
  rel=path.relative_to(root);name=rel.as_posix()
  if any(v.startswith('.')or v in ['__pycache__','dist'] for v in rel.parts):continue
- if rel.parts[:2]==('art','source')and name not in art:continue
- if rel.parts[:2]==('art','prompts'):continue
+ if rel.parts[0]=='art' and path.suffix=='.png' and name not in art:continue
+ if rel.parts[0]=='art' and 'prompts' in rel.parts:continue
  if rel.parts[:2]==('docs','evidence')and path.suffix=='.png':continue
  if path.suffix not in ['.lua','.json','.md','.txt','.py','.png']:continue
  files[name]=path

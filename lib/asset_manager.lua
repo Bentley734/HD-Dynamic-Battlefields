@@ -63,13 +63,22 @@ return function(mod,open,index,aspects)
   end
   open(game,rows)
  end
+ local function downloadAll()
+  local packs={}
+  -- All screen sizes; honor the chosen quality and compact/full profile.
+  for _,pack in ipairs(api.updates.index.packs)do
+   if pack.quality==quality and (pack.variation_profile or'all')==variations then packs[#packs+1]=pack end
+  end
+  return api.queue:start(packs)
+ end
  local rows={aspectRow,qualityRow,variationRow,
+  action('download_all','DOWNLOAD ALL ASSETS',downloadAll),
   info('recommended','RECOMMENDED SIZE',function()local v=mod.exports.diagnostics().viewport;return v and(aspects.aspect(v.width,v.height)..' / '..quality)or'OPEN A BATTLE'end),
   action('browse','BROWSE AVAILABLE PACKS',function(game)return browse(game,false)end),
   action('installed','INSTALLED PACKS',function(game)return browse(game,true)end),
-  info('progress','DOWNLOAD STATUS',function()return store.status..' '..math.floor((store.progress or 0)*100)..'%'end),
-  info('error','DOWNLOAD ERROR',function()return store.error or api.library.error or'NONE'end),
-  action('cancel','CANCEL DOWNLOAD',function()store:cancel();return true end),
+  info('progress','DOWNLOAD STATUS',function()if api.queue and api.queue.status=='downloading' then return'PACK '..api.queue.position..'/'..#api.queue.packs..' '..math.floor(api.queue:progress()*100)..'%'end;return store.status..' '..math.floor((store.progress or 0)*100)..'%'end),
+  info('error','DOWNLOAD ERROR',function()return api.queue and api.queue.error or store.error or api.library.error or'NONE'end),
+  action('cancel','CANCEL DOWNLOAD',function()if api.queue then api.queue:cancel()else store:cancel()end;return true end),
   action('refresh','REFRESH INSTALLED PACKS',api.refresh)}
  if index.repository then
   rows[#rows+1]=action('updates','CHECK FOR UPDATES',function()return api.updates:check()end)

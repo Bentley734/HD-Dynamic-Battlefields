@@ -1,6 +1,6 @@
 # Celadon department-store rooftop
 
-Six original widescreen paintings generated using built-in ImageGen: three independently painted day/night pairs, with distinct stairwell, vending machine, bench, planting and skyline arrangements. Unchanged sources are saved under `art/source/department_roof-01-16x9.png` through `03`, each with its separate `-night.png` counterpart. Exact prompt set retained under `art/prompts` with matching basenames.
+Six original widescreen paintings generated using built-in ImageGen: three independently painted day/night pairs, with distinct stairwell, vending machine, bench, planting and skyline arrangements. Unchanged sources are saved under `art/gen1/16x9/department_roof/department_roof-01-16x9.png` through `03`, each with its separate `-night.png` counterpart. Exact prompt set retained under `art/prompts` with matching basenames.
 
 Visually inspected all six. The standing plane is continuous seamless gray concrete; independent day/night mounds use selected cleaned concrete materials. Draft night source insets raise the rear boundary without changing originals. Material blending and native framing remain untested.
 

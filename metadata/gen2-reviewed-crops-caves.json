@@ -1,0 +1,117 @@
+[
+  {
+    "family": "ruins_of_alph",
+    "source": "art/gen2/drafts/32x9/ruins_of_alph-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/ruins_of_alph-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      11,
+      42,
+      2219,
+      663
+    ],
+    "mounds": [
+      "sandstone"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.36,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "dragons_den",
+    "source": "art/gen2/drafts/32x9/dragons_den-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/dragons_den-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      11,
+      42,
+      2219,
+      663
+    ],
+    "mounds": [
+      "islet-rock"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43
+        ]
+      }
+    }
+  },
+  {
+    "family": "lugia_chamber",
+    "source": "art/gen2/drafts/32x9/lugia_chamber-01-attempt-01.png",
+    "prompt_source": "art/gen2/drafts/32x9/lugia_chamber-01-attempt-01.txt",
+    "aspect": "32x9",
+    "crop_pixels": [
+      4,
+      44,
+      2212,
+      665
+    ],
+    "mounds": [
+      "cave-pale-limestone",
+      "limestone"
+    ],
+    "source_geometry": {
+      "horizon_y": 0.43,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.51
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.49
+        ]
+      }
+    }
+  }
+]

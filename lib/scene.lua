@@ -12,11 +12,12 @@ function M.new(graphics, perspective, loadImage)
  end
  function self:prepare(entry, catalog, period)
   if type(entry)~='table'or type(entry.background)~='string'or type(entry.metadata)~='string'then return nil,'Invalid composition entry'end
-  local metadata, err = perspective.resolve(catalog, entry.metadata)
-  if not metadata then self.diagnostics.error = err; return nil, err end
-  if metadata.aspect_ratio ~= entry.aspect_ratio then return nil, 'Artwork and perspective aspect families differ' end
   period=period or'day'
   if period~='day'and period~='night'then return nil,'Invalid artwork period'end
+  local metadataId=period=='night'and entry.night_metadata or entry.metadata
+  local metadata, err = perspective.resolve(catalog, metadataId)
+  if not metadata then self.diagnostics.error = err; return nil, err end
+  if metadata.aspect_ratio ~= entry.aspect_ratio then return nil, 'Artwork and perspective aspect families differ' end
   local backgroundPath=entry.backgrounds and entry.backgrounds[period]or(period=='day'and entry.background)
   if not backgroundPath then return nil,'No '..period..' artwork installed for '..entry.id end
   local moundPaths=period=='night'and entry.night_mounds or entry.mounds

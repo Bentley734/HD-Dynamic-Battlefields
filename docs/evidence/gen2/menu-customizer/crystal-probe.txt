@@ -1,0 +1,1 @@
+PASS v0.3.89 native Gen2 battle fixture with Menu Customizer 3.35.15 via native Loader/Sandbox, classic/wide/portrait rendering, identical classic native HUD/picture/panel call order and transforms disabled/enabled. No saves written. Fixture evidence only; gameplay traversal and custom-profile coverage remain pending.

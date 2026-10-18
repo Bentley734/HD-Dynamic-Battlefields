@@ -33,6 +33,7 @@ return function(mod,store,Json,selection,catalog,scene)
       end
       for _,original in ipairs(data.compositions)do
        local entry=copy(original);entry.id=prefix..entry.id;entry.metadata=prefix..entry.metadata
+       if entry.night_metadata then entry.night_metadata=prefix..entry.night_metadata end
        if not seen[entry.id]then
         entry.background=texture(entry.background)
         if entry.backgrounds then for period,path in pairs(entry.backgrounds)do entry.backgrounds[period]=texture(path)end end

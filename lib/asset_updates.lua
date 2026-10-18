@@ -12,8 +12,7 @@ return function(mod,backend,packSchema,seed)
    ok,err=backend.compatible(pack);if not ok then return nil,err end
    if ids[pack.id]then return nil,'Duplicate release pack ID'end;ids[pack.id]=true
    if repository then
-    local prefix='https://github.com/'..repository..'/releases/download/'
-    for _,file in ipairs(pack.files)do if file.url:sub(1,#prefix)~=prefix then return nil,'Pack URL repository mismatch'end end
+    for _,file in ipairs(pack.files)do if not packSchema.assetUrl(file.url,repository) then return nil,'Pack URL repository mismatch'end end
    end
   end
   return true

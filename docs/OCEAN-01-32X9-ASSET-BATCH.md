@@ -1,6 +1,6 @@
 # Ocean first variation: super ultrawide
 
-Original panoramic day/night paintings generated with built-in ImageGen. Unchanged sources saved as `art/source/ocean-01-32x9.png` and `art/source/ocean-01-32x9-night.png`; exact prompts retained under `art/prompts`.
+Original panoramic day/night paintings generated with built-in ImageGen. Unchanged sources saved as `art/gen1/32x9/ocean/ocean-01-32x9.png` and `art/gen1/32x9/ocean/ocean-01-32x9-night.png`; exact prompts retained under `art/prompts`.
 
 Both visually inspected for wide island chains, high horizon and open water in standing regions. Generated canvases are less wide than requested; authored exact 32:9 source regions retain the wide skyline and standing plane without stretching or modifying originals. Registered with super-ultrawide metadata and independent grass-islet day/night materials. Native calibration at 5120x1440 remains required.
 
