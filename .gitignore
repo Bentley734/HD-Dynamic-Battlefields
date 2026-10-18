@@ -1,4 +1,4 @@
-art/**/*.png
+# Artwork is source content; downloadable packs pin these files by Git commit.
 docs/evidence/*.png
 docs/evidence/*.jpg
 docs/evidence/*.jpeg

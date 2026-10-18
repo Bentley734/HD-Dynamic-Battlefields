@@ -1,12 +1,18 @@
-# Original prototype artwork
+# Artwork library
 
-Generated with the built-in imagegen tool on 2026-10-15. No KIM image was supplied as an input, and no KIM pixels or source code are included. Sources are preserved in `source/`; exact prompts are in `PROMPTS.md`. These are initial production candidates, not a completed collection.
+Backgrounds: `gen1/<aspect ratio>/<location>/<image>.png`.
+The current Gen 1 paintings also serve FireRed/LeafGreen where appropriate.
+Shared images are kept once. Future Gold/Silver/Crystal artwork belongs in
+`gen2/<aspect ratio>/<location>`.
 
-- `grassland-01-{16x9,32x9,9x16}.png`: independently composed open meadow illustrations.
-- `forest-01-{16x9,32x9,9x16}.png`: independently composed woodland clearings.
-- `cave-01-{16x9,32x9,9x16}.png`: independently composed limestone chambers.
-- `mound-{grass,forest,cave}-01.png`: independent RGBA ground patches, used on both sides with independent metadata scaling.
+All mound cutouts, including originals, revisions and cleaned derivatives,
+are in `mounds/<material>/`. Matching generation prompts live in a `prompts/`
+subfolder beside their images. Mound previews are in `previews/mounds/`.
 
-The panoramic generator outputs include vertical composition bleed; their explicitly authored 32:9 source regions are stored in composition metadata. The renderer samples these regions without stretching either axis. Portrait scenes were generated as separate vertical illustrations. Tiny source-ratio differences from integer image dimensions are handled through proportional source sampling, not stretching.
+Aspect folders such as `16x9`, `4x3` and `9x19_5` identify the authored shape.
+Actual pixel dimensions remain in `SOURCES.json`; nothing was resized.
+Day/night paintings and rejected studies retain their original filenames.
 
-All nine compositions have native Red sprite/HUD rendering evidence. These checks do not establish complete sprite compatibility or final art approval. Remaining environment variations, aspect families, quality tiers and mound types are still required. These are HD prototype candidates, not a claimed Ultra-HD collection. Do not substitute ordinary widescreen crops for missing dedicated compositions.
+`RELOCATIONS.json` records every former path, new path, size and SHA-256.
+`SOURCES.json` preserves provenance; `derivatives.json` records mound ancestry.
+Historical release evidence retains its original release paths.
