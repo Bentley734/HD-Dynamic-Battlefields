@@ -7341,5 +7341,8 @@
     "ashfield",
     "desert",
     "rainforest"
+  ],
+  "complete_ambient_source_families": [
+    "underwater_ocean"
   ]
 }

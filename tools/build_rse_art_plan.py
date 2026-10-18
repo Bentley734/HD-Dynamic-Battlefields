@@ -151,6 +151,10 @@ plan['complete_day_night_source_families'] = sorted(
     family for family in {s['family'] for s in sources}
     if all(any(s['family'] == family and s['aspect_ratio'] == aspect and s['time_of_day'] == period
                for s in sources) for aspect in aspects for period in ('day', 'night')))
+plan['complete_ambient_source_families'] = sorted(
+    family for family in {s['family'] for s in sources}
+    if all(any(s['family'] == family and s['aspect_ratio'] == aspect and s['time_of_day'] == 'indoor'
+               for s in sources) for aspect in aspects))
 (ROOT / 'metadata/rse-art-plan.json').write_text(json.dumps(plan, indent=2) + '\n')
 print(json.dumps({'battle_map_candidates': len(rows), 'reuse_families': len(reuse),
                   'new_or_incomplete_families': len(new), 'minimum_new_aspect_compositions': plan['minimum_new_aspect_compositions'],

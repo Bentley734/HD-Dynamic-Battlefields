@@ -74,6 +74,18 @@ for family in plan['complete_day_night_source_families']:
                         'backgrounds': {'day': record['background'], 'night': night['background']},
                         'mounds': {side: binding['day'] for side in ('player', 'opponent')},
                         'night_mounds': {side: binding['night'] for side in ('player', 'opponent')}})
+# Ambient artwork is protected from outdoor weather by explicit climate policy.
+for family in plan.get('complete_ambient_source_families', []):
+    binding = bindings[family]
+    for record in sorted(records.values(), key=lambda r: r['composition_id']):
+        if Path(record['background']).parent.name != family or record['time_of_day'] != 'indoor':
+            continue
+        identifier = record['composition_id']
+        metadata[identifier] = geometry(record)
+        entries.append({'id': identifier, 'environment': family, 'variation': 1,
+                        'aspect_ratio': record['aspect_ratio'], 'quality': 'HD', 'metadata': identifier,
+                        'background': record['background'],
+                        'mounds': {side: binding['ambient'] for side in ('player', 'opponent')}})
 for entry in entries:
     paths = [entry['background']]
     for field in ('backgrounds', 'mounds', 'night_mounds'):

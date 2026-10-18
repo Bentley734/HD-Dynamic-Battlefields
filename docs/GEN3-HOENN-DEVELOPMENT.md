@@ -312,3 +312,20 @@ pixels. These are ambient indoor-period records to prevent outdoor rain/snow
 underwater; this is not terrestrial indoor art. Native calibration, a matching
 blue seabed mound and ambient-only catalog integration remain pending. The
 family is not runtime-enabled, and no new release is published.
+
+Underwater candidate integration is complete. The catalog now contains135
+compositions across15 families and nine aspects. Ambient-only families use
+explicit protected lighting; underwater rejects forced outdoor rain/snow and
+keeps its ambient artwork even with a night override. A separately generated
+blue seabed mound is bound to both sides, with original, exact prompt and
+approved edge-cleaned derivative preserved.
+
+All28 unit suites pass. The native batch passes81 limited scene cases across
+Ruby/Sapphire/Emerald at16:9,32:9 and9:16, plus54 cases across Emerald's six
+remaining aspect families. The fixture uses actual RS UNDERWATER1 and Emerald
+UNDERWATER_ROUTE124 map identities. Underwater day captures were visually
+reviewed at all nine sizes with the vanilla Treecko/Poochyena pair: the enemy
+stands on its mound and the ground extends behind it. These checks preserve
+native UI draw transforms; they do not prove all species, expanded sprite
+mods, doubles, move animations or live window resizing. Published eligibility
+and asset packs remain unchanged until the remaining Hoenn art is ready.

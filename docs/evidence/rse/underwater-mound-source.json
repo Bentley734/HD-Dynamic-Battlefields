@@ -1,0 +1,13 @@
+{
+  "source": "art/mounds/seabed-blue/mound-seabed-blue-01.png",
+  "original_sha256": "15a9c27206fa37d0d07cd90fd4ec4ded332634c47f342035c6428ee23f474fb3",
+  "cleaned": "art/mounds/seabed-blue/mound-seabed-blue-01-clean.png",
+  "cleaned_sha256": "7b45e6b9fc31e1c78b8a1f3dc78306a04499c5686285f918feec3f43a9226163",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "prompt": "art/mounds/seabed-blue/prompts/mound-seabed-blue-01.txt",
+  "method": "Built-in original generation and authorized perimeter-only cleanup; originals retained",
+  "scope": "Source integrity, not gameplay calibration"
+}

@@ -13,6 +13,9 @@
     "desert": {
       "day": "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
       "night": "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+    },
+    "underwater_ocean": {
+      "ambient": "art/mounds/seabed-blue/mound-seabed-blue-01-clean.png"
     }
   }
 }

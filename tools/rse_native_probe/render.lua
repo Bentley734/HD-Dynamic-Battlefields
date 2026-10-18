@@ -46,9 +46,10 @@ return function(project,game,Battle,cache,write)
  local checks={}
  local function start(map,species)
   species=species or foeSpecies
+  if map=='UNDERWATER_ROUTE124'and version~='emerald'then map='UNDERWATER1'end
   Battle.reset();game.session.map=prefix..map
   assert(Battle.start{playerParty=game.session.party,foe={species=species,level=7},wild=true,
-   session=game.session,cache=cache,mapType=3,mapKind='outdoor',terrain=0,fade=false})
+   session=game.session,cache=cache,mapType=game.data.maps[game.session.map].mapType,mapKind='outdoor',terrain=0,fade=false})
   Anim.reset{headless=true};Anim._headless=false;Anim.syncDisplayFromState(Battle.getState())
   Ui.reset{};Ui.bindState(Battle.getState(),game.session);Ui.openMenu(0)
   assert(Ui.sidePic(true,true,Pokemon.speciesOf(game.session.party[1])), 'Missing native player picture')
@@ -68,16 +69,17 @@ return function(project,game,Battle,cache,write)
   end
   return table.concat(trace,'\n')
  end
- for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'},{'ROUTE119','rainforest','day'},{'ROUTE119','rainforest','night'},{'ROUTE111','desert','day',2},{'ROUTE111','desert','night',2}})do
-  start(case[1]);if case[4]then Battle.getState().terrain=case[4]end;values.timeMode=case[3]
+ for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'},{'ROUTE119','rainforest','day'},{'ROUTE119','rainforest','night'},{'ROUTE111','desert','day',2},{'ROUTE111','desert','night',2},{'UNDERWATER_ROUTE124','underwater_ocean','day','UNDERWATER','day','rain'},{'UNDERWATER_ROUTE124','underwater_ocean','night','UNDERWATER','day','snow'}})do
+  start(case[1]);if case[4]then Battle.getState().terrain=type(case[4])=='string'and require('src.core.game3.battle.bg').env().TERRAIN[case[4]]or case[4]end;values.timeMode=case[3];values.weatherMode=case[6]or'clear'
   for _,size in ipairs({{probeW,probeH,'current'}})do
    local stem=case[2]..'-'..case[3]..'-'..size[3]
    values.enabled=false;local before=render(size[1],size[2],probeW==1280 and stem..'-native'or nil)
    values.enabled=true;local after=render(size[1],size[2],stem)
    assert(before==after,'Scenery changed native healthbox/menu call transforms')
    local d=mod.exports.diagnostics()
-   assert(d.status=='active'and d.environment==case[2]and d.period==case[3],Json.encode(d))
-   checks[#checks+1]={map=case[1],environment=d.environment,period=d.period,width=size[1],height=size[2],
+   assert(d.status=='active'and d.environment==case[2]and d.period==(case[5]or case[3]),Json.encode(d))
+   if case[6]then assert(d.weather=='clear','Outdoor weather leaked underwater')end
+   checks[#checks+1]={map=case[1],native_map=game.session.map,environment=d.environment,period=d.period,width=size[1],height=size[2],
     aspect=d.aspect,composition=d.composition,native_ui_calls_unchanged=true}
   end
  end
@@ -127,6 +129,7 @@ return function(project,game,Battle,cache,write)
   Menu.draw()
   Menu.close();nativeMenuVerified=true
  end
+ start('ROUTE101');values.weatherMode='clear'
  local Rtc=require('src.core.game3.rtc')
  local savedHour=Rtc.localTime.hours
  Rtc.localTime.hours=23;values.timeMode='auto'
@@ -135,9 +138,9 @@ return function(project,game,Battle,cache,write)
   'Hoenn native RTC was not used by the scenery provider')
  Rtc.localTime.hours=savedHour;values.timeMode='day'
  -- Unfinished Hoenn scenery keeps its original terrain rather than substituting grass.
- start('ROUTE111');Battle.getState().terrain=2;values.enabled=true;values.environment='underwater_ocean'
+ start('ROUTE111');Battle.getState().terrain=2;values.enabled=true;values.environment='meteor_falls'
  render(probeW,probeH,nil)
- assert(mod.exports.diagnostics().status=='native fallback','Unfinished underwater art must retain native scenery')
+ assert(mod.exports.diagnostics().status=='native fallback','Unfinished meteor cave art must retain native scenery')
  write(version..'-'..probeW..'x'..probeH..'-render.json',Json.encode({game=version,checks=checks,missing_family_native_fallback=true,native_clock_verified=true,
   real_loader=loaderMode,candidate_manifest_allowlist=loaderMode,native_options_verified=nativeMenuVerified,
   loaded_mods=loadedMods,mod_versions=modVersions,species_choices=speciesCount,content=content,
