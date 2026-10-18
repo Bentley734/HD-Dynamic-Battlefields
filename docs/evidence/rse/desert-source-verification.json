@@ -1,0 +1,176 @@
+{
+  "family": "desert",
+  "generation": 3,
+  "source_files": 18,
+  "aspects": 9,
+  "periods": [
+    "day",
+    "night"
+  ],
+  "verified": true,
+  "scope": "Source integrity, dimensions, draft anchor bounds and crop-only pixel provenance. Gameplay/mound contact remains unverified.",
+  "files": [
+    {
+      "path": "art/gen3/16x10/desert/desert-01-16x10-night.png",
+      "aspect_ratio": "16:10",
+      "period": "night",
+      "width": 1586,
+      "height": 992,
+      "sha256": "3a6af30deaf31b363b643464e9ab3d159e76a3c63b4bcc1a3067683f2266dfb9",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x10/desert/desert-01-16x10.png",
+      "aspect_ratio": "16:10",
+      "period": "day",
+      "width": 1586,
+      "height": 992,
+      "sha256": "afe2958bbb10574d1f6929794cf1f48bc950be8a7210c185c46807328062279e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/desert/desert-01-16x9-night.png",
+      "aspect_ratio": "16:9",
+      "period": "night",
+      "width": 1672,
+      "height": 941,
+      "sha256": "eebbdbe13486137583ea2672cacef35e00942dfab22b92cb188f190a7e784f46",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/desert/desert-01-16x9.png",
+      "aspect_ratio": "16:9",
+      "period": "day",
+      "width": 1672,
+      "height": 941,
+      "sha256": "43e22364e609b31b10880f277128fef7a249c0e525739e304e77a37195ad0912",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/desert/desert-01-21x9-night.png",
+      "aspect_ratio": "21:9",
+      "period": "night",
+      "width": 1916,
+      "height": 821,
+      "sha256": "d7233cc91582066f6c4807abc1c29371d1f322c0418ecfbdc7b4383b47d7b55e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/desert/desert-01-21x9.png",
+      "aspect_ratio": "21:9",
+      "period": "day",
+      "width": 1916,
+      "height": 821,
+      "sha256": "01f50203480865a315168219cd5a2dcdb8cff67972447af0b4242ed9e66233a1",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/32x9/desert/desert-01-32x9-night.png",
+      "aspect_ratio": "32:9",
+      "period": "night",
+      "width": 2172,
+      "height": 611,
+      "sha256": "f189f0d7817ae09de6190ef704b7ab525f7c785dce4dec23a115e2aeba7aa99d",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/32x9/desert/desert-01-32x9.png",
+      "aspect_ratio": "32:9",
+      "period": "day",
+      "width": 2080,
+      "height": 585,
+      "sha256": "3a017b5fd633987a1a6d044b2a65f4361c616ab4e35586e0ccaf7bcba7cacdab",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/3x2/desert/desert-01-3x2-night.png",
+      "aspect_ratio": "3:2",
+      "period": "night",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1ed16742743fed201715ce6c640ffcffe85f4dc8d666b44392a4ed3270ee9dc2",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/3x2/desert/desert-01-3x2.png",
+      "aspect_ratio": "3:2",
+      "period": "day",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e6deef7090aa30229e8dc5783215a6a41efe884b3b9300f556a76a13a0088166",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/desert/desert-01-4x3-night.png",
+      "aspect_ratio": "4:3",
+      "period": "night",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "4d7526b3c270bbcd337b212c5611889f089ed671f144d23482501231a4617426",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/desert/desert-01-4x3.png",
+      "aspect_ratio": "4:3",
+      "period": "day",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "bbfe5fd40d9e83ddb6d1adabf91d3a94293131442b1eb7d5c3e9f6035882c33a",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/desert/desert-01-9x16-night.png",
+      "aspect_ratio": "9:16",
+      "period": "night",
+      "width": 941,
+      "height": 1672,
+      "sha256": "64d440e485dd63c802894e5de96e3389210c2f34544fde49f80e368c63dd2485",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/desert/desert-01-9x16.png",
+      "aspect_ratio": "9:16",
+      "period": "day",
+      "width": 941,
+      "height": 1672,
+      "sha256": "5eae21ef080ebcffcd634e53c40d6394bcfb3c64b487c134096bf445e52b7a53",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/desert/desert-01-9x19_5-night.png",
+      "aspect_ratio": "9:19.5",
+      "period": "night",
+      "width": 828,
+      "height": 1794,
+      "sha256": "c58253ad6b7f6c33d68cbaf167ee345b47827609366fb4089b827f6ab2d1e471",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/9x19_5/desert/desert-01-9x19_5.png",
+      "aspect_ratio": "9:19.5",
+      "period": "day",
+      "width": 828,
+      "height": 1794,
+      "sha256": "4aa4131cea51de2533a53fa7e02bf441d713bf818d4f1de66adedce0e2043fb4",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/9x20/desert/desert-01-9x20-night.png",
+      "aspect_ratio": "9:20",
+      "period": "night",
+      "width": 841,
+      "height": 1870,
+      "sha256": "49d2bec078c24fef221dbbc51583f3520b86a01ae38594904a9eb65c6334550e",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/desert/desert-01-9x20.png",
+      "aspect_ratio": "9:20",
+      "period": "day",
+      "width": 840,
+      "height": 1871,
+      "sha256": "38f41fa08374c2acb501070f5ade36c9e422cdf66f581b64fdb0a3a44d3d67c9",
+      "crop_only": false
+    }
+  ]
+}

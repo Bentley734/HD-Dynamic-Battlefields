@@ -269,3 +269,11 @@ reviewed crop-only rectangles remove spare ground without stretching, keep
 both standing positions and pass pixel identity checks against preserved
 originals. Two tall-phone pairs and complete-family validation/calibration
 remain. These assets are not runtime-enabled or release-approved yet.
+
+Desert source family complete:18 day/night sources now cover all nine aspect
+ratios. Two are byte-identical reused original16:9 project paintings and16
+are new original compositions. Tall-phone9:19.5 crop-only preparation keeps
+standing regions and preserves originals;9:20 sources match their ratio.
+Full-family source checks pass (hashes, dimensions, anchor bounds and crop
+pixel provenance). Mound material selection, native integration and gameplay
+calibration are next; source completion does not imply release readiness.
