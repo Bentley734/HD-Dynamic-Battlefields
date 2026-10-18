@@ -6940,7 +6940,7 @@
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-night.png",
+      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-night-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {

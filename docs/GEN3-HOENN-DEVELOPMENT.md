@@ -31,8 +31,9 @@ candidates; visual fit and appropriate mound choices still need review.
 `lib/adapters/rse_context.lua` reads the native battle/session, resolved terrain,
 species, weather and existing RTC. It distinguishes native double battles from
 link battles and identifies water/underwater without changing terrain IDs,
-mechanics, sprite rendering or HUDs. It is deliberately not wired into main.lua
-until the scenery pipeline and fallbacks are validated with real Hoenn fixtures.
+mechanics, sprite rendering or HUDs. It is now wired into the development
+main.lua branch. The release manifest still excludes R/S/E while environment
+coverage, loader integration and compatibility testing remain unfinished.
 Its regression checks pass alongside the existing Lua suite.
 
 `metadata/maps/rse.lua` now contains the compiled signatures, consumed by
@@ -68,5 +69,39 @@ gray-sand/pale-gravel mounds are candidates only. All 18 source records pass
 dimensions, aspect tolerance, SHA-256, draft anchor bounds and crop pixel
 identity checks; evidence is `ashfield-source-verification.json`. Those checks
 do not certify native rendering or mound contact. Native R/S/E
-integration, the other Hoenn environments, mound/material fit and special/double battle rendering remain work
+integration through the real Loader/Sandbox, the other Hoenn environments,
+mound/material fit and special/double battle rendering remain work
 to complete before a Hoenn beta is published.
+
+## First native scenery batch
+
+`tools/build_rse_catalog.py` builds 108 integration candidates across 12 complete
+nine-aspect families: eleven reused families and the new ashfield family.
+Incomplete families stay absent, retaining native scenery. This catalog is not
+yet added to the release download index. Mound bindings live separately in
+`metadata/rse-mound-bindings.json`; the ashfield uses cleaned gray-sand copies
+with originals preserved and provenance in `art/derivatives.json`.
+
+The Game3 scenery adapter and native options bridge are shared with FR/LG.
+Hoenn presentation profiles live in `metadata/native_rse.lua`; Ruby/Sapphire's
+back-sprite layout differs from Emerald/FRLG. Their contact points remain
+calibration candidates until more species and sprite providers are reviewed.
+
+Nine isolated native processes cover Ruby/Sapphire/Emerald at 1280×720,
+5120×1440 and 900×1600. Each renders grassland day and ashfield day/night,
+for 27 scene cases. Actual Treecko/Poochyena native pictures are required;
+the fixture resolves internal species IDs rather than supplying ambiguous
+National Dex numbers. Disabled/enabled healthbox and menu call transforms
+match. Native RTC period selection and missing-desert native fallback pass.
+The summary is `docs/evidence/rse/scene-integration-summary.json`.
+
+Visual review caught the initial 32:9 night horizon below the opponent mound.
+A separately painted higher-horizon v2 replaces that source reference, with a
+crop-only 32:9 derivative. The v1 painting and authoring record remain preserved.
+The revised native 5120×1440 capture places the mound over visible ground.
+
+These checks use direct mod entry into the real engine, not the real mod
+Loader/Sandbox. They do not validate UI-mod profiles, sprite-mod combinations,
+double battles, animations, every species or the other ten candidate families.
+The cleaned mound palette/texture also needs broader visual review. No Hoenn
+release has been published from this development stage.

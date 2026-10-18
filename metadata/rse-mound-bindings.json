@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "stage": "Hoenn integration candidates; visual calibration pending",
+  "families": {
+    "ashfield": {
+      "day": "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
+      "night": "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png"
+    }
+  }
+}

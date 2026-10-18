@@ -1,0 +1,69 @@
+{
+  "engine": "0.3.89",
+  "processes": 9,
+  "render_cases": 27,
+  "native_ui_call_transforms_unchanged": true,
+  "native_clock_verified": true,
+  "unfinished_environment_fallback_verified": true,
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "checks": 3,
+      "report": "docs/evidence/rse/ruby-1280x720-render.json"
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "checks": 3,
+      "report": "docs/evidence/rse/ruby-5120x1440-render.json"
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "checks": 3,
+      "report": "docs/evidence/rse/ruby-900x1600-render.json"
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "checks": 3,
+      "report": "docs/evidence/rse/sapphire-1280x720-render.json"
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "checks": 3,
+      "report": "docs/evidence/rse/sapphire-5120x1440-render.json"
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "checks": 3,
+      "report": "docs/evidence/rse/sapphire-900x1600-render.json"
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "checks": 3,
+      "report": "docs/evidence/rse/emerald-1280x720-render.json"
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "checks": 3,
+      "report": "docs/evidence/rse/emerald-5120x1440-render.json"
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "checks": 3,
+      "report": "docs/evidence/rse/emerald-900x1600-render.json"
+    }
+  ],
+  "limitations": [
+    "Direct mod entry, not real Loader/Sandbox",
+    "UI-mod profiles, sprite-mod setups, double battles and animations remain untested in this batch",
+    "Only grassland and ashfield day/night rendered; other candidate catalog families still need native visual review"
+  ]
+}

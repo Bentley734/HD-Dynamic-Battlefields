@@ -20,13 +20,13 @@ require=originalRequire
 local c=assert(read())
 assert(c.game=='emerald'and c.mapType==3 and c.terrainName=='WATER'and c.water)
 assert(c.double and not c.link,'Native doubles must not be mistaken for link battles')
-assert(c.clock_period=='night'and c.weather=='rain'and c.enemySpecies=='KECLEON')
+assert(c.timeOfDay=='night'and c.weather=='rain'and c.enemySpecies=='KECLEON')
 assert(state.terrain==4 and session.map=='EM_ROUTE119'and rtc.localTime.hours==22)
 for _,game in ipairs({'ruby','sapphire','emerald'})do version=game;assert(read().game==game)end
 state.terrain=nil;c=assert(read());assert(c.underwater and c.terrainName=='UNDERWATER')
 state.terrain=11;c=assert(read());assert(c.terrainName=='GROUDON'and not c.water)
-state.terrain=0;rtc.localTime.hours=10;assert(read().clock_period=='day')
-rtc.localTime.hours=25;assert(read().clock_period==nil)
+state.terrain=0;rtc.localTime.hours=10;assert(read().timeOfDay=='day')
+rtc.localTime.hours=25;assert(read().timeOfDay==nil)
 state.link=true;assert(read().link)
 active=false;assert(not read());active=true
 version='firered';assert(not read());version='emerald'

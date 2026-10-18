@@ -1,4 +1,4 @@
--- FR/LG scenery only. Native/UI-mod layers and HD Sprites' camera stay owned
+-- Shared Game3 scenery only. Native/UI-mod layers and HD Sprites' camera stay owned
 -- by their existing renderers; only the terrain's art is replaced.
 local M={}
 function M.install(mod,G,provider)

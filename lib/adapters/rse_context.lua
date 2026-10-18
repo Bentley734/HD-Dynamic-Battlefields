@@ -36,6 +36,6 @@ return function(mod,identity)
    water=terrainName=='WATER'or terrainName=='POND'or terrainName=='UNDERWATER',
    underwater=terrainName=='UNDERWATER',double=state.double==true,
    playerSpecies=species(state.player),enemySpecies=species(state.enemy),
-   weather=state.weather,clock_period=clockPeriod,link=state.link==true}
+   weather=state.weather,timeOfDay=clockPeriod,link=state.link==true}
  end
 end

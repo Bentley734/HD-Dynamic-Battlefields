@@ -2,9 +2,9 @@
 return function(mod)
  local nativeWidth,nativeHeight=mod.exports.nativeSize()
  local Version=require('src.core.GameVersion')
- local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
- local adapter=frlg and assert(loadstring(assert(mod:read('lib/adapters/frlg_settings.lua'))))()()or nil
- local Menu=not frlg and require('src.ui.OptionsMenu')or nil
+ local game3=Version.generation()==3
+ local adapter=game3 and assert(loadstring(assert(mod:read('lib/adapters/frlg_settings.lua'))))()()or nil
+ local Menu=not game3 and require('src.ui.OptionsMenu')or nil
  local function open(game,rows,title)
   if adapter then return adapter.open(game,rows,title)end
   local page=Menu.new(game,{rows=rows});local update=page.update

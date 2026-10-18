@@ -11,13 +11,15 @@ function love.load()
   package.path=engine..'/?.lua;'..engine..'/?/init.lua;'..package.path
   local cacheRoot=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..version..'/'
   local function source(path)
+   if path:match('^%a:[/\\]')then return read(path)end
    local relative=path:gsub('^'..version..'/','')
    return read(cacheRoot..relative)or read(engine..'/'..path)
   end
   local FS=love.filesystem
-  local oldRead,oldInfo=FS.read,FS.getInfo
+  local oldRead,oldInfo,oldLoad=FS.read,FS.getInfo,FS.load
   FS.read=function(p,...)return source(p)or oldRead(p,...)end
   FS.getInfo=function(p,...)local b=source(p);if b then return{type='file',size=#b}end;return oldInfo(p,...)end
+  FS.load=function(p,...)local b=source(p);if b then return assert(loadstring(b,'@'..p))end;return oldLoad(p,...)end
   local oldImage=love.graphics.newImage
   love.graphics.newImage=function(p,...)
    if type(p)=='string'then local b=source(p);if b then p=FS.newFileData(b,p)end end
@@ -50,11 +52,13 @@ function love.load()
   require('src.mods.Gen3Compat').bind(function()return game end)
   local SaveData=require('src.core.SaveData');local options=SaveData.defaultOptions()
   game.options=options;SaveData.loadOptions=function()return options end
-  local player={species=252,level=10,personality=1,ivs={31,31,31,31,31,31},evs={}}
+  local playerSpecies=assert(Pokemon.speciesFromName('TREECKO'))
+  local foeSpecies=assert(Pokemon.speciesFromName('POOCHYENA'))
+  local player={species=playerSpecies,level=10,personality=1,ivs={31,31,31,31,31,31},evs={}}
   Pokemon.applyStats(player,session);player.hp=player.maxHp
-  player.moves,player.pp,player.maxPp=Pokemon.movesAtLevel(252,10);session.party={player}
+  player.moves,player.pp,player.maxPp=Pokemon.movesAtLevel(playerSpecies,10);session.party={player}
   local Battle=require('src.core.game3.battle')
-  assert(Battle.start{playerParty=session.party,foe={species=261,level=7},wild=true,
+  assert(Battle.start{playerParty=session.party,foe={species=foeSpecies,level=7},wild=true,
    session=session,cache=cache,mapType=3,mapKind='outdoor',terrain=0,fade=false})
   local state=Battle.getState()
   local readContext=assert(loadfile(project..'/lib/adapters/rse_context.lua'))()({game=game},function(id)return tostring(id)end)
@@ -65,9 +69,12 @@ function love.load()
   local adapter=assert(loadfile(project..'/lib/environments_rse.lua'))()(assert(loadfile(project..'/metadata/maps/rse.lua'))())
   assert(adapter:detect(context).environment=='grassland')
   local Json=require('src.link.Json')
+  if os.getenv('HDB_RENDER')=='1'then
+   assert(loadfile(project..'/tools/rse_native_probe/render.lua'))()(project,game,Battle,cache,write)
+  end
   write(version..'-native-context.json',Json.encode({game=version,engine='0.3.89',map_signatures=count,
    context={map=context.map,mapType=context.mapType,terrain=context.terrainName,
-    clock_period=context.clock_period,playerSpecies=context.playerSpecies,enemySpecies=context.enemySpecies},
+    timeOfDay=context.timeOfDay,playerSpecies=context.playerSpecies,enemySpecies=context.enemySpecies},
    verified=true,saves_written=false,scope='Native dataset, battle construction and read-only context; no scenery rendering claim'}))
   Battle.reset()
   os.remove(output..'/'..version..'-native-error.txt')

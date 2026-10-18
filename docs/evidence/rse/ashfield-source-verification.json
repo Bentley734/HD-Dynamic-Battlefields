@@ -65,12 +65,12 @@
       "crop_only": false
     },
     {
-      "path": "art/gen3/32x9/ashfield/ashfield-01-32x9-night.png",
+      "path": "art/gen3/32x9/ashfield/ashfield-01-32x9-night-v2.png",
       "aspect_ratio": "32:9",
       "period": "night",
-      "width": 2160,
-      "height": 608,
-      "sha256": "aa5e60a44dbb0d83cc5abf4eedb5b67b4a57a52e41a0c68ccc1553c3eaf7efb6",
+      "width": 2112,
+      "height": 594,
+      "sha256": "39def30a74345ae9ccde49f9d0178fec3d78139d685ecf6127dae1465053a47e",
       "crop_only": true
     },
     {

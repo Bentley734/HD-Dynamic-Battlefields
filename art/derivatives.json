@@ -160,5 +160,19 @@
     "operation": "Rounded perimeter alpha inset, 12 source pixels, nearest interior color extension; original and opaque interior preserved.",
     "tool": "tools/clean_mound_edges.py --rounded --suffix=-clean",
     "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
+    "source": "art/mounds/gray-sand/mound-gray-sand-01.png",
+    "operation": "Rounded perimeter alpha inset, 12 source pixels, nearest interior color extension; original and opaque interior preserved.",
+    "tool": "tools/clean_mound_edges.py --rounded --suffix=-clean",
+    "authorization_date": "2026-10-15"
+  },
+  {
+    "file": "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png",
+    "source": "art/mounds/gray-sand/mound-gray-sand-01-night.png",
+    "operation": "Rounded perimeter alpha inset, 12 source pixels, nearest interior color extension; original and opaque interior preserved.",
+    "tool": "tools/clean_mound_edges.py --rounded --suffix=-clean",
+    "authorization_date": "2026-10-15"
   }
 ]

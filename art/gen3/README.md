@@ -15,3 +15,5 @@ aspects. The built-in image generator produced separate compositions. The
 Source metadata contains provisional placement geometry, not gameplay-calibrated
 anchors. These files are not yet in the published download index. See
 `docs/GEN3-HOENN-DEVELOPMENT.md` for integration scope and validation evidence.
+
+Native 5120x1440 review prompted a separately painted higher-horizon 32:9 night v2. Its source reference is active; v1 remains preserved. See the Hoenn development report for the limited 27-case rendering batch and remaining work.

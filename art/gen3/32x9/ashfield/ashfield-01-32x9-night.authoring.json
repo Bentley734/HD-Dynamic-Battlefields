@@ -3,14 +3,14 @@
   "composition_id": "ashfield-01-32x9-night",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2160,
-    "height": 608
+    "width": 2112,
+    "height": 594
   },
   "aspect_ratio": "32:9",
   "time_of_day": "night",
-  "horizon_y": 0.49638157894736845,
-  "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-night.png",
-  "sha256": "aa5e60a44dbb0d83cc5abf4eedb5b67b4a57a52e41a0c68ccc1553c3eaf7efb6",
+  "horizon_y": 0.1501010101010101,
+  "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-night-v2.png",
+  "sha256": "39def30a74345ae9ccde49f9d0178fec3d78139d685ecf6127dae1465053a47e",
   "mound_material_candidates": [
     "gray-sand",
     "pale-gravel"
@@ -31,12 +31,12 @@
   },
   "player": {
     "mound_anchor": [
-      0.319,
-      0.7583552631578948
+      0.3198106060606061,
+      0.7129797979797979
     ],
     "pokemon_ground_anchor": [
-      0.319,
-      0.7345394736842106
+      0.3198106060606061,
+      0.687962962962963
     ],
     "mound_scale": 1,
     "shadow_offset": [
@@ -47,12 +47,12 @@
   },
   "opponent": {
     "mound_anchor": [
-      0.681,
-      0.6035526315789475
+      0.6806628787878789,
+      0.47531986531986525
     ],
     "pokemon_ground_anchor": [
-      0.681,
-      0.5797368421052632
+      0.6806628787878789,
+      0.4503030303030303
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
@@ -64,40 +64,42 @@
   "source_processing": {
     "operation": "crop_only_no_resampling",
     "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/ashfield-01-32x9-night-original.png",
-    "original_sha256": "86949f90529ba705672738f3b68eb7ba7295fc28747405e68f2a9946e28c3efa",
+    "original": "art/gen3/drafts/32x9/ashfield-01-32x9-night-v2-original.png",
+    "original_sha256": "6db640e7b653d749457c3c78cb244ccb358e247a54589e1b3b9fba1c9b98e527",
     "original_size": {
-      "width": 2172,
-      "height": 724
+      "width": 2117,
+      "height": 743
     },
     "crop_pixels": [
-      6,
-      24,
-      2166,
-      632
+      2,
+      0,
+      2114,
+      594
     ],
     "source_geometry": {
-      "horizon_y": 0.45,
+      "horizon_y": 0.12,
       "player": {
-        "mound_anchor": [
-          0.32,
-          0.67
-        ],
         "pokemon_ground_anchor": [
           0.32,
-          0.65
+          0.55
+        ],
+        "mound_anchor": [
+          0.32,
+          0.57
         ]
       },
       "opponent": {
-        "mound_anchor": [
-          0.68,
-          0.54
-        ],
         "pokemon_ground_anchor": [
           0.68,
-          0.52
+          0.36
+        ],
+        "mound_anchor": [
+          0.68,
+          0.38
         ]
       }
     }
-  }
+  },
+  "generation_prompt": "art/gen3/32x9/ashfield/prompts/ashfield-01-32x9-night-v2.txt",
+  "revision_reason": "Native 5120x1440 capture showed v1 horizon below opponent mound. V2 explicitly paints a higher horizon; native UI and sprites unchanged."
 }

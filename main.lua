@@ -10,23 +10,25 @@ return function(mod)
  local Scene=module('lib/scene.lua')
  local Version=require('src.core.GameVersion')
  local gen2=Version.generation()==2
- local catalog=module(gen2 and'metadata/gen2.lua'or'metadata/prototype.lua')
+ local rse=Version.get()=='ruby'or Version.get()=='sapphire'or Version.get()=='emerald'
+ local catalog=module(rse and'metadata/rse.lua'or gen2 and'metadata/gen2.lua'or'metadata/prototype.lua')
  local Grounding=module('lib/grounding.lua')
  local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
- local nativeProfile=module(frlg and'metadata/native_frlg.lua'or gen2 and'metadata/native_gen2.lua'or'metadata/native_gen1.lua')
- local wideProfile=not frlg and module(gen2 and'metadata/native_gen2_wide.lua'or'metadata/native_gen1_wide.lua')or nil
- local environments=gen2 and module('lib/environments_gen2.lua').new(module('metadata/maps/gen2.lua'))or frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
+ local game3=frlg or rse
+ local nativeProfile=rse and module('metadata/native_rse.lua')[Version.get()]or module(frlg and'metadata/native_frlg.lua'or gen2 and'metadata/native_gen2.lua'or'metadata/native_gen1.lua')
+ local wideProfile=not game3 and module(gen2 and'metadata/native_gen2_wide.lua'or'metadata/native_gen1_wide.lua')or nil
+ local environments=rse and module('lib/environments_rse.lua')(module('metadata/maps/rse.lua'))or gen2 and module('lib/environments_gen2.lua').new(module('metadata/maps/gen2.lua'))or frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
  local Json=require('src.link.Json')
- local Battle=not frlg and require(gen2 and'src.ui.gen2.BattleState'or'src.battle.BattleState')or nil
- local isFishing=not frlg and not gen2 and module('lib/adapters/gen1_context.lua').install(Battle)or function()return false end
+ local Battle=not game3 and require(gen2 and'src.ui.gen2.BattleState'or'src.battle.BattleState')or nil
+ local isFishing=not game3 and not gen2 and module('lib/adapters/gen1_context.lua').install(Battle)or function()return false end
  local speciesCatalog=module('lib/species_catalog.lua').new(mod)
  mod.exports.getSpeciesChoices=function()return speciesCatalog:refresh(mod.game)end
  mod.exports.speciesIdentity=function(ref)return speciesCatalog:identity(ref)end
  mod.events:on('mods.loaded',function()speciesCatalog:refresh(mod.game)end,-1000)
  mod.exports.nativeSize=function()return nativeProfile.width,nativeProfile.height end
- local frlgContext=frlg and module('lib/adapters/frlg_context.lua')(mod,mod.exports.speciesIdentity)
+ local game3Context=frlg and module('lib/adapters/frlg_context.lua')(mod,mod.exports.speciesIdentity)or rse and module('lib/adapters/rse_context.lua')(mod,mod.exports.speciesIdentity)
  local gen2Context=gen2 and module('lib/adapters/gen2_context.lua')(mod,Battle,mod.exports.speciesIdentity)
- local function saveIdentity(game)return frlg and game.session or game.save end
+ local function saveIdentity(game)return game3 and game.session or game.save end
  local g=love.graphics
  local climate=module('lib/climate.lua').new(module('metadata/climate.lua'),os.time,function()return tonumber(os.date('%H'))end)
  local atmosphere=module('lib/atmosphere.lua').new(g,function()return love.timer.getTime()end)
@@ -77,7 +79,7 @@ return function(mod)
   local remaining={};for _,value in ipairs(ids)do if value~=id then remaining[#remaining+1]=value end end
   ids=remaining;mod.cache:write('installed-pack-ids.json',Json.encode(ids));return assetLibrary:refresh(ids)
  end
- local diagnostics={stage='Kanto Beta 2',status='disabled',game='unknown'}
+ local diagnostics={stage=rse and'Hoenn development'or'Kanto + Johto Beta',status='disabled',game='unknown'}
  local loadedSave,lastAssignments,loadedAdjustments,lastLayout
  local environmentChoices={{'Automatic','auto'}}
  local environmentLabels={gym_rock='Pewter Gym',gym_water='Cerulean Gym',gym_electric='Vermilion Gym',
@@ -197,12 +199,12 @@ return function(mod)
  function provider.enabled()return mod.options:get('enabled')==true end
  function provider.prepare(x,y,width,height,nativeFrame,presentation)
   if not mod.options:get('enabled')then diagnostics.status='disabled';return false end
-  if Version.generation()~=1 and not gen2 and not frlg then return fallback('Generation adapter not integrated')end
+  if Version.generation()~=1 and not gen2 and not game3 then return fallback('Generation adapter not integrated')end
   local game=mod.game;local context,contextError
-  if frlg then context,contextError=frlgContext();if not context then return fallback(contextError)end end
+  if game3 then context,contextError=game3Context();if not context then return fallback(contextError)end end
   if gen2 then context,contextError=gen2Context();if not context or context.tutorial then return fallback(contextError or'Native tutorial presentation')end end
   local battle=context and context.battle or game and game.stack and game.stack:top()
-  if not battle or(not frlg and not gen2 and getmetatable(battle)~=Battle)then return fallback('Native overlay or non-battle state')end
+  if not battle or(not game3 and not gen2 and getmetatable(battle)~=Battle)then return fallback('Native overlay or non-battle state')end
   if battle.kind=='link'or context and context.link then return fallback('Link presentation is not yet validated')end
   local v={x=x or 0,y=y or 0,width=width,height=height}
   if not width or not height or width<=0 or height<=0 then return fallback('Missing battle viewport')end
@@ -212,6 +214,7 @@ return function(mod)
   local mapData=game.data and game.data.maps and game.data.maps[map]
   local detected,classificationError=environments:detect({game=Version.get(),map=map,tileset=context and context.tileset or mapData and mapData.tileset,
    mapType=context and context.mapType,water=context and context.water,
+   mapBattleType=context and context.mapBattleType,terrainName=context and context.terrainName,
    fishing=context and context.fishing or isFishing(battle),
    surfing=context and context.surfing or game.save and game.save.player and game.save.player.surfing==true or mover and mover.surfing==true,
    kind=context and context.kind or battle.kind,enemySpecies=context and context.enemySpecies or battle.enemy and battle.enemy.mon and battle.enemy.mon.species})
@@ -294,7 +297,7 @@ return function(mod)
   species=speciesCatalog:identity(species)
   return SpriteOffsets.resolve(loadedAdjustments,diagnostics.aspect,diagnostics.metadata,side,Version.get(),species,nativeProfile.width,nativeProfile.height)
  end
- if frlg then module('lib/adapters/frlg_scenery.lua').install(mod,g,provider)
+ if game3 then module('lib/adapters/frlg_scenery.lua').install(mod,g,provider)
  elseif gen2 then module('lib/adapters/gen2_scenery.lua').install(mod,Battle,g,provider)
  else
   SpriteOffsets.install(Battle,g,provider.spriteOffset)
