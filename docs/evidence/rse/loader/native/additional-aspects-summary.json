@@ -2,39 +2,39 @@
   "mode": "loader",
   "content": "none",
   "processes": 6,
-  "scene_cases": 30,
+  "scene_cases": 42,
   "candidate_manifest_only": true,
   "reports": [
     {
       "game": "emerald",
       "size": "1024x768",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "1440x900",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "1200x800",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "2100x900",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "900x1950",
-      "scene_checks": 5
+      "scene_checks": 7
     },
     {
       "game": "emerald",
       "size": "900x2000",
-      "scene_checks": 5
+      "scene_checks": 7
     }
   ],
-  "limitations": "Limited grassland/ashfield/rainforest and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
+  "limitations": "Limited grassland/ashfield/rainforest/desert and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
 }

@@ -288,3 +288,17 @@ passes. Missing-art fallback explicitly selects unfinished underwater scenery
 now that desert is available. Six aspect families, third-party sprite/UI
 combinations, all species, doubles, animations and sandstorm appearance remain
 unverified. Published eligibility/packs unchanged; no partial release.
+
+Desert additional-aspect batch passes42 limited native cases in Emerald
+(4:3,16:10,3:2,21:9,9:19.5,9:20). Captures reviewed:3:2night,16:10night,
+4:3day,21:9day/night,9:19.5night,9:20day. Ground clearance and contact
+look correct in those samples; this does not prove every species, orientation
+change, third-party combination or sandstorm. No UI changes were introduced.
+
+Underwater ocean authoring begins with one original16:9 ambient seabed
+painting, stored with exact built-in prompt and draft geometry. It has no
+creatures, baked platforms or UI. Indoor period denotes protected underwater
+ambient lighting, not a terrestrial room; outdoor rain/snow must not appear.
+Eight aspect sources, appropriate blue seabed mound material and native
+calibration remain. The catalog builder also needs ambient-only family
+integration support before this family becomes runtime-enabled.

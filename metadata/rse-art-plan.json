@@ -6979,6 +6979,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "underwater_ocean",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/underwater_ocean/underwater_ocean-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7273,7 +7280,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 522,
+  "minimum_missing_base_sources": 521,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
