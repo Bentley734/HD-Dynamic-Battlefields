@@ -556,6 +556,15 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Fortree Gym adds dedicated 9:16, 9:19.5 and 9:20 original portrait sources,
+completing its first interior source variation across all nine aspects.
+All three were visually inspected for clear moss carpet, distant canopy
+windows and absence of creatures, baked mounds or split scenes. Their
+generated dimensions fit the aspect tolerance without cropping/resampling.
+Exact built-in prompts and draft geometry are retained beside each image.
+Mound pairing and native calibration remain pending; no layout tests,
+runtime eligibility, battle UI or release changes occurred.
+
 Fortree Gym adds dedicated 16:10, 21:9 and 32:9 source paintings, bringing
 the initial variation to six landscape aspects. Each was visually reviewed
 for uninterrupted moss carpet, canopy views and no creatures or baked mounds.
