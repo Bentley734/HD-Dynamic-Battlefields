@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/fortree_gym-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/fortree_gym-01-32x9-original.txt",
+    "family": "fortree_gym",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "carpet-moss",
+      "floor-beige"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      1983,
+      558
+    ],
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.45034047919293824
+        ],
+        "mound_anchor": [
+          0.35,
+          0.46441361916771756
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3025725094577554
+        ],
+        "mound_anchor": [
+          0.65,
+          0.31664564943253465
+        ]
+      }
+    }
+  }
+]

@@ -6937,6 +6937,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "fortree_gym",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/fortree_gym/fortree_gym-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7266,6 +7273,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "fortree_gym",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/fortree_gym/fortree_gym-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7424,6 +7438,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/dewford_gym/dewford_gym-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "fortree_gym",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/fortree_gym/fortree_gym-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8365,7 +8386,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 393,
+  "minimum_missing_base_sources": 390,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

@@ -556,6 +556,17 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Fortree Gym adds dedicated 16:10, 21:9 and 32:9 source paintings, bringing
+the initial variation to six landscape aspects. Each was visually reviewed
+for uninterrupted moss carpet, canopy views and no creatures or baked mounds.
+The 32:9 generated original is retained at 1983x793; the authorized crop
+removes excess lower floor to 1983x558 without resampling. Source geometry,
+transformed draft anchors and exact generation prompts are preserved.
+The actual post-crop floor boundary is near 38% height, so native contact
+still needs review; source coverage does not establish placement quality.
+Three phone compositions and mound pairing/calibration remain. No layout
+testing, runtime enablement or release changes occurred.
+
 Fortree Gym begins with original 16:9, 4:3 and 3:2 interior source paintings.
 The existing Violet Gym source was inspected but its mountain-window view
 was retained for Johto rather than relabeled as a tropical canopy hall.
