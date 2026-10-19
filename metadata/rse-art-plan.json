@@ -7168,6 +7168,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_factory",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/battle_factory/battle_factory-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_palace",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7903,6 +7910,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_factory",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/battle_factory/battle_factory-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_palace",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8145,6 +8159,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/battle_dome/battle_dome-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_factory",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/battle_factory/battle_factory-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9100,7 +9121,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 288,
+  "minimum_missing_base_sources": 285,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

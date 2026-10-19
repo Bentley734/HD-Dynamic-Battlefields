@@ -876,3 +876,14 @@ was visually reviewed again. Original prompts, hashes, reuse reasons and
 transformed draft crop geometry are saved. Floor-beige/floor-clay remain
 candidates pending mound pairing and native calibration. No layout testing,
 runtime enablement, release or published asset-pack changes occurred.
+
+Battle Factory begins with original 16:9, 4:3 and 3:2 interior source paintings.
+Existing Gen1 laboratories/power-plant-03 and Gen2 warehouse artwork was
+visually inspected but retained for research, power-station or cargo settings.
+New clean technical battle rooms use steel walls, rear consoles, blank teal
+screens, overhead pipes and uninterrupted gray concrete floors. All three
+were visually inspected without creatures, baked mounds, floor grids or
+split scenes. Exact built-in prompts and draft geometry accompany sources.
+Floor-gray/floor-gray-night-cool remain candidates pending mound color
+matching and native calibration. Six aspect paintings remain. No layout
+testing, runtime enablement, release or asset-pack changes occurred.
