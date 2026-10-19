@@ -516,3 +516,14 @@ All processing is crop-only, with untouched Gen1 originals, exact prompts,
 SHA provenance and draft geometry retained. This is one indoor source set,
 not native gym-layout validation. Sandstone/gravel mounds remain candidates.
 No image generation, layout tests, runtime enablement or release changes.
+
+Dewford Gym begins with six dedicated original landscape source paintings:
+16:9,4:3,3:2,16:10,21:9 and32:9. The existing original Gen1 dojo was inspected
+but its bright cream/daylit setting did not fit this dimmer hall direction.
+New paintings use dark timber/plaster architecture, small warm lamps and a
+plain blue-gray carpet floor without tiles, boards or mat seams. Each source
+was visually inspected and retains its exact built-in generation prompt and
+draft geometry.32:9 preserves its1983x793 original and trims excess lower
+canvas to1983x558 without resampling. Three portrait paintings and mound
+pairing remain; carpet-blue/floor-gray are candidates only. No layout tests,
+runtime enablement or published asset changes occurred.
