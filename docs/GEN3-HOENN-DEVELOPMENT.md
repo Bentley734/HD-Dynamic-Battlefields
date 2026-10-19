@@ -887,3 +887,12 @@ split scenes. Exact built-in prompts and draft geometry accompany sources.
 Floor-gray/floor-gray-night-cool remain candidates pending mound color
 matching and native calibration. Six aspect paintings remain. No layout
 testing, runtime enablement, release or asset-pack changes occurred.
+
+Battle Factory's wide source set now includes 16:10, 21:9 and 32:9 paintings.
+All were visually inspected as single technical rooms with rear consoles,
+steel walls, clear concrete floors, no creatures or baked mounds. The 32:9
+original is preserved at 2048x768; an authorized crop trims only excess
+lower floor to 2048x576 without resampling. The crop was visually reviewed
+again; provenance and transformed draft geometry are saved. Three portrait
+paintings remain, with mound color matching and native calibration pending.
+No layout testing, runtime enablement, release or asset-pack changes.
