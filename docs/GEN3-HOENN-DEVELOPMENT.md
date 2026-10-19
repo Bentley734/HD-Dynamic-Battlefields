@@ -556,6 +556,15 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Phoebe's chamber adds original 9:16, 9:19.5 and 9:20 phone compositions,
+completing its first source variation across all nine aspect families.
+Each was visually inspected for clear dusky-violet carpet and distant
+enclosed hall/urn niches, with no creatures, baked mounds or split scenes.
+Generated dimensions fit their aspect tolerance without crop/resampling.
+Exact built-in prompts and draft geometry accompany each PNG. Matching
+mound review and native calibration remain pending. No layout tests,
+runtime enablement, battle UI or release changes occurred.
+
 Phoebe's chamber adds original 16:10, 21:9 and 32:9 source paintings,
 bringing its first variation to six landscape formats. Each was visually
 reviewed for clear dusky-violet carpet, enclosed hall and recessed urns,

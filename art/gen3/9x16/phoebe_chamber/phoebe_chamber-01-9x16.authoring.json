@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "phoebe_chamber-01-9x16",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 941,
+    "height": 1672
+  },
+  "aspect_ratio": "9:16",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22,
+  "background": "art/gen3/9x16/phoebe_chamber/phoebe_chamber-01-9x16.png",
+  "sha256": "5e2547da4a2c8038958c03a85b24d588d7eadaf9d2f0461fd243d8e0bd4f4c67",
+  "mound_material_candidates": [
+    "carpet-lavender",
+    "floor-charcoal"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

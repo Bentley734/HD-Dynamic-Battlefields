@@ -8183,6 +8183,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/phoebe_chamber/phoebe_chamber-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -8369,6 +8376,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/petalburg_gym/petalburg_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/phoebe_chamber/phoebe_chamber-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8561,6 +8575,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/phoebe_chamber/phoebe_chamber-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:20",
       "time_of_day": "night",
@@ -8638,7 +8659,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 354,
+  "minimum_missing_base_sources": 351,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8658,6 +8679,7 @@
     "mossdeep_gym",
     "new_mauville",
     "petalburg_gym",
+    "phoebe_chamber",
     "rustboro_gym",
     "sidney_chamber",
     "sootopolis_gym",
