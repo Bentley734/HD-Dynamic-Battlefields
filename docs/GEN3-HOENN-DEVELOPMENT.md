@@ -795,3 +795,13 @@ The 32:9 floor boundary is close to the opponent draft anchor and explicitly
 flagged for contact review or recomposition during deferred calibration.
 Carpet-burgundy/floor-ivory are mound candidates only. No layout testing,
 runtime enablement, release or published asset-pack changes occurred.
+
+Hoenn Battle Tower now has a complete nine-aspect initial interior source
+set, reusing original Gen2 Battle Tower paintings after visual review of
+every aspect. Pale blue-gray walls, closed sliding doors, high windows and
+clear seamless floors suit a shared training room. All nine are copied
+byte-for-byte, with original paths, prompts, hashes and authoring metadata
+references preserved. No new generation, image resizing or crops were
+needed. Floor-gray/floor-gray-night-cool are mound candidates only; their
+color matching and native contact calibration remain pending. No layout
+testing, runtime enablement, release or published asset-pack changes.

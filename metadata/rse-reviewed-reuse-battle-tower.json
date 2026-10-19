@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen2/16x9/battle_tower/battle_tower-01-16x9.png",
+      "original_prompt": "art/gen2/16x9/battle_tower/prompts/battle_tower-01-16x9.txt",
+      "original_sha256": "2f46720c790406def2fb2b86cc6850a66411ed33db31601e5303706947a2ce35",
+      "target": "art/gen3/16x9/battle_tower/battle_tower-01-16x9.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen2/4x3/battle_tower/battle_tower-01-4x3.png",
+      "original_prompt": "art/gen2/4x3/battle_tower/prompts/battle_tower-01-4x3.txt",
+      "original_sha256": "13a5c086f71c164f29fe5a14802c88bed6f1e708cddbdf106df8213047ecc06d",
+      "target": "art/gen3/4x3/battle_tower/battle_tower-01-4x3.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen2/3x2/battle_tower/battle_tower-01-3x2.png",
+      "original_prompt": "art/gen2/3x2/battle_tower/prompts/battle_tower-01-3x2.txt",
+      "original_sha256": "5714e7cf93c7c20d82b7251b75669dae08b9fecc2b75919c68eecbc058f3b91d",
+      "target": "art/gen3/3x2/battle_tower/battle_tower-01-3x2.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen2/16x10/battle_tower/battle_tower-01-16x10.png",
+      "original_prompt": "art/gen2/16x10/battle_tower/prompts/battle_tower-01-16x10.txt",
+      "original_sha256": "d3c5d6dc12b1d8d1b18bedf979776c697dec259c69b53c12e203bc73c03acc1c",
+      "target": "art/gen3/16x10/battle_tower/battle_tower-01-16x10.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen2/21x9/battle_tower/battle_tower-01-21x9.png",
+      "original_prompt": "art/gen2/21x9/battle_tower/prompts/battle_tower-01-21x9.txt",
+      "original_sha256": "f9b7b51f4eeb49796a2a3e183758a5c626f1f675229e4c3855cafe2bf1f6eb8d",
+      "target": "art/gen3/21x9/battle_tower/battle_tower-01-21x9.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen2/32x9/battle_tower/battle_tower-01-32x9.png",
+      "original_prompt": "art/gen2/32x9/battle_tower/prompts/battle_tower-01-32x9.txt",
+      "original_sha256": "c94c5c6ed1c6a038f95c1d4595353af8be80169b9e6fcd1ec8889c18aa89a033",
+      "target": "art/gen3/32x9/battle_tower/battle_tower-01-32x9.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen2/9x16/battle_tower/battle_tower-01-9x16.png",
+      "original_prompt": "art/gen2/9x16/battle_tower/prompts/battle_tower-01-9x16.txt",
+      "original_sha256": "dea253d2af7d80ba388202dd27364cbf5e066f429aa0330970e055edd0e4b9dc",
+      "target": "art/gen3/9x16/battle_tower/battle_tower-01-9x16.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen2/9x19_5/battle_tower/battle_tower-01-9x19_5.png",
+      "original_prompt": "art/gen2/9x19_5/battle_tower/prompts/battle_tower-01-9x19_5.txt",
+      "original_sha256": "9d4e7fb8a5735561407b06be58630de34b0ad6a5f4779d6f45f4046ccdf02861",
+      "target": "art/gen3/9x19_5/battle_tower/battle_tower-01-9x19_5.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen2/9x20/battle_tower/battle_tower-01-9x20.png",
+      "original_prompt": "art/gen2/9x20/battle_tower/prompts/battle_tower-01-9x20.txt",
+      "original_sha256": "13c2e110ef251276cfb765ee5fc18bec39c594c3e85aa6f4cd71fdaade27a2bd",
+      "target": "art/gen3/9x20/battle_tower/battle_tower-01-9x20.png",
+      "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated."
+    }
+  ]
+}
