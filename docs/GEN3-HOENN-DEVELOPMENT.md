@@ -408,3 +408,12 @@ to808x1795, preserving originals and source-space geometry. No resampling or
 day/night shader substitution. Exact built-in prompts are stored beside each
 source; geometry remains draft. No layout tests were run, no mound pairing
 is certified, and no runtime eligibility or published asset index changed.
+
+Jagged Pass / volcanic_slope starts with original16:9 day and night sources.
+Existing alpine mountain art was reviewed but its snowy peaks and alpine
+vegetation do not fit this volcanic slope. The first generated night image
+was an unwanted day/night diptych, rejected and preserved in drafts. A fresh
+single-night painting replaces it in canonical authoring metadata; its actual
+lower floor boundary and uncalibrated anchors are recorded explicitly.
+Remaining aspects, mound pairing and later composition calibration remain.
+No layout tests or runtime integration were performed.

@@ -7049,6 +7049,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_slope",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/volcanic_slope/volcanic_slope-01-16x9-night-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/volcanic_slope/volcanic_slope-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7588,7 +7602,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 486,
+  "minimum_missing_base_sources": 485,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
