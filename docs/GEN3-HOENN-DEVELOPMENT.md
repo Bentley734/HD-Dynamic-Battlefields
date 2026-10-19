@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Phoebe's chamber adds original 16:10, 21:9 and 32:9 source paintings,
+bringing its first variation to six landscape formats. Each was visually
+reviewed for clear dusky-violet carpet, enclosed hall and recessed urns,
+with no creatures or baked mounds. The 1983x793 super-ultrawide original
+is preserved; an authorized crop trims excess lower carpet to 1983x558
+without resampling and transforms draft geometry. Exact built-in prompts
+and crop provenance remain with the sources. Three phone formats and
+mound pairing/native calibration remain. No layout tests, runtime
+enablement, battle UI or release changes occurred.
+
 Phoebe's chamber begins with original 16:9, 4:3 and 3:2 source paintings.
 Existing Gen1 ghost-chamber art was inspected but its bright mountain-window
 setting was preserved for its original uses. New enclosed violet halls
