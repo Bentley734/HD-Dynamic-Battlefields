@@ -329,3 +329,12 @@ stands on its mound and the ground extends behind it. These checks preserve
 native UI draw transforms; they do not prove all species, expanded sprite
 mods, doubles, move animations or live window resizing. Published eligibility
 and asset packs remain unchanged until the remaining Hoenn art is ready.
+
+Meteor Falls authoring now has four separately generated ambient cavern
+compositions (4:3,16:9,16:10,3:2). Original warm limestone arches and distant
+waterfalls frame continuous dry stone; no characters or mounds are baked in.
+Exact built-in generation prompts and draft geometry are stored with each
+PNG. Integrity, hashes, dimensions, aspect and draft horizon checks pass;
+the4:3 boundary records its actual lower scenery transition rather than the
+requested prompt height. Five aspect compositions, matching mound selection
+and native calibration remain. This partial family is excluded from runtime.

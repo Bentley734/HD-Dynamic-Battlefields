@@ -1,0 +1,43 @@
+{
+  "family": "meteor_falls",
+  "source_files": 4,
+  "verified_scope": "PNG integrity, SHA256, dimensions, aspect and draft horizon bounds only",
+  "runtime_calibrated": false,
+  "remaining_aspects": [
+    "21:9",
+    "32:9",
+    "9:16",
+    "9:19.5",
+    "9:20"
+  ],
+  "files": [
+    {
+      "path": "art/gen3/16x10/meteor_falls/meteor_falls-01-16x10.png",
+      "aspect": "16:10",
+      "sha256": "c2ac457ad188095b8632aa26186e1bfd5f742f659f9ccd19bffe331768ebde83",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "art/gen3/16x9/meteor_falls/meteor_falls-01-16x9.png",
+      "aspect": "16:9",
+      "sha256": "dee57d1e75e8915eff56dc80258a109d97f039543999a34376c1756d8bbe78df",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "art/gen3/3x2/meteor_falls/meteor_falls-01-3x2.png",
+      "aspect": "3:2",
+      "sha256": "2822aea06bcd98785fcbf2afaec528eb389b16127150c73cde5f03c1c895cca2",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "art/gen3/4x3/meteor_falls/meteor_falls-01-4x3.png",
+      "aspect": "4:3",
+      "sha256": "c2edea5d7a7d188df2b092d904cd756da47a3d5b9129cb10ca1d9609df3cb705",
+      "width": 1448,
+      "height": 1086
+    }
+  ]
+}
