@@ -459,3 +459,14 @@ floor, no characters and no baked mounds. Generated dimensions fit the aspect
 tolerance without cropping or resampling. Exact built-in prompts and draft
 geometry are saved beside the originals. Mound fit and runtime alignment
 remain untested; runtime eligibility and published asset packs are unchanged.
+
+New Mauville authoring starts with16:9,4:3 and3:2 enclosed underground power
+station paintings. Existing original Gen1 power-plant scenery was inspected
+but its tall outdoor windows did not fit this setting. New sources use teal
+generators, conduits and plain gray concrete floors without tiles/hardwood.
+The initial16:9 composition's machinery boundary was too low; that image and
+prompt are retained in drafts and a fresh composition with more floor space
+is selected.4:3 records its actual lower boundary and a calibration limitation.
+All selected sources have exact built-in prompts and draft geometry. Six
+aspect compositions and mound pairing remain. No layout tests, runtime
+eligibility changes or release publication occurred.

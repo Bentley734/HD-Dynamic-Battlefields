@@ -7035,6 +7035,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/new_mauville/new_mauville-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -7329,6 +7336,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/new_mauville/new_mauville-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "3:2",
       "time_of_day": "night",
@@ -7424,6 +7438,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/meteor_falls/meteor_falls-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "new_mauville",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7777,7 +7798,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 468,
+  "minimum_missing_base_sources": 465,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
