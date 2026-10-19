@@ -7196,6 +7196,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/phoebe_chamber/phoebe_chamber-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -7763,6 +7770,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/phoebe_chamber/phoebe_chamber-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "3:2",
       "time_of_day": "night",
@@ -7949,6 +7963,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/petalburg_gym/petalburg_gym-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "phoebe_chamber",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/phoebe_chamber/phoebe_chamber-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8596,7 +8617,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 360,
+  "minimum_missing_base_sources": 357,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Phoebe's chamber begins with original 16:9, 4:3 and 3:2 source paintings.
+Existing Gen1 ghost-chamber art was inspected but its bright mountain-window
+setting was preserved for its original uses. New enclosed violet halls
+use warm lamps, a rear door, small recessed ceramic urns and clear dusky
+carpet. All three were visually inspected with no creatures, baked mounds,
+floor grids or split scenes. Exact built-in prompts and draft geometry
+accompany each PNG. Six aspect paintings and mound pairing remain;
+carpet-lavender/floor-charcoal are candidates only. No native layout tests,
+runtime enablement, battle UI or release changes occurred.
+
 Sidney's chamber adds original 9:16, 9:19.5 and 9:20 phone compositions,
 completing its first source variation across all nine aspect families.
 Each was visually inspected for clear burgundy carpet, charcoal walls,
