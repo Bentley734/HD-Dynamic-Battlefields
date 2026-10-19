@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "composition_id": "rustboro_gym-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2079,
+    "height": 585
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.2843076923076923,
+  "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
+  "sha256": "993fbf7890233d325d61eb0a5eeb5edd6ab9c15e4f2a146b0a7e0d5a4bc0ce11",
+  "mound_material_candidates": [
+    "sandstone",
+    "gravel"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Indoor source uses original daylight clerestory painting; not a new Hoenn-specific painting or a certified native gym layout."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",
+    "original_sha256": "05dfe9798457e5da7457b6210e86410418241a6e95eff20eb0a5d25de6cbf0b1",
+    "original_size": {
+      "width": 2079,
+      "height": 756
+    },
+    "crop_pixels": [
+      0,
+      0,
+      2079,
+      585
+    ],
+    "source_geometry": {
+      "horizon_y": 0.22,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5029761904761905
+        ],
+        "mound_anchor": [
+          0.35,
+          0.518452380952381
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3327380952380952
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3482142857142857
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "original": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",
+    "original_prompt": "art/gen1/32x9/gym_rock/prompts/gym_rock-01-32x9.txt",
+    "original_sha256": "05dfe9798457e5da7457b6210e86410418241a6e95eff20eb0a5d25de6cbf0b1",
+    "operation": "crop_only_no_resampling",
+    "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+  }
+}

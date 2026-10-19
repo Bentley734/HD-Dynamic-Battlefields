@@ -6979,6 +6979,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rustboro_gym",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/rustboro_gym/rustboro_gym-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7102,6 +7109,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "day",
       "background": "art/gen3/16x9/rainforest/rainforest-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rustboro_gym",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/rustboro_gym/rustboro_gym-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7231,6 +7245,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rustboro_gym",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/rustboro_gym/rustboro_gym-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7354,6 +7375,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rustboro_gym",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7483,6 +7511,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rustboro_gym",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/rustboro_gym/rustboro_gym-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -7606,6 +7641,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "day",
       "background": "art/gen3/4x3/rainforest/rainforest-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rustboro_gym",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/rustboro_gym/rustboro_gym-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7735,6 +7777,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rustboro_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/rustboro_gym/rustboro_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -7858,6 +7907,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/rainforest/rainforest-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "rustboro_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/rustboro_gym/rustboro_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7987,6 +8043,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "rustboro_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/rustboro_gym/rustboro_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8029,7 +8092,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 441,
+  "minimum_missing_base_sources": 432,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8043,6 +8106,7 @@
     "granite_cave",
     "meteor_falls",
     "new_mauville",
+    "rustboro_gym",
     "underwater_ocean",
     "volcanic_cave"
   ]

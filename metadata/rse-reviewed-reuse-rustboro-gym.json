@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/gym_rock/gym_rock-01-16x9.png",
+      "original_prompt": "art/gen1/16x9/gym_rock/prompts/gym_rock-01-16x9.txt",
+      "original_sha256": "e38518ff56a382ade3b003c29d3904941852add4d74c8932d638f2f06222dd3d",
+      "target": "art/gen3/16x9/rustboro_gym/rustboro_gym-01-16x9.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/gym_rock/gym_rock-01-4x3.png",
+      "original_prompt": "art/gen1/4x3/gym_rock/prompts/gym_rock-01-4x3.txt",
+      "original_sha256": "6e49482c196d5c9109fc3f9893198d65e88c9006aa42374f2d23363aeab29194",
+      "target": "art/gen3/4x3/rustboro_gym/rustboro_gym-01-4x3.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/gym_rock/gym_rock-01-3x2.png",
+      "original_prompt": "art/gen1/3x2/gym_rock/prompts/gym_rock-01-3x2.txt",
+      "original_sha256": "fb11cc2b1baefb9dd31321ab3505e8166a31af194b0800ccdcf0d6a5a794dde2",
+      "target": "art/gen3/3x2/rustboro_gym/rustboro_gym-01-3x2.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/gym_rock/gym_rock-01-16x10.png",
+      "original_prompt": "art/gen1/16x10/gym_rock/prompts/gym_rock-01-16x10.txt",
+      "original_sha256": "ecb748af5c96e6ddbf944e6a310185a5fae7f7734ebfb5a9012872d7966266a9",
+      "target": "art/gen3/16x10/rustboro_gym/rustboro_gym-01-16x10.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/gym_rock/gym_rock-01-21x9.png",
+      "original_prompt": "art/gen1/21x9/gym_rock/prompts/gym_rock-01-21x9.txt",
+      "original_sha256": "54563ec0edfd37f7b11c609107e40666314b305494151014344342643b712500",
+      "target": "art/gen3/21x9/rustboro_gym/rustboro_gym-01-21x9.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",
+      "original_prompt": "art/gen1/32x9/gym_rock/prompts/gym_rock-01-32x9.txt",
+      "original_sha256": "05dfe9798457e5da7457b6210e86410418241a6e95eff20eb0a5d25de6cbf0b1",
+      "target": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/gym_rock/gym_rock-01-9x16.png",
+      "original_prompt": "art/gen1/9x16/gym_rock/prompts/gym_rock-01-9x16.txt",
+      "original_sha256": "7af740b3ec383e70e85bd0dd15c792876cd27882b3910c15e188769f6570b8a2",
+      "target": "art/gen3/9x16/rustboro_gym/rustboro_gym-01-9x16.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/gym_rock/gym_rock-01-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/gym_rock/prompts/gym_rock-01-9x19_5.txt",
+      "original_sha256": "d4e53eced531d73ca41259ed3784f549d8f8bdd862bc312a34cc3349eade54fd",
+      "target": "art/gen3/9x19_5/rustboro_gym/rustboro_gym-01-9x19_5.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/gym_rock/gym_rock-01-9x20.png",
+      "original_prompt": "art/gen1/9x20/gym_rock/prompts/gym_rock-01-9x20.txt",
+      "original_sha256": "177e9db7d6120d972183a4e5854c7ef0aad635cd9bb9202c572f8ef9057dee6e",
+      "target": "art/gen3/9x20/rustboro_gym/rustboro_gym-01-9x20.png",
+      "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+    }
+  ]
+}

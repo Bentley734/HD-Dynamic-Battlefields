@@ -1,0 +1,125 @@
+[
+  {
+    "source": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",
+    "prompt_source": "art/gen1/32x9/gym_rock/prompts/gym_rock-01-32x9.txt",
+    "family": "rustboro_gym",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "sandstone",
+      "gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2079,
+      585
+    ],
+    "source_geometry": {
+      "horizon_y": 0.22,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5029761904761905
+        ],
+        "mound_anchor": [
+          0.35,
+          0.518452380952381
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3327380952380952
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3482142857142857
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x19_5/gym_rock/gym_rock-01-9x19_5.png",
+    "prompt_source": "art/gen1/9x19_5/gym_rock/prompts/gym_rock-01-9x19_5.txt",
+    "family": "rustboro_gym",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "sandstone",
+      "gravel"
+    ],
+    "crop_pixels": [
+      46,
+      0,
+      853,
+      1748
+    ],
+    "source_geometry": {
+      "horizon_y": 0.15,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.3380444444444445,
+          0.65
+        ],
+        "mound_anchor": [
+          0.3380444444444445,
+          0.67
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.6608444444444445,
+          0.43
+        ],
+        "mound_anchor": [
+          0.6608444444444445,
+          0.45
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x20/gym_rock/gym_rock-01-9x20.png",
+    "prompt_source": "art/gen1/9x20/gym_rock/prompts/gym_rock-01-9x20.txt",
+    "family": "rustboro_gym",
+    "aspect": "9x20",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "sandstone",
+      "gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      793,
+      1762
+    ],
+    "source_geometry": {
+      "horizon_y": 0.15,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.5775592536560766
+        ],
+        "mound_anchor": [
+          0.32,
+          0.5953303076147252
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.382077660110943
+        ],
+        "mound_anchor": [
+          0.68,
+          0.3998487140695915
+        ]
+      }
+    }
+  }
+]

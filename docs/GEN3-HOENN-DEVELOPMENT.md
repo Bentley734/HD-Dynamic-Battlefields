@@ -505,3 +505,14 @@ SHA provenance and transformed draft geometry. Some lower scenery boundaries
 are explicitly flagged for later native alignment/recomposition review.
 All nine aspect pairs now have source records; grass/forest mounds are only
 candidates. No layout tests, runtime enablement or published asset changes.
+
+Rustboro Gym source coverage reuses the project's original Gen1 gym_rock
+variation01 after inspecting all nine compositions. Rock-lined training hall
+and plain packed-earth floor provide the chosen rock-gym art direction;
+separate Hoenn source records preserve their origin rather than claiming new
+paintings. Six files are byte-identical copies;32:9 trims2079x756 to2079x585,
+9:19.5 center-trims900x1748 to807x1748, and9:20 trims793x1983 to793x1762.
+All processing is crop-only, with untouched Gen1 originals, exact prompts,
+SHA provenance and draft geometry retained. This is one indoor source set,
+not native gym-layout validation. Sandstone/gravel mounds remain candidates.
+No image generation, layout tests, runtime enablement or release changes.

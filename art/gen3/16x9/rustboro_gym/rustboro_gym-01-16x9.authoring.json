@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "composition_id": "rustboro_gym-01-16x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1672,
+    "height": 941
+  },
+  "aspect_ratio": "16:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.32,
+  "background": "art/gen3/16x9/rustboro_gym/rustboro_gym-01-16x9.png",
+  "sha256": "e38518ff56a382ade3b003c29d3904941852add4d74c8932d638f2f06222dd3d",
+  "mound_material_candidates": [
+    "sandstone",
+    "gravel"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Indoor source uses original daylight clerestory painting; not a new Hoenn-specific painting or a certified native gym layout."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "original": "art/gen1/16x9/gym_rock/gym_rock-01-16x9.png",
+    "original_prompt": "art/gen1/16x9/gym_rock/prompts/gym_rock-01-16x9.txt",
+    "original_sha256": "e38518ff56a382ade3b003c29d3904941852add4d74c8932d638f2f06222dd3d",
+    "operation": "byte_identical_copy",
+    "reason": "Reviewed rock-type training hall with wall-side boulders and plain packed-earth floor; location-specific geometry remains draft."
+  }
+}
