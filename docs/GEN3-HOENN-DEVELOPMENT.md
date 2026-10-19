@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Sootopolis Gym adds dedicated 16:10, 21:9 and 32:9 interior source paintings,
+bringing the initial variation to six landscape formats. Each was visually
+reviewed for a continuous pale frosted floor, distant blue/white hall and
+wave relief, no creatures or baked mounds. The 2106x747 super-ultrawide
+original is preserved; authorized crop-only preparation trims excess lower
+canvas to 2106x592 without resampling and transforms the draft geometry.
+Exact built-in prompts and crop provenance are retained. Three phone
+compositions and mound pairing/native calibration remain. No layout tests,
+runtime enablement, battle UI or release changes occurred.
+
 Sootopolis Gym begins with original 16:9, 4:3 and 3:2 interior sources.
 The existing Gen1 water-gym pool painting was inspected but preserved for
 pool environments rather than relabeled. New enclosed blue/white halls
