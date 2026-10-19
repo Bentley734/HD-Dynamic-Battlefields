@@ -764,3 +764,11 @@ or split scenes. Built-in generation prompts and draft geometry are saved
 beside sources. Carpet-burgundy/floor-charcoal are candidates only; matching
 mound colors and native calibration remain pending. Six aspect paintings
 remain. No layout testing, runtime enablement or release changes occurred.
+
+Drake's wide source set now includes 16:10, 21:9 and 32:9 paintings.
+Visual review found single enclosed halls with clear carpet floors and no
+creatures or baked mounds. The 32:9 original is preserved at 2048x768;
+an authorized crop trims only excess lower floor to 2048x576 without
+resampling, with transformed draft geometry and provenance. Three portrait
+paintings and native mound calibration remain. No layout testing, runtime
+enablement, release or published asset-pack changes occurred.
