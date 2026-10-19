@@ -556,6 +556,17 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Fortree Gym begins with original 16:9, 4:3 and 3:2 interior source paintings.
+The existing Violet Gym source was inspected but its mountain-window view
+was retained for Johto rather than relabeled as a tropical canopy hall.
+New paintings use timber/plaster walls, broad rear windows overlooking
+treetops and uninterrupted moss-green carpet. All three were visually
+inspected: no creatures, built-in mounds, platforms, tiled or wooden floors,
+or split scenes. Exact built-in generation prompts and draft geometry are
+saved with each source. Carpet-moss/floor-beige are mound candidates only.
+Six aspect paintings and mound pairing/native calibration remain. No layout
+tests, runtime eligibility or release changes occurred.
+
 Petalburg Gym now has a complete nine-aspect initial interior source set,
 reusing the original Gen1 dojo-01 paintings after visual review of every
 aspect. Cream plaster/timber walls, red banners and the seamless beige
