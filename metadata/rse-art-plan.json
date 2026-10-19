@@ -7140,6 +7140,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "glacia_chamber",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/glacia_chamber/glacia_chamber-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7728,6 +7735,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "glacia_chamber",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/glacia_chamber/glacia_chamber-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -7921,6 +7935,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/fortree_gym/fortree_gym-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "glacia_chamber",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/glacia_chamber/glacia_chamber-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8659,7 +8680,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 351,
+  "minimum_missing_base_sources": 348,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

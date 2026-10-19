@@ -727,3 +727,13 @@ All other new originals fit their aspect tolerance directly. Exact prompts
 are saved beside sources. Terracotta/floor-clay remain mound candidates;
 native calibration and mound pairing are pending. No layout testing,
 runtime enablement, release or published asset-pack changes occurred.
+
+Glacia's chamber begins with original 16:9, 4:3 and 3:2 interior source
+paintings. The existing Gen1 ice chamber's mountain windows were retained
+rather than relabeled. New enclosed pale-blue halls use white columns,
+closed silver doors, small ice clusters confined to rear niches and clear
+matte blue-gray floors. Each was visually inspected as one continuous scene
+without characters, baked mounds or floor grids. Built-in generation prompts
+and draft geometry are saved beside sources. Ice-cave/floor-gray are mound
+candidates only. Six aspect paintings and native mound calibration remain;
+no layout tests, runtime eligibility or published asset pack changes.
