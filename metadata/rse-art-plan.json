@@ -7021,6 +7021,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_crater",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/volcanic_crater/volcanic_crater-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/volcanic_crater/volcanic_crater-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7273,6 +7287,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_crater",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/volcanic_crater/volcanic_crater-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/volcanic_crater/volcanic_crater-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -7462,7 +7490,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 495,
+  "minimum_missing_base_sources": 493,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

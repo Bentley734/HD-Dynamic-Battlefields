@@ -385,3 +385,11 @@ to807x1749. Neither operation stretches pixels. Exact prompts, originals and
 source-space draft geometry remain stored. These are source candidates only:
 no new layout tests, native calibration, runtime integration or release
 approval is claimed. Matching mound selection remains pending.
+
+Mt. Chimney / volcanic_crater authoring begins with original16:9 and4:3
+day/night pairs. Night paintings are separately generated artwork, with
+moonlit basalt, stars and distant geothermal glow; no shader recolor is
+substituted. All four sources preserve exact built-in prompts and draft
+geometry. Seven aspect pairs and mound pairing remain. Layout testing is
+still deferred under the user's asset-first direction; these partial sources
+are not runtime-enabled or added to published download packs.
