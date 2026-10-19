@@ -423,3 +423,11 @@ prompts now explicitly reject split panels/comparisons; all four new outputs
 are single scenes. Draft geometry is stored with each painting. The first
 variation now covers three of nine aspect families; remaining six pairs and
 mound pairing are pending. No native layout tests or release changes.
+
+Jagged Pass adds16:10,21:9 and32:9 separate day/night sources, reaching six
+aspect pairs.32:9 sources use approved crop-only preparation with preserved
+originals/prompts. Their floor transition is lower than requested, so source
+geometry records the actual boundary and uncalibrated draft anchors; later
+recomposition may be required for unchanged native sprite positions. These
+sources are not runtime-enabled. Three portrait pairs remain. No layout tests
+were run, and battle UI and published asset packs remain unchanged.

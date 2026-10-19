@@ -6972,6 +6972,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_slope",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/volcanic_slope/volcanic_slope-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/volcanic_slope/volcanic_slope-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -7140,6 +7154,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_slope",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/volcanic_slope/volcanic_slope-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/volcanic_slope/volcanic_slope-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
@@ -7214,6 +7242,20 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7630,7 +7672,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 483,
+  "minimum_missing_base_sources": 480,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

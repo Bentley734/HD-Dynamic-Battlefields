@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/volcanic_slope-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/volcanic_slope-01-32x9-original.txt",
+    "family": "volcanic_slope",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "village-earth",
+      "gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2048,
+      576
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5549999999999999
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.54
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.405
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.39
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/volcanic_slope-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/volcanic_slope-01-32x9-night-original.txt",
+    "family": "volcanic_slope",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "village-earth",
+      "gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2072,
+      583
+    ],
+    "source_geometry": {
+      "horizon_y": 0.42,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5684057971014492
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5530434782608695
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.4685507246376811
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.4531884057971014
+        ]
+      }
+    }
+  }
+]
