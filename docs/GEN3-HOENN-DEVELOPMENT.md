@@ -556,6 +556,17 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Petalburg Gym now has a complete nine-aspect initial interior source set,
+reusing the original Gen1 dojo-01 paintings after visual review of every
+aspect. Cream plaster/timber walls, red banners and the seamless beige
+training floor fit this normal-type training hall. Eight files are copied
+byte-for-byte; 32:9 trims excess lower floor from its 2048x768 source to
+2048x576 without resampling. The Gen1 originals are preserved. Each record
+includes original path, exact prompt, SHA-256 and reuse reason; the crop
+also retains source geometry and transformed draft anchors. Floor-beige
+and floor-clay are candidates only. Native layout/mound calibration remain
+pending, with no runtime enablement, layout testing or release changes.
+
 Lavaridge Gym now has its first interior source variation across all nine
 aspect families. Six new built-in paintings add 16:10, 21:9, 32:9 and the
 three phone formats to the initial set. Visual inspection found single warm

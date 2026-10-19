@@ -6986,6 +6986,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "petalburg_gym",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/petalburg_gym/petalburg_gym-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "16:10",
       "time_of_day": "night",
@@ -7137,6 +7144,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/new_mauville/new_mauville-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "petalburg_gym",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/petalburg_gym/petalburg_gym-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7294,6 +7308,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "petalburg_gym",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/petalburg_gym/petalburg_gym-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7445,6 +7466,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "petalburg_gym",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7602,6 +7630,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "petalburg_gym",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/petalburg_gym/petalburg_gym-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "3:2",
       "time_of_day": "night",
@@ -7753,6 +7788,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "petalburg_gym",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/petalburg_gym/petalburg_gym-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7910,6 +7952,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "petalburg_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/petalburg_gym/petalburg_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -8061,6 +8110,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/new_mauville/new_mauville-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "petalburg_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/petalburg_gym/petalburg_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8218,6 +8274,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "petalburg_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/petalburg_gym/petalburg_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:20",
       "time_of_day": "night",
@@ -8281,7 +8344,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 405,
+  "minimum_missing_base_sources": 396,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8298,6 +8361,7 @@
     "mauville_gym",
     "meteor_falls",
     "new_mauville",
+    "petalburg_gym",
     "rustboro_gym",
     "underwater_ocean",
     "volcanic_cave"
