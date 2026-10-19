@@ -480,3 +480,16 @@ the crop provenance and transformed draft geometry are recorded explicitly.
 Other new images fit their aspect tolerance without trimming. Exact built-in
 prompts accompany all sources. Mound pairing and native alignment remain
 pending; no layout tests or published pack/runtime eligibility changes.
+
+Cave of Origin dry-cave authoring now has its first original interior source
+variation in all nine aspect families. Existing original Gen1 deep-cave art
+was inspected; its prominent blue-violet crystal identity was kept intact
+rather than relabeled as this muted gray/brown cavern. Nine new paintings
+retain exact built-in generation prompts and draft geometry.32:9 preserves
+its2170x725 original and trims[0,100,2170,710];9:19.5 trims836x1880 to836x1811;
+9:20 trims826x1904 to826x1836. All are crop-only with originals and provenance
+preserved. Sources were visually inspected for single scenes, clear dry
+floor and absence of characters/baked mounds. Candidate mound materials are
+cave/cave-pale-limestone; fit and native positioning remain untested. This
+dry-cave set does not certify legendary water/lava encounter staging. No
+layout tests, runtime enablement or published asset pack changes occurred.
