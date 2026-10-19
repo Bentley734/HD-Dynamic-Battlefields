@@ -8120,6 +8120,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sootopolis_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/sootopolis_gym/sootopolis_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8292,6 +8299,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/rustboro_gym/rustboro_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sootopolis_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/sootopolis_gym/sootopolis_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8470,6 +8484,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sootopolis_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/sootopolis_gym/sootopolis_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8512,7 +8533,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 372,
+  "minimum_missing_base_sources": 369,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8533,6 +8554,7 @@
     "new_mauville",
     "petalburg_gym",
     "rustboro_gym",
+    "sootopolis_gym",
     "underwater_ocean",
     "volcanic_cave"
   ]

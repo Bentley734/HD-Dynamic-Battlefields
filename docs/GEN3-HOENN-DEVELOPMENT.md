@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Sootopolis Gym adds original 9:16, 9:19.5 and 9:20 portrait compositions,
+completing its first source variation across all nine aspect families.
+Each was visually inspected for continuous pale frosted floor, distant
+blue/white hall and wave relief, with no creatures or baked mounds. All
+three generated originals fit their aspect tolerance without crop or
+resampling. Exact built-in prompts and draft geometry accompany each PNG.
+Matching mound review and native calibration remain pending; source
+coverage does not prove runtime placement. No layout tests, runtime
+enablement, battle UI or release changes occurred.
+
 Sootopolis Gym adds dedicated 16:10, 21:9 and 32:9 interior source paintings,
 bringing the initial variation to six landscape formats. Each was visually
 reviewed for a continuous pale frosted floor, distant blue/white hall and
