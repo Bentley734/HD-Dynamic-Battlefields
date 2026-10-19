@@ -8162,6 +8162,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sidney_chamber",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/sidney_chamber/sidney_chamber-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8341,6 +8348,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/rustboro_gym/rustboro_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sidney_chamber",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/sidney_chamber/sidney_chamber-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8526,6 +8540,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sidney_chamber",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/sidney_chamber/sidney_chamber-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8575,7 +8596,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 363,
+  "minimum_missing_base_sources": 360,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8596,6 +8617,7 @@
     "new_mauville",
     "petalburg_gym",
     "rustboro_gym",
+    "sidney_chamber",
     "sootopolis_gym",
     "underwater_ocean",
     "volcanic_cave"
