@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "day",
+      "original": "art/gen1/16x9/safari_woodland/safari_woodland-01-16x9.png",
+      "original_prompt": "art/gen1/16x9/safari_woodland/prompts/safari_woodland-01-16x9.txt",
+      "original_sha256": "00804266f0ce1b4e381417abd7d9e5d56b55f1656350b0087b2154a9349bf4d7",
+      "target": "art/gen3/16x9/hoenn_safari/hoenn_safari-01-16x9.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "16x9",
+      "period": "night",
+      "original": "art/gen1/16x9/safari_woodland/safari_woodland-01-16x9-night.png",
+      "original_prompt": "art/gen1/16x9/safari_woodland/prompts/safari_woodland-01-16x9-night.txt",
+      "original_sha256": "6b4ef65b58145914f9bbc187dc68904017c09e3a7dea6ef0bb977a8171322a3e",
+      "target": "art/gen3/16x9/hoenn_safari/hoenn_safari-01-16x9-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "4x3",
+      "period": "day",
+      "original": "art/gen1/4x3/safari_woodland/safari_woodland-01-4x3.png",
+      "original_prompt": "art/gen1/4x3/safari_woodland/prompts/safari_woodland-01-4x3.txt",
+      "original_sha256": "1f87738079859fe423ce0bce95b906107378e7c6240b71d24ec14ba559c78bdf",
+      "target": "art/gen3/4x3/hoenn_safari/hoenn_safari-01-4x3.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "4x3",
+      "period": "night",
+      "original": "art/gen1/4x3/safari_woodland/safari_woodland-01-4x3-night.png",
+      "original_prompt": "art/gen1/4x3/safari_woodland/prompts/safari_woodland-01-4x3-night.txt",
+      "original_sha256": "8a7c9feb198a2acee90655a34e936af1fd2c9696eefaee525470748a330249a0",
+      "target": "art/gen3/4x3/hoenn_safari/hoenn_safari-01-4x3-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "3x2",
+      "period": "day",
+      "original": "art/gen1/3x2/safari_woodland/safari_woodland-01-3x2.png",
+      "original_prompt": "art/gen1/3x2/safari_woodland/prompts/safari_woodland-01-3x2.txt",
+      "original_sha256": "b929ed52870a0564b60b2de486d0e0717dcc1e1515bcda630df71ecc4dfc6990",
+      "target": "art/gen3/3x2/hoenn_safari/hoenn_safari-01-3x2.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "3x2",
+      "period": "night",
+      "original": "art/gen1/3x2/safari_woodland/safari_woodland-01-3x2-night.png",
+      "original_prompt": "art/gen1/3x2/safari_woodland/prompts/safari_woodland-01-3x2-night.txt",
+      "original_sha256": "65d6736c204241409c7ae3639ecf5e10aff1e604b6c6857f22c037e5b0599de3",
+      "target": "art/gen3/3x2/hoenn_safari/hoenn_safari-01-3x2-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "16x10",
+      "period": "day",
+      "original": "art/gen1/16x10/safari_woodland/safari_woodland-01-16x10.png",
+      "original_prompt": "art/gen1/16x10/safari_woodland/prompts/safari_woodland-01-16x10.txt",
+      "original_sha256": "4e5fce188a5076e21a6eac17101b8f3c0f203222df2e4812cfacdbd53dd76dca",
+      "target": "art/gen3/16x10/hoenn_safari/hoenn_safari-01-16x10.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "16x10",
+      "period": "night",
+      "original": "art/gen1/16x10/safari_woodland/safari_woodland-01-16x10-night.png",
+      "original_prompt": "art/gen1/16x10/safari_woodland/prompts/safari_woodland-01-16x10-night.txt",
+      "original_sha256": "b15f3662e3a18a859aa28272d9c1f51d60461204098019c5fc0344d91434cdca",
+      "target": "art/gen3/16x10/hoenn_safari/hoenn_safari-01-16x10-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "21x9",
+      "period": "day",
+      "original": "art/gen1/21x9/safari_woodland/safari_woodland-01-21x9.png",
+      "original_prompt": "art/gen1/21x9/safari_woodland/prompts/safari_woodland-01-21x9.txt",
+      "original_sha256": "1d758171600a490fa716f5f7be063ba34754d32ad1fffe8c7e41d8af752a038d",
+      "target": "art/gen3/21x9/hoenn_safari/hoenn_safari-01-21x9.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "21x9",
+      "period": "night",
+      "original": "art/gen1/21x9/safari_woodland/safari_woodland-01-21x9-night.png",
+      "original_prompt": "art/gen1/21x9/safari_woodland/prompts/safari_woodland-01-21x9-night.txt",
+      "original_sha256": "15560383cdd6c145456dea00e49979998dc16fb37ee39f68ec730ef2a4f0ab8c",
+      "target": "art/gen3/21x9/hoenn_safari/hoenn_safari-01-21x9-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "32x9",
+      "period": "day",
+      "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9.png",
+      "original_prompt": "art/gen1/32x9/safari_woodland/prompts/safari_woodland-01-32x9.txt",
+      "original_sha256": "d2b8421c3fdfe3909caf3202bf60b11a15b379e4310a506447128585d6aa9594",
+      "target": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "32x9",
+      "period": "night",
+      "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",
+      "original_prompt": "art/gen1/32x9/safari_woodland/prompts/safari_woodland-01-32x9-night.txt",
+      "original_sha256": "c4e19014f9ade0f9d310336c59a6f0e4072a6fd80d56c97d0dd91c553c384305",
+      "target": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x16",
+      "period": "day",
+      "original": "art/gen1/9x16/safari_woodland/safari_woodland-01-9x16.png",
+      "original_prompt": "art/gen1/9x16/safari_woodland/prompts/safari_woodland-01-9x16.txt",
+      "original_sha256": "d010a27518c014c97441456d325c88f1a2905c9b71ded07398c67140905a9b7c",
+      "target": "art/gen3/9x16/hoenn_safari/hoenn_safari-01-9x16.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x16",
+      "period": "night",
+      "original": "art/gen1/9x16/safari_woodland/safari_woodland-01-9x16-night.png",
+      "original_prompt": "art/gen1/9x16/safari_woodland/prompts/safari_woodland-01-9x16-night.txt",
+      "original_sha256": "6ce095654cc42ab0c4458d77c14ea93e88e872e8815a545ae9301fe6980af733",
+      "target": "art/gen3/9x16/hoenn_safari/hoenn_safari-01-9x16-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "day",
+      "original": "art/gen1/9x19_5/safari_woodland/safari_woodland-01-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/safari_woodland/prompts/safari_woodland-01-9x19_5.txt",
+      "original_sha256": "4fc9a55a7f6814565a41f1c697312f1dd63402b1ef5207917a436315e9f57775",
+      "target": "art/gen3/9x19_5/hoenn_safari/hoenn_safari-01-9x19_5.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "night",
+      "original": "art/gen1/9x19_5/safari_woodland/safari_woodland-01-9x19_5-night.png",
+      "original_prompt": "art/gen1/9x19_5/safari_woodland/prompts/safari_woodland-01-9x19_5-night.txt",
+      "original_sha256": "69e977942100da3fd5142159703c9df223ac0a908079a1aa4c9e4ce5781ef724",
+      "target": "art/gen3/9x19_5/hoenn_safari/hoenn_safari-01-9x19_5-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x20",
+      "period": "day",
+      "original": "art/gen1/9x20/safari_woodland/safari_woodland-01-9x20.png",
+      "original_prompt": "art/gen1/9x20/safari_woodland/prompts/safari_woodland-01-9x20.txt",
+      "original_sha256": "be8d30a8492067007b708d6c1b32a1b7b8dd234518efb11c11cc46dc6dd03981",
+      "target": "art/gen3/9x20/hoenn_safari/hoenn_safari-01-9x20.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    },
+    {
+      "aspect": "9x20",
+      "period": "night",
+      "original": "art/gen1/9x20/safari_woodland/safari_woodland-01-9x20-night.png",
+      "original_prompt": "art/gen1/9x20/safari_woodland/prompts/safari_woodland-01-9x20-night.txt",
+      "original_sha256": "5148c17adbb6a89b31e2dac20502de8b132cf893ab5a29822082e14820132b3a",
+      "target": "art/gen3/9x20/hoenn_safari/hoenn_safari-01-9x20-night.png",
+      "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+    }
+  ]
+}

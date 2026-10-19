@@ -1,0 +1,248 @@
+[
+  {
+    "source": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9.png",
+    "prompt_source": "art/gen1/32x9/safari_woodland/prompts/safari_woodland-01-32x9.txt",
+    "family": "hoenn_safari",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      150,
+      2111,
+      744
+    ],
+    "source_geometry": {
+      "horizon_y": 0.4,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.7195973154362416
+        ],
+        "mound_anchor": [
+          0.35,
+          0.7355436241610739
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.5681073825503355
+        ],
+        "mound_anchor": [
+          0.65,
+          0.5840536912751678
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",
+    "prompt_source": "art/gen1/32x9/safari_woodland/prompts/safari_woodland-01-32x9-night.txt",
+    "family": "hoenn_safari",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      150,
+      2109,
+      743
+    ],
+    "source_geometry": {
+      "horizon_y": 0.48,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.7177613941018768
+        ],
+        "mound_anchor": [
+          0.35,
+          0.7336595174262733
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.5667292225201073
+        ],
+        "mound_anchor": [
+          0.65,
+          0.582627345844504
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x19_5/safari_woodland/safari_woodland-01-9x19_5.png",
+    "prompt_source": "art/gen1/9x19_5/safari_woodland/prompts/safari_woodland-01-9x19_5.txt",
+    "family": "hoenn_safari",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      46,
+      0,
+      853,
+      1749
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.33842046718576196,
+          0.6500000000000001
+        ],
+        "mound_anchor": [
+          0.33842046718576196,
+          0.67
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.661579532814238,
+          0.46
+        ],
+        "mound_anchor": [
+          0.661579532814238,
+          0.48
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x19_5/safari_woodland/safari_woodland-01-9x19_5-night.png",
+    "prompt_source": "art/gen1/9x19_5/safari_woodland/prompts/safari_woodland-01-9x19_5-night.txt",
+    "family": "hoenn_safari",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      46,
+      0,
+      853,
+      1748
+    ],
+    "source_geometry": {
+      "horizon_y": 0.36,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.3380444444444445,
+          0.65
+        ],
+        "mound_anchor": [
+          0.3380444444444445,
+          0.67
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.6608444444444445,
+          0.46
+        ],
+        "mound_anchor": [
+          0.6608444444444445,
+          0.48
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x20/safari_woodland/safari_woodland-01-9x20.png",
+    "prompt_source": "art/gen1/9x20/safari_woodland/prompts/safari_woodland-01-9x20.txt",
+    "family": "hoenn_safari",
+    "aspect": "9x20",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      793,
+      1762
+    ],
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.5775592536560766
+        ],
+        "mound_anchor": [
+          0.32,
+          0.5953303076147252
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.40873424104891576
+        ],
+        "mound_anchor": [
+          0.68,
+          0.4265052950075643
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x20/safari_woodland/safari_woodland-01-9x20-night.png",
+    "prompt_source": "art/gen1/9x20/safari_woodland/prompts/safari_woodland-01-9x20-night.txt",
+    "family": "hoenn_safari",
+    "aspect": "9x20",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      793,
+      1762
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.5775592536560766
+        ],
+        "mound_anchor": [
+          0.32,
+          0.5953303076147252
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.40873424104891576
+        ],
+        "mound_anchor": [
+          0.68,
+          0.4265052950075643
+        ]
+      }
+    }
+  }
+]

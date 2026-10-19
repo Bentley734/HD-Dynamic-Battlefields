@@ -493,3 +493,15 @@ floor and absence of characters/baked mounds. Candidate mound materials are
 cave/cave-pale-limestone; fit and native positioning remain untested. This
 dry-cave set does not certify legendary water/lava encounter staging. No
 layout tests, runtime enablement or published asset pack changes occurred.
+
+Hoenn Safari woodland source coverage reuses the project's original Gen1
+safari_woodland variation01 after visual inspection of all eighteen day/night
+sources. Broadleaf preserve woodland, distant low fencing, grassy margins and
+open grass/earth ground fit the woodland encounter category; water contexts
+remain separate. No new image generation or recoloring was used. Twelve
+selected files are byte-identical copies, while32:9,9:19.5 and9:20 pairs use
+approved crop-only preparation with untouched Gen1 originals, exact prompts,
+SHA provenance and transformed draft geometry. Some lower scenery boundaries
+are explicitly flagged for later native alignment/recomposition review.
+All nine aspect pairs now have source records; grass/forest mounds are only
+candidates. No layout tests, runtime enablement or published asset changes.
