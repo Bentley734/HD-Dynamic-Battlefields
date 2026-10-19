@@ -745,3 +745,11 @@ horizon and anchors are transformed with crop provenance. Visual review
 found clear single-scene ice halls with rear niches and uninterrupted floors.
 The three portrait paintings remain, along with mound pairing and native
 calibration. No layout testing, runtime enablement or release changes.
+
+Glacia's first interior source variation now covers all nine aspect families.
+The three new portrait paintings were visually reviewed: enclosed pale-blue
+halls, clear flat floors, no creatures, baked mounds, grids or split scenes.
+Each fits its aspect tolerance directly without resampling. Exact built-in
+prompts and draft geometry accompany every source. Ice-cave/floor-gray remain
+candidates pending mound pairing and native calibration. No layout testing,
+runtime enablement, release or published asset-pack changes occurred.

@@ -8162,6 +8162,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "glacia_chamber",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/glacia_chamber/glacia_chamber-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8355,6 +8362,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/fortree_gym/fortree_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "glacia_chamber",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/glacia_chamber/glacia_chamber-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8554,6 +8568,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "glacia_chamber",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/glacia_chamber/glacia_chamber-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8701,7 +8722,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 345,
+  "minimum_missing_base_sources": 342,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8714,6 +8735,7 @@
     "cave_of_origin",
     "dewford_gym",
     "fortree_gym",
+    "glacia_chamber",
     "granite_cave",
     "lavaridge_gym",
     "mauville_gym",
