@@ -811,3 +811,13 @@ hoenn_battle_tower to match the existing Hoenn map classification table.
 All nine image/prompt/metadata paths and reuse targets now use that family;
 original Gen2 provenance is unchanged. This is a source naming correction,
 not runtime enablement or layout validation.
+
+Battle Dome begins with original 16:9, 4:3 and 3:2 tournament-hall source
+paintings. Existing Gen1 arena art was inspected; the formal link room's
+small scale was retained rather than relabeled as the Dome. New paintings
+use curved empty red/blue seating, cream guards, roof ribs, blank rear
+screens and clear sage-gray sports floors. Each was visually inspected
+without creatures, baked mounds, floor grids or split scenes. Exact built-in
+prompts and draft geometry are saved beside sources. Floor-sage/floor-gray
+remain mound candidates, with six aspect paintings and native calibration
+pending. No layout testing, runtime enablement or release changes occurred.
