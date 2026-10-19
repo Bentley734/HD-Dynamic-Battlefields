@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/champion/champion-03-16x9.png",
+      "original_prompt": "art/gen1/16x9/champion/prompts/champion-03-16x9.txt",
+      "original_sha256": "a5369347d31766775e267042d6fff7354c6197be83c1ee5db1b458d6ceba17e7",
+      "target": "art/gen3/16x9/hoenn_champion/hoenn_champion-01-16x9.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/champion/champion-03-4x3.png",
+      "original_prompt": "art/gen1/4x3/champion/prompts/champion-03-4x3.txt",
+      "original_sha256": "80ecf23c39e8c868af6681907fdcee5ebff91d98d0881536580c20510afee9b9",
+      "target": "art/gen3/4x3/hoenn_champion/hoenn_champion-01-4x3.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/champion/champion-03-3x2.png",
+      "original_prompt": "art/gen1/3x2/champion/prompts/champion-03-3x2.txt",
+      "original_sha256": "dec0aa327222bd97d8f584ff08484f6684222ce9f1a7a8464c2dac1f415729e8",
+      "target": "art/gen3/3x2/hoenn_champion/hoenn_champion-01-3x2.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/champion/champion-03-16x10.png",
+      "original_prompt": "art/gen1/16x10/champion/prompts/champion-03-16x10.txt",
+      "original_sha256": "b97f68f2cb51e9532fb17a95ecf2d94209e084b023420f8ff50f1a21310c537f",
+      "target": "art/gen3/16x10/hoenn_champion/hoenn_champion-01-16x10.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/champion/champion-03-21x9.png",
+      "original_prompt": "art/gen1/21x9/champion/prompts/champion-03-21x9.txt",
+      "original_sha256": "25a976e5a3cbfc51640c88bf0951a3526dcc8cd58098a0322038ff98488acade",
+      "target": "art/gen3/21x9/hoenn_champion/hoenn_champion-01-21x9.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/champion/champion-03-32x9.png",
+      "original_prompt": "art/gen1/32x9/champion/prompts/champion-03-32x9.txt",
+      "original_sha256": "9b87d38e06980b4ca405e91d06c872f62d4c1d37742c86a23a9c8d79b0da8d82",
+      "target": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/champion/champion-03-9x16.png",
+      "original_prompt": "art/gen1/9x16/champion/prompts/champion-03-9x16.txt",
+      "original_sha256": "ed31189db9aa934752ce8f8e1da3448331b670a6f2f7b86371285472b00a2690",
+      "target": "art/gen3/9x16/hoenn_champion/hoenn_champion-01-9x16.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/champion/champion-03-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/champion/prompts/champion-03-9x19_5.txt",
+      "original_sha256": "d00ce8e6a9faa7f937f4866653143b91b88d903e9d834bd68c8d5fd57a78011d",
+      "target": "art/gen3/9x19_5/hoenn_champion/hoenn_champion-01-9x19_5.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/champion/champion-03-9x20.png",
+      "original_prompt": "art/gen1/9x20/champion/prompts/champion-03-9x20.txt",
+      "original_sha256": "89a5893757b59be60ee22c372a465223b65d0b34528eab4fbeec7389ea9a511b",
+      "target": "art/gen3/9x20/hoenn_champion/hoenn_champion-01-9x20.png",
+      "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated."
+    }
+  ]
+}

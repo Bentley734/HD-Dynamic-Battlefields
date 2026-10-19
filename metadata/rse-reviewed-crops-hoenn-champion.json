@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen1/32x9/champion/champion-03-32x9.png",
+    "prompt_source": "art/gen1/32x9/champion/prompts/champion-03-32x9.txt",
+    "family": "hoenn_champion",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "carpet-burgundy",
+      "floor-ivory"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2115,
+      595
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5125168236877524
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5285329744279946
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.34434724091520863
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3603633916554509
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen1/9x20/champion/champion-03-9x20.png",
+    "prompt_source": "art/gen1/9x20/champion/prompts/champion-03-9x20.txt",
+    "family": "hoenn_champion",
+    "aspect": "9x20",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "carpet-burgundy",
+      "floor-ivory"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      793,
+      1762
+    ],
+    "source_geometry": {
+      "horizon_y": 0.22,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.5775592536560766
+        ],
+        "mound_anchor": [
+          0.32,
+          0.5953303076147252
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.382077660110943
+        ],
+        "mound_anchor": [
+          0.68,
+          0.3998487140695915
+        ]
+      }
+    }
+  }
+]

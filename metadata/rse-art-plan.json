@@ -6965,6 +6965,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "hoenn_champion",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/hoenn_champion/hoenn_champion-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "hoenn_safari",
       "aspect_ratio": "16:10",
       "time_of_day": "night",
@@ -7172,6 +7179,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/granite_cave/granite_cave-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "hoenn_champion",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/hoenn_champion/hoenn_champion-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7385,6 +7399,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "hoenn_champion",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/hoenn_champion/hoenn_champion-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "hoenn_safari",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7592,6 +7613,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/granite_cave/granite_cave-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "hoenn_champion",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7805,6 +7833,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "hoenn_champion",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/hoenn_champion/hoenn_champion-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "hoenn_safari",
       "aspect_ratio": "3:2",
       "time_of_day": "night",
@@ -8012,6 +8047,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/granite_cave/granite_cave-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "hoenn_champion",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/hoenn_champion/hoenn_champion-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8225,6 +8267,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "hoenn_champion",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/hoenn_champion/hoenn_champion-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "hoenn_safari",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -8432,6 +8481,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/granite_cave/granite_cave-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "hoenn_champion",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/hoenn_champion/hoenn_champion-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8645,6 +8701,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "hoenn_champion",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/hoenn_champion/hoenn_champion-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "hoenn_safari",
       "aspect_ratio": "9:20",
       "time_of_day": "night",
@@ -8785,7 +8848,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 333,
+  "minimum_missing_base_sources": 324,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8801,6 +8864,7 @@
     "fortree_gym",
     "glacia_chamber",
     "granite_cave",
+    "hoenn_champion",
     "lavaridge_gym",
     "mauville_gym",
     "meteor_falls",

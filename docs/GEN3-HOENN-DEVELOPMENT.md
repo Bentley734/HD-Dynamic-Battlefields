@@ -781,3 +781,17 @@ resampling. Exact built-in generation prompts and draft geometry are saved
 beside sources. Carpet-burgundy/floor-charcoal remain candidates; mound color
 matching and native calibration are still pending. No layout testing,
 runtime enablement, release or published asset-pack changes occurred.
+
+The Hoenn Champion's first interior source variation now covers all nine
+aspect families using visually reviewed original Gen1 champion-03 artwork.
+The enclosed cream trophy hall, red columns, blue banners and seamless
+burgundy carpet provide a shared Champion setting. Seven images are copied
+byte-for-byte. Authorized crops trim excess lower carpet from 32:9
+(2115x743 to 2115x595) and 9:20 (793x1983 to 793x1762) without resampling;
+originals remain untouched. All nine were visually inspected, and both
+crops reviewed again, without creatures, baked mounds or split scenes.
+Exact original prompts, SHA-256 provenance and draft geometry are saved.
+The 32:9 floor boundary is close to the opponent draft anchor and explicitly
+flagged for contact review or recomposition during deferred calibration.
+Carpet-burgundy/floor-ivory are mound candidates only. No layout testing,
+runtime enablement, release or published asset-pack changes occurred.
