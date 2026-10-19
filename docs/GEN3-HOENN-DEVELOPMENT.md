@@ -821,3 +821,12 @@ without creatures, baked mounds, floor grids or split scenes. Exact built-in
 prompts and draft geometry are saved beside sources. Floor-sage/floor-gray
 remain mound candidates, with six aspect paintings and native calibration
 pending. No layout testing, runtime enablement or release changes occurred.
+
+Battle Dome's wide source set now includes 16:10, 21:9 and 32:9 paintings.
+All were visually inspected as single enclosed tournament halls with clear
+sage-gray floors, empty red/blue seating, no creatures or baked mounds.
+The 32:9 original is preserved at 2181x721; an authorized crop removes only
+excess lower floor to 2181x613 without resampling, with transformed draft
+geometry and provenance. The crop was visually reviewed again. Three
+portrait paintings remain, along with mound pairing and native calibration.
+No layout testing, runtime enablement, release or asset-pack changes.
