@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Mossdeep Gym adds dedicated 16:10, 21:9 and 32:9 interior source paintings,
+bringing the initial variation to six landscape aspects. All were visually
+reviewed for clear lavender carpet, enclosed celestial hall architecture,
+and absence of creatures or baked mounds. The 1983x793 super-ultrawide
+original is preserved; authorized crop-only preparation trims excess lower
+carpet to 1983x558, without resampling, and transforms draft geometry.
+Exact built-in prompts and crop provenance are retained. Three phone
+compositions and mound pairing/native calibration remain. No layout
+tests, runtime enablement, battle UI or release changes occurred.
+
 Mossdeep Gym begins with original 16:9, 4:3 and 3:2 interior paintings.
 The existing Gen1 psychic-gym set was visually reviewed across all nine
 aspects but its mountain-window scenery was preserved for its original

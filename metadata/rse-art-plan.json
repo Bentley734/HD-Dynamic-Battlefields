@@ -6986,6 +6986,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/mossdeep_gym/mossdeep_gym-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7329,6 +7336,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/mossdeep_gym/mossdeep_gym-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7494,6 +7508,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/mossdeep_gym/mossdeep_gym-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8428,7 +8449,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 384,
+  "minimum_missing_base_sources": 381,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
