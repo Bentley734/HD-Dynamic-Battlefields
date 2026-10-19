@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "battle_dome-01-9x20",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 841,
+    "height": 1870
+  },
+  "aspect_ratio": "9:20",
+  "time_of_day": "indoor",
+  "horizon_y": 0.18,
+  "background": "art/gen3/9x20/battle_dome/battle_dome-01-9x20.png",
+  "sha256": "5749cc150de09583d0611b028180e12855cdde9d073583a8c1d840d75e6fb066",
+  "mound_material_candidates": [
+    "floor-sage",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

@@ -8295,6 +8295,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_dome",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/battle_dome/battle_dome-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8516,6 +8523,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_dome",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/battle_dome/battle_dome-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8743,6 +8757,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_dome",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/battle_dome/battle_dome-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8953,7 +8974,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 309,
+  "minimum_missing_base_sources": 306,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8963,6 +8984,7 @@
     "volcanic_slope"
   ],
   "complete_ambient_source_families": [
+    "battle_dome",
     "cave_of_origin",
     "dewford_gym",
     "drake_chamber",

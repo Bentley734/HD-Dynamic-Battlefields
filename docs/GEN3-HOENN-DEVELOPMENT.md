@@ -830,3 +830,11 @@ excess lower floor to 2181x613 without resampling, with transformed draft
 geometry and provenance. The crop was visually reviewed again. Three
 portrait paintings remain, along with mound pairing and native calibration.
 No layout testing, runtime enablement, release or asset-pack changes.
+
+Battle Dome's first source variation now covers all nine aspect families.
+The three new portrait paintings were visually inspected: clear sage-gray
+floors, rear empty red/blue seating, no creatures, baked mounds, floor grids
+or split scenes. Each fits its aspect tolerance directly without resampling.
+Exact built-in prompts and draft geometry accompany each source. Floor-sage
+and floor-gray remain candidates pending mound pairing and native calibration.
+No layout testing, runtime enablement, release or asset-pack changes.
