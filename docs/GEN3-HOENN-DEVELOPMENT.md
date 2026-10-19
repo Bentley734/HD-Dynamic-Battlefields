@@ -528,6 +528,15 @@ the original daylight windows; it is not a claim of native gym alignment.
 Floor-gray/floor-beige mound candidates remain unpaired. No new image
 generation, layout tests, runtime enablement or published pack changes.
 
+Lavaridge Gym begins with original16:9,4:3 and3:2 interior source paintings.
+Existing Gen1 fire-gym art was inspected but its large lava alcove was kept
+for other uses rather than relabeled as Lavaridge. The new direction uses
+warm plaster/timber walls, mineral-stained stone, distant steam vents and a
+plain ochre-clay floor with no lava, floor holes, tiles or boards. All three
+sources were visually inspected and retain exact built-in prompts and draft
+geometry. Six aspect paintings and mound pairing remain; terracotta/floor-clay
+are candidates only. No layout tests, runtime eligibility or release changes.
+
 Dewford Gym begins with six dedicated original landscape source paintings:
 16:9,4:3,3:2,16:10,21:9 and32:9. The existing original Gen1 dojo was inspected
 but its bright cream/daylit setting did not fit this dimmer hall direction.
