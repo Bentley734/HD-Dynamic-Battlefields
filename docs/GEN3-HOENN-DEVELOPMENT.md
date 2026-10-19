@@ -857,3 +857,11 @@ excess lower floor to 2079x585 without resampling. Crop provenance and
 transformed draft geometry are saved, and the crop was visually reviewed.
 Three portrait paintings remain, along with mound pairing and native
 calibration. No layout testing, runtime enablement, release or pack changes.
+
+Battle Palace's first interior source variation now covers all nine aspect
+families. Three new portrait paintings were visually inspected: rear palms,
+carved timber, ivory floors, no creatures, baked mounds, grids or split scenes.
+All three fit their aspect tolerance directly without resampling. Exact
+built-in generation prompts and draft geometry accompany every source.
+Floor-ivory/floor-beige remain candidates pending mound pairing and native
+calibration. No layout testing, runtime enablement, release or pack changes.
