@@ -6951,6 +6951,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_cave",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/volcanic_cave/volcanic_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -7004,6 +7011,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/underwater_ocean/underwater_ocean-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_cave",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/volcanic_cave/volcanic_cave-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7175,6 +7189,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_cave",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/volcanic_cave/volcanic_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "4:3",
       "time_of_day": "night",
@@ -7228,6 +7249,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/underwater_ocean/underwater_ocean-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_cave",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/volcanic_cave/volcanic_cave-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7399,7 +7427,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 504,
+  "minimum_missing_base_sources": 500,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

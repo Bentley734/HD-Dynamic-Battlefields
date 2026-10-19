@@ -365,3 +365,15 @@ Published eligibility and asset packs are unchanged; other Hoenn art remains.
 Ruby/Sapphire add60 passing scene cases across16:9,32:9 and9:16 using
 their own METEOR_FALLS_1F_1R map data. Combined with Emerald, this integration
 batch totals150 cases; these are rendering fixtures, not full playthroughs.
+
+2026-10-19 authoring-only direction: user requests no further layout testing
+until the remaining Gen3 assets are finished. Continue asset generation and
+source preparation; defer native render batches and gameplay calibration.
+
+Fiery Path / volcanic_cave begins with four original ambient basalt tunnel
+paintings (16:9,4:3,3:2,16:10), saved with exact built-in generation prompts
+and explicitly draft geometry. Steam vents and warm mineral seams remain in
+the distant scenery; mounds and creatures are absent. The3:2 generator
+returned1619x971, prepared by the approved crop-only rectangle[81,0,1538,971]
+with original and source geometry preserved. Five aspects and mound pairing
+remain; no runtime integration or layout test was performed for this family.

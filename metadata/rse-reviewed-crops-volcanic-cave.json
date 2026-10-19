@@ -1,0 +1,42 @@
+[
+  {
+    "source": "art/gen3/drafts/3x2/volcanic_cave-01-3x2-original.png",
+    "prompt_source": "art/gen3/drafts/3x2/prompts/volcanic_cave-01-3x2-original.txt",
+    "family": "volcanic_cave",
+    "aspect": "3x2",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave-warm-basalt"
+    ],
+    "crop_pixels": [
+      81,
+      0,
+      1538,
+      971
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "mound_anchor": [
+          0.28,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.28,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.72,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.72,
+          0.43
+        ]
+      }
+    }
+  }
+]
