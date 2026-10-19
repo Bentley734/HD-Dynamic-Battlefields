@@ -517,6 +517,17 @@ SHA provenance and draft geometry retained. This is one indoor source set,
 not native gym-layout validation. Sandstone/gravel mounds remain candidates.
 No image generation, layout tests, runtime enablement or release changes.
 
+Mauville Gym source coverage reuses original Gen1 gym_electric variation01
+after visual inspection of all nine compositions. Cream/yellow generators,
+wall conduits and seamless warm-gray training floor provide the electric gym
+direction. Six sources are byte-identical copies;32:9 trims2115x743 using
+[0,80,2115,675],9:19.5 center-trims875x1798 to830x1798, and9:20 trims793x1983
+to793x1762. All trimming is crop-only with untouched originals, exact prompts,
+SHA provenance and draft geometry preserved. This indoor source set retains
+the original daylight windows; it is not a claim of native gym alignment.
+Floor-gray/floor-beige mound candidates remain unpaired. No new image
+generation, layout tests, runtime enablement or published pack changes.
+
 Dewford Gym begins with six dedicated original landscape source paintings:
 16:9,4:3,3:2,16:10,21:9 and32:9. The existing original Gen1 dojo was inspected
 but its bright cream/daylit setting did not fit this dimmer hall direction.

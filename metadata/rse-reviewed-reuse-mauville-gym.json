@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/gym_electric/gym_electric-01-16x9.png",
+      "original_prompt": "art/gen1/16x9/gym_electric/prompts/gym_electric-01-16x9.txt",
+      "original_sha256": "c9576af67f92ca5cdf4e91fdbbfc4ae4caec61e67122bad13ade89b0f849004a",
+      "target": "art/gen3/16x9/mauville_gym/mauville_gym-01-16x9.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/gym_electric/gym_electric-01-4x3.png",
+      "original_prompt": "art/gen1/4x3/gym_electric/prompts/gym_electric-01-4x3.txt",
+      "original_sha256": "fa4a20d2f4897ef79ebc26e460361bc2fc8c702e202fae4251ab431664a8b1c3",
+      "target": "art/gen3/4x3/mauville_gym/mauville_gym-01-4x3.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/gym_electric/gym_electric-01-3x2.png",
+      "original_prompt": "art/gen1/3x2/gym_electric/prompts/gym_electric-01-3x2.txt",
+      "original_sha256": "34122f9e250e4d2caae2dbb9fff87c358ede92e79809be01446aefd934040935",
+      "target": "art/gen3/3x2/mauville_gym/mauville_gym-01-3x2.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/gym_electric/gym_electric-01-16x10.png",
+      "original_prompt": "art/gen1/16x10/gym_electric/prompts/gym_electric-01-16x10.txt",
+      "original_sha256": "07148b874fe984892a624c9c78afba14f6e446bd6588adf8113a35cbc28c9917",
+      "target": "art/gen3/16x10/mauville_gym/mauville_gym-01-16x10.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/gym_electric/gym_electric-01-21x9.png",
+      "original_prompt": "art/gen1/21x9/gym_electric/prompts/gym_electric-01-21x9.txt",
+      "original_sha256": "39238b6becc5231c89b7745859b6093aa6d13f81f46a93588bff30513cd55f8a",
+      "target": "art/gen3/21x9/mauville_gym/mauville_gym-01-21x9.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/gym_electric/gym_electric-01-32x9.png",
+      "original_prompt": "art/gen1/32x9/gym_electric/prompts/gym_electric-01-32x9.txt",
+      "original_sha256": "a360b1555c431188c95ba8a9152b847f70b3a4d003e412142f3c5fd7c5e62b41",
+      "target": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/gym_electric/gym_electric-01-9x16.png",
+      "original_prompt": "art/gen1/9x16/gym_electric/prompts/gym_electric-01-9x16.txt",
+      "original_sha256": "228b93d160ae821afa8b76e3f4d49177351f5a1ae6734facf159faf63b098fce",
+      "target": "art/gen3/9x16/mauville_gym/mauville_gym-01-9x16.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/gym_electric/gym_electric-01-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/gym_electric/prompts/gym_electric-01-9x19_5.txt",
+      "original_sha256": "93a80beb85e43b454c507858183422821d3c937cb3a65c7a963861e50b9034f6",
+      "target": "art/gen3/9x19_5/mauville_gym/mauville_gym-01-9x19_5.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/gym_electric/gym_electric-01-9x20.png",
+      "original_prompt": "art/gen1/9x20/gym_electric/prompts/gym_electric-01-9x20.txt",
+      "original_sha256": "717318fe09896c013302d49b0d2a67026be9a6d41195f6d6072ed213e02c4e79",
+      "target": "art/gen3/9x20/mauville_gym/mauville_gym-01-9x20.png",
+      "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+    }
+  ]
+}

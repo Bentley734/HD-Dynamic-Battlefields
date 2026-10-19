@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "composition_id": "mauville_gym-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2115,
+    "height": 595
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.29011764705882354,
+  "background": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
+  "sha256": "1bfb460e95928771cac2a9abd4f7ed2a7de155ea5a8ffc40220c841d90372d60",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-beige"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Indoor source retains original daylight windows; source reuse does not certify native Mauville gym layout or mound fit."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43000000000000005
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/32x9/gym_electric/gym_electric-01-32x9.png",
+    "original_sha256": "a360b1555c431188c95ba8a9152b847f70b3a4d003e412142f3c5fd7c5e62b41",
+    "original_size": {
+      "width": 2115,
+      "height": 743
+    },
+    "crop_pixels": [
+      0,
+      80,
+      2115,
+      675
+    ],
+    "source_geometry": {
+      "horizon_y": 0.34,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6281965006729475
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6442126514131898
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.4520188425302827
+        ],
+        "mound_anchor": [
+          0.65,
+          0.4680349932705249
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "original": "art/gen1/32x9/gym_electric/gym_electric-01-32x9.png",
+    "original_prompt": "art/gen1/32x9/gym_electric/prompts/gym_electric-01-32x9.txt",
+    "original_sha256": "a360b1555c431188c95ba8a9152b847f70b3a4d003e412142f3c5fd7c5e62b41",
+    "operation": "crop_only_no_resampling",
+    "reason": "Reviewed electric training hall with yellow/cream generators, conduits and seamless gray floor; Hoenn native layout remains uncalibrated."
+  }
+}
