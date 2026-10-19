@@ -7077,6 +7077,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_cave",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/volcanic_cave/volcanic_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
@@ -7130,6 +7137,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/underwater_ocean/underwater_ocean-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_cave",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/volcanic_cave/volcanic_cave-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7315,6 +7329,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_cave",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/volcanic_cave/volcanic_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:19.5",
       "time_of_day": "night",
@@ -7368,6 +7389,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/underwater_ocean/underwater_ocean-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_cave",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/volcanic_cave/volcanic_cave-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7425,9 +7453,16 @@
       "time_of_day": "indoor",
       "background": "art/gen3/9x20/underwater_ocean/underwater_ocean-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_cave",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/volcanic_cave/volcanic_cave-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 500,
+  "minimum_missing_base_sources": 495,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -7435,6 +7470,7 @@
   ],
   "complete_ambient_source_families": [
     "meteor_falls",
-    "underwater_ocean"
+    "underwater_ocean",
+    "volcanic_cave"
   ]
 }

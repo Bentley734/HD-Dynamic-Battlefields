@@ -38,5 +38,85 @@
         ]
       }
     }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/volcanic_cave-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/volcanic_cave-01-32x9-original.txt",
+    "family": "volcanic_cave",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave-warm-basalt"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2172,
+      611
+    ],
+    "source_geometry": {
+      "horizon_y": 0.2,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5569889502762431
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5401104972375691
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.37976519337016573
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3628867403314917
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/9x19_5/volcanic_cave-01-9x19_5-original.png",
+    "prompt_source": "art/gen3/drafts/9x19_5/prompts/volcanic_cave-01-9x19_5-original.txt",
+    "family": "volcanic_cave",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave-warm-basalt"
+    ],
+    "crop_pixels": [
+      46,
+      0,
+      853,
+      1749
+    ],
+    "source_geometry": {
+      "horizon_y": 0.17,
+      "player": {
+        "mound_anchor": [
+          0.32,
+          0.67
+        ],
+        "pokemon_ground_anchor": [
+          0.32,
+          0.65
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.68,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.68,
+          0.43
+        ]
+      }
+    }
   }
 ]

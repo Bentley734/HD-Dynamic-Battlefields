@@ -377,3 +377,11 @@ the distant scenery; mounds and creatures are absent. The3:2 generator
 returned1619x971, prepared by the approved crop-only rectangle[81,0,1538,971]
 with original and source geometry preserved. Five aspects and mound pairing
 remain; no runtime integration or layout test was performed for this family.
+
+Fiery Path now has one original ambient painting for each of the nine aspect
+families.21:9,32:9 and three phone sources complete this authoring set.32:9
+uses a2172x611 crop of its preserved2172x724 original;9:19.5 trims side canvas
+to807x1749. Neither operation stretches pixels. Exact prompts, originals and
+source-space draft geometry remain stored. These are source candidates only:
+no new layout tests, native calibration, runtime integration or release
+approval is claimed. Matching mound selection remains pending.
