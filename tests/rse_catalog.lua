@@ -23,8 +23,8 @@ for _,entry in ipairs(catalog.compositions)do
  end
  if entry.environment=='ashfield'and entry.aspect_ratio=='32:9'then ashNight=entry end
 end
-assert(#catalog.compositions==135 and #environments==15 and #aspects==9)
-assert(not envSeen.meteor_falls,'Unfinished Hoenn art must not silently reuse a different environment')
+assert(#catalog.compositions==144 and #environments==16 and #aspects==9)
+assert(not envSeen.rustboro_gym,'Unfinished Hoenn art must not silently reuse a different environment')
 assert(ashNight.backgrounds.night:find('night%-v2%.png$'))
 local day=P.resolve(catalog.metadata,ashNight.metadata)
 local night=P.resolve(catalog.metadata,ashNight.night_metadata)
@@ -35,4 +35,4 @@ local function read(path)
  local f=assert(io.open(root..'/'..path,'rb'));local b=f:read(33);f:close();return b
 end
 assert(backend.validate({files=files,environments=environments,aspects=aspects,quality='HD'},read))
-print('PASS Hoenn candidate catalog: 135 compositions, 15 families, nine aspects, PNG/geometry validation, distinct corrected night and absent unfinished families')
+print('PASS Hoenn candidate catalog: 144 compositions, 16 families, nine aspects, PNG/geometry validation, distinct corrected night and absent unfinished families')

@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "scope": "PNG integrity and transparent/opaque coverage; visual candidate only",
+  "files": [
+    {
+      "path": "art/mounds/limestone-warm-rose/mound-limestone-warm-rose-01-clean.png",
+      "sha256": "bb8ff92f108503ff4687a492b34bbeb10dd48fc73e6a63bd36b083eb8661ecb3",
+      "width": 2032,
+      "height": 774,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "art/mounds/limestone-warm-rose/mound-limestone-warm-rose-01.png",
+      "sha256": "35dc3f5fc8a59960060122924540a278aa6f231375dacdeaa66d1b340f2c3e4a",
+      "width": 2032,
+      "height": 774,
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ]
+}

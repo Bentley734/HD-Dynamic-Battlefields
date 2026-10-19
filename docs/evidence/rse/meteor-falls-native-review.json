@@ -1,0 +1,29 @@
+{
+  "status": "development-candidate",
+  "catalog_compositions": 144,
+  "catalog_families": 16,
+  "unit_suites_passed": 28,
+  "emerald_batch": "loader/native/runner-summary.json",
+  "emerald_scene_cases": 90,
+  "reviewed_meteor_falls_day_sizes": [
+    "1024x768",
+    "1280x720",
+    "1440x900",
+    "1200x800",
+    "2100x900",
+    "5120x1440",
+    "900x1600",
+    "900x1950",
+    "900x2000"
+  ],
+  "visual_findings": "Vanilla Poochyena feet contact the separate mound; continuous dry floor behind mound at reviewed sizes. Native UI draw transforms unchanged. Player ground contact partly covered by native command panel.",
+  "limitations": [
+    "One vanilla species pair",
+    "Expanded sprites not rerun for Meteor Falls",
+    "No doubles or move animation validation",
+    "No live resize validation",
+    "Other Hoenn families remain incomplete"
+  ],
+  "ruby_sapphire_batch": "loader/native/additional-aspects-summary.json",
+  "ruby_sapphire_scene_cases": 60
+}

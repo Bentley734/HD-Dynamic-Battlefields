@@ -7038,7 +7038,7 @@
       "family": "meteor_falls",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/21x9/meteor_falls/meteor_falls-01-21x9.png",
+      "background": "art/gen3/21x9/meteor_falls/meteor_falls-01-21x9-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7262,7 +7262,7 @@
       "family": "meteor_falls",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
-      "background": "art/gen3/9x16/meteor_falls/meteor_falls-01-9x16.png",
+      "background": "art/gen3/9x16/meteor_falls/meteor_falls-01-9x16-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7318,7 +7318,7 @@
       "family": "meteor_falls",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
-      "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5.png",
+      "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {

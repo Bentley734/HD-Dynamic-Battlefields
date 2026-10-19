@@ -2,54 +2,54 @@
   "mode": "loader",
   "content": "none",
   "processes": 9,
-  "scene_cases": 81,
+  "scene_cases": 90,
   "candidate_manifest_only": true,
   "reports": [
     {
-      "game": "ruby",
-      "size": "1280x720",
-      "scene_checks": 9
-    },
-    {
-      "game": "ruby",
-      "size": "5120x1440",
-      "scene_checks": 9
-    },
-    {
-      "game": "ruby",
-      "size": "900x1600",
-      "scene_checks": 9
-    },
-    {
-      "game": "sapphire",
-      "size": "1280x720",
-      "scene_checks": 9
-    },
-    {
-      "game": "sapphire",
-      "size": "5120x1440",
-      "scene_checks": 9
-    },
-    {
-      "game": "sapphire",
-      "size": "900x1600",
-      "scene_checks": 9
-    },
-    {
       "game": "emerald",
       "size": "1280x720",
-      "scene_checks": 9
+      "scene_checks": 10
     },
     {
       "game": "emerald",
       "size": "5120x1440",
-      "scene_checks": 9
+      "scene_checks": 10
     },
     {
       "game": "emerald",
       "size": "900x1600",
-      "scene_checks": 9
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "1200x800",
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "900x1950",
+      "scene_checks": 10
+    },
+    {
+      "game": "emerald",
+      "size": "900x2000",
+      "scene_checks": 10
     }
   ],
-  "limitations": "Limited grassland/ashfield/rainforest/desert/underwater and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
+  "limitations": "Limited grassland/ashfield/rainforest/desert/underwater/Meteor Falls and selected native/added species fixtures. No full playthrough, doubles, animations, custom UI profiles or exhaustive sprite coverage."
 }

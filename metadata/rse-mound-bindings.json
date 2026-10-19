@@ -16,6 +16,9 @@
     },
     "underwater_ocean": {
       "ambient": "art/mounds/seabed-blue/mound-seabed-blue-01-clean.png"
+    },
+    "meteor_falls": {
+      "ambient": "art/mounds/limestone-warm-rose/mound-limestone-warm-rose-01-clean.png"
     }
   }
 }

@@ -69,7 +69,7 @@ return function(project,game,Battle,cache,write)
   end
   return table.concat(trace,'\n')
  end
- for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'},{'ROUTE119','rainforest','day'},{'ROUTE119','rainforest','night'},{'ROUTE111','desert','day',2},{'ROUTE111','desert','night',2},{'UNDERWATER_ROUTE124','underwater_ocean','day','UNDERWATER','day','rain'},{'UNDERWATER_ROUTE124','underwater_ocean','night','UNDERWATER','day','snow'}})do
+ for _,case in ipairs({{'ROUTE101','grassland','day'},{'ROUTE113','ashfield','day'},{'ROUTE113','ashfield','night'},{'ROUTE119','rainforest','day'},{'ROUTE119','rainforest','night'},{'ROUTE111','desert','day',2},{'ROUTE111','desert','night',2},{'UNDERWATER_ROUTE124','underwater_ocean','day','UNDERWATER','day','rain'},{'UNDERWATER_ROUTE124','underwater_ocean','night','UNDERWATER','day','snow'},{'METEOR_FALLS_1F_1R','meteor_falls','day','CAVE'}})do
   start(case[1]);if case[4]then Battle.getState().terrain=type(case[4])=='string'and require('src.core.game3.battle.bg').env().TERRAIN[case[4]]or case[4]end;values.timeMode=case[3];values.weatherMode=case[6]or'clear'
   for _,size in ipairs({{probeW,probeH,'current'}})do
    local stem=case[2]..'-'..case[3]..'-'..size[3]
@@ -138,9 +138,9 @@ return function(project,game,Battle,cache,write)
   'Hoenn native RTC was not used by the scenery provider')
  Rtc.localTime.hours=savedHour;values.timeMode='day'
  -- Unfinished Hoenn scenery keeps its original terrain rather than substituting grass.
- start('ROUTE111');Battle.getState().terrain=2;values.enabled=true;values.environment='meteor_falls'
+ start('ROUTE111');Battle.getState().terrain=2;values.enabled=true;values.environment='rustboro_gym'
  render(probeW,probeH,nil)
- assert(mod.exports.diagnostics().status=='native fallback','Unfinished meteor cave art must retain native scenery')
+ assert(mod.exports.diagnostics().status=='native fallback','Unfinished gym art must retain native scenery')
  write(version..'-'..probeW..'x'..probeH..'-render.json',Json.encode({game=version,checks=checks,missing_family_native_fallback=true,native_clock_verified=true,
   real_loader=loaderMode,candidate_manifest_allowlist=loaderMode,native_options_verified=nativeMenuVerified,
   loaded_mods=loadedMods,mod_versions=modVersions,species_choices=speciesCount,content=content,

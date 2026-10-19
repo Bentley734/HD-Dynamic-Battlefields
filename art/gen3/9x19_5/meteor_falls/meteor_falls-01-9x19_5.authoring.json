@@ -8,17 +8,15 @@
   },
   "aspect_ratio": "9:19.5",
   "time_of_day": "indoor",
-  "horizon_y": 0.46,
-  "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5.png",
-  "sha256": "43c7c73371b0b80dc25d9944224697cdc661b8e1b9793574e2e9cd141cc81044",
+  "horizon_y": 0.27,
+  "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5-v2.png",
+  "sha256": "cc5ae78d55ddfdfbafd7c796d7844db6ef470ca4d67e6b2a2943adc4512535ca",
   "mound_material_candidates": [
     "cave-pale-limestone",
     "sandstone"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
-    "Actual floor boundary is lower than requested; these source-space anchors are not native battle calibration. Recompose if native contact falls behind the floor."
+    "Recomposed source candidate; native mound contact remains unverified."
   ],
   "depth": {
     "player": 1,
@@ -49,11 +47,11 @@
   "opponent": {
     "mound_anchor": [
       0.68,
-      0.54
+      0.45
     ],
     "pokemon_ground_anchor": [
       0.68,
-      0.52
+      0.43
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
@@ -61,5 +59,11 @@
       0.008
     ],
     "layer": 10
+  },
+  "source_edit": {
+    "operation": "built_in_imagegen_recomposition",
+    "original": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5.png",
+    "prompt": "art/gen3/9x19_5/meteor_falls/prompts/meteor_falls-01-9x19_5-v2.txt",
+    "purpose": "Raise floor boundary while preserving native battle UI and sprite placement"
   }
 }

@@ -348,3 +348,20 @@ their metadata records actual boundaries and explicitly uncalibrated source
 anchors. These require composition correction before native mound checks,
 not moving the native battle UI or pretending prompt coordinates were met.
 The family remains excluded from the runtime catalog and published packs.
+
+Meteor Falls candidate integration: targeted built-in edits correct21:9,
+9:16 and9:19.5 floor boundaries. Original PNGs and v1 authoring records are
+preserved; canonical metadata references versioned v2 paintings. A new warm
+rose limestone mound replaces the mismatched gray candidate, with approved
+edge cleanup, original and exact prompt preserved. Catalog144 compositions,
+16 families; cave climate excludes outdoor weather. All28 unit suites pass.
+Emerald's nine-size batch passes90 limited scene cases, including Meteor
+Falls at every aspect. All nine Meteor Falls captures were reviewed with
+vanilla Treecko/Poochyena: opponent feet contact the mound, dry ground extends
+behind it, and native UI transforms remain unchanged. The player contact is
+partly covered by the native command panel. This does not establish all
+species, expanded sprites, doubles, animations or live resize correctness.
+Published eligibility and asset packs are unchanged; other Hoenn art remains.
+Ruby/Sapphire add60 passing scene cases across16:9,32:9 and9:16 using
+their own METEOR_FALLS_1F_1R map data. Combined with Emerald, this integration
+batch totals150 cases; these are rendering fixtures, not full playthroughs.
