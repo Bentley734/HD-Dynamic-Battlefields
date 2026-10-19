@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Sidney's chamber adds original 16:10, 21:9 and 32:9 source paintings,
+bringing the first variation to six landscape formats. Each was visually
+reviewed for clear burgundy carpet, charcoal walls/bronze door trim and
+warm lamps, with no creatures, built-in mounds or floor grids. The 32:9
+original is retained at 1983x793; an authorized crop trims excess lower
+carpet to 1983x558 without resampling and transforms draft geometry.
+Exact built-in prompts and crop provenance are preserved. Three phone
+formats and mound pairing/native calibration remain. No layout tests,
+runtime enablement, battle UI or release changes occurred.
+
 Sidney's chamber begins with original 16:9, 4:3 and 3:2 source paintings.
 Karen's existing blue/indigo chamber was inspected and preserved for Johto;
 Sidney's direction uses charcoal walls, burgundy carpet/hangings, bronze
