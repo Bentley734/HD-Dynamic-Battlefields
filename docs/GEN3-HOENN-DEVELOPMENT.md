@@ -451,3 +451,11 @@ rectangle[0,128,2048,704] to prepare2048x576 without resampling. Three portrait
 compositions and mound pairing remain. Existing cave/cave-warm-basalt mounds
 are candidates only. No layout tests, runtime eligibility changes or release
 publication occurred.
+
+Granite Cave now adds dedicated9:16,9:19.5 and9:20 portrait paintings,
+completing the first source variation across all nine aspect families. Each
+portrait was visually inspected as a single enclosed cave scene with clear
+floor, no characters and no baked mounds. Generated dimensions fit the aspect
+tolerance without cropping or resampling. Exact built-in prompts and draft
+geometry are saved beside the originals. Mound fit and runtime alignment
+remain untested; runtime eligibility and published asset packs are unchanged.
