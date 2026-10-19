@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "composition_id": "battle_arena-01-21x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1916,
+    "height": 821
+  },
+  "aspect_ratio": "21:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.27,
+  "background": "art/gen3/21x9/battle_arena/battle_arena-01-21x9.png",
+  "sha256": "b154d391e694788dfb99dff26d4f5a4916cdd6186ab1d905b8b1bad56cf3d457",
+  "mound_material_candidates": [
+    "floor-beige",
+    "floor-clay"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.05,
+    "top": 0.06,
+    "right": 0.95,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.3,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.7,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.7,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "aspect": "21x9",
+    "period": "indoor",
+    "original": "art/gen1/21x9/dojo/dojo-01-21x9.png",
+    "original_prompt": "art/gen1/21x9/dojo/prompts/dojo-01-21x9.txt",
+    "original_sha256": "b154d391e694788dfb99dff26d4f5a4916cdd6186ab1d905b8b1bad56cf3d457",
+    "target": "art/gen3/21x9/battle_arena/battle_arena-01-21x9.png",
+    "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated.",
+    "operation": "byte_identical_copy"
+  }
+}

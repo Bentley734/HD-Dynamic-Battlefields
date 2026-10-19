@@ -865,3 +865,14 @@ All three fit their aspect tolerance directly without resampling. Exact
 built-in generation prompts and draft geometry accompany every source.
 Floor-ivory/floor-beige remain candidates pending mound pairing and native
 calibration. No layout testing, runtime enablement, release or pack changes.
+
+Battle Arena's first interior source variation now covers all nine aspect
+families, reusing the original Gen1 dojo-01 paintings after visual review
+of every aspect. Cream plaster, timber walls, red banners and uninterrupted
+beige carpet provide a shared martial-arts setting. Eight images are copied
+byte-for-byte. The 32:9 source trims only excess lower floor from 2048x768
+to 2048x576 without resampling; the Gen1 original stays untouched. The crop
+was visually reviewed again. Original prompts, hashes, reuse reasons and
+transformed draft crop geometry are saved. Floor-beige/floor-clay remain
+candidates pending mound pairing and native calibration. No layout testing,
+runtime enablement, release or published asset-pack changes occurred.

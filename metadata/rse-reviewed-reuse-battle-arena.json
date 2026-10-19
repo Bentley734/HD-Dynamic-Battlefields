@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/dojo/dojo-01-16x9.png",
+      "original_prompt": "art/gen1/16x9/dojo/prompts/dojo-01-16x9.txt",
+      "original_sha256": "dfc09f7ccda06f72b6648bb7299931e93bf9bb58c71d5393bd3120f15effea7c",
+      "target": "art/gen3/16x9/battle_arena/battle_arena-01-16x9.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/dojo/dojo-01-4x3.png",
+      "original_prompt": "art/gen1/4x3/dojo/prompts/dojo-01-4x3.txt",
+      "original_sha256": "344181f04d6d35ac15287454ab8c5027ebc7708ae76ae8ef15334ad7aa0ead70",
+      "target": "art/gen3/4x3/battle_arena/battle_arena-01-4x3.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/dojo/dojo-01-3x2.png",
+      "original_prompt": "art/gen1/3x2/dojo/prompts/dojo-01-3x2.txt",
+      "original_sha256": "35ca7f65119ea400bf092664a9a8a2a115c9a8d4af15262b3856a77672b7a4ad",
+      "target": "art/gen3/3x2/battle_arena/battle_arena-01-3x2.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/dojo/dojo-01-16x10.png",
+      "original_prompt": "art/gen1/16x10/dojo/prompts/dojo-01-16x10.txt",
+      "original_sha256": "18e578567a9359d6180de8f3b7404c957ae1fb2b5a1f4c05088eadaf3beadaa8",
+      "target": "art/gen3/16x10/battle_arena/battle_arena-01-16x10.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/dojo/dojo-01-21x9.png",
+      "original_prompt": "art/gen1/21x9/dojo/prompts/dojo-01-21x9.txt",
+      "original_sha256": "b154d391e694788dfb99dff26d4f5a4916cdd6186ab1d905b8b1bad56cf3d457",
+      "target": "art/gen3/21x9/battle_arena/battle_arena-01-21x9.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/dojo/dojo-01-32x9.png",
+      "original_prompt": "art/gen1/32x9/dojo/prompts/dojo-01-32x9.txt",
+      "original_sha256": "2c308580339836f16d33b473c26a1faa16342ec453e08582c983c94adf61bfdf",
+      "target": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/dojo/dojo-01-9x16.png",
+      "original_prompt": "art/gen1/9x16/dojo/prompts/dojo-01-9x16.txt",
+      "original_sha256": "5c6cef680e0015b0a544094548929328b3c908ba35b5a077467328c0092cd1d9",
+      "target": "art/gen3/9x16/battle_arena/battle_arena-01-9x16.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/dojo/dojo-01-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/dojo/prompts/dojo-01-9x19_5.txt",
+      "original_sha256": "678f952313248f685b231cec90d00aa9e9d76fab03918c711f0a883f1b2915d7",
+      "target": "art/gen3/9x19_5/battle_arena/battle_arena-01-9x19_5.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/dojo/dojo-01-9x20.png",
+      "original_prompt": "art/gen1/9x20/dojo/prompts/dojo-01-9x20.txt",
+      "original_sha256": "2ff3caca8561dc60920ab81ae4d8e9a4b5184d470d9e622b9b574bcd39c96ffd",
+      "target": "art/gen3/9x20/battle_arena/battle_arena-01-9x20.png",
+      "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Battle Arena as a shared martial-arts hall. Native layout and mound pairing remain uncalibrated."
+    }
+  ]
+}

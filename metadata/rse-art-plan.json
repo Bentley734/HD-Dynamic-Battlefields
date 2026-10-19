@@ -6909,6 +6909,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_arena",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/battle_arena/battle_arena-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_dome",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7144,6 +7151,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "day",
       "background": "art/gen3/16x9/ashfield/ashfield-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_arena",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/battle_arena/battle_arena-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7385,6 +7399,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_arena",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/battle_arena/battle_arena-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_dome",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7620,6 +7641,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_arena",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7861,6 +7889,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_arena",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/battle_arena/battle_arena-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_dome",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8096,6 +8131,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "day",
       "background": "art/gen3/4x3/ashfield/ashfield-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_arena",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/battle_arena/battle_arena-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8337,6 +8379,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_arena",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/battle_arena/battle_arena-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_dome",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8572,6 +8621,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/ashfield/ashfield-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "battle_arena",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/battle_arena/battle_arena-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8813,6 +8869,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "battle_arena",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/battle_arena/battle_arena-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "battle_dome",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9037,7 +9100,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 297,
+  "minimum_missing_base_sources": 288,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9047,6 +9110,7 @@
     "volcanic_slope"
   ],
   "complete_ambient_source_families": [
+    "battle_arena",
     "battle_dome",
     "battle_palace",
     "cave_of_origin",
