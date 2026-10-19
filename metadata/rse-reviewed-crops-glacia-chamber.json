@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/glacia_chamber-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/glacia_chamber-01-32x9-original.txt",
+    "family": "glacia_chamber",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "ice-cave",
+      "floor-gray"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2175,
+      612
+    ],
+    "source_geometry": {
+      "horizon_y": 0.29,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5417427385892116
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5586721991701245
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3639834024896265
+        ],
+        "mound_anchor": [
+          0.65,
+          0.38091286307053945
+        ]
+      }
+    }
+  }
+]

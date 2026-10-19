@@ -737,3 +737,11 @@ without characters, baked mounds or floor grids. Built-in generation prompts
 and draft geometry are saved beside sources. Ice-cave/floor-gray are mound
 candidates only. Six aspect paintings and native mound calibration remain;
 no layout tests, runtime eligibility or published asset pack changes.
+
+Glacia's wide source set now also includes 16:10, 21:9 and 32:9 paintings.
+The super-ultrawide original is preserved at 2175x723; an authorized
+crop removes excess lower floor to 2175x612 without resampling. Its draft
+horizon and anchors are transformed with crop provenance. Visual review
+found clear single-scene ice halls with rear niches and uninterrupted floors.
+The three portrait paintings remain, along with mound pairing and native
+calibration. No layout testing, runtime enablement or release changes.
