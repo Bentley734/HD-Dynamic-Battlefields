@@ -556,6 +556,17 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Mossdeep Gym begins with original 16:9, 4:3 and 3:2 interior paintings.
+The existing Gen1 psychic-gym set was visually reviewed across all nine
+aspects but its mountain-window scenery was preserved for its original
+uses rather than relabeled as Mossdeep. New enclosed halls have ivory
+plaster, lavender columns, sun/crescent wall reliefs and uninterrupted
+lavender carpet. All three sources were visually inspected with no
+creatures, baked mounds, floor grids or split scenes. Exact built-in
+prompts and draft geometry accompany each PNG. Six aspect paintings and
+mound pairing remain; carpet-lavender/floor-beige are candidates only.
+No native layout tests, runtime enablement, battle UI or release changes.
+
 Fortree Gym adds dedicated 9:16, 9:19.5 and 9:20 original portrait sources,
 completing its first interior source variation across all nine aspects.
 All three were visually inspected for clear moss carpet, distant canopy
