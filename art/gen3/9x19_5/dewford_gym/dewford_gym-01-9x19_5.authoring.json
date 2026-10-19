@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "dewford_gym-01-9x19_5",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 853,
+    "height": 1844
+  },
+  "aspect_ratio": "9:19.5",
+  "time_of_day": "indoor",
+  "horizon_y": 0.21,
+  "background": "art/gen3/9x19_5/dewford_gym/dewford_gym-01-9x19_5.png",
+  "sha256": "79fbcae1c4dc458de7e73f2ddb3cb3ec18df03421bc22ccd48011200af5ccb13",
+  "mound_material_candidates": [
+    "carpet-blue",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

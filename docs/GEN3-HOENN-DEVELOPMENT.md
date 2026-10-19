@@ -527,3 +527,11 @@ draft geometry.32:9 preserves its1983x793 original and trims excess lower
 canvas to1983x558 without resampling. Three portrait paintings and mound
 pairing remain; carpet-blue/floor-gray are candidates only. No layout tests,
 runtime enablement or published asset changes occurred.
+
+Dewford Gym adds dedicated9:16,9:19.5 and9:20 portrait paintings, completing
+the first interior source variation across all nine aspect families. All
+three were visually inspected for clear carpet floors, single scenes and no
+characters or baked mounds. Generated dimensions fit the aspect tolerance
+without trimming or resampling. Exact built-in prompts and draft geometry
+are saved beside each PNG. Mound pairing/native calibration remain pending;
+no layout tests, runtime eligibility or published asset pack changes.

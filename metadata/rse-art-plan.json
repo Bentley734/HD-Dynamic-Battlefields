@@ -7770,6 +7770,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "dewford_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/dewford_gym/dewford_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -7900,6 +7907,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/desert/desert-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "dewford_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/dewford_gym/dewford_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8036,6 +8050,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "dewford_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/dewford_gym/dewford_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "granite_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8134,7 +8155,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 426,
+  "minimum_missing_base_sources": 423,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8145,6 +8166,7 @@
   ],
   "complete_ambient_source_families": [
     "cave_of_origin",
+    "dewford_gym",
     "granite_cave",
     "meteor_falls",
     "new_mauville",
