@@ -772,3 +772,12 @@ an authorized crop trims only excess lower floor to 2048x576 without
 resampling, with transformed draft geometry and provenance. Three portrait
 paintings and native mound calibration remain. No layout testing, runtime
 enablement, release or published asset-pack changes occurred.
+
+Drake's first interior source variation now covers all nine aspect families.
+The three new portrait paintings were visually inspected as single enclosed
+halls with clear crimson carpet and no creatures, baked mounds, floor grids
+or split scenes. All three fit their aspect tolerance directly without
+resampling. Exact built-in generation prompts and draft geometry are saved
+beside sources. Carpet-burgundy/floor-charcoal remain candidates; mound color
+matching and native calibration are still pending. No layout testing,
+runtime enablement, release or published asset-pack changes occurred.
