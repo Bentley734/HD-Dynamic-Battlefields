@@ -6958,6 +6958,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/lavaridge_gym/lavaridge_gym-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7259,6 +7266,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/lavaridge_gym/lavaridge_gym-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7403,6 +7417,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7861,6 +7882,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/lavaridge_gym/lavaridge_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8005,6 +8033,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/hoenn_safari/hoenn_safari-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/lavaridge_gym/lavaridge_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8155,6 +8190,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "lavaridge_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/lavaridge_gym/lavaridge_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8239,7 +8281,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 411,
+  "minimum_missing_base_sources": 405,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8252,6 +8294,7 @@
     "cave_of_origin",
     "dewford_gym",
     "granite_cave",
+    "lavaridge_gym",
     "mauville_gym",
     "meteor_falls",
     "new_mauville",

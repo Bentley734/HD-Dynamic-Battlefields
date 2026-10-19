@@ -555,3 +555,15 @@ characters or baked mounds. Generated dimensions fit the aspect tolerance
 without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
+
+Lavaridge Gym now has its first interior source variation across all nine
+aspect families. Six new built-in paintings add 16:10, 21:9, 32:9 and the
+three phone formats to the initial set. Visual inspection found single warm
+geothermal halls with plain ochre-clay floors, distant steam vents and no
+characters, baked mounds, tile grids or hardwood flooring. The 32:9 source
+is preserved at 1983x793; an authorized crop trims excess lower canvas to
+1983x558 without resampling, with transformed draft geometry and provenance.
+All other new originals fit their aspect tolerance directly. Exact prompts
+are saved beside sources. Terracotta/floor-clay remain mound candidates;
+native calibration and mound pairing are pending. No layout testing,
+runtime enablement, release or published asset-pack changes occurred.

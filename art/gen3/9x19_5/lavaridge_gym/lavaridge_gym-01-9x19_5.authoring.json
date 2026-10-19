@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "lavaridge_gym-01-9x19_5",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 853,
+    "height": 1844
+  },
+  "aspect_ratio": "9:19.5",
+  "time_of_day": "indoor",
+  "horizon_y": 0.15,
+  "background": "art/gen3/9x19_5/lavaridge_gym/lavaridge_gym-01-9x19_5.png",
+  "sha256": "0de2bc7d0cc885ebf33c6692b3e0df01ffcb21d56aaa26e39a743d45bb75533e",
+  "mound_material_candidates": [
+    "terracotta",
+    "floor-clay"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}
