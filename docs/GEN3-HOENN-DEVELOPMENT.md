@@ -556,6 +556,15 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Mossdeep Gym adds original 9:16, 9:19.5 and 9:20 portrait compositions,
+completing the first interior source variation across all nine aspects.
+Each was visually inspected: clear lavender carpet, enclosed celestial
+wall details, no creatures, baked mounds or split scenes. Dimensions fit
+the aspect tolerance directly without cropping or resampling. Exact
+built-in prompts and draft geometry remain beside each PNG. Native layout
+and mound pairing/calibration remain pending. No layout tests, runtime
+enablement, battle UI or release changes occurred.
+
 Mossdeep Gym adds dedicated 16:10, 21:9 and 32:9 interior source paintings,
 bringing the initial variation to six landscape aspects. All were visually
 reviewed for clear lavender carpet, enclosed celestial hall architecture,

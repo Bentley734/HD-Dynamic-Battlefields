@@ -8036,6 +8036,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/mossdeep_gym/mossdeep_gym-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -8201,6 +8208,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/mossdeep_gym/mossdeep_gym-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8372,6 +8386,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mossdeep_gym",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/mossdeep_gym/mossdeep_gym-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -8449,7 +8470,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 381,
+  "minimum_missing_base_sources": 378,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -8466,6 +8487,7 @@
     "lavaridge_gym",
     "mauville_gym",
     "meteor_falls",
+    "mossdeep_gym",
     "new_mauville",
     "petalburg_gym",
     "rustboro_gym",
