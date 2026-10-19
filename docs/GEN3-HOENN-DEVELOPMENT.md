@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Sidney's chamber begins with original 16:9, 4:3 and 3:2 source paintings.
+Karen's existing blue/indigo chamber was inspected and preserved for Johto;
+Sidney's direction uses charcoal walls, burgundy carpet/hangings, bronze
+door trim and small amber lamps. Each source was visually inspected for
+clear same-level carpet, no creatures or baked mounds, and no floor grid.
+Exact built-in generation prompts and draft geometry accompany each PNG.
+Six aspect paintings and mound pairing remain; carpet-burgundy and
+floor-charcoal are candidates only. Native layout tests, runtime eligibility,
+battle UI and release packages are unchanged.
+
 Sootopolis Gym adds original 9:16, 9:19.5 and 9:20 portrait compositions,
 completing its first source variation across all nine aspect families.
 Each was visually inspected for continuous pale frosted floor, distant

@@ -7210,6 +7210,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sidney_chamber",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/sidney_chamber/sidney_chamber-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7756,6 +7763,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sidney_chamber",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/sidney_chamber/sidney_chamber-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -7935,6 +7949,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/rustboro_gym/rustboro_gym-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sidney_chamber",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/sidney_chamber/sidney_chamber-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8533,7 +8554,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 369,
+  "minimum_missing_base_sources": 366,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
