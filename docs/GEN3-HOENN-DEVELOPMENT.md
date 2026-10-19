@@ -400,3 +400,11 @@ original built-in generation with exact saved prompt and draft geometry;
 16:10 day records its actual lower scenery boundary rather than the prompt's
 requested position.32:9 and three portrait pairs remain. No layout tests,
 native integration or release approval were performed in this authoring pass.
+
+Mt. Chimney now has eighteen source paintings: separate original day/night
+art for all nine aspect families.32:9 originals2048x768 retain source copies
+and use crop-only2048x576 preparation.9:19.5 day trims to830x1798 and9:20 day
+to808x1795, preserving originals and source-space geometry. No resampling or
+day/night shader substitution. Exact built-in prompts are stored beside each
+source; geometry remains draft. No layout tests were run, no mound pairing
+is certified, and no runtime eligibility or published asset index changed.
