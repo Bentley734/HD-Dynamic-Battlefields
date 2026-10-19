@@ -753,3 +753,14 @@ Each fits its aspect tolerance directly without resampling. Exact built-in
 prompts and draft geometry accompany every source. Ice-cave/floor-gray remain
 candidates pending mound pairing and native calibration. No layout testing,
 runtime enablement, release or published asset-pack changes occurred.
+
+Drake's chamber begins with original 16:9, 4:3 and 3:2 interior source
+paintings. All three existing Gen1 dragon-hall variations were visually
+inspected; their mountain views and dragon ornaments are preserved rather
+than relabeled. New enclosed halls use blue-gray stone walls, sandstone
+columns, bronze doors, amber lamps and uninterrupted crimson carpet.
+Each was visually inspected without creatures, baked mounds, floor grids
+or split scenes. Built-in generation prompts and draft geometry are saved
+beside sources. Carpet-burgundy/floor-charcoal are candidates only; matching
+mound colors and native calibration remain pending. Six aspect paintings
+remain. No layout testing, runtime enablement or release changes occurred.
