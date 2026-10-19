@@ -556,6 +556,16 @@ without trimming or resampling. Exact built-in prompts and draft geometry
 are saved beside each PNG. Mound pairing/native calibration remain pending;
 no layout tests, runtime eligibility or published asset pack changes.
 
+Sootopolis Gym begins with original 16:9, 4:3 and 3:2 interior sources.
+The existing Gen1 water-gym pool painting was inspected but preserved for
+pool environments rather than relabeled. New enclosed blue/white halls
+use an abstract wave relief and continuous pale frosted-ice training floor,
+with no tile grid, floor holes or baked battler platforms. Each source was
+visually inspected and retains its exact built-in prompt and draft geometry.
+Six aspect paintings and matching mound review remain; ice-cave/floor-gray
+are candidates only, not approved pairings. Native calibration, battle UI,
+runtime eligibility and release packages are unchanged; no layout tests ran.
+
 Mossdeep Gym adds original 9:16, 9:19.5 and 9:20 portrait compositions,
 completing the first interior source variation across all nine aspects.
 Each was visually inspected: clear lavender carpet, enclosed celestial
