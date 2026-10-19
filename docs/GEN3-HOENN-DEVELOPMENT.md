@@ -417,3 +417,9 @@ single-night painting replaces it in canonical authoring metadata; its actual
 lower floor boundary and uncalibrated anchors are recorded explicitly.
 Remaining aspects, mound pairing and later composition calibration remain.
 No layout tests or runtime integration were performed.
+
+Jagged Pass adds separate full-scene4:3 and3:2 day/night source pairs. Exact
+prompts now explicitly reject split panels/comparisons; all four new outputs
+are single scenes. Draft geometry is stored with each painting. The first
+variation now covers three of nine aspect families; remaining six pairs and
+mound pairing are pending. No native layout tests or release changes.
