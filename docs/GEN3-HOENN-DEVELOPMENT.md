@@ -848,3 +848,12 @@ baked mounds, floor grids or split scenes. Built-in generation prompts and
 draft geometry accompany every source. Floor-ivory/floor-beige are candidates
 only. Six aspect paintings, mound pairing and native calibration remain.
 No layout testing, runtime enablement, release or asset-pack changes.
+
+Battle Palace's wide source set now includes 16:10, 21:9 and 32:9 paintings.
+All were visually inspected as single tropical palace halls with rear palms,
+carved pillars, clear ivory-gray floors, no creatures or baked mounds.
+The 32:9 original is preserved at 2079x756; an authorized crop removes only
+excess lower floor to 2079x585 without resampling. Crop provenance and
+transformed draft geometry are saved, and the crop was visually reviewed.
+Three portrait paintings remain, along with mound pairing and native
+calibration. No layout testing, runtime enablement, release or pack changes.
