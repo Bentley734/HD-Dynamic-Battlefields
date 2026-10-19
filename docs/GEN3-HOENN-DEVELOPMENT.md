@@ -838,3 +838,13 @@ or split scenes. Each fits its aspect tolerance directly without resampling.
 Exact built-in prompts and draft geometry accompany each source. Floor-sage
 and floor-gray remain candidates pending mound pairing and native calibration.
 No layout testing, runtime enablement, release or asset-pack changes.
+
+Battle Palace begins with original 16:9, 4:3 and 3:2 interior source paintings.
+Existing dojo-02/03 and Tin Tower art was visually inspected but retained
+for its courtyard, locker-room or autumn-tower settings. New palace halls
+use carved timber, ivory plaster, jade upper panels, rear palm planters and
+clear ivory-gray stone floors. Each was visually inspected without creatures,
+baked mounds, floor grids or split scenes. Built-in generation prompts and
+draft geometry accompany every source. Floor-ivory/floor-beige are candidates
+only. Six aspect paintings, mound pairing and native calibration remain.
+No layout testing, runtime enablement, release or asset-pack changes.
