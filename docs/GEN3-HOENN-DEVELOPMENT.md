@@ -393,3 +393,10 @@ substituted. All four sources preserve exact built-in prompts and draft
 geometry. Seven aspect pairs and mound pairing remain. Layout testing is
 still deferred under the user's asset-first direction; these partial sources
 are not runtime-enabled or added to published download packs.
+
+Mt. Chimney adds3:2,16:10 and21:9 separate day/night paintings, bringing the
+first variation to ten source images across five aspect pairs. Each is an
+original built-in generation with exact saved prompt and draft geometry;
+16:10 day records its actual lower scenery boundary rather than the prompt's
+requested position.32:9 and three portrait pairs remain. No layout tests,
+native integration or release approval were performed in this authoring pass.

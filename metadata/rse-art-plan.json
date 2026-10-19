@@ -6958,6 +6958,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_crater",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/volcanic_crater/volcanic_crater-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/volcanic_crater/volcanic_crater-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -7098,6 +7112,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_crater",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/volcanic_crater/volcanic_crater-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/volcanic_crater/volcanic_crater-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
@@ -7221,6 +7249,20 @@
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
       "background": "art/gen3/3x2/volcanic_cave/volcanic_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/volcanic_crater/volcanic_crater-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_crater",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/volcanic_crater/volcanic_crater-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7490,7 +7532,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 493,
+  "minimum_missing_base_sources": 490,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

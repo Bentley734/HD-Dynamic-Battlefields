@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "volcanic_crater-01-3x2",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect_ratio": "3:2",
+  "time_of_day": "day",
+  "horizon_y": 0.32,
+  "background": "art/gen3/3x2/volcanic_crater/volcanic_crater-01-3x2.png",
+  "sha256": "a47c57054e5706ffe96bb5ee6a0c43132d7b75a917012509c10a6aaae5cdbaaf",
+  "mound_material_candidates": [
+    "cave-warm-basalt",
+    "highland"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}
