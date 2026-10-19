@@ -1,0 +1,94 @@
+{
+  "family": "meteor_falls",
+  "generation": 3,
+  "source_files": 9,
+  "aspects": 9,
+  "periods": [
+    "indoor"
+  ],
+  "verified": true,
+  "scope": "Source integrity, dimensions, draft anchor bounds and crop-only pixel provenance. Gameplay/mound contact remains unverified.",
+  "files": [
+    {
+      "path": "art/gen3/16x10/meteor_falls/meteor_falls-01-16x10.png",
+      "aspect_ratio": "16:10",
+      "period": "indoor",
+      "width": 1586,
+      "height": 992,
+      "sha256": "c2ac457ad188095b8632aa26186e1bfd5f742f659f9ccd19bffe331768ebde83",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/16x9/meteor_falls/meteor_falls-01-16x9.png",
+      "aspect_ratio": "16:9",
+      "period": "indoor",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dee57d1e75e8915eff56dc80258a109d97f039543999a34376c1756d8bbe78df",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/21x9/meteor_falls/meteor_falls-01-21x9.png",
+      "aspect_ratio": "21:9",
+      "period": "indoor",
+      "width": 1916,
+      "height": 821,
+      "sha256": "b03877bb1c509fcec4aefcf3f5b349690746fcb5b14f94ea99b1352a6b86aad7",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+      "aspect_ratio": "32:9",
+      "period": "indoor",
+      "width": 2079,
+      "height": 585,
+      "sha256": "4810260ccddc9fd158f1db61b5042f244965a27ab976c77994c8cee09e20a167",
+      "crop_only": true
+    },
+    {
+      "path": "art/gen3/3x2/meteor_falls/meteor_falls-01-3x2.png",
+      "aspect_ratio": "3:2",
+      "period": "indoor",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2822aea06bcd98785fcbf2afaec528eb389b16127150c73cde5f03c1c895cca2",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/4x3/meteor_falls/meteor_falls-01-4x3.png",
+      "aspect_ratio": "4:3",
+      "period": "indoor",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "c2edea5d7a7d188df2b092d904cd756da47a3d5b9129cb10ca1d9609df3cb705",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x16/meteor_falls/meteor_falls-01-9x16.png",
+      "aspect_ratio": "9:16",
+      "period": "indoor",
+      "width": 941,
+      "height": 1672,
+      "sha256": "43d2e6185a40043cd5447a70f0702e7c8ff979b572c527ab14b64461e00998d5",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5.png",
+      "aspect_ratio": "9:19.5",
+      "period": "indoor",
+      "width": 853,
+      "height": 1844,
+      "sha256": "43c7c73371b0b80dc25d9944224697cdc661b8e1b9793574e2e9cd141cc81044",
+      "crop_only": false
+    },
+    {
+      "path": "art/gen3/9x20/meteor_falls/meteor_falls-01-9x20.png",
+      "aspect_ratio": "9:20",
+      "period": "indoor",
+      "width": 841,
+      "height": 1870,
+      "sha256": "966c89bfeaef054582b1e9940f4afe141cb4045cc17ef1d445613eee2de4ad92",
+      "crop_only": false
+    }
+  ]
+}

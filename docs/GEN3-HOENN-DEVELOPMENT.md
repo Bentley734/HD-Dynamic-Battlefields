@@ -338,3 +338,13 @@ PNG. Integrity, hashes, dimensions, aspect and draft horizon checks pass;
 the4:3 boundary records its actual lower scenery transition rather than the
 requested prompt height. Five aspect compositions, matching mound selection
 and native calibration remain. This partial family is excluded from runtime.
+
+Meteor Falls now has nine ambient source compositions. The first32:9 painting
+placed the back wall too low; a targeted built-in edit raises it, followed by
+an authorized2079x585 crop without stretching. Both original paintings and
+exact prompts remain in drafts. Full-family PNG/hash/aspect/anchor/crop checks
+pass.21:9,9:16 and9:19.5 still have lower-than-requested floor transitions:
+their metadata records actual boundaries and explicitly uncalibrated source
+anchors. These require composition correction before native mound checks,
+not moving the native battle UI or pretending prompt coordinates were met.
+The family remains excluded from the runtime catalog and published packs.

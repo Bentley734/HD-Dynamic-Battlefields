@@ -61,6 +61,9 @@ def geometry(record):
     return result
 
 for family in plan['complete_day_night_source_families']:
+    # Source coverage alone does not enable a family: mound review opts it in.
+    if family not in bindings:
+        continue
     binding = bindings[family]
     for record in sorted(records.values(), key=lambda r: r['composition_id']):
         if Path(record['background']).parent.name != family or record['time_of_day'] != 'day':
@@ -76,6 +79,8 @@ for family in plan['complete_day_night_source_families']:
                         'night_mounds': {side: binding['night'] for side in ('player', 'opponent')}})
 # Ambient artwork is protected from outdoor weather by explicit climate policy.
 for family in plan.get('complete_ambient_source_families', []):
+    if family not in bindings:
+        continue
     binding = bindings[family]
     for record in sorted(records.values(), key=lambda r: r['composition_id']):
         if Path(record['background']).parent.name != family or record['time_of_day'] != 'indoor':

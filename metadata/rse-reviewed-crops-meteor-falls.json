@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/meteor_falls-01-32x9-v2-original.png",
+    "prompt_source": "art/gen3/32x9/meteor_falls/prompts/meteor_falls-01-32x9.txt",
+    "family": "meteor_falls",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave-pale-limestone",
+      "sandstone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2079,
+      585
+    ],
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "mound_anchor": [
+          0.35,
+          0.5107142857142858
+        ],
+        "pokemon_ground_anchor": [
+          0.35,
+          0.49523809523809526
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.65,
+          0.34821428571428575
+        ],
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3327380952380952
+        ]
+      }
+    }
+  }
+]

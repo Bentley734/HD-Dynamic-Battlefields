@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "composition_id": "meteor_falls-01-9x19_5",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 853,
+    "height": 1844
+  },
+  "aspect_ratio": "9:19.5",
+  "time_of_day": "indoor",
+  "horizon_y": 0.46,
+  "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5.png",
+  "sha256": "43c7c73371b0b80dc25d9944224697cdc661b8e1b9793574e2e9cd141cc81044",
+  "mound_material_candidates": [
+    "cave-pale-limestone",
+    "sandstone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Actual floor boundary is lower than requested; these source-space anchors are not native battle calibration. Recompose if native contact falls behind the floor."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.54
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.52
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}
