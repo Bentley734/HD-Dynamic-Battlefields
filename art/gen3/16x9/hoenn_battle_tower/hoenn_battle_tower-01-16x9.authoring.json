@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "composition_id": "battle_tower-01-16x9",
+  "composition_id": "hoenn_battle_tower-01-16x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
     "width": 1672,
@@ -9,7 +9,7 @@
   "aspect_ratio": "16:9",
   "time_of_day": "indoor",
   "horizon_y": 0.29,
-  "background": "art/gen3/16x9/battle_tower/battle_tower-01-16x9.png",
+  "background": "art/gen3/16x9/hoenn_battle_tower/hoenn_battle_tower-01-16x9.png",
   "sha256": "2f46720c790406def2fb2b86cc6850a66411ed33db31601e5303706947a2ce35",
   "mound_material_candidates": [
     "floor-gray",
@@ -67,7 +67,7 @@
     "original": "art/gen2/16x9/battle_tower/battle_tower-01-16x9.png",
     "original_prompt": "art/gen2/16x9/battle_tower/prompts/battle_tower-01-16x9.txt",
     "original_sha256": "2f46720c790406def2fb2b86cc6850a66411ed33db31601e5303706947a2ce35",
-    "target": "art/gen3/16x9/battle_tower/battle_tower-01-16x9.png",
+    "target": "art/gen3/16x9/hoenn_battle_tower/hoenn_battle_tower-01-16x9.png",
     "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated.",
     "operation": "byte_identical_copy",
     "original_authoring_metadata": "art/gen2/16x9/battle_tower/battle_tower-01-16x9.authoring.json"

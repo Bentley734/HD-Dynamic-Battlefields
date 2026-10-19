@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "composition_id": "battle_tower-01-3x2",
+  "composition_id": "hoenn_battle_tower-01-9x20",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1536,
-    "height": 1024
+    "width": 841,
+    "height": 1870
   },
-  "aspect_ratio": "3:2",
+  "aspect_ratio": "9:20",
   "time_of_day": "indoor",
-  "horizon_y": 0.25,
-  "background": "art/gen3/3x2/battle_tower/battle_tower-01-3x2.png",
-  "sha256": "5714e7cf93c7c20d82b7251b75669dae08b9fecc2b75919c68eecbc058f3b91d",
+  "horizon_y": 0.16,
+  "background": "art/gen3/9x20/hoenn_battle_tower/hoenn_battle_tower-01-9x20.png",
+  "sha256": "13c2e110ef251276cfb765ee5fc18bec39c594c3e85aa6f4cd71fdaade27a2bd",
   "mound_material_candidates": [
     "floor-gray",
     "floor-gray-night-cool"
@@ -25,18 +25,18 @@
   },
   "safe_area": {
     "left": 0.06,
-    "top": 0.07,
+    "top": 0.06,
     "right": 0.94,
     "bottom": 0.76
   },
   "player": {
     "mound_anchor": [
-      0.28,
-      0.66
+      0.32,
+      0.67
     ],
     "pokemon_ground_anchor": [
-      0.28,
-      0.64
+      0.32,
+      0.65
     ],
     "mound_scale": 1,
     "shadow_offset": [
@@ -47,11 +47,11 @@
   },
   "opponent": {
     "mound_anchor": [
-      0.72,
+      0.68,
       0.45
     ],
     "pokemon_ground_anchor": [
-      0.72,
+      0.68,
       0.43
     ],
     "mound_scale": 0.75,
@@ -62,14 +62,14 @@
     "layer": 10
   },
   "source_reuse": {
-    "aspect": "3x2",
+    "aspect": "9x20",
     "period": "indoor",
-    "original": "art/gen2/3x2/battle_tower/battle_tower-01-3x2.png",
-    "original_prompt": "art/gen2/3x2/battle_tower/prompts/battle_tower-01-3x2.txt",
-    "original_sha256": "5714e7cf93c7c20d82b7251b75669dae08b9fecc2b75919c68eecbc058f3b91d",
-    "target": "art/gen3/3x2/battle_tower/battle_tower-01-3x2.png",
+    "original": "art/gen2/9x20/battle_tower/battle_tower-01-9x20.png",
+    "original_prompt": "art/gen2/9x20/battle_tower/prompts/battle_tower-01-9x20.txt",
+    "original_sha256": "13c2e110ef251276cfb765ee5fc18bec39c594c3e85aa6f4cd71fdaade27a2bd",
+    "target": "art/gen3/9x20/hoenn_battle_tower/hoenn_battle_tower-01-9x20.png",
     "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated.",
     "operation": "byte_identical_copy",
-    "original_authoring_metadata": "art/gen2/3x2/battle_tower/battle_tower-01-3x2.authoring.json"
+    "original_authoring_metadata": "art/gen2/9x20/battle_tower/battle_tower-01-9x20.authoring.json"
   }
 }

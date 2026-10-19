@@ -805,3 +805,9 @@ references preserved. No new generation, image resizing or crops were
 needed. Floor-gray/floor-gray-night-cool are mound candidates only; their
 color matching and native contact calibration remain pending. No layout
 testing, runtime enablement, release or published asset-pack changes.
+
+The Hoenn Battle Tower authoring family was corrected from battle_tower to
+hoenn_battle_tower to match the existing Hoenn map classification table.
+All nine image/prompt/metadata paths and reuse targets now use that family;
+original Gen2 provenance is unchanged. This is a source naming correction,
+not runtime enablement or layout validation.
