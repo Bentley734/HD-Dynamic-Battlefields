@@ -7518,6 +7518,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/volcanic_slope/volcanic_slope-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/volcanic_slope/volcanic_slope-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:19.5",
       "time_of_day": "night",
@@ -7592,6 +7606,20 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/volcanic_crater/volcanic_crater-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/volcanic_slope/volcanic_slope-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/volcanic_slope/volcanic_slope-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7670,14 +7698,29 @@
       "time_of_day": "day",
       "background": "art/gen3/9x20/volcanic_crater/volcanic_crater-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/volcanic_slope/volcanic_slope-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "volcanic_slope",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/volcanic_slope/volcanic_slope-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 480,
+  "minimum_missing_base_sources": 477,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
     "rainforest",
-    "volcanic_crater"
+    "volcanic_crater",
+    "volcanic_slope"
   ],
   "complete_ambient_source_families": [
     "meteor_falls",

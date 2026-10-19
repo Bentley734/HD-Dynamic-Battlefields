@@ -431,3 +431,12 @@ geometry records the actual boundary and uncalibrated draft anchors; later
 recomposition may be required for unchanged native sprite positions. These
 sources are not runtime-enabled. Three portrait pairs remain. No layout tests
 were run, and battle UI and published asset packs remain unchanged.
+
+Jagged Pass now adds its three dedicated portrait day/night pairs (9:16,
+9:19.5 and9:20), completing eighteen selected source paintings across all
+nine aspect families for the first variation. All six new paintings were
+visually inspected as single scenes with no characters or baked mounds;
+their generated dimensions fit the aspect tolerance without trimming or
+resampling. Exact built-in generation prompts and draft geometry accompany
+each PNG. Mound pairing and runtime calibration remain pending. No native
+layout tests, runtime eligibility changes or release publication occurred.
