@@ -440,3 +440,14 @@ their generated dimensions fit the aspect tolerance without trimming or
 resampling. Exact built-in generation prompts and draft geometry accompany
 each PNG. Mound pairing and runtime calibration remain pending. No native
 layout tests, runtime eligibility changes or release publication occurred.
+
+Granite Cave authoring starts with six dedicated interior paintings for16:9,
+4:3,3:2,16:10,21:9 and32:9. An existing original Gen1 cave was inspected;
+its cool gray palette and bright roof opening were unsuitable for this warm
+ochre/gray-brown enclosed cavern direction, so that source remains intact.
+Each new painting has exact built-in generation prompts and draft geometry.
+The32:9 output preserves its2048x768 original and uses an approved crop-only
+rectangle[0,128,2048,704] to prepare2048x576 without resampling. Three portrait
+compositions and mound pairing remain. Existing cave/cave-warm-basalt mounds
+are candidates only. No layout tests, runtime eligibility changes or release
+publication occurred.

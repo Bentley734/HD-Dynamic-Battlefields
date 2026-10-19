@@ -6923,6 +6923,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "granite_cave",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/granite_cave/granite_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "meteor_falls",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7011,6 +7018,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "day",
       "background": "art/gen3/16x9/desert/desert-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "granite_cave",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/granite_cave/granite_cave-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7105,6 +7119,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "granite_cave",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/granite_cave/granite_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "meteor_falls",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7193,6 +7214,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/desert/desert-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "granite_cave",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/granite_cave/granite_cave-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7287,6 +7315,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "granite_cave",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/granite_cave/granite_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "meteor_falls",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -7375,6 +7410,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "day",
       "background": "art/gen3/4x3/desert/desert-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "granite_cave",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/granite_cave/granite_cave-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7714,7 +7756,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 477,
+  "minimum_missing_base_sources": 471,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
