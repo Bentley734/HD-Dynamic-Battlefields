@@ -470,3 +470,13 @@ is selected.4:3 records its actual lower boundary and a calibration limitation.
 All selected sources have exact built-in prompts and draft geometry. Six
 aspect compositions and mound pairing remain. No layout tests, runtime
 eligibility changes or release publication occurred.
+
+New Mauville adds16:10,21:9,32:9 and all three portrait source compositions,
+completing the first interior variation across nine aspect families. All six
+new paintings were inspected as single enclosed scenes with plain concrete
+floor, no characters and no baked mounds.32:9 preserves its1983x793 original
+and exact prompt, then trims excess lower canvas to1983x558 without resampling;
+the crop provenance and transformed draft geometry are recorded explicitly.
+Other new images fit their aspect tolerance without trimming. Exact built-in
+prompts accompany all sources. Mound pairing and native alignment remain
+pending; no layout tests or published pack/runtime eligibility changes.

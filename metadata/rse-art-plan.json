@@ -6937,6 +6937,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/new_mauville/new_mauville-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "16:10",
       "time_of_day": "night",
@@ -7140,6 +7147,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/new_mauville/new_mauville-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "21:9",
       "time_of_day": "night",
@@ -7235,6 +7249,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "new_mauville",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7546,6 +7567,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/new_mauville/new_mauville-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -7641,6 +7669,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/meteor_falls/meteor_falls-01-9x19_5-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "new_mauville",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/new_mauville/new_mauville-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7742,6 +7777,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "new_mauville",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/new_mauville/new_mauville-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "rainforest",
       "aspect_ratio": "9:20",
       "time_of_day": "night",
@@ -7798,7 +7840,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 465,
+  "minimum_missing_base_sources": 459,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -7809,6 +7851,7 @@
   "complete_ambient_source_families": [
     "granite_cave",
     "meteor_falls",
+    "new_mauville",
     "underwater_ocean",
     "volcanic_cave"
   ]
