@@ -935,3 +935,13 @@ resampling. The final crop was visually reviewed, with provenance and
 transformed draft geometry saved. All exact built-in prompts accompany the
 art. Mound matching and native calibration remain pending. No layout tests,
 runtime enablement, release or published asset-pack changes occurred.
+
+Battle Pyramid begins with original 16:9, 4:3 and 3:2 source paintings.
+Gen2 Ruins of Alph's 16:9 source was visually inspected and retained for
+its weathered archaeological setting. New darker gray-brown maze chambers
+use square stone piers, rear passages, amber lamps and uninterrupted dusty
+stone floors. Each built-in generation was visually reviewed without
+creatures, baked mounds or split scenes. Exact prompts and draft geometry
+accompany every source. Cave/floor-gray remain candidates pending mound
+matching and native calibration. Six aspect compositions remain. No layout
+tests, runtime enablement, release or published asset-pack changes occurred.
