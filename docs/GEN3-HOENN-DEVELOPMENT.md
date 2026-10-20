@@ -1176,3 +1176,15 @@ remain provisional mound candidates pending color matching and native
 calibration. Six aspect compositions remain. The outdoor summit is a distinct
 family. No layout tests, runtime enablement, release or published asset-pack
 changes occurred.
+
+Sky Pillar's interior wide source set adds 16:10, 21:9 and 32:9 paintings.
+Each built-in generation was individually visually reviewed as an enclosed
+gray masonry room with continuous irregular cracked floor, without creatures,
+symbols, exterior views, UI, regular floor grids or baked mounds. Exact
+prompts and draft geometry accompany each source. The 32:9 original is
+preserved at 2089x753; authorized crop-only preparation uses [0,30,2089,618]
+to produce 2089x588 without resampling. The final crop was visually reviewed;
+provenance and transformed draft anchors are saved. Three portrait
+compositions remain. Mound color matching, footprints and native calibration
+remain pending. No layout tests, runtime enablement, release or published
+asset-pack changes occurred.
