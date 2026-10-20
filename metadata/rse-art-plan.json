@@ -6979,6 +6979,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "desert_underpass",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/desert_underpass/desert_underpass-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "dewford_gym",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7588,6 +7595,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "desert_underpass",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/desert_underpass/desert_underpass-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "dewford_gym",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7886,6 +7900,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "day",
       "background": "art/gen3/32x9/desert/desert-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "desert_underpass",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8806,6 +8827,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "desert_underpass",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/desert_underpass/desert_underpass-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "dewford_gym",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9104,6 +9132,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/desert/desert-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "desert_underpass",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/desert_underpass/desert_underpass-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9408,6 +9443,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "desert_underpass",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/desert_underpass/desert_underpass-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "dewford_gym",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9632,7 +9674,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 222,
+  "minimum_missing_base_sources": 216,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9651,6 +9693,7 @@
     "battle_pike",
     "battle_pyramid",
     "cave_of_origin",
+    "desert_underpass",
     "dewford_gym",
     "drake_chamber",
     "fortree_gym",

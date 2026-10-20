@@ -1112,3 +1112,16 @@ geometry accompany each image. Sandstone/mineral-sand are provisional mound
 candidates pending color matching and native calibration. Six aspect
 compositions remain. No layout tests, runtime enablement, release or
 published asset-pack changes occurred.
+
+Desert Underpass now has all nine first-variation source compositions. Six
+additional built-in paintings cover 16:10, 21:9, 32:9 and three portraits.
+Each was visually reviewed as a single dry enclosed sedimentary tunnel
+with continuous standing floor and no creatures, exterior views, UI or
+baked mounds. Exact prompts and draft geometry accompany the sources.
+The 32:9 original is preserved at 2048x768; authorized crop-only preparation
+uses [0,60,2048,636] to produce 2048x576 without resampling. The final crop
+was visually reviewed; provenance and transformed draft anchors are saved.
+The 9:19.5 original remains at 851x1847, within source-import tolerance.
+Sandstone/mineral-sand remain provisional mound candidates. Color matching,
+mound footprints and native calibration remain pending. No layout tests,
+runtime enablement, release or published asset-pack changes occurred.
