@@ -1337,3 +1337,21 @@ unchanged with exact prompts and draft placement metadata. Observed floor
 boundaries are .19/.20/.19. All mound matching, contact footprints and
 native calibration remain pending. No layout tests, runtime enablement,
 battle UI changes, release or published asset-pack changes occurred.
+
+Desert Ruins (regi_desert_ruins, Regirock chamber; distinct from Mirage
+Tower/desert_ruin) begins with 16:9, 4:3 and 3:2 original source paintings.
+Native Emerald map metadata identifies underground/no weather; its layout
+uses General/Cave tilesets:
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/maps/DesertRuins/map.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/layouts/layouts.json
+A visually reviewed Gen2 Ruins of Alph reuse candidate had temple pillars
+and carved symbols, so it was not reused. Built-in paintings were visually
+reviewed as enclosed ochre-brown rock chambers with clear sand-dusted floor,
+constant indoor light, no creatures, UI or baked mounds. Initial 16:9
+placed the wall too low (.44), obstructing the draft opponent ground area;
+it and its exact prompt are preserved under drafts, excluded from coverage.
+A targeted retry raised the boundary to .23; 4:3 and 3:2 boundaries are
+.19/.22. Canonical originals are unchanged, with exact prompts and draft
+metadata. Six aspects remain. Sandstone/mineral-sand are provisional mound
+candidates; matching, native map-specific suitability and calibration remain
+pending. No layout tests, runtime enablement, UI changes or release changes.
