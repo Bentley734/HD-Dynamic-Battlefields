@@ -9233,6 +9233,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "frontier_gardens",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/frontier_gardens/frontier_gardens-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "frontier_gardens",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/frontier_gardens/frontier_gardens-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "glacia_chamber",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9408,10 +9422,11 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 253,
+  "minimum_missing_base_sources": 252,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
+    "frontier_gardens",
     "hoenn_safari",
     "rainforest",
     "volcanic_crater",

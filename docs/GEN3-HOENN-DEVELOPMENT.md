@@ -1020,3 +1020,12 @@ reviewed. Exact prompts, provenance and transformed draft geometry are saved.
 Only the 9:20 day/night pair remains unpainted for this family. Mound matching
 and native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Frontier gardens now have all nine first-variation day/night source pairs.
+The last 9:20 day and night paintings were independently generated with the
+built-in image tool, visually reviewed as single garden scenes without
+creatures, UI or baked mounds, and imported without cropping or resampling.
+Exact prompts and draft geometry accompany both. Source coverage is not
+runtime readiness: day/night mound color matching, native calibration and
+compatibility validation remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.
