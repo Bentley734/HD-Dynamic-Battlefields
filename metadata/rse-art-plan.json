@@ -9289,6 +9289,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "regi_desert_ruins",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/regi_desert_ruins/regi_desert_ruins-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "regi_island_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9636,6 +9643,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/regi_ancient_tomb/regi_ancient_tomb-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "regi_desert_ruins",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/regi_desert_ruins/regi_desert_ruins-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9989,6 +10003,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "regi_desert_ruins",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/regi_desert_ruins/regi_desert_ruins-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "regi_island_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -10087,7 +10108,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 156,
+  "minimum_missing_base_sources": 153,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -10124,6 +10145,7 @@
     "petalburg_gym",
     "phoebe_chamber",
     "regi_ancient_tomb",
+    "regi_desert_ruins",
     "regi_island_cave",
     "rustboro_gym",
     "seafloor_cavern",

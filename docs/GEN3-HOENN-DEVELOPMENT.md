@@ -1366,3 +1366,13 @@ authorized crop [0,0,2164,609] produces 2164x609 without resampling. Exact
 prompts, crop provenance and transformed draft geometry accompany sources.
 Three portraits remain. Native calibration and mound matching remain
 pending. No layout tests, runtime enablement, UI or release changes occurred.
+
+Desert Ruins now has nine first-variation source compositions after adding
+9:16, 9:19.5 and 9:20 portrait paintings. Built-in generations were each
+visually reviewed as one enclosed ochre rock chamber with constant indoor
+light and continuous clear sand-dusted floor, no creatures, inscriptions,
+UI or baked mounds. Originals are unchanged with exact prompts and draft
+placement metadata. Observed floor boundaries are .15/.14/.13. Source
+coverage does not prove runtime readiness: mound matching, contact regions
+and native calibration remain pending. Layout tests remain deferred;
+no runtime catalog, battle UI or published release changes were made.
