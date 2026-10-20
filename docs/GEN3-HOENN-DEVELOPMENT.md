@@ -1317,3 +1317,13 @@ are recorded at .30/.28/.30 from observation. Six aspects remain. Cave and
 floor-gray mound candidates, map-specific suitability, contact footprints
 and native calibration remain pending. No layout tests, battle UI changes,
 runtime enablement, release or published asset-pack changes occurred.
+
+Island Cave's wide source set adds 16:10, 21:9 and 32:9 paintings.
+Each built-in generation and the final 32:9 crop was individually visually
+reviewed: enclosed cool-gray rock chamber, continuous floor and constant
+indoor light, no creatures, UI or baked mounds. The 2159x728 original is
+preserved; authorized crop [0,60,2159,667] produces 2159x607 with no
+resampling. Exact prompts, crop provenance and transformed draft anchors
+are saved. Three portrait aspects remain. Mound matching, map-specific
+suitability and native calibration remain pending; no layout tests,
+runtime enablement, battle UI edits or release changes occurred.

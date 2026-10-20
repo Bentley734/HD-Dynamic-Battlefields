@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/regi_island_cave-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/regi_island_cave-01-32x9-original.txt",
+    "family": "regi_island_cave",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave",
+      "floor-gray"
+    ],
+    "crop_pixels": [
+      0,
+      60,
+      2159,
+      667
+    ],
+    "source_geometry": {
+      "horizon_y": 0.34,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6160439560439561
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6327197802197803
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.44094780219780216
+        ],
+        "mound_anchor": [
+          0.65,
+          0.4576236263736264
+        ]
+      }
+    }
+  }
+]
