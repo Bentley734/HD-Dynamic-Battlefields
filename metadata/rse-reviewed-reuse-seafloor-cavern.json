@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/cave/cave-03-16x9.png",
+      "original_prompt": "art/gen1/16x9/cave/prompts/cave-03-16x9.txt",
+      "original_sha256": "64f34d16c41d77bda846d949745701994bff9a0df9dc9d72b1078e0556223181",
+      "target": "art/gen3/16x9/seafloor_cavern/seafloor_cavern-01-16x9.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/cave/cave-03-4x3.png",
+      "original_prompt": "art/gen1/4x3/cave/prompts/cave-03-4x3.txt",
+      "original_sha256": "29a9eb47e14b8b07b0266b675083e8a91469f07ea6b703580c6e6ecfe6a6ae18",
+      "target": "art/gen3/4x3/seafloor_cavern/seafloor_cavern-01-4x3.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/cave/cave-03-3x2.png",
+      "original_prompt": "art/gen1/3x2/cave/prompts/cave-03-3x2.txt",
+      "original_sha256": "127400532054f9ef85d68fb83babd9c4aa6b85351ddc018be226570a53982c83",
+      "target": "art/gen3/3x2/seafloor_cavern/seafloor_cavern-01-3x2.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/cave/cave-03-16x10.png",
+      "original_prompt": "art/gen1/16x10/cave/prompts/cave-03-16x10.txt",
+      "original_sha256": "e8f56fb1ce5443f539bba6b94f9afc58a3bb3745c44145ec9542c4c2c5bc6212",
+      "target": "art/gen3/16x10/seafloor_cavern/seafloor_cavern-01-16x10.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/cave/cave-03-21x9.png",
+      "original_prompt": "art/gen1/21x9/cave/prompts/cave-03-21x9.txt",
+      "original_sha256": "2ae74a1e14c7638b27de985965ff61dbd532d25219776453d75114f2f7130c77",
+      "target": "art/gen3/21x9/seafloor_cavern/seafloor_cavern-01-21x9.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/cave/cave-03-32x9.png",
+      "original_prompt": "art/gen1/32x9/cave/prompts/cave-03-32x9.txt",
+      "original_sha256": "c6e8487c809fb8589a51aee252f2d395767b8d81b490b592a3439e27d2e0b771",
+      "target": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/cave/cave-03-9x16.png",
+      "original_prompt": "art/gen1/9x16/cave/prompts/cave-03-9x16.txt",
+      "original_sha256": "b1ef1f72c96e6fb2e673cfe17424f6e65d01346a3a1fb3f1476cdd6ad4718cbb",
+      "target": "art/gen3/9x16/seafloor_cavern/seafloor_cavern-01-9x16.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/cave/cave-03-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/cave/prompts/cave-03-9x19_5.txt",
+      "original_sha256": "081a106d27db658aa098cab0473f81c22557e8da54489e39387c5738fee385f8",
+      "target": "art/gen3/9x19_5/seafloor_cavern/seafloor_cavern-01-9x19_5.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/cave/cave-03-9x20.png",
+      "original_prompt": "art/gen1/9x20/cave/prompts/cave-03-9x20.txt",
+      "original_sha256": "29b99d10b51750ce9a10e1a589e050d06f243c8ff9a7ca5c9477eeb7ea888777",
+      "target": "art/gen3/9x20/seafloor_cavern/seafloor_cavern-01-9x20.png",
+      "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending."
+    }
+  ]
+}

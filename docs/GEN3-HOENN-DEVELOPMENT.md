@@ -1060,3 +1060,18 @@ resampling. The final crop was visually reviewed again. Exact prompts,
 provenance and transformed draft geometry are saved. Mound matching and
 native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Seafloor Cavern's first land-battle source set reuses original Gen1 cave-03
+across all nine aspects after individual visual review. Pale limestone,
+rear underground water and dry standing floor fit a shared coastal cave
+setting. Gen1 cave-water-02 was also inspected, but its full water surface
+is unsuitable for this land family; water encounters retain their separate
+water-surface family. Seven images are byte-identical copies. The 32:9
+source is cropped from 2121x741 using [0,50,2121,647] to 2121x597; the
+9:19.5 source trims excess side canvas from 898x1751 using [45,0,853,1751]
+to 808x1751. Both authorized crops preserve originals and avoid resampling;
+both were visually reviewed after preparation. Original prompts, source
+hashes, reuse rationale and transformed draft crop geometry are saved.
+Limestone/cave-pale-limestone are provisional mound candidates. Native
+map-specific suitability, mound matching and calibration remain pending.
+No layout tests, runtime enablement, release or published asset-pack changes.

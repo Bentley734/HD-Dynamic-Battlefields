@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "composition_id": "seafloor_cavern-01-9x16",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 941,
+    "height": 1672
+  },
+  "aspect_ratio": "9:16",
+  "time_of_day": "indoor",
+  "horizon_y": 0.33,
+  "background": "art/gen3/9x16/seafloor_cavern/seafloor_cavern-01-9x16.png",
+  "sha256": "b1ef1f72c96e6fb2e673cfe17424f6e65d01346a3a1fb3f1476cdd6ad4718cbb",
+  "mound_material_candidates": [
+    "limestone",
+    "cave-pale-limestone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "aspect": "9x16",
+    "period": "indoor",
+    "original": "art/gen1/9x16/cave/cave-03-9x16.png",
+    "original_prompt": "art/gen1/9x16/cave/prompts/cave-03-9x16.txt",
+    "original_sha256": "b1ef1f72c96e6fb2e673cfe17424f6e65d01346a3a1fb3f1476cdd6ad4718cbb",
+    "target": "art/gen3/9x16/seafloor_cavern/seafloor_cavern-01-9x16.png",
+    "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending.",
+    "operation": "byte_identical_copy"
+  }
+}

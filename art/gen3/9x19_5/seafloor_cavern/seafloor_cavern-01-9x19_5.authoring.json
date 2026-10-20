@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "composition_id": "seafloor_cavern-01-9x19_5",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 808,
+    "height": 1751
+  },
+  "aspect_ratio": "9:19.5",
+  "time_of_day": "indoor",
+  "horizon_y": 0.23,
+  "background": "art/gen3/9x19_5/seafloor_cavern/seafloor_cavern-01-9x19_5.png",
+  "sha256": "514589383e5a7973c0e648220fb04b6bc844848ffa1a21bd54f65c588f2b0ec8",
+  "mound_material_candidates": [
+    "limestone",
+    "cave-pale-limestone"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/9x19_5/cave/cave-03-9x19_5.png",
+    "original_sha256": "081a106d27db658aa098cab0473f81c22557e8da54489e39387c5738fee385f8",
+    "original_size": {
+      "width": 898,
+      "height": 1751
+    },
+    "crop_pixels": [
+      45,
+      0,
+      853,
+      1751
+    ],
+    "source_geometry": {
+      "horizon_y": 0.23,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.3380400890868597,
+          0.65
+        ],
+        "mound_anchor": [
+          0.3380400890868597,
+          0.67
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.6619599109131403,
+          0.43
+        ],
+        "mound_anchor": [
+          0.6619599109131403,
+          0.45
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "aspect": "9x19_5",
+    "period": "indoor",
+    "original": "art/gen1/9x19_5/cave/cave-03-9x19_5.png",
+    "original_prompt": "art/gen1/9x19_5/cave/prompts/cave-03-9x19_5.txt",
+    "original_sha256": "081a106d27db658aa098cab0473f81c22557e8da54489e39387c5738fee385f8",
+    "target": "art/gen3/9x19_5/seafloor_cavern/seafloor_cavern-01-9x19_5.png",
+    "reason": "Visually reviewed original Gen1 cave-03: pale limestone chamber, rear underground water and broad dry floor suit Seafloor Cavern land encounters. Water encounters remain a distinct water-surface family; native map-specific suitability, mound matching and calibration remain pending.",
+    "operation": "crop_only_no_resampling"
+  }
+}
