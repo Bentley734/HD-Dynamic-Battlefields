@@ -1136,3 +1136,15 @@ prompts and draft geometry accompany each source. Sandstone/mineral-sand
 remain provisional mound candidates pending color matching and native
 calibration. Six aspect compositions remain. No layout tests, runtime
 enablement, release or published asset-pack changes occurred.
+
+Mirage Tower's wide source set adds 16:10, 21:9 and 32:9 paintings, each
+individually generated with the built-in image tool and visually reviewed.
+All show plain weathered sandstone interiors with uninterrupted sand floor,
+without creatures, wall symbols, UI, floor grids or baked mounds. Exact
+prompts and draft geometry accompany each source. The 32:9 original is
+preserved at 2172x724; authorized crop-only preparation uses
+[0,50,2172,661] to produce 2172x611 without resampling. The final crop was
+visually reviewed, with provenance and transformed draft anchors recorded.
+Three portrait compositions remain. Mound color matching, footprints and
+native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.
