@@ -916,3 +916,12 @@ UI or baked mounds. Exact prompts and draft geometry accompany the sources.
 Carpet-moss/floor-sage are candidates pending pairing and native calibration.
 Six aspects remain. No layout tests, runtime enablement, release or published
 asset-pack changes were performed.
+
+Battle Pike's wide source set adds 16:10, 21:9 and 32:9 paintings. Each was
+visually reviewed as a single enclosed curtained room with clear carpet,
+no creatures and no baked mounds. The 32:9 original is preserved at
+2172x724; an authorized crop removes only excess lower floor to 2172x611
+without resampling. The crop was visually reviewed again, and provenance
+and transformed draft geometry are saved. Three portrait paintings remain.
+Mound pairing and native calibration remain pending. No layout tests,
+runtime enablement, release or published asset-pack changes occurred.

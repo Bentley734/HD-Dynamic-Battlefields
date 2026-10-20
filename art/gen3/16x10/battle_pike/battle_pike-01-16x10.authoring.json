@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "battle_pike-01-16x10",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1586,
+    "height": 992
+  },
+  "aspect_ratio": "16:10",
+  "time_of_day": "indoor",
+  "horizon_y": 0.26,
+  "background": "art/gen3/16x10/battle_pike/battle_pike-01-16x10.png",
+  "sha256": "194269608397493757c2ffae2ea2a95fd87a9def308cc36d536becfb241c0b16",
+  "mound_material_candidates": [
+    "carpet-moss",
+    "floor-sage"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}
