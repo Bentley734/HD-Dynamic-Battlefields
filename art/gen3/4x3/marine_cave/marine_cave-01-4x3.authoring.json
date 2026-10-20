@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "composition_id": "marine_cave-01-4x3",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1448,
+    "height": 1086
+  },
+  "aspect_ratio": "4:3",
+  "time_of_day": "indoor",
+  "horizon_y": 0.3,
+  "background": "art/gen3/4x3/marine_cave/marine_cave-01-4x3.png",
+  "sha256": "f74b72856778bccd9ec35692929a876e7535365c91cf756d6dc50642325c656f",
+  "mound_material_candidates": [
+    "islet-rock",
+    "ripple"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "aspect": "4x3",
+    "period": "indoor",
+    "original": "art/gen1/4x3/cave_water/cave_water-02-4x3.png",
+    "original_prompt": "art/gen1/4x3/cave_water/prompts/cave_water-02-4x3.txt",
+    "original_sha256": "f74b72856778bccd9ec35692929a876e7535365c91cf756d6dc50642325c656f",
+    "target": "art/gen3/4x3/marine_cave/marine_cave-01-4x3.png",
+    "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending.",
+    "operation": "byte_identical_copy"
+  }
+}

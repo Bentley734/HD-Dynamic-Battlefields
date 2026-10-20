@@ -138,6 +138,9 @@ plan = {'schema_version': 1, 'stage': 'authoring candidate; map/context and visu
                         'Existing scenery is a reuse candidate, not proof of matching Hoenn interiors or sprite contact.']}
 sources = []
 for path in sorted((ROOT / 'art/gen3').glob('*/*/*.authoring.json')):
+    # Preserved drafts are not canonical compositions or coverage evidence.
+    if path.relative_to(ROOT / 'art/gen3').parts[0] == 'drafts':
+        continue
     data = json.loads(path.read_text())
     sources.append({'family': path.parent.name, 'aspect_ratio': data['aspect_ratio'],
                     'time_of_day': data['time_of_day'], 'background': data['background'],

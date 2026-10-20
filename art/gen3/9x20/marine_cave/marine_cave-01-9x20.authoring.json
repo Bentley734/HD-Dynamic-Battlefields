@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "composition_id": "marine_cave-01-9x20",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 848,
+    "height": 1855
+  },
+  "aspect_ratio": "9:20",
+  "time_of_day": "indoor",
+  "horizon_y": 0.24,
+  "background": "art/gen3/9x20/marine_cave/marine_cave-01-9x20.png",
+  "sha256": "f5e30b6c068e6bf69bd0d32a6857c2029519efd660190600fb3e954393bf6fe3",
+  "mound_material_candidates": [
+    "islet-rock",
+    "ripple"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "aspect": "9x20",
+    "period": "indoor",
+    "original": "art/gen1/9x20/cave_water/cave_water-02-9x20.png",
+    "original_prompt": "art/gen1/9x20/cave_water/prompts/cave_water-02-9x20.txt",
+    "original_sha256": "f5e30b6c068e6bf69bd0d32a6857c2029519efd660190600fb3e954393bf6fe3",
+    "target": "art/gen3/9x20/marine_cave/marine_cave-01-9x20.png",
+    "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending.",
+    "operation": "byte_identical_copy"
+  }
+}

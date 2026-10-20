@@ -7077,6 +7077,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "marine_cave",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/marine_cave/marine_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7403,6 +7410,13 @@
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/lavaridge_gym/lavaridge_gym-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "marine_cave",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/marine_cave/marine_cave-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7735,6 +7749,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "marine_cave",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/marine_cave/marine_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -8061,6 +8082,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "marine_cave",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8393,6 +8421,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "marine_cave",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/marine_cave/marine_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8719,6 +8754,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/lavaridge_gym/lavaridge_gym-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "marine_cave",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/marine_cave/marine_cave-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9051,6 +9093,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "marine_cave",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/marine_cave/marine_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9377,6 +9426,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/lavaridge_gym/lavaridge_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "marine_cave",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/marine_cave/marine_cave-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9709,6 +9765,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "marine_cave",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/marine_cave/marine_cave-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "mauville_gym",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9854,16 +9917,9 @@
       "time_of_day": "day",
       "background": "art/gen3/9x20/volcanic_slope/volcanic_slope-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
-    },
-    {
-      "family": "21x9",
-      "aspect_ratio": "21:9",
-      "time_of_day": "night",
-      "background": "art/gen3/drafts/21x9/frontier_gardens-01-21x9-night-low-boundary.png",
-      "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 189,
+  "minimum_missing_base_sources": 180,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9892,6 +9948,7 @@
     "hoenn_battle_tower",
     "hoenn_champion",
     "lavaridge_gym",
+    "marine_cave",
     "mauville_gym",
     "meteor_falls",
     "mossdeep_gym",

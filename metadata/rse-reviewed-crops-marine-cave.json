@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen1/32x9/cave_water/cave_water-02-32x9.png",
+    "prompt_source": "art/gen1/32x9/cave_water/prompts/cave_water-02-32x9.txt",
+    "family": "marine_cave",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "islet-rock",
+      "ripple"
+    ],
+    "crop_pixels": [
+      0,
+      70,
+      2048,
+      646
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5711458333333334
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5861458333333334
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.4136458333333333
+        ],
+        "mound_anchor": [
+          0.65,
+          0.42864583333333334
+        ]
+      }
+    }
+  }
+]

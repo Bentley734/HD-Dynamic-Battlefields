@@ -1240,3 +1240,27 @@ within source-import tolerance. Cave-warm-basalt/cave remain provisional
 mound candidates. Color matching, footprints, map-specific suitability and
 native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Marine Cave's first source set reuses Gen1 cave-water-02 across all nine
+aspects after individual visual review. Enclosed pale limestone arches sit
+above continuous blue underground water; no creatures, UI or baked islands
+were present. Eight paintings are byte-identical copies. The 32:9 original
+remains unchanged in Gen1 at 2048x768; authorized crop-only preparation uses
+[0,70,2048,646] to produce 2048x576 without resampling. The final crop was
+visually reviewed, and provenance, source hashes, original prompts and
+transformed draft geometry are saved. The phone originals remain at their
+existing dimensions within source-import tolerance. Islet-rock/ripple are
+provisional candidates. Native Emerald MarineCave_End metadata identifies
+underground map type and horizontal fog; its Cave tileset and separate
+Underwater_MarineCave layout were read from native source metadata:
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/maps/MarineCave_End/map.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/layouts/layouts.json
+Underwater approaches remain distinct from these surface-water paintings.
+Map-specific suitability, land-island versus water context, fog integration,
+mound matching and calibration remain pending. No layout tests, runtime
+enablement, release or published asset-pack changes occurred.
+
+The authoring inventory now excludes preserved drafts from generated source
+coverage. An archived Frontier Gardens rejection had previously appeared as
+an erroneous family named 21x9; it remains preserved on disk but is no longer
+listed as canonical source artwork. This change does not enable runtime art.

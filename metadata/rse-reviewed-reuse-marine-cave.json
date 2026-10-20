@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/cave_water/cave_water-02-16x9.png",
+      "original_prompt": "art/gen1/16x9/cave_water/prompts/cave_water-02-16x9.txt",
+      "original_sha256": "bf4d53ac37e38b17aefac0ac8e472a7d9479d0ef2cc939da17a9bbb0db5ff98a",
+      "target": "art/gen3/16x9/marine_cave/marine_cave-01-16x9.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "4x3",
+      "period": "indoor",
+      "original": "art/gen1/4x3/cave_water/cave_water-02-4x3.png",
+      "original_prompt": "art/gen1/4x3/cave_water/prompts/cave_water-02-4x3.txt",
+      "original_sha256": "f74b72856778bccd9ec35692929a876e7535365c91cf756d6dc50642325c656f",
+      "target": "art/gen3/4x3/marine_cave/marine_cave-01-4x3.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "3x2",
+      "period": "indoor",
+      "original": "art/gen1/3x2/cave_water/cave_water-02-3x2.png",
+      "original_prompt": "art/gen1/3x2/cave_water/prompts/cave_water-02-3x2.txt",
+      "original_sha256": "b29c977047282b95ad951d690f9630bcf35d2e00b3f875794157e9b349423362",
+      "target": "art/gen3/3x2/marine_cave/marine_cave-01-3x2.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "16x10",
+      "period": "indoor",
+      "original": "art/gen1/16x10/cave_water/cave_water-02-16x10.png",
+      "original_prompt": "art/gen1/16x10/cave_water/prompts/cave_water-02-16x10.txt",
+      "original_sha256": "94408ed02de15d800f96a5e331f1c4e8f9dbafc694c9fb3de8e0562519456ad7",
+      "target": "art/gen3/16x10/marine_cave/marine_cave-01-16x10.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "21x9",
+      "period": "indoor",
+      "original": "art/gen1/21x9/cave_water/cave_water-02-21x9.png",
+      "original_prompt": "art/gen1/21x9/cave_water/prompts/cave_water-02-21x9.txt",
+      "original_sha256": "ca6e1bf2695ed266e444192cacd95af8fc68c6971e39cc538756ee1e377d70bb",
+      "target": "art/gen3/21x9/marine_cave/marine_cave-01-21x9.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "32x9",
+      "period": "indoor",
+      "original": "art/gen1/32x9/cave_water/cave_water-02-32x9.png",
+      "original_prompt": "art/gen1/32x9/cave_water/prompts/cave_water-02-32x9.txt",
+      "original_sha256": "8c76c4297227727eed34150f3ff51f4126bd01b2842bc5a3e6aae6ffb95dd0de",
+      "target": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "9x16",
+      "period": "indoor",
+      "original": "art/gen1/9x16/cave_water/cave_water-02-9x16.png",
+      "original_prompt": "art/gen1/9x16/cave_water/prompts/cave_water-02-9x16.txt",
+      "original_sha256": "49c047afd637f7b6c776be55637ab17242ac38a3772f83aeaad33d21990694ff",
+      "target": "art/gen3/9x16/marine_cave/marine_cave-01-9x16.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "9x19_5",
+      "period": "indoor",
+      "original": "art/gen1/9x19_5/cave_water/cave_water-02-9x19_5.png",
+      "original_prompt": "art/gen1/9x19_5/cave_water/prompts/cave_water-02-9x19_5.txt",
+      "original_sha256": "6e59ac7c61c3a40a61de519d365ba6f274d8770dc9c60467bd92fdd85b0a22a7",
+      "target": "art/gen3/9x19_5/marine_cave/marine_cave-01-9x19_5.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    },
+    {
+      "aspect": "9x20",
+      "period": "indoor",
+      "original": "art/gen1/9x20/cave_water/cave_water-02-9x20.png",
+      "original_prompt": "art/gen1/9x20/cave_water/prompts/cave_water-02-9x20.txt",
+      "original_sha256": "f5e30b6c068e6bf69bd0d32a6857c2029519efd660190600fb3e954393bf6fe3",
+      "target": "art/gen3/9x20/marine_cave/marine_cave-01-9x20.png",
+      "reason": "Individually visually reviewed Gen1 cave-water-02: enclosed pale limestone arches above continuous blue underground water with no creatures or baked islands. Marine Cave source candidate; native map-specific suitability, island/ripple pairing and calibration remain pending."
+    }
+  ]
+}
