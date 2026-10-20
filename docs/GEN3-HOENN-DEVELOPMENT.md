@@ -945,3 +945,13 @@ creatures, baked mounds or split scenes. Exact prompts and draft geometry
 accompany every source. Cave/floor-gray remain candidates pending mound
 matching and native calibration. Six aspect compositions remain. No layout
 tests, runtime enablement, release or published asset-pack changes occurred.
+
+Battle Pyramid's wide source set adds 16:10, 21:9 and 32:9 paintings.
+Each was visually reviewed as one enclosed stone chamber with a clear floor,
+no creatures and no baked mounds. The 32:9 original remains at 2115x743;
+authorized crop-only preparation trims excess upper wall and lower floor
+using rectangle [0,80,2115,675], producing 2115x595 without resampling.
+The final crop was visually reviewed; source provenance and transformed
+draft geometry are saved. Three portrait compositions remain. Mound pairing
+and native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.
