@@ -925,3 +925,13 @@ without resampling. The crop was visually reviewed again, and provenance
 and transformed draft geometry are saved. Three portrait paintings remain.
 Mound pairing and native calibration remain pending. No layout tests,
 runtime enablement, release or published asset-pack changes occurred.
+
+Battle Pike now has all nine first-variation source compositions. Three
+portrait paintings were individually generated and visually reviewed as
+single uniformly lit curtained interiors with clear carpet and no creatures
+or baked mounds. The 9:19.5 original is preserved at 834x1886; authorized
+crop-only preparation trims excess lower floor to 834x1807, without
+resampling. The final crop was visually reviewed, with provenance and
+transformed draft geometry saved. All exact built-in prompts accompany the
+art. Mound matching and native calibration remain pending. No layout tests,
+runtime enablement, release or published asset-pack changes occurred.
