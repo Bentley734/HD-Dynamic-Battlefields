@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/regi_desert_ruins-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/regi_desert_ruins-01-32x9-original.txt",
+    "family": "regi_desert_ruins",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "sandstone",
+      "mineral-sand"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2164,
+      609
+    ],
+    "source_geometry": {
+      "horizon_y": 0.2,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.536121045392022
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5528748280605227
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3602063273727648
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3769601100412655
+        ]
+      }
+    }
+  }
+]

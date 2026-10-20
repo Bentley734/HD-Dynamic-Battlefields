@@ -1355,3 +1355,14 @@ A targeted retry raised the boundary to .23; 4:3 and 3:2 boundaries are
 metadata. Six aspects remain. Sandstone/mineral-sand are provisional mound
 candidates; matching, native map-specific suitability and calibration remain
 pending. No layout tests, runtime enablement, UI changes or release changes.
+
+Desert Ruins adds original 16:10, 21:9 and 32:9 wide source compositions.
+All three built-in generations and the final crop were individually
+visually reviewed as enclosed ochre rock chambers with clear continuous
+sand-dusted floor, constant indoor light, no creatures, UI or baked mounds.
+Observed boundaries are .24/.22; the 32:9 original boundary .20 transforms
+to approximately .239. Its 2164x727 original and exact prompt are preserved;
+authorized crop [0,0,2164,609] produces 2164x609 without resampling. Exact
+prompts, crop provenance and transformed draft geometry accompany sources.
+Three portraits remain. Native calibration and mound matching remain
+pending. No layout tests, runtime enablement, UI or release changes occurred.
