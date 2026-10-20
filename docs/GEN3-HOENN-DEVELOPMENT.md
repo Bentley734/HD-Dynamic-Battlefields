@@ -955,3 +955,13 @@ The final crop was visually reviewed; source provenance and transformed
 draft geometry are saved. Three portrait compositions remain. Mound pairing
 and native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Battle Pyramid now has all nine first-variation source compositions. Each
+portrait painting was generated separately and visually reviewed as one
+stone chamber with a clear floor, no creatures and no baked mounds. The
+9:19.5 original is preserved at 835x1883; authorized crop-only preparation
+trims excess lower floor to 835x1809 without resampling. The crop was
+visually reviewed again; provenance, exact built-in prompts and transformed
+draft geometry are saved. Mound matching and native calibration remain
+pending. No layout tests, runtime enablement, release or published asset-pack
+changes occurred.

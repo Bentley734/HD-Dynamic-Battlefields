@@ -39,5 +39,46 @@
         ]
       }
     }
+  },
+  {
+    "source": "art/gen3/drafts/9x19_5/battle_pyramid-01-9x19_5-original.png",
+    "prompt_source": "art/gen3/drafts/9x19_5/prompts/battle_pyramid-01-9x19_5-original.txt",
+    "family": "battle_pyramid",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave",
+      "floor-gray"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      835,
+      1809
+    ],
+    "source_geometry": {
+      "horizon_y": 0.16,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.6244556558682953
+        ],
+        "mound_anchor": [
+          0.32,
+          0.6436696760488582
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.413101433882103
+        ],
+        "mound_anchor": [
+          0.68,
+          0.43231545406266597
+        ]
+      }
+    }
   }
 ]
