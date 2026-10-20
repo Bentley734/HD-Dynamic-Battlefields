@@ -1188,3 +1188,15 @@ provenance and transformed draft anchors are saved. Three portrait
 compositions remain. Mound color matching, footprints and native calibration
 remain pending. No layout tests, runtime enablement, release or published
 asset-pack changes occurred.
+
+Sky Pillar's interior now has all nine first-variation source compositions.
+Three portrait paintings were individually generated with the built-in
+image tool and visually reviewed as enclosed gray masonry rooms with clear
+irregular cracked floor around both draft anchors. No creatures, symbols,
+exterior views, UI, regular floor grids or baked mounds were present. Exact
+prompts and draft geometry accompany each source. The 9:19.5 painting remains
+at its original 853x1844 dimensions, within source-import tolerance. Floor-gray
+and pale-gravel remain provisional mound candidates. Color matching, mound
+footprints and native calibration remain pending. The outdoor summit remains
+a separate uncompleted family. No layout tests, runtime enablement, release
+or published asset-pack changes occurred.
