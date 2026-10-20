@@ -1148,3 +1148,14 @@ visually reviewed, with provenance and transformed draft anchors recorded.
 Three portrait compositions remain. Mound color matching, footprints and
 native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Mirage Tower now has all nine first-variation source compositions. Three
+portrait paintings were generated individually with the built-in image
+tool and visually reviewed as plain weathered sandstone interiors with
+clear sandy ground around both draft anchors. They contain no creatures,
+wall symbols, UI, floor grids or baked mounds. Exact prompts and draft
+geometry accompany each source. The 9:19.5 original remains at 853x1844,
+within source-import tolerance. Sandstone/mineral-sand remain provisional
+mound candidates; color matching, mound footprints and native calibration
+remain pending. No layout tests, runtime enablement, release or published
+asset-pack changes occurred.
