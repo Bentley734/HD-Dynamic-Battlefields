@@ -965,3 +965,15 @@ visually reviewed again; provenance, exact built-in prompts and transformed
 draft geometry are saved. Mound matching and native calibration remain
 pending. No layout tests, runtime enablement, release or published asset-pack
 changes occurred.
+
+Frontier gardens begin with separate original 16:9 day and night paintings.
+Gen1 grass-gym-02's garden was visually inspected but retained for its
+walled pergola courtyard. New open landscaped gardens use clipped hedges,
+flowerbeds, palms and distant cream pavilions behind clear short lawn.
+The two images were independently generated with the built-in image tool,
+not simulated with a lighting tint or combined into a split image. Both were
+visually reviewed without creatures, UI or baked mounds. Exact prompts and
+draft geometry accompany the sources. Grass/forest are provisional material
+candidates; day/night mound color matching and native calibration are pending.
+Eight aspect pairs remain. No layout tests, runtime enablement, release or
+published asset-pack changes occurred.
