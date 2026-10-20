@@ -986,3 +986,13 @@ Exact built-in prompts and draft geometry accompany every source. Six
 aspect pairs remain. Day/night mound matching and native calibration
 remain pending. No layout tests, runtime enablement, release or published
 asset-pack changes occurred.
+
+Frontier gardens add independently painted 16:10 and 21:9 day/night source
+pairs. Each was visually reviewed as one garden with clear lawn, no creatures,
+UI or baked mounds. No cropping or resampling was required. Exact built-in
+prompts and draft geometry accompany all four. The 21:9 night boundary at
+about .40 crowds the opponent draft ground at .43: its authoring limitations
+explicitly require recomposition before runtime integration, without moving
+the battle UI. Four aspect pairs remain unpainted. All mound matching and
+native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.
