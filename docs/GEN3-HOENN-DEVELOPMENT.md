@@ -1101,3 +1101,14 @@ original 853x1844 dimensions (within the source import ratio tolerance).
 The initial three paintings still require enemy mound footprint clearance
 review; all mound pairing and native calibration remain pending. No layout
 tests, runtime enablement, release or published asset-pack changes occurred.
+
+Desert Underpass begins with original 16:9, 4:3 and 3:2 source paintings.
+Gen1 cave-02 and deep-cave-02/03 were visually inspected first; their bright
+entrance, crystals or water were unsuitable for this dry enclosed tunnel.
+The three new built-in generations were individually visually reviewed as
+layered brown rock passages with continuous sandy standing floor, without
+creatures, exterior views, UI or baked mounds. Exact prompts and draft
+geometry accompany each image. Sandstone/mineral-sand are provisional mound
+candidates pending color matching and native calibration. Six aspect
+compositions remain. No layout tests, runtime enablement, release or
+published asset-pack changes occurred.
