@@ -8,17 +8,16 @@
   },
   "aspect_ratio": "21:9",
   "time_of_day": "night",
-  "horizon_y": 0.4,
+  "horizon_y": 0.26,
   "background": "art/gen3/21x9/frontier_gardens/frontier_gardens-01-21x9-night.png",
-  "sha256": "626c275a63ccb420c3ba578178e8d0dd660dc8913e3acb20b0625daade7feceb",
+  "sha256": "23e9e8400ac077569fa4f7910aae20dd79e3ed4f710562e39b00c7a783fed2c6",
   "mound_material_candidates": [
     "grass",
     "forest"
   ],
   "limitations": [
     "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
-    "Rear hedge/lawn boundary at y=.40 crowds opponent draft ground y=.43; recompose with a higher boundary before runtime integration. Do not compensate by moving the battle UI."
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
   ],
   "depth": {
     "player": 1,

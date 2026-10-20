@@ -7833,6 +7833,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "frontier_gardens",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "frontier_gardens",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "glacia_chamber",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
@@ -9357,9 +9371,16 @@
       "time_of_day": "day",
       "background": "art/gen3/9x20/volcanic_slope/volcanic_slope-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "21x9",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/drafts/21x9/frontier_gardens-01-21x9-night-low-boundary.png",
+      "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 256,
+  "minimum_missing_base_sources": 255,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "frontier_gardens-01-32x9-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2172,
+    "height": 611
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "night",
+  "horizon_y": 0.30808510638297876,
+  "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
+  "sha256": "b11ec5a0e42452730cbba5d0e34c4c75e681ec5b77123802da9d5db1b3118752",
+  "mound_material_candidates": [
+    "grass",
+    "forest"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.44999999999999996
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43000000000000005
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/32x9/frontier_gardens-01-32x9-night-original.png",
+    "original_sha256": "2c460c2d95b997ab00e82749edf7944a0865ae8928cde3246f06c5379f06d598",
+    "original_size": {
+      "width": 2172,
+      "height": 724
+    },
+    "crop_pixels": [
+      0,
+      0,
+      2172,
+      611
+    ],
+    "source_geometry": {
+      "horizon_y": 0.26,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5401104972375691
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5569889502762431
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.36288674033149176
+        ],
+        "mound_anchor": [
+          0.65,
+          0.37976519337016573
+        ]
+      }
+    }
+  }
+}

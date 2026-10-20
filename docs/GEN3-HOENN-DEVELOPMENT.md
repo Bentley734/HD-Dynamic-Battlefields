@@ -996,3 +996,16 @@ explicitly require recomposition before runtime integration, without moving
 the battle UI. Four aspect pairs remain unpainted. All mound matching and
 native calibration remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Frontier gardens' 21:9 night source has been recomposed with the rear lawn
+boundary around .26, replacing the crowded .40 source. The previous image,
+prompt and authoring record are preserved under drafts/21x9 and marked
+rejected_low_boundary_preserved_original. The replacement was visually
+reviewed; this resolves the specific source composition concern, not native
+calibration. Separate original 32:9 day/night paintings are also saved.
+Both 2172x724 originals are preserved; authorized crop-only preparation
+trims excess lower lawn to 2172x611 without resampling. Both final crops
+were visually reviewed. Exact built-in prompts, provenance and transformed
+draft geometry accompany them. Three portrait pairs remain. Day/night mound
+matching and native calibration are pending. No layout tests, runtime
+enablement, release or published asset-pack changes occurred.
