@@ -1009,3 +1009,14 @@ were visually reviewed. Exact built-in prompts, provenance and transformed
 draft geometry accompany them. Three portrait pairs remain. Day/night mound
 matching and native calibration are pending. No layout tests, runtime
 enablement, release or published asset-pack changes occurred.
+
+Frontier gardens add separate original 9:16 and 9:19.5 day/night paintings.
+All four were individually generated with the built-in image tool and
+visually reviewed as single scenes with unobstructed lawn, no creatures,
+UI or baked mounds. The 9:19.5 day/night originals remain at 835x1884 and
+835x1883 respectively; authorized crop-only preparation trims only excess
+lower lawn to 835x1809, without resampling. Both final crops were visually
+reviewed. Exact prompts, provenance and transformed draft geometry are saved.
+Only the 9:20 day/night pair remains unpainted for this family. Mound matching
+and native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.
