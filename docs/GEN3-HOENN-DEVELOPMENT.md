@@ -831,6 +831,14 @@ geometry and provenance. The crop was visually reviewed again. Three
 portrait paintings remain, along with mound pairing and native calibration.
 No layout testing, runtime enablement, release or asset-pack changes.
 
+Battle Factory now has all nine first-variation source compositions, including
+three separately painted portrait rooms. Each portrait was visually reviewed
+as one uniformly lit indoor scene, with rear equipment, clear concrete floor,
+no creatures and no baked mounds. Exact built-in generation prompts and draft
+geometry accompany every painting. No portrait trimming or resampling was
+needed. Mound pairing and native calibration remain pending; no layout tests,
+runtime enablement, release or published asset-pack changes were performed.
+
 Battle Dome's first source variation now covers all nine aspect families.
 The three new portrait paintings were visually inspected: clear sage-gray
 floors, rear empty red/blue seating, no creatures, baked mounds, floor grids
