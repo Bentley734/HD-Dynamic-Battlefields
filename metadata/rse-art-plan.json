@@ -8071,6 +8071,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "frontier_gardens",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/frontier_gardens/frontier_gardens-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "frontier_gardens",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/frontier_gardens/frontier_gardens-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "glacia_chamber",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8334,6 +8348,20 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/fortree_gym/fortree_gym-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "frontier_gardens",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/frontier_gardens/frontier_gardens-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "frontier_gardens",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/frontier_gardens/frontier_gardens-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9303,7 +9331,7 @@
       "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 260,
+  "minimum_missing_base_sources": 258,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

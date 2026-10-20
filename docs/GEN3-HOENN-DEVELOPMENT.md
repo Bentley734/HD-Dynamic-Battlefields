@@ -977,3 +977,12 @@ draft geometry accompany the sources. Grass/forest are provisional material
 candidates; day/night mound color matching and native calibration are pending.
 Eight aspect pairs remain. No layout tests, runtime enablement, release or
 published asset-pack changes occurred.
+
+Frontier gardens now include independently painted day/night pairs at
+4:3 and 3:2, alongside 16:9. Each of the four additions was visually
+reviewed as a single landscaped garden with a broad clear lawn, no
+creatures, UI or baked mounds. No cropping or resampling was required.
+Exact built-in prompts and draft geometry accompany every source. Six
+aspect pairs remain. Day/night mound matching and native calibration
+remain pending. No layout tests, runtime enablement, release or published
+asset-pack changes occurred.
