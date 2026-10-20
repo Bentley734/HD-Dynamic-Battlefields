@@ -1050,3 +1050,13 @@ provenance, exact built-in prompts and transformed draft geometry are saved.
 Three portrait compositions remain. Mound matching and native calibration
 remain pending. No layout tests, runtime enablement, release or published
 asset-pack changes occurred.
+
+Artisan Cave now has all nine first-variation source compositions. Three
+portrait paintings were independently generated with the built-in image
+tool and visually reviewed as dry enclosed caves without creatures, water,
+UI or baked mounds. The 9:19.5 original remains at 834x1886; authorized
+crop-only preparation trims excess lower floor to 834x1807 without
+resampling. The final crop was visually reviewed again. Exact prompts,
+provenance and transformed draft geometry are saved. Mound matching and
+native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.

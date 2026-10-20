@@ -39,5 +39,46 @@
         ]
       }
     }
+  },
+  {
+    "source": "art/gen3/drafts/9x19_5/artisan_cave-01-9x19_5-original.png",
+    "prompt_source": "art/gen3/drafts/9x19_5/prompts/artisan_cave-01-9x19_5-original.txt",
+    "family": "artisan_cave",
+    "aspect": "9x19_5",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave",
+      "sandstone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      834,
+      1807
+    ],
+    "source_geometry": {
+      "horizon_y": 0.2,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.32,
+          0.6227730646871685
+        ],
+        "mound_anchor": [
+          0.32,
+          0.6419353128313892
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.68,
+          0.4119883351007423
+        ],
+        "mound_anchor": [
+          0.68,
+          0.43115058324496286
+        ]
+      }
+    }
   }
 ]

@@ -8617,6 +8617,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "artisan_cave",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/artisan_cave/artisan_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:16",
       "time_of_day": "night",
@@ -8897,6 +8904,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "artisan_cave",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/artisan_cave/artisan_cave-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "9:19.5",
       "time_of_day": "night",
@@ -9174,6 +9188,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/volcanic_slope/volcanic_slope-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "artisan_cave",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/artisan_cave/artisan_cave-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9464,7 +9485,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 246,
+  "minimum_missing_base_sources": 243,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9475,6 +9496,7 @@
     "volcanic_slope"
   ],
   "complete_ambient_source_families": [
+    "artisan_cave",
     "battle_arena",
     "battle_dome",
     "battle_factory",
