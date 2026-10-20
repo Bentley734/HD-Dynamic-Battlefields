@@ -1301,3 +1301,19 @@ prompt boundary. Source completeness does not prove native mound contact,
 map-specific suitability or runtime readiness. Those remain pending, and
 layout testing remains deferred until the remaining Gen3 assets are ready.
 No runtime catalog, released pack or battle UI changes were made.
+
+Island Cave (regi_island_cave) begins with original 16:9, 4:3 and 3:2
+source paintings. Native Emerald IslandCave map metadata identifies an
+underground map with no weather; its layout uses General/Cave tilesets:
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/maps/IslandCave/map.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/layouts/layouts.json
+A Gen1 cave-01 16:9 reuse candidate was visually inspected, but its large
+sunlit opening was unsuitable for this enclosed chamber treatment. Three
+built-in generations were individually visually reviewed as cool-gray
+rounded enclosed rock chambers with continuous dusty floor, no ice, water,
+creatures, inscriptions, UI or baked mounds. Exact prompts and draft
+placement metadata accompany each unchanged original. Floor boundaries
+are recorded at .30/.28/.30 from observation. Six aspects remain. Cave and
+floor-gray mound candidates, map-specific suitability, contact footprints
+and native calibration remain pending. No layout tests, battle UI changes,
+runtime enablement, release or published asset-pack changes occurred.
