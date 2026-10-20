@@ -1288,3 +1288,16 @@ anchors saved. Three portrait compositions remain. Mound color matching,
 footprints, map-specific suitability and native calibration remain pending.
 No layout tests, runtime enablement, release or published asset-pack changes
 occurred.
+
+Ancient Tomb now has all nine first-variation source compositions after
+adding 9:16, 9:19.5 and 9:20 portrait paintings through built-in image
+generation. Each portrait was individually visually reviewed: one enclosed
+gray-brown chamber, plain rear stone slab, continuous clear dusty floor,
+constant indoor illumination, no creatures, inscriptions, UI or baked
+mounds. Originals were imported without pixel edits; exact prompts and
+draft placement metadata accompany each painting. Observed floor boundaries
+are recorded at .24, .27 and .25 respectively, rather than the requested
+prompt boundary. Source completeness does not prove native mound contact,
+map-specific suitability or runtime readiness. Those remain pending, and
+layout testing remains deferred until the remaining Gen3 assets are ready.
+No runtime catalog, released pack or battle UI changes were made.

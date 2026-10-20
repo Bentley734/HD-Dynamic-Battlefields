@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Ancient Tomb interior, Registeel encounter chamber, first variation, 9:16 portrait.
+ONE empty enclosed ancient rock chamber. Broad weathered gray-brown granite walls, large plain dark stone slab flush into distant rear wall, rough natural buttresses at far edges, sparse rubble at distant wall bases. No coffin, statues, inscriptions, symbols, machinery, altar or dais. Flat continuous muted gray-brown dusty stone ground, softly mottled, no tiles, seams or holes. Constant diffuse dim neutral indoor illumination, no lamps, exterior or sunlight beams.
+Style: delicate Japanese watercolor washes, clean fine ink contours, polished hand-painted monster-adventure environment, restrained readable floor texture.
+Composition: tall 9:16 portrait canvas. Low battle camera across floor. Rear wall meets floor at y20%; entire lower80% uninterrupted standing plane. Clear broad ground at player x32%,y65% and enemy x68%,y43%. Detail restricted to top fifth and extreme sides. Floor continues to bottom.
+Avoid creatures, dragons, animals, people, figures, silhouettes, statues, UI, text, logos, panels, split views, montage, day/night comparisons, water, vegetation, crystals, baked mounds, circular platforms, pedestals. One scene, one consistent indoor lighting condition.
