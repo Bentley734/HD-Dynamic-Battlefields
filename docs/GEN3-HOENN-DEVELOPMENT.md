@@ -1040,3 +1040,13 @@ Exact prompts and draft geometry accompany each source. Cave/sandstone
 remain provisional candidates pending mound matching and native calibration.
 Six aspect compositions remain. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Artisan Cave's wide set adds 16:10, 21:9 and 32:9 source paintings.
+Each was visually reviewed as a dry enclosed chamber with clear floor,
+no creatures, exterior views, UI or baked mounds. The 32:9 original remains
+at 2172x724; authorized crop-only preparation trims excess lower floor to
+2172x611 without resampling. The final crop was visually reviewed again;
+provenance, exact built-in prompts and transformed draft geometry are saved.
+Three portrait compositions remain. Mound matching and native calibration
+remain pending. No layout tests, runtime enablement, release or published
+asset-pack changes occurred.
