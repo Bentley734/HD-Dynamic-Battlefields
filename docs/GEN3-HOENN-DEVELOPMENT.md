@@ -904,3 +904,15 @@ lower floor to 2048x576 without resampling. The crop was visually reviewed
 again; provenance and transformed draft geometry are saved. Three portrait
 paintings remain, with mound color matching and native calibration pending.
 No layout testing, runtime enablement, release or asset-pack changes.
+
+Battle Pike begins with original 16:9, 4:3 and 3:2 source paintings. The
+existing Gen1 poison gym timber dojo was visually inspected but not reused
+for this curtained challenge room. Emerald's Battle Pike secondary tiles
+were consulted for architectural context only; no game pixels were copied
+into the artwork. Cream walls, sage curtains, three closed rear doors and
+plain sage-gray carpet keep the fighting floor unobstructed. Each built-in
+generation was visually reviewed as a single indoor scene without creatures,
+UI or baked mounds. Exact prompts and draft geometry accompany the sources.
+Carpet-moss/floor-sage are candidates pending pairing and native calibration.
+Six aspects remain. No layout tests, runtime enablement, release or published
+asset-pack changes were performed.
