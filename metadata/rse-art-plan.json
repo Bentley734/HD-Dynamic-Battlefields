@@ -7175,6 +7175,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "terra_cave",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/terra_cave/terra_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7826,6 +7833,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "terra_cave",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/terra_cave/terra_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -8145,6 +8159,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/sootopolis_gym/sootopolis_gym-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "terra_cave",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/terra_cave/terra_cave-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9821,7 +9842,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 195,
+  "minimum_missing_base_sources": 192,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

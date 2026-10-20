@@ -1215,3 +1215,17 @@ TerraCave_Entrance and TerraCave_End; map-specific visual suitability still
 requires calibration. Cave-warm-basalt/cave are provisional mound candidates.
 Six aspects remain. No layout tests, runtime enablement, release or published
 asset-pack changes occurred.
+
+Terra Cave's wide set adds 16:10, 21:9 and 32:9 source paintings. Built-in
+generations were individually visually reviewed for dry charcoal-brown rock,
+continuous muted gray floor and restrained amber rear light, without creatures,
+lava, water, UI or baked mounds. The first 21:9 result placed the rear wall
+near .40, leaving insufficient enemy footprint clearance; it is preserved as
+art/gen3/drafts/21x9/terra_cave-01-21x9-low-boundary.png with its exact prompt.
+The replacement's rear boundary is about .24 and is the canonical source.
+The 32:9 original is preserved at 2048x768; authorized crop-only preparation
+trims lower floor to 2048x576 without resampling. Its final crop was visually
+reviewed, with provenance and transformed draft anchors saved. Exact prompts
+and draft geometry accompany all three sources. Three portrait compositions
+remain. Mound matching and native calibration remain pending. No layout tests,
+runtime enablement, release or published asset-pack changes occurred.
