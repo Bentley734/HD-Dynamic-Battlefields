@@ -1125,3 +1125,14 @@ The 9:19.5 original remains at 851x1847, within source-import tolerance.
 Sandstone/mineral-sand remain provisional mound candidates. Color matching,
 mound footprints and native calibration remain pending. No layout tests,
 runtime enablement, release or published asset-pack changes occurred.
+
+Mirage Tower (desert_ruin family, distinct from Regirock's Desert Ruins)
+begins with original 16:9, 4:3 and 3:2 source paintings. Gen2 Ruins of Alph
+was visually inspected first but retained for its location-specific wall
+symbols. The new built-in paintings were individually visually reviewed
+as plain crumbling sandstone interiors with continuous sand-covered floor,
+without creatures, wall symbols, UI, floor grids or baked mounds. Exact
+prompts and draft geometry accompany each source. Sandstone/mineral-sand
+remain provisional mound candidates pending color matching and native
+calibration. Six aspect compositions remain. No layout tests, runtime
+enablement, release or published asset-pack changes occurred.
