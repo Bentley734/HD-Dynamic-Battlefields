@@ -7476,6 +7476,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/sky_pillar/sky_pillar-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -8421,6 +8428,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/sky_pillar/sky_pillar-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8733,6 +8747,13 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/sidney_chamber/sidney_chamber-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/sky_pillar/sky_pillar-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9737,7 +9758,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 207,
+  "minimum_missing_base_sources": 204,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",

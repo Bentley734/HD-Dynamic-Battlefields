@@ -1159,3 +1159,20 @@ within source-import tolerance. Sandstone/mineral-sand remain provisional
 mound candidates; color matching, mound footprints and native calibration
 remain pending. No layout tests, runtime enablement, release or published
 asset-pack changes occurred.
+
+Sky Pillar's enclosed interior begins with original 16:9, 4:3 and 3:2 source
+paintings. Native Emerald SkyPillar_1F map metadata identifies underground
+map type and WEATHER_NONE. Its layouts.json entry uses General/Pacifidlog
+tilesets; the secondary Pacifidlog tiles were inspected only as architectural
+reference, with no native pixels copied into artwork:
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/maps/SkyPillar_1F/map.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/layouts/layouts.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/tilesets/secondary/pacifidlog/tiles.png
+The three built-in generations were individually visually reviewed as gray
+stone masonry interiors with uninterrupted irregular cracked floor, without
+creatures, symbols, outside scenery, UI, regular floor grids or baked mounds.
+Exact prompts and draft geometry accompany each image. Floor-gray/pale-gravel
+remain provisional mound candidates pending color matching and native
+calibration. Six aspect compositions remain. The outdoor summit is a distinct
+family. No layout tests, runtime enablement, release or published asset-pack
+changes occurred.
