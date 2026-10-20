@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/regi_ancient_tomb-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/regi_ancient_tomb-01-32x9-original.txt",
+    "family": "regi_ancient_tomb",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave",
+      "floor-gray"
+    ],
+    "crop_pixels": [
+      0,
+      70,
+      2109,
+      663
+    ],
+    "source_geometry": {
+      "horizon_y": 0.35,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6025737265415549
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6184718498659517
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.43564343163538877
+        ],
+        "mound_anchor": [
+          0.65,
+          0.45154155495978554
+        ]
+      }
+    }
+  }
+]

@@ -1275,3 +1275,16 @@ floor-gray remain provisional mound candidates pending color matching,
 map-specific suitability and native calibration. Six aspects remain. No
 layout tests, runtime enablement, release or published asset-pack changes
 occurred.
+
+Ancient Tomb's wide source set adds 16:10, 21:9 and 32:9 paintings. Each
+built-in generation was individually visually reviewed as an enclosed gray-
+brown chamber with a plain rear slab and clear continuous dusty floor,
+without creatures, inscriptions, machinery, exterior views, UI, regular
+flooring grids or baked mounds. Exact prompts and draft geometry accompany
+each source. The 32:9 original is preserved at 2109x746; authorized crop-only
+preparation uses [0,70,2109,663] to produce 2109x593 without resampling.
+The final crop was visually reviewed, with provenance and transformed draft
+anchors saved. Three portrait compositions remain. Mound color matching,
+footprints, map-specific suitability and native calibration remain pending.
+No layout tests, runtime enablement, release or published asset-pack changes
+occurred.
