@@ -1086,3 +1086,18 @@ mound footprint clearance needs explicit review during later calibration,
 and recomposition remains possible. Limestone/cave-pale-limestone are
 provisional candidates. Six aspect compositions remain. No layout tests,
 runtime enablement, release or published asset-pack changes occurred.
+
+Shoal Cave now has all nine first-variation land source compositions. Six
+additional paintings (16:10, 21:9, 32:9 and three portraits) were generated
+individually with the built-in image tool and visually reviewed. They show
+single enclosed coastal limestone scenes with rear water and continuous
+dry floor, without creatures, UI or baked mounds. The new compositions
+place the water farther back than the initial three. Exact prompts and
+draft geometry accompany every source. The 32:9 original is preserved at
+2179x722; crop-only preparation trims excess lower floor to 2179x613 without
+resampling. Its final crop was visually reviewed, with provenance and
+transformed draft anchors recorded. The 9:19.5 painting remains at its
+original 853x1844 dimensions (within the source import ratio tolerance).
+The initial three paintings still require enemy mound footprint clearance
+review; all mound pairing and native calibration remain pending. No layout
+tests, runtime enablement, release or published asset-pack changes occurred.

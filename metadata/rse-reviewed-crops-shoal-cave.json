@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/shoal_cave-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/shoal_cave-01-32x9-original.txt",
+    "family": "shoal_cave",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "limestone",
+      "cave-pale-limestone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2179,
+      613
+    ],
+    "source_geometry": {
+      "horizon_y": 0.26,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5433795013850415
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5603601108033242
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.36508310249307474
+        ],
+        "mound_anchor": [
+          0.65,
+          0.38206371191135735
+        ]
+      }
+    }
+  }
+]

@@ -7133,6 +7133,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "shoal_cave",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/shoal_cave/shoal_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sidney_chamber",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7728,6 +7735,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "shoal_cave",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/shoal_cave/shoal_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sidney_chamber",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -8019,6 +8033,13 @@
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
       "background": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "shoal_cave",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8918,6 +8939,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "shoal_cave",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/shoal_cave/shoal_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sidney_chamber",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9209,6 +9237,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/seafloor_cavern/seafloor_cavern-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "shoal_cave",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/shoal_cave/shoal_cave-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9506,6 +9541,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "shoal_cave",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/shoal_cave/shoal_cave-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sidney_chamber",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9569,7 +9611,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 231,
+  "minimum_missing_base_sources": 225,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9604,6 +9646,7 @@
     "phoebe_chamber",
     "rustboro_gym",
     "seafloor_cavern",
+    "shoal_cave",
     "sidney_chamber",
     "sootopolis_gym",
     "underwater_ocean",
