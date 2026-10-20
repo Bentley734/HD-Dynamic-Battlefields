@@ -1229,3 +1229,14 @@ reviewed, with provenance and transformed draft anchors saved. Exact prompts
 and draft geometry accompany all three sources. Three portrait compositions
 remain. Mound matching and native calibration remain pending. No layout tests,
 runtime enablement, release or published asset-pack changes occurred.
+
+Terra Cave now has all nine first-variation source compositions. Three
+portrait paintings were individually generated with the built-in image tool
+and visually reviewed as dry charcoal-brown basalt chambers with continuous
+muted warm-gray floor around both draft anchors. No creatures, lava, water,
+UI or baked mounds were present. Exact prompts and draft geometry accompany
+each source. The 9:19.5 painting remains at its original 853x1844 dimensions,
+within source-import tolerance. Cave-warm-basalt/cave remain provisional
+mound candidates. Color matching, footprints, map-specific suitability and
+native calibration remain pending. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.

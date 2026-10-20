@@ -9149,6 +9149,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "terra_cave",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/terra_cave/terra_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9468,6 +9475,13 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/sootopolis_gym/sootopolis_gym-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "terra_cave",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/terra_cave/terra_cave-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9793,6 +9807,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "terra_cave",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/terra_cave/terra_cave-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "underwater_ocean",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9842,7 +9863,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 192,
+  "minimum_missing_base_sources": 189,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
@@ -9883,6 +9904,7 @@
     "sidney_chamber",
     "sky_pillar",
     "sootopolis_gym",
+    "terra_cave",
     "underwater_ocean",
     "volcanic_cave"
   ]
