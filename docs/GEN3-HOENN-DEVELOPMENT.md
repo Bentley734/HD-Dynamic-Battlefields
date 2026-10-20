@@ -1200,3 +1200,18 @@ and pale-gravel remain provisional mound candidates. Color matching, mound
 footprints and native calibration remain pending. The outdoor summit remains
 a separate uncompleted family. No layout tests, runtime enablement, release
 or published asset-pack changes occurred.
+
+Terra Cave begins with 16:9, 4:3 and 3:2 source compositions. Original Gen1
+legendary-moltres-03 at 16:9 was individually visually reviewed and reused
+byte-identically for its dry charcoal-brown basalt shelter, warm-gray floor
+and high reflected amber light. Variations 01/02 were inspected and retained
+for their brighter ochre setting. Variation03 has no other existing aspect
+paintings. New 4:3 and 3:2 paintings were generated individually with the
+built-in image tool and visually reviewed to match the dry dark-rock setting.
+No creatures, lava, water, UI, regular flooring grids or baked mounds were
+present. Exact original/new prompts, reuse hash/provenance and draft geometry
+are saved. Native Emerald layouts.json lists General/Cave tilesets for both
+TerraCave_Entrance and TerraCave_End; map-specific visual suitability still
+requires calibration. Cave-warm-basalt/cave are provisional mound candidates.
+Six aspects remain. No layout tests, runtime enablement, release or published
+asset-pack changes occurred.

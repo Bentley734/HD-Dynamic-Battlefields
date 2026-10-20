@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "source_reuse_not_runtime_calibrated",
+  "images": [
+    {
+      "aspect": "16x9",
+      "period": "indoor",
+      "original": "art/gen1/16x9/legendary_moltres/legendary_moltres-03-16x9.png",
+      "original_prompt": "art/gen1/16x9/legendary_moltres/prompts/legendary_moltres-03-16x9.txt",
+      "original_sha256": "506476150f495f3b21a28bc6bae7d2ff1e80e2f40504516c70447c27c83de153",
+      "target": "art/gen3/16x9/terra_cave/terra_cave-01-16x9.png",
+      "operation": "byte_identical_copy",
+      "reason": "Individually visually reviewed dry charcoal-brown basalt cave with broad flat warm-gray ground and high reflected amber light; suitable source candidate for Terra Cave. Native map-specific suitability, mound matching and calibration remain pending."
+    }
+  ]
+}
