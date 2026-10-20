@@ -1376,3 +1376,20 @@ placement metadata. Observed floor boundaries are .15/.14/.13. Source
 coverage does not prove runtime readiness: mound matching, contact regions
 and native calibration remain pending. Layout tests remain deferred;
 no runtime catalog, battle UI or published release changes were made.
+
+Navel Rock depths begins with 16:9, 4:3 and 3:2 original source paintings.
+Native Emerald NavelRock_Bottom is underground with no weather, using its
+own NavelRock secondary tileset. The native tile image was visually read
+as reference only; native pixels were not copied into the artwork:
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/maps/NavelRock_Bottom/map.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/layouts/layouts.json
+https://raw.githubusercontent.com/pret/pokeemerald/master/data/tilesets/secondary/navel_rock/tiles.png
+A Gen1 legendary_mewtwo-01 16:9 reuse candidate was visually reviewed but
+had saturated blue crystals and a rear pool, so was not reused. Three
+built-in generations were individually visually reviewed as enclosed pale
+silver-gray natural stone chambers with clear dry floor and constant
+indoor light, no creatures, crystals, UI or baked mounds. Originals are
+unchanged with exact prompts and draft geometry. Observed floor boundaries
+are .26/.24/.24. Six aspects remain. Cave-pale-limestone/pale-gravel mound
+matching, map-specific suitability and native calibration remain pending.
+No layout tests, battle UI edits, runtime enablement or release changes.
