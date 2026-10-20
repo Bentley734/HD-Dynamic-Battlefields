@@ -1075,3 +1075,14 @@ hashes, reuse rationale and transformed draft crop geometry are saved.
 Limestone/cave-pale-limestone are provisional mound candidates. Native
 map-specific suitability, mound matching and calibration remain pending.
 No layout tests, runtime enablement, release or published asset-pack changes.
+
+Shoal Cave's non-ice land chamber begins with original 16:9, 4:3 and 3:2
+source paintings generated with the built-in image tool. All three were
+visually reviewed as single enclosed coastal limestone scenes with rear
+water and dry standing floor, no creatures, exterior views, UI or baked
+mounds. Exact prompts and draft geometry accompany the images. The rear
+water/dry-floor boundary is lower than requested (roughly .39-.41); enemy
+mound footprint clearance needs explicit review during later calibration,
+and recomposition remains possible. Limestone/cave-pale-limestone are
+provisional candidates. Six aspect compositions remain. No layout tests,
+runtime enablement, release or published asset-pack changes occurred.

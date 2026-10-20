@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD monster-battle background, Hoenn Shoal Cave non-ice land chamber, variation 01, 16:9 landscape.
+Primary request: ONE continuous empty coastal limestone cavern, a single enclosed underground scene. Pale gray weathered rock arches and salt-crusted walls, shallow still turquoise tidal water confined to the far rear and extreme side recesses, scattered small pale shell fragments only near rear walls. Broad uninterrupted dry sandy-gray limestone floor across the whole middle and foreground. No ice. No exterior view.
+Style: polished hand-painted Japanese RPG environment illustration, delicate ink contours, soft watercolor-like shading, coherent natural perspective, restrained detail in standing zones.
+Composition: 16:9 canvas, low eye-level across floor. Rear wall/floor boundary at roughly 28 percent canvas height. Clear dry floor under enemy standing point at x72%,y43% and player at x28%,y64%. Floor continues behind lower menu region. Architectural interest in upper third and sides; flat floor not platforms.
+Lighting: a single consistent softly illuminated subterranean palette, cool limestone, muted sand and pale turquoise rear water. No sun/moon, no split lighting, no side-by-side views.
+Avoid: people, creatures, animals, monsters, silhouettes, statues, battle sprites, mounds, circular platforms, raised standing stones, UI, letters, logos, panels, montage, diptych, split screen, day/night comparison. Entire image depicts one cave at one time.
