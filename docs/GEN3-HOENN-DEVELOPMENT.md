@@ -1029,3 +1029,14 @@ Exact prompts and draft geometry accompany both. Source coverage is not
 runtime readiness: day/night mound color matching, native calibration and
 compatibility validation remain pending. No layout tests, runtime enablement,
 release or published asset-pack changes occurred.
+
+Artisan Cave begins with original 16:9, 4:3 and 3:2 source paintings.
+Gen1 deep-cave-01 and cave-02 were visually inspected but retained for
+their stream/crystals and bright sandstone entrance respectively. New dry,
+enclosed brown stone chambers use restrained diffuse underground light and
+uninterrupted dusty floors. All three built-in generations were visually
+reviewed without creatures, exterior views, water, UI or baked mounds.
+Exact prompts and draft geometry accompany each source. Cave/sandstone
+remain provisional candidates pending mound matching and native calibration.
+Six aspect compositions remain. No layout tests, runtime enablement,
+release or published asset-pack changes occurred.

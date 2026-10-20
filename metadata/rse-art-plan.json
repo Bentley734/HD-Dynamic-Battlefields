@@ -7175,6 +7175,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "artisan_cave",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/artisan_cave/artisan_cave-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "16:9",
       "time_of_day": "night",
@@ -8015,6 +8022,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "artisan_cave",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/artisan_cave/artisan_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "ashfield",
       "aspect_ratio": "3:2",
       "time_of_day": "night",
@@ -8292,6 +8306,13 @@
       "aspect_ratio": "3:2",
       "time_of_day": "day",
       "background": "art/gen3/3x2/volcanic_slope/volcanic_slope-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "artisan_cave",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/artisan_cave/artisan_cave-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9422,7 +9443,7 @@
       "status": "rejected_low_boundary_preserved_original"
     }
   ],
-  "minimum_missing_base_sources": 252,
+  "minimum_missing_base_sources": 249,
   "complete_day_night_source_families": [
     "ashfield",
     "desert",
