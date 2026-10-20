@@ -1327,3 +1327,13 @@ resampling. Exact prompts, crop provenance and transformed draft anchors
 are saved. Three portrait aspects remain. Mound matching, map-specific
 suitability and native calibration remain pending; no layout tests,
 runtime enablement, battle UI edits or release changes occurred.
+
+Island Cave now has nine first-variation source compositions with the
+addition of 9:16, 9:19.5 and 9:20 portraits. Each built-in generation was
+individually visually reviewed as one enclosed cool-gray chamber with a
+continuous clear floor and constant indoor lighting, without creatures,
+water, ice, inscriptions, UI or baked mounds. Originals were imported
+unchanged with exact prompts and draft placement metadata. Observed floor
+boundaries are .19/.20/.19. All mound matching, contact footprints and
+native calibration remain pending. No layout tests, runtime enablement,
+battle UI changes, release or published asset-pack changes occurred.
