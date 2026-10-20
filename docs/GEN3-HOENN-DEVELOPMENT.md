@@ -1264,3 +1264,14 @@ The authoring inventory now excludes preserved drafts from generated source
 coverage. An archived Frontier Gardens rejection had previously appeared as
 an erroneous family named 21x9; it remains preserved on disk but is no longer
 listed as canonical source artwork. This change does not enable runtime art.
+
+Ancient Tomb (regi_ancient_tomb) begins with original 16:9, 4:3 and 3:2
+source paintings. Built-in generations were individually visually reviewed
+as enclosed gray-brown stone chambers with a plain rear slab and continuous
+dusty floor around draft standing anchors. No creatures, inscriptions,
+statues, machinery, exterior views, UI, floor grids or baked mounds were
+present. Exact prompts and draft geometry accompany each source. Cave and
+floor-gray remain provisional mound candidates pending color matching,
+map-specific suitability and native calibration. Six aspects remain. No
+layout tests, runtime enablement, release or published asset-pack changes
+occurred.
