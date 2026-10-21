@@ -1,7 +1,7 @@
 {
   "id": "hd-dynamic-battlefields",
   "name": "HD Dynamic Battlefields (Kanto + Johto + Hoenn Beta)",
-  "version": "0.3.0-beta.2",
+  "version": "0.3.0-beta.3",
   "description": "Original HD battle scenery for Gen 1, Gen 2 and Gen 3, with independent mounds, species positioning and optional artwork downloads. Battle UI remains unchanged.",
   "api": 2,
   "entry": "main.lua",

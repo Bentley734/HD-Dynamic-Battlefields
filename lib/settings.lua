@@ -89,15 +89,41 @@ return function(mod)
    activate=function(ctx)scope='composition:'..composition;ctx.stack:pop()end}end
   open(game,rows)
  end}
+ local function playerScalePreset()
+  local function current()
+   local data=adjustmentGroup(mod.exports.getAdjustments())
+   return data and data.player and data.player.mound_scale or 1
+  end
+  local function set(value)
+   local data=mod.exports.getAdjustments();local group=adjustmentGroup(data,true)
+   group.player=group.player or{};group.player.mound_scale=value
+   local ok,err=mod.exports.applyAdjustments(data);status=ok and'SAVED'or tostring(err)
+   return ok
+  end
+  return{id='hd_player_scale_preset',label='SCALE PRESET',
+   value=function()local n=current();return n==1 and'1X'or n==2 and'2X'or'CUSTOM'end,
+   step=function()set(current()==2 and 1 or 2);return false end,
+   activate=function(game)
+    local rows={}
+    for _,n in ipairs({1,2})do local value=n
+     rows[#rows+1]={id='hd_player_scale_'..value,label=value..'X',
+      value=function()return current()==value and'SELECTED'or''end,
+      activate=function(ctx)if set(value)then ctx.stack:pop()end end}
+    end
+    open(game,rows,'PLAYER MOUND SCALE')
+   end}
+ end
  local mounds={toggle('mounds','BATTLE MOUNDS'),scopeRow}
  for _,side in ipairs({'player','opponent'})do
   local title=side=='player'and'PLAYER'or'OPPONENT'
-  mounds[#mounds+1]=group(side,title,{
+  local positions={
    calibrationRow(side,'mound_x','HORIZONTAL OFFSET',0,.005,-.5,.5),
    calibrationRow(side,'mound_y','VERTICAL OFFSET',0,.005,-.5,.5),
    calibrationRow(side,'mound_scale','MOUND SCALE',1,.05,.1,3),
    calibrationRow(side,'pokemon_x','POKEMON HORIZONTAL',0,1/nativeWidth,-.5,.5),
-   calibrationRow(side,'pokemon_y','POKEMON VERTICAL',0,1/nativeHeight,-.5,.5)})
+   calibrationRow(side,'pokemon_y','POKEMON VERTICAL',0,1/nativeHeight,-.5,.5)}
+  if side=='player'then table.insert(positions,1,playerScalePreset())end
+  mounds[#mounds+1]=group(side,title,positions)
  end
  mounds[#mounds+1]=assert(loadstring(assert(mod:read('lib/species_settings.lua'))))()(mod,open,group)
  mounds[#mounds+1]=action('reset_scope','RESET THIS SCOPE',function()
