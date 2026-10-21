@@ -3,14 +3,14 @@
   "composition_id": "battle_dome-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2181,
-    "height": 613
+    "width": 2062,
+    "height": 580
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.2705220228384992,
-  "background": "art/gen3/32x9/battle_dome/battle_dome-01-32x9.png",
-  "sha256": "9e89f4549b78535ad7f1a24a1cb5d0d53ab3f1f994bcb4eee423a4ce01aba134",
+  "horizon_y": 0.22901724137931037,
+  "background": "art/gen3/32x9/battle_dome/battle_dome-01-32x9-horizon-clearance-v3.png",
+  "sha256": "b8fc1c88800dd5df512e28e0a4dd25d282b7b5e1ed55272fce4a6e103320d6d8",
   "mound_material_candidates": [
     "floor-sage",
     "floor-gray"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.34158583899127054,
+      0.6406551724137932
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.34158583899127054,
+      0.6195172413793103
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008455172413793103
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6588991270611058,
+      0.41870689655172416
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.42999999999999994
+      0.6588991270611058,
+      0.39756896551724136
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008455172413793103
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/battle_dome-01-32x9-original.png",
-    "original_sha256": "cd28f2fc5d32802262bc2b7ec02cf373c2c8b8a9f4276db2871a5181343e7cb1",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/battle_dome/battle_dome-01-32x9.png",
+    "original_sha256": "9e89f4549b78535ad7f1a24a1cb5d0d53ab3f1f994bcb4eee423a4ce01aba134",
     "original_size": {
       "width": 2181,
-      "height": 721
+      "height": 613
     },
     "crop_pixels": [
-      0,
-      0,
-      2181,
+      59,
+      33,
+      2121,
       613
     ],
-    "source_geometry": {
-      "horizon_y": 0.23,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.544133148404993
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5611373092926492
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.36558945908460466
-        ],
-        "mound_anchor": [
-          0.65,
-          0.38259361997226077
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/battle_dome/battle_dome-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

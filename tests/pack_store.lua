@@ -49,3 +49,42 @@ assert(P.new(backend):installed('forest').version=='2')
 assert(not s:verify(incompatible))
 assert(s:remove('forest'));assert(not P.new(backend):installed('forest'))
 print('PASS pack integrity, offline records, interrupted resume, torn commit rollback, compatibility/schema/path rejection, metadata validation, cancel and removal')
+
+-- A process restart halfway through a multi-file update must resume only the
+-- verified objects, while the previous installation remains authoritative.
+local payloads={['one.json']='one',['two.json']='two',['three.json']='three'}
+local requested={}
+backend.get=function(url)
+ local name=url:match('/([^/]+)$');requested[#requested+1]=name
+ local h={name=name};requests[h]=true;return h
+end
+backend.poll=function(h)return{status='ok',body=payloads[h.name]}end
+backend.validate=function()return true end
+local function multi(version)
+ local p=pack(version);p.id='resume-multiple';p.files={};p.installed_size=0
+ for _,name in ipairs({'one.json','two.json','three.json'})do
+  local value=payloads[name]
+  p.files[#p.files+1]={path=name,size=#value,sha256=sha256(value),url='https://github.com/example/assets/releases/download/v1/'..name}
+  p.installed_size=p.installed_size+#value
+ end
+ return p
+end
+local original=multi('1');local first=P.new(backend);assert(first:start(original));finish(first)
+assert(first.status=='installed')
+local update=multi('2');assert(first:start(update))
+first:update();first:update() -- first object is now durably staged
+assert(first.completed==3 and first:installed(update.id).version=='1')
+first:update();assert(first.handle);first:cancel();assert(next(requests)==nil)
+local count=#requested
+local restarted=P.new(backend);assert(restarted:start(update));finish(restarted)
+assert(restarted.status=='installed' and restarted:verify(restarted:installed(update.id)))
+assert(#requested==count+2 and requested[count+1]=='two.json' and requested[count+2]=='three.json','Restart downloaded an already verified object')
+-- Corrupting a staged object forces repair rather than trusting its existence.
+local repair=multi('3');local repairStore=P.new(backend);assert(repairStore:start(repair))
+repairStore:update();repairStore:update();repairStore:cancel()
+local object='packs/'..repair.id..'/3/'..repair.files[1].sha256..'/one.json'
+disk[object]='bad';count=#requested
+repairStore=P.new(backend);assert(repairStore:start(repair));finish(repairStore)
+assert(repairStore.status=='installed' and #requested==count+3)
+assert(repairStore:verify(repairStore:installed(repair.id)))
+print('PASS multi-file restart resumes verified objects, retains previous installed version until commit, and repairs corrupt staged bytes')

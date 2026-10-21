@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "navel_rock_depths-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2080,
+    "height": 585
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22948717948717948,
+  "background": "art/gen3/32x9/navel_rock_depths/navel_rock_depths-01-32x9-horizon-clearance-v3.png",
+  "sha256": "e96a4b92714f66df00766686278944d26b1e34a8e99f340fd4eda0859a961bdd",
+  "mound_material_candidates": [
+    "cave-pale-limestone",
+    "pale-gravel"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3393509615384615,
+      0.6355897435897436
+    ],
+    "pokemon_ground_anchor": [
+      0.3393509615384615,
+      0.6141538461538462
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008574358974358974
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6611298076923078,
+      0.41051282051282056
+    ],
+    "pokemon_ground_anchor": [
+      0.6611298076923078,
+      0.3890769230769231
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008574358974358974
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/navel_rock_depths/navel_rock_depths-01-32x9.png",
+    "original_sha256": "6528e6f7096edea15cfbc10b2162720b9b1fa41bd6c77c1974a580ba1a81099a",
+    "original_size": {
+      "width": 2231,
+      "height": 627
+    },
+    "crop_pixels": [
+      75,
+      42,
+      2155,
+      627
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/navel_rock_depths/navel_rock_depths-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

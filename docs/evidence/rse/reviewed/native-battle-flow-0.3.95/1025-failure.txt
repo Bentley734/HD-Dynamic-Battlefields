@@ -1,0 +1,14 @@
+...D-Dynamic-Battlefields/tools/rse_native_probe/loader.lua:51: 1025dex: 1025dex: items: native index collision: 913
+moves: moves: native index collision: 709
+stack traceback:
+	[C]: in function 'assert'
+	...D-Dynamic-Battlefields/tools/rse_native_probe/loader.lua:51: in function <...D-Dynamic-Battlefields/tools/rse_native_probe/loader.lua:3>
+	...D-Dynamic-Battlefields/tools/rse_native_probe/render.lua:43: in function <...D-Dynamic-Battlefields/tools/rse_native_probe/render.lua:1>
+	main.lua:97: in function <main.lua:18>
+	[C]: in function 'xpcall'
+	main.lua:18: in function 'load'
+	[love "callbacks.lua"]:136: in function <[love "callbacks.lua"]:135>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:368: in function <[love "boot.lua"]:355>
+	[C]: in function 'xpcall'
+	[love "boot.lua"]:377: in function <[love "boot.lua"]:344>

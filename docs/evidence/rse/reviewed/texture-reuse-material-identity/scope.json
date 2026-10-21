@@ -1,0 +1,22 @@
+{
+  "changes": [
+    "Preserve canonical material asset identity after installed-pack namespacing",
+    "Reuse textures shared by the active and incoming scene",
+    "Release newly loaded textures only on failed prepare; retain old scene",
+    "Pack refresh still invalidates active scene/texture ownership"
+  ],
+  "native_water_scene_checks": 14,
+  "unit_suite": "passed",
+  "source_hashes": {
+    "lib/scene.lua": "ce14cd924e5c39424018caf89072150074f8c90816e5aa541e99266b66814ab5",
+    "lib/asset_library.lua": "07e83f2c781b3578b510ee16ec60d59494b7ddbe46cca427eead6e7001f62482",
+    "main.lua": "1ce9d442bab344828af5a0d3c40f379a7986f9a5040b25cb67dadf69854cd9f5",
+    "tests/scene_texture_reuse.lua": "7299edccd8aa99a1931da856bfbffe0073295686288fd2d49a246cb978f430e7",
+    "tests/asset_library_identity.lua": "91c45d06e41781fe96a9e3aa6c95afe42b550af32d402c7bbe7ba421666f2003"
+  },
+  "limitations": [
+    "Pack path/version behavior verified with actual library module in isolated unit fixture, not a complete new remote download.",
+    "No Android frame-rate or device-memory benchmark performed."
+  ],
+  "uploaded": false
+}

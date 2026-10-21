@@ -1,0 +1,70 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "menu-customizer",
+  "content": "none",
+  "wildfollowers": true,
+  "double_fixture": false,
+  "processes": 9,
+  "scene_cases": 90,
+  "candidate_manifest_only": true,
+  "all_areas": false,
+  "review_families": [],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "Limited original scenery fixtures; Doubles not covered; Native automatic trainer battle completed; No full playthrough, every-map coverage, custom UI profiles, overworld follower behavior or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Birth Island sparse grassy legendary-encounter island, first variation.
+ONE empty quiet remote small ocean island. Very broad flat soft short-grass clearing, muted green grass with tiny restrained dry earth specks. Distant far edge of island across upper fifth only has low irregular gray-brown coastal stone rim, calm open ocean and clean sky behind it. No trees, buildings, docks in frame, statues, monuments, triangle object, ruins or upright rocks. Player and opponent stand well inland on a single continuous broad level grassy plane; no water touching their standing regions.
+Delicate Japanese watercolor washes, fine restrained ink outlines, polished hand-painted monster-adventure scenery, naturally readable depth and restrained ground texture.
+Composition: 3:2 landscape. Player standing x28%,y64%, opponent x72%,y43%, with broad clear grassy ground around and behind both.
+Night only: independently painted cool moonlit island, deep blue clear sky with a few tiny stars, restrained moonlight on distant dark ocean, readable cool blue-green grass with gentle silver highlights. No sun, orange sunset, daylight sky or black crushed ground.
+Critical perspective: shoreline and ALL ocean water confined ABOVE y20%; lower80% entirely level grassy ground, including clear ground BEHIND both standing positions. Low battle camera across the clearing; distant horizon, ground continues to bottom edge. No obstacles or cliff drops in standing regions.
+No people, creatures, animals, silhouettes, PokÃ©mon, text, UI, logos, symbols, baked mounds, circular platforms, split views, montage, day/night comparisons or multiple scenes. Full bleed, ONE island view and ONE time of day.

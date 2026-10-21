@@ -1,0 +1,22 @@
+{
+  "installed_pack_checks": 6,
+  "games": [
+    "ruby",
+    "sapphire",
+    "emerald"
+  ],
+  "runtime": "0.3.95",
+  "sprite_suite": "National Dex 1.2.0, G9 sprites 1.5.4, HD library 0.4.5",
+  "method": "Existing offline importer stages a real five-file pack in isolated mod cache; actual Loader/ImportAccess/PackStore verifies it and asset library imports it. Bundled ocean backgrounds are hidden only in fixture to require installed pack selection.",
+  "verified": [
+    "Every pack asset size/SHA256 through actual runtime",
+    "Day/night installed scenery selected",
+    "Mound canonical material coverage scale and +3 native pixel offset",
+    "Native UI transform invariance"
+  ],
+  "limitations": [
+    "Offline import, not a fresh HTTP download.",
+    "Only 16:9 ocean pack here, not every release pack/aspect.",
+    "No real user cache changes or uploads."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "scope": "Diagnostic thumbnails from completed Emerald 1280x720 doubles pass; no source artwork edited; not visual approval",
+  "families": 75,
+  "pages": [
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-01.png",
+      "families": [
+        "abandoned_ship",
+        "abandoned_ship_flooded",
+        "aqua_hideout",
+        "artisan_cave",
+        "ashfield",
+        "battle_arena",
+        "battle_dome",
+        "battle_factory"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-02.png",
+      "families": [
+        "battle_palace",
+        "battle_pike",
+        "battle_pyramid",
+        "beach",
+        "birth_island",
+        "cave",
+        "cave_of_origin",
+        "cave_water"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-03.png",
+      "families": [
+        "city",
+        "desert",
+        "desert_ruin",
+        "desert_underpass",
+        "dewford_gym",
+        "drake_chamber",
+        "faraway_island",
+        "forest"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-04.png",
+      "families": [
+        "fortree_gym",
+        "frontier_gardens",
+        "glacia_chamber",
+        "granite_cave",
+        "grassland",
+        "hoenn_battle_tower",
+        "hoenn_champion",
+        "hoenn_safari"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-05.png",
+      "families": [
+        "lavaridge_gym",
+        "magma_core",
+        "magma_hideout",
+        "marine_cave",
+        "mauville_gym",
+        "meteor_falls",
+        "mossdeep_gym",
+        "mt_pyre_exterior"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-06.png",
+      "families": [
+        "mt_pyre_interior",
+        "mt_pyre_summit",
+        "navel_rock_depths",
+        "navel_rock_summit",
+        "new_mauville",
+        "ocean",
+        "oceanic_museum",
+        "pacifidlog_water"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-07.png",
+      "families": [
+        "petalburg_gym",
+        "phoebe_chamber",
+        "pond",
+        "rainforest",
+        "regi_ancient_tomb",
+        "regi_desert_ruins",
+        "regi_island_cave",
+        "river"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-08.png",
+      "families": [
+        "rustboro_gym",
+        "seafloor_cavern",
+        "seafoam_cave",
+        "seashore_house",
+        "ship_cabin",
+        "shoal_cave",
+        "sidney_chamber",
+        "sky_pillar"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-09.png",
+      "families": [
+        "sky_pillar_summit",
+        "sootopolis_gym",
+        "southern_island",
+        "space_center",
+        "terra_cave",
+        "trick_house",
+        "underwater_ocean",
+        "volcanic_cave"
+      ]
+    },
+    {
+      "path": "docs\\evidence\\rse\\reviewed\\all-family-widescreen-sheets\\page-10.png",
+      "families": [
+        "volcanic_crater",
+        "volcanic_slope",
+        "weather_institute"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Shared Hoenn doubles mound profile correction; no native sprites or UI moved",
+  "profile": {
+    "opponent": {
+      "x": 176,
+      "y": 66,
+      "width": 152,
+      "height": 40
+    },
+    "player": {
+      "x": 61,
+      "ruby_sapphire_y": 117,
+      "emerald_y": 121,
+      "width": 160,
+      "height": 40
+    }
+  },
+  "captures": [
+    {
+      "path": "docs/evidence/rse/loader/native/doubles/emerald-1280x720-grassland-day-current.png",
+      "sha256": "95547c3e81dd272006baa969ea4548eedadc1e169f38d89b3b9791265af3ea8c",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/doubles/emerald-5120x1440-rustboro_gym-day-current.png",
+      "sha256": "382e1266d8f03a7c855e46b62bc21076ba8a3191a7c95242ae844295e06a8409",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/doubles/ruby-900x1600-rustboro_gym-day-current.png",
+      "sha256": "4caaa4c6e7728b23ae42045dc8e615fbe7d3de4c9422cf8e62dda6fb86f45a87",
+      "visually_reviewed": true
+    }
+  ],
+  "limitations": "Three visual samples only; native UI occludes some foot/mound regions. Shared mound, not per-battler islands. No full double-turn, move animation, faint/switch or mod-sprite coverage."
+}

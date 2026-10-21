@@ -1,0 +1,21 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": false,
+  "processes": 1,
+  "scene_cases": 10,
+  "candidate_manifest_only": true,
+  "all_areas": false,
+  "review_families": [],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 10,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "Limited original scenery fixtures; Doubles not covered; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

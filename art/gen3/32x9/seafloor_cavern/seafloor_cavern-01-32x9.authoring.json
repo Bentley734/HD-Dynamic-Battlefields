@@ -3,14 +3,14 @@
   "composition_id": "seafloor_cavern-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2121,
-    "height": 597
+    "width": 1824,
+    "height": 513
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.33825795644891127,
-  "background": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
-  "sha256": "77c183cd609dfc72ea5c2968f86b3ff4c3d0ee9219fab23ea723101d2626e915",
+  "horizon_y": 0.22990253411306047,
+  "background": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9-horizon-clearance-v3.png",
+  "sha256": "d6d2bc6bd9acacddc56fe09c7f7e11512aaef14207b1bafe13af29c11e918aa6",
   "mound_material_candidates": [
     "limestone",
     "cave-pale-limestone"
@@ -31,74 +31,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.32584978070175435,
+      0.6043274853801168
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32584978070175435,
+      0.5810526315789474
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009309941520467836
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45000000000000007
+      0.6746984649122808,
+      0.35994152046783634
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6746984649122808,
+      0.3366666666666666
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009309941520467836
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/cave/cave-03-32x9.png",
-    "original_sha256": "c6e8487c809fb8589a51aee252f2d395767b8d81b490b592a3439e27d2e0b771",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
+    "original_sha256": "77c183cd609dfc72ea5c2968f86b3ff4c3d0ee9219fab23ea723101d2626e915",
     "original_size": {
       "width": 2121,
-      "height": 741
+      "height": 597
     },
     "crop_pixels": [
-      0,
-      50,
-      2121,
-      647
+      148,
+      84,
+      1972,
+      597
     ],
-    "source_geometry": {
-      "horizon_y": 0.34,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5831039136302294
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5992172739541161
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.4139136302294197
-        ],
-        "mound_anchor": [
-          0.65,
-          0.4300269905533064
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/seafloor_cavern/seafloor_cavern-01-32x9-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "aspect": "32x9",

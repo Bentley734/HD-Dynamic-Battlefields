@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Sky Pillar summit rooftop, first variation.
+ONE enormous empty ancient gray-stone rooftop above distant soft clouds. Broad LEVEL unbroken matte weathered gray floor with irregular hairline cracks, subtle dust, no regular tile grid. Far rear ONLY a low broken parapet and a few small weathered square stone pillar stumps, all distant and low. Clear airy high-altitude sky beyond. No tall tower visible, temple, shrine, statues, symbols, carved creatures, vegetation, mountain peaks, snow or ice.
+Style: delicate Japanese watercolor washes and restrained fine ink contours, cohesive polished monster-adventure scenery, natural worn stone texture with atmospheric depth.
+Composition: 9:20 tall portrait. Independent portrait framing, player standing x32%,y65%, opponent x68%,y43%.
+CRITICAL: lower EIGHTY PERCENT is entirely clear continuous dry stone floor. Distant parapet base and pillar bases ABOVE y15%, pillars small and far away; sky a narrow top strip. Absolutely no rooftop edges, holes, deep cracks or drop-offs in the standing plane. No foreground columns or debris. Generous clear floor around AND behind both standing zones. No circular floor emblems or raised platforms.
+DAY ONLY: soft clean pale-blue sky and distant white clouds; muted neutral gray stone with gentle warm daylight. No moon, stars or sunset.
+ONE complete empty scene, ONE time of day. NO people, PokÃ©mon, creatures, birds, wolves, dragons, silhouettes, text, UI, logos, inscriptions, emblems, battle mounds, circular pads, split day/night views, montage or collage.

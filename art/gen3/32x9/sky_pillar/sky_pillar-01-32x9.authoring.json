@@ -3,14 +3,14 @@
   "composition_id": "sky_pillar-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2089,
-    "height": 588
+    "width": 1810,
+    "height": 509
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.33316326530612245,
-  "background": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9.png",
-  "sha256": "d685a3aa377b1c7aec4e60500f71521037811d6072b93aaeed335e90d43c3c7c",
+  "horizon_y": 0.22966601178781926,
+  "background": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9-horizon-clearance-v3.png",
+  "sha256": "0970b21e56fca5a512d94e24229ad510d252bb12b0a939e01c20bc5e8f3e10d1",
   "mound_material_candidates": [
     "floor-gray",
     "pale-gravel"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3271546961325967,
+      0.6072298624754421
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3271546961325967,
+      0.5841257367387033
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00924165029469548
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6733977900552487,
+      0.3646365422396857
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6733977900552487,
+      0.341532416502947
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00924165029469548
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/sky_pillar-01-32x9-original.png",
-    "original_sha256": "c61d7e8d2b08c2b8839cf3cafb8c359ddc5e73ae610d68456e0df2ae4bba7861",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9.png",
+    "original_sha256": "d685a3aa377b1c7aec4e60500f71521037811d6072b93aaeed335e90d43c3c7c",
     "original_size": {
       "width": 2089,
-      "height": 753
+      "height": 588
     },
     "crop_pixels": [
-      0,
-      30,
-      2089,
-      618
+      139,
+      79,
+      1949,
+      588
     ],
-    "source_geometry": {
-      "horizon_y": 0.3,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.539601593625498
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5552191235059761
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.37561752988047814
-        ],
-        "mound_anchor": [
-          0.65,
-          0.3912350597609562
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/sky_pillar/sky_pillar-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

@@ -1,0 +1,151 @@
+{
+  "scope": "32:9 interior source replacement and focused floor clearance",
+  "families_replaced": [
+    "fortree_gym",
+    "dewford_gym",
+    "weather_institute"
+  ],
+  "generation": "Built-in imagegen; exact prompts retained with originals and canonical art",
+  "crop_only": true,
+  "scene_cases": 32,
+  "summaries": {
+    "single": {
+      "mode": "loader",
+      "content": "none",
+      "double_fixture": false,
+      "processes": 3,
+      "scene_cases": 12,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "fortree_gym",
+        "dewford_gym",
+        "hoenn_champion",
+        "weather_institute"
+      ],
+      "reports": [
+        {
+          "game": "ruby",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "sapphire",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Doubles not covered; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    },
+    "double": {
+      "mode": "loader",
+      "content": "none",
+      "double_fixture": true,
+      "processes": 3,
+      "scene_cases": 12,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "fortree_gym",
+        "dewford_gym",
+        "hoenn_champion",
+        "weather_institute"
+      ],
+      "reports": [
+        {
+          "game": "ruby",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "sapphire",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    },
+    "national": {
+      "mode": "loader",
+      "content": "national",
+      "double_fixture": true,
+      "processes": 1,
+      "scene_cases": 4,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "fortree_gym",
+        "dewford_gym",
+        "weather_institute"
+      ],
+      "reports": [
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    },
+    "1025": {
+      "mode": "loader",
+      "content": "1025",
+      "double_fixture": true,
+      "processes": 1,
+      "scene_cases": 4,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "fortree_gym",
+        "dewford_gym",
+        "weather_institute"
+      ],
+      "reports": [
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    }
+  },
+  "captures": [
+    {
+      "path": "docs/evidence/rse/reviewed/interior-32x9-floor-v2/native-emerald-5120x1440-fortree_gym-day-current.png",
+      "sha256": "23751bda7598adf6c85bf5795abe71615107c339aa83bb56e9d09352b9278a83",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/interior-32x9-floor-v2/native-emerald-5120x1440-dewford_gym-day-current.png",
+      "sha256": "f46cb75b4140355330cc3b1a8dee20b8bfebdc5f1865c81629165a96025830b6",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/interior-32x9-floor-v2/native-emerald-5120x1440-weather_institute-day-current.png",
+      "sha256": "2852c7b665f865393a060bd8b57eb4a92f1646579e539c143035d7c2a9f74397",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/interior-32x9-floor-v2/national-emerald-5120x1440-fortree_gym-day-current.png",
+      "sha256": "223edf18c6a943cb6dbddda0e1692776cf5fee8692c31f32b82cfdf060c1f7e8",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/interior-32x9-floor-v2/1025-emerald-5120x1440-weather_institute-day-current.png",
+      "sha256": "843916c9782dfb2fd2604d50a0f0939d2fb71151be265529dbdc90b23bad5ba1",
+      "visually_reviewed": true
+    }
+  ],
+  "limitations": "Only five named captures visually reviewed; native single/double R/S/E and two Emerald content configurations loading/UI traces sampled. Not every environment, aspect, species or battle sequence. No uploads."
+}

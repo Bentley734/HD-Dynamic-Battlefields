@@ -1,3 +1,11 @@
+# Hoenn beta 0.3.0-beta.1 current scope
+
+Current targeted evidence uses runtime 0.3.95. Red/Blue/Yellow and Gold/Silver/Crystal candidate-package fixtures pass; Gen2 also passes real Loader/Sandbox with Menu Customizer. FireRed/LeafGreen source candidate fixtures pass with National Dex/G9/HD library. R/S/E native trainer, doubles, installed-pack and existing-window resize fixtures have separate evidence, including 1025Dex tested separately from National Dex. The latest water correction passed 126 Emerald scene checks across nine aspects in singles/doubles.
+
+These are targeted fixtures, not complete playthroughs or exhaustive map/species/move/device certification. Physical mobile performance/orientation is unverified. G9 cached sprites have an observed graphics-mode recreation issue; existing-window resize passed tested fixtures. Competing scenery-provider coexistence and link scenery remain unvalidated. See [Hoenn beta guide](HOENN-BETA.md) and [development evidence](GEN3-HOENN-DEVELOPMENT.md).
+
+The older sections below are retained as historical records and do not describe the current candidate scope.
+
 # Kanto Beta 2 current evidence
 
 Current changes and exact validation scope are in [BETA-2.md](BETA-2.md): FR/LG native scenery and grouped OPTIONS adapter, effective species/form lists for National Dex/G9/HD Sprites or 1025Dex, per-game/species/side integer position corrections, and Red/Blue/Yellow regressions. Battle UI remains controlled by the runtime or UI mod. Gen 2, R/S/E and link scenery remain unintegrated. The following Beta 1 and earlier sections are historical evidence and do not supersede Beta 2.

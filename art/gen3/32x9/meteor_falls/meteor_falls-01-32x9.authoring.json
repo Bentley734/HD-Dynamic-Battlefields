@@ -3,14 +3,14 @@
   "composition_id": "meteor_falls-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2079,
-    "height": 585
+    "width": 1756,
+    "height": 494
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.34892307692307695,
-  "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
-  "sha256": "4810260ccddc9fd158f1db61b5042f244965a27ab976c77994c8cee09e20a167",
+  "horizon_y": 0.22898785425101215,
+  "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9-horizon-clearance-v3.png",
+  "sha256": "4ff9bf566cb984a2661144a87698425ed13ebfd988b1a71abdd774623e72948a",
   "mound_material_candidates": [
     "cave-pale-limestone",
     "sandstone"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6600000000000001
+      0.32269362186788153,
+      0.5973684210526318
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32269362186788153,
+      0.5736842105263159
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009473684210526315
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.4500000000000001
+      0.6778758542141231,
+      0.34868421052631593
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6778758542141231,
+      0.32499999999999996
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009473684210526315
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/meteor_falls-01-32x9-v2-original.png",
-    "original_sha256": "86b368421016c31d886c8dc6e51bf1ea8213ede651ffb8d1e4e681881f87b397",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+    "original_sha256": "4810260ccddc9fd158f1db61b5042f244965a27ab976c77994c8cee09e20a167",
     "original_size": {
       "width": 2079,
-      "height": 756
+      "height": 585
     },
     "crop_pixels": [
-      0,
-      0,
-      2079,
+      161,
+      91,
+      1917,
       585
     ],
-    "source_geometry": {
-      "horizon_y": 0.27,
-      "player": {
-        "mound_anchor": [
-          0.35,
-          0.5107142857142858
-        ],
-        "pokemon_ground_anchor": [
-          0.35,
-          0.49523809523809526
-        ]
-      },
-      "opponent": {
-        "mound_anchor": [
-          0.65,
-          0.34821428571428575
-        ],
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3327380952380952
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/meteor_falls/meteor_falls-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "loaded": [
+    "national_dex_gen3",
+    "g9-battle-sprites-gen3",
+    "gen3-hd-sprites",
+    "hd-dynamic-battlefields"
+  ],
+  "species": 1155,
+  "mode": "national",
+  "scope": "Actual local source through official Loader/Sandbox; effective registry chooser and native scene checks. Optional automatic trainer flow recorded separately; no live save writes or publication claim.",
+  "game": "leafgreen",
+  "runtime": "0.3.95",
+  "mod_species_and_forms": 767,
+  "dex_source": "C:/Users/LSDMTHC/Desktop/Hoennto/.work/1025dex-double-fix",
+  "render_checks": 12
+}

@@ -1,0 +1,19 @@
+{
+  "runtime": "0.3.95",
+  "archive_sha256": "99c8cb26357671e86379b509c3835635b8cda9312d2f62c9ecb609e1ab785d99",
+  "checks": [
+    {
+      "game": "red",
+      "passed": true
+    },
+    {
+      "game": "blue",
+      "passed": true
+    },
+    {
+      "game": "yellow",
+      "passed": true
+    }
+  ],
+  "scope": "Actual extracted base ZIP through real Loader/Sandbox. Bundled day fallback loads at 16:9; missing aspect art safely retains native scenery at 32:9 and portrait; returning restores bundled scenery. UI traces and adjustment/reset checks included. No downloaded packs or real save writes. Not a Hoenn gameplay certification."
+}

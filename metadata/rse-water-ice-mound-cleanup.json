@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/ice-cave/mound-ice-cave-01.png",
+      "cleaned": "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png",
+      "source_sha256": "5eb18b201ae54a599e3e8a0dbb58f28c584fd07761a91945b3d8e4dad10fdfc5",
+      "cleaned_sha256": "3a6f946c6c7ac6ae444c6c83eaaa60c0227a3d808a9528343b569c82dcd0041c",
+      "source_pixel_trim": 24,
+      "cleanup": "approved rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; all-aspect native blending pending"
+    },
+    {
+      "source": "art/mounds/islet-rock/mound-islet-rock-01.png",
+      "cleaned": "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png",
+      "source_sha256": "63a26715b37a79503ec7cade0d9b8969d6852e34eda8a7b0f9a799aa9476d77a",
+      "cleaned_sha256": "d5b2b7ed5c11d1590f8fd28303371523883e0de9013ae75f6100d81762c2bcd3",
+      "source_pixel_trim": 20,
+      "cleanup": "approved rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; all-aspect native blending pending"
+    },
+    {
+      "source": "art/mounds/islet-sand/mound-islet-sand-01.png",
+      "cleaned": "art/mounds/islet-sand/mound-islet-sand-01-clean-v3.png",
+      "source_sha256": "435fe2cf9e812d71eee240fef509034868597014dec297e5e9a0a25beca11ad8",
+      "cleaned_sha256": "465544a960e71f9f9aebf9620394c5bd4eb447762c0bc903ebd684581a091d81",
+      "source_pixel_trim": 20,
+      "cleanup": "approved rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; all-aspect native blending pending"
+    },
+    {
+      "source": "art/mounds/islet-sand/mound-islet-sand-01-night.png",
+      "cleaned": "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png",
+      "source_sha256": "be3dde582c3f43c6c3e39c3dd0c3f1ed1f8b60b501054134bf66816890ae51f0",
+      "cleaned_sha256": "186903fe3e2f36928416bcb6cf34df19617d1a10f903ce228eaf88925cb99b19",
+      "source_pixel_trim": 20,
+      "cleanup": "approved rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; all-aspect native blending pending"
+    }
+  ]
+}

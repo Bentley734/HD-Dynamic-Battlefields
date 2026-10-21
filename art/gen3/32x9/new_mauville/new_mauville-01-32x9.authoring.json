@@ -3,14 +3,14 @@
   "composition_id": "new_mauville-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 2172,
+    "height": 611
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.35528673835125446,
-  "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9.png",
-  "sha256": "87179ddd721cb565ad4dfac43297eb2eced05dce438f81c20a9dc98503df094f",
+  "horizon_y": 0.22795417348608837,
+  "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9-doubles-floor-fix-v2.png",
+  "sha256": "e77983e63eb7d1d466df946b7f4b5babd9a324013150c8471016c25dd3333184",
   "mound_material_candidates": [
     "floor-gray",
     "floor-charcoal"
@@ -61,43 +61,22 @@
     ],
     "layer": 10
   },
-  "source_processing": {
-    "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/new_mauville-01-32x9-original.png",
-    "original_sha256": "59b82177f0b91ffc035a18ee8b85dfbab9ebcb6c8a6415e1fa91f9cf31de6065",
-    "original_size": {
-      "width": 1983,
-      "height": 793
-    },
-    "crop_pixels": [
-      0,
-      0,
-      1983,
-      558
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/32x9/new_mauville/new_mauville-01-32x9-pre-doubles-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/new_mauville/new_mauville-01-32x9-doubles-floor-fix-original.png",
+    "original_sha256": "e14328b1fc53e9357373ca3bacac29432b6387529ee9ed762fa31f87fc0f2ccb",
+    "original_size": [
+      2172,
+      724
     ],
-    "source_geometry": {
-      "horizon_y": 0.25,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.45034047919293824
-        ],
-        "mound_anchor": [
-          0.35,
-          0.46441361916771756
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3025725094577554
-        ],
-        "mound_anchor": [
-          0.65,
-          0.31664564943253465
-        ]
-      }
-    }
+    "crop": [
+      0,
+      20,
+      2172,
+      631
+    ],
+    "operation": "Approved excess canvas trim only, no resampling",
+    "reason": "Native 32:9 doubles mound too close to wall/floor boundary",
+    "generation": "built-in imagegen reference edit"
   }
 }

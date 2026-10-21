@@ -2,6 +2,50 @@
   "schema_version": 1,
   "stage": "Hoenn integration candidates; visual calibration pending",
   "families": {
+    "regi_island_cave": {
+      "ambient": "art/mounds/cave/mound-cave-01-clean-v3.png"
+    },
+    "regi_ancient_tomb": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+    },
+    "granite_cave": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+    },
+    "shoal_cave": {
+      "ambient": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png"
+    },
+    "seafloor_cavern": {
+      "ambient": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png"
+    },
+    "magma_hideout": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+    },
+    "terra_cave": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+    },
+    "volcanic_cave": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+    },
+    "regi_desert_ruins": {
+      "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+    },
+    "desert_underpass": {
+      "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+    },
+    "desert_ruin": {
+      "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+    },
+    "navel_rock_depths": {
+      "ambient": "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png"
+    },
+    "navel_rock_summit": {
+      "day": "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+      "night": "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+    },
+    "sky_pillar_summit": {
+      "day": "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+      "night": "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+    },
     "ashfield": {
       "day": "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
       "night": "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png"
@@ -19,6 +63,151 @@
     },
     "meteor_falls": {
       "ambient": "art/mounds/limestone-warm-rose/mound-limestone-warm-rose-01-clean.png"
+    },
+    "aqua_hideout": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "space_center": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "oceanic_museum": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "battle_factory": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "hoenn_battle_tower": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "weather_institute": {
+      "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+    },
+    "battle_dome": {
+      "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+    },
+    "trick_house": {
+      "ambient": "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+    },
+    "battle_palace": {
+      "ambient": "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+    },
+    "seashore_house": {
+      "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "cave_of_origin": {
+      "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+    },
+    "sky_pillar": {
+      "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+    },
+    "battle_pyramid": {
+      "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+    },
+    "artisan_cave": {
+      "ambient": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png"
+    },
+    "sidney_chamber": {
+      "ambient": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png"
+    },
+    "hoenn_champion": {
+      "ambient": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png"
+    },
+    "fortree_gym": {
+      "ambient": "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png"
+    },
+    "mossdeep_gym": {
+      "ambient": "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png"
+    },
+    "dewford_gym": {
+      "ambient": "art/mounds/carpet-blue/mound-carpet-blue-01-clean-v3.png"
+    },
+    "battle_pike": {
+      "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+    },
+    "petalburg_gym": {
+      "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "battle_arena": {
+      "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+    },
+    "mauville_gym": {
+      "ambient": "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png"
+    },
+    "lavaridge_gym": {
+      "ambient": "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png"
+    },
+    "new_mauville": {
+      "ambient": "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+    },
+    "birth_island": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "faraway_island": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "southern_island": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "frontier_gardens": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "hoenn_safari": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "volcanic_crater": {
+      "day": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-clean-v3.png",
+      "night": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night-clean-v3.png"
+    },
+    "mt_pyre_exterior": {
+      "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+    },
+    "mt_pyre_interior": {
+      "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+    },
+    "rustboro_gym": {
+      "ambient": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png"
+    },
+    "glacia_chamber": {
+      "ambient": "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png"
+    },
+    "sootopolis_gym": {
+      "ambient": "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png"
+    },
+    "marine_cave": {
+      "ambient": "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+    },
+    "pacifidlog_water": {
+      "day": "art/mounds/islet-sand/mound-islet-sand-01-clean-v3.png",
+      "night": "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png"
+    },
+    "drake_chamber": {
+      "ambient": "art/mounds/carpet-crimson/mound-carpet-crimson-01-clean-v3.png"
+    },
+    "phoebe_chamber": {
+      "ambient": "art/mounds/carpet-violet/mound-carpet-violet-01-clean-v3.png"
+    },
+    "abandoned_ship": {
+      "ambient": "art/mounds/floor-weathered-sage/mound-floor-weathered-sage-01-clean-v3.png"
+    },
+    "volcanic_slope": {
+      "day": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png",
+      "night": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night-clean-v3.png"
+    },
+    "abandoned_ship_flooded": {
+      "ambient": "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+    },
+    "mt_pyre_summit": {
+      "day": "art/mounds/highland/mound-highland-01-clean-v3.png",
+      "night": "art/mounds/highland/mound-highland-01-night-clean-v3.png"
+    },
+    "magma_core": {
+      "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
     }
   }
 }

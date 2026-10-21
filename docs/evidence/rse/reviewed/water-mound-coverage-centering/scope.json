@@ -1,0 +1,23 @@
+{
+  "material_scale": 1.6,
+  "native_y_offset": 3,
+  "painted_origins": {
+    "islet-grass": [
+      0.5,
+      0.58
+    ],
+    "islet-rock": [
+      0.5,
+      0.66
+    ],
+    "islet-sand": [
+      0.5,
+      0.58
+    ]
+  },
+  "uniform_scaling": true,
+  "sprites_ui_moved": false,
+  "native_checks": 12,
+  "visual_review": "Ocean full-size 1280x720 after final downward correction; ocean/flooded ship prior offset review",
+  "scope": "Hoenn islet materials, not arbitrary third-party mounds. Other aspect/game combinations remain to verify."
+}

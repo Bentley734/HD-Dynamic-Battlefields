@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "seashore_house-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1771,
+    "height": 498
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.2289156626506024,
+  "background": "art/gen3/32x9/seashore_house/seashore_house-01-32x9-horizon-clearance-v3.png",
+  "sha256": "419b7f94658f071b242d87731994211b899f701caa6155b4fcb1c709472a7626",
+  "mound_material_candidates": [
+    "floor-ivory",
+    "floor-beige"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3268210050818746,
+      0.6067469879518073
+    ],
+    "pokemon_ground_anchor": [
+      0.3268210050818746,
+      0.5836144578313253
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.009253012048192772
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6737436476566911,
+      0.36385542168674695
+    ],
+    "pokemon_ground_anchor": [
+      0.6737436476566911,
+      0.34072289156626506
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.009253012048192772
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/seashore_house/seashore_house-01-32x9.png",
+    "original_sha256": "5414452b1f8f799e8a77c0ebff7d2410b80ba1c4bd0d4b7c2bfc988c8c88c123",
+    "original_size": {
+      "width": 2048,
+      "height": 576
+    },
+    "crop_pixels": [
+      138,
+      78,
+      1909,
+      576
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/seashore_house/seashore_house-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

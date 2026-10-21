@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/floor-sage/mound-floor-sage-02.png",
+      "output": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png",
+      "original_sha256": "e4042fb8e0df5fcb14a143a444701b8f06f0dc284d928652375488cd25b13ab8",
+      "clean_sha256": "b3d00025ab50e67d58319643e57f48d1ff9ce63260084a712c7a7a74b89f799a",
+      "operation": "rounded 12-source-pixel perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "cleaned source visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/floor-ivory/mound-floor-ivory-01.png",
+      "output": "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png",
+      "original_sha256": "34f19eb5202848091fe48496e255ea25a92070276426ea911a9cc55247068a44",
+      "clean_sha256": "972fe778f42382dd2bf9e5bb3bd4a82afa9dd3b2fbe6b38a35809517ec2e110b",
+      "operation": "rounded 12-source-pixel perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "cleaned source visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01.png",
+      "output": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png",
+      "original_sha256": "7371ac92102af6ffbf9c983ce9b332014df5e6dc6f10ea463245507fbc84f59d",
+      "clean_sha256": "6c5586997c0eb659fae9b3afe1f28be30ae825465e319bc7103bc990b1fa12a5",
+      "operation": "rounded 12-source-pixel perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "cleaned source visually reviewed; native blending pending"
+    }
+  ]
+}

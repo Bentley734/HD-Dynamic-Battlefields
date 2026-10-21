@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/faraway_island-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/faraway_island-01-32x9-original.txt",
+    "family": "faraway_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "forest",
+      "grass"
+    ],
+    "crop_pixels": [
+      0,
+      140,
+      2048,
+      716
+    ],
+    "source_geometry": {
+      "horizon_y": 0.4,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6622916666666666
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6772916666666667
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.5047916666666666
+        ],
+        "mound_anchor": [
+          0.65,
+          0.5197916666666667
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/faraway_island-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/faraway_island-01-32x9-night-original.txt",
+    "family": "faraway_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "forest",
+      "grass"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2103,
+      591
+    ],
+    "source_geometry": {
+      "horizon_y": 0.11,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.505668449197861
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5214705882352941
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3397459893048128
+        ],
+        "mound_anchor": [
+          0.65,
+          0.355548128342246
+        ]
+      }
+    }
+  }
+]

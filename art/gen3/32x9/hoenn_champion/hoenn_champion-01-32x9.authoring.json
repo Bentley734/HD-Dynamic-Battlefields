@@ -3,22 +3,20 @@
   "composition_id": "hoenn_champion-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2115,
+    "width": 2117,
     "height": 595
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3995966386554622,
-  "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
-  "sha256": "1e0cb8cbee988de6611bc1973e62ffb46da0665ee8ea8176ee8856e32f8da448",
+  "horizon_y": 0.24063865546218488,
+  "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9-floor-fix-v2.png",
+  "sha256": "56cb1337596920d4b3160ceb6a526fb0f72df139aad45a2179ee1d7faf4af887",
   "mound_material_candidates": [
     "carpet-burgundy",
     "floor-ivory"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
-    "Rear floor boundary near opponent draft ground anchor after crop; review contact and recompose if necessary during deferred native calibration."
+    "Original replacement source reviewed; native/aspect/species calibration remains pending."
   ],
   "depth": {
     "player": 1,
@@ -110,5 +108,17 @@
     "target": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
     "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated.",
     "operation": "crop_only_no_resampling"
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/32x9/hoenn_champion/hoenn_champion-01-32x9-pre-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/hoenn_champion/hoenn_champion-01-32x9-floor-fix-original.png",
+    "crop": [
+      0,
+      50,
+      2117,
+      645
+    ],
+    "operation": "Approved excess canvas trim only; no resampling",
+    "reason": "Native 5120x1440 opponent mound overlapped rear wall"
   }
 }

@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/pacifidlog_water-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/pacifidlog_water-01-32x9-original.txt",
+    "family": "pacifidlog_water",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "ripple",
+      "islet-sand"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2089,
+      588
+    ],
+    "source_geometry": {
+      "horizon_y": 0.12,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.4997609561752988
+        ],
+        "mound_anchor": [
+          0.35,
+          0.515378486055777
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33577689243027886
+        ],
+        "mound_anchor": [
+          0.65,
+          0.351394422310757
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/pacifidlog_water-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/pacifidlog_water-01-32x9-night-original.txt",
+    "family": "pacifidlog_water",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "ripple",
+      "islet-sand"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2048,
+      576
+    ],
+    "source_geometry": {
+      "horizon_y": 0.16,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.48
+        ],
+        "mound_anchor": [
+          0.35,
+          0.49500000000000005
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3225
+        ],
+        "mound_anchor": [
+          0.65,
+          0.33749999999999997
+        ]
+      }
+    }
+  }
+]

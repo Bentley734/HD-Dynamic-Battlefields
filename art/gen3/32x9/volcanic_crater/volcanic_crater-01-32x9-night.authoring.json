@@ -3,14 +3,14 @@
   "composition_id": "volcanic_crater-01-32x9-night",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1735,
+    "height": 488
   },
   "aspect_ratio": "32:9",
   "time_of_day": "night",
-  "horizon_y": 0.3466666666666667,
-  "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night.png",
-  "sha256": "16ea656ee090a819ff78975e84a06c506f3764eda38ed09797c637dd18185a9e",
+  "horizon_y": 0.22885245901639345,
+  "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night-horizon-clearance-v3.png",
+  "sha256": "03c0e9e6d501bf2cb2d848e220e5b7f07cb25af3a6e7f20b23cf15339c5dc180",
   "mound_material_candidates": [
     "cave-warm-basalt",
     "highland"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.3232276657060518,
+      0.5986885245901639
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3232276657060518,
+      0.5750819672131148
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009442622950819672
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45000000000000007
+      0.6773487031700288,
+      0.3508196721311476
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6773487031700288,
+      0.32721311475409837
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009442622950819672
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/volcanic_crater-01-32x9-night-original.png",
-    "original_sha256": "c0c5691ba7f41dfe38663eb13c75a1eb27e11eca521fca22ed619ef3647f343c",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night.png",
+    "original_sha256": "16ea656ee090a819ff78975e84a06c506f3764eda38ed09797c637dd18185a9e",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      0,
-      2048,
+      156,
+      88,
+      1891,
       576
     ],
-    "source_geometry": {
-      "horizon_y": 0.26,
-      "player": {
-        "mound_anchor": [
-          0.35,
-          0.495
-        ],
-        "pokemon_ground_anchor": [
-          0.35,
-          0.48
-        ]
-      },
-      "opponent": {
-        "mound_anchor": [
-          0.65,
-          0.3375
-        ],
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3225
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/volcanic_crater/volcanic_crater-01-32x9-night-before-horizon-clearance-v3.authoring.json"
   }
 }

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "mt_pyre_exterior-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1877,
+    "height": 528
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.22863636363636364,
+  "background": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-horizon-clearance-v3.png",
+  "sha256": "a80a8534b4eb31e99f38781e42cda1ad8d09a2194df5134e1081a656bbbfdde1",
+  "mound_material_candidates": [
+    "grass",
+    "pale-gravel"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3330580713905168,
+      0.6213636363636365
+    ],
+    "pokemon_ground_anchor": [
+      0.3330580713905168,
+      0.5990909090909091
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008909090909090908
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6669419286094833,
+      0.38750000000000007
+    ],
+    "pokemon_ground_anchor": [
+      0.6669419286094833,
+      0.3652272727272727
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008909090909090908
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9.png",
+    "original_sha256": "f6ec1900bd5a36e3752f449e624c25cab61f0c279bf4213dcba39b0a00da49de",
+    "original_size": {
+      "width": 2089,
+      "height": 588
+    },
+    "crop_pixels": [
+      106,
+      60,
+      1983,
+      588
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

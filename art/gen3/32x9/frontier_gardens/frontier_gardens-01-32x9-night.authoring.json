@@ -3,14 +3,14 @@
   "composition_id": "frontier_gardens-01-32x9-night",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2172,
-    "height": 611
+    "width": 1952,
+    "height": 549
   },
   "aspect_ratio": "32:9",
   "time_of_day": "night",
-  "horizon_y": 0.30808510638297876,
-  "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
-  "sha256": "b11ec5a0e42452730cbba5d0e34c4c75e681ec5b77123802da9d5db1b3118752",
+  "horizon_y": 0.22994535519125683,
+  "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night-horizon-clearance-v3.png",
+  "sha256": "29406b58d071c156d4430ecbd69c8b1e91d556267e3bd72d97f61b0c1659f3f0",
   "mound_material_candidates": [
     "grass",
     "forest"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.33309426229508193,
+      0.6216029143897996
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.33309426229508193,
+      0.599344262295082
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008903460837887067
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.666905737704918,
+      0.3878870673952641
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.666905737704918,
+      0.36562841530054646
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008903460837887067
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/frontier_gardens-01-32x9-night-original.png",
-    "original_sha256": "2c460c2d95b997ab00e82749edf7944a0865ae8928cde3246f06c5379f06d598",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
+    "original_sha256": "b11ec5a0e42452730cbba5d0e34c4c75e681ec5b77123802da9d5db1b3118752",
     "original_size": {
       "width": 2172,
-      "height": 724
+      "height": 611
     },
     "crop_pixels": [
-      0,
-      0,
-      2172,
+      110,
+      62,
+      2062,
       611
     ],
-    "source_geometry": {
-      "horizon_y": 0.26,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5401104972375691
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5569889502762431
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.36288674033149176
-        ],
-        "mound_anchor": [
-          0.65,
-          0.37976519337016573
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/frontier_gardens/frontier_gardens-01-32x9-night-before-horizon-clearance-v3.authoring.json"
   }
 }

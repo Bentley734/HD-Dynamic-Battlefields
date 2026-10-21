@@ -15,6 +15,7 @@ return function(mod)
  local Grounding=module('lib/grounding.lua')
  local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
  local game3=frlg or rse
+ local moundMaterials=rse and module('metadata/mound_materials.lua')or nil
  local nativeProfile=rse and module('metadata/native_rse.lua')[Version.get()]or module(frlg and'metadata/native_frlg.lua'or gen2 and'metadata/native_gen2.lua'or'metadata/native_gen1.lua')
  local wideProfile=not game3 and module(gen2 and'metadata/native_gen2_wide.lua'or'metadata/native_gen1_wide.lua')or nil
  local environments=rse and module('lib/environments_rse.lua')(module('metadata/maps/rse.lua'))or gen2 and module('lib/environments_gen2.lua').new(module('metadata/maps/gen2.lua'))or frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
@@ -36,7 +37,7 @@ return function(mod)
  local assetLibrary
  local scene=Scene.new(g,Perspective,function(path)
   local image=g.newImage(assetLibrary and assetLibrary:path(path)or mod.assets:path(path));image:setFilter('linear','linear');return image
- end)
+ end,function(path)return assetLibrary and assetLibrary:sourcePath(path)or path end)
  local selection=Compositions.new(catalog.compositions,function(entry)
   return (assetLibrary and assetLibrary:available(entry)or mod:info(entry.background)~=nil)and entry.mounds~=nil
  end)
@@ -135,7 +136,7 @@ return function(mod)
   {key='weatherMode',label='Weather',type='choice',default='auto',choices={{'Automatic','auto'},{'Clear','clear'},{'Rain','rain'},{'Snow','snow'},{'Sandstorm','sandstorm'},{'Fog','fog'},{'Sunlight','sun'}}},
   {key='animation',label='Animation quality',type='choice',default='medium',choices={{'Off','off'},{'Low','low'},{'Medium','medium'},{'High','high'}}},
   {key='mounds',label='Battle mounds',type='toggle',default=true},
-  {key='quality',label='Texture quality',type='choice',default='HD',choices={{'Mobile','Mobile'},{'HD','HD'},{'Ultra-HD','Ultra-HD'}}},
+  {key='quality',label='Texture quality',type='choice',default='HD',choices={{'Original HD','HD'}}},
   {key='aspect',label='Artwork aspect',type='choice',default='auto',choices={{'Automatic','auto'},{'4:3','4:3'},{'16:9','16:9'},{'16:10','16:10'},{'3:2','3:2'},{'21:9','21:9'},{'32:9','32:9'},{'9:16','9:16'},{'9:19.5','9:19.5'},{'9:20','9:20'}}},
   {key='calibration',label='Calibration guides',type='toggle',default=false},
  })
@@ -237,7 +238,8 @@ return function(mod)
    end
   end
   local state=climate:resolve(environment,mod.options:get('timeMode'),mod.options:get('weatherMode'),mod.options:get('animation'),
-   {battleWeather=context and context.weather or battle.field and battle.field.weather,timeOfDay=context and context.timeOfDay})
+   {battleWeather=context and context.weather or battle.field and battle.field.weather,
+    mapWeather=context and context.mapWeather,timeOfDay=context and context.timeOfDay})
   diagnostics.period,diagnostics.timeSource,diagnostics.weather,diagnostics.animation=state.period,state.timeSource,state.weather,state.level
   drawOptions.climate,drawOptions.tint=state,state.tint
   local entry,why=selection:choose(battle,{game=Version.get(),map=map,environment=environment},v,{mode=mod.options:get('selection'),aspect=mod.options:get('aspect'),quality=mod.options:get('quality')})
@@ -250,7 +252,8 @@ return function(mod)
   -- Apply user calibration relative to the unmodified authored layout,
   -- then place scenery at the consumer's existing native contact slots.
   local baseline=assert(scene:layout(v))
-  local grounded,why=Grounding.apply(layout,baseline,presentation=='wide'and wideProfile or nativeProfile,nativeFrame)
+  local activeProfile=context and context.double and nativeProfile.double or nativeProfile
+  local grounded,why=Grounding.apply(layout,baseline,presentation=='wide'and wideProfile or activeProfile,nativeFrame,moundMaterials,scene.moundSourcePaths)
   if not grounded then return fallback(why)end
   local assignments=Json.encode(selection:exportAssignments())
   if assignments~=lastAssignments then
@@ -264,6 +267,7 @@ return function(mod)
   diagnostics.quality,diagnostics.aspect=entry.quality,entry.aspect_ratio
   diagnostics.assetError=assetLibrary.error
   diagnostics.viewport=v
+  diagnostics.double=context and context.double or false
   lastLayout=layout
   return layout
  end
@@ -281,10 +285,11 @@ return function(mod)
  local SpriteOffsets=module('lib/sprite_offsets.lua')
  function provider.nativeMound(side)
   if not mod.options:get('mounds')or not scene.entry then return end
-  local viewport={x=0,y=0,width=nativeProfile.width,height=nativeProfile.height}
+  local profile=diagnostics.double and nativeProfile.double or nativeProfile
+  local viewport={x=0,y=0,width=profile.width,height=profile.height}
   local layout=scene:layout(viewport,loadedAdjustments);local baseline=scene:layout(viewport)
   if not layout or not baseline then return end
-  layout=Grounding.apply(layout,baseline,nativeProfile,{x=0,y=0,width=nativeProfile.width,height=nativeProfile.height})
+  layout=Grounding.apply(layout,baseline,profile,{x=0,y=0,width=profile.width,height=profile.height},moundMaterials,scene.moundSourcePaths)
   local mound=layout[side].mound
   local image=scene.moundPaths and scene.textures[scene.moundPaths[side]]
   if not image then return end

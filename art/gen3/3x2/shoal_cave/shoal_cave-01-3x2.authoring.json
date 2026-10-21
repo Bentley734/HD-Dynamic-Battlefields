@@ -8,9 +8,9 @@
   },
   "aspect_ratio": "3:2",
   "time_of_day": "indoor",
-  "horizon_y": 0.41,
-  "background": "art/gen3/3x2/shoal_cave/shoal_cave-01-3x2.png",
-  "sha256": "881ac372b4e50aac17933a804d1454468f3a4d940ac2a5cd4f29a82c204813fc",
+  "horizon_y": 0.18,
+  "background": "art/gen3/3x2/shoal_cave/shoal_cave-01-3x2-floor-fix-v2.png",
+  "sha256": "fb28b28d22a0b6d13113d2a611b8f7483500bbed7cb4fde3420a3275bd7ca734",
   "mound_material_candidates": [
     "limestone",
     "cave-pale-limestone"
@@ -60,5 +60,11 @@
       0.008
     ],
     "layer": 10
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/3x2/shoal_cave/shoal_cave-01-3x2-pre-floor-fix.authoring.json",
+    "reason": "Native 3:2 opponent mound rear edge intersected waterline. Broader dry floor, source unaltered.",
+    "source": "C:\\Users\\LSDMTHC\\.codex\\generated_images\\01a139b8-e809-7711-91d5-933839103cd5\\exec-18370707-d607-4544-94cb-4f2ef3e18e64.png",
+    "operation": "original generated image copied without resizing or editing"
   }
 }

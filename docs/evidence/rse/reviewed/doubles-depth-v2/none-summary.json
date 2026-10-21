@@ -1,0 +1,61 @@
+{
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 27,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "grassland",
+    "rustboro_gym"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 3
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 3
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 3
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 3
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 3
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 3
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 3
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 3
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 3
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

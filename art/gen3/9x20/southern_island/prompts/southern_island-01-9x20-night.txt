@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield scenery only, Hoenn Southern Island secluded wooded encounter clearing, variation 01.
+ONE empty lush subtropical island grove, broad LEVEL uninterrupted pale olive short grass and fine sandy earth. Far rear ONLY: densely clustered rounded broadleaf trees and low ferns, a small plain weathered gray stone nestled at the distant tree line. Quiet sheltered emerald canopy, no ocean or stream within the standing plane. No stairs, architecture, shrine, symbols, islands of raised ground, pathways or cliffs.
+Style: beautifully painted Japanese watercolor washes with delicate restrained ink contours, cohesive monster-adventure environment, natural soft ground texture.
+Composition: 9:20 tall portrait. Portrait composed independently, player standing x32%,y65%, opponent x68%,y43%. Trees and stone VERY small and distant, confined to TOP FIFTH. LOWER EIGHTY PERCENT entirely flat clear short-grass/earth ground; nothing obstructing either standing zone or behind it. No foreground foliage.
+NIGHT ONLY: independently painted moonlit grove, deep blue-green canopy, cool muted sage ground still clearly readable, small dark-blue sky openings and a few faint stars. No daylight or sunset.
+One single complete scene, one time of day. NO people, creatures, PokÃ©mon, wolves, dragons, animal silhouettes, text, logos, UI, stone inscriptions, circles, battle mounds, raised platforms, diptych, montage or day/night comparison.

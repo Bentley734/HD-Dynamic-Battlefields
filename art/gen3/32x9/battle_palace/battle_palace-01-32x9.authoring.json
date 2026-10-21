@@ -3,14 +3,14 @@
   "composition_id": "battle_palace-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2079,
-    "height": 585
+    "width": 1721,
+    "height": 484
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3618461538461539,
-  "background": "art/gen3/32x9/battle_palace/battle_palace-01-32x9.png",
-  "sha256": "0d535a4f4e7e8583b49a37fd569a44cf7f20acc5f6e080bf03a6f198206cf657",
+  "horizon_y": 0.22867768595041324,
+  "background": "art/gen3/32x9/battle_palace/battle_palace-01-32x9-horizon-clearance-v3.png",
+  "sha256": "f345ad8b77d400bfd10da0a4c525a84adfa4794c0eee69005001399b7a7dd1c6",
   "mound_material_candidates": [
     "floor-ivory",
     "floor-beige"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6600000000000001
+      0.31879721092388147,
+      0.5890495867768597
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.31879721092388147,
+      0.5648760330578513
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009669421487603306
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6812027890761186,
+      0.3352272727272727
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6812027890761186,
+      0.31105371900826445
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009669421487603306
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/battle_palace-01-32x9-original.png",
-    "original_sha256": "e3ab2dc45791d32d958a50192ba7bdcc280f7ead1ad8bf8483e24273565bc7a2",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/battle_palace/battle_palace-01-32x9.png",
+    "original_sha256": "0d535a4f4e7e8583b49a37fd569a44cf7f20acc5f6e080bf03a6f198206cf657",
     "original_size": {
       "width": 2079,
-      "height": 756
+      "height": 585
     },
     "crop_pixels": [
-      0,
-      0,
-      2079,
+      179,
+      101,
+      1900,
       585
     ],
-    "source_geometry": {
-      "horizon_y": 0.28,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.4952380952380953
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5107142857142858
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3327380952380952
-        ],
-        "mound_anchor": [
-          0.65,
-          0.3482142857142857
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/battle_palace/battle_palace-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

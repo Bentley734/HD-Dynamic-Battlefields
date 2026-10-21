@@ -3,14 +3,14 @@
   "composition_id": "sidney_chamber-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 1696,
+    "height": 477
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3410752688172043,
-  "background": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9.png",
-  "sha256": "0716e8fb94955717a52f5a334840fa4e29fa4b055c0956526ae41b1191b2ecb9",
+  "horizon_y": 0.2291823899371069,
+  "background": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9-horizon-clearance-v3.png",
+  "sha256": "c83b97ae8aa61c7e4086d9e43505201ab2cd93c6fec58710a8bb7dc70ec518cc",
   "mound_material_candidates": [
     "carpet-burgundy",
     "floor-charcoal"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3249115566037736,
+      0.6022641509433962
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3249115566037736,
+      0.5788679245283019
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009358490566037736
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6756780660377358,
+      0.3566037735849056
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6756780660377358,
+      0.3332075471698114
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009358490566037736
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/sidney_chamber-01-32x9-original.png",
-    "original_sha256": "5f8479dcd2f057888f595eda44e9db82d0006e913af775d0a75900db2ff6e95c",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9.png",
+    "original_sha256": "0716e8fb94955717a52f5a334840fa4e29fa4b055c0956526ae41b1191b2ecb9",
     "original_size": {
       "width": 1983,
-      "height": 793
+      "height": 558
     },
     "crop_pixels": [
-      0,
-      0,
-      1983,
+      143,
+      81,
+      1839,
       558
     ],
-    "source_geometry": {
-      "horizon_y": 0.24,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.45034047919293824
-        ],
-        "mound_anchor": [
-          0.35,
-          0.46441361916771756
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3025725094577554
-        ],
-        "mound_anchor": [
-          0.65,
-          0.31664564943253465
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/sidney_chamber/sidney_chamber-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

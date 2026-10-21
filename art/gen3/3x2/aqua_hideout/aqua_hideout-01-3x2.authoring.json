@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "aqua_hideout-01-3x2",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect_ratio": "3:2",
+  "time_of_day": "indoor",
+  "horizon_y": 0.24,
+  "background": "art/gen3/3x2/aqua_hideout/aqua_hideout-01-3x2.png",
+  "sha256": "7cf46f61bfd8246c81991c7d4ca054f3e00f0ab40c79c8ebb27f82506cc9b158",
+  "mound_material_candidates": [
+    "floor-gray-night-cool",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

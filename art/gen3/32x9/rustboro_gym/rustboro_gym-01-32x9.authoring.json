@@ -3,14 +3,14 @@
   "composition_id": "rustboro_gym-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2079,
-    "height": 585
+    "width": 1931,
+    "height": 543
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.2843076923076923,
-  "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
-  "sha256": "993fbf7890233d325d61eb0a5eeb5edd6ab9c15e4f2a146b0a7e0d5a4bc0ce11",
+  "horizon_y": 0.22895027624309391,
+  "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9-horizon-clearance-v3.png",
+  "sha256": "4fe7bb1eb1db0d6bb7a801d9c5ee5c37f10db9bbe86e4ffa93ed9b79fa256c89",
   "mound_material_candidates": [
     "sandstone",
     "gravel"
@@ -32,74 +32,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.67
+      0.33850336613153803,
+      0.644475138121547
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.65
+      0.33850336613153803,
+      0.6229281767955801
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00861878453038674
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.661496633868462,
+      0.4074585635359116
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.661496633868462,
+      0.3859116022099447
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00861878453038674
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",
-    "original_sha256": "05dfe9798457e5da7457b6210e86410418241a6e95eff20eb0a5d25de6cbf0b1",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
+    "original_sha256": "993fbf7890233d325d61eb0a5eeb5edd6ab9c15e4f2a146b0a7e0d5a4bc0ce11",
     "original_size": {
       "width": 2079,
-      "height": 756
+      "height": 585
     },
     "crop_pixels": [
-      0,
-      0,
-      2079,
+      74,
+      42,
+      2005,
       585
     ],
-    "source_geometry": {
-      "horizon_y": 0.22,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5029761904761905
-        ],
-        "mound_anchor": [
-          0.35,
-          0.518452380952381
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3327380952380952
-        ],
-        "mound_anchor": [
-          0.65,
-          0.3482142857142857
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/rustboro_gym/rustboro_gym-01-32x9-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "original": "art/gen1/32x9/gym_rock/gym_rock-01-32x9.png",

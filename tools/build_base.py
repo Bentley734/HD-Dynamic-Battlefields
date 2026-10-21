@@ -17,16 +17,23 @@ assert len(art)>=4
 args.output.mkdir(parents=True,exist_ok=True)
 target=args.output/f'HD-Dynamic-Battlefields-{version}-base.zip'
 assert not target.exists()
-files={}
-for path in sorted(root.rglob('*')):
- if not path.is_file():continue
- rel=path.relative_to(root);name=rel.as_posix()
- if any(v.startswith('.')or v in ['__pycache__','dist'] for v in rel.parts):continue
- if rel.parts[0]=='art' and path.suffix=='.png' and name not in art:continue
- if rel.parts[0]=='art' and 'prompts' in rel.parts:continue
- if rel.parts[:2]==('docs','evidence')and path.suffix=='.png':continue
- if path.suffix not in ['.lua','.json','.md','.txt','.py','.png']:continue
- files[name]=path
+# Explicit shipping boundaries keep authoring records, evidence and pack catalogs
+# in the source repository without copying them into the base installation.
+shipping_docs={
+ 'COMPATIBILITY.md','OFFLINE-ASSET-INSTALL.md','SOURCE-ASSET-DISTRIBUTION.md',
+ 'ASSET-PACK-CHOICES.md','SPRITE-POSITION-CONTROLS.md','TIME-OF-DAY.md','HOENN-BETA.md',
+}
+files={name:root/name for name in ['main.lua','manifest.json','README.md','tools/install_offline_pack.py']}
+for directory in ['lib','metadata']:
+ for path in sorted((root/directory).rglob('*.lua')):
+  if not any(part.startswith('.') for part in path.relative_to(root).parts):
+   files[path.relative_to(root).as_posix()]=path
+for name in sorted(shipping_docs):
+ files['docs/'+name]=root/'docs'/name
+for name in sorted(art):
+ files[name]=root/name
+for name,path in files.items():
+ assert path.is_file(),f'Missing shipping file: {name}'
 inventory=[]
 with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6)as z:
  for name,path in files.items():

@@ -3,14 +3,14 @@
   "composition_id": "drake_chamber-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1877,
+    "height": 528
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.29333333333333333,
-  "background": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9.png",
-  "sha256": "b2096cfd8468bf42d1ceded89b0922d8371ed3d987df19727d1456042eb511e4",
+  "horizon_y": 0.2290909090909091,
+  "background": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9-horizon-clearance-v3.png",
+  "sha256": "baeefb5124ff8024dfb965792d84ef250f41b8f8e697ca7c82e64b96edd4f06f",
   "mound_material_candidates": [
     "carpet-burgundy",
     "floor-charcoal"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.3366009589770911,
+      0.629090909090909
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3366009589770911,
+      0.6072727272727273
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008727272727272728
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45000000000000007
+      0.6639318060735216,
+      0.4000000000000001
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6639318060735216,
+      0.3781818181818182
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008727272727272728
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/drake_chamber-01-32x9-original.png",
-    "original_sha256": "6094f0f0536a6f55c7d1d07413f00592cb5fe5c903558f5f4d37fece436852a0",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9.png",
+    "original_sha256": "b2096cfd8468bf42d1ceded89b0922d8371ed3d987df19727d1456042eb511e4",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      0,
-      2048,
+      85,
+      48,
+      1962,
       576
     ],
-    "source_geometry": {
-      "horizon_y": 0.22,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.48
-        ],
-        "mound_anchor": [
-          0.35,
-          0.495
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3225
-        ],
-        "mound_anchor": [
-          0.65,
-          0.3375
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/drake_chamber/drake_chamber-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

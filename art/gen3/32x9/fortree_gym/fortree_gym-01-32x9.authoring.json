@@ -3,21 +3,20 @@
   "composition_id": "fortree_gym-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 2172,
+    "height": 611
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.38370967741935486,
-  "background": "art/gen3/32x9/fortree_gym/fortree_gym-01-32x9.png",
-  "sha256": "9b10b0e4ded2a7e5dc84321f7774579d16e93bec684284eb8f4709d242f9c103",
+  "horizon_y": 0.24261865793780688,
+  "background": "art/gen3/32x9/fortree_gym/fortree_gym-01-32x9-doubles-floor-fix-v2.png",
+  "sha256": "4fbb23d7ecce18e90353a22301dd10db9fdad833d4b11e0c42b3797f463f566e",
   "mound_material_candidates": [
     "carpet-moss",
     "floor-beige"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+    "Original replacement source reviewed; native and expanded sprite calibration remains required."
   ],
   "depth": {
     "player": 1,
@@ -99,5 +98,17 @@
         ]
       }
     }
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/32x9/fortree_gym/fortree_gym-01-32x9-pre-doubles-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/fortree_gym/fortree_gym-01-32x9-doubles-floor-fix-original.png",
+    "crop": [
+      0,
+      40,
+      2172,
+      651
+    ],
+    "operation": "Approved excess canvas trim only, no resampling",
+    "reason": "Native 32:9 doubles mound overlapped rear wall or cabinets"
   }
 }

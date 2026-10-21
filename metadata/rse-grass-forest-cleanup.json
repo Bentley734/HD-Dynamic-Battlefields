@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/grass/mound-grass-01.png",
+      "cleaned": "art/mounds/grass/mound-grass-01-clean-v3.png",
+      "source_sha256": "2f31ff6c2936ae6e0d6c206ed9abab03c620ad8a13cd3361704dae0e1c1307a7",
+      "cleaned_sha256": "693c0dfa96b50747ddb7abc9fec19460a975167e706442c642967f1a3301bd7f",
+      "cleanup": "approved 12px rounded perimeter alpha inset; original and visible RGB preserved; removed transparent RGB cleared",
+      "review": "original and clean visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/grass/mound-grass-01-night.png",
+      "cleaned": "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+      "source_sha256": "f49f1019aee6f2a237cec92b0eb8ebc1d0f5d4b4e003fcbe73a2eb81ed1811fd",
+      "cleaned_sha256": "b8aabc8e33b849fcea24af26a09199f6340ac16f311bd572cabed478ce0aa374",
+      "cleanup": "approved 12px rounded perimeter alpha inset; original and visible RGB preserved; removed transparent RGB cleared",
+      "review": "original and clean visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/forest/mound-forest-01.png",
+      "cleaned": "art/mounds/forest/mound-forest-01-clean-v3.png",
+      "source_sha256": "611c2a57c4809d2ae7a751f2dd65efdab1d7cd0315cd045956937f079e5f8551",
+      "cleaned_sha256": "70729d5f173bfc9991aa322ceace4266793d449dd390c9669b6dd790c0786c79",
+      "cleanup": "approved 12px rounded perimeter alpha inset; original and visible RGB preserved; removed transparent RGB cleared",
+      "review": "original and clean visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/forest/mound-forest-01-night.png",
+      "cleaned": "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+      "source_sha256": "1ae4a9224117f24a67a55d5867b5c7680d928925c99aa39d9f8c4c01633674e7",
+      "cleaned_sha256": "a7f79b2b4c1f78a92347a5425bead5a8a3438bfefcc13f413c8b9bfa24d7de71",
+      "cleanup": "approved 12px rounded perimeter alpha inset; original and visible RGB preserved; removed transparent RGB cleared",
+      "review": "original and clean visually reviewed; native blending pending"
+    }
+  ]
+}

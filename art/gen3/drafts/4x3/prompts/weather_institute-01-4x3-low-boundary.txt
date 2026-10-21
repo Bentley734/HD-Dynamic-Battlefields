@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Route119 Weather Institute upstairs research room, first variation.
+ONE empty modest weather research laboratory. Pale mint-gray walls and low cream research cabinets across distant rear wall, three compact older desktop computers with blank blue-green screens, a few small unmarked brass weather instruments under glass including a cup anemometer model and rain-gauge cylinders. A low shelf of plain blue binders and small gray equipment housings at far rear. No plants or specimens, no central furniture. Soft constant neutral indoor lighting, enclosed room, no outside views.
+Style: delicate Japanese watercolor washes and restrained fine ink outlines, polished hand-painted monster-adventure game environment, naturally readable perspective and modest credible scientific detail.
+Low battle camera across a continuous flat pale cool sage-gray matte resin floor with soft mottling, no regular tiles, grout, grids, panel seams, floorboards, stripes or raised floor sections. Rear wall-floor boundary and all equipment confined above y23%; lower77% broad uninterrupted standing plane, clear floor behind both combatants.
+Composition: 4:3 landscape. Player standing x28%,y64%, opponent x72%,y43%, with broad clear floor around both. Floor continues to bottom edge.
+No people, creatures, animals, silhouettes, text, numbers, labels, diagrams, logos, UI, baked mounds, platforms, split panels, collage or day/night comparison. One room and one lighting condition.

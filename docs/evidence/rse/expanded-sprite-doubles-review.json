@@ -1,0 +1,160 @@
+{
+  "scope": "Hoenn doubles depth correction for expanded sprite providers",
+  "opponent_profile": {
+    "x": 176,
+    "y": 64,
+    "width": 160,
+    "height": 48
+  },
+  "singles_changed": false,
+  "native_ui_or_sprites_moved": false,
+  "scene_cases": 51,
+  "summaries": {
+    "none": {
+      "mode": "loader",
+      "content": "none",
+      "double_fixture": true,
+      "processes": 9,
+      "scene_cases": 27,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "grassland",
+        "rustboro_gym"
+      ],
+      "reports": [
+        {
+          "game": "ruby",
+          "size": "1280x720",
+          "scene_checks": 3
+        },
+        {
+          "game": "ruby",
+          "size": "5120x1440",
+          "scene_checks": 3
+        },
+        {
+          "game": "ruby",
+          "size": "900x1600",
+          "scene_checks": 3
+        },
+        {
+          "game": "sapphire",
+          "size": "1280x720",
+          "scene_checks": 3
+        },
+        {
+          "game": "sapphire",
+          "size": "5120x1440",
+          "scene_checks": 3
+        },
+        {
+          "game": "sapphire",
+          "size": "900x1600",
+          "scene_checks": 3
+        },
+        {
+          "game": "emerald",
+          "size": "1280x720",
+          "scene_checks": 3
+        },
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 3
+        },
+        {
+          "game": "emerald",
+          "size": "900x1600",
+          "scene_checks": 3
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    },
+    "national": {
+      "mode": "loader",
+      "content": "national",
+      "double_fixture": true,
+      "processes": 3,
+      "scene_cases": 12,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "grassland",
+        "rustboro_gym"
+      ],
+      "reports": [
+        {
+          "game": "emerald",
+          "size": "1280x720",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "900x1600",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    },
+    "1025": {
+      "mode": "loader",
+      "content": "1025",
+      "double_fixture": true,
+      "processes": 3,
+      "scene_cases": 12,
+      "candidate_manifest_only": true,
+      "all_areas": true,
+      "review_families": [
+        "grassland",
+        "rustboro_gym"
+      ],
+      "reports": [
+        {
+          "game": "emerald",
+          "size": "1280x720",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "5120x1440",
+          "scene_checks": 4
+        },
+        {
+          "game": "emerald",
+          "size": "900x1600",
+          "scene_checks": 4
+        }
+      ],
+      "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+    }
+  },
+  "captures": [
+    {
+      "path": "docs/evidence/rse/reviewed/doubles-depth-v2/national-emerald-1280x720-grassland-day-current.png",
+      "sha256": "ca27cc57e4bbd0bf98dcd85949a842e322d690b7a654e545440742fcd80f7a20",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/doubles-depth-v2/1025-emerald-1280x720-grassland-day-current.png",
+      "sha256": "63b300708f5b677205d750c21836ae1f80cf87b935051925bd754a2ac87f5d5d",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/doubles-depth-v2/1025-emerald-1280x720-added-PECHARUNT.png",
+      "sha256": "f86ec71adf9059aad60337ce20424b2afa91aeca95c985948ac399f3b0c36b86",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/doubles-depth-v2/none-emerald-1280x720-rustboro_gym-day-current.png",
+      "sha256": "0e57e4982f06e6199871894ac89fd5fbc9ecc25b15aab370de22ba2fb328bc3e",
+      "visually_reviewed": true
+    }
+  ],
+  "limitations": "Native R/S/E sampled; National Dex+G9+HD and 1025Dex sampled in Emerald only. Static four-battler scenes and visible PECHARUNT; no full turns, switches, faints or exhaustive sprite/profile certification. All other interiors/aspects need doubles rear-boundary review."
+}

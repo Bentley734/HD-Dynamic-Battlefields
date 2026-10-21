@@ -1,0 +1,47 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 3,
+  "scene_cases": 15,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "fortree_gym",
+    "dewford_gym",
+    "weather_institute",
+    "new_mauville",
+    "hoenn_champion"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 5
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 5
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 5
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "visual_review": {
+    "game": "emerald",
+    "families": [
+      "fortree_gym",
+      "dewford_gym",
+      "weather_institute",
+      "hoenn_champion"
+    ],
+    "finding": "Rear mound clear of wall/floor boundary in reviewed 32:9 doubles samples.",
+    "rejected": "new_mauville: floor boundary too close to rear mound top; replacement in progress."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "national",
+  "double_fixture": true,
+  "processes": 2,
+  "scene_cases": 6,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "grassland"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

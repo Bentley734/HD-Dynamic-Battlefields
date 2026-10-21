@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "aqua_hideout-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1714,
+    "height": 482
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22895228215767632,
+  "background": "art/gen3/32x9/aqua_hideout/aqua_hideout-01-32x9-horizon-clearance-v3.png",
+  "sha256": "c9a03552478be93d8117a58b45ab3b9708f4118a6773caba68286521e27d4e9b",
+  "mound_material_candidates": [
+    "floor-gray-night-cool",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32675029171528586,
+      0.606390041493776
+    ],
+    "pokemon_ground_anchor": [
+      0.32675029171528586,
+      0.5832365145228215
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.009261410788381743
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6738331388564761,
+      0.3632780082987551
+    ],
+    "pokemon_ground_anchor": [
+      0.6738331388564761,
+      0.3401244813278009
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.009261410788381743
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/aqua_hideout/aqua_hideout-01-32x9.png",
+    "original_sha256": "2a552fae5137cad64b8267fbf1a5a77de48df89f95d1d34f3de6ef3ee4aefba1",
+    "original_size": {
+      "width": 1983,
+      "height": 558
+    },
+    "crop_pixels": [
+      134,
+      76,
+      1848,
+      558
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/aqua_hideout/aqua_hideout-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scope": "authoring map assignment only; native encounter rendering not tested",
+  "reason": "Pacifidlog surf/fishing encounters must select dedicated floating-town water scenery",
+  "maps": [
+    {
+      "game": "ruby",
+      "id": "RU_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "pacifidlog_water",
+      "water": "pacifidlog_water"
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "wild_rates": {
+        "water": 4,
+        "fishing": 10
+      },
+      "land": "pacifidlog_water",
+      "water": "pacifidlog_water"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_PACIFIDLOG_TOWN",
+      "native_name": "PacifidlogTown",
+      "wild_rates": {
+        "fishing": 10,
+        "water": 4
+      },
+      "land": "pacifidlog_water",
+      "water": "pacifidlog_water"
+    }
+  ]
+}

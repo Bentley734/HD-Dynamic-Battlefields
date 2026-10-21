@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "southern_island-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1820,
+    "height": 512
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.22970703125000003,
+  "background": "art/gen3/32x9/southern_island/southern_island-01-32x9-horizon-clearance-v3.png",
+  "sha256": "fe70b8b88dc031a56e55d9cb4bc44077596c1fcc5fb8e2314f5ffed706ea7218",
+  "mound_material_candidates": [
+    "grass",
+    "forest"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32596153846153847,
+      0.6048828125000001
+    ],
+    "pokemon_ground_anchor": [
+      0.32596153846153847,
+      0.5816406250000001
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.009296875
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6745879120879121,
+      0.36083984375
+    ],
+    "pokemon_ground_anchor": [
+      0.6745879120879121,
+      0.33759765625000004
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.009296875
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/southern_island/southern_island-01-32x9.png",
+    "original_sha256": "afed16191a5cd72ba6cf861e60b374e22a22e6a7226a6d9ba34b9b5b6baf95d4",
+    "original_size": {
+      "width": 2115,
+      "height": 595
+    },
+    "crop_pixels": [
+      147,
+      83,
+      1967,
+      595
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/southern_island/southern_island-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

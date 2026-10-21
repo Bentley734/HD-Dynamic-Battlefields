@@ -1,0 +1,88 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 18,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "grassland"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "executed_native_animation_scripts": 45,
+  "native_draw_checkpoints": 126,
+  "scope": "Five ROM-backed move animation scripts per process; actual native VM frame advancement required. No move damage, battle turns, switching mechanics, outcomes, every-move or exhaustive mod-compatibility claim.",
+  "harness_sha256": "352f196c4252a744083d82d9c17541d4c626c7320f28e924fcc63dd40f68f05d",
+  "visual_review": {
+    "single_emerald_1280x720": [
+      "water_gun-frame-30",
+      "surf-frame-30",
+      "earthquake-frame-12",
+      "earthquake-complete",
+      "surf-complete"
+    ],
+    "double_emerald_5120x1440": [
+      "surf-frame-30"
+    ],
+    "finding": "Native water/screen-shake effects render over HD scenery; reviewed single end frames return to normal placement; native chrome/presentation state is unchanged by disabled/enabled scenery draws."
+  }
+}

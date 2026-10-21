@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "composition_id": "magma_hideout-01-3x2",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1457,
+    "height": 971
+  },
+  "aspect_ratio": "3:2",
+  "time_of_day": "indoor",
+  "horizon_y": 0.32,
+  "background": "art/gen3/3x2/magma_hideout/magma_hideout-01-3x2.png",
+  "sha256": "fca9e47465925e39097683598a30205017fb0dc0a6adc635cbd643b8d7d54f26",
+  "mound_material_candidates": [
+    "cave-warm-basalt"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Reuse source candidate for rocky hideout passages; specialized story rooms require context review before runtime enablement."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.2555387783115992,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.2555387783115992,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.7444612216884009,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.7444612216884009,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/3x2/volcanic_cave-01-3x2-original.png",
+    "original_sha256": "ba3d1b0a492393852400b141ee7dfca51ce1cd0184b9e989e7043ca74586722d",
+    "original_size": {
+      "width": 1619,
+      "height": 971
+    },
+    "crop_pixels": [
+      81,
+      0,
+      1538,
+      971
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "mound_anchor": [
+          0.28,
+          0.66
+        ],
+        "pokemon_ground_anchor": [
+          0.28,
+          0.64
+        ]
+      },
+      "opponent": {
+        "mound_anchor": [
+          0.72,
+          0.45
+        ],
+        "pokemon_ground_anchor": [
+          0.72,
+          0.43
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "original": "art/gen3/3x2/volcanic_cave/volcanic_cave-01-3x2.png",
+    "original_prompt": "art/gen3/3x2/volcanic_cave/prompts/volcanic_cave-01-3x2.txt",
+    "original_sha256": "fca9e47465925e39097683598a30205017fb0dc0a6adc635cbd643b8d7d54f26",
+    "pixel_changes": "none; byte-identical reviewed volcanic-cave composition",
+    "review": "Individually visually reviewed for Magma Hideout rocky passage source coverage. Map-specific suitability, mound matching and native calibration remain pending."
+  }
+}

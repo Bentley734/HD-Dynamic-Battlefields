@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "composition_id": "petalburg_gym-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2048,
+    "height": 576
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.3333333333333333,
+  "background": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9.png",
+  "sha256": "1410731ac40e27dec9f7f933e26bde736fc9b82898d7adba44f31b61cecad491",
+  "mound_material_candidates": [
+    "floor-beige",
+    "floor-clay"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.44999999999999996
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/32x9/dojo/dojo-01-32x9.png",
+    "original_sha256": "2c308580339836f16d33b473c26a1faa16342ec453e08582c983c94adf61bfdf",
+    "original_size": {
+      "width": 2048,
+      "height": 768
+    },
+    "crop_pixels": [
+      0,
+      0,
+      2048,
+      576
+    ],
+    "source_geometry": {
+      "horizon_y": 0.25,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.48
+        ],
+        "mound_anchor": [
+          0.35,
+          0.49500000000000005
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3225
+        ],
+        "mound_anchor": [
+          0.65,
+          0.33749999999999997
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "aspect": "32x9",
+    "period": "indoor",
+    "original": "art/gen1/32x9/dojo/dojo-01-32x9.png",
+    "original_prompt": "art/gen1/32x9/dojo/prompts/dojo-01-32x9.txt",
+    "original_sha256": "2c308580339836f16d33b473c26a1faa16342ec453e08582c983c94adf61bfdf",
+    "target": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9.png",
+    "reason": "Visually reviewed original Gen1 dojo: cream plaster, timber walls, red banners and uninterrupted beige training floor fit Petalburg hall. Native layout and mound pairing remain uncalibrated.",
+    "operation": "crop_only_no_resampling"
+  }
+}

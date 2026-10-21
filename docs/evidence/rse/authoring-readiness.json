@@ -1,0 +1,6070 @@
+{
+  "schema_version": 1,
+  "scope": "Source integrity and authoring queue only; no visual, gameplay or compatibility certification.",
+  "source_count": 711,
+  "ignored_draft_metadata": 1,
+  "missing_base_sources": 0,
+  "unbound_families": [],
+  "outdoor_families_without_candidate_night_mound": [],
+  "errors": [],
+  "families": {
+    "abandoned_ship": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-weathered-sage/mound-floor-weathered-sage-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-sage": {
+          "all_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png",
+            "art/mounds/floor-sage/mound-floor-sage-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "abandoned_ship-01-16x10",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "abandoned_ship-01-16x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "abandoned_ship-01-21x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "abandoned_ship-01-32x9",
+          "horizon_y": 0.2297142857142858,
+          "opponent_ground_y": 0.316
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_Corridors_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_Corridors_B1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_Rooms2_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_Corridors_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_Corridors_B1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_Rooms2_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Corridors_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Rooms_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Corridors_B1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Rooms2_1F",
+          "land": "abandoned_ship",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "abandoned_ship_flooded": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "islet-rock": {
+          "all_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png",
+            "art/mounds/islet-rock/mound-islet-rock-01-night.png",
+            "art/mounds/islet-rock/mound-islet-rock-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "ruby",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "sapphire",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_Rooms_B1F",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        },
+        {
+          "game": "emerald",
+          "map": "AbandonedShip_HiddenFloorCorridors",
+          "land": "abandoned_ship",
+          "water": "abandoned_ship_flooded"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "aqua_hideout": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "AquaHideout_1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "AquaHideout_B1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "AquaHideout_B2F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AquaHideout_1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AquaHideout_B1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AquaHideout_B2F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AquaHideout_1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AquaHideout_B1F",
+          "land": "aqua_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AquaHideout_B2F",
+          "land": "aqua_hideout",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "artisan_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "artisan_cave-01-21x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "ArtisanCave_1F",
+          "land": "artisan_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "ArtisanCave_B1F",
+          "land": "artisan_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "ashfield": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
+        "night": "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png"
+      },
+      "candidate_materials": {
+        "gray-sand": {
+          "all_assets": [
+            "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
+            "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png",
+            "art/mounds/gray-sand/mound-gray-sand-01-night.png",
+            "art/mounds/gray-sand/mound-gray-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/gray-sand/mound-gray-sand-01-clean.png",
+            "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/gray-sand/mound-gray-sand-01-night-clean.png",
+            "art/mounds/gray-sand/mound-gray-sand-01-night.png"
+          ]
+        },
+        "pale-gravel": {
+          "all_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "ashfield-01-16x10-night",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.49
+        },
+        {
+          "composition": "ashfield-01-16x10",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.48000000000000004
+        },
+        {
+          "composition": "ashfield-01-16x9-night",
+          "horizon_y": 0.42,
+          "opponent_ground_y": 0.5
+        },
+        {
+          "composition": "ashfield-01-16x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.44
+        },
+        {
+          "composition": "ashfield-01-21x9-night",
+          "horizon_y": 0.45,
+          "opponent_ground_y": 0.53
+        },
+        {
+          "composition": "ashfield-01-21x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.44
+        },
+        {
+          "composition": "ashfield-01-3x2-night",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.49
+        },
+        {
+          "composition": "ashfield-01-3x2",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "ashfield-01-4x3-night",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.49
+        },
+        {
+          "composition": "ashfield-01-9x16-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.46
+        },
+        {
+          "composition": "ashfield-01-9x16",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.44
+        },
+        {
+          "composition": "ashfield-01-9x19_5-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.46
+        },
+        {
+          "composition": "ashfield-01-9x19_5",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.46
+        },
+        {
+          "composition": "ashfield-01-9x20-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.46
+        },
+        {
+          "composition": "ashfield-01-9x20",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.44
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route113",
+          "land": "ashfield",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route113",
+          "land": "ashfield",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route113",
+          "land": "ashfield",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_arena": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-clay": {
+          "all_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png",
+            "art/mounds/floor-clay/mound-floor-clay-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleArenaBattleRoom",
+          "land": "battle_arena",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_dome": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-sage": {
+          "all_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png",
+            "art/mounds/floor-sage/mound-floor-sage-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleDomePreBattleRoom",
+          "land": "battle_dome",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleDomeBattleRoom",
+          "land": "battle_dome",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_factory": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "battle_factory-01-32x9",
+          "horizon_y": 0.22885245901639345,
+          "opponent_ground_y": 0.32721311475409837
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleFactoryPreBattleRoom",
+          "land": "battle_factory",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleFactoryBattleRoom",
+          "land": "battle_factory",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_palace": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-ivory": {
+          "all_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png",
+            "art/mounds/floor-ivory/mound-floor-ivory-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "battle_palace-01-32x9",
+          "horizon_y": 0.22867768595041324,
+          "opponent_ground_y": 0.31105371900826445
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePalaceBattleRoom",
+          "land": "battle_palace",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_pike": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-moss": {
+          "all_assets": [
+            "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png",
+            "art/mounds/carpet-moss/mound-carpet-moss-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-sage": {
+          "all_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png",
+            "art/mounds/floor-sage/mound-floor-sage-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePikeRoomNormal",
+          "land": "battle_pike",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePikeRoomFinal",
+          "land": "battle_pike",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePikeRoomWildMons",
+          "land": "battle_pike",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "battle_pyramid": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare01",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare02",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare03",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare04",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare05",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare06",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare07",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare08",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare09",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare10",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare11",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare12",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare13",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare14",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare15",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattlePyramidSquare16",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePyramidFloor",
+          "land": "battle_pyramid",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattlePyramidTop",
+          "land": "battle_pyramid",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "birth_island": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "birth_island-01-16x9-night",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BirthIsland_Exterior",
+          "land": "birth_island",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "cave_of_origin": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "cave_of_origin-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "cave_of_origin-01-21x9",
+          "horizon_y": 0.39,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "cave_of_origin-01-4x3",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_Entrance",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_1F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_B1F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_B2F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_B3F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "CaveOfOrigin_B4F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_Entrance",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_1F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_B1F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_B2F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_B3F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "CaveOfOrigin_B4F",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "CaveOfOrigin_Entrance",
+          "land": "cave_of_origin",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "CaveOfOrigin_1F",
+          "land": "cave_of_origin",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "desert": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+        "night": "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+      },
+      "candidate_materials": {
+        "sand": {
+          "all_assets": [
+            "art/mounds/sand/mound-sand-01-clean.png",
+            "art/mounds/sand/mound-sand-01-night-clean.png",
+            "art/mounds/sand/mound-sand-01-night.png",
+            "art/mounds/sand/mound-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sand/mound-sand-01-clean.png",
+            "art/mounds/sand/mound-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/sand/mound-sand-01-night-clean.png",
+            "art/mounds/sand/mound-sand-01-night.png"
+          ]
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "desert-01-21x9-night",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert-01-3x2-night",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert-01-9x19_5-night",
+          "horizon_y": 0.3401895206243033,
+          "opponent_ground_y": 0.4302396878483835
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route111",
+          "land": "grassland",
+          "water": "pond"
+        },
+        {
+          "game": "sapphire",
+          "map": "Route111",
+          "land": "grassland",
+          "water": "pond"
+        },
+        {
+          "game": "emerald",
+          "map": "Route111",
+          "land": "grassland",
+          "water": "pond"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "desert_ruin": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "mineral-sand": {
+          "all_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png"
+          ]
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "desert_ruin-01-16x10",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert_ruin-01-21x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "MirageTower_1F",
+          "land": "desert_ruin",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MirageTower_2F",
+          "land": "desert_ruin",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MirageTower_3F",
+          "land": "desert_ruin",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MirageTower_4F",
+          "land": "desert_ruin",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "desert_underpass": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "mineral-sand": {
+          "all_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png"
+          ]
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "desert_underpass-01-16x10",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert_underpass-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert_underpass-01-21x9",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert_underpass-01-3x2",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "desert_underpass-01-4x3",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "DesertUnderpass",
+          "land": "desert_underpass",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "dewford_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-blue/mound-carpet-blue-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-blue": {
+          "all_assets": [
+            "art/mounds/carpet-blue/mound-carpet-blue-01-clean-v3.png",
+            "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png",
+            "art/mounds/carpet-blue/mound-carpet-blue-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-blue/mound-carpet-blue-01-clean-v3.png",
+            "art/mounds/carpet-blue/mound-carpet-blue-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "DewfordTown_Gym",
+          "land": "dewford_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "DewfordTown_Gym",
+          "land": "dewford_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "DewfordTown_Gym",
+          "land": "dewford_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "drake_chamber": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-crimson/mound-carpet-crimson-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-burgundy": {
+          "all_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-charcoal": {
+          "all_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png",
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "EverGrandeCity_DrakesRoom",
+          "land": "drake_chamber",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "EverGrandeCity_DrakesRoom",
+          "land": "drake_chamber",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "EverGrandeCity_DrakesRoom",
+          "land": "drake_chamber",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "faraway_island": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "forest": {
+          "all_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png",
+            "art/mounds/forest/mound-forest-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png"
+          ]
+        },
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "faraway_island-01-16x10",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "faraway_island-01-4x3",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "faraway_island-01-9x16-night",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "faraway_island-01-9x19_5-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "faraway_island-01-9x19_5",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "FarawayIsland_Interior",
+          "land": "faraway_island",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "fortree_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-moss": {
+          "all_assets": [
+            "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png",
+            "art/mounds/carpet-moss/mound-carpet-moss-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "FortreeCity_Gym",
+          "land": "fortree_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "FortreeCity_Gym",
+          "land": "fortree_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "FortreeCity_Gym",
+          "land": "fortree_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "frontier_gardens": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "forest": {
+          "all_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png",
+            "art/mounds/forest/mound-forest-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png"
+          ]
+        },
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "frontier_gardens-01-16x10-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-16x10",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-16x9-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-21x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-3x2-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "frontier_gardens-01-4x3-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_OutsideEast",
+          "land": "frontier_gardens",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "glacia_chamber": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "ice-cave": {
+          "all_assets": [
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-01.png",
+            "art/mounds/ice-cave/mound-ice-cave-02.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v2.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-03.png"
+          ],
+          "clean_assets": [
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "EverGrandeCity_GlaciasRoom",
+          "land": "glacia_chamber",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "EverGrandeCity_GlaciasRoom",
+          "land": "glacia_chamber",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "EverGrandeCity_GlaciasRoom",
+          "land": "glacia_chamber",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "granite_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "granite_cave-01-16x10",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "granite_cave-01-16x9",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "granite_cave-01-21x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "granite_cave-01-3x2",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "granite_cave-01-4x3",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "GraniteCave_StevensRoom",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "GraniteCave_1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "GraniteCave_B1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "GraniteCave_B2F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "GraniteCave_StevensRoom",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "GraniteCave_1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "GraniteCave_B1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "GraniteCave_B2F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "GraniteCave_StevensRoom",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "GraniteCave_1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "GraniteCave_B1F",
+          "land": "granite_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "GraniteCave_B2F",
+          "land": "granite_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "hoenn_battle_tower": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleTowerMultiBattleRoom",
+          "land": "hoenn_battle_tower",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "BattleFrontier_BattleTowerBattleRoom",
+          "land": "hoenn_battle_tower",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "hoenn_champion": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-burgundy": {
+          "all_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-ivory": {
+          "all_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png",
+            "art/mounds/floor-ivory/mound-floor-ivory-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "EverGrandeCity_ChampionsRoom",
+          "land": "hoenn_champion",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "EverGrandeCity_ChampionsRoom",
+          "land": "hoenn_champion",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "EverGrandeCity_ChampionsRoom",
+          "land": "hoenn_champion",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "hoenn_safari": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "forest": {
+          "all_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png",
+            "art/mounds/forest/mound-forest-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png"
+          ]
+        },
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "hoenn_safari-01-16x10-night",
+          "horizon_y": 0.42,
+          "opponent_ground_y": 0.47
+        },
+        {
+          "composition": "hoenn_safari-01-16x10",
+          "horizon_y": 0.42,
+          "opponent_ground_y": 0.47
+        },
+        {
+          "composition": "hoenn_safari-01-16x9-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "hoenn_safari-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "hoenn_safari-01-21x9-night",
+          "horizon_y": 0.45,
+          "opponent_ground_y": 0.5
+        },
+        {
+          "composition": "hoenn_safari-01-21x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "hoenn_safari-01-3x2-night",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.46
+        },
+        {
+          "composition": "hoenn_safari-01-3x2",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "hoenn_safari-01-4x3-night",
+          "horizon_y": 0.46,
+          "opponent_ground_y": 0.51
+        },
+        {
+          "composition": "hoenn_safari-01-4x3",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "hoenn_safari-01-9x16-night",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.45
+        },
+        {
+          "composition": "hoenn_safari-01-9x20-night",
+          "horizon_y": 0.39389897843359817,
+          "opponent_ground_y": 0.45999999999999996
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SafariZone_Northwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "ruby",
+          "map": "SafariZone_Northeast",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SafariZone_Southwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "ruby",
+          "map": "SafariZone_Southeast",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SafariZone_Northwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "sapphire",
+          "map": "SafariZone_Northeast",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SafariZone_Southwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "sapphire",
+          "map": "SafariZone_Southeast",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_Northwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_North",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_Northeast",
+          "land": "hoenn_safari",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_Southeast",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_Southwest",
+          "land": "hoenn_safari",
+          "water": "pond"
+        },
+        {
+          "game": "emerald",
+          "map": "SafariZone_South",
+          "land": "hoenn_safari",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "lavaridge_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-clay": {
+          "all_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png",
+            "art/mounds/floor-clay/mound-floor-clay-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "terracotta": {
+          "all_assets": [
+            "art/mounds/terracotta/mound-terracotta-01-night.png",
+            "art/mounds/terracotta/mound-terracotta-01.png"
+          ],
+          "clean_assets": [],
+          "night_assets": [
+            "art/mounds/terracotta/mound-terracotta-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "LavaridgeTown_Gym_1F",
+          "land": "lavaridge_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "LavaridgeTown_Gym_1F",
+          "land": "lavaridge_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "LavaridgeTown_Gym_1F",
+          "land": "lavaridge_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "LavaridgeTown_Gym_B1F",
+          "land": "lavaridge_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "magma_core": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_4F",
+          "land": "magma_core",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "magma_hideout": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "magma_hideout-01-16x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MagmaHideout_1F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MagmaHideout_B1F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MagmaHideout_B2F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MagmaHideout_1F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MagmaHideout_B1F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MagmaHideout_B2F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_1F",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_2F_1R",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_2F_2R",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_3F_1R",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_3F_2R",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_3F_3R",
+          "land": "magma_hideout",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MagmaHideout_2F_3R",
+          "land": "magma_hideout",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "marine_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "islet-rock": {
+          "all_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png",
+            "art/mounds/islet-rock/mound-islet-rock-01-night.png",
+            "art/mounds/islet-rock/mound-islet-rock-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/islet-rock/mound-islet-rock-01-night.png"
+          ]
+        },
+        "ripple": {
+          "all_assets": [
+            "art/mounds/ripple/mound-ripple-01.png"
+          ],
+          "clean_assets": [],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "marine_cave-01-32x9",
+          "horizon_y": 0.22862985685071566,
+          "opponent_ground_y": 0.32858895705521474
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "MarineCave_End",
+          "land": "marine_cave",
+          "water": "marine_cave"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "mauville_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "mauville_gym-01-16x10",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mauville_gym-01-16x9",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mauville_gym-01-3x2",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MauvilleCity_Gym",
+          "land": "mauville_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MauvilleCity_Gym",
+          "land": "mauville_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MauvilleCity_Gym",
+          "land": "mauville_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "meteor_falls": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/limestone-warm-rose/mound-limestone-warm-rose-01-clean.png"
+      },
+      "candidate_materials": {
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "meteor_falls-01-16x10",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "meteor_falls-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "meteor_falls-01-32x9",
+          "horizon_y": 0.22898785425101215,
+          "opponent_ground_y": 0.32499999999999996
+        },
+        {
+          "composition": "meteor_falls-01-3x2",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "meteor_falls-01-4x3",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MeteorFalls_1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "MeteorFalls_1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "MeteorFalls_B1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "MeteorFalls_B1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "MeteorFalls_1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "MeteorFalls_1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "MeteorFalls_B1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "MeteorFalls_B1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "MeteorFalls_1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "MeteorFalls_1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "MeteorFalls_StevensCave",
+          "land": "meteor_falls",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MeteorFalls_B1F_1R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "MeteorFalls_B1F_2R",
+          "land": "meteor_falls",
+          "water": "cave_water"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "mossdeep_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-lavender": {
+          "all_assets": [
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MossdeepCity_Gym",
+          "land": "mossdeep_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MossdeepCity_Gym",
+          "land": "mossdeep_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MossdeepCity_Gym",
+          "land": "mossdeep_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "mt_pyre_exterior": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        },
+        "pale-gravel": {
+          "all_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MtPyre_Exterior",
+          "land": "mt_pyre_exterior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_Exterior",
+          "land": "mt_pyre_exterior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_Exterior",
+          "land": "mt_pyre_exterior",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "mt_pyre_interior": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MtPyre_1F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MtPyre_2F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MtPyre_3F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MtPyre_4F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MtPyre_5F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "MtPyre_6F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_1F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_2F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_3F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_4F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_5F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_6F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_1F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_2F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_3F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_4F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_5F",
+          "land": "mt_pyre_interior",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_6F",
+          "land": "mt_pyre_interior",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "mt_pyre_summit": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/highland/mound-highland-01-clean-v3.png",
+        "night": "art/mounds/highland/mound-highland-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "highland": {
+          "all_assets": [
+            "art/mounds/highland/mound-highland-01-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night.png",
+            "art/mounds/highland/mound-highland-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/highland/mound-highland-01-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "mt_pyre_summit-01-16x10-night",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-16x10",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-16x9-night",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-16x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-21x9-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-21x9",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-3x2-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-3x2",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "mt_pyre_summit-01-4x3",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MtPyre_Summit",
+          "land": "mt_pyre_summit",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtPyre_Summit",
+          "land": "mt_pyre_summit",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtPyre_Summit",
+          "land": "mt_pyre_summit",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "navel_rock_depths": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "pale-gravel": {
+          "all_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "NavelRock_Bottom",
+          "land": "navel_rock_depths",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "navel_rock_summit": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+        "night": "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "pale-gravel": {
+          "all_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "navel_rock_summit-01-32x9-night",
+          "horizon_y": 0.22859756097560976,
+          "opponent_ground_y": 0.3106707317073171
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "NavelRock_Top",
+          "land": "navel_rock_summit",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "new_mauville": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-charcoal": {
+          "all_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png",
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "NewMauville_Entrance",
+          "land": "new_mauville",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "NewMauville_Inside",
+          "land": "new_mauville",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "NewMauville_Entrance",
+          "land": "new_mauville",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "NewMauville_Inside",
+          "land": "new_mauville",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "NewMauville_Entrance",
+          "land": "new_mauville",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "NewMauville_Inside",
+          "land": "new_mauville",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "oceanic_museum": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "oceanic_museum-01-16x10",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "oceanic_museum-01-16x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "oceanic_museum-01-21x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "oceanic_museum-01-3x2",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SlateportCity_OceanicMuseum_2F",
+          "land": "oceanic_museum",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SlateportCity_OceanicMuseum_2F",
+          "land": "oceanic_museum",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SlateportCity_OceanicMuseum_2F",
+          "land": "oceanic_museum",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "pacifidlog_water": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/islet-sand/mound-islet-sand-01-clean-v3.png",
+        "night": "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "islet-sand": {
+          "all_assets": [
+            "art/mounds/islet-sand/mound-islet-sand-01-clean-v3.png",
+            "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png",
+            "art/mounds/islet-sand/mound-islet-sand-01-night.png",
+            "art/mounds/islet-sand/mound-islet-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/islet-sand/mound-islet-sand-01-clean-v3.png",
+            "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/islet-sand/mound-islet-sand-01-night-clean-v3.png",
+            "art/mounds/islet-sand/mound-islet-sand-01-night.png"
+          ]
+        },
+        "ripple": {
+          "all_assets": [
+            "art/mounds/ripple/mound-ripple-01.png"
+          ],
+          "clean_assets": [],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "PacifidlogTown",
+          "land": "pacifidlog_water",
+          "water": "pacifidlog_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "PacifidlogTown",
+          "land": "pacifidlog_water",
+          "water": "pacifidlog_water"
+        },
+        {
+          "game": "emerald",
+          "map": "PacifidlogTown",
+          "land": "pacifidlog_water",
+          "water": "pacifidlog_water"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "petalburg_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-clay": {
+          "all_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png",
+            "art/mounds/floor-clay/mound-floor-clay-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "PetalburgCity_Gym",
+          "land": "petalburg_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "PetalburgCity_Gym",
+          "land": "petalburg_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "PetalburgCity_Gym",
+          "land": "petalburg_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "phoebe_chamber": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-violet/mound-carpet-violet-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-lavender": {
+          "all_assets": [
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png",
+            "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-charcoal": {
+          "all_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png",
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "phoebe_chamber-01-32x9",
+          "horizon_y": 0.2296573875802998,
+          "opponent_ground_y": 0.3189293361884369
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "EverGrandeCity_PhoebesRoom",
+          "land": "phoebe_chamber",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "EverGrandeCity_PhoebesRoom",
+          "land": "phoebe_chamber",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "EverGrandeCity_PhoebesRoom",
+          "land": "phoebe_chamber",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "rainforest": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/forest/mound-forest-01-clean.png",
+        "night": "art/mounds/forest/mound-forest-01-night-clean.png"
+      },
+      "candidate_materials": {
+        "forest": {
+          "all_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png",
+            "art/mounds/forest/mound-forest-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "rainforest-01-16x9",
+          "horizon_y": 0.41,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-3x2-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-4x3",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-9x16-night",
+          "horizon_y": 0.42,
+          "opponent_ground_y": 0.47
+        },
+        {
+          "composition": "rainforest-01-9x16",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-9x19_5-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-9x19_5",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-9x20-night",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "rainforest-01-9x20",
+          "horizon_y": 0.39,
+          "opponent_ground_y": 0.45
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route119",
+          "land": "rainforest",
+          "water": "river"
+        },
+        {
+          "game": "ruby",
+          "map": "Route120",
+          "land": "rainforest",
+          "water": "pond"
+        },
+        {
+          "game": "sapphire",
+          "map": "Route119",
+          "land": "rainforest",
+          "water": "river"
+        },
+        {
+          "game": "sapphire",
+          "map": "Route120",
+          "land": "rainforest",
+          "water": "pond"
+        },
+        {
+          "game": "emerald",
+          "map": "Route119",
+          "land": "rainforest",
+          "water": "river"
+        },
+        {
+          "game": "emerald",
+          "map": "Route120",
+          "land": "rainforest",
+          "water": "pond"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "regi_ancient_tomb": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "regi_ancient_tomb-01-21x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "regi_ancient_tomb-01-4x3",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "AncientTomb",
+          "land": "regi_ancient_tomb",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "AncientTomb",
+          "land": "regi_ancient_tomb",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "AncientTomb",
+          "land": "regi_ancient_tomb",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "regi_desert_ruins": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "mineral-sand": {
+          "all_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png"
+          ]
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "DesertRuins",
+          "land": "regi_desert_ruins",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "DesertRuins",
+          "land": "regi_desert_ruins",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "DesertRuins",
+          "land": "regi_desert_ruins",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "regi_island_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave/mound-cave-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "IslandCave",
+          "land": "regi_island_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "IslandCave",
+          "land": "regi_island_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "IslandCave",
+          "land": "regi_island_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "rustboro_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "gravel": {
+          "all_assets": [
+            "art/mounds/gravel/mound-gravel-01-night.png",
+            "art/mounds/gravel/mound-gravel-01.png"
+          ],
+          "clean_assets": [],
+          "night_assets": [
+            "art/mounds/gravel/mound-gravel-01-night.png"
+          ]
+        },
+        "sandstone": {
+          "all_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png",
+            "art/mounds/sandstone/mound-sandstone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/sandstone/mound-sandstone-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "RustboroCity_Gym",
+          "land": "rustboro_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "RustboroCity_Gym",
+          "land": "rustboro_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "RustboroCity_Gym",
+          "land": "rustboro_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "seafloor_cavern": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "limestone": {
+          "all_assets": [
+            "art/mounds/limestone/mound-limestone-01.png",
+            "art/mounds/limestone/mound-limestone-02.png"
+          ],
+          "clean_assets": [],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "seafloor_cavern-01-16x10",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "seafloor_cavern-01-16x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "seafloor_cavern-01-9x16",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Entrance",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room1",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room2",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room3",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room4",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room5",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room6",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room7",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room8",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SeafloorCavern_Room9",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Entrance",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room1",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room2",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room3",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room4",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room5",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room6",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room7",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room8",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SeafloorCavern_Room9",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Entrance",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room1",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room2",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room3",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room4",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room5",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room6",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room7",
+          "land": "seafloor_cavern",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room8",
+          "land": "seafloor_cavern",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SeafloorCavern_Room9",
+          "land": "seafloor_cavern",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "seashore_house": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-ivory": {
+          "all_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png",
+            "art/mounds/floor-ivory/mound-floor-ivory-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route109_SeashoreHouse",
+          "land": "seashore_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route109_SeashoreHouse",
+          "land": "seashore_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route109_SeashoreHouse",
+          "land": "seashore_house",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "shoal_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-pale-limestone": {
+          "all_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean-v3.png",
+            "art/mounds/cave-pale-limestone/mound-cave-pale-limestone-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "limestone": {
+          "all_assets": [
+            "art/mounds/limestone/mound-limestone-01.png",
+            "art/mounds/limestone/mound-limestone-02.png"
+          ],
+          "clean_assets": [],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "shoal_cave-01-16x9",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "shoal_cave-01-4x3",
+          "horizon_y": 0.39,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "ShoalCave_LowTideEntranceRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "ShoalCave_LowTideInnerRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "ruby",
+          "map": "ShoalCave_LowTideStairsRoom",
+          "land": "shoal_cave",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "ShoalCave_LowTideLowerRoom",
+          "land": "shoal_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "ShoalCave_LowTideEntranceRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "ShoalCave_LowTideInnerRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "sapphire",
+          "map": "ShoalCave_LowTideStairsRoom",
+          "land": "shoal_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "ShoalCave_LowTideLowerRoom",
+          "land": "shoal_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "ShoalCave_LowTideEntranceRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "ShoalCave_LowTideInnerRoom",
+          "land": "shoal_cave",
+          "water": "cave_water"
+        },
+        {
+          "game": "emerald",
+          "map": "ShoalCave_LowTideStairsRoom",
+          "land": "shoal_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "ShoalCave_LowTideLowerRoom",
+          "land": "shoal_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "sidney_chamber": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "carpet-burgundy": {
+          "all_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+            "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-charcoal": {
+          "all_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png",
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "EverGrandeCity_SidneysRoom",
+          "land": "sidney_chamber",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "EverGrandeCity_SidneysRoom",
+          "land": "sidney_chamber",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "EverGrandeCity_SidneysRoom",
+          "land": "sidney_chamber",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "sky_pillar": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "pale-gravel": {
+          "all_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night-clean-v3.png",
+            "art/mounds/pale-gravel/mound-pale-gravel-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SkyPillar_1F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SkyPillar_3F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SkyPillar_5F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SkyPillar_1F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SkyPillar_3F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SkyPillar_5F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SkyPillar_1F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SkyPillar_3F",
+          "land": "sky_pillar",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SkyPillar_5F",
+          "land": "sky_pillar",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "sky_pillar_summit": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+        "night": "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "sky_pillar_summit-01-16x10-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "sky_pillar_summit-01-32x9-night",
+          "horizon_y": 0.22859756097560976,
+          "opponent_ground_y": 0.3106707317073171
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SkyPillar_Top",
+          "land": "sky_pillar_summit",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SkyPillar_Top",
+          "land": "sky_pillar_summit",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SkyPillar_Top",
+          "land": "sky_pillar_summit",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "sootopolis_gym": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "ice-cave": {
+          "all_assets": [
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-01.png",
+            "art/mounds/ice-cave/mound-ice-cave-02.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v2.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-03.png"
+          ],
+          "clean_assets": [
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-round.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean-v3.png",
+            "art/mounds/ice-cave/mound-ice-cave-01-clean.png",
+            "art/mounds/ice-cave/mound-ice-cave-03-v3-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SootopolisCity_Gym_1F",
+          "land": "sootopolis_gym",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "SootopolisCity_Gym_B1F",
+          "land": "sootopolis_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SootopolisCity_Gym_1F",
+          "land": "sootopolis_gym",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SootopolisCity_Gym_B1F",
+          "land": "sootopolis_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SootopolisCity_Gym_1F",
+          "land": "sootopolis_gym",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SootopolisCity_Gym_B1F",
+          "land": "sootopolis_gym",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "southern_island": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/grass/mound-grass-01-clean-v3.png",
+        "night": "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "forest": {
+          "all_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png",
+            "art/mounds/forest/mound-forest-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/forest/mound-forest-01-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-clean.png",
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/forest/mound-forest-01-night-clean-v3.png",
+            "art/mounds/forest/mound-forest-01-night-clean.png",
+            "art/mounds/forest/mound-forest-01-night.png"
+          ]
+        },
+        "grass": {
+          "all_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png",
+            "art/mounds/grass/mound-grass-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/grass/mound-grass-01-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/grass/mound-grass-01-night-clean-v3.png",
+            "art/mounds/grass/mound-grass-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "SouthernIsland_Interior",
+          "land": "southern_island",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "SouthernIsland_Interior",
+          "land": "southern_island",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "SouthernIsland_Interior",
+          "land": "southern_island",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "space_center": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-cool-gray/mound-floor-cool-gray-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray-night-cool": {
+          "all_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01-clean-v3.png",
+            "art/mounds/floor-gray-night-cool/mound-floor-gray-night-cool-01.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "space_center-01-21x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "MossdeepCity_SpaceCenter_2F",
+          "land": "space_center",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MossdeepCity_SpaceCenter_1F",
+          "land": "space_center",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "terra_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave": {
+          "all_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png",
+            "art/mounds/cave/mound-cave-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave/mound-cave-01-clean-v3.png"
+          ],
+          "night_assets": []
+        },
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "terra_cave-01-16x10",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "terra_cave-01-3x2",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "emerald",
+          "map": "TerraCave_End",
+          "land": "terra_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "trick_house": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-ivory/mound-floor-ivory-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-beige": {
+          "all_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png",
+            "art/mounds/floor-beige/mound-floor-beige-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-beige/mound-floor-beige-02-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle8",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle1",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle2",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle3",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle4",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle6",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route110_TrickHousePuzzle7",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle8",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle1",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle2",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle3",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle4",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle6",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route110_TrickHousePuzzle7",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle8",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle1",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle2",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle3",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle4",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle6",
+          "land": "trick_house",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route110_TrickHousePuzzle7",
+          "land": "trick_house",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "underwater_ocean": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/seabed-blue/mound-seabed-blue-01-clean.png"
+      },
+      "candidate_materials": {
+        "mineral-sand": {
+          "all_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night-clean.png",
+            "art/mounds/mineral-sand/mound-mineral-sand-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "underwater_ocean-01-16x9",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "underwater_ocean-01-4x3",
+          "horizon_y": 0.37,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Underwater1",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        },
+        {
+          "game": "ruby",
+          "map": "Underwater2",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        },
+        {
+          "game": "sapphire",
+          "map": "Underwater1",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        },
+        {
+          "game": "sapphire",
+          "map": "Underwater2",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        },
+        {
+          "game": "emerald",
+          "map": "Underwater_Route124",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        },
+        {
+          "game": "emerald",
+          "map": "Underwater_Route126",
+          "land": "underwater_ocean",
+          "water": "underwater_ocean"
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "volcanic_cave": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "volcanic_cave-01-16x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "FieryPath",
+          "land": "volcanic_cave",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "FieryPath",
+          "land": "volcanic_cave",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "FieryPath",
+          "land": "volcanic_cave",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "volcanic_crater": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-clean-v3.png",
+        "night": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "cave-warm-basalt": {
+          "all_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png",
+            "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "highland": {
+          "all_assets": [
+            "art/mounds/highland/mound-highland-01-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night.png",
+            "art/mounds/highland/mound-highland-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/highland/mound-highland-01-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png"
+          ],
+          "night_assets": [
+            "art/mounds/highland/mound-highland-01-night-clean-v3.png",
+            "art/mounds/highland/mound-highland-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "volcanic_crater-01-16x10",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_crater-01-16x9-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_crater-01-16x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_crater-01-21x9-night",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_crater-01-21x9",
+          "horizon_y": 0.35,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_crater-01-32x9-night",
+          "horizon_y": 0.22885245901639345,
+          "opponent_ground_y": 0.32721311475409837
+        },
+        {
+          "composition": "volcanic_crater-01-32x9",
+          "horizon_y": 0.22885245901639345,
+          "opponent_ground_y": 0.32721311475409837
+        },
+        {
+          "composition": "volcanic_crater-01-3x2-night",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "MtChimney",
+          "land": "volcanic_crater",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "MtChimney",
+          "land": "volcanic_crater",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "MtChimney",
+          "land": "volcanic_crater",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "volcanic_slope": {
+      "source_count": 18,
+      "coverage": {
+        "day": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ],
+        "night": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "day": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png",
+        "night": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night-clean-v3.png"
+      },
+      "candidate_materials": {
+        "gravel": {
+          "all_assets": [
+            "art/mounds/gravel/mound-gravel-01-night.png",
+            "art/mounds/gravel/mound-gravel-01.png"
+          ],
+          "clean_assets": [],
+          "night_assets": [
+            "art/mounds/gravel/mound-gravel-01-night.png"
+          ]
+        },
+        "village-earth": {
+          "all_assets": [
+            "art/mounds/village-earth/mound-village-earth-01-clean-v2.png",
+            "art/mounds/village-earth/mound-village-earth-01-clean-v3.png",
+            "art/mounds/village-earth/mound-village-earth-01-clean.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v2.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v3.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean.png",
+            "art/mounds/village-earth/mound-village-earth-01-night.png",
+            "art/mounds/village-earth/mound-village-earth-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/village-earth/mound-village-earth-01-clean-v2.png",
+            "art/mounds/village-earth/mound-village-earth-01-clean-v3.png",
+            "art/mounds/village-earth/mound-village-earth-01-clean.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v2.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v3.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean.png"
+          ],
+          "night_assets": [
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v2.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean-v3.png",
+            "art/mounds/village-earth/mound-village-earth-01-night-clean.png",
+            "art/mounds/village-earth/mound-village-earth-01-night.png"
+          ]
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "volcanic_slope-01-16x10-night",
+          "horizon_y": 0.39,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-16x10",
+          "horizon_y": 0.39,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-16x9-night",
+          "horizon_y": 0.45,
+          "opponent_ground_y": 0.5
+        },
+        {
+          "composition": "volcanic_slope-01-16x9",
+          "horizon_y": 0.33,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-21x9-night",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-21x9",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-3x2-night",
+          "horizon_y": 0.38,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-3x2",
+          "horizon_y": 0.4,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-4x3-night",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "volcanic_slope-01-4x3",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "JaggedPass",
+          "land": "volcanic_slope",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "JaggedPass",
+          "land": "volcanic_slope",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "JaggedPass",
+          "land": "volcanic_slope",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    },
+    "weather_institute": {
+      "source_count": 9,
+      "coverage": {
+        "indoor": [
+          "16:10",
+          "16:9",
+          "21:9",
+          "32:9",
+          "3:2",
+          "4:3",
+          "9:16",
+          "9:19.5",
+          "9:20"
+        ]
+      },
+      "binding": {
+        "ambient": "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+      },
+      "candidate_materials": {
+        "floor-gray": {
+          "all_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png",
+            "art/mounds/floor-gray/mound-floor-gray-01.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+            "art/mounds/floor-gray/mound-floor-gray-01-clean.png"
+          ],
+          "night_assets": []
+        },
+        "floor-sage": {
+          "all_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png",
+            "art/mounds/floor-sage/mound-floor-sage-02.png"
+          ],
+          "clean_assets": [
+            "art/mounds/floor-sage/mound-floor-sage-02-clean-v3.png"
+          ],
+          "night_assets": []
+        }
+      },
+      "review_close_rear_boundary": [
+        {
+          "composition": "weather_institute-01-16x9",
+          "horizon_y": 0.36,
+          "opponent_ground_y": 0.43
+        },
+        {
+          "composition": "weather_institute-01-3x2",
+          "horizon_y": 0.34,
+          "opponent_ground_y": 0.43
+        }
+      ],
+      "maps": [
+        {
+          "game": "ruby",
+          "map": "Route119_WeatherInstitute_1F",
+          "land": "weather_institute",
+          "water": null
+        },
+        {
+          "game": "ruby",
+          "map": "Route119_WeatherInstitute_2F",
+          "land": "weather_institute",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route119_WeatherInstitute_1F",
+          "land": "weather_institute",
+          "water": null
+        },
+        {
+          "game": "sapphire",
+          "map": "Route119_WeatherInstitute_2F",
+          "land": "weather_institute",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route119_WeatherInstitute_1F",
+          "land": "weather_institute",
+          "water": null
+        },
+        {
+          "game": "emerald",
+          "map": "Route119_WeatherInstitute_2F",
+          "land": "weather_institute",
+          "water": null
+        }
+      ],
+      "status": "candidate pairing and native calibration pending"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 18,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "grassland"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 2,
+      "presentation_transition_checks": 8
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "native_presentation_transition_checks": 72,
+  "scope": "Native faint/send-out animation APIs plus shared native Task/Anim ticks in isolated fixtures. Not actual turn execution, switch mechanics, move scripts, outcomes or full playthrough.",
+  "visual_review": {
+    "game": "emerald",
+    "size": "1280x720",
+    "stages": [
+      "opponent-faint-mid",
+      "opponent-fainted",
+      "opponent-sendout-mid",
+      "opponent-sendout-complete",
+      "player-fainted",
+      "player-sendout-complete"
+    ],
+    "finding": "Scenery and mound remain stable while native sprite disappearance, ball effect and return play. Native healthbox hiding follows faint API; full switch flow restoration is outside this fixture."
+  },
+  "harness_sha256": "da5a8a960068a495932bc21164032defbbc092b4fa16ed966944660afbcbeb2d"
+}

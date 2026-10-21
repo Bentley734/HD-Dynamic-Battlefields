@@ -1,0 +1,82 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/birth_island-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/birth_island-01-32x9-original.txt",
+    "family": "birth_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass"
+    ],
+    "crop_pixels": [
+      0,
+      60,
+      2048,
+      636
+    ],
+    "source_geometry": {
+      "horizon_y": 0.31,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.558125
+        ],
+        "mound_anchor": [
+          0.35,
+          0.573125
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.400625
+        ],
+        "mound_anchor": [
+          0.65,
+          0.41562499999999997
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/birth_island-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/birth_island-01-32x9-night-original.txt",
+    "family": "birth_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2103,
+      591
+    ],
+    "source_geometry": {
+      "horizon_y": 0.22,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.505668449197861
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5214705882352941
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3397459893048128
+        ],
+        "mound_anchor": [
+          0.65,
+          0.355548128342246
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "verified_downloads": [
+    {
+      "id": "national_dex_gen3",
+      "archive": "national_dex_gen3-1.2.0.zip",
+      "sha256": "d80840b975311b32334c21fed2a38608e6097cb8417944e609bdd322cec35b30",
+      "manifest": "1.2.0"
+    },
+    {
+      "id": "g9-battle-sprites-gen3",
+      "archive": "g9-battle-sprites-gen3-1.5.4.zip",
+      "sha256": "74219a6901380411e1ae60f9f46be35c3c67ceac7e00b0ff8c9a7b0b32763f13",
+      "manifest": "1.5.4"
+    }
+  ],
+  "hd_library_reused": "0.4.5 (latest official tag checked)",
+  "scope": "Official release archives, isolated extraction; runtime compatibility not yet claimed"
+}

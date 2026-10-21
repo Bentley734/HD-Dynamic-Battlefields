@@ -1,6 +1,6 @@
 {
   "game": "emerald",
-  "engine_version": "0.3.89",
+  "engine_version": "0.3.95",
   "maps": [
     {
       "game": "emerald",
@@ -14,8 +14,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df71c",
       "wild_rates": {
-        "fishing": 10,
-        "water": 1
+        "water": 1,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -32,8 +32,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df764",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -65,8 +65,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df74c",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -128,8 +128,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -163,8 +163,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df71c",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -215,8 +215,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df71c",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -315,8 +315,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df734",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -439,8 +439,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df74c",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -514,8 +514,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df74c",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -565,8 +565,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df74c",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -640,8 +640,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df764",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -707,8 +707,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df764",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -838,8 +838,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df77c",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -994,9 +994,9 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df77c",
       "wild_rates": {
-        "water": 4,
-        "fishing": 30,
         "land": 10,
+        "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "battle_event_evidence": [
@@ -1379,9 +1379,9 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7ac",
       "wild_rates": {
-        "water": 4,
-        "fishing": 30,
         "land": 20,
+        "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "battle_event_evidence": [
@@ -1592,8 +1592,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7ac",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -1790,8 +1790,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df77c",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -1890,8 +1890,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df77c",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -2014,8 +2014,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7c4",
       "wild_rates": {
-        "water": 4,
         "land": 15,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -2204,8 +2204,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7c4",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -2414,8 +2414,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -2522,8 +2522,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -2540,8 +2540,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -2688,8 +2688,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -2794,8 +2794,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -2885,8 +2885,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -2968,8 +2968,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3051,8 +3051,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3126,8 +3126,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3185,8 +3185,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df8cc",
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -3229,8 +3229,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3312,8 +3312,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3395,8 +3395,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3470,8 +3470,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "battle_event_evidence": [
         {
@@ -3561,8 +3561,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [
         {
@@ -3697,8 +3697,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7f4",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -3715,8 +3715,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df83c",
       "wild_rates": {
-        "fishing": 10,
-        "water": 1
+        "water": 1,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -3733,8 +3733,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df80c",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -4918,8 +4918,16 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df9bc",
       "wild_rates": {},
-      "battle_event_evidence": [],
-      "positive_battle_evidence": false
+      "battle_event_evidence": [
+        {
+          "category": "mapScripts",
+          "script_key": "g3:08223dbf",
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
     },
     {
       "game": "emerald",
@@ -5602,8 +5610,16 @@
       "primaryTileset": "ts_083df884",
       "secondaryTileset": "ts_083dfc7c",
       "wild_rates": {},
-      "battle_event_evidence": [],
-      "positive_battle_evidence": false
+      "battle_event_evidence": [
+        {
+          "category": "mapScripts",
+          "script_key": "g3:08228a1e",
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
     },
     {
       "game": "emerald",
@@ -5947,8 +5963,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df92c",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [],
@@ -5966,8 +5982,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df92c",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -6570,8 +6586,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df92c",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [],
@@ -6843,8 +6859,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df8cc",
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -6912,8 +6928,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df92c",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [],
@@ -7016,8 +7032,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "battle_event_evidence": [],
@@ -7035,8 +7051,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df824",
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "battle_event_evidence": [],
@@ -7370,8 +7386,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df8cc",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "battle_event_evidence": [
@@ -7438,8 +7454,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df8cc",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "battle_event_evidence": [],
@@ -7457,8 +7473,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df8cc",
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "battle_event_evidence": [],
@@ -7712,8 +7728,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083dfc44",
       "wild_rates": {
-        "fishing": 20,
-        "water": 4
+        "water": 4,
+        "fishing": 20
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -7877,8 +7893,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083dfc44",
       "wild_rates": {
-        "fishing": 20,
-        "water": 4
+        "water": 4,
+        "fishing": 20
       },
       "battle_event_evidence": [],
       "positive_battle_evidence": true
@@ -10187,8 +10203,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "battle_event_evidence": [],
@@ -10272,8 +10288,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "battle_event_evidence": [],
@@ -10381,8 +10397,8 @@
       "primaryTileset": "ts_083df704",
       "secondaryTileset": "ts_083df7dc",
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "battle_event_evidence": [],
@@ -13287,8 +13303,9 @@
   ],
   "source_sha256": {
     "scripts.lua": "6da1f4589173f79677d9efbc6d2ca366b6255031da8fc27f439e2165eb2e812e",
+    "events.lua": "4ae6dc661bae0bdc707c57dfd0ec1722e196dd194e4d94b3bc470f4549bd0d85",
     "encounters.lua": "84b26aaaa63f9b254ea8ce9aa7cf20f1e9024e136f2efe5bf84000ed6170667a",
     "map_groups.lua": "ec0bfa700e63f659f08e32aee857ae882965f78326684c7aa7594bad710e79e8"
   },
-  "limitations": "Positive wild rates and reachable event battle operations only. Map-entry scripts, dynamic specials and generated facility encounters require separate inspection."
+  "limitations": "Positive wild rates and reachable object/coordinate/background/map lifecycle battle operations. Dynamic specials and generated facility encounters require separate inspection."
 }

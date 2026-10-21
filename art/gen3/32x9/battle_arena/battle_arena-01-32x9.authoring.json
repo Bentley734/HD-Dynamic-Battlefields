@@ -3,14 +3,14 @@
   "composition_id": "battle_arena-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1771,
+    "height": 498
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3333333333333333,
-  "background": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
-  "sha256": "1410731ac40e27dec9f7f933e26bde736fc9b82898d7adba44f31b61cecad491",
+  "horizon_y": 0.2289156626506024,
+  "background": "art/gen3/32x9/battle_arena/battle_arena-01-32x9-horizon-clearance-v3.png",
+  "sha256": "6a3e1085c5a66f0791e165243d0aefaf87910125a9ad8fdeeca8c957a2e7dc36",
   "mound_material_candidates": [
     "floor-beige",
     "floor-clay"
@@ -31,74 +31,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3268210050818746,
+      0.6067469879518073
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3268210050818746,
+      0.5836144578313253
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009253012048192772
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6737436476566911,
+      0.36385542168674695
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6737436476566911,
+      0.34072289156626506
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009253012048192772
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/dojo/dojo-01-32x9.png",
-    "original_sha256": "2c308580339836f16d33b473c26a1faa16342ec453e08582c983c94adf61bfdf",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
+    "original_sha256": "1410731ac40e27dec9f7f933e26bde736fc9b82898d7adba44f31b61cecad491",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      0,
-      2048,
+      138,
+      78,
+      1909,
       576
     ],
-    "source_geometry": {
-      "horizon_y": 0.25,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.48
-        ],
-        "mound_anchor": [
-          0.35,
-          0.49500000000000005
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3225
-        ],
-        "mound_anchor": [
-          0.65,
-          0.33749999999999997
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/battle_arena/battle_arena-01-32x9-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "aspect": "32x9",

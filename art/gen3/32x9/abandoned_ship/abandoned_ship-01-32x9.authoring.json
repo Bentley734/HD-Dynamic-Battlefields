@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "abandoned_ship-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1742,
+    "height": 490
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.2297142857142858,
+  "background": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9-horizon-clearance-v3.png",
+  "sha256": "b9dad533ee9f6a03064133ba65d37f81a528d754a5686a4fccaa038cb00e09f6",
+  "mound_material_candidates": [
+    "floor-sage",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32023536165327204,
+      0.5920000000000001
+    ],
+    "pokemon_ground_anchor": [
+      0.32023536165327204,
+      0.568
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.0096
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6803386911595868,
+      0.34
+    ],
+    "pokemon_ground_anchor": [
+      0.6803386911595868,
+      0.316
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.0096
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9.png",
+    "original_sha256": "8dec4cc9550993b6e77bc2adc3359103debd9997f1beb27dcd02ffda26bd10b3",
+    "original_size": {
+      "width": 2091,
+      "height": 588
+    },
+    "crop_pixels": [
+      174,
+      98,
+      1916,
+      588
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/abandoned_ship/abandoned_ship-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.3.0-beta.1",
+  "runtime": "0.3.95",
+  "games": [
+    "red",
+    "blue",
+    "yellow",
+    "gold",
+    "silver",
+    "crystal"
+  ],
+  "source": "Extracted candidate ZIP",
+  "scope": "Gen1 real Loader/Sandbox, native UI invariance, native fallback and adjustments; Gen2 direct native adapter fixture with package files and bundled 16:9 fallback, UI invariance. Gen2 harness stubs settings and is not real-loader or whole-game certification. No downloaded packs. No real save writes.",
+  "gen2_real_loader_menu_customizer": "Gold/Silver/Crystal extracted candidate ZIP passed actual Loader/Sandbox with Menu Customizer, native UI traces unchanged. Direct adapter reports retained separately.",
+  "frlg_source_candidate": "FireRed/LeafGreen source candidate passed 12 scene checks each with current National Dex/G9/HD-library at 1280x720. This uses full source artwork, not base ZIP/offline fallback."
+}

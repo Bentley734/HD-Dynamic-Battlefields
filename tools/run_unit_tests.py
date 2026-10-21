@@ -12,7 +12,7 @@ from lupa.luajit21 import LuaRuntime
 project = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--engine', type=Path,
-                    default=workspace / '.work/hd-battlefields-latest/v0.3.89/engine')
+                    default=workspace / '.work/hd-battlefields-latest/v0.3.95/engine')
 args = parser.parse_args()
 runtime = args.engine.resolve()
 if not (runtime / 'src/link/Json.lua').is_file():

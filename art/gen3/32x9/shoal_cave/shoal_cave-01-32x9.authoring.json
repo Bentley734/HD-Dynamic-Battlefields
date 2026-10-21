@@ -3,14 +3,14 @@
   "composition_id": "shoal_cave-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2179,
-    "height": 613
+    "width": 1963,
+    "height": 552
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.306231647634584,
-  "background": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9.png",
-  "sha256": "968a73782852d8f1c56ae1d0e40d22d75006ee0e74463af2e6154bfc5f9649f7",
+  "horizon_y": 0.22956521739130434,
+  "background": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9-horizon-clearance-v3.png",
+  "sha256": "d48f9c092a71587dc3c316690840f07cd8da10d46f2ea29e48f525a504211f03",
   "mound_material_candidates": [
     "limestone",
     "cave-pale-limestone"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3334946510443199,
+      0.6224275362318842
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3334946510443199,
+      0.6002173913043478
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008884057971014492
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6665053489556801,
+      0.38922101449275365
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.42999999999999994
+      0.6665053489556801,
+      0.36701086956521733
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008884057971014492
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/shoal_cave-01-32x9-original.png",
-    "original_sha256": "e400ed568074ec224be04536ce00eed4ffe466d2c034d730c43bb7231841d57f",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9.png",
+    "original_sha256": "968a73782852d8f1c56ae1d0e40d22d75006ee0e74463af2e6154bfc5f9649f7",
     "original_size": {
       "width": 2179,
-      "height": 722
+      "height": 613
     },
     "crop_pixels": [
-      0,
-      0,
-      2179,
+      108,
+      61,
+      2071,
       613
     ],
-    "source_geometry": {
-      "horizon_y": 0.26,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5433795013850415
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5603601108033242
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.36508310249307474
-        ],
-        "mound_anchor": [
-          0.65,
-          0.38206371191135735
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/shoal_cave/shoal_cave-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

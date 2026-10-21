@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "space_center-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1835,
+    "height": 516
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22883720930232554,
+  "background": "art/gen3/32x9/space_center/space_center-01-32x9-horizon-clearance-v3.png",
+  "sha256": "a40c45bc6a3d4560c22c4106f53c63854e637fdf93b4eef6beda61f75e7d3fab",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-gray-night-cool"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3328610354223433,
+      0.6204651162790698
+    ],
+    "pokemon_ground_anchor": [
+      0.3328610354223433,
+      0.598139534883721
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008930232558139536
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.667683923705722,
+      0.38604651162790693
+    ],
+    "pokemon_ground_anchor": [
+      0.667683923705722,
+      0.36372093023255814
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008930232558139536
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/space_center/space_center-01-32x9.png",
+    "original_sha256": "dc3da34e7471fc9ef542942e834dd37887643ee6562bcc29be93803ad8f6da84",
+    "original_size": {
+      "width": 2048,
+      "height": 576
+    },
+    "crop_pixels": [
+      106,
+      60,
+      1941,
+      576
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/space_center/space_center-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

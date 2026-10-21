@@ -2,9 +2,10 @@ local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
 local project=(os.getenv('HDB_PROJECT')or(workspace..'/HD-Dynamic-Battlefields')):gsub('\\','/')
 local version=os.getenv('HDB_GAME_VERSION')or'firered'
 local mode=os.getenv('HDB_COMPAT_MODE')or'national'
-local engine=workspace..'/.work/hd-battlefields-latest/v0.3.89/engine'
-local research=workspace..'/.work/hd-frlg-compat'
-local baseOutput=project..'/docs/evidence/frlg/'..version..'-'..mode
+local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.95'
+local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
+local research=(os.getenv('HDB_COMPAT_ROOT')or workspace..'/.work/hd-rse-compat-latest/national-suite-2026-10-21'):gsub('\\','/')
+local baseOutput=project..'/docs/evidence/frlg/runtime-v'..runtimeVersion..'/'..version..'-'..mode
 local size=os.getenv('HDB_SIZE')or'1280x720'
 local probeW,probeH=size:match('^(%d+)x(%d+)$');probeW,probeH=tonumber(probeW),tonumber(probeH)
 local output=baseOutput..'/'..size
@@ -21,12 +22,16 @@ function love.load()
   local roots={national_dex_gen3=research..'/national_dex_gen3/extracted',
    ['g9-battle-sprites-gen3']=research..'/g9-battle-sprites-gen3/extracted',
    ['gen3-hd-sprites']=research..'/gen3-hd-sprites/extracted',
-   ['1025dex']=research..'/1025Dex/extracted/1025dex',
+   ['1025dex']=(os.getenv('HDB_DEX_ROOT')or workspace..'/.work/1025dex-double-fix'):gsub('\\','/'),
    ['hd-dynamic-battlefields']=project}
   local enabled=mode=='national'and{'national_dex_gen3','g9-battle-sprites-gen3','gen3-hd-sprites'}or{'1025dex'}
   enabled[#enabled+1]='hd-dynamic-battlefields'
   local appdata=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d'
   local function source(path)
+   local asset=path:match('^mod_cache/1025dex/dex_assets/files/(assets/.+)$')
+   if asset then return read(workspace..'/.work/hd-rse-compat-latest/dex-artwork/'..asset)end
+   local receipt=path:match('^mod_cache/1025dex/(dex_assets/[^/]+)$')
+   if receipt then return read(workspace..'/.work/hd-rse-compat-latest/dex-manager-fixture/'..receipt)end
    local id,rel=path:match('^mods/([^/]+)/(.+)$')
    if id then return roots[id]and read(roots[id]..'/'..rel)end
    if path:match('^data/generated/')or path:match('^assets/generated/')then return read(appdata..'/'..version..'/'..path)end
@@ -40,9 +45,11 @@ function love.load()
   local oldPixels=love.image.newImageData
   love.image.newImageData=function(path,...)if type(path)=='string'then local b=source(path);if b then path=FS.newFileData(b,path)end end;return oldPixels(path,...)end
   require('src.core.GameVersion').set(version)
+  assert(require('src.core.Version').engine==runtimeVersion,'Wrong isolated engine')
   local Blob=require('src.import.CacheBlob')
   local function cached(path)local b=source(path);return b and Blob.decode(path,b)end
   package.loaded['src.import.CacheFs']={readActive=cached,read=cached,readAt=cached,
+   loadActive=function(p)local b=cached(p);if type(b)~='string'then return end;local chunk=assert(loadstring(b,'@'..p));local ok,value=pcall(chunk);if ok then return value end;return nil,value end,
    existsAt=function(p)return source(p)~=nil end,root=function()return appdata end}
   local Dataset=require('src.core.game3.dataset')
   local cache={read=function(_,p)return cached(p)end,exists=function(_,p)return source(p)~=nil end}
@@ -52,6 +59,7 @@ function love.load()
   local game={data={maps=Dataset.buildMaps(),pokemon={},generation=3,constants={}},phase='field',
    session={version=version,playerName='PROBE',trainerId=1,map='FR_ROUTE1',party={}},
    save={version=version,player={name='PROBE',id=1,map='FR_ROUTE1'},party={},meta={playthroughId='hd-frlg-probe'}}}
+  game.save=require('src.core.game3.save_schema_firered').toSaveTable(game.session)
   require('src.core.Game3')._exposeModData(game)
   require('src.mods.Gen3Compat').bind(function()return game end)
   local SaveData=require('src.core.SaveData');local options=SaveData.defaultOptions();options.mods={}
@@ -75,6 +83,11 @@ function love.load()
   local Loader=require('src.mods.Loader');local loader=Loader.new{fs=fs,generation=3,version=version,dev=false};loader.game=game;game.mods=loader
   loader:load(game.data)
   for _,id in ipairs(enabled)do assert(loader.mods[id]and loader.mods[id].state=='loaded',id..': '..table.concat(loader.errors,'\n'))end
+  local assetsReady
+  if mode=='1025'then
+   assetsReady=assert(loader.exports['1025dex'].assetManager):isComplete()
+   assert(assetsReady,'1025Dex manager must recognize installed assets')
+  end
   require('src.mods.Gen3Compat').applyMerged(game)
   -- Runtime entry reloads the ROM species pack after the initial mod merge.
   -- Its reload hooks restore extended species and reinstall picture providers.
@@ -205,11 +218,19 @@ function love.load()
     game.session.map=s[1];render(probeW,probeH,nil,s[2])
     checks[#checks+1]={map=s[1],width=probeW,height=probeH,environment=s[2],water=true}
    end
-   write('render.json',Json.encode({checks=checks,native_ui_trace_unchanged=true,scoped_native_pixel_offsets=true,native_species_menu=true,
+   local flow
+   if os.getenv('HDB_BATTLE_FLOW')=='1'then
+    local function flowRender(w,h,name)
+     trace={};render(w,h,name);return table.concat(trace,'\n')
+    end
+    flow=assert(loadfile(project..'/tools/rse_native_probe/battle_flow.lua'))()(project,game,Battle,cache,{exports=hdmod},
+     options.modOptions['hd-dynamic-battlefields'],flowRender,probeW,probeH,false)
+   end
+   write('render.json',Json.encode({checks=checks,battle_flow=flow,native_ui_trace_unchanged=true,scoped_native_pixel_offsets=true,native_species_menu=true,
     scope='Native battle constructor and staged command screen; not gameplay traversal or turn simulation.'}))
   end
-  write('result.json',Json.encode({runtime='0.3.89',game=version,mode=mode,loaded=enabled,species=#rows,mod_species_and_forms=expected,
-   scope='Actual published mods through official Loader/Sandbox; full effective registry chooser coverage. Optional native rendering fixture recorded separately; no live save writes.'}))
+  write('result.json',Json.encode({runtime=runtimeVersion,game=version,mode=mode,loaded=enabled,species=#rows,mod_species_and_forms=expected,asset_manager_ready=assetsReady,
+   dex_source=roots['1025dex'],scope='Actual local source through official Loader/Sandbox; effective registry chooser and native scene checks. Optional automatic trainer flow recorded separately; no live save writes or publication claim.'}))
  end,debug.traceback)
  if not ok then write('error.txt',err)end
  love.event.quit(ok and 0 or 1)

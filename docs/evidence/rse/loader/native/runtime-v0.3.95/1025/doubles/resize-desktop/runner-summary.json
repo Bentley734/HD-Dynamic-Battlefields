@@ -1,0 +1,25 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "1025",
+  "wildfollowers": false,
+  "resize": true,
+  "resize_method": "desktop",
+  "double_fixture": true,
+  "processes": 1,
+  "scene_cases": 12,
+  "candidate_manifest_only": true,
+  "all_areas": false,
+  "review_families": [],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 12,
+      "resize_checks": 7,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "Limited original scenery fixtures; Four-battler trainer fixture only; Full battle flow not exercised; No full playthrough, every-map coverage, custom UI profiles, overworld follower behavior or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

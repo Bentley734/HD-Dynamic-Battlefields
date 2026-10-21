@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/carpet-crimson/mound-carpet-crimson-01.png",
+      "cleaned": "art/mounds/carpet-crimson/mound-carpet-crimson-01-clean-v3.png",
+      "prompt": "art/mounds/carpet-crimson/prompts/mound-carpet-crimson-01.txt",
+      "source_sha256": "9b0effcfe733310789c908a41e47e50ece253f0dee8534574ba36a2c635f44b5",
+      "cleaned_sha256": "ac0b7f3f03d83bc58621fb5aa139e5fd44dc6dd4d2c1fd7b1ca01dae8361f936",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; originals retained",
+      "review": "all three generated before source batch review; cleaned images reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/carpet-violet/mound-carpet-violet-01.png",
+      "cleaned": "art/mounds/carpet-violet/mound-carpet-violet-01-clean-v3.png",
+      "prompt": "art/mounds/carpet-violet/prompts/mound-carpet-violet-01.txt",
+      "source_sha256": "44d44c22a9f6c84ac21f653ae4b31a2dcca46f4111f7f4034a9434aaf9df76af",
+      "cleaned_sha256": "c05288f0289f6145e6c73fc081c9931df1e816d7a3583db28fc03ac75ac5e964",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; originals retained",
+      "review": "all three generated before source batch review; cleaned images reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/floor-weathered-sage/mound-floor-weathered-sage-01.png",
+      "cleaned": "art/mounds/floor-weathered-sage/mound-floor-weathered-sage-01-clean-v3.png",
+      "prompt": "art/mounds/floor-weathered-sage/prompts/mound-floor-weathered-sage-01.txt",
+      "source_sha256": "4efd3c0962beda8dde8fbad81098a57c4d5d411104f96ebf0c4d8a7b8d853d24",
+      "cleaned_sha256": "ed1296e3888226c2bca19fcaf3c89430759cf5bcd8428116b5b6a81dc92acfa1",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; originals retained",
+      "review": "all three generated before source batch review; cleaned images reviewed; native blending pending"
+    }
+  ]
+}

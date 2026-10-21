@@ -1,0 +1,16 @@
+{
+  "scope": "Emerald1280x720 material/contact sample; not all aspects/species",
+  "change": "metadata/native_rse.lua opponent mound y64 to70 for Ruby/Sapphire/Emerald; native sprite and HUD positions unchanged",
+  "verification": "Emerald93 scene loading/UI trace cases passed after change",
+  "visual_review": [
+    {
+      "capture": "docs/evidence/rse/loader/native/emerald-1280x720-space_center-day-current.png",
+      "finding": "Poochyena feet now sit on interior of visible mound instead of its near edge; mound lies on floor"
+    }
+  ],
+  "pending": [
+    "Regenerate/review other aspects after profile correction",
+    "Inspect and correct compositions with wall/floor boundaries too low",
+    "Ruby/Sapphire and expanded/hovering species contact review"
+  ]
+}

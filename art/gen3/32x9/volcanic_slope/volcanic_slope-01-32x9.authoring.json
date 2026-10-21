@@ -3,21 +3,21 @@
   "composition_id": "volcanic_slope-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1959,
+    "height": 551
   },
   "aspect_ratio": "32:9",
   "time_of_day": "day",
-  "horizon_y": 0.46666666666666656,
-  "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9.png",
-  "sha256": "a040e7642b915fe000481747342586302a24af3e655cfc778deba1e1661c7f56",
+  "horizon_y": 0.22927404718693287,
+  "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-horizon-clearance-v3.png",
+  "sha256": "f8705970b651ff7964030c0748d787d41db38f9987a3a1b29ba50b5c79122288",
   "mound_material_candidates": [
     "village-earth",
     "gravel"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+    "Replacement source visually reviewed; final crop and native contact review pending.",
+    "Normalized placement remains a calibration candidate."
   ],
   "depth": {
     "player": 1,
@@ -31,73 +31,65 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.7399999999999999
+      0.3380551301684533,
+      0.7192377495462794
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.7200000000000001
+      0.3380551301684533,
+      0.6976406533575318
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008638838475499093
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.54
+      0.6619448698315467,
+      0.5032667876588022
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.52
+      0.6619448698315467,
+      0.4816696914700545
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008638838475499093
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/volcanic_slope-01-32x9-original.png",
-    "original_sha256": "c14d22ef638898a34c8b2e5bc61341a40ba088427454f249c28f72f4b1e75662",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-floor-fix-v2.png",
+    "original_sha256": "a705f378b7712df7cf6d4b06fed534a87ab9504fb24bfdf8453fec7ae4fefe78",
     "original_size": {
-      "width": 2048,
-      "height": 768
+      "width": 2115,
+      "height": 595
     },
     "crop_pixels": [
-      0,
-      0,
-      2048,
-      576
+      78,
+      44,
+      2037,
+      595
     ],
-    "source_geometry": {
-      "horizon_y": 0.35,
-      "player": {
-        "mound_anchor": [
-          0.35,
-          0.5549999999999999
-        ],
-        "pokemon_ground_anchor": [
-          0.35,
-          0.54
-        ]
-      },
-      "opponent": {
-        "mound_anchor": [
-          0.65,
-          0.405
-        ],
-        "pokemon_ground_anchor": [
-          0.65,
-          0.39
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/volcanic_slope/volcanic_slope-01-32x9-before-horizon-clearance-v3.authoring.json"
+  },
+  "source_replacement": {
+    "reason": "Native ultrawide capture showed mound over distant ground edge; regenerated broader level shelf",
+    "previous_metadata": "art/gen3/drafts/32x9/volcanic_slope/volcanic_slope-01-32x9-pre-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/volcanic_slope/volcanic_slope-01-32x9-floor-fix-original.png",
+    "crop_rect": [
+      0,
+      60,
+      2115,
+      655
+    ],
+    "operation": "approved excess-canvas crop only; no stretching or resampling",
+    "source_horizon_y": 0.31
   }
 }

@@ -1,0 +1,35 @@
+{
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 4,
+  "scene_cases": 8,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "mt_pyre_summit"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 2
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 2
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 2
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 2
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

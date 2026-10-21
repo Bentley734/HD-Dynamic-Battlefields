@@ -22,6 +22,8 @@ for _, entry in catalog['compositions'].items():
 
 def family(name):
     # Specific Hoenn identity wins over broad land/sea/cave categories.
+    if name == 'MagmaHideout_4F':
+        return 'magma_core'
     if '_Gym' in name:
         return name.split('_Gym')[0].replace('City', '').replace('Town', '').lower() + '_gym'
     for token, env in [('SidneysRoom', 'sidney_chamber'), ('PhoebesRoom', 'phoebe_chamber'),
@@ -62,7 +64,9 @@ def family(name):
     if name.startswith('ShoalCave'):
         return 'seafoam_cave' if 'IceRoom' in name else 'shoal_cave'
     if name.startswith('MtPyre'):
-        return 'mt_pyre_exterior' if any(v in name for v in ('Exterior', 'Summit')) else 'mt_pyre_interior'
+        if name == 'MtPyre_Summit':
+            return 'mt_pyre_summit'
+        return 'mt_pyre_exterior' if 'Exterior' in name else 'mt_pyre_interior'
     if name.startswith('SafariZone'):
         return 'hoenn_safari'
     route = re.fullmatch(r'Route(\d+)', name)
@@ -106,7 +110,14 @@ for game in ('ruby', 'sapphire', 'emerald'):
             continue
         water = None
         if any(k in row['wild_rates'] for k in ('water', 'fishing')):
-            if row['mapType'] == 5:
+            # Preserve the visible floating-town identity for its actual
+            # surf/fishing battles instead of bypassing its authored scenery.
+            if name == 'PacifidlogTown':
+                water = 'pacifidlog_water'
+            elif name.startswith('AbandonedShip'):
+                # Water encounters stay inside the flooded hull, not a cave.
+                water = 'abandoned_ship_flooded'
+            elif row['mapType'] == 5:
                 water = 'underwater_ocean'
             elif row['mapType'] == 4:
                 water = 'cave_water'
@@ -117,8 +128,17 @@ for game in ('ruby', 'sapphire', 'emerald'):
             else:
                 water = 'pond'
         overrides = {}
+        # Scripted Kyogre encounter has no random water encounter rate.
+        # Its water terrain still belongs to the authored Marine Cave room.
+        if name == 'MarineCave_End' and row['positive_battle_evidence']:
+            water = 'marine_cave'
         if name == 'Route111':
             overrides['SAND'] = 'desert'
+        if name == 'Route130' and row['wild_rates'].get('land', 0) > 0:
+            # Mirage Island shares the ocean route signature. Resolve its
+            # actual grass terrain independently from surrounding surf.
+            overrides['GRASS'] = 'grassland'
+            overrides['LONG_GRASS'] = 'grassland'
         entry = {key: row[key] for key in ('game', 'id', 'native_name', 'mapType', 'battleType', 'wild_rates')}
         entry.update(land=land, water=water, terrain_overrides=overrides,
                      evidence='native battle-special location' if special else 'positive encounter/event evidence')
@@ -133,7 +153,7 @@ plan = {'schema_version': 1, 'stage': 'authoring candidate; map/context and visu
         'new_or_incomplete_families': new, 'unclassified_battle_maps': unresolved,
         'excluded_unused_maps': excluded,
         'minimum_new_aspect_compositions': sum(len(set(aspects) - available.get(env, set())) for env in new),
-        'limitations': ['New families still need original art, separate outdoor night scenes and mound pairing.',
+        'limitations': ['Source and mound coverage are authoring candidates; native calibration remains required.',
                         'Review mixed-terrain routes, story/legendary specials and generated Frontier battles before enabling.',
                         'Existing scenery is a reuse candidate, not proof of matching Hoenn interiors or sprite contact.']}
 sources = []

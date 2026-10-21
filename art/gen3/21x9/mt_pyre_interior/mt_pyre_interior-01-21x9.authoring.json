@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "mt_pyre_interior-01-21x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1916,
+    "height": 821
+  },
+  "aspect_ratio": "21:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.31,
+  "background": "art/gen3/21x9/mt_pyre_interior/mt_pyre_interior-01-21x9.png",
+  "sha256": "951f8ed17b14b052e306734145cec43ce86f06b11ab358d7eb6324a3a2c94105",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-gray-night-cool"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.05,
+    "top": 0.06,
+    "right": 0.95,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.3,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.7,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.7,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

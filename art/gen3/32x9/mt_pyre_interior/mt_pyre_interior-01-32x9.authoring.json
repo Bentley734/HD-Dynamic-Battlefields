@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "mt_pyre_interior-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1916,
+    "height": 539
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22949907235621525,
+  "background": "art/gen3/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9-horizon-clearance-v3.png",
+  "sha256": "5e64061b00ea66e61a231cdb1e1cee244e4effc198772d3f679d927363163655",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-gray-night-cool"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3379697286012526,
+      0.6322448979591838
+    ],
+    "pokemon_ground_anchor": [
+      0.3379697286012526,
+      0.6106122448979592
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008653061224489795
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6625521920668058,
+      0.40510204081632656
+    ],
+    "pokemon_ground_anchor": [
+      0.6625521920668058,
+      0.38346938775510203
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008653061224489795
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9.png",
+    "original_sha256": "248ad94d4c3ea1d2babf2c644074460ae6e818ab15b6b29215117ca406050d36",
+    "original_size": {
+      "width": 2073,
+      "height": 583
+    },
+    "crop_pixels": [
+      78,
+      44,
+      1994,
+      583
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01.png",
+      "cleaned": "art/mounds/carpet-burgundy/mound-carpet-burgundy-01-clean-v3.png",
+      "source_sha256": "ef0070a90b38a60daea409888f3f2d6d6f48e5afe2764c26de2609028ddcae92",
+      "cleaned_sha256": "e06c9f5ec8d10b796d03bfd34eecc4fa6c05eca92696a79e6807e25edafbd31e",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "original and clean-v3 reviewed; native layout calibration pending"
+    },
+    {
+      "source": "art/mounds/carpet-lavender/mound-carpet-lavender-01.png",
+      "cleaned": "art/mounds/carpet-lavender/mound-carpet-lavender-01-clean-v3.png",
+      "source_sha256": "e708db5d5d72f95690a60c2728ec77216944358bc23cb8a8bbb31811f46988a0",
+      "cleaned_sha256": "12803f0888a41e90921b3461e445aa8c208986a488677f2ef0505c5ce32db7a8",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "original and clean-v3 reviewed; native layout calibration pending"
+    },
+    {
+      "source": "art/mounds/carpet-moss/mound-carpet-moss-01.png",
+      "cleaned": "art/mounds/carpet-moss/mound-carpet-moss-01-clean-v3.png",
+      "source_sha256": "2de8eb91b62bfb16b4b904a3424d6edfab102cf6092f735be78008d6b188796c",
+      "cleaned_sha256": "5f6c369e4c054b4acd481c75ded868c344c019b0a42e8e6efe934aed383a497f",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "original and clean-v3 reviewed; native layout calibration pending"
+    },
+    {
+      "source": "art/mounds/carpet-blue/mound-carpet-blue-01.png",
+      "cleaned": "art/mounds/carpet-blue/mound-carpet-blue-01-clean-v3.png",
+      "source_sha256": "8b5acb00d15eb6413116c7f5c8b62a7fe88bdc23bf801c78de7ff7175415c4ce",
+      "cleaned_sha256": "95a13aa868e935b5459e3e77d3937231d50daa69ea832e2b38f253172d684d46",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "original and clean-v3 reviewed; native layout calibration pending"
+    }
+  ]
+}

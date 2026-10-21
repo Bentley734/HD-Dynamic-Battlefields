@@ -3,14 +3,14 @@
   "composition_id": "desert_ruin-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2172,
-    "height": 611
+    "width": 1913,
+    "height": 538
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3210474631751228,
-  "background": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9.png",
-  "sha256": "69bc5dd0aa28d78f028e8617cb5febe629cf4da38bb66bc1257cc48caefd3784",
+  "horizon_y": 0.2289219330855019,
+  "background": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9-horizon-clearance-v3.png",
+  "sha256": "73ef2d16c8d8273bf7e2b20a3ac6c14d17935680a302ba9f64552283dd13e613",
   "mound_material_candidates": [
     "sandstone",
     "mineral-sand"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.32995295347621534,
+      0.6138661710037174
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32995295347621534,
+      0.5911524163568773
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009085501858736059
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6705697856769471,
+      0.37537174721189587
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6705697856769471,
+      0.3526579925650558
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009085501858736059
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/desert_ruin-01-32x9-original.png",
-    "original_sha256": "78b3dabc1c736e0efdf03fd2a128fc0c25efcb0c1037cad47f62856c18d5c323",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9.png",
+    "original_sha256": "69bc5dd0aa28d78f028e8617cb5febe629cf4da38bb66bc1257cc48caefd3784",
     "original_size": {
       "width": 2172,
-      "height": 724
+      "height": 611
     },
     "crop_pixels": [
-      0,
-      50,
-      2172,
-      661
+      129,
+      73,
+      2042,
+      611
     ],
-    "source_geometry": {
-      "horizon_y": 0.34,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.6091712707182321
-        ],
-        "mound_anchor": [
-          0.35,
-          0.626049723756906
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.43194751381215474
-        ],
-        "mound_anchor": [
-          0.65,
-          0.4488259668508287
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/desert_ruin/desert_ruin-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

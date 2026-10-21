@@ -1,0 +1,22 @@
+{
+  "runtime_version": "0.3.89",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.89\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": false,
+  "processes": 1,
+  "scene_cases": 1,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "magma_core"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 1
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Doubles not covered; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

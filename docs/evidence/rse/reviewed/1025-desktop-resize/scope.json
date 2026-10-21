@@ -1,0 +1,26 @@
+{
+  "runtime": "0.3.95",
+  "checkpoint_count": 21,
+  "games": [
+    "ruby",
+    "sapphire",
+    "emerald"
+  ],
+  "mode": "Existing desktop window; same battle through seven sizes per game",
+  "loaded_mods": {
+    "1025dex": "1.5.2",
+    "wildfollowers": "3.4.5",
+    "gen3transparency": "3.35.15"
+  },
+  "preview_readback": "Separate 1025Dex non-battle preview sheet is requested, then allowed 240 real core.update ticks before alpha readback. No sprite replacement, bypass or third-party source changes.",
+  "visual_review": [
+    "emerald-5120x1440-resize-2.png",
+    "emerald-900x2000-resize-5.png"
+  ],
+  "limitations": [
+    "Mobile rotation not tested.",
+    "Graphics-mode recreation is a separate unresolved G9 suite case.",
+    "No exhaustive sprite-set/profile verification."
+  ],
+  "uploaded": false
+}

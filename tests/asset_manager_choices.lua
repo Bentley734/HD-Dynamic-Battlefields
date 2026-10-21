@@ -25,5 +25,12 @@ find(rootRows,'hd_assets_download_all').activate(game)
 assert(#queued==2 and queued[1].id=='wide-one'and queued[2].id=='phone-one',
  'Download all must include other aspect families despite current-display filtering')
 mod.exports.assetPacks.queue.error='Batch failed'
-assert(find(rootRows,'hd_assets_error').value()=='Batch failed')
+find(rootRows,'hd_assets_progress').activate(game)
+assert(find(shown,'hd_assets_error').value()=='Batch failed')
+local page=shown
+find(page,'hd_assets_error').activate(game)
+assert(shown==page,'Read-only error row must not close its page')
+find(page,'hd_assets_progress_detail').activate(game)
+assert(shown==page,'Read-only progress row must not close its page')
+for _,row in ipairs(rootRows)do assert(row.id~='hd_assets_quality','Do not advertise unpublished quality tiers')end
 print('PASS Asset Manager separate aspect and compact/full variation filtering')

@@ -27,9 +27,19 @@ return function()
   Menu.cursor=1
  end
  function self.mount(row)
+  local function append(rows)
+   for _,existing in ipairs(rows)do if existing.id==row.id then return rows end end
+   rows[#rows+1]=convert({row})[1];return rows
+  end
   local build=Rows.build
   Rows.build=function(...)
-   local rows=build(...);rows[#rows+1]=convert({row})[1];return rows
+   return append(build(...))
+  end
+  -- Newer native grouped menus call withCart without going through build.
+  -- Support both entry points, deduplicating when older versions nest them.
+  if Rows.withCart then
+   local withCart=Rows.withCart
+   Rows.withCart=function(...)return append(withCart(...))end
   end
  end
  return self

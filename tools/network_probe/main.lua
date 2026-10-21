@@ -78,7 +78,7 @@ function love.load()
  battle.enemy.fainted=false;battle.player.fainted=false
 
  local store=loader.exports['hd-dynamic-battlefields'].assetPacks.store
- local manifest=workspace..'/.work/hd-beta-1-release-shards/16-10/battlefields-16-10-hd-one-0.1.0-beta.1.pack.json'
+ local manifest=os.getenv('HDB_NETWORK_PACK')or workspace..'/.work/hd-beta-1-release-shards/16-10/battlefields-16-10-hd-one-0.1.0-beta.1.pack.json'
  local f=assert(io.open(manifest,'rb'));local pack=Json.decode(f:read('*a'));f:close()
  assert(store:start(pack));local started=love.timer.getTime()
  love.update=function()

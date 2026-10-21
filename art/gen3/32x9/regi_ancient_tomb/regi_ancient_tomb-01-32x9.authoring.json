@@ -3,14 +3,14 @@
   "composition_id": "regi_ancient_tomb-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2109,
-    "height": 593
+    "width": 1852,
+    "height": 521
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3222596964586846,
-  "background": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9.png",
-  "sha256": "ebc4d35321e35ef9ce5ec04db20245cc0a257f3f68a3b85684e5c7952abfdec4",
+  "horizon_y": 0.228598848368522,
+  "background": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9-horizon-clearance-v3.png",
+  "sha256": "2d0e3bddac74d9601ff6bfd86cc3790b38a0b4bc212c3715d5511850d968f549",
   "mound_material_candidates": [
     "cave",
     "floor-gray"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3294546436285097,
+      0.6130134357005758
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3294546436285097,
+      0.5902495201535508
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00910556621880998
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6710853131749461,
+      0.37399232245681385
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6710853131749461,
+      0.3512284069097889
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00910556621880998
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/regi_ancient_tomb-01-32x9-original.png",
-    "original_sha256": "3f0ea6e94234a18eae85e3ae051641f6201c0de7000d4ab9f3ac7a41946b415a",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9.png",
+    "original_sha256": "ebc4d35321e35ef9ce5ec04db20245cc0a257f3f68a3b85684e5c7952abfdec4",
     "original_size": {
       "width": 2109,
-      "height": 746
+      "height": 593
     },
     "crop_pixels": [
-      0,
-      70,
-      2109,
-      663
+      128,
+      72,
+      1980,
+      593
     ],
-    "source_geometry": {
-      "horizon_y": 0.35,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.6025737265415549
-        ],
-        "mound_anchor": [
-          0.35,
-          0.6184718498659517
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.43564343163538877
-        ],
-        "mound_anchor": [
-          0.65,
-          0.45154155495978554
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

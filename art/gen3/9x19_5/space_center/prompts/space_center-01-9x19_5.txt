@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Mossdeep Space Center upstairs mission-control room, first variation.
+ONE empty modest modern control room. Pale cool-gray walls with muted blue trim; a continuous shallow rear bank of low blue-gray desks and control consoles with small softly glowing dark teal screens, simple buttons, several tucked-in chairs. Small unmarked wall monitors above rear consoles, no writing or diagram graphics. Equipment confined to distant rear edge, no central furniture. Soft constant neutral indoor lighting, no exterior windows or rockets in the room.
+Style: delicate Japanese watercolor washes, fine clean ink contours, polished hand-painted monster-adventure environment with restrained technology detail, naturally readable depth.
+Low battle camera across a continuous flat pale-gray matte floor, subtly mottled. NO tiled grids, floor seams, floorboards, stripes or raised sections. Rear wall-floor boundary and all desks end above y18%; lower82% broad uninterrupted standing plane, clear ground behind both combatant positions.
+Composition: 9:19.5 portrait. Player standing x32%,y65%, opponent x68%,y43%, with broad clear floor around both. Floor extends to bottom edge.
+No people, creatures, animals, silhouettes, text, numbers, logos, symbols, UI, baked mounds, platforms, split panels, collage, outdoor views or day/night comparison. One scene with one lighting condition.

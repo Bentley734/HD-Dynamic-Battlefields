@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "composition_id": "mt_pyre_summit-01-4x3-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1448,
+    "height": 1086
+  },
+  "aspect_ratio": "4:3",
+  "time_of_day": "night",
+  "horizon_y": 0.18,
+  "background": "art/gen3/4x3/mt_pyre_summit/mt_pyre_summit-01-4x3-night-floor-fix-v2.png",
+  "sha256": "e0bc5e399f7951eda90b717f325f7ffb50bb09b1b45884adade8dc250d562bf5",
+  "mound_material_candidates": [
+    "highland"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.07,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.28,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.28,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.72,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.72,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/4x3/mt_pyre_summit/mt_pyre_summit-01-4x3-night-pre-floor-fix.authoring.json",
+    "source": "C:\\Users\\LSDMTHC\\.codex\\generated_images\\01a139b8-e809-7711-91d5-933839103cd5\\exec-753fce43-3c97-4d0a-b3cc-24475d0da067.png",
+    "reason": "4:3 night mound rear edge intersected distant memorial row",
+    "operation": "Original generated replacement copied unchanged"
+  }
+}

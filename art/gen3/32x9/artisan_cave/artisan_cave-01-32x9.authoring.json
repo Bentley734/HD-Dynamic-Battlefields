@@ -3,14 +3,14 @@
   "composition_id": "artisan_cave-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2172,
-    "height": 611
+    "width": 1916,
+    "height": 539
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3199345335515549,
-  "background": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9.png",
-  "sha256": "4a04896b86858b7c979b0188bdda776100a12b440f4869acdc6df5ea17276cb7",
+  "horizon_y": 0.22909090909090912,
+  "background": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9-horizon-clearance-v3.png",
+  "sha256": "25cb354f5ec27e318d64a09911934172dcaa1e03c9f2b2a66f6d3f4ef85fcfc3",
   "mound_material_candidates": [
     "cave",
     "sandstone"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3299582463465553,
+      0.614582560296846
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3299582463465553,
+      0.5919109461966605
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00906864564007421
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6700417536534446,
+      0.3765306122448979
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6700417536534446,
+      0.35385899814471244
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.00906864564007421
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/artisan_cave-01-32x9-original.png",
-    "original_sha256": "51e5265392f723ab903c9a99bdba101e4e5142dd3fb4bda9af22dbeef1328f30",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9.png",
+    "original_sha256": "4a04896b86858b7c979b0188bdda776100a12b440f4869acdc6df5ea17276cb7",
     "original_size": {
       "width": 2172,
-      "height": 724
+      "height": 611
     },
     "crop_pixels": [
-      0,
-      0,
-      2172,
+      128,
+      72,
+      2044,
       611
     ],
-    "source_geometry": {
-      "horizon_y": 0.27,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5401104972375691
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5569889502762431
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.36288674033149176
-        ],
-        "mound_anchor": [
-          0.65,
-          0.37976519337016573
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/artisan_cave/artisan_cave-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

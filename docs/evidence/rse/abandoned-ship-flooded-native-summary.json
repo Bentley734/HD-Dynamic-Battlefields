@@ -1,0 +1,149 @@
+{
+  "mode": "loader",
+  "content": "none",
+  "processes": 27,
+  "scene_cases": 27,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "abandoned_ship_flooded"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "1024x768",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "1440x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "1200x800",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "2100x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "900x1950",
+      "scene_checks": 1
+    },
+    {
+      "game": "ruby",
+      "size": "900x2000",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "1024x768",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "1440x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "1200x800",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "2100x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1950",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "900x2000",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1200x800",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x1950",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x2000",
+      "scene_checks": 1
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; No full playthrough, every-map coverage, doubles, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

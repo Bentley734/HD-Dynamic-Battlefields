@@ -1,0 +1,110 @@
+{
+  "runtime": "0.3.95",
+  "native_water_offset": 6,
+  "checks": [
+    {
+      "double": false,
+      "size": "1024x768",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "1280x720",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "1440x900",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "1200x800",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "2100x900",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "5120x1440",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "900x1600",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "900x1950",
+      "checks": 7
+    },
+    {
+      "double": false,
+      "size": "900x2000",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "1024x768",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "1280x720",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "1440x900",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "1200x800",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "2100x900",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "5120x1440",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "900x1600",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "900x1950",
+      "checks": 7
+    },
+    {
+      "double": true,
+      "size": "900x2000",
+      "checks": 7
+    }
+  ],
+  "scene_cases": 126,
+  "material_sha256": "f04c1e42163d2fddfe9a66fef3ebb63a518ac57da97dda4479d87a11f1a39964",
+  "scope": "Emerald representative ocean, Pacifidlog water and Marine Cave cases, day/night plus scripted terrain. Native UI traces checked. Captures require visual review; not exhaustive gameplay/species or physical-device verification.",
+  "visual_review": {
+    "singles_ocean": [
+      "1280x720",
+      "5120x1440",
+      "900x1600"
+    ],
+    "doubles_ocean": [
+      "900x1600"
+    ],
+    "notes": "Inspected these captures for water-mound placement. Other captures passed loading/UI trace checks but have not all been visually reviewed."
+  }
+}

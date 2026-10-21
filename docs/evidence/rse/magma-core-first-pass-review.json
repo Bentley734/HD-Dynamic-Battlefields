@@ -1,0 +1,82 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 9,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "magma_core"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "1200x800",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x1950",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "900x2000",
+      "scene_checks": 1
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "visual_review": {
+    "reviewed_sizes": [
+      "1280x720",
+      "5120x1440",
+      "900x2000"
+    ],
+    "finding": "Rear mound remains on uninterrupted floor; rear Zigzagoon feet meet mound; wall/lava boundary is clear of mound in these samples. Native sprites and battle UI unchanged.",
+    "scope": "Three visual samples, nine automated aspect cases; not exhaustive species, animation or every-location certification."
+  },
+  "sources": {
+    "family": "magma_core",
+    "aspects": 9,
+    "generation_jobs": ".work/rse-magma-core-generation-jobs.json",
+    "originals": "art/gen3/drafts/<aspect>/magma_core",
+    "crop_only": [
+      "32x9",
+      "9x20"
+    ],
+    "mound": "art/mounds/cave-warm-basalt/mound-cave-warm-basalt-01-clean-v3.png"
+  }
+}

@@ -3,14 +3,14 @@
   "composition_id": "hoenn_safari-01-32x9-night",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2109,
-    "height": 593
+    "width": 1774,
+    "height": 499
   },
   "aspect_ratio": "32:9",
   "time_of_day": "night",
-  "horizon_y": 0.35089376053962895,
-  "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
-  "sha256": "5e9c3bb3eb9506b026616f44ec202b8fb979e06ae263a157c220ded75ca03791",
+  "horizon_y": 0.22861723446893778,
+  "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night-horizon-clearance-v3.png",
+  "sha256": "8215065144d41bfdfb2f00126f6aa5eaf293ec81448f206753bb1b85c60978d4",
   "mound_material_candidates": [
     "grass",
     "forest"
@@ -31,74 +31,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6699999999999999
+      0.32195603156708,
+      0.6078356713426852
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.65
+      0.32195603156708,
+      0.5840681362725451
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009507014028056112
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.48
+      0.6786076662908682,
+      0.38204408817635266
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.4600000000000001
+      0.6786076662908682,
+      0.3582765531062125
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009507014028056112
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",
-    "original_sha256": "c4e19014f9ade0f9d310336c59a6f0e4072a6fd80d56c97d0dd91c553c384305",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
+    "original_sha256": "5e9c3bb3eb9506b026616f44ec202b8fb979e06ae263a157c220ded75ca03791",
     "original_size": {
       "width": 2109,
-      "height": 746
+      "height": 593
     },
     "crop_pixels": [
-      0,
-      150,
-      2109,
-      743
+      167,
+      94,
+      1941,
+      593
     ],
-    "source_geometry": {
-      "horizon_y": 0.48,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.7177613941018768
-        ],
-        "mound_anchor": [
-          0.35,
-          0.7336595174262733
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.5667292225201073
-        ],
-        "mound_anchor": [
-          0.65,
-          0.582627345844504
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/hoenn_safari/hoenn_safari-01-32x9-night-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",

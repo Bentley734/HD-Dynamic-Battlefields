@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "composition_id": "hoenn_safari-01-32x9-night",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2109,
+    "height": 593
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "night",
+  "horizon_y": 0.35089376053962895,
+  "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
+  "sha256": "5e9c3bb3eb9506b026616f44ec202b8fb979e06ae263a157c220ded75ca03791",
+  "mound_material_candidates": [
+    "grass",
+    "forest"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.6699999999999999
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.48
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.4600000000000001
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",
+    "original_sha256": "c4e19014f9ade0f9d310336c59a6f0e4072a6fd80d56c97d0dd91c553c384305",
+    "original_size": {
+      "width": 2109,
+      "height": 746
+    },
+    "crop_pixels": [
+      0,
+      150,
+      2109,
+      743
+    ],
+    "source_geometry": {
+      "horizon_y": 0.48,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.7177613941018768
+        ],
+        "mound_anchor": [
+          0.35,
+          0.7336595174262733
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.5667292225201073
+        ],
+        "mound_anchor": [
+          0.65,
+          0.582627345844504
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "original": "art/gen1/32x9/safari_woodland/safari_woodland-01-32x9-night.png",
+    "original_prompt": "art/gen1/32x9/safari_woodland/prompts/safari_woodland-01-32x9-night.txt",
+    "original_sha256": "c4e19014f9ade0f9d310336c59a6f0e4072a6fd80d56c97d0dd91c553c384305",
+    "operation": "crop_only_no_resampling",
+    "reason": "Reviewed broadleaf preserve woodland with distant fence, grassy borders and open grass/earth floor; source reuse only, not native calibration."
+  }
+}

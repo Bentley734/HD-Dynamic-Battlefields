@@ -1,0 +1,8 @@
+{
+  "catalog": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-rse-compat-latest\\1025dex-1.5.1\\extracted\\1025dex\\compat\\asset_catalog.lua",
+  "catalog_sha256": "ad7e1c8519d949113d1cfb9cdc876bed67f7fd490233596e87f4c7522f9f1808",
+  "files_checked": 23109,
+  "bytes_checked": 218381564,
+  "errors": [],
+  "scope": "Fresh complete byte/hash verification against 1025Dex1.5.1 asset catalog; does not prove asset-manager installed receipt or successful mod load."
+}

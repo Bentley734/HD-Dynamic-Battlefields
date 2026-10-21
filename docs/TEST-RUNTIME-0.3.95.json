@@ -1,0 +1,10 @@
+{
+  "tag": "v0.3.95",
+  "release": "https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.95",
+  "published_at": "2026-10-21T02:42:51Z",
+  "asset": "gen1recomp-0.3.95.love",
+  "sha256": "845cbc39d49879404f17918789e2ef5c38373f5a74737497d7c6fa79f857e4b9",
+  "published_checksum_verified": true,
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "status": "Unit suite passed; Emerald Magma Core nine-aspect doubles and native settings checks passed; broader runtime regression remains pending"
+}

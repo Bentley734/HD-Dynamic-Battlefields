@@ -3,14 +3,14 @@
   "composition_id": "marine_cave-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1739,
+    "height": 489
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.34513888888888883,
-  "background": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
-  "sha256": "8d92bff793ea003a2aa2fd3357a9b1358ea289866b148044d165796c2f39f1a7",
+  "horizon_y": 0.22862985685071566,
+  "background": "art/gen3/32x9/marine_cave/marine_cave-01-32x9-horizon-clearance-v3.png",
+  "sha256": "c69f40c359a8610093175e4870983aefc23bb93bcd22e1de1530b5d04492f8ac",
   "mound_material_candidates": [
     "islet-rock",
     "ripple"
@@ -31,74 +31,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.32363427257044275,
+      0.5995092024539878
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32363427257044275,
+      0.5759509202453987
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009423312883435585
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6769407705577919,
+      0.35214723926380365
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6769407705577919,
+      0.32858895705521474
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009423312883435585
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/cave_water/cave_water-02-32x9.png",
-    "original_sha256": "8c76c4297227727eed34150f3ff51f4126bd01b2842bc5a3e6aae6ffb95dd0de",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
+    "original_sha256": "8d92bff793ea003a2aa2fd3357a9b1358ea289866b148044d165796c2f39f1a7",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      70,
-      2048,
-      646
+      154,
+      87,
+      1893,
+      576
     ],
-    "source_geometry": {
-      "horizon_y": 0.35,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5711458333333334
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5861458333333334
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.4136458333333333
-        ],
-        "mound_anchor": [
-          0.65,
-          0.42864583333333334
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/marine_cave/marine_cave-01-32x9-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "aspect": "32x9",

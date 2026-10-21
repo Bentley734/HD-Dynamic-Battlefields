@@ -1,0 +1,145 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "1025",
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 27,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "grassland"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 3,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "candidate_source": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\1025dex-double-fix",
+  "source_hashes": {
+    "dex/src/gen3prepare.lua": "1f611498cb53b51bb80ba7f3ae028f32f5ba1c3304b8b219d7b4cc90597960de",
+    "compat/national_gen3.lua": "626cb5a21db1866bb27b55a96c29702d02c9accbc4192bbdf2d3d1070502da08",
+    "apples.lua": "443057bd2b2f88ea797d377a75316fc36c8c10d24ea369e517e92534d778a231",
+    "tests/gen3_registration_order.lua": "b95cb93cfffcc13e3a9095654081cc9f6d56c92be7e8b0d86df135dbd2a1b7e6"
+  },
+  "completed_trainer_flows": [
+    {
+      "game": "ruby",
+      "size": "1280x720",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "ruby",
+      "size": "900x1600",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "sapphire",
+      "size": "1280x720",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "sapphire",
+      "size": "900x1600",
+      "turns": 2,
+      "frames": 1154,
+      "animation_vm_frames": 164
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "turns": 2,
+      "frames": 1191,
+      "animation_vm_frames": 189
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "turns": 2,
+      "frames": 1191,
+      "animation_vm_frames": 189
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "turns": 2,
+      "frames": 1191,
+      "animation_vm_frames": 189
+    }
+  ],
+  "published": false,
+  "scope": "Local 1025Dex candidate plus local HD Hoenn candidate on v0.3.95. Nine native automatic doubles battles and27source/art/chooser cases. Native ID, commit/reload and saved item ID unit regression passes. FRLG/older runtimes and broader mechanics regression pending."
+}

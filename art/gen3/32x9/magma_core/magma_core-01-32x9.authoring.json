@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "composition_id": "magma_core-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2117,
+    "height": 595
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.1498487394957983,
+  "background": "art/gen3/32x9/magma_core/magma_core-01-32x9.png",
+  "sha256": "d715e94617c23f62cf4003cd56099af21692d192b8221c1058cb74220a4b9f18",
+  "mound_material_candidates": [
+    "cave-warm-basalt"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_preparation": {
+    "original": "art/gen3/drafts/32x9/magma_core/magma_core-01-32x9-original.png",
+    "crop": [
+      0,
+      0,
+      2117,
+      595
+    ],
+    "operation": "Approved excess canvas trim, no resampling"
+  }
+}

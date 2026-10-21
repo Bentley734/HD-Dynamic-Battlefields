@@ -1,0 +1,112 @@
+{
+  "scope": "Mt Pyre summit separate location, first variation all aspects/day-night; candidate not release-ready",
+  "source_count": 18,
+  "source_review": "All18 originals plus4:3 night replacement visually reviewed before acceptance.32:9 crops no resampling; originals retained.",
+  "cross_game_summary": {
+    "mode": "loader",
+    "content": "none",
+    "double_fixture": true,
+    "processes": 12,
+    "scene_cases": 24,
+    "candidate_manifest_only": true,
+    "all_areas": true,
+    "review_families": [
+      "mt_pyre_summit"
+    ],
+    "reports": [
+      {
+        "game": "ruby",
+        "size": "1024x768",
+        "scene_checks": 2
+      },
+      {
+        "game": "ruby",
+        "size": "1280x720",
+        "scene_checks": 2
+      },
+      {
+        "game": "ruby",
+        "size": "5120x1440",
+        "scene_checks": 2
+      },
+      {
+        "game": "ruby",
+        "size": "900x1600",
+        "scene_checks": 2
+      },
+      {
+        "game": "sapphire",
+        "size": "1024x768",
+        "scene_checks": 2
+      },
+      {
+        "game": "sapphire",
+        "size": "1280x720",
+        "scene_checks": 2
+      },
+      {
+        "game": "sapphire",
+        "size": "5120x1440",
+        "scene_checks": 2
+      },
+      {
+        "game": "sapphire",
+        "size": "900x1600",
+        "scene_checks": 2
+      },
+      {
+        "game": "emerald",
+        "size": "1024x768",
+        "scene_checks": 2
+      },
+      {
+        "game": "emerald",
+        "size": "1280x720",
+        "scene_checks": 2
+      },
+      {
+        "game": "emerald",
+        "size": "5120x1440",
+        "scene_checks": 2
+      },
+      {
+        "game": "emerald",
+        "size": "900x1600",
+        "scene_checks": 2
+      }
+    ],
+    "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+  },
+  "captures": [
+    {
+      "path": "docs/evidence/rse/reviewed/mt-pyre-summit-first-pass/ruby-1024x768-mt_pyre_summit-night-current.png",
+      "sha256": "e05d65e0c41649095b74fc1fae2b488f084a665a99d637ac2783848a46d0487b",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/mt-pyre-summit-first-pass/emerald-1440x900-mt_pyre_summit-night-current.png",
+      "sha256": "28a93c7df19ea9747c017ec2182bff1b39baade38c1ce9cb719c17ab41d40486",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/mt-pyre-summit-first-pass/emerald-2100x900-mt_pyre_summit-night-current.png",
+      "sha256": "20ab2119bfde89bfe1d540005f422a56e1d29e91ca2ef05316c70f636ab181b4",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/mt-pyre-summit-first-pass/emerald-5120x1440-mt_pyre_summit-day-current.png",
+      "sha256": "52d80223b8bfaf9ed88d8b2afc64ccf390ca27daab14974ef838c998638a9227",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/reviewed/mt-pyre-summit-first-pass/emerald-5120x1440-mt_pyre_summit-night-current.png",
+      "sha256": "3371b2bd65a14822e88b7f52e3c9e87a00a5eeb881cf28b1065eff663b28f637",
+      "visually_reviewed": true
+    }
+  ],
+  "remaining": [
+    "Night grass mound too saturated blue for gray-green ground; replace/rebind candidate before release.",
+    "Remaining native aspect/material combinations and full battle sequences need visual checks."
+  ],
+  "field_weather": "Hoenn saved resolved field weather or translated header, battle weather takes precedence. Native fixture verifies fog then battle-rain override in each new process. Unsupported ash/underwater effect IDs not invented."
+}

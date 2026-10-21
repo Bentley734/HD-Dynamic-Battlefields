@@ -17,7 +17,7 @@ from lupa.luajit21 import LuaRuntime
 
 p = argparse.ArgumentParser(description=__doc__)
 p.add_argument('--cache', type=Path, default=Path(os.environ['APPDATA']) / 'pokemon-love2d')
-p.add_argument('--engine', type=Path, default=ROOT.parent / '.work/hd-battlefields-latest/v0.3.89/engine')
+p.add_argument('--engine', type=Path, default=ROOT.parent / '.work/hd-battlefields-latest/v0.3.95/engine')
 a = p.parse_args()
 output = ROOT / 'docs/evidence/rse'
 output.mkdir(parents=True, exist_ok=True)
@@ -27,6 +27,9 @@ for game in ('ruby', 'sapphire', 'emerald'):
     data = a.cache / game / 'data/generated/gba'
     scripts_path = data / 'scripts/scripts.lua'
     scripts = lua.execute(scripts_path.read_text())
+    events_path = data / 'scripts/events.lua'
+    compiled_events = lua.execute(events_path.read_text())
+    engine_version = lua.execute((a.engine / 'src/core/Version.lua').read_text())['engine']
     encounters = lua.execute((data / 'encounters.lua').read_text())
     constants_path = a.engine / ('src/core/game3/constants/' + ('emerald' if game == 'emerald' else 'ruby') + '/map_groups.lua')
     constants = lua.execute(constants_path.read_text())
@@ -74,6 +77,21 @@ for game in ('ruby', 'sapphire', 'emerald'):
                     event_evidence.append({'category': category, 'x': event.get('x'), 'y': event.get('y'),
                                            'battle_operations': battle_ops})
         prefix = {'ruby': 'RU_', 'sapphire': 'SA_', 'emerald': 'EM_'}[game]
+        # Compiled map lifecycle scripts can launch battles without objects.
+        prefix_id = prefix + names[identity]
+        compiled = compiled_events[prefix_id]
+        def script_roots(value):
+            if isinstance(value, str):
+                yield value
+            elif hasattr(value, 'items'):
+                for _, child in value.items():
+                    yield from script_roots(child)
+        if compiled and compiled['mapScripts']:
+            for key in sorted(set(script_roots(compiled['mapScripts']))):
+                battle_ops = reachable(key)
+                if battle_ops:
+                    event_evidence.append({'category': 'mapScripts', 'script_key': key,
+                                           'battle_operations': battle_ops})
         rows.append({'game': game, 'id': prefix + names[identity],
                      'native_name': header['id'], 'mapGroup': identity[0], 'mapNum': identity[1],
                      'mapType': header['mapType'], 'battleType': header.get('battleType'),
@@ -81,10 +99,10 @@ for game in ('ruby', 'sapphire', 'emerald'):
                      'secondaryTileset': header.get('secondaryTileset'), 'wild_rates': habitats,
                      'battle_event_evidence': event_evidence,
                      'positive_battle_evidence': bool(habitats or event_evidence)})
-    report = {'game': game, 'engine_version': '0.3.89', 'maps': rows,
+    report = {'game': game, 'engine_version': engine_version, 'maps': rows,
               'source_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
-                                for p in (scripts_path, data / 'encounters.lua', constants_path)},
-              'limitations': 'Positive wild rates and reachable event battle operations only. Map-entry scripts, dynamic specials and generated facility encounters require separate inspection.'}
+                                for p in (scripts_path, events_path, data / 'encounters.lua', constants_path)},
+              'limitations': 'Positive wild rates and reachable object/coordinate/background/map lifecycle battle operations. Dynamic specials and generated facility encounters require separate inspection.'}
     (output / (game + '-battle-maps.json')).write_text(json.dumps(report, indent=2) + '\n')
     summary[game] = {'imported_maps': len(rows), 'positive_battle_maps': sum(r['positive_battle_evidence'] for r in rows),
                      'wild_maps': sum(bool(r['wild_rates']) for r in rows),

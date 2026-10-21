@@ -1,0 +1,31 @@
+{
+  "mode": "loader",
+  "content": "none",
+  "processes": 3,
+  "scene_cases": 24,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "marine_cave",
+    "terra_cave",
+    "sky_pillar_summit"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 8
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 8
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 8
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; No full playthrough, every-map coverage, doubles, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

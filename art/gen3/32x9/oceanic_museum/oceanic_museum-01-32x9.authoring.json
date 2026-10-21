@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "oceanic_museum-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1906,
+    "height": 536
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22895522388059697,
+  "background": "art/gen3/32x9/oceanic_museum/oceanic_museum-01-32x9-horizon-clearance-v3.png",
+  "sha256": "6ad6f903bb5c2e527bccb82a76b87237761373a554131a7a75a7c0ed62c6483c",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-gray-night-cool"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3388247639034627,
+      0.6346268656716417
+    ],
+    "pokemon_ground_anchor": [
+      0.3388247639034627,
+      0.6131343283582089
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008597014925373136
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6611752360965373,
+      0.408955223880597
+    ],
+    "pokemon_ground_anchor": [
+      0.6611752360965373,
+      0.3874626865671642
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008597014925373136
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/oceanic_museum/oceanic_museum-01-32x9.png",
+    "original_sha256": "6ce21e307f433b528ec519f68d6346456c30128dae00da1fc0efe8de26cf2e87",
+    "original_size": {
+      "width": 2048,
+      "height": 576
+    },
+    "crop_pixels": [
+      71,
+      40,
+      1977,
+      576
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/oceanic_museum/oceanic_museum-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

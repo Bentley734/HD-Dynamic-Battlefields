@@ -1,0 +1,66 @@
+{
+  "scope": "Native deepest Magma Hideout battle-map evidence; source/native review pending",
+  "maps": [
+    {
+      "game": "emerald",
+      "id": "EM_MAGMA_HIDEOUT_4F",
+      "native_name": "MagmaHideout_4F",
+      "mapGroup": 24,
+      "mapNum": 91,
+      "mapType": 4,
+      "battleType": 0,
+      "weather": 0,
+      "primaryTileset": "ts_083df704",
+      "secondaryTileset": "ts_083df794",
+      "wild_rates": {
+        "land": 10
+      },
+      "battle_event_evidence": [
+        {
+          "category": "objects",
+          "x": 31,
+          "y": 22,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 30,
+          "y": 13,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 26,
+          "y": 13,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 22,
+          "y": 4,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 16,
+          "y": 21,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true,
+      "inventory_sha256": "d573f4c14b5b92dff9db1f7b22a57ad8bbb26c553ff87b0d6b185de0ac53472a"
+    }
+  ],
+  "previous_family": "magma_hideout",
+  "candidate_family": "magma_core"
+}

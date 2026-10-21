@@ -1,20 +1,36 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
 local project=workspace..'/HD-Dynamic-Battlefields'
-local engine=workspace..'/.work/hd-battlefields-latest/v0.3.89/engine'
+local engine=(os.getenv('HDB_ENGINE_ROOT')or workspace..'/.work/hd-battlefields-latest/v0.3.95/engine'):gsub('\\','/')
+local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.95'
 local version=os.getenv('HDB_GAME_VERSION')or'emerald'
 local output=project..'/docs/evidence/rse'
 if os.getenv('HDB_LOADER')=='1'then output=output..'/loader/'..(os.getenv('HDB_MENU_CUSTOMIZER')=='1'and'menu-customizer'or'native')end
+output=output..'/runtime-v'..runtimeVersion
+if os.getenv('HDB_PACKAGED_BASE')=='1'then output=output..'/packaged-base'end
 local content=os.getenv('HDB_CONTENT_MODE')or'none'
 if content~='none'then output=output..'/'..content end
+if os.getenv('HDB_WILDFOLLOWERS')=='1'then output=output..'/wildfollowers'end
+if os.getenv('HDB_PACK_FIXTURE')then output=output..'/installed-pack'end
+if os.getenv('HDB_DOUBLE')=='1'then output=output..'/doubles'end
+if os.getenv('HDB_RESIZE')=='1'then output=output..(os.getenv('HDB_RESIZE_METHOD')=='desktop'and'/resize-desktop'or'/resize')end
+if os.getenv('HDB_TRANSITIONS')=='1'then output=output..'/transitions'end
+if os.getenv('HDB_MOVE_EFFECTS')=='1'then output=output..'/move-effects'end
+if os.getenv('HDB_BATTLE_FLOW')=='1'then output=output..'/battle-flow'end
 local function read(path)local f=io.open(path,'rb');if not f then return end;local b=f:read('*a');f:close();return b end
 local function write(name,bytes)local f=assert(io.open(output..'/'..name,'wb'));f:write(bytes);f:close()end
 function love.load()
  local ok,err=xpcall(function()
+  local resizeWindow
+  if os.getenv('HDB_RESIZE')=='1'and os.getenv('HDB_RESIZE_METHOD')=='desktop'then
+   resizeWindow=assert(loadfile(project..'/tools/rse_native_probe/desktop_resize.lua'))()()
+  end
   assert(version=='ruby'or version=='sapphire'or version=='emerald')
   package.path=engine..'/?.lua;'..engine..'/?/init.lua;'..package.path
   local cacheRoot=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..version..'/'
   local roots=assert(loadfile(project..'/tools/rse_native_probe/sources.lua'))()(workspace,project)
   local function source(path)
+   local packRelative=path:match('^mod_cache/hd%-dynamic%-battlefields/(.+)$')
+   if packRelative and os.getenv('HDB_PACK_FIXTURE')then return read(os.getenv('HDB_PACK_FIXTURE')..'/mod_cache/hd-dynamic-battlefields/'..packRelative)end
    if path:match('^%a:[/\\]')then return read(path)end
    local id,relative=path:match('^mods/([^/]+)/(.+)$')
    if id and roots[id]then return read(roots[id]..'/'..relative)end
@@ -37,10 +53,15 @@ function love.load()
    return oldImageData(p,...)
   end
   require('src.core.GameVersion').set(version)
-  assert(require('src.core.Version').engine=='0.3.89')
+  assert(require('src.core.Version').engine==runtimeVersion,'Unexpected isolated engine release')
   local Blob=require('src.import.CacheBlob')
   local function cached(p)local b=source(p);return b and Blob.decode(p,b)end
   package.loaded['src.import.CacheFs']={readActive=cached,read=cached,readAt=cached,
+   loadActive=function(p)
+    local bytes=cached(p);if type(bytes)~='string'then return nil end
+    local chunk,why=loadstring(bytes,'@'..p);if not chunk then return nil,why end
+    local ok,value=pcall(chunk);if ok then return value end;return nil,value
+   end,
    existsAt=function(p)return source(p)~=nil end,root=function()return cacheRoot:gsub(version..'/$','')end}
   local Dataset=require('src.core.game3.dataset')
   local cache={read=function(_,p)return cached(p)end,exists=function(_,p)return source(p)~=nil end}
@@ -83,9 +104,9 @@ function love.load()
   assert(adapter:detect(context).environment=='grassland')
   local Json=require('src.link.Json')
   if os.getenv('HDB_RENDER')=='1'then
-   assert(loadfile(project..'/tools/rse_native_probe/render.lua'))()(project,game,Battle,cache,write)
+   assert(loadfile(project..'/tools/rse_native_probe/render.lua'))()(project,game,Battle,cache,write,resizeWindow)
   end
-  write(version..'-native-context.json',Json.encode({game=version,engine='0.3.89',map_signatures=count,
+  write(version..'-native-context.json',Json.encode({game=version,engine=runtimeVersion,map_signatures=count,
    context={map=context.map,mapType=context.mapType,terrain=context.terrainName,
     timeOfDay=context.timeOfDay,playerSpecies=context.playerSpecies,enemySpecies=context.enemySpecies},
    verified=true,saves_written=false,scope='Native dataset, battle construction and read-only context; no scenery rendering claim'}))

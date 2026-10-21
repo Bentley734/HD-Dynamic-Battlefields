@@ -1,0 +1,38 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 3,
+  "scene_cases": 3,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "new_mauville"
+  ],
+  "reports": [
+    {
+      "game": "ruby",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "sapphire",
+      "size": "5120x1440",
+      "scene_checks": 1
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 1
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "visual_review": {
+    "game": "emerald",
+    "size": "5120x1440",
+    "finding": "Rear doubles mound is entirely on concrete floor with clear separation from rear wall. Rear Zigzagoon contact remains on mound surface. Sprites/HUD unchanged.",
+    "limitations": "Three-game native loading/trace checks; one visually reviewed game; full battle sequences and expanded sprites remain pending."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": "3.4.5",
+  "release": "https://github.com/Bentley734/WildFollowers/releases/tag/3.4.5",
+  "sha256": "8df622fa5dad4ad3c425a0423ced95a48eb1595349bcb3b68f5c777c2321dce8",
+  "github_digest_verified": true,
+  "source": "Unmodified extracted published archive",
+  "scope": "Battle compatibility fixture; does not verify overworld follower behavior"
+}

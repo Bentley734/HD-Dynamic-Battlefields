@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "abandoned_ship-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2091,
+    "height": 588
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.35809523809523813,
+  "background": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9.png",
+  "sha256": "8dec4cc9550993b6e77bc2adc3359103debd9997f1beb27dcd02ffda26bd10b3",
+  "mound_material_candidates": [
+    "floor-sage",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/32x9/abandoned_ship-01-32x9-original.png",
+    "original_sha256": "da52ab854c40d244a711140d23a624f5d2590f51263d753b7696151a583e7765",
+    "original_size": {
+      "width": 2091,
+      "height": 752
+    },
+    "crop_pixels": [
+      0,
+      0,
+      2091,
+      588
+    ],
+    "source_geometry": {
+      "horizon_y": 0.28,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5004255319148936
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5160638297872341
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33622340425531916
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3518617021276596
+        ]
+      }
+    }
+  }
+}

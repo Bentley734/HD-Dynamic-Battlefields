@@ -1,0 +1,25 @@
+{
+  "opponent_double_mound_y": 62,
+  "previous_y": 64,
+  "native_pixels_up": 2,
+  "sprites_ui_unchanged": true,
+  "native_doubles_flow_games": [
+    "ruby",
+    "sapphire",
+    "emerald"
+  ],
+  "emerald_national_sizes": [
+    "1280x720",
+    "5120x1440",
+    "900x1600"
+  ],
+  "visually_reviewed": [
+    "emerald-1280x720-flow-actions.png"
+  ],
+  "downloader_navigation": "Real Emerald menu with current Menu Customizer and WildFollowers; size/variation return to parent; status rows stay on page",
+  "source_hashes": {
+    "lib\\asset_manager.lua": "549cf23d81dbde6046049d9c9e7243e3ae2470ac5cef66815a5cd9de87f7531e",
+    "metadata\\native_rse.lua": "847b24dda53fd0e9b4a646f566eb3b224a7403d282f3351f0e126ba63bb6e974"
+  },
+  "uploaded": false
+}

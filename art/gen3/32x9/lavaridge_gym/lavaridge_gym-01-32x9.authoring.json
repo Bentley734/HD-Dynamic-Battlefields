@@ -3,14 +3,14 @@
   "composition_id": "lavaridge_gym-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 1771,
+    "height": 498
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.31265232974910395,
-  "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
-  "sha256": "65f960126021bb0c93e1d381e770f4060b3540b5d94d16d51b130c8bfd730aea",
+  "horizon_y": 0.2298393574297189,
+  "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9-horizon-clearance-v3.png",
+  "sha256": "89a17e7d33bee939ad54576ddae2860a11a36bb6073c5ef40892b82577e34eef",
   "mound_material_candidates": [
     "terracotta",
     "floor-clay"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3320440429136081,
+      0.6190361445783134
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3320440429136081,
+      0.5966265060240964
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008963855421686748
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6679559570863919,
+      0.38373493975903605
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6679559570863919,
+      0.3613253012048193
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008963855421686748
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/lavaridge_gym-01-32x9-original.png",
-    "original_sha256": "59c12e35cff5561c632149de94b77ae1468d46fe89aadd1dcf4dffca83a1395b",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
+    "original_sha256": "65f960126021bb0c93e1d381e770f4060b3540b5d94d16d51b130c8bfd730aea",
     "original_size": {
       "width": 1983,
-      "height": 793
+      "height": 558
     },
     "crop_pixels": [
-      0,
-      0,
-      1983,
+      106,
+      60,
+      1877,
       558
     ],
-    "source_geometry": {
-      "horizon_y": 0.22,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.45034047919293824
-        ],
-        "mound_anchor": [
-          0.35,
-          0.46441361916771756
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3025725094577554
-        ],
-        "mound_anchor": [
-          0.65,
-          0.31664564943253465
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/lavaridge_gym/lavaridge_gym-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

@@ -1,20 +1,20 @@
 {
   "ruby": {
     "imported_maps": 394,
-    "positive_battle_maps": 142,
+    "positive_battle_maps": 143,
     "wild_maps": 97,
-    "event_battle_maps": 95
+    "event_battle_maps": 96
   },
   "sapphire": {
     "imported_maps": 394,
-    "positive_battle_maps": 142,
+    "positive_battle_maps": 143,
     "wild_maps": 97,
-    "event_battle_maps": 95
+    "event_battle_maps": 96
   },
   "emerald": {
     "imported_maps": 518,
-    "positive_battle_maps": 177,
+    "positive_battle_maps": 179,
     "wild_maps": 116,
-    "event_battle_maps": 118
+    "event_battle_maps": 120
   }
 }

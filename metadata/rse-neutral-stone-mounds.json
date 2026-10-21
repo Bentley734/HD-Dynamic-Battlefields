@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/stone-neutral/mound-stone-neutral-01.png",
+      "cleaned": "art/mounds/stone-neutral/mound-stone-neutral-01-clean-v3.png",
+      "prompt": "art/mounds/stone-neutral/prompts/mound-stone-neutral-01.txt",
+      "source_sha256": "39c12b91607e0ac6567d8f72afefe3e398b106a76bfdbf086007119b93aa98e7",
+      "cleaned_sha256": "35f64652fe7a12e372ee8b94920e1d1653f40b536650eb8c2ce4694d83135645",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "cleaned source reviewed; no native layout validation"
+    },
+    {
+      "source": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01.png",
+      "cleaned": "art/mounds/cave-dust-tan/mound-cave-dust-tan-01-clean-v3.png",
+      "prompt": "art/mounds/cave-dust-tan/prompts/mound-cave-dust-tan-01.txt",
+      "source_sha256": "ae443022c941c6f425c15c937e8f9b563d467f1fa39d8442bf764329e8e3327e",
+      "cleaned_sha256": "7f7c62ab58814ae0c817852f56256381c62f739e88cc13b9b0744975de809d9e",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "visual_review": "cleaned source reviewed; no native layout validation"
+    }
+  ]
+}

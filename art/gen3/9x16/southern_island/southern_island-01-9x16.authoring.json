@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "composition_id": "southern_island-01-9x16",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 941,
+    "height": 1672
+  },
+  "aspect_ratio": "9:16",
+  "time_of_day": "day",
+  "horizon_y": 0.22,
+  "background": "art/gen3/9x16/southern_island/southern_island-01-9x16.png",
+  "sha256": "82fc0437002944e20e4bb19955a5e6238cb8d32498e30bd6024f8d1ca13a6e7b",
+  "mound_material_candidates": [
+    "grass",
+    "forest"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.06,
+    "top": 0.06,
+    "right": 0.94,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.32,
+      0.67
+    ],
+    "pokemon_ground_anchor": [
+      0.32,
+      0.65
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.68,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.68,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  }
+}

@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Oceanic Museum second-floor marine exhibit gallery, first variation.
+ONE empty modest modern museum room, pale blue-gray walls with restrained navy trim. Along the distant rear wall only, three low glass display cases holding small clearly inanimate model sailing ships and simple oceanographic instruments. Clean understated public-building architecture, no palace columns. Constant soft neutral indoor light, no exterior views.
+Style: delicate Japanese watercolor washes, fine clean ink outlines, polished hand-painted monster-adventure game environment, natural readable depth.
+Continuous flat pale blue-gray matte floor with subtle mottling, no tiles, grid, floorboards or seams. Camera low across the floor. All display cases and wall-floor boundary confined above y25%; lower75% broad empty standing plane, including ground behind opponent.
+Composition: 32:9 landscape, player standing x35%,y64%, opponent x65%,y43%; both have wide unobstructed floor around them. Floor continues to bottom.
+No people, creatures, animals, skeletons, fossils, silhouettes, text, labels, logos, symbols, UI, baked mounds, platforms, split panels, collage, day/night comparison or outdoor scenery. One complete room, one lighting condition.

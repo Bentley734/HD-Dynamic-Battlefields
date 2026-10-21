@@ -39,12 +39,16 @@ def main():
     p.add_argument('--version', required=True)
     p.add_argument('--catalog', default='metadata/distribution.lua')
     p.add_argument('--source-commit')
+    p.add_argument('--catalog-version', help='Existing source catalog directory, independently versioned from the release')
+    p.add_argument('--game-version', default='>=0.3.89 <0.4.0', help='Runtime compatibility range written to pack descriptors')
     p.add_argument('--output', required=True, type=Path)
     args = p.parse_args()
     if not re.fullmatch(r'[\w.-]+/[\w.-]+', args.repository):
         p.error('Expected OWNER/REPOSITORY')
     if not re.fullmatch(r'[\w.-]+', args.version):
         p.error('Invalid version token')
+    if args.catalog_version and not re.fullmatch(r'[\w.-]+', args.catalog_version):
+        p.error('Invalid catalog directory token')
     if args.source_commit and not re.fullmatch(r'[a-f0-9]{40}', args.source_commit):
         p.error('Source commit must be a full immutable Git SHA')
     tree = None
@@ -86,7 +90,7 @@ def main():
             paths.add(entry['background'])
             for field in ('backgrounds', 'mounds', 'night_mounds'):
                 paths.update(entry.get(field, {}).values())
-        relative = f'asset-packs/{args.version}/{identifier}/compositions.json'
+        relative = f'asset-packs/{args.catalog_version or args.version}/{identifier}/compositions.json'
         payload = (json.dumps({'metadata': selected, 'compositions': entries},
                              sort_keys=True, separators=(',', ':')) + '\n').encode()
         save(ROOT / relative, payload)
@@ -108,7 +112,7 @@ def main():
                 item['url'] = f'https://raw.githubusercontent.com/{args.repository}/{args.source_commit}/{source}'
             files.append(item)
         pack = {'schema_version': 1, 'metadata_schema': 1, 'id': identifier, 'version': args.version,
-                'game_version': '>=0.3.89 <0.4.0', 'aspects': [aspect], 'quality': quality,
+                'game_version': args.game_version, 'aspects': [aspect], 'quality': quality,
                 'variation_profile': profile, 'label': f'{aspect} {quality} - ' +
                 ('One variation per area' if profile == 'one' else 'All variations'),
                 'environments': sorted({e['environment'] for e in entries}),

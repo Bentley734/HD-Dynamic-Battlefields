@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "trick_house-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1913,
+    "height": 538
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.22914498141263945,
+  "background": "art/gen3/32x9/trick_house/trick_house-01-32x9-horizon-clearance-v3.png",
+  "sha256": "a5bef31d22174fad0b7f1ad8d19a7240b39152f1414867ba1d512486cbf568b9",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-beige"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.3396759017250392,
+      0.6359851301115242
+    ],
+    "pokemon_ground_anchor": [
+      0.3396759017250392,
+      0.6145724907063197
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.008565055762081785
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6608468374281233,
+      0.4111524163568773
+    ],
+    "pokemon_ground_anchor": [
+      0.6608468374281233,
+      0.3897397769516729
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.008565055762081785
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/trick_house/trick_house-01-32x9.png",
+    "original_sha256": "69891fd6e1a8d28ace493f65ad2331809045e3346957af7743c887ce0edf2b32",
+    "original_size": {
+      "width": 2048,
+      "height": 576
+    },
+    "crop_pixels": [
+      67,
+      38,
+      1980,
+      576
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/trick_house/trick_house-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

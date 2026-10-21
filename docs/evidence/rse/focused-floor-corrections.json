@@ -1,0 +1,26 @@
+{
+  "scope": "Focused user-reported opponent contact and floor clearance corrections",
+  "limitations": "Only these captures visually reviewed for these corrections; other aspects and contexts remain pending. No uploads.",
+  "sprite_and_hud_positions_changed": false,
+  "captures": [
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-1024x768-new_mauville-day-current.png",
+      "visually_reviewed": true,
+      "bytes": 887274,
+      "sha256": "5df8bb89f7fef9bea4566a9cdc03166a69e103a3a9bb382c706ac0d58c36d4ef"
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-volcanic_slope-day-current.png",
+      "visually_reviewed": true,
+      "bytes": 6824854,
+      "sha256": "8f9a7d597baed88a63b4ccc6289ae3df0d21070a13ceba33539e745aee025431"
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-volcanic_slope-night-current.png",
+      "visually_reviewed": true,
+      "bytes": 5890276,
+      "sha256": "841f34cfad52b27b2cdc68555ccfa84c0a80ddfe69698556e96ce35572954d1e"
+    }
+  ],
+  "opponent_mound_native_y": 70
+}

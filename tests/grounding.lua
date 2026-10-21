@@ -20,3 +20,28 @@ assert(not G.apply(explicit,base,profile,{x=0/0,y=0,width=1,height=1}))
 local aspect=assert(scene:layout(viewport,{global={player={mound_x=.01}},aspects={['16:9']={player={mound_x=.02}}}}))
 assert(G.apply(aspect,base,profile));assert(math.abs(aspect.player.mound.x-(400+36*7+38.4))<1e-8)
 print('PASS native scenery anchoring, integer fit, exact consumer frame, saved/global/aspect offsets and scaling, immutable metadata and invalid-frame rejection')
+local hoenn=assert(loadfile(root..'/metadata/native_rse.lua'))()
+for _,game in ipairs({'ruby','sapphire','emerald'})do
+ local single,double=hoenn[game],hoenn[game].double
+ assert(single.opponent.y==70 and single.opponent.width==128)
+ local original=assert(scene:layout(viewport))
+ local moved=assert(scene:layout(viewport,{global={opponent={mound_y=.01,mound_scale=1.2}}}))
+ assert(G.apply(moved,original,double,{x=0,y=0,width=240,height=160}))
+ assert(math.abs(moved.opponent.mound.y-(62+10.8))<1e-8)
+ assert(moved.opponent.mound.bounds[1]==160 and moved.opponent.mound.bounds[2]==48)
+ assert(moved.opponent.mound.scale==1.2)
+ assert(double.opponent.y==62 and single.opponent.y==70,'Doubles adjustment changed native profiles')
+end
+print('PASS separate Hoenn doubles mound profiles, retained single defaults and additive user calibration')
+
+local materialLayout=assert(scene:layout(viewport))
+local materialBase=assert(scene:layout(viewport))
+local materials={water={scale=1.6,offset_y=6,origin={.5,.66}}}
+assert(G.apply(materialLayout,materialBase,hoenn.emerald.double,{x=0,y=0,width=240,height=160},materials,{opponent='water'}))
+assert(materialLayout.opponent.mound.bounds[1]==256 and math.abs(materialLayout.opponent.mound.bounds[2]-76.8)<1e-8)
+assert(materialLayout.opponent.mound.origin[2]==.66 and materialLayout.opponent.mound.y==68)
+assert(materialLayout.player.mound.bounds[1]==160,'Water material correction leaked to unrelated mound')
+assert(hoenn.emerald.double.opponent.width==160 and materialBase.opponent.mound.origin==nil,'Material calibration mutated baseline/profile')
+materials.water.origin={.5,2}
+assert(not G.apply(materialLayout,materialBase,hoenn.emerald.double,nil,materials,{opponent='water'}))
+print('PASS data-driven water-islet coverage and surface origin, isolation and invalid material rejection')

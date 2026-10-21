@@ -1,0 +1,142 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "double_fixture": true,
+  "processes": 3,
+  "scene_cases": 39,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "aqua_hideout",
+    "space_center",
+    "oceanic_museum",
+    "battle_factory",
+    "hoenn_battle_tower",
+    "battle_dome",
+    "trick_house",
+    "battle_palace",
+    "seashore_house",
+    "petalburg_gym",
+    "mossdeep_gym",
+    "mauville_gym",
+    "lavaridge_gym"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 13
+    },
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 13
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 13
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; No full playthrough, every-map coverage, animations, custom UI profiles or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding.",
+  "visual_checks": [
+    {
+      "capture": "emerald-5120x1440-aqua_hideout-day-current.png",
+      "sha256": "c72c1e6877ab62a07fadf82eeac551250ca5f71ba4228cdd37dcff9665c355ad",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-space_center-day-current.png",
+      "sha256": "1093cc2fce48c8b91c8b4984d861317bb63fe525201d4723c507b3a2ac25ce5f",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-oceanic_museum-day-current.png",
+      "sha256": "b8506f81a153fca7ec04d18f434adb52facaa31f2bdd3012b454a467fbc32abc",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-battle_factory-day-current.png",
+      "sha256": "18fe143a6bf4a5d63e3bf43f5f9c7a3ac4461a10a080b53847c2258e8371f6cb",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-hoenn_battle_tower-day-current.png",
+      "sha256": "68a6ed89158acec644e3ba426500210df6dac021c5a30cee3b8f78e9f7c14270",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-battle_dome-day-current.png",
+      "sha256": "ae5e611b3a5dedf39294f56f9e083f03e7c51ca76642f981f0c5ebc7a8638b52",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-trick_house-day-current.png",
+      "sha256": "f21654696f918f0a029a812da306e157887eec4e842cad224f161c58ae7830b7",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-battle_palace-day-current.png",
+      "sha256": "dac7533e349058f30e4f07c65e0c7ca3c3e3d999c140f6e98f5bb7db74e71490",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-seashore_house-day-current.png",
+      "sha256": "9c59468f21bd0c4abab272bf2be9b079dd1533d892536230afd74899cab261a8",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-petalburg_gym-day-current.png",
+      "sha256": "4d66b52c3a86d2807a28d5e213064fd1044761b5998da6cf0a71a6562546b620",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-mossdeep_gym-day-current.png",
+      "sha256": "05035374b6c7d1f2ce37de284ebfa66f7fb1e355a407517e4515ed31ef47c58a",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-mauville_gym-day-current.png",
+      "sha256": "8faf5068680f68c0ad9d5d73a43c7e169416358497970f32c71c705c8a762e81",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-5120x1440-lavaridge_gym-day-current.png",
+      "sha256": "6216b258e0a0d74650cab5b10a435a594afc5c0d4263e8a2c6ae3cd26ee73e6e",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-aqua_hideout-day-current.png",
+      "sha256": "27b9dbbaa869d040b7e36aed0e3051335bb98e0f8444bc4aec9ad022782669cd",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-battle_palace-day-current.png",
+      "sha256": "07ac3202e215f47cd49c0c31560fa48a258c09cde115cd0f74a3d14f96b42e58",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-space_center-day-current.png",
+      "sha256": "baeb1fe19e628a4c0e66c18526d3f03fe7edddaccf36a86b875a62fdfb0c1c98",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-petalburg_gym-day-current.png",
+      "sha256": "0452198247050430752212d73e0a0e277de44c0a624b56cb63d2a3f9197f4c6d",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-mossdeep_gym-day-current.png",
+      "sha256": "8a8970aae6afeaee07b4b7f2b294075d8744e03cceaa8c970bbae0bd909c4a9e",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    },
+    {
+      "capture": "emerald-1024x768-battle_factory-day-current.png",
+      "sha256": "8e57e3d5d7a7fc8006360c2c10b24da0949735ce8a776a1cb4ea609f04d79e38",
+      "finding": "Opponent mound visibly on floor; sprite feet remain on mound surface; native UI unchanged."
+    }
+  ],
+  "remaining": "16:9 captures have automated loading/trace evidence only; other aspects, species, animations, full battle sequences and mod combinations still pending."
+}

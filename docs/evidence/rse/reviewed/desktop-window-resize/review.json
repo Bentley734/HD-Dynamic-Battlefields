@@ -1,0 +1,25 @@
+{
+  "runtime": "0.3.95",
+  "method": "Existing SDL window resized by trusted standalone host helper; normal resize event handling, no graphics-mode recreation. No extra mod permission or production code change.",
+  "native_battle_identity_preserved": true,
+  "cases": 21,
+  "games": [
+    "ruby",
+    "sapphire",
+    "emerald"
+  ],
+  "sprite_suite": {
+    "national_dex_gen3": "1.2.0",
+    "g9-battle-sprites-gen3": "1.5.4",
+    "gen3-hd-sprites": "0.4.5"
+  },
+  "visually_reviewed": [
+    "emerald-5120x1440-resize-2.png",
+    "emerald-900x2000-resize-5.png"
+  ],
+  "limitations": [
+    "Actual mobile rotation not tested.",
+    "Graphics-mode recreation still clears G9 cached art on this host.",
+    "1025Dex independent raw-picture alpha check fails for Torchic before resizing despite visible Torchic in actual scene; that probe is not valid proof of a 1025Dex resize failure. Combined 1025 results remain unverified pending a rendering-aware visibility check."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "composition_id": "hoenn_battle_tower-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2208,
+    "height": 621
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.32,
+  "background": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
+  "sha256": "c94c5c6ed1c6a038f95c1d4595353af8be80169b9e6fcd1ec8889c18aa89a033",
+  "mound_material_candidates": [
+    "floor-gray",
+    "floor-gray-night-cool"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_reuse": {
+    "aspect": "32x9",
+    "period": "indoor",
+    "original": "art/gen2/32x9/battle_tower/battle_tower-01-32x9.png",
+    "original_prompt": "art/gen2/32x9/battle_tower/prompts/battle_tower-01-32x9.txt",
+    "original_sha256": "c94c5c6ed1c6a038f95c1d4595353af8be80169b9e6fcd1ec8889c18aa89a033",
+    "target": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
+    "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated.",
+    "operation": "byte_identical_copy",
+    "original_authoring_metadata": "art/gen2/32x9/battle_tower/battle_tower-01-32x9.authoring.json"
+  }
+}

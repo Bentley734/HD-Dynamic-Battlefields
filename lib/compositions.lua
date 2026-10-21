@@ -30,12 +30,20 @@ function M.new(catalog,installed,random)
   local aspect,err=M.aspect(viewport.width,viewport.height,options.aspect);if not aspect then return nil,err end
   local environment=options.environment or context.environment
   if not environment then return nil,'unknown environment; retain native scenery'end
-  local candidates={}
+  local candidates,availableQualities={},{}
+  local requestedQuality=options.quality or'HD'
   for _,entry in ipairs(catalog)do
-   if entry.environment==environment and entry.aspect_ratio==aspect and entry.quality==(options.quality or'HD')and installed(entry)then candidates[#candidates+1]=entry end
+   if entry.environment==environment and entry.aspect_ratio==aspect and installed(entry)then
+    availableQualities[entry.quality]=true
+    if entry.quality==requestedQuality then candidates[#candidates+1]=entry end
+   end
   end
   table.sort(candidates,function(a,b)return a.id<b.id end)
-  if #candidates==0 then return nil,'no installed matching compositions; retain native scenery'end
+  if #candidates==0 then
+   local tiers={};for tier in pairs(availableQualities)do tiers[#tiers+1]=tier end;table.sort(tiers)
+   if #tiers>0 then return nil,'No installed '..tostring(requestedQuality)..' textures for '..environment..' ('..aspect..'); available: '..table.concat(tiers,', ')..'. Choose an installed quality tier; retaining native scenery.'end
+   return nil,'No installed scenery for '..environment..' ('..aspect..'); download the matching size pack. Retaining native scenery.'
+  end
   local location=tostring(context.game)..':'..tostring(context.map)..':'..environment
   local active=self.active[battle];local variation=active and active.environment==environment and active.variation
   local selected

@@ -1,0 +1,15 @@
+{
+  "archive": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-base-packaging-review-20261021\\HD-Dynamic-Battlefields-0.2.0-beta.1-base.zip",
+  "bytes": 10081670,
+  "files": 66,
+  "runtime_lua_files": 53,
+  "fallback_pngs": 4,
+  "sha256": "99c8cb26357671e86379b509c3835635b8cda9312d2f62c9ecb609e1ab785d99",
+  "checks": [
+    "ZIP integrity",
+    "Every packaged file SHA256",
+    "All lib/metadata Lua included",
+    "No development evidence, draft artwork or pack catalogs"
+  ],
+  "scope": "Local packaging review only; existing manifest remains unchanged; not a Hoenn release or full gameplay test."
+}

@@ -71,7 +71,11 @@ function M.install(mod,G,provider)
      local nativeSide=side=='player'and'player'or'enemy'
      library.tag(image,{side=nativeSide,trainer=true,filter='linear',lowPivot={0,0},pivot={0,0}})
      x=x+(tonumber(args[side=='player'and 3 or 2])or 0)
-     if side=='player'and library.fitEnabled()then y=y+(stats.dropPlayer or 0)end
+     if side=='player'and library.fitEnabled()then
+      -- Follow the library's body raise as well as its pad drop. The tagged
+      -- mound uses trainer semantics, so vertical compensation is applied here.
+      y=y+(stats.dropPlayer or 0)-(stats.raisePlayer or 0)
+     end
      G.setColor(1,1,1,1)
      G.draw(image,x-image:getWidth()*scale*origin[1],y-image:getHeight()*scale*origin[2],0,scale,scale)
     end

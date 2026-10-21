@@ -8,17 +8,16 @@
   },
   "aspect_ratio": "4:3",
   "time_of_day": "indoor",
-  "horizon_y": 0.41,
-  "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3.png",
-  "sha256": "2346adeb74d30dbe6c0f7f7c2c4c1aefacd76985d81ce648bc7104e810a90c34",
+  "horizon_y": 0.24,
+  "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3-floor-fix-v2.png",
+  "sha256": "bb4074a393f1f95d747118ba0b4272e9c843f067c47004792daa3bc9cb09c372",
   "mound_material_candidates": [
     "floor-gray",
     "floor-charcoal"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
-    "Machinery floor boundary is near opponent draft ground anchor; visual recomposition may be required during later native layout calibration. Do not shift battle UI to compensate."
+    "Replacement source visually reviewed; native calibration pending.",
+    "Other species/aspects remain separate calibration cases."
   ],
   "depth": {
     "player": 1,
@@ -61,5 +60,10 @@
       0.008
     ],
     "layer": 10
+  },
+  "source_replacement": {
+    "reason": "Native4:3 capture mound intersected machine/wall boundary",
+    "previous_metadata": "art/gen3/drafts/4x3/new_mauville/new_mauville-01-4x3-pre-floor-fix.authoring.json",
+    "operation": "new original composition; no resizing or pixel edits"
   }
 }

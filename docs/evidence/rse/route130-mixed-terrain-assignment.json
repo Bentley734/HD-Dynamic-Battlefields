@@ -1,0 +1,53 @@
+{
+  "scope": "native inventory and authoring assignment; gameplay validation pending",
+  "maps": [
+    {
+      "game": "ruby",
+      "id": "RU_ROUTE130",
+      "native_name": "Route130",
+      "land": "ocean",
+      "water": "ocean",
+      "wild_rates": {
+        "water": 4,
+        "fishing": 30,
+        "land": 20
+      },
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      }
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_ROUTE130",
+      "native_name": "Route130",
+      "land": "ocean",
+      "water": "ocean",
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      }
+    },
+    {
+      "game": "emerald",
+      "id": "EM_ROUTE130",
+      "native_name": "Route130",
+      "land": "ocean",
+      "water": "ocean",
+      "wild_rates": {
+        "water": 4,
+        "land": 20,
+        "fishing": 30
+      },
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      }
+    }
+  ]
+}

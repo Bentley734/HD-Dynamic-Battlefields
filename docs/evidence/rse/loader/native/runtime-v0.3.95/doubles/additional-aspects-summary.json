@@ -1,0 +1,97 @@
+{
+  "runtime_version": "0.3.95",
+  "engine": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\.work\\hd-battlefields-latest\\v0.3.95\\engine",
+  "mode": "loader",
+  "content": "none",
+  "wildfollowers": false,
+  "installed_pack_fixture": false,
+  "resize": false,
+  "resize_method": null,
+  "double_fixture": true,
+  "processes": 9,
+  "scene_cases": 63,
+  "tested_mod_root": "C:\\Users\\LSDMTHC\\Desktop\\Hoennto\\HD-Dynamic-Battlefields",
+  "extracted_base_package": false,
+  "candidate_manifest_only": true,
+  "all_areas": true,
+  "review_families": [
+    "ocean",
+    "marine_cave",
+    "pacifidlog_water"
+  ],
+  "reports": [
+    {
+      "game": "emerald",
+      "size": "1024x768",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1280x720",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1440x900",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "1200x800",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "2100x900",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "5120x1440",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x1600",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x1950",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    },
+    {
+      "game": "emerald",
+      "size": "900x2000",
+      "scene_checks": 7,
+      "installed_pack_checks": 0,
+      "resize_checks": 0,
+      "presentation_transition_checks": 0
+    }
+  ],
+  "limitations": "One representative native map per reachable catalog family, with day/night sources; Four-battler trainer fixture only; Full battle flow not exercised; No full playthrough, every-map coverage, custom UI profiles, overworld follower behavior or exhaustive sprite coverage. Successful loading/UI trace checks do not prove visual grounding."
+}

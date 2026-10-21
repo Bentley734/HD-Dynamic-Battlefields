@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/southern_island-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/southern_island-01-32x9-original.txt",
+    "family": "southern_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2115,
+      595
+    ],
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5125168236877524
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5285329744279946
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.34434724091520863
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3603633916554509
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/southern_island-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/southern_island-01-32x9-night-original.txt",
+    "family": "southern_island",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass",
+      "forest"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2121,
+      597
+    ],
+    "source_geometry": {
+      "horizon_y": 0.12,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5156275303643725
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5317408906882591
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3464372469635627
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3625506072874494
+        ]
+      }
+    }
+  }
+]

@@ -12,6 +12,7 @@ require=function(name)
  if name=='src.core.game3.battle.bg'then return{env=function()return env end,terrainId=function()return 3 end}end
  if name=='src.core.GameVersion'then return{get=function()return version end}end
  if name=='src.core.game3.rtc'then return rtc end
+ if name=='src.core.game3.weather'then return{translate=function(id,s)assert(s==session);return id==20 and 3 or id end}end
  return originalRequire(name)
 end
 local mod={game={session=session,data={maps={EM_ROUTE119={mapType=3,battleType=0}}}}}
@@ -22,6 +23,13 @@ assert(c.game=='emerald'and c.mapType==3 and c.terrainName=='WATER'and c.water)
 assert(c.double and not c.link,'Native doubles must not be mistaken for link battles')
 assert(c.timeOfDay=='night'and c.weather=='rain'and c.enemySpecies=='KECLEON')
 assert(state.terrain==4 and session.map=='EM_ROUTE119'and rtc.localTime.hours==22)
+mod.game.data.maps.EM_ROUTE119.weather=6
+assert(read().mapWeather=='fog'and session.savedWeather==nil)
+session.savedWeather=0;assert(read().mapWeather=='clear')
+session.savedWeather=8;assert(read().mapWeather=='sandstorm')
+session.savedWeather=nil;mod.game.data.maps.EM_ROUTE119.weather=20
+assert(read().mapWeather=='rain'and session.savedWeather==nil,'Field cycle read changed saved weather')
+mod.game.data.maps.EM_ROUTE119.weather=nil
 for _,game in ipairs({'ruby','sapphire','emerald'})do version=game;assert(read().game==game)end
 state.terrain=nil;c=assert(read());assert(c.underwater and c.terrainName=='UNDERWATER')
 state.terrain=11;c=assert(read());assert(c.terrainName=='GROUDON'and not c.water)

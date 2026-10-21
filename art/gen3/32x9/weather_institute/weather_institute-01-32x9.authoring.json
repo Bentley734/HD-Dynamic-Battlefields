@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "composition_id": "weather_institute-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2098,
+    "height": 590
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.21581355932203392,
+  "background": "art/gen3/32x9/weather_institute/weather_institute-01-32x9-doubles-floor-fix-v2.png",
+  "sha256": "8834b9456b022086783c386f8a0d2b88256ca4060dc5c574dd7d28222bd23d1e",
+  "mound_material_candidates": [
+    "floor-sage",
+    "floor-gray"
+  ],
+  "limitations": [
+    "Original replacement source reviewed; native and expanded sprite calibration remains required."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.6400000000000001
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.44999999999999996
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43000000000000005
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/32x9/weather_institute-01-32x9-original.png",
+    "original_sha256": "e50721bd58894b25e751fbb857c5c251e8c69a2ed275c4f74a28cdb14974a118",
+    "original_size": {
+      "width": 2172,
+      "height": 724
+    },
+    "crop_pixels": [
+      0,
+      70,
+      2172,
+      681
+    ],
+    "source_geometry": {
+      "horizon_y": 0.38,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6367955801104973
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6536740331491713
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.4595718232044199
+        ],
+        "mound_anchor": [
+          0.65,
+          0.4764502762430939
+        ]
+      }
+    }
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/32x9/weather_institute/weather_institute-01-32x9-pre-doubles-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/weather_institute/weather_institute-01-32x9-doubles-floor-fix-original.png",
+    "crop": [
+      0,
+      0,
+      2098,
+      590
+    ],
+    "operation": "Approved excess canvas trim only, no resampling",
+    "reason": "Native 32:9 doubles mound overlapped rear wall or cabinets"
+  }
+}

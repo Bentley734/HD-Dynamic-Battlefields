@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Mt. Pyre exterior grassy mountain slopes, first variation.
+ONE empty secluded green mountainside clearing, a broad LEVEL short muted-green grass and fine gray-brown earth standing plane. Far rear only: low weathered gray-brown rock ledges with moss, a few small rounded broadleaf shrubs and wind-shaped trees, distant soft green ridges through faint mountain haze. No alpine/snow peaks, red mesas, sea, river, buildings, stairs, cemetery markers, shrines or monuments. No cliff drop or slope in the standing plane.
+Delicate Japanese watercolor washes, restrained fine ink contours, cohesive polished monster-adventure scenery with quiet weathered mountain atmosphere and readable soft ground texture.
+Composition: 16:9 landscape. Player standing x28%,y64%, opponent x72%,y43%, broad clear ground around and behind both.
+Night only: separately painted cool moonlit mountainside, deep blue sky, restrained faint silver haze at distant ridges, readable blue-green short grass and cool gray rock. No visible moon disc needed, no sun, daylight or orange sunset.
+CRITICAL: LOWER EIGHTY PERCENT is uninterrupted flat short-grass/fine-earth floor. Distant rock ledges and shrubs occupy ONLY upper fifth; all ledges END ABOVE y20%. Low battle camera across a very broad clearing, large clear ground behind both combatants. Rocks and trees stay small and far away; no foreground plants, projecting boulders or path. Ground extends to bottom edge.
+No people, creatures, animals, silhouettes, PokÃ©mon, text, UI, logos, emblems, baked mounds, circular platforms, split scenes, montage or day/night comparison. ONE complete landscape, ONE time of day.

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/floor-gray/mound-floor-gray-01.png",
+      "cleaned": "art/mounds/floor-gray/mound-floor-gray-01-clean-v3.png",
+      "source_sha256": "09bb4013d80a7bb5ecd8d7af5062675ac2f222e183075f85bcc92459b66612f8",
+      "cleaned_sha256": "78f408a7a28aab1059d67dbde6300c7bb1803ab50f27214eb63de70af6bdcb02",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/floor-clay/mound-floor-clay-02.png",
+      "cleaned": "art/mounds/floor-clay/mound-floor-clay-02-clean-v3.png",
+      "source_sha256": "7c67d243c405805838c1df545b5189fae45e491be35bbc92d08146aa6227d6a9",
+      "cleaned_sha256": "5b8d3a78b6efc67642e3988ca50c309afea6bafc4fe29907dd0ac247539851e2",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; native blending pending"
+    },
+    {
+      "source": "art/mounds/floor-charcoal/mound-floor-charcoal-01.png",
+      "cleaned": "art/mounds/floor-charcoal/mound-floor-charcoal-01-clean-v3.png",
+      "source_sha256": "9381cfd8cea698c82c34e180b87ac4199035d1f2a7978da6db55aad47f9c6189",
+      "cleaned_sha256": "b71a814cd893e1080ad94c9d3870b2e1bfd195802b2c96906876bfb9aa558139",
+      "cleanup": "approved 12px rounded alpha perimeter inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "original and cleaned source visually reviewed; native blending pending"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "scope": "Native scripted-room terrain and species fixture review, not actual event playthrough",
+  "source_battle_inventory_sha256": "d573f4c14b5b92dff9db1f7b22a57ad8bbb26c553ff87b0d6b185de0ac53472a",
+  "native_map_event_evidence": [
+    {
+      "game": "emerald",
+      "id": "EM_MARINE_CAVE_END",
+      "native_name": "MarineCave_End",
+      "mapGroup": 24,
+      "mapNum": 103,
+      "mapType": 4,
+      "battleType": 0,
+      "weather": 6,
+      "primaryTileset": "ts_083df704",
+      "secondaryTileset": "ts_083df8cc",
+      "wild_rates": {},
+      "battle_event_evidence": [
+        {
+          "category": "coordEvents",
+          "x": 9,
+          "y": 26,
+          "battle_operations": [
+            "setwildbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    },
+    {
+      "game": "emerald",
+      "id": "EM_TERRA_CAVE_END",
+      "native_name": "TerraCave_End",
+      "mapGroup": 24,
+      "mapNum": 105,
+      "mapType": 4,
+      "battleType": 0,
+      "weather": 6,
+      "primaryTileset": "ts_083df704",
+      "secondaryTileset": "ts_083df8cc",
+      "wild_rates": {},
+      "battle_event_evidence": [
+        {
+          "category": "coordEvents",
+          "x": 17,
+          "y": 26,
+          "battle_operations": [
+            "setwildbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    },
+    {
+      "game": "emerald",
+      "id": "EM_SKY_PILLAR_TOP",
+      "native_name": "SkyPillar_Top",
+      "mapGroup": 24,
+      "mapNum": 85,
+      "mapType": 3,
+      "battleType": 0,
+      "weather": 0,
+      "primaryTileset": "ts_083df704",
+      "secondaryTileset": "ts_083df824",
+      "wild_rates": {},
+      "battle_event_evidence": [
+        {
+          "category": "objects",
+          "x": 14,
+          "y": 6,
+          "battle_operations": [
+            "setwildbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    }
+  ],
+  "correction": "Marine Cave End water/pond terrain explicitly uses marine_cave despite absent random encounter rates",
+  "species_fixtures": [
+    "KYOGRE",
+    "GROUDON",
+    "RAYQUAZA"
+  ],
+  "captures": [
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-1280x720-marine_cave-day-current-kyogre.png",
+      "sha256": "94c13cd6798888a9709caeafb516d6ed75bf001cae77f4ace9e9700f19b44d8e",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-1280x720-terra_cave-day-current-groudon.png",
+      "sha256": "5c2f88122360283a2f99e4808154d3c8745593d56abd0cb8055f8ccd160c5584",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-1280x720-sky_pillar_summit-day-current-rayquaza.png",
+      "sha256": "706a0c041440b0cbf5c9e7ab00eeb9bdd85a778ca7382e1edc4e089f66e0ccab",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-sky_pillar_summit-day-current-rayquaza.png",
+      "sha256": "33e04a548f90d179f3f8fd686debc4c8447e484d357ee3fcdc1bb370a5286b21",
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-sky_pillar_summit-night-current.png",
+      "sha256": "5bfc5eee07663a8c84ceb2ba5d13cb46d0f9ae219f507bebdcc2a08a383e89b0",
+      "visually_reviewed": true
+    }
+  ],
+  "limitations": "Only named captures visually inspected. Native hover offsets preserved; no claim all species, doubles, actual story event sequencing or mod sprites verified."
+}

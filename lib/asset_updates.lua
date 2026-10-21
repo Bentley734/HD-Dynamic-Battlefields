@@ -6,6 +6,10 @@ return function(mod,backend,packSchema,seed)
   if type(index)~='table'or index.schema_version~=1 or type(index.packs)~='table'or #index.packs>512 then return nil,'Invalid release index'end
   if not repository and #index.packs>0 then return nil,'No trusted release repository configured'end
   if repository and index.repository~=repository then return nil,'Release index repository mismatch'end
+  if seed.version and backend.compareVersions then
+   local order=backend.compareVersions(index.version,seed.version)
+   if not order or order<0 then return nil,'Release index is older than the bundled catalog'end
+  end
   local ids={}
   for _,pack in ipairs(index.packs)do
    local ok,err=packSchema.validate(pack);if not ok then return nil,err end
@@ -25,7 +29,8 @@ return function(mod,backend,packSchema,seed)
   if decoded and valid(index)and type(envelope.sequence)=='number'and envelope.sequence>=1 and envelope.sequence%1==0 then return index,envelope.sequence end
  end
  local first,a=cached(1);local second,b=cached(2)
- if first and(not second or a>b)then self.index,self.sequence=first,a
+ local newer=first and second and backend.compareVersions and backend.compareVersions(first.version,second.version)
+ if first and(not second or newer and newer>0 or (not newer or newer==0)and a>b)then self.index,self.sequence=first,a
  elseif second then self.index,self.sequence=second,b else self.sequence=0 end
  function self:check()
   if self.handle then return nil,'An index update is already running'end
@@ -45,6 +50,10 @@ return function(mod,backend,packSchema,seed)
   local ok,index=pcall(backend.decode,result.body)
   if not ok then return fail('Release index is not valid JSON')end
   local accepted,err=valid(index);if not accepted then return fail(err)end
+  if self.index.version and backend.compareVersions then
+   local order=backend.compareVersions(index.version,self.index.version)
+   if not order or order<0 then return fail('Release index would downgrade the current catalog')end
+  end
   local sequence=self.sequence+1;local slot=sequence%2+1
   local envelope={body=result.body,sha256=backend.hash(result.body),sequence=sequence}
   local written,why=backend.write('asset-index-'..slot..'.json',backend.encode(envelope))

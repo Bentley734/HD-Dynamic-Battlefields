@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment, Hoenn Navel Rock summit, first variation, scenery only.
+ONE very broad pale weathered limestone summit plateau high above a distant sea of soft clouds. LEVEL continuous light gray-beige rock floor with fine natural cracks and faint gravel texture. Far rear only a few very low chalky rock ridges and distant clouds, quiet high-altitude sky. No tall mountains or vegetation, no snow, ice, water on the plateau, caves, buildings, stairs, towers, ruins or shrine.
+Style: polished original Japanese watercolor illustration, subtle fine ink contours and layered atmospheric washes, cohesive monster-adventure scenery. Soft detailed stone texture, calm clear readable standing plane.
+Composition: 4:3 landscape. Low battlefield camera looking over an ENORMOUS flat stone plane; player x28%,y64%, opponent x72%,y43%.
+CRITICAL framing: all rear ridges END ABOVE y15%, sky and distant cloud strip in top fifth only. Lower EIGHTY PERCENT uninterrupted flat dry stone floor to bottom edge. No cliff edges or drop-offs anywhere in either standing area, no foreground rocks. Both combatants need generous clear ground around and behind their positions.
+DAY ONLY: pale clear blue sky, softly sunlit ivory-gray rock, distant white clouds with soft blue shadows. No moon, stars or sunset.
+One complete empty scene, one time of day. NO people, creatures, PokÃ©mon, birds, wolves, dragons, silhouettes, text, logos, UI, symbols, baked mounds, circular platforms, split scenes, montage or day/night comparison.

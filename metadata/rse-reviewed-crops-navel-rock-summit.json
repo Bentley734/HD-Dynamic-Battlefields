@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/navel_rock_summit-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/navel_rock_summit-01-32x9-original.txt",
+    "family": "navel_rock_summit",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "pale-gravel",
+      "cave-pale-limestone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2243,
+      631
+    ],
+    "source_geometry": {
+      "horizon_y": 0.23,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5760912981455064
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5940941512125536
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.3870613409415121
+        ],
+        "mound_anchor": [
+          0.65,
+          0.4050641940085592
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/navel_rock_summit-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/navel_rock_summit-01-32x9-night-original.txt",
+    "family": "navel_rock_summit",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "pale-gravel",
+      "cave-pale-limestone"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2115,
+      595
+    ],
+    "source_geometry": {
+      "horizon_y": 0.29,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5125168236877524
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5285329744279946
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.34434724091520863
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3603633916554509
+        ]
+      }
+    }
+  }
+]

@@ -1,13 +1,13 @@
 -- Installed pack catalog: artwork and metadata enter selection together.
 -- Immutable shipped prototypes remain available when cached packs are absent.
 return function(mod,store,Json,selection,catalog,scene)
- local self={packs={},sources={},health={},error=nil,revision=0}
+ local self={packs={},sources={},originals={},health={},error=nil,revision=0}
  local baseEntries,baseMetadata={},{}
  for i,entry in ipairs(catalog.compositions)do baseEntries[i]=entry end
  for id,data in pairs(catalog.metadata)do baseMetadata[id]=data end
  local function copy(value)return Json.decode(Json.encode(value))end
  function self:refresh(ids)
-  local entries,metadata,sources={}, {},{}
+  local entries,metadata,sources,originals={}, {},{},{}
   self.error=nil;local health={}
   for i,entry in ipairs(baseEntries)do entries[i]=entry end
   for id,data in pairs(baseMetadata)do metadata[id]=data end
@@ -24,7 +24,7 @@ return function(mod,store,Json,selection,catalog,scene)
      if ok and type(data)=='table'then
       local prefix='pack:'..pack.id..':'..pack.version..':'
       local function texture(path)
-       local key=prefix..path;sources[key]=store:imagePath(pack,path);return key
+       local key=prefix..path;sources[key]=store:imagePath(pack,path);originals[key]=path;return key
       end
       for key,value in pairs(data.metadata)do
        local item=copy(value);item.composition_id=prefix..item.composition_id
@@ -50,12 +50,13 @@ return function(mod,store,Json,selection,catalog,scene)
   -- selection holds the original catalog table by reference.
   for i=#catalog.compositions,1,-1 do catalog.compositions[i]=nil end
   for i,entry in ipairs(entries)do catalog.compositions[i]=entry end
-  catalog.metadata=metadata;self.sources,self.packs,self.health=sources,installed,health
+  catalog.metadata=metadata;self.sources,self.originals,self.packs,self.health=sources,originals,installed,health
   scene:release();selection.active=setmetatable({},{__mode='k'})
   self.revision=self.revision+1
   return true
  end
  function self:path(path)return self.sources[path]or mod.assets:path(path)end
+ function self:sourcePath(path)return self.originals[path]or path end
  function self:available(entry)return self.sources[entry.background]~=nil or mod:info(entry.background)~=nil end
  return self
 end

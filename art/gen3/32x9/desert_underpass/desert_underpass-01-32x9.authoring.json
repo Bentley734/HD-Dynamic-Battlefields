@@ -3,14 +3,14 @@
   "composition_id": "desert_underpass-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1799,
+    "height": 506
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3225,
-  "background": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9.png",
-  "sha256": "aa478476377e892798583393caa1b1af38ee5d4a6e0fed1258d46d262f3afcbb",
+  "horizon_y": 0.22877470355731225,
+  "background": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9-horizon-clearance-v3.png",
+  "sha256": "c32e221e3c430bd8fe58ee7b0ad9e41d3460ca840aa4b26ec24007fc33de0496",
   "mound_material_candidates": [
     "sandstone",
     "mineral-sand"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.32951639799888827,
+      0.6129644268774703
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32951639799888827,
+      0.590197628458498
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009106719367588934
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.6710394663702057,
+      0.3739130434782608
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6710394663702057,
+      0.35114624505928854
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009106719367588934
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/desert_underpass-01-32x9-original.png",
-    "original_sha256": "f91e825bd55ac01a95288d31b938f935e646114f0912bdb9c584f55b6d33f590",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9.png",
+    "original_sha256": "aa478476377e892798583393caa1b1af38ee5d4a6e0fed1258d46d262f3afcbb",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      60,
-      2048,
-      636
+      124,
+      70,
+      1923,
+      576
     ],
-    "source_geometry": {
-      "horizon_y": 0.32,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.558125
-        ],
-        "mound_anchor": [
-          0.35,
-          0.573125
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.400625
-        ],
-        "mound_anchor": [
-          0.65,
-          0.41562499999999997
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/desert_underpass/desert_underpass-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

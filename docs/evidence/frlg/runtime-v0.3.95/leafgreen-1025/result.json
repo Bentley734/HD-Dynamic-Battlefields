@@ -1,0 +1,15 @@
+{
+  "species": 1389,
+  "scope": "Actual local source through official Loader/Sandbox; effective registry chooser and native scene checks. Optional automatic trainer flow recorded separately; no live save writes or publication claim.",
+  "loaded": [
+    "1025dex",
+    "hd-dynamic-battlefields"
+  ],
+  "game": "leafgreen",
+  "runtime": "0.3.95",
+  "mod_species_and_forms": 0,
+  "asset_manager_ready": true,
+  "dex_source": "C:/Users/LSDMTHC/Desktop/Hoennto/.work/1025dex-double-fix",
+  "mode": "1025",
+  "render_checks": 36
+}

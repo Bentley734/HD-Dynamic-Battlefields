@@ -1,0 +1,84 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/mt_pyre_exterior-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/mt_pyre_exterior-01-32x9-original.txt",
+    "family": "mt_pyre_exterior",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "day",
+    "mounds": [
+      "grass",
+      "pale-gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2089,
+      588
+    ],
+    "source_geometry": {
+      "horizon_y": 0.24,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.4997609561752988
+        ],
+        "mound_anchor": [
+          0.35,
+          0.515378486055777
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33577689243027886
+        ],
+        "mound_anchor": [
+          0.65,
+          0.351394422310757
+        ]
+      }
+    }
+  },
+  {
+    "source": "art/gen3/drafts/32x9/mt_pyre_exterior-01-32x9-night-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/mt_pyre_exterior-01-32x9-night-original.txt",
+    "family": "mt_pyre_exterior",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "night",
+    "mounds": [
+      "grass",
+      "pale-gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2172,
+      611
+    ],
+    "source_geometry": {
+      "horizon_y": 0.27,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5401104972375691
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5569889502762431
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.36288674033149176
+        ],
+        "mound_anchor": [
+          0.65,
+          0.37976519337016573
+        ]
+      }
+    }
+  }
+]

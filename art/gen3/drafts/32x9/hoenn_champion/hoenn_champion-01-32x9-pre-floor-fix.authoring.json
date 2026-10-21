@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "composition_id": "hoenn_champion-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2115,
+    "height": 595
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "indoor",
+  "horizon_y": 0.3995966386554622,
+  "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
+  "sha256": "1e0cb8cbee988de6611bc1973e62ffb46da0665ee8ea8176ee8856e32f8da448",
+  "mound_material_candidates": [
+    "carpet-burgundy",
+    "floor-ivory"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration.",
+    "Rear floor boundary near opponent draft ground anchor after crop; review contact and recompose if necessary during deferred native calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.66
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.6400000000000001
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.45
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.43000000000000005
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen1/32x9/champion/champion-03-32x9.png",
+    "original_sha256": "9b87d38e06980b4ca405e91d06c872f62d4c1d37742c86a23a9c8d79b0da8d82",
+    "original_size": {
+      "width": 2115,
+      "height": 743
+    },
+    "crop_pixels": [
+      0,
+      0,
+      2115,
+      595
+    ],
+    "source_geometry": {
+      "horizon_y": 0.32,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5125168236877524
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5285329744279946
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.34434724091520863
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3603633916554509
+        ]
+      }
+    }
+  },
+  "source_reuse": {
+    "aspect": "32x9",
+    "period": "indoor",
+    "original": "art/gen1/32x9/champion/champion-03-32x9.png",
+    "original_prompt": "art/gen1/32x9/champion/prompts/champion-03-32x9.txt",
+    "original_sha256": "9b87d38e06980b4ca405e91d06c872f62d4c1d37742c86a23a9c8d79b0da8d82",
+    "target": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
+    "reason": "Visually reviewed original Gen1 champion-03: enclosed cream trophy hall, red columns, blue hangings and uninterrupted burgundy carpet suit a shared Hoenn Champion interior. Native layout and mound pairing remain uncalibrated.",
+    "operation": "crop_only_no_resampling"
+  }
+}

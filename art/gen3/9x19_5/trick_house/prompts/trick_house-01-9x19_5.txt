@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: original HD RPG battlefield environment only, Hoenn Route110 Trick House indoor puzzle chamber, first variation.
+ONE empty modest contraption puzzle room. Pale cream plaster walls with simple dark timber trim. At distant rear only: a closed plain wooden double door, two short freestanding wall partitions with a narrow vertical pivot/post detail, a small unmarked brass push-button wall panel to either side of door, a few low plain square obstacle blocks tucked flush against rear corners. No furniture in center, no dojo props, no shrine or elaborate temple. Constant gentle enclosed indoor light, no outside views.
+Delicate Japanese watercolor washes with restrained fine ink contours, cohesive hand-painted monster-adventure environment. Continuous flat muted beige-gray matte floor, soft fine mottling, no tiles, grids, grout, panels, floorboards, stripes, arrows or directional texture.
+Composition: 9:19.5 portrait. Player standing x32%,y65%, opponent x68%,y43%, broad clear floor around and behind both; floor extends to bottom.
+Camera low over a VERY BROAD EMPTY FLOOR. Wall-floor boundary and ALL obstacles strictly within upper18% of canvas, lower82% uninterrupted flat standing plane; keep scenery small and far away, clear ground behind both combatant positions.
+No people, creatures, animals, silhouettes, text, numbers, labels, emblems, UI, logos, baked mounds, raised battle platforms, foreground obstacles, split panels, collage, exterior scenery or day/night comparisons. One scene and one lighting condition.

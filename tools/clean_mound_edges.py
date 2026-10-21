@@ -45,38 +45,17 @@ def clean(source, destination, trim, rounded=False):
     opaque = np.array(eroded) == 255
     if not np.any(opaque):
         raise ValueError(f'Trim would remove the painted interior: {source}')
-    # Extend the nearest retained paint through the new antialiased edge.
-    # Removing alpha alone leaves hidden colored matte RGB for texture
-    # filtering to sample. Fully opaque interior pixels are never recolored.
+    # Preserve all visible paint, including the new antialiased rim.
+    # Clear removed matte RGB as well as alpha so previews/texture consumers
+    # cannot expose extruded colors outside the retained silhouette.
     output = pixels.copy()
-    known = opaque.copy()
-    # Simultaneous four-neighbor expansion gives the nearest retained color
-    # in source-pixel Manhattan distance without an extra image dependency.
-    for _ in range(trim + 8):
-        filled = np.zeros_like(known)
-        colors = output[:, :, :3].copy()
-        for dy, dx in ((-1, 0), (1, 0), (0, -1), (0, 1)):
-            neighbor = np.roll(known, (dy, dx), (0, 1))
-            if dy < 0:
-                neighbor[dy:, :] = False
-            elif dy > 0:
-                neighbor[:dy, :] = False
-            if dx < 0:
-                neighbor[:, dx:] = False
-            elif dx > 0:
-                neighbor[:, :dx] = False
-            target = ~known & ~filled & neighbor
-            colors[target] = np.roll(output[:, :, :3], (dy, dx), (0, 1))[target]
-            filled |= target
-        output[:, :, :3] = colors
-        known |= filled
     output[:, :, 3] = clean_alpha
-    output[(clean_alpha == 0) & ~known, :3] = 0
+    output[clean_alpha == 0, :3] = 0
     Image.fromarray(output).save(destination)
     return {'source': str(source), 'output': str(destination), 'source_pixel_trim': trim,
             'width': pixels.shape[1], 'height': pixels.shape[0],
             'operation': ('rounded perimeter alpha inset' if rounded else 'perimeter alpha trim')
-                         + ' and nearest interior color extension; original preserved'}
+                         + '; visible RGB preserved, transparent RGB cleared; original preserved'}
 
 
 def main():

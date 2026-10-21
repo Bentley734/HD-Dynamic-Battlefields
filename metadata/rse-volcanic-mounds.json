@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "source": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01.png",
+      "cleaned": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-clean-v3.png",
+      "prompt": "art/mounds/volcanic-basalt/prompts/mound-volcanic-basalt-01.txt",
+      "source_sha256": "3141d84f718421317bcaadfbd4d64d3d7edd12e179202fbdd4e1e9a8f172bdd5",
+      "cleaned_sha256": "25a15ed4f477c78ff108ac32b6de7a84fc989edf41f647bb1ddf0999d5ea6a3c",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "both period sources generated before cleaned-pair visual review; native blending pending"
+    },
+    {
+      "source": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night.png",
+      "cleaned": "art/mounds/volcanic-basalt/mound-volcanic-basalt-01-night-clean-v3.png",
+      "prompt": "art/mounds/volcanic-basalt/prompts/mound-volcanic-basalt-01-night.txt",
+      "source_sha256": "a86c791a3cf460b55209f8197c16591fd1cd00a0e56d690aa06f16ec0c38f1d6",
+      "cleaned_sha256": "17a377b2fdcefb6e1891d947e460a349f05dd51310d1477d2774a0708a1620d4",
+      "generator": "built-in imagegen",
+      "cleanup": "approved 12px rounded perimeter alpha inset; visible RGB preserved; transparent RGB cleared; original retained",
+      "review": "both period sources generated before cleaned-pair visual review; native blending pending"
+    }
+  ]
+}

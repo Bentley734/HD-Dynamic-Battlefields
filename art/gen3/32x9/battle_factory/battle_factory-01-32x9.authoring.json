@@ -3,14 +3,14 @@
   "composition_id": "battle_factory-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2048,
-    "height": 576
+    "width": 1735,
+    "height": 488
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3466666666666667,
-  "background": "art/gen3/32x9/battle_factory/battle_factory-01-32x9.png",
-  "sha256": "f97cb22194828b2f024cefea92f2c5068b56594f7adc0a8ec43f8db21f179d13",
+  "horizon_y": 0.22885245901639345,
+  "background": "art/gen3/32x9/battle_factory/battle_factory-01-32x9-horizon-clearance-v3.png",
+  "sha256": "ad0d05e3f6d6561d2c70cfda1a162d6ef09885618d308aa918de7c1750abfcb3",
   "mound_material_candidates": [
     "floor-gray",
     "floor-gray-night-cool"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.3232276657060518,
+      0.5986885245901639
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3232276657060518,
+      0.5750819672131148
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009442622950819672
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45000000000000007
+      0.6773487031700288,
+      0.3508196721311476
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6773487031700288,
+      0.32721311475409837
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009442622950819672
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/battle_factory-01-32x9-original.png",
-    "original_sha256": "c8b745a1b2b5a47dc96bbb6b637fd256ee8af3096fb1d27ccdb96765fb92ef77",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/battle_factory/battle_factory-01-32x9.png",
+    "original_sha256": "f97cb22194828b2f024cefea92f2c5068b56594f7adc0a8ec43f8db21f179d13",
     "original_size": {
       "width": 2048,
-      "height": 768
+      "height": 576
     },
     "crop_pixels": [
-      0,
-      0,
-      2048,
+      156,
+      88,
+      1891,
       576
     ],
-    "source_geometry": {
-      "horizon_y": 0.26,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.48
-        ],
-        "mound_anchor": [
-          0.35,
-          0.495
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3225
-        ],
-        "mound_anchor": [
-          0.65,
-          0.3375
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/battle_factory/battle_factory-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

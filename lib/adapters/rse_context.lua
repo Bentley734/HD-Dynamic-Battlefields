@@ -5,6 +5,10 @@ return function(mod,identity)
  local Background=require('src.core.game3.battle.bg')
  local Version=require('src.core.GameVersion')
  local Rtc=require('src.core.game3.rtc')
+ local Weather=require('src.core.game3.weather')
+ -- Native field weather IDs; unsupported ash/underwater visuals stay clear.
+ local fieldWeather={[0]='clear',[1]='clear',[2]='clear',[3]='rain',[4]='snow',
+  [5]='rain',[6]='fog',[8]='sandstorm',[9]='fog',[11]='clear',[12]='sun',[13]='rain'}
  return function()
   local gameId=Version.get()
   if gameId~='ruby'and gameId~='sapphire'and gameId~='emerald'then return nil,'Not a Hoenn game'end
@@ -15,6 +19,10 @@ return function(mod,identity)
   if not env or env.family~='rse'then return nil,'Unexpected Hoenn terrain provider'end
   local session=game.session
   local map=game.data and game.data.maps and game.data.maps[session.map]
+  -- savedWeather already contains the runtime's resolved scripted/cycle value.
+  -- Fall back to translated map metadata only before field initialization.
+  local fieldId=tonumber(session.savedWeather)
+  if fieldId==nil and map and map.weather~=nil then fieldId=Weather.translate(map.weather,session)end
   local terrain=state.terrain
   if terrain==nil then terrain=Background.terrainId()end
   local terrainName
@@ -36,6 +44,6 @@ return function(mod,identity)
    water=terrainName=='WATER'or terrainName=='POND'or terrainName=='UNDERWATER',
    underwater=terrainName=='UNDERWATER',double=state.double==true,
    playerSpecies=species(state.player),enemySpecies=species(state.enemy),
-   weather=state.weather,timeOfDay=clockPeriod,link=state.link==true}
+   weather=state.weather,mapWeather=fieldWeather[fieldId],timeOfDay=clockPeriod,link=state.link==true}
  end
 end

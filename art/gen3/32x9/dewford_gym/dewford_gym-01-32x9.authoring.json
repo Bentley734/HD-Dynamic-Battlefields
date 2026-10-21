@@ -3,21 +3,20 @@
   "composition_id": "dewford_gym-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 2172,
+    "height": 611
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.38370967741935486,
-  "background": "art/gen3/32x9/dewford_gym/dewford_gym-01-32x9.png",
-  "sha256": "3f28a70b5e4b3850773d3f2c5bb911a26e461eda8511d11c7598c7be069c4716",
+  "horizon_y": 0.25165302782324056,
+  "background": "art/gen3/32x9/dewford_gym/dewford_gym-01-32x9-doubles-floor-fix-v2.png",
+  "sha256": "8d7f716d748d272cb5b5cd0847e782dfe62ccb45d49f9fdff46b59448341cd7f",
   "mound_material_candidates": [
     "carpet-blue",
     "floor-gray"
   ],
   "limitations": [
-    "Visual authoring review only; not registered in runtime catalog.",
-    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+    "Original replacement source reviewed; native and expanded sprite calibration remains required."
   ],
   "depth": {
     "player": 1,
@@ -99,5 +98,17 @@
         ]
       }
     }
+  },
+  "source_replacement": {
+    "previous_metadata": "art/gen3/drafts/32x9/dewford_gym/dewford_gym-01-32x9-pre-doubles-floor-fix.authoring.json",
+    "original": "art/gen3/drafts/32x9/dewford_gym/dewford_gym-01-32x9-doubles-floor-fix-original.png",
+    "crop": [
+      0,
+      20,
+      2172,
+      631
+    ],
+    "operation": "Approved excess canvas trim only, no resampling",
+    "reason": "Native 32:9 doubles mound overlapped rear wall or cabinets"
   }
 }

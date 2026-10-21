@@ -3,14 +3,14 @@
   "composition_id": "phoebe_chamber-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 1983,
-    "height": 558
+    "width": 1660,
+    "height": 467
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.35528673835125446,
-  "background": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9.png",
-  "sha256": "e77430d4b76babad51e1b609ada0ccdce9ef04bdd9786061013cac40b0c3c5fa",
+  "horizon_y": 0.2296573875802998,
+  "background": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9-horizon-clearance-v3.png",
+  "sha256": "f8a2b5b9f867ebe4a567e5477a22c775aaff02bf77b1d011754402488b223de9",
   "mound_material_candidates": [
     "carpet-lavender",
     "floor-charcoal"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.32111445783132525,
+      0.5937473233404712
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32111445783132525,
+      0.5698501070663812
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009558886509635975
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.679487951807229,
+      0.3428265524625267
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.679487951807229,
+      0.3189293361884369
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009558886509635975
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/phoebe_chamber-01-32x9-original.png",
-    "original_sha256": "e2c2d7afbf4a24fba4a1ef7aba4f245bc26465720a9a3fa91ded5a63dd8f6bc5",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9.png",
+    "original_sha256": "e77430d4b76babad51e1b609ada0ccdce9ef04bdd9786061013cac40b0c3c5fa",
     "original_size": {
       "width": 1983,
-      "height": 793
+      "height": 558
     },
     "crop_pixels": [
-      0,
-      0,
-      1983,
+      161,
+      91,
+      1821,
       558
     ],
-    "source_geometry": {
-      "horizon_y": 0.25,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.45034047919293824
-        ],
-        "mound_anchor": [
-          0.35,
-          0.46441361916771756
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3025725094577554
-        ],
-        "mound_anchor": [
-          0.65,
-          0.31664564943253465
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/phoebe_chamber/phoebe_chamber-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

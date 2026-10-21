@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/abandoned_ship-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/abandoned_ship-01-32x9-original.txt",
+    "family": "abandoned_ship",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "floor-sage",
+      "floor-gray"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2091,
+      588
+    ],
+    "source_geometry": {
+      "horizon_y": 0.28,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5004255319148936
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5160638297872341
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.33622340425531916
+        ],
+        "mound_anchor": [
+          0.65,
+          0.3518617021276596
+        ]
+      }
+    }
+  }
+]

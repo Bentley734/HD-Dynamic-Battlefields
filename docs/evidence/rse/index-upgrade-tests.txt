@@ -1,0 +1,35 @@
+PASS bundled index upgrade, stale cache rejection, newer remote catalog, rollback rejection and semantic-version cache selection
+PASS installed mound material identity survives namespacing/version updates; cache refresh invalidates textures
+PASS Asset Manager separate aspect and compact/full variation filtering
+PASS batch queue: all-aspect sequential downloads, deduplication, progress, failure stop, restart and cancellation
+PASS bounded atmosphere quality budgets, zero animation clock/processing when off, rain/snow/sand/fog draws and error-state restoration
+PASS native/system/manual time and weather precedence, clock refresh/rollback, interior policy, cached immutable states and quality fallback
+PASS all ratio families, 5120x1440/phone selection, stable battle variation on resize/orientation, no immediate repeat, deterministic fixed assignments, missing-pack/native fallback
+PASS unavailable texture tier and missing-size fallback diagnostics name an actionable remedy without loading a heavier tier
+PASS explicit Red map taxonomy, terrain/water distinctions, special arenas/legendary encounters and unknown/modified-map fallback
+PASS explicit FR/LG habitat signatures, installed art coverage, water and Moltres location
+PASS Gen2 exact map signatures: 485 game/maps, every mapped trigger has catalog art, dry/water separation and modified-map fallback
+PASS Hoenn 479 exact map signatures, mixed desert/grass route, rivers, underwater, gym/summit/facility identity and unknown/modified fallback
+PASS FR/LG adapter: actual picture coordinates, unchanged origin/scale, disabled passthrough, exact renderer frame and error recovery
+PASS fishing encounter capture preserves native battle identity/arguments and leaves native state untouched
+PASS Gen2 draft catalog: 477 compositions, 53 families, nine aspects, actual PNG headers, independent night geometry and invalid-night rejection
+PASS Gen2 read-only context: actual screen/model separation, native fishing type, surf states, clock, weather and overlay fallback
+PASS Gen2 provider integration: real source image dimensions, fishing habitat, native clock/night art, overlay and modified-map fallback
+PASS Gen2 scenery scope: classic/wide paper only, explicit effects/HUD retained, native fallback and graphics/error cleanup
+PASS native scenery anchoring, integer fit, exact consumer frame, saved/global/aspect offsets and scaling, immutable metadata and invalid-frame rejection
+PASS separate Hoenn doubles mound profiles, retained single defaults and additive user calibration
+PASS data-driven water-islet coverage and surface origin, isolation and invalid material rejection
+PASS pack integrity, offline records, interrupted resume, torn commit rollback, compatibility/schema/path rejection, metadata validation, cancel and removal
+PASS multi-file restart resumes verified objects, retains previous installed version until commit, and repairs corrupt staged bytes
+PASS separate day/night artwork and mounds, live period replacement/release, failed/missing night-art retention and invalid-period rejection
+PASS metadata inheritance, cycles/missing/schema validation, immutable adjustments, 5120x1440 layout, resizing, contact-point positioning
+PASS physical integer pixel scaling and alignment at densities 1/1.5/2/2.75/3
+PASS animation projection endpoint registration, isotropic effect scale and degenerate rejection
+PASS Hoenn candidate catalog: 675 compositions, 75 families each covering nine aspects, PNG/geometry validation and distinct corrected night geometry
+PASS Hoenn read-only context: three versions, terrain/water/underwater, native RTC, doubles separate from link, no state writes and safe fallback
+PASS uniform intermediate-aspect cover, shared art/anchor transform, uniform mound scaling, failed-load retention, graphics-state restoration and texture release
+PASS active texture reuse, canonical mound identity, transactional failure and release ownership
+PASS scenery-only contract: no UI/compositor hooks, no native sprite/UI calls, optional mounds, disabled fallback
+PASS effective species registry: native/mod species, forms, sparse slots, late registrations, aliases and namespaced IDs
+PASS species menu: current species defaults, selectable list, exact repeated pixel edits, side isolation and targeted reset
+PASS sprite offsets: scoped precedence, additive game/species/side isolation, validation, integer native pixels, untouched arguments/metadata and graphics restoration on failure

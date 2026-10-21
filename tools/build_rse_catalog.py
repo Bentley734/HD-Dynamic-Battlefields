@@ -44,6 +44,9 @@ for family, variants in sorted(groups.items()):
 bindings = json.loads((ROOT / 'metadata/rse-mound-bindings.json').read_text())['families']
 records = {}
 for path in sorted((ROOT / 'art/gen3').glob('*/*/*.authoring.json')):
+    # Archived/rejected drafts are provenance, never runtime source records.
+    if path.relative_to(ROOT / 'art/gen3').parts[0] == 'drafts':
+        continue
     record = json.loads(path.read_text())
     assert hashlib.sha256((ROOT / record['background']).read_bytes()).hexdigest() == record['sha256']
     if record['composition_id'] in records:

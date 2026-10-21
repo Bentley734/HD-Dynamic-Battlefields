@@ -70,7 +70,7 @@
         "fishing": 10
       },
       "land": "pacifidlog_water",
-      "water": "ocean",
+      "water": "pacifidlog_water",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -95,9 +95,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -111,9 +111,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -127,9 +127,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -230,9 +230,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -246,10 +246,10 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
         "fishing": 30,
-        "rocks": 20,
-        "land": 10
+        "rocks": 20
       },
       "land": "grassland",
       "water": "pond",
@@ -293,10 +293,10 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
         "fishing": 30,
-        "rocks": 20,
-        "land": 20
+        "rocks": 20
       },
       "land": "grassland",
       "water": "pond",
@@ -310,9 +310,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -340,9 +340,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -356,9 +356,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "river",
@@ -372,9 +372,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 15,
         "water": 4,
-        "fishing": 30,
-        "land": 15
+        "fishing": 30
       },
       "land": "rainforest",
       "water": "river",
@@ -388,9 +388,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "rainforest",
       "water": "pond",
@@ -404,9 +404,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -435,9 +435,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "grassland",
       "water": "pond",
@@ -541,13 +541,16 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
+        "land": 20,
         "water": 4,
-        "fishing": 30,
-        "land": 20
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
-      "terrain_overrides": {},
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      },
       "evidence": "positive encounter/event evidence"
     },
     {
@@ -837,9 +840,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 30,
-        "land": 10
+        "fishing": 30
       },
       "land": "meteor_falls",
       "water": "cave_water",
@@ -853,9 +856,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 30,
-        "land": 10
+        "fishing": 30
       },
       "land": "meteor_falls",
       "water": "cave_water",
@@ -1007,9 +1010,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 30,
-        "land": 10
+        "fishing": 30
       },
       "land": "meteor_falls",
       "water": "cave_water",
@@ -1053,7 +1056,7 @@
       "wild_rates": {
         "land": 10
       },
-      "land": "mt_pyre_exterior",
+      "land": "mt_pyre_summit",
       "water": null,
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
@@ -1144,9 +1147,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 30,
-        "land": 10
+        "fishing": 30
       },
       "land": "meteor_falls",
       "water": "cave_water",
@@ -1202,9 +1205,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 4,
         "water": 4,
-        "fishing": 10,
-        "land": 4
+        "fishing": 10
       },
       "land": "seafloor_cavern",
       "water": "cave_water",
@@ -1218,9 +1221,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 4,
         "water": 4,
-        "fishing": 10,
-        "land": 4
+        "fishing": 10
       },
       "land": "seafloor_cavern",
       "water": "cave_water",
@@ -1385,9 +1388,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 30,
-        "land": 10
+        "fishing": 30
       },
       "land": "cave",
       "water": "cave_water",
@@ -1401,9 +1404,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 10,
-        "land": 10
+        "fishing": 10
       },
       "land": "shoal_cave",
       "water": "cave_water",
@@ -1417,9 +1420,9 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
+        "land": 10,
         "water": 4,
-        "fishing": 10,
-        "land": 10
+        "fishing": 10
       },
       "land": "shoal_cave",
       "water": "cave_water",
@@ -1517,7 +1520,7 @@
         "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -1556,7 +1559,7 @@
         "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -1762,9 +1765,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 25,
         "water": 9,
-        "fishing": 35,
-        "land": 25
+        "fishing": 35
       },
       "land": "hoenn_safari",
       "water": "pond",
@@ -1805,9 +1808,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
+        "land": 25,
         "water": 9,
-        "fishing": 35,
-        "land": 25
+        "fishing": 35
       },
       "land": "hoenn_safari",
       "water": "pond",
@@ -2052,7 +2055,7 @@
         "fishing": 10
       },
       "land": "pacifidlog_water",
-      "water": "ocean",
+      "water": "pacifidlog_water",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -2077,8 +2080,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2093,8 +2096,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2109,8 +2112,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2212,8 +2215,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2228,9 +2231,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
         "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "land": "grassland",
@@ -2275,9 +2278,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
         "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "land": "grassland",
@@ -2292,8 +2295,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2322,8 +2325,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2338,8 +2341,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2354,8 +2357,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 15,
+        "water": 4,
         "fishing": 30
       },
       "land": "rainforest",
@@ -2370,8 +2373,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "rainforest",
@@ -2386,8 +2389,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2417,8 +2420,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -2523,13 +2526,16 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
-      "terrain_overrides": {},
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      },
       "evidence": "positive encounter/event evidence"
     },
     {
@@ -2819,8 +2825,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -2835,8 +2841,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -2989,8 +2995,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -3035,7 +3041,7 @@
       "wild_rates": {
         "land": 10
       },
-      "land": "mt_pyre_exterior",
+      "land": "mt_pyre_summit",
       "water": null,
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
@@ -3126,8 +3132,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -3184,8 +3190,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "land": "seafloor_cavern",
@@ -3200,8 +3206,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "land": "seafloor_cavern",
@@ -3367,8 +3373,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "cave",
@@ -3383,8 +3389,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "land": "shoal_cave",
@@ -3399,8 +3405,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "land": "shoal_cave",
@@ -3499,7 +3505,7 @@
         "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -3538,7 +3544,7 @@
         "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -3744,8 +3750,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "land": "hoenn_safari",
@@ -3787,8 +3793,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "land": "hoenn_safari",
@@ -3985,8 +3991,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 1
+        "water": 1,
+        "fishing": 10
       },
       "land": "city",
       "water": "pond",
@@ -4000,8 +4006,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "city",
       "water": "ocean",
@@ -4015,8 +4021,8 @@
       "mapType": 1,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "city",
       "water": "ocean",
@@ -4030,11 +4036,11 @@
       "mapType": 1,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "pacifidlog_water",
-      "water": "ocean",
+      "water": "pacifidlog_water",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -4059,8 +4065,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4075,8 +4081,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4091,8 +4097,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4119,8 +4125,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4134,8 +4140,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4149,8 +4155,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4164,8 +4170,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4179,8 +4185,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "beach",
       "water": "ocean",
@@ -4194,8 +4200,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4210,9 +4216,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
-        "fishing": 30,
         "land": 10,
+        "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "land": "grassland",
@@ -4257,9 +4263,9 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
-        "fishing": 30,
         "land": 20,
+        "fishing": 30,
+        "water": 4,
         "rocks": 20
       },
       "land": "grassland",
@@ -4286,8 +4292,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4316,8 +4322,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4332,8 +4338,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4348,8 +4354,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 15,
+        "water": 4,
         "fishing": 30
       },
       "land": "rainforest",
@@ -4364,8 +4370,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "rainforest",
@@ -4380,8 +4386,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4396,8 +4402,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4411,8 +4417,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "grassland",
@@ -4427,8 +4433,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4442,8 +4448,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4457,8 +4463,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4472,8 +4478,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4487,8 +4493,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4502,8 +4508,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4517,13 +4523,16 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 20,
+        "water": 4,
         "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
-      "terrain_overrides": {},
+      "terrain_overrides": {
+        "GRASS": "grassland",
+        "LONG_GRASS": "grassland"
+      },
       "evidence": "positive encounter/event evidence"
     },
     {
@@ -4533,8 +4542,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4548,8 +4557,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4563,8 +4572,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4578,8 +4587,8 @@
       "mapType": 6,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 30,
-        "water": 4
+        "water": 4,
+        "fishing": 30
       },
       "land": "ocean",
       "water": "ocean",
@@ -4593,8 +4602,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "city",
       "water": "ocean",
@@ -4636,8 +4645,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "city",
       "water": "ocean",
@@ -4651,8 +4660,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 1
+        "water": 1,
+        "fishing": 10
       },
       "land": "city",
       "water": "pond",
@@ -4666,8 +4675,8 @@
       "mapType": 2,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "city",
       "water": "ocean",
@@ -4718,6 +4727,18 @@
       "battleType": 1,
       "wild_rates": {},
       "land": "mossdeep_gym",
+      "water": null,
+      "terrain_overrides": {},
+      "evidence": "positive encounter/event evidence"
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MOSSDEEP_CITY_SPACE_CENTER_2F",
+      "native_name": "MossdeepCity_SpaceCenter_2F",
+      "mapType": 8,
+      "battleType": 0,
+      "wild_rates": {},
+      "land": "space_center",
       "water": null,
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
@@ -4825,8 +4846,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -4841,8 +4862,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -4886,7 +4907,7 @@
       "battleType": 0,
       "wild_rates": {},
       "land": "marine_cave",
-      "water": null,
+      "water": "marine_cave",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -5061,8 +5082,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -5107,7 +5128,7 @@
       "wild_rates": {
         "land": 10
       },
-      "land": "mt_pyre_exterior",
+      "land": "mt_pyre_summit",
       "water": null,
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
@@ -5155,8 +5176,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 10,
-        "water": 4
+        "water": 4,
+        "fishing": 10
       },
       "land": "seafloor_cavern",
       "water": "cave_water",
@@ -5198,8 +5219,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "meteor_falls",
@@ -5256,8 +5277,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "land": "seafloor_cavern",
@@ -5272,8 +5293,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 4,
+        "water": 4,
         "fishing": 10
       },
       "land": "seafloor_cavern",
@@ -5385,8 +5406,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 30
       },
       "land": "cave",
@@ -5401,8 +5422,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "land": "shoal_cave",
@@ -5417,8 +5438,8 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "water": 4,
         "land": 10,
+        "water": 4,
         "fishing": 10
       },
       "land": "shoal_cave",
@@ -5525,11 +5546,11 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 20,
-        "water": 4
+        "water": 4,
+        "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -5564,11 +5585,11 @@
       "mapType": 4,
       "battleType": 0,
       "wild_rates": {
-        "fishing": 20,
-        "water": 4
+        "water": 4,
+        "fishing": 20
       },
       "land": "abandoned_ship",
-      "water": "cave_water",
+      "water": "abandoned_ship_flooded",
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
     },
@@ -5786,7 +5807,7 @@
       "wild_rates": {
         "land": 10
       },
-      "land": "magma_hideout",
+      "land": "magma_core",
       "water": null,
       "terrain_overrides": {},
       "evidence": "positive encounter/event evidence"
@@ -6126,8 +6147,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "land": "hoenn_safari",
@@ -6184,8 +6205,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "land": "hoenn_safari",
@@ -6224,8 +6245,8 @@
       "mapType": 3,
       "battleType": 0,
       "wild_rates": {
-        "water": 9,
         "land": 25,
+        "water": 9,
         "fishing": 35
       },
       "land": "hoenn_safari",
@@ -6778,6 +6799,7 @@
   },
   "new_or_incomplete_families": [
     "abandoned_ship",
+    "abandoned_ship_flooded",
     "aqua_hideout",
     "artisan_cave",
     "ashfield",
@@ -6803,6 +6825,7 @@
     "hoenn_champion",
     "hoenn_safari",
     "lavaridge_gym",
+    "magma_core",
     "magma_hideout",
     "marine_cave",
     "mauville_gym",
@@ -6810,6 +6833,7 @@
     "mossdeep_gym",
     "mt_pyre_exterior",
     "mt_pyre_interior",
+    "mt_pyre_summit",
     "navel_rock_depths",
     "navel_rock_summit",
     "new_mauville",
@@ -6887,13 +6911,34 @@
       "reason": "Unused/prototype native map; no artwork queued"
     }
   ],
-  "minimum_new_aspect_compositions": 549,
+  "minimum_new_aspect_compositions": 576,
   "limitations": [
-    "New families still need original art, separate outdoor night scenes and mound pairing.",
+    "Source and mound coverage are authoring candidates; native calibration remains required.",
     "Review mixed-terrain routes, story/legendary specials and generated Frontier battles before enabling.",
     "Existing scenery is a reuse candidate, not proof of matching Hoenn interiors or sprite contact."
   ],
   "generated_sources": [
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/abandoned_ship/abandoned_ship-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/abandoned_ship_flooded/abandoned_ship_flooded-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/aqua_hideout/aqua_hideout-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
     {
       "family": "artisan_cave",
       "aspect_ratio": "16:10",
@@ -6958,6 +7003,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/birth_island/birth_island-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/birth_island/birth_island-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7004,6 +7063,20 @@
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
       "background": "art/gen3/16x10/drake_chamber/drake_chamber-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/faraway_island/faraway_island-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/faraway_island/faraway_island-01-16x10.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7077,6 +7150,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/magma_core/magma_core-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/magma_hideout/magma_hideout-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7105,10 +7192,87 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/mt_pyre_exterior/mt_pyre_exterior-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/mt_pyre_exterior/mt_pyre_exterior-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/mt_pyre_interior/mt_pyre_interior-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/mt_pyre_summit/mt_pyre_summit-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/mt_pyre_summit/mt_pyre_summit-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/navel_rock_depths/navel_rock_depths-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/navel_rock_summit/navel_rock_summit-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/navel_rock_summit/navel_rock_summit-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
       "background": "art/gen3/16x10/new_mauville/new_mauville-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/oceanic_museum/oceanic_museum-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/pacifidlog_water/pacifidlog_water-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/pacifidlog_water/pacifidlog_water-01-16x10.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7175,6 +7339,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/seashore_house/seashore_house-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7196,6 +7367,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/sky_pillar_summit/sky_pillar_summit-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/sky_pillar_summit/sky_pillar_summit-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
@@ -7203,10 +7388,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "night",
+      "background": "art/gen3/16x10/southern_island/southern_island-01-16x10-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "16:10",
+      "time_of_day": "day",
+      "background": "art/gen3/16x10/southern_island/southern_island-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/space_center/space_center-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "16:10",
       "time_of_day": "indoor",
       "background": "art/gen3/16x10/terra_cave/terra_cave-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/trick_house/trick_house-01-16x10.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7249,6 +7462,34 @@
       "aspect_ratio": "16:10",
       "time_of_day": "day",
       "background": "art/gen3/16x10/volcanic_slope/volcanic_slope-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "16:10",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x10/weather_institute/weather_institute-01-16x10.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/abandoned_ship/abandoned_ship-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/abandoned_ship_flooded/abandoned_ship_flooded-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/aqua_hideout/aqua_hideout-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7315,6 +7556,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/birth_island/birth_island-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/birth_island/birth_island-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7361,6 +7616,20 @@
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/drake_chamber/drake_chamber-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/faraway_island/faraway_island-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/faraway_island/faraway_island-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7434,6 +7703,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/magma_core/magma_core-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/magma_hideout/magma_hideout-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7462,6 +7745,41 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/mt_pyre_exterior/mt_pyre_exterior-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/mt_pyre_exterior/mt_pyre_exterior-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/mt_pyre_interior/mt_pyre_interior-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/mt_pyre_summit/mt_pyre_summit-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/mt_pyre_summit/mt_pyre_summit-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "navel_rock_depths",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7469,10 +7787,45 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/navel_rock_summit/navel_rock_summit-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/navel_rock_summit/navel_rock_summit-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/new_mauville/new_mauville-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/oceanic_museum/oceanic_museum-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/pacifidlog_water/pacifidlog_water-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/pacifidlog_water/pacifidlog_water-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7539,6 +7892,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/seashore_house/seashore_house-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7560,6 +7920,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/sky_pillar_summit/sky_pillar_summit-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/sky_pillar_summit/sky_pillar_summit-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
@@ -7567,10 +7941,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "night",
+      "background": "art/gen3/16x9/southern_island/southern_island-01-16x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "16:9",
+      "time_of_day": "day",
+      "background": "art/gen3/16x9/southern_island/southern_island-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/space_center/space_center-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "16:9",
       "time_of_day": "indoor",
       "background": "art/gen3/16x9/terra_cave/terra_cave-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/trick_house/trick_house-01-16x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7613,6 +8015,34 @@
       "aspect_ratio": "16:9",
       "time_of_day": "day",
       "background": "art/gen3/16x9/volcanic_slope/volcanic_slope-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "16:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/16x9/weather_institute/weather_institute-01-16x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/abandoned_ship/abandoned_ship-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/abandoned_ship_flooded/abandoned_ship_flooded-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/aqua_hideout/aqua_hideout-01-21x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7679,6 +8109,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/birth_island/birth_island-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/birth_island/birth_island-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7725,6 +8169,20 @@
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
       "background": "art/gen3/21x9/drake_chamber/drake_chamber-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/faraway_island/faraway_island-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/faraway_island/faraway_island-01-21x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7798,6 +8256,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/magma_core/magma_core-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/magma_hideout/magma_hideout-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7826,10 +8298,87 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/mt_pyre_exterior/mt_pyre_exterior-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/mt_pyre_exterior/mt_pyre_exterior-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/mt_pyre_interior/mt_pyre_interior-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/mt_pyre_summit/mt_pyre_summit-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/mt_pyre_summit/mt_pyre_summit-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/navel_rock_depths/navel_rock_depths-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/navel_rock_summit/navel_rock_summit-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/navel_rock_summit/navel_rock_summit-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
       "background": "art/gen3/21x9/new_mauville/new_mauville-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/oceanic_museum/oceanic_museum-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/pacifidlog_water/pacifidlog_water-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/pacifidlog_water/pacifidlog_water-01-21x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7896,6 +8445,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/seashore_house/seashore_house-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7917,6 +8473,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/sky_pillar_summit/sky_pillar_summit-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/sky_pillar_summit/sky_pillar_summit-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
@@ -7924,10 +8494,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "night",
+      "background": "art/gen3/21x9/southern_island/southern_island-01-21x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "21:9",
+      "time_of_day": "day",
+      "background": "art/gen3/21x9/southern_island/southern_island-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/space_center/space_center-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "21:9",
       "time_of_day": "indoor",
       "background": "art/gen3/21x9/terra_cave/terra_cave-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/trick_house/trick_house-01-21x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7973,10 +8571,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "weather_institute",
+      "aspect_ratio": "21:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/21x9/weather_institute/weather_institute-01-21x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/abandoned_ship_flooded/abandoned_ship_flooded-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/aqua_hideout/aqua_hideout-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "artisan_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9.png",
+      "background": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -7990,42 +8616,42 @@
       "family": "ashfield",
       "aspect_ratio": "32:9",
       "time_of_day": "day",
-      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "battle_arena",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
+      "background": "art/gen3/32x9/battle_arena/battle_arena-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "battle_dome",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/battle_dome/battle_dome-01-32x9.png",
+      "background": "art/gen3/32x9/battle_dome/battle_dome-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "battle_factory",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/battle_factory/battle_factory-01-32x9.png",
+      "background": "art/gen3/32x9/battle_factory/battle_factory-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "battle_palace",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/battle_palace/battle_palace-01-32x9.png",
+      "background": "art/gen3/32x9/battle_palace/battle_palace-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "battle_pike",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/battle_pike/battle_pike-01-32x9.png",
+      "background": "art/gen3/32x9/battle_pike/battle_pike-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8036,10 +8662,24 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/birth_island/birth_island-01-32x9-night-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/birth_island/birth_island-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9.png",
+      "background": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8060,42 +8700,56 @@
       "family": "desert_ruin",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9.png",
+      "background": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "desert_underpass",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9.png",
+      "background": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "dewford_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/dewford_gym/dewford_gym-01-32x9.png",
+      "background": "art/gen3/32x9/dewford_gym/dewford_gym-01-32x9-doubles-floor-fix-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "drake_chamber",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9.png",
+      "background": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/faraway_island/faraway_island-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/faraway_island/faraway_island-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "fortree_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/fortree_gym/fortree_gym-01-32x9.png",
+      "background": "art/gen3/32x9/fortree_gym/fortree_gym-01-32x9-doubles-floor-fix-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "frontier_gardens",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
+      "background": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8109,35 +8763,35 @@
       "family": "glacia_chamber",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9.png",
+      "background": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "granite_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/granite_cave/granite_cave-01-32x9.png",
+      "background": "art/gen3/32x9/granite_cave/granite_cave-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "hoenn_battle_tower",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
+      "background": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "hoenn_champion",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9.png",
+      "background": "art/gen3/32x9/hoenn_champion/hoenn_champion-01-32x9-floor-fix-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "hoenn_safari",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
+      "background": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8151,77 +8805,168 @@
       "family": "lavaridge_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
+      "background": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_core",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/magma_core/magma_core-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/magma_hideout/magma_hideout-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "marine_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
+      "background": "art/gen3/32x9/marine_cave/marine_cave-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "mauville_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
+      "background": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "meteor_falls",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+      "background": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "mossdeep_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/mossdeep_gym/mossdeep_gym-01-32x9.png",
+      "background": "art/gen3/32x9/mossdeep_gym/mossdeep_gym-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-night-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/mt_pyre_summit/mt_pyre_summit-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/mt_pyre_summit/mt_pyre_summit-01-32x9.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/navel_rock_depths/navel_rock_depths-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/navel_rock_summit/navel_rock_summit-01-32x9-night-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/navel_rock_summit/navel_rock_summit-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "new_mauville",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9.png",
+      "background": "art/gen3/32x9/new_mauville/new_mauville-01-32x9-doubles-floor-fix-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/oceanic_museum/oceanic_museum-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/pacifidlog_water/pacifidlog_water-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/pacifidlog_water/pacifidlog_water-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "petalburg_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9.png",
+      "background": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "phoebe_chamber",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9.png",
+      "background": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "rainforest",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9-night.png",
+      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9-night-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "rainforest",
       "aspect_ratio": "32:9",
       "time_of_day": "day",
-      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+      "background": "art/gen3/32x9/rainforest/rainforest-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "regi_ancient_tomb",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9.png",
+      "background": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8235,42 +8980,63 @@
       "family": "regi_island_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/regi_island_cave/regi_island_cave-01-32x9.png",
+      "background": "art/gen3/32x9/regi_island_cave/regi_island_cave-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "rustboro_gym",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
+      "background": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "seafloor_cavern",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
+      "background": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "seashore_house",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/seashore_house/seashore_house-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "shoal_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9.png",
+      "background": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "sidney_chamber",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9.png",
+      "background": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "sky_pillar",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9.png",
+      "background": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/sky_pillar_summit/sky_pillar_summit-01-32x9-night-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/sky_pillar_summit/sky_pillar_summit-01-32x9.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8281,10 +9047,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "night",
+      "background": "art/gen3/32x9/southern_island/southern_island-01-32x9-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "32:9",
+      "time_of_day": "day",
+      "background": "art/gen3/32x9/southern_island/southern_island-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/space_center/space_center-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "32:9",
       "time_of_day": "indoor",
-      "background": "art/gen3/32x9/terra_cave/terra_cave-01-32x9.png",
+      "background": "art/gen3/32x9/terra_cave/terra_cave-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/trick_house/trick_house-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8305,28 +9099,56 @@
       "family": "volcanic_crater",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night.png",
+      "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "volcanic_crater",
       "aspect_ratio": "32:9",
       "time_of_day": "day",
-      "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9.png",
+      "background": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "volcanic_slope",
       "aspect_ratio": "32:9",
       "time_of_day": "night",
-      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-night.png",
+      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-night-horizon-clearance-v3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
       "family": "volcanic_slope",
       "aspect_ratio": "32:9",
       "time_of_day": "day",
-      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9.png",
+      "background": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-horizon-clearance-v3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "32:9",
+      "time_of_day": "indoor",
+      "background": "art/gen3/32x9/weather_institute/weather_institute-01-32x9-doubles-floor-fix-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/abandoned_ship/abandoned_ship-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/abandoned_ship_flooded/abandoned_ship_flooded-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/aqua_hideout/aqua_hideout-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8393,6 +9215,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/birth_island/birth_island-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/birth_island/birth_island-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8439,6 +9275,20 @@
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
       "background": "art/gen3/3x2/drake_chamber/drake_chamber-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/faraway_island/faraway_island-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/faraway_island/faraway_island-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8512,6 +9362,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/magma_core/magma_core-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/magma_hideout/magma_hideout-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8540,6 +9404,41 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/mt_pyre_exterior/mt_pyre_exterior-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/mt_pyre_exterior/mt_pyre_exterior-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/mt_pyre_interior/mt_pyre_interior-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/mt_pyre_summit/mt_pyre_summit-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/mt_pyre_summit/mt_pyre_summit-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "navel_rock_depths",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8547,10 +9446,45 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/navel_rock_summit/navel_rock_summit-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/navel_rock_summit/navel_rock_summit-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
       "background": "art/gen3/3x2/new_mauville/new_mauville-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/oceanic_museum/oceanic_museum-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/pacifidlog_water/pacifidlog_water-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/pacifidlog_water/pacifidlog_water-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8617,10 +9551,17 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/seashore_house/seashore_house-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
-      "background": "art/gen3/3x2/shoal_cave/shoal_cave-01-3x2.png",
+      "background": "art/gen3/3x2/shoal_cave/shoal_cave-01-3x2-floor-fix-v2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8638,6 +9579,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/sky_pillar_summit/sky_pillar_summit-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/sky_pillar_summit/sky_pillar_summit-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
@@ -8645,10 +9600,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "night",
+      "background": "art/gen3/3x2/southern_island/southern_island-01-3x2-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "3:2",
+      "time_of_day": "day",
+      "background": "art/gen3/3x2/southern_island/southern_island-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/space_center/space_center-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "3:2",
       "time_of_day": "indoor",
       "background": "art/gen3/3x2/terra_cave/terra_cave-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/trick_house/trick_house-01-3x2.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8691,6 +9674,34 @@
       "aspect_ratio": "3:2",
       "time_of_day": "day",
       "background": "art/gen3/3x2/volcanic_slope/volcanic_slope-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "3:2",
+      "time_of_day": "indoor",
+      "background": "art/gen3/3x2/weather_institute/weather_institute-01-3x2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/abandoned_ship/abandoned_ship-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/abandoned_ship_flooded/abandoned_ship_flooded-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/aqua_hideout/aqua_hideout-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8757,6 +9768,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/birth_island/birth_island-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/birth_island/birth_island-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
@@ -8803,6 +9828,20 @@
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/drake_chamber/drake_chamber-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/faraway_island/faraway_island-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/faraway_island/faraway_island-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8876,6 +9915,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/magma_core/magma_core-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/magma_hideout/magma_hideout-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
@@ -8904,6 +9957,41 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/mt_pyre_exterior/mt_pyre_exterior-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/mt_pyre_exterior/mt_pyre_exterior-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/mt_pyre_interior/mt_pyre_interior-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/mt_pyre_summit/mt_pyre_summit-01-4x3-night-floor-fix-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/mt_pyre_summit/mt_pyre_summit-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "navel_rock_depths",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
@@ -8911,10 +9999,45 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/navel_rock_summit/navel_rock_summit-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/navel_rock_summit/navel_rock_summit-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
-      "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3.png",
+      "background": "art/gen3/4x3/new_mauville/new_mauville-01-4x3-floor-fix-v2.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/oceanic_museum/oceanic_museum-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/pacifidlog_water/pacifidlog_water-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/pacifidlog_water/pacifidlog_water-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -8981,6 +10104,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/seashore_house/seashore_house-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
@@ -9002,6 +10132,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/sky_pillar_summit/sky_pillar_summit-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/sky_pillar_summit/sky_pillar_summit-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
@@ -9009,10 +10153,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "night",
+      "background": "art/gen3/4x3/southern_island/southern_island-01-4x3-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "4:3",
+      "time_of_day": "day",
+      "background": "art/gen3/4x3/southern_island/southern_island-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/space_center/space_center-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "4:3",
       "time_of_day": "indoor",
       "background": "art/gen3/4x3/terra_cave/terra_cave-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/trick_house/trick_house-01-4x3.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9055,6 +10227,34 @@
       "aspect_ratio": "4:3",
       "time_of_day": "day",
       "background": "art/gen3/4x3/volcanic_slope/volcanic_slope-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "4:3",
+      "time_of_day": "indoor",
+      "background": "art/gen3/4x3/weather_institute/weather_institute-01-4x3.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/abandoned_ship/abandoned_ship-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/abandoned_ship_flooded/abandoned_ship_flooded-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/aqua_hideout/aqua_hideout-01-9x16.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9121,6 +10321,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/birth_island/birth_island-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/birth_island/birth_island-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9167,6 +10381,20 @@
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
       "background": "art/gen3/9x16/drake_chamber/drake_chamber-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/faraway_island/faraway_island-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/faraway_island/faraway_island-01-9x16.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9240,6 +10468,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/magma_core/magma_core-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/magma_hideout/magma_hideout-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9268,10 +10510,87 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/mt_pyre_exterior/mt_pyre_exterior-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/mt_pyre_exterior/mt_pyre_exterior-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/mt_pyre_interior/mt_pyre_interior-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/mt_pyre_summit/mt_pyre_summit-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/mt_pyre_summit/mt_pyre_summit-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/navel_rock_depths/navel_rock_depths-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/navel_rock_summit/navel_rock_summit-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/navel_rock_summit/navel_rock_summit-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
       "background": "art/gen3/9x16/new_mauville/new_mauville-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/oceanic_museum/oceanic_museum-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/pacifidlog_water/pacifidlog_water-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/pacifidlog_water/pacifidlog_water-01-9x16.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9338,6 +10657,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/seashore_house/seashore_house-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9359,6 +10685,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/sky_pillar_summit/sky_pillar_summit-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/sky_pillar_summit/sky_pillar_summit-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
@@ -9366,10 +10706,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "night",
+      "background": "art/gen3/9x16/southern_island/southern_island-01-9x16-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "9:16",
+      "time_of_day": "day",
+      "background": "art/gen3/9x16/southern_island/southern_island-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/space_center/space_center-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "9:16",
       "time_of_day": "indoor",
       "background": "art/gen3/9x16/terra_cave/terra_cave-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/trick_house/trick_house-01-9x16.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9412,6 +10780,34 @@
       "aspect_ratio": "9:16",
       "time_of_day": "day",
       "background": "art/gen3/9x16/volcanic_slope/volcanic_slope-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "9:16",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x16/weather_institute/weather_institute-01-9x16.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/abandoned_ship/abandoned_ship-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/abandoned_ship_flooded/abandoned_ship_flooded-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/aqua_hideout/aqua_hideout-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9478,6 +10874,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/birth_island/birth_island-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/birth_island/birth_island-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
@@ -9524,6 +10934,20 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/drake_chamber/drake_chamber-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/faraway_island/faraway_island-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/faraway_island/faraway_island-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9597,6 +11021,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/magma_core/magma_core-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/magma_hideout/magma_hideout-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
@@ -9625,10 +11063,87 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/mt_pyre_exterior/mt_pyre_exterior-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/mt_pyre_exterior/mt_pyre_exterior-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/mt_pyre_interior/mt_pyre_interior-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/mt_pyre_summit/mt_pyre_summit-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/mt_pyre_summit/mt_pyre_summit-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/navel_rock_depths/navel_rock_depths-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/navel_rock_summit/navel_rock_summit-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/navel_rock_summit/navel_rock_summit-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/new_mauville/new_mauville-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/oceanic_museum/oceanic_museum-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/pacifidlog_water/pacifidlog_water-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/pacifidlog_water/pacifidlog_water-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9695,6 +11210,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/seashore_house/seashore_house-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
@@ -9716,6 +11238,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/sky_pillar_summit/sky_pillar_summit-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/sky_pillar_summit/sky_pillar_summit-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
@@ -9723,10 +11259,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "night",
+      "background": "art/gen3/9x19_5/southern_island/southern_island-01-9x19_5-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "day",
+      "background": "art/gen3/9x19_5/southern_island/southern_island-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/space_center/space_center-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "9:19.5",
       "time_of_day": "indoor",
       "background": "art/gen3/9x19_5/terra_cave/terra_cave-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/trick_house/trick_house-01-9x19_5.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9769,6 +11333,34 @@
       "aspect_ratio": "9:19.5",
       "time_of_day": "day",
       "background": "art/gen3/9x19_5/volcanic_slope/volcanic_slope-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "9:19.5",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x19_5/weather_institute/weather_institute-01-9x19_5.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/abandoned_ship/abandoned_ship-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "abandoned_ship_flooded",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/abandoned_ship_flooded/abandoned_ship_flooded-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "aqua_hideout",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/aqua_hideout/aqua_hideout-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9835,6 +11427,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "birth_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/birth_island/birth_island-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "birth_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/birth_island/birth_island-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "cave_of_origin",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9881,6 +11487,20 @@
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
       "background": "art/gen3/9x20/drake_chamber/drake_chamber-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/faraway_island/faraway_island-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "faraway_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/faraway_island/faraway_island-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -9954,6 +11574,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "magma_core",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/magma_core/magma_core-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "magma_hideout",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/magma_hideout/magma_hideout-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "marine_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -9982,10 +11616,87 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/mt_pyre_exterior/mt_pyre_exterior-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_exterior",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/mt_pyre_exterior/mt_pyre_exterior-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_interior",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/mt_pyre_interior/mt_pyre_interior-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/mt_pyre_summit/mt_pyre_summit-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "mt_pyre_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/mt_pyre_summit/mt_pyre_summit-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_depths",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/navel_rock_depths/navel_rock_depths-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/navel_rock_summit/navel_rock_summit-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "navel_rock_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/navel_rock_summit/navel_rock_summit-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "new_mauville",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
       "background": "art/gen3/9x20/new_mauville/new_mauville-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "oceanic_museum",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/oceanic_museum/oceanic_museum-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/pacifidlog_water/pacifidlog_water-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "pacifidlog_water",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/pacifidlog_water/pacifidlog_water-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -10052,6 +11763,13 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "seashore_house",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/seashore_house/seashore_house-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "shoal_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -10073,6 +11791,20 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/sky_pillar_summit/sky_pillar_summit-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "sky_pillar_summit",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/sky_pillar_summit/sky_pillar_summit-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "sootopolis_gym",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
@@ -10080,10 +11812,38 @@
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
+      "family": "southern_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "night",
+      "background": "art/gen3/9x20/southern_island/southern_island-01-9x20-night.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "southern_island",
+      "aspect_ratio": "9:20",
+      "time_of_day": "day",
+      "background": "art/gen3/9x20/southern_island/southern_island-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "space_center",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/space_center/space_center-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
       "family": "terra_cave",
       "aspect_ratio": "9:20",
       "time_of_day": "indoor",
       "background": "art/gen3/9x20/terra_cave/terra_cave-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "trick_house",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/trick_house/trick_house-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
     },
     {
@@ -10127,19 +11887,37 @@
       "time_of_day": "day",
       "background": "art/gen3/9x20/volcanic_slope/volcanic_slope-01-9x20.png",
       "status": "source_candidate_not_runtime_calibrated"
+    },
+    {
+      "family": "weather_institute",
+      "aspect_ratio": "9:20",
+      "time_of_day": "indoor",
+      "background": "art/gen3/9x20/weather_institute/weather_institute-01-9x20.png",
+      "status": "source_candidate_not_runtime_calibrated"
     }
   ],
-  "minimum_missing_base_sources": 150,
+  "minimum_missing_base_sources": 0,
   "complete_day_night_source_families": [
     "ashfield",
+    "birth_island",
     "desert",
+    "faraway_island",
     "frontier_gardens",
     "hoenn_safari",
+    "mt_pyre_exterior",
+    "mt_pyre_summit",
+    "navel_rock_summit",
+    "pacifidlog_water",
     "rainforest",
+    "sky_pillar_summit",
+    "southern_island",
     "volcanic_crater",
     "volcanic_slope"
   ],
   "complete_ambient_source_families": [
+    "abandoned_ship",
+    "abandoned_ship_flooded",
+    "aqua_hideout",
     "artisan_cave",
     "battle_arena",
     "battle_dome",
@@ -10158,11 +11936,16 @@
     "hoenn_battle_tower",
     "hoenn_champion",
     "lavaridge_gym",
+    "magma_core",
+    "magma_hideout",
     "marine_cave",
     "mauville_gym",
     "meteor_falls",
     "mossdeep_gym",
+    "mt_pyre_interior",
+    "navel_rock_depths",
     "new_mauville",
+    "oceanic_museum",
     "petalburg_gym",
     "phoebe_chamber",
     "regi_ancient_tomb",
@@ -10170,12 +11953,16 @@
     "regi_island_cave",
     "rustboro_gym",
     "seafloor_cavern",
+    "seashore_house",
     "shoal_cave",
     "sidney_chamber",
     "sky_pillar",
     "sootopolis_gym",
+    "space_center",
     "terra_cave",
+    "trick_house",
     "underwater_ocean",
-    "volcanic_cave"
+    "volcanic_cave",
+    "weather_institute"
   ]
 }

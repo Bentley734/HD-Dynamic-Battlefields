@@ -1,14 +1,14 @@
 -- Shared scene compositor. Generation adapters provide sprite draw callbacks;
 -- all composition-specific geometry comes from resolved perspective metadata.
 local M = {}
-function M.new(graphics, perspective, loadImage)
+function M.new(graphics, perspective, loadImage, sourceIdentity)
  local self = {textures = {}, diagnostics = {}}
  function self:release()
   if self.backgroundQuad then self.backgroundQuad:release();self.backgroundQuad=nil end
   self.sourceRegion=nil
   for _, image in pairs(self.textures) do if image.release then image:release() end end
   self.textures, self.entry, self.metadata = {}, nil, nil
-  self.backgroundPath,self.period,self.moundPaths=nil,nil,nil
+  self.backgroundPath,self.period,self.moundPaths,self.moundSourcePaths=nil,nil,nil,nil
  end
  function self:prepare(entry, catalog, period)
   if type(entry)~='table'or type(entry.background)~='string'or type(entry.metadata)~='string'then return nil,'Invalid composition entry'end
@@ -25,6 +25,7 @@ function M.new(graphics, perspective, loadImage)
   local pending = {}
   local function load(path)
    if pending[path] then return pending[path] end
+   if self.textures[path]then pending[path]=self.textures[path];return pending[path]end
    local ok, image = pcall(loadImage, path)
    if not ok or not image then return nil, 'Unable to load texture: '..tostring(path) end
    pending[path] = image; return image
@@ -62,10 +63,17 @@ function M.new(graphics, perspective, loadImage)
   end
   if not background then
    if quad then quad:release()end
-   for _, image in pairs(pending) do if image.release then image:release() end end
+   for path, image in pairs(pending) do if self.textures[path]~=image and image.release then image:release() end end
    self.diagnostics.error = err; return nil, err
   end
-  self:release(); self.textures, self.entry, self.metadata = pending, entry, metadata
+  -- Retain shared current textures across a successful scene transition.
+  -- On failure above, borrowed textures remain owned by the previous scene.
+  local sourcePaths={}
+  for side,path in pairs(moundPaths or{})do sourcePaths[side]=sourceIdentity and sourceIdentity(path)or path end
+  if self.backgroundQuad then self.backgroundQuad:release()end
+  for path,image in pairs(self.textures)do if pending[path]~=image and image.release then image:release()end end
+  self.textures, self.entry, self.metadata = pending, entry, metadata
+  self.moundSourcePaths=sourcePaths
   self.backgroundPath,self.period,self.moundPaths=backgroundPath,period,moundPaths
   self.backgroundQuad=quad
   self.sourceRegion=region

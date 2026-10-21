@@ -3,14 +3,14 @@
   "composition_id": "glacia_chamber-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2175,
-    "height": 612
+    "width": 1856,
+    "height": 522
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.34259803921568627,
-  "background": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9.png",
-  "sha256": "f28d871512aab51eae11ba621fc014a6bef3d29185743332025bf561347c52ae",
+  "horizon_y": 0.22925287356321836,
+  "background": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9-horizon-clearance-v3.png",
+  "sha256": "bc5478648bf6ef93f3ac888b0a00469928f9249c24279dad42b1574bf14ca43a",
   "mound_material_candidates": [
     "ice-cave",
     "floor-gray"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6599999999999999
+      0.32448814655172414,
+      0.6013793103448275
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.32448814655172414,
+      0.5779310344827586
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009379310344827587
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45000000000000007
+      0.6760506465517241,
+      0.3551724137931035
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.42999999999999994
+      0.6760506465517241,
+      0.33172413793103445
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009379310344827587
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/glacia_chamber-01-32x9-original.png",
-    "original_sha256": "ef8693f9f10cb8ce7bda30ade841517358ec58e9ced321472e8533afd2d3aaea",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9.png",
+    "original_sha256": "f28d871512aab51eae11ba621fc014a6bef3d29185743332025bf561347c52ae",
     "original_size": {
       "width": 2175,
-      "height": 723
+      "height": 612
     },
     "crop_pixels": [
-      0,
-      0,
-      2175,
+      159,
+      90,
+      2015,
       612
     ],
-    "source_geometry": {
-      "horizon_y": 0.29,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5417427385892116
-        ],
-        "mound_anchor": [
-          0.35,
-          0.5586721991701245
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3639834024896265
-        ],
-        "mound_anchor": [
-          0.65,
-          0.38091286307053945
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/glacia_chamber/glacia_chamber-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

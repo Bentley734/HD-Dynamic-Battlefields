@@ -1,0 +1,697 @@
+{
+  "scope": "Approved crop-only candidates; native visual validation pending",
+  "crops": [
+    {
+      "composition": "abandoned_ship-01-32x9",
+      "source": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9.png",
+      "result": "art/gen3/32x9/abandoned_ship/abandoned_ship-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.35809523809523813,
+      "horizon_after": 0.2297142857142858,
+      "crop_pixels": [
+        174,
+        98,
+        1916,
+        588
+      ]
+    },
+    {
+      "composition": "aqua_hideout-01-32x9",
+      "source": "art/gen3/32x9/aqua_hideout/aqua_hideout-01-32x9.png",
+      "result": "art/gen3/32x9/aqua_hideout/aqua_hideout-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3339695340501792,
+      "horizon_after": 0.22895228215767632,
+      "crop_pixels": [
+        134,
+        76,
+        1848,
+        558
+      ]
+    },
+    {
+      "composition": "artisan_cave-01-32x9",
+      "source": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9.png",
+      "result": "art/gen3/32x9/artisan_cave/artisan_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3199345335515549,
+      "horizon_after": 0.22909090909090912,
+      "crop_pixels": [
+        128,
+        72,
+        2044,
+        611
+      ]
+    },
+    {
+      "composition": "ashfield-01-32x9",
+      "source": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+      "result": "art/gen3/32x9/ashfield/ashfield-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.35947712418300654,
+      "horizon_after": 0.22986247544204322,
+      "crop_pixels": [
+        183,
+        103,
+        1993,
+        612
+      ]
+    },
+    {
+      "composition": "battle_arena-01-32x9",
+      "source": "art/gen3/32x9/battle_arena/battle_arena-01-32x9.png",
+      "result": "art/gen3/32x9/battle_arena/battle_arena-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3333333333333333,
+      "horizon_after": 0.2289156626506024,
+      "crop_pixels": [
+        138,
+        78,
+        1909,
+        576
+      ]
+    },
+    {
+      "composition": "battle_dome-01-32x9",
+      "source": "art/gen3/32x9/battle_dome/battle_dome-01-32x9.png",
+      "result": "art/gen3/32x9/battle_dome/battle_dome-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2705220228384992,
+      "horizon_after": 0.22901724137931037,
+      "crop_pixels": [
+        59,
+        33,
+        2121,
+        613
+      ]
+    },
+    {
+      "composition": "battle_factory-01-32x9",
+      "source": "art/gen3/32x9/battle_factory/battle_factory-01-32x9.png",
+      "result": "art/gen3/32x9/battle_factory/battle_factory-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3466666666666667,
+      "horizon_after": 0.22885245901639345,
+      "crop_pixels": [
+        156,
+        88,
+        1891,
+        576
+      ]
+    },
+    {
+      "composition": "battle_palace-01-32x9",
+      "source": "art/gen3/32x9/battle_palace/battle_palace-01-32x9.png",
+      "result": "art/gen3/32x9/battle_palace/battle_palace-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3618461538461539,
+      "horizon_after": 0.22867768595041324,
+      "crop_pixels": [
+        179,
+        101,
+        1900,
+        585
+      ]
+    },
+    {
+      "composition": "battle_pike-01-32x9",
+      "source": "art/gen3/32x9/battle_pike/battle_pike-01-32x9.png",
+      "result": "art/gen3/32x9/battle_pike/battle_pike-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2843862520458265,
+      "horizon_after": 0.22885361552028216,
+      "crop_pixels": [
+        78,
+        44,
+        2094,
+        611
+      ]
+    },
+    {
+      "composition": "birth_island-01-32x9-night",
+      "source": "art/gen3/32x9/birth_island/birth_island-01-32x9-night.png",
+      "result": "art/gen3/32x9/birth_island/birth_island-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.2784433164128596,
+      "horizon_after": 0.22886075949367088,
+      "crop_pixels": [
+        68,
+        38,
+        2034,
+        591
+      ]
+    },
+    {
+      "composition": "birth_island-01-32x9",
+      "source": "art/gen3/32x9/birth_island/birth_island-01-32x9.png",
+      "result": "art/gen3/32x9/birth_island/birth_island-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.30916666666666665,
+      "horizon_after": 0.22883720930232554,
+      "crop_pixels": [
+        106,
+        60,
+        1941,
+        576
+      ]
+    },
+    {
+      "composition": "cave_of_origin-01-32x9",
+      "source": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9.png",
+      "result": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3114754098360656,
+      "horizon_after": 0.22935779816513763,
+      "crop_pixels": [
+        116,
+        65,
+        2054,
+        610
+      ]
+    },
+    {
+      "composition": "desert_ruin-01-32x9",
+      "source": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9.png",
+      "result": "art/gen3/32x9/desert_ruin/desert_ruin-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3210474631751228,
+      "horizon_after": 0.2289219330855019,
+      "crop_pixels": [
+        129,
+        73,
+        2042,
+        611
+      ]
+    },
+    {
+      "composition": "desert_underpass-01-32x9",
+      "source": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9.png",
+      "result": "art/gen3/32x9/desert_underpass/desert_underpass-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3225,
+      "horizon_after": 0.22877470355731225,
+      "crop_pixels": [
+        124,
+        70,
+        1923,
+        576
+      ]
+    },
+    {
+      "composition": "drake_chamber-01-32x9",
+      "source": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9.png",
+      "result": "art/gen3/32x9/drake_chamber/drake_chamber-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.29333333333333333,
+      "horizon_after": 0.2290909090909091,
+      "crop_pixels": [
+        85,
+        48,
+        1962,
+        576
+      ]
+    },
+    {
+      "composition": "faraway_island-01-32x9",
+      "source": "art/gen3/32x9/faraway_island/faraway_island-01-32x9.png",
+      "result": "art/gen3/32x9/faraway_island/faraway_island-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.29027777777777786,
+      "horizon_after": 0.22867924528301894,
+      "crop_pixels": [
+        82,
+        46,
+        1966,
+        576
+      ]
+    },
+    {
+      "composition": "frontier_gardens-01-32x9-night",
+      "source": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night.png",
+      "result": "art/gen3/32x9/frontier_gardens/frontier_gardens-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.30808510638297876,
+      "horizon_after": 0.22994535519125683,
+      "crop_pixels": [
+        110,
+        62,
+        2062,
+        611
+      ]
+    },
+    {
+      "composition": "glacia_chamber-01-32x9",
+      "source": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9.png",
+      "result": "art/gen3/32x9/glacia_chamber/glacia_chamber-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.34259803921568627,
+      "horizon_after": 0.22925287356321836,
+      "crop_pixels": [
+        159,
+        90,
+        2015,
+        612
+      ]
+    },
+    {
+      "composition": "granite_cave-01-32x9",
+      "source": "art/gen3/32x9/granite_cave/granite_cave-01-32x9.png",
+      "result": "art/gen3/32x9/granite_cave/granite_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2844444444444445,
+      "horizon_after": 0.2296074766355141,
+      "crop_pixels": [
+        73,
+        41,
+        1975,
+        576
+      ]
+    },
+    {
+      "composition": "hoenn_battle_tower-01-32x9",
+      "source": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
+      "result": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.32,
+      "horizon_after": 0.22941605839416057,
+      "crop_pixels": [
+        130,
+        73,
+        2078,
+        621
+      ]
+    },
+    {
+      "composition": "hoenn_safari-01-32x9-night",
+      "source": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night.png",
+      "result": "art/gen3/32x9/hoenn_safari/hoenn_safari-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.35089376053962895,
+      "horizon_after": 0.22861723446893778,
+      "crop_pixels": [
+        167,
+        94,
+        1941,
+        593
+      ]
+    },
+    {
+      "composition": "lavaridge_gym-01-32x9",
+      "source": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9.png",
+      "result": "art/gen3/32x9/lavaridge_gym/lavaridge_gym-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.31265232974910395,
+      "horizon_after": 0.2298393574297189,
+      "crop_pixels": [
+        106,
+        60,
+        1877,
+        558
+      ]
+    },
+    {
+      "composition": "marine_cave-01-32x9",
+      "source": "art/gen3/32x9/marine_cave/marine_cave-01-32x9.png",
+      "result": "art/gen3/32x9/marine_cave/marine_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.34513888888888883,
+      "horizon_after": 0.22862985685071566,
+      "crop_pixels": [
+        154,
+        87,
+        1893,
+        576
+      ]
+    },
+    {
+      "composition": "mauville_gym-01-32x9",
+      "source": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
+      "result": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.29011764705882354,
+      "horizon_after": 0.22923357664233576,
+      "crop_pixels": [
+        83,
+        47,
+        2031,
+        595
+      ]
+    },
+    {
+      "composition": "meteor_falls-01-32x9",
+      "source": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9.png",
+      "result": "art/gen3/32x9/meteor_falls/meteor_falls-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.34892307692307695,
+      "horizon_after": 0.22898785425101215,
+      "crop_pixels": [
+        161,
+        91,
+        1917,
+        585
+      ]
+    },
+    {
+      "composition": "mossdeep_gym-01-32x9",
+      "source": "art/gen3/32x9/mossdeep_gym/mossdeep_gym-01-32x9.png",
+      "result": "art/gen3/32x9/mossdeep_gym/mossdeep_gym-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3410752688172043,
+      "horizon_after": 0.2291823899371069,
+      "crop_pixels": [
+        143,
+        81,
+        1839,
+        558
+      ]
+    },
+    {
+      "composition": "mt_pyre_exterior-01-32x9-night",
+      "source": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-night.png",
+      "result": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.3199345335515549,
+      "horizon_after": 0.22909090909090912,
+      "crop_pixels": [
+        128,
+        72,
+        2044,
+        611
+      ]
+    },
+    {
+      "composition": "mt_pyre_exterior-01-32x9",
+      "source": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9.png",
+      "result": "art/gen3/32x9/mt_pyre_exterior/mt_pyre_exterior-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3073469387755102,
+      "horizon_after": 0.22863636363636364,
+      "crop_pixels": [
+        106,
+        60,
+        1983,
+        588
+      ]
+    },
+    {
+      "composition": "mt_pyre_interior-01-32x9",
+      "source": "art/gen3/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9.png",
+      "result": "art/gen3/32x9/mt_pyre_interior/mt_pyre_interior-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2876500857632933,
+      "horizon_after": 0.22949907235621525,
+      "crop_pixels": [
+        78,
+        44,
+        1994,
+        583
+      ]
+    },
+    {
+      "composition": "navel_rock_depths-01-32x9",
+      "source": "art/gen3/32x9/navel_rock_depths/navel_rock_depths-01-32x9.png",
+      "result": "art/gen3/32x9/navel_rock_depths/navel_rock_depths-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2811004784688995,
+      "horizon_after": 0.22948717948717948,
+      "crop_pixels": [
+        75,
+        42,
+        2155,
+        627
+      ]
+    },
+    {
+      "composition": "navel_rock_summit-01-32x9-night",
+      "source": "art/gen3/32x9/navel_rock_summit/navel_rock_summit-01-32x9-night.png",
+      "result": "art/gen3/32x9/navel_rock_summit/navel_rock_summit-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.3621344537815126,
+      "horizon_after": 0.22859756097560976,
+      "crop_pixels": [
+        183,
+        103,
+        1932,
+        595
+      ]
+    },
+    {
+      "composition": "oceanic_museum-01-32x9",
+      "source": "art/gen3/32x9/oceanic_museum/oceanic_museum-01-32x9.png",
+      "result": "art/gen3/32x9/oceanic_museum/oceanic_museum-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2825,
+      "horizon_after": 0.22895522388059697,
+      "crop_pixels": [
+        71,
+        40,
+        1977,
+        576
+      ]
+    },
+    {
+      "composition": "petalburg_gym-01-32x9",
+      "source": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9.png",
+      "result": "art/gen3/32x9/petalburg_gym/petalburg_gym-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3333333333333333,
+      "horizon_after": 0.2289156626506024,
+      "crop_pixels": [
+        138,
+        78,
+        1909,
+        576
+      ]
+    },
+    {
+      "composition": "phoebe_chamber-01-32x9",
+      "source": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9.png",
+      "result": "art/gen3/32x9/phoebe_chamber/phoebe_chamber-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.35528673835125446,
+      "horizon_after": 0.2296573875802998,
+      "crop_pixels": [
+        161,
+        91,
+        1821,
+        558
+      ]
+    },
+    {
+      "composition": "rainforest-01-32x9-night",
+      "source": "art/gen3/32x9/rainforest/rainforest-01-32x9-night.png",
+      "result": "art/gen3/32x9/rainforest/rainforest-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.343633387888707,
+      "horizon_after": 0.22876923076923072,
+      "crop_pixels": [
+        161,
+        91,
+        2010,
+        611
+      ]
+    },
+    {
+      "composition": "rainforest-01-32x9",
+      "source": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+      "result": "art/gen3/32x9/rainforest/rainforest-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.343633387888707,
+      "horizon_after": 0.22876923076923072,
+      "crop_pixels": [
+        161,
+        91,
+        2010,
+        611
+      ]
+    },
+    {
+      "composition": "regi_ancient_tomb-01-32x9",
+      "source": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9.png",
+      "result": "art/gen3/32x9/regi_ancient_tomb/regi_ancient_tomb-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3222596964586846,
+      "horizon_after": 0.228598848368522,
+      "crop_pixels": [
+        128,
+        72,
+        1980,
+        593
+      ]
+    },
+    {
+      "composition": "regi_island_cave-01-32x9",
+      "source": "art/gen3/32x9/regi_island_cave/regi_island_cave-01-32x9.png",
+      "result": "art/gen3/32x9/regi_island_cave/regi_island_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.30892915980230645,
+      "horizon_after": 0.22889705882352943,
+      "crop_pixels": [
+        112,
+        63,
+        2046,
+        607
+      ]
+    },
+    {
+      "composition": "rustboro_gym-01-32x9",
+      "source": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9.png",
+      "result": "art/gen3/32x9/rustboro_gym/rustboro_gym-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.2843076923076923,
+      "horizon_after": 0.22895027624309391,
+      "crop_pixels": [
+        74,
+        42,
+        2005,
+        585
+      ]
+    },
+    {
+      "composition": "seafloor_cavern-01-32x9",
+      "source": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9.png",
+      "result": "art/gen3/32x9/seafloor_cavern/seafloor_cavern-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.33825795644891127,
+      "horizon_after": 0.22990253411306047,
+      "crop_pixels": [
+        148,
+        84,
+        1972,
+        597
+      ]
+    },
+    {
+      "composition": "seashore_house-01-32x9",
+      "source": "art/gen3/32x9/seashore_house/seashore_house-01-32x9.png",
+      "result": "art/gen3/32x9/seashore_house/seashore_house-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3333333333333333,
+      "horizon_after": 0.2289156626506024,
+      "crop_pixels": [
+        138,
+        78,
+        1909,
+        576
+      ]
+    },
+    {
+      "composition": "shoal_cave-01-32x9",
+      "source": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9.png",
+      "result": "art/gen3/32x9/shoal_cave/shoal_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.306231647634584,
+      "horizon_after": 0.22956521739130434,
+      "crop_pixels": [
+        108,
+        61,
+        2071,
+        613
+      ]
+    },
+    {
+      "composition": "sidney_chamber-01-32x9",
+      "source": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9.png",
+      "result": "art/gen3/32x9/sidney_chamber/sidney_chamber-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3410752688172043,
+      "horizon_after": 0.2291823899371069,
+      "crop_pixels": [
+        143,
+        81,
+        1839,
+        558
+      ]
+    },
+    {
+      "composition": "sky_pillar-01-32x9",
+      "source": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9.png",
+      "result": "art/gen3/32x9/sky_pillar/sky_pillar-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.33316326530612245,
+      "horizon_after": 0.22966601178781926,
+      "crop_pixels": [
+        139,
+        79,
+        1949,
+        588
+      ]
+    },
+    {
+      "composition": "sky_pillar_summit-01-32x9-night",
+      "source": "art/gen3/32x9/sky_pillar_summit/sky_pillar_summit-01-32x9-night.png",
+      "result": "art/gen3/32x9/sky_pillar_summit/sky_pillar_summit-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.3621344537815126,
+      "horizon_after": 0.22859756097560976,
+      "crop_pixels": [
+        183,
+        103,
+        1932,
+        595
+      ]
+    },
+    {
+      "composition": "southern_island-01-32x9",
+      "source": "art/gen3/32x9/southern_island/southern_island-01-32x9.png",
+      "result": "art/gen3/32x9/southern_island/southern_island-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.33715966386554624,
+      "horizon_after": 0.22970703125000003,
+      "crop_pixels": [
+        147,
+        83,
+        1967,
+        595
+      ]
+    },
+    {
+      "composition": "space_center-01-32x9",
+      "source": "art/gen3/32x9/space_center/space_center-01-32x9.png",
+      "result": "art/gen3/32x9/space_center/space_center-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.30916666666666665,
+      "horizon_after": 0.22883720930232554,
+      "crop_pixels": [
+        106,
+        60,
+        1941,
+        576
+      ]
+    },
+    {
+      "composition": "terra_cave-01-32x9",
+      "source": "art/gen3/32x9/terra_cave/terra_cave-01-32x9.png",
+      "result": "art/gen3/32x9/terra_cave/terra_cave-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.29333333333333333,
+      "horizon_after": 0.2290909090909091,
+      "crop_pixels": [
+        85,
+        48,
+        1962,
+        576
+      ]
+    },
+    {
+      "composition": "trick_house-01-32x9",
+      "source": "art/gen3/32x9/trick_house/trick_house-01-32x9.png",
+      "result": "art/gen3/32x9/trick_house/trick_house-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.28,
+      "horizon_after": 0.22914498141263945,
+      "crop_pixels": [
+        67,
+        38,
+        1980,
+        576
+      ]
+    },
+    {
+      "composition": "volcanic_crater-01-32x9-night",
+      "source": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night.png",
+      "result": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.3466666666666667,
+      "horizon_after": 0.22885245901639345,
+      "crop_pixels": [
+        156,
+        88,
+        1891,
+        576
+      ]
+    },
+    {
+      "composition": "volcanic_crater-01-32x9",
+      "source": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9.png",
+      "result": "art/gen3/32x9/volcanic_crater/volcanic_crater-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.3466666666666667,
+      "horizon_after": 0.22885245901639345,
+      "crop_pixels": [
+        156,
+        88,
+        1891,
+        576
+      ]
+    },
+    {
+      "composition": "volcanic_slope-01-32x9-night",
+      "source": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-night-floor-fix-v2.png",
+      "result": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-night-horizon-clearance-v3.png",
+      "horizon_before": 0.273781512605042,
+      "horizon_after": 0.22976827094474153,
+      "crop_pixels": [
+        60,
+        34,
+        2055,
+        595
+      ]
+    },
+    {
+      "composition": "volcanic_slope-01-32x9",
+      "source": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-floor-fix-v2.png",
+      "result": "art/gen3/32x9/volcanic_slope/volcanic_slope-01-32x9-horizon-clearance-v3.png",
+      "horizon_before": 0.28626890756302525,
+      "horizon_after": 0.22927404718693287,
+      "crop_pixels": [
+        78,
+        44,
+        2037,
+        595
+      ]
+    }
+  ],
+  "count": 53,
+  "originals_retained": true,
+  "resampling": false
+}

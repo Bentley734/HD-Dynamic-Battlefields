@@ -3,14 +3,14 @@
   "composition_id": "cave_of_origin-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2170,
-    "height": 610
+    "width": 1938,
+    "height": 545
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.3114754098360656,
-  "background": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9.png",
-  "sha256": "efcf3de330254f06613702441337ea7891c24569141a04157b52e5dbf3243151",
+  "horizon_y": 0.22935779816513763,
+  "background": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9-horizon-clearance-v3.png",
+  "sha256": "2048f97b37f690b4c85b4546a6c05d6d63bc0174f24289452a8855db6515536b",
   "mound_material_candidates": [
     "cave",
     "cave-pale-limestone"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.6600000000000001
+      0.3320433436532508,
+      0.6194495412844038
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3320433436532508,
+      0.5970642201834863
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008954128440366972
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6679566563467493,
+      0.38440366972477064
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6679566563467493,
+      0.36201834862385324
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008954128440366972
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/cave_of_origin-01-32x9-original.png",
-    "original_sha256": "adf4403852fa509ab79c3f147861a9589628be4fd0cbd24c395f34d0288ec234",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/cave_of_origin/cave_of_origin-01-32x9.png",
+    "original_sha256": "efcf3de330254f06613702441337ea7891c24569141a04157b52e5dbf3243151",
     "original_size": {
       "width": 2170,
-      "height": 725
+      "height": 610
     },
     "crop_pixels": [
-      0,
-      100,
-      2170,
-      710
+      116,
+      65,
+      2054,
+      610
     ],
-    "source_geometry": {
-      "horizon_y": 0.4,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.6764137931034483
-        ],
-        "mound_anchor": [
-          0.35,
-          0.6932413793103449
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.4997241379310345
-        ],
-        "mound_anchor": [
-          0.65,
-          0.516551724137931
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/cave_of_origin/cave_of_origin-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "native_loading_checks": 9,
+  "visual_reviews": 5,
+  "limitations": "Remaining captures were load/UI-trace checked only. Not every species, map or aspect. No upload.",
+  "captures": [
+    {
+      "visually_reviewed": true,
+      "path": "docs\\evidence\\rse\\loader\\native\\emerald-1200x800-shoal_cave-day-current.png",
+      "sha256": "7a23f36583540f6818a3c029d6a030db9c4c333e0b57645fc88f03ac3fa1e505"
+    },
+    {
+      "visually_reviewed": true,
+      "path": "docs\\evidence\\rse\\loader\\native\\emerald-1024x768-shoal_cave-day-current.png",
+      "sha256": "83f06e65e21149638b040e78ce4142ba6a1d411a8d92d4c39fb89ea9b95ac8a7"
+    },
+    {
+      "visually_reviewed": true,
+      "path": "docs\\evidence\\rse\\loader\\native\\emerald-1280x720-shoal_cave-day-current.png",
+      "sha256": "3c291f5679fffa5338bce1ade64f5c3638561da495b47487e40033de344e15f6"
+    },
+    {
+      "visually_reviewed": true,
+      "path": "docs\\evidence\\rse\\loader\\native\\emerald-1200x800-weather_institute-day-current.png",
+      "sha256": "a324f46f5a4241b99730796dbf904aa8bd566ac78d22ff71733bb6fb4fb9051a"
+    },
+    {
+      "visually_reviewed": true,
+      "path": "docs\\evidence\\rse\\loader\\native\\emerald-1200x800-hoenn_champion-day-current.png",
+      "sha256": "3e36b8542fdd5e22fa359c21680a3da0cb88347bc8a85ea89f661544414dbd1c"
+    }
+  ],
+  "scope": "Shoal Cave floor correction and focused clearance review"
+}

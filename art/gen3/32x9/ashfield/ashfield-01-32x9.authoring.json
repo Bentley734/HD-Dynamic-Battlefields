@@ -3,14 +3,14 @@
   "composition_id": "ashfield-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2176,
-    "height": 612
+    "width": 1810,
+    "height": 509
   },
   "aspect_ratio": "32:9",
   "time_of_day": "day",
-  "horizon_y": 0.35947712418300654,
-  "background": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
-  "sha256": "00ee41c89cc7465c697c2b2f4541b43aa22b4bfee48f7e74e2966b876ee5642f",
+  "horizon_y": 0.22986247544204322,
+  "background": "art/gen3/32x9/ashfield/ashfield-01-32x9-horizon-clearance-v3.png",
+  "sha256": "4537b039c5cb8e66796a8d2d846a608b505e9efbb5081c2015c861c7576dbcd9",
   "mound_material_candidates": [
     "gray-sand",
     "pale-gravel"
@@ -31,73 +31,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.31933823529411764,
-      0.7065359477124183
+      0.28280662983425414,
+      0.6471512770137525
     ],
     "pokemon_ground_anchor": [
-      0.31933823529411764,
-      0.6830065359477124
+      0.28280662983425414,
+      0.618860510805501
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.0096188605108055
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.6806617647058824,
-      0.4947712418300654
+      0.7171933701657458,
+      0.39253438113948924
     ],
     "pokemon_ground_anchor": [
-      0.6806617647058824,
-      0.4712418300653594
+      0.7171933701657458,
+      0.3642436149312377
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.0096188605108055
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/ashfield-01-32x9-original.png",
-    "original_sha256": "e6d238d2d5c2acadb0a23d0f96c2ffee41d3ec15a2727b76a68018ec379e4208",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/ashfield/ashfield-01-32x9.png",
+    "original_sha256": "00ee41c89cc7465c697c2b2f4541b43aa22b4bfee48f7e74e2966b876ee5642f",
     "original_size": {
-      "width": 2184,
-      "height": 720
+      "width": 2176,
+      "height": 612
     },
     "crop_pixels": [
-      4,
-      50,
-      2180,
-      662
+      183,
+      103,
+      1993,
+      612
     ],
-    "source_geometry": {
-      "horizon_y": 0.375,
-      "player": {
-        "mound_anchor": [
-          0.32,
-          0.67
-        ],
-        "pokemon_ground_anchor": [
-          0.32,
-          0.65
-        ]
-      },
-      "opponent": {
-        "mound_anchor": [
-          0.68,
-          0.49
-        ],
-        "pokemon_ground_anchor": [
-          0.68,
-          0.47
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/ashfield/ashfield-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

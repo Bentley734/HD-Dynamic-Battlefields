@@ -1,0 +1,146 @@
+{
+  "scope": "Native summit battle evidence; scenery authoring still pending",
+  "native_inventory_hashes": {
+    "ruby": "7d293bd15129bc84a5bd42fe07706cb18ebda2ad7b1290ca1f796f0962553be1",
+    "sapphire": "38557405a90bfd16e43afa9e4df44a60c82ee66268ae517e145dcede23c492fa",
+    "emerald": "d573f4c14b5b92dff9db1f7b22a57ad8bbb26c553ff87b0d6b185de0ac53472a"
+  },
+  "maps": [
+    {
+      "game": "ruby",
+      "id": "RU_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapGroup": 24,
+      "mapNum": 22,
+      "mapType": 3,
+      "battleType": 0,
+      "weather": 6,
+      "primaryTileset": "ts_08286cf4",
+      "secondaryTileset": "ts_08286f7c",
+      "wild_rates": {
+        "land": 10
+      },
+      "battle_event_evidence": [
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 18,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 25,
+          "y": 15,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 11,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    },
+    {
+      "game": "sapphire",
+      "id": "SA_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapGroup": 24,
+      "mapNum": 22,
+      "mapType": 3,
+      "battleType": 0,
+      "weather": 6,
+      "primaryTileset": "ts_08286c9c",
+      "secondaryTileset": "ts_08286f24",
+      "wild_rates": {
+        "land": 10
+      },
+      "battle_event_evidence": [
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 18,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 25,
+          "y": 15,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 11,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    },
+    {
+      "game": "emerald",
+      "id": "EM_MT_PYRE_SUMMIT",
+      "native_name": "MtPyre_Summit",
+      "mapGroup": 24,
+      "mapNum": 22,
+      "mapType": 3,
+      "battleType": 0,
+      "weather": 6,
+      "primaryTileset": "ts_083df704",
+      "secondaryTileset": "ts_083df9bc",
+      "wild_rates": {
+        "land": 10
+      },
+      "battle_event_evidence": [
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 15,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 25,
+          "y": 18,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 21,
+          "y": 11,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        },
+        {
+          "category": "objects",
+          "x": 25,
+          "y": 11,
+          "battle_operations": [
+            "trainerbattle"
+          ]
+        }
+      ],
+      "positive_battle_evidence": true
+    }
+  ],
+  "previous_family": "mt_pyre_exterior",
+  "candidate_family": "mt_pyre_summit"
+}

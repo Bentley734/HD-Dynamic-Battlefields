@@ -1,6 +1,7 @@
 local workspace=assert(os.getenv('HDB_WORKSPACE')):gsub('\\','/')
-local project=workspace..'/HD-Dynamic-Battlefields'
-local engine=workspace..'/.work/hd-battlefields-latest/v0.3.89/engine'
+local project=(os.getenv('HDB_PROJECT')or workspace..'/HD-Dynamic-Battlefields'):gsub('\\','/')
+local runtimeVersion=os.getenv('HDB_RUNTIME_VERSION')or'0.3.95'
+local engine=workspace..'/.work/hd-battlefields-latest/v'..runtimeVersion..'/engine'
 local version=os.getenv('HDB_GAME_VERSION')or'crystal'
 local output=project..'/docs/evidence/gen2'
 if os.getenv('HDB_MENU_CUSTOMIZER')=='1'then output=output..'/menu-customizer'end
@@ -9,7 +10,7 @@ local function write(name,b)local f=assert(io.open(output..'/'..name,'wb'));f:wr
 function love.load()
  local ok,err=xpcall(function()
   package.path=engine..'/?.lua;'..package.path
-  assert(require('src.core.Version').engine=='0.3.89')
+  assert(require('src.core.Version').engine==runtimeVersion)
   require('src.core.GameVersion').set(version)
   local cache=assert(os.getenv('APPDATA')):gsub('\\','/')..'/pokemon-love2d/'..version..'/'
   local fs,G=love.filesystem,love.graphics
@@ -170,7 +171,7 @@ function love.load()
   end
   os.remove(output..'/'..version..'-error.txt')
   local consumer=os.getenv('HDB_MENU_CUSTOMIZER')=='1'and' with Menu Customizer 3.35.15 via native Loader/Sandbox'or' standalone'
-  write(version..'-probe.txt','PASS v0.3.89 native Gen2 battle fixture'..consumer..', classic/wide/portrait rendering, identical classic native HUD/picture/panel call order and transforms disabled/enabled. No saves written. Fixture evidence only; gameplay traversal and custom-profile coverage remain pending.\n')
+  write(version..'-probe.txt','PASS v'..runtimeVersion..' native Gen2 battle fixture'..consumer..', classic/wide/portrait rendering, identical classic native HUD/picture/panel call order and transforms disabled/enabled. No saves written. Fixture evidence only; gameplay traversal and custom-profile coverage remain pending.\n')
  end,debug.traceback)
  love.graphics.setCanvas()
  if not ok then write(version..'-error.txt',err)end

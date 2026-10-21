@@ -5,7 +5,7 @@ local originalRequire=require
 require=function(name)
  if name=='src.link.Json'then return Json end
  if name=='src.mods.Semver'then return{satisfies=function()return true end}end
- if name=='src.core.Version'then return{engine='0.3.89'}end
+ if name=='src.core.Version'then return assert(loadfile(engine..'/src/core/Version.lua'))()end
  return originalRequire(name)
 end
 local backend=assert(loadfile(root..'/lib/runtime_backend.lua'))()({},P)
@@ -23,8 +23,18 @@ for _,entry in ipairs(catalog.compositions)do
  end
  if entry.environment=='ashfield'and entry.aspect_ratio=='32:9'then ashNight=entry end
 end
-assert(#catalog.compositions==144 and #environments==16 and #aspects==9)
-assert(not envSeen.rustboro_gym,'Unfinished Hoenn art must not silently reuse a different environment')
+assert(#catalog.compositions==675 and #environments==75 and #aspects==9)
+assert(envSeen.rustboro_gym and envSeen.new_mauville and envSeen.hoenn_champion)
+for environment in pairs(envSeen)do
+ local coverage={}
+ for _,entry in ipairs(catalog.compositions)do
+  if entry.environment==environment then
+   assert(not coverage[entry.aspect_ratio],'Duplicate base composition for '..environment)
+   coverage[entry.aspect_ratio]=true
+  end
+ end
+ for _,aspect in ipairs(aspects)do assert(coverage[aspect],'Missing '..aspect..' for '..environment)end
+end
 assert(ashNight.backgrounds.night:find('night%-v2%.png$'))
 local day=P.resolve(catalog.metadata,ashNight.metadata)
 local night=P.resolve(catalog.metadata,ashNight.night_metadata)
@@ -35,4 +45,4 @@ local function read(path)
  local f=assert(io.open(root..'/'..path,'rb'));local b=f:read(33);f:close();return b
 end
 assert(backend.validate({files=files,environments=environments,aspects=aspects,quality='HD'},read))
-print('PASS Hoenn candidate catalog: 144 compositions, 16 families, nine aspects, PNG/geometry validation, distinct corrected night and absent unfinished families')
+print('PASS Hoenn candidate catalog: 675 compositions, 75 families each covering nine aspects, PNG/geometry validation and distinct corrected night geometry')

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "composition_id": "faraway_island-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 1884,
+    "height": 530
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.22867924528301894,
+  "background": "art/gen3/32x9/faraway_island/faraway_island-01-32x9-horizon-clearance-v3.png",
+  "sha256": "9b2799d9b4c1596f8e6e88cb96293a1bf651e18394767e2fbbf2604196463b9f",
+  "mound_material_candidates": [
+    "forest",
+    "grass"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.33694267515923565,
+      0.630490566037736
+    ],
+    "pokemon_ground_anchor": [
+      0.33694267515923565,
+      0.608754716981132
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0.0,
+      0.00869433962264151
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.6630573248407644,
+      0.4022641509433962
+    ],
+    "pokemon_ground_anchor": [
+      0.6630573248407644,
+      0.3805283018867924
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0.0,
+      0.00869433962264151
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/faraway_island/faraway_island-01-32x9.png",
+    "original_sha256": "f25c4ee6ba2a99ed454b7a590e155de9c1a88000c45e418c0b6dadd86c40c807",
+    "original_size": {
+      "width": 2048,
+      "height": 576
+    },
+    "crop_pixels": [
+      82,
+      46,
+      1966,
+      576
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/faraway_island/faraway_island-01-32x9-before-horizon-clearance-v3.authoring.json"
+  }
+}

@@ -3,14 +3,14 @@
   "composition_id": "mauville_gym-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2115,
-    "height": 595
+    "width": 1948,
+    "height": 548
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.29011764705882354,
-  "background": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
-  "sha256": "1bfb460e95928771cac2a9abd4f7ed2a7de155ea5a8ffc40220c841d90372d60",
+  "horizon_y": 0.22923357664233576,
+  "background": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9-horizon-clearance-v3.png",
+  "sha256": "d03ceaeb5458b1beb1c38512093fe6f3957700e9a74f172dc67d84f7e0a897bb",
   "mound_material_candidates": [
     "floor-gray",
     "floor-beige"
@@ -32,74 +32,53 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.67
+      0.33739733059548255,
+      0.6416970802919708
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.65
+      0.33739733059548255,
+      0.6199817518248175
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008686131386861314
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6631160164271047,
+      0.4028284671532847
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.6631160164271047,
+      0.38111313868613145
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.008686131386861314
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen1/32x9/gym_electric/gym_electric-01-32x9.png",
-    "original_sha256": "a360b1555c431188c95ba8a9152b847f70b3a4d003e412142f3c5fd7c5e62b41",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/mauville_gym/mauville_gym-01-32x9.png",
+    "original_sha256": "1bfb460e95928771cac2a9abd4f7ed2a7de155ea5a8ffc40220c841d90372d60",
     "original_size": {
       "width": 2115,
-      "height": 743
+      "height": 595
     },
     "crop_pixels": [
-      0,
-      80,
-      2115,
-      675
+      83,
+      47,
+      2031,
+      595
     ],
-    "source_geometry": {
-      "horizon_y": 0.34,
-      "player": {
-        "pokemon_ground_anchor": [
-          0.35,
-          0.6281965006729475
-        ],
-        "mound_anchor": [
-          0.35,
-          0.6442126514131898
-        ]
-      },
-      "opponent": {
-        "pokemon_ground_anchor": [
-          0.65,
-          0.4520188425302827
-        ],
-        "mound_anchor": [
-          0.65,
-          0.4680349932705249
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/mauville_gym/mauville_gym-01-32x9-before-horizon-clearance-v3.authoring.json"
   },
   "source_reuse": {
     "original": "art/gen1/32x9/gym_electric/gym_electric-01-32x9.png",

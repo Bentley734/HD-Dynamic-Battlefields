@@ -3,14 +3,14 @@
   "composition_id": "hoenn_battle_tower-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2208,
-    "height": 621
+    "width": 1948,
+    "height": 548
   },
   "aspect_ratio": "32:9",
   "time_of_day": "indoor",
-  "horizon_y": 0.32,
-  "background": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
-  "sha256": "c94c5c6ed1c6a038f95c1d4595353af8be80169b9e6fcd1ec8889c18aa89a033",
+  "horizon_y": 0.22941605839416057,
+  "background": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9-horizon-clearance-v3.png",
+  "sha256": "2b035bfb81b080a8894302dc244ec791ed7cbd1fa2231e378616ab69ae50924c",
   "mound_material_candidates": [
     "floor-gray",
     "floor-gray-night-cool"
@@ -31,33 +31,33 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3299794661190965,
+      0.6147080291970803
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3299794661190965,
+      0.592043795620438
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009065693430656933
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.45
+      0.6700205338809035,
+      0.37673357664233575
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43
+      0.6700205338809035,
+      0.3540693430656934
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.009065693430656933
     ],
     "layer": 10
   },
@@ -71,5 +71,23 @@
     "reason": "Visually reviewed original Gen2 Battle Tower: pale blue-gray walls, sliding doors, high windows and a seamless clear training floor suit a shared Hoenn Battle Tower room. Native layout and mound pairing remain uncalibrated.",
     "operation": "byte_identical_copy",
     "original_authoring_metadata": "art/gen2/32x9/battle_tower/battle_tower-01-32x9.authoring.json"
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9.png",
+    "original_sha256": "c94c5c6ed1c6a038f95c1d4595353af8be80169b9e6fcd1ec8889c18aa89a033",
+    "original_size": {
+      "width": 2208,
+      "height": 621
+    },
+    "crop_pixels": [
+      130,
+      73,
+      2078,
+      621
+    ],
+    "previous_authoring": "art/gen3/drafts/32x9/hoenn_battle_tower/hoenn_battle_tower-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

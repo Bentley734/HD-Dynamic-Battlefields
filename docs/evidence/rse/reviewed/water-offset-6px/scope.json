@@ -1,0 +1,9 @@
+{
+  "offset_native_pixels": 6,
+  "change_native_pixels": 3,
+  "size_scale_unchanged": 1.6,
+  "sprite_and_ui_positions_unchanged": true,
+  "native_scene_checks": 7,
+  "visual_review": "Viewed updated ocean doubles capture.",
+  "limitations": "Emerald 16:9 focused scenes; earlier extracted base archive predates this additional offset and must be rebuilt before release."
+}

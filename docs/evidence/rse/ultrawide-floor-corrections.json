@@ -1,0 +1,27 @@
+{
+  "limitations": "Native single opponent fixture only; no exhaustive species or doubled battle claim.",
+  "replacement": "hoenn_champion-01-32x9-floor-fix-v2",
+  "scope": "Focused 32:9 rear-wall clearance",
+  "captures": [
+    {
+      "sha256": "6c90c6d1c784d88c79b5332f86345c4de1e0c8368a2c4a54b3d42c982045e793",
+      "visually_reviewed": true,
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-fortree_gym-day-current.png"
+    },
+    {
+      "sha256": "dc54727773d80892d83812ffbc5548d8d050fd9ff136e03bac54bad4ce0382b6",
+      "visually_reviewed": true,
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-dewford_gym-day-current.png"
+    },
+    {
+      "sha256": "33731391376ca0432d4aeb2bf9c78bb7300eaa6d7604748922aef4d86d410eb4",
+      "visually_reviewed": true,
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-hoenn_champion-day-current.png"
+    },
+    {
+      "sha256": "0e1f7ba730a9cdfd3bcada55328ce3d23a3ef6c8d782233bab32acc7719714ae",
+      "visually_reviewed": true,
+      "path": "docs/evidence/rse/loader/native/emerald-5120x1440-weather_institute-day-current.png"
+    }
+  ]
+}

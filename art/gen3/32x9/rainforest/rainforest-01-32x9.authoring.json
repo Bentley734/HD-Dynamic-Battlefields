@@ -3,14 +3,14 @@
   "composition_id": "rainforest-01-32x9",
   "status": "source_candidate_not_runtime_calibrated",
   "reference_size": {
-    "width": 2172,
-    "height": 611
+    "width": 1849,
+    "height": 520
   },
   "aspect_ratio": "32:9",
   "time_of_day": "day",
-  "horizon_y": 0.343633387888707,
-  "background": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
-  "sha256": "0bcae497e77da8d8d8754107c9f8aba9ebda5daa6b4ad5fd0949f5679992c0b7",
+  "horizon_y": 0.22876923076923072,
+  "background": "art/gen3/32x9/rainforest/rainforest-01-32x9-horizon-clearance-v3.png",
+  "sha256": "9d62b1f8a68564e65ba36530481909a169c80281a269143e75325aee356a10c5",
   "mound_material_candidates": [
     "forest"
   ],
@@ -30,73 +30,52 @@
   },
   "player": {
     "mound_anchor": [
-      0.35,
-      0.66
+      0.3240670632774472,
+      0.6005
     ],
     "pokemon_ground_anchor": [
-      0.35,
-      0.64
+      0.3240670632774472,
+      0.5770000000000001
     ],
     "mound_scale": 1,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.0094
     ],
     "layer": 20
   },
   "opponent": {
     "mound_anchor": [
-      0.65,
-      0.44999999999999996
+      0.676473769605192,
+      0.35374999999999995
     ],
     "pokemon_ground_anchor": [
-      0.65,
-      0.43000000000000005
+      0.676473769605192,
+      0.33025000000000004
     ],
     "mound_scale": 0.75,
     "shadow_offset": [
-      0,
-      0.008
+      0.0,
+      0.0094
     ],
     "layer": 10
   },
   "source_processing": {
     "operation": "crop_only_no_resampling",
-    "authorization": "User explicitly approved trimming excess canvas without stretching.",
-    "original": "art/gen3/drafts/32x9/rainforest-01-32x9-original.png",
-    "original_sha256": "f286790e337a763ad6b590ac7eccbf4cf3d08557171b9e67a2af8f42ad7e9198",
+    "reason": "Raise ultrawide floor boundary for native doubles mound clearance",
+    "authorization": "User approved excess-canvas trimming and requested higher horizons where needed.",
+    "original": "art/gen3/32x9/rainforest/rainforest-01-32x9.png",
+    "original_sha256": "0bcae497e77da8d8d8754107c9f8aba9ebda5daa6b4ad5fd0949f5679992c0b7",
     "original_size": {
       "width": 2172,
-      "height": 724
+      "height": 611
     },
     "crop_pixels": [
-      0,
-      0,
-      2172,
+      161,
+      91,
+      2010,
       611
     ],
-    "source_geometry": {
-      "horizon_y": 0.29,
-      "player": {
-        "mound_anchor": [
-          0.35,
-          0.5569889502762431
-        ],
-        "pokemon_ground_anchor": [
-          0.35,
-          0.5401104972375691
-        ]
-      },
-      "opponent": {
-        "mound_anchor": [
-          0.65,
-          0.37976519337016573
-        ],
-        "pokemon_ground_anchor": [
-          0.65,
-          0.3628867403314917
-        ]
-      }
-    }
+    "previous_authoring": "art/gen3/drafts/32x9/rainforest/rainforest-01-32x9-before-horizon-clearance-v3.authoring.json"
   }
 }

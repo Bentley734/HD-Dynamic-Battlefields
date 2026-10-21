@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "composition_id": "faraway_island-01-32x9",
+  "status": "source_candidate_not_runtime_calibrated",
+  "reference_size": {
+    "width": 2048,
+    "height": 576
+  },
+  "aspect_ratio": "32:9",
+  "time_of_day": "day",
+  "horizon_y": 0.29027777777777786,
+  "background": "art/gen3/32x9/faraway_island/faraway_island-01-32x9.png",
+  "sha256": "f25c4ee6ba2a99ed454b7a590e155de9c1a88000c45e418c0b6dadd86c40c807",
+  "mound_material_candidates": [
+    "forest",
+    "grass"
+  ],
+  "limitations": [
+    "Visual authoring review only; not registered in runtime catalog.",
+    "Mound fit, safe regions, depths and anchors are draft values pending gameplay calibration."
+  ],
+  "depth": {
+    "player": 1,
+    "opponent": 0.75
+  },
+  "safe_area": {
+    "left": 0.04,
+    "top": 0.06,
+    "right": 0.96,
+    "bottom": 0.76
+  },
+  "player": {
+    "mound_anchor": [
+      0.35,
+      0.6600000000000001
+    ],
+    "pokemon_ground_anchor": [
+      0.35,
+      0.64
+    ],
+    "mound_scale": 1,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 20
+  },
+  "opponent": {
+    "mound_anchor": [
+      0.65,
+      0.44999999999999996
+    ],
+    "pokemon_ground_anchor": [
+      0.65,
+      0.42999999999999994
+    ],
+    "mound_scale": 0.75,
+    "shadow_offset": [
+      0,
+      0.008
+    ],
+    "layer": 10
+  },
+  "source_processing": {
+    "operation": "crop_only_no_resampling",
+    "authorization": "User explicitly approved trimming excess canvas without stretching.",
+    "original": "art/gen3/drafts/32x9/faraway_island-01-32x9-original.png",
+    "original_sha256": "9fbc8aa61303c9fcb46237127d7dd75a71326fc2d09fe1a6bd10e85ff6cc1c80",
+    "original_size": {
+      "width": 2048,
+      "height": 768
+    },
+    "crop_pixels": [
+      0,
+      140,
+      2048,
+      716
+    ],
+    "source_geometry": {
+      "horizon_y": 0.4,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.6622916666666666
+        ],
+        "mound_anchor": [
+          0.35,
+          0.6772916666666667
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.5047916666666666
+        ],
+        "mound_anchor": [
+          0.65,
+          0.5197916666666667
+        ]
+      }
+    }
+  }
+}

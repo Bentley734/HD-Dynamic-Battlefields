@@ -1,0 +1,43 @@
+[
+  {
+    "source": "art/gen3/drafts/32x9/navel_rock_depths-01-32x9-original.png",
+    "prompt_source": "art/gen3/drafts/32x9/prompts/navel_rock_depths-01-32x9-original.txt",
+    "family": "navel_rock_depths",
+    "aspect": "32x9",
+    "generation": 3,
+    "time_of_day": "indoor",
+    "mounds": [
+      "cave-pale-limestone",
+      "pale-gravel"
+    ],
+    "crop_pixels": [
+      0,
+      0,
+      2231,
+      627
+    ],
+    "source_geometry": {
+      "horizon_y": 0.25,
+      "player": {
+        "pokemon_ground_anchor": [
+          0.35,
+          0.5691914893617022
+        ],
+        "mound_anchor": [
+          0.35,
+          0.5869787234042553
+        ]
+      },
+      "opponent": {
+        "pokemon_ground_anchor": [
+          0.65,
+          0.38242553191489365
+        ],
+        "mound_anchor": [
+          0.65,
+          0.40021276595744687
+        ]
+      }
+    }
+  }
+]

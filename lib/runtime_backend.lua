@@ -3,7 +3,7 @@ return function(mod, perspective)
  local Json = require('src.link.Json')
  local Semver = require('src.mods.Semver')
  local Version = require('src.core.Version')
- local b = {encode=Json.encode,decode=Json.decode}
+ local b = {encode=Json.encode,decode=Json.decode,compareVersions=Semver.compare}
  function b.hash(bytes) return love.data.encode('string','hex',love.data.hash('sha256',bytes)) end
  function b.read(path) return mod.cache:read(path) end
  function b.write(path,bytes) return mod.cache:write(path,bytes) end
