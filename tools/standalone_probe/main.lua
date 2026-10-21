@@ -79,6 +79,12 @@ function love.load()
  assert(loader.mods['hd-dynamic-battlefields'].state=='loaded',table.concat(loader.errors,'\n'))
  game.mods=loader;game.save.version=gameVersion;game.save.meta={playthroughId='hd-probe'};game.save.player.map='ROUTE_1'
  assert(game.data.maps.ROUTE_1,'Automatic map ID is not in the actual imported map table')
+ local staleMapProbe=os.getenv('HDB_STALE_SAVED_MAP')=='1'
+ local previousOverworld=game.overworld
+ if staleMapProbe then
+  game.overworld={map={id='ROUTE_1'}}
+  game.save.player.map='CELADON_MART_1F'
+ end
  battle.enemy.fainted=false;battle.player.fainted=false
 
  local mapInfo={}
@@ -202,6 +208,11 @@ function love.load()
  renderLogical(900,1600,'standalone-native-logical-900x1600.png',os.getenv('HDB_BASE_ONLY')~='1')
  if os.getenv('HDB_BASE_ONLY')=='1'then renderLogical(1920,1080,'base-offline-fallback-return.png')end
  assert(provider.enabled());assert(loader.exports['hd-dynamic-battlefields'].diagnostics().status=='active')
+ if staleMapProbe then
+  local d=exports.diagnostics();assert(d.map=='ROUTE_1'and d.environment=='grassland','Stale shop save replaced the live Route 1 grassland')
+  write('route1-live-map-regression.json',Json.encode({game=gameVersion,live_map=d.map,saved_map=game.save.player.map,environment=d.environment,status='PASS'}))
+  game.overworld=previousOverworld;game.save.player.map='ROUTE_1'
+ end
  if os.getenv('HDB_WIDE')=='1'then
   assert(loadfile(project..'/tools/standalone_probe/wide.lua'))()({G=G,game=game,battle=battle,exports=exports,
    options=options.modOptions['hd-dynamic-battlefields'],Json=Json,write=write,gameVersion=gameVersion,runtime=runtimeVersion})

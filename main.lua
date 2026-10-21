@@ -21,7 +21,8 @@ return function(mod)
  local environments=rse and module('lib/environments_rse.lua')(module('metadata/maps/rse.lua'))or gen2 and module('lib/environments_gen2.lua').new(module('metadata/maps/gen2.lua'))or frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
  local Json=require('src.link.Json')
  local Battle=not game3 and require(gen2 and'src.ui.gen2.BattleState'or'src.battle.BattleState')or nil
- local isFishing=not game3 and not gen2 and module('lib/adapters/gen1_context.lua').install(Battle)or function()return false end
+ local gen1Context=not game3 and not gen2 and module('lib/adapters/gen1_context.lua')or nil
+ local isFishing=gen1Context and gen1Context.install(Battle)or function()return false end
  local speciesCatalog=module('lib/species_catalog.lua').new(mod)
  mod.exports.getSpeciesChoices=function()return speciesCatalog:refresh(mod.game)end
  mod.exports.speciesIdentity=function(ref)return speciesCatalog:identity(ref)end
@@ -209,7 +210,7 @@ return function(mod)
   if battle.kind=='link'or context and context.link then return fallback('Link presentation is not yet validated')end
   local v={x=x or 0,y=y or 0,width=width,height=height}
   if not width or not height or width<=0 or height<=0 then return fallback('Missing battle viewport')end
-  local map=context and context.map or game.save and game.save.player and game.save.player.map
+  local map=context and context.map or gen1Context and gen1Context.map(Battle,battle,game)or game.save and game.save.player and game.save.player.map
   local manual=mod.options:get('environment')
   local mover=game.overworld and game.overworld.player
   local mapData=game.data and game.data.maps and game.data.maps[map]
