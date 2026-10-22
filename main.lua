@@ -210,7 +210,11 @@ return function(mod)
   local game=mod.game;local context,contextError
   if game3 then context,contextError=game3Context();if not context then return fallback(contextError)end end
   if gen2 then context,contextError=gen2Context();if not context or context.tutorial then return fallback(contextError or'Native tutorial presentation')end end
-  local battle=context and context.battle or game and game.stack and game.stack:top()
+  local battle=context and context.battle
+  if not battle then
+   if gen1Context then battle=gen1Context.battle(Battle,game)
+   else battle=game and game.stack and game.stack:top()end
+  end
   if not battle or(not game3 and not gen2 and getmetatable(battle)~=Battle)then return fallback('Native overlay or non-battle state')end
   if battle.kind=='link'or context and context.link then return fallback('Link presentation is not yet validated')end
   local v={x=x or 0,y=y or 0,width=width,height=height}

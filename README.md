@@ -8,11 +8,17 @@ Original illustrated battle scenery and independent mounds for Red/Blue/Yellow, 
 
 The current release supports Kanto, Johto and Hoenn on official gen1recomp **0.3.95**. Battle UI remains owned by the game and your UI mods. Only full-resolution HD artwork is offered; compact downloads select one variation per area without lowering resolution.
 
+**0.3.0-beta.7** keeps the active Gen 1 battlefield visible while the native
+level-up stats box is open. The stats box overlays the same battle and artwork
+instead of causing a non-battle fallback. Update Menu Customizer as well to keep
+its HP/status UI visible beneath that box. Existing artwork downloads remain
+compatible; no artwork redownload is needed.
+
 **0.3.0-beta.6** adds automatic mound registration for all six native sprite choices in **1025Dex 1.5.2**, covering 1,389 registered species/forms. Pack padding, player front/mirror views and individual doubles contacts are calibrated in HD Battlefields. Pokémon positions and 1025Dex files are unchanged. Existing artwork downloads remain compatible. See [calibration and exact validation scope](docs/DEX-FOOTING.md).
 
 ## Install and enable
 
-1. Close the game. Download `HD-Dynamic-Battlefields-0.3.0-beta.6-base.zip` from the latest release.
+1. Close the game. Download `HD-Dynamic-Battlefields-0.3.0-beta.7-base.zip` from the latest release.
 2. Extract `hd-dynamic-battlefields` into `%APPDATA%\pokemon-love2d\mods`. The folder must directly contain `manifest.json` and `main.lua`. When upgrading, replace the previous mod folder; keep your saves and mod cache.
 3. Enable the mod in Mod Manager and apply/restart as prompted.
 4. Open **Options → HD Battlefields → Asset Manager**. Select **Screen Size** and **Variations** (one per area saves space; all adds variety). Open **Download Selected Size**, select a pack, then **Download / Restore**. **Download All Sizes** uses the chosen variation profile. Check download status and pack health.
