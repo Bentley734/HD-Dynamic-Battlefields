@@ -44,6 +44,7 @@ function M.new(mod,loadModule)
   if not peer then return nil,'1025Dex is not enabled'end
   -- Future releases can change private bake math. Do not reuse an old gap
   -- matrix merely because the public sprite-style export still exists.
+  if callable(peer,'pictureBake')and peer.exports.pictureBakeVersion==1 then return peer end
   if peer.version~='1.5.2'then return nil,'1025Dex version has not been calibrated'end
   return peer
  end
@@ -165,6 +166,12 @@ function M.new(mod,loadModule)
  end
  function self:bake(species,back,mon,generation,extra)
   local peer,why=validated();if not peer then return nil,why end
+  if callable(peer,'pictureBake')and peer.exports.pictureBakeVersion==1 then
+   if not extra or extra.ready==false or not extra.image then return nil,'Sprite sheet is pending'end
+   local ok,bake=pcall(peer.exports.pictureBake,extra.image)
+   if ok and type(bake)=='table'then return bake end
+   return nil,'Picture has no live bake geometry'
+  end
   local cat;cat,why=sources();if not cat then return nil,why end
   generation=tonumber(generation)
   if generation~=1 and generation~=2 and generation~=3 then return nil,'Unsupported sprite generation'end

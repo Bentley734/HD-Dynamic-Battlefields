@@ -147,3 +147,14 @@ checks=checks+1;assert(not missing:bake('TEST',false,{},3),'Missing metadata saf
 checks=checks+1;assert(not helper:bake('UNKNOWN',false,{},3),'Unregistered sources safely retain existing mound')
 checks=checks+1;assert(not helper:bake('TEST',false,{},3,{ready=false}),'Pending replacement keeps existing mound')
 print(('PASS %d 1025Dex mound-profile assertions: exact native canvases/options, gender/palette seams, style/source fallbacks, first-frame geometry, read-only observed KIM returns and version guards'):format(checks))
+
+local liveMod,livePeers,liveLoad,liveLoads=fixture({},'1.5.3')
+local image={};local bake={box={w=64,h=64},ox=10,oy=5,dw=40,dh=50,footX=31,footY=53,anchor=1,floatLift=0}
+livePeers['1025dex'].exports={pictureBakeVersion=1,pictureBake=function(img)if img==image then return bake end end}
+local live=D.new(liveMod,liveLoad)
+eq(live:bake('TEST',true,{},3,{image=image,ready=true}),bake,'Actual picture bake used without private calibration')
+eq(liveLoads(),0,'Live picture API does not load stale source catalogs')
+eq(assert(C.localContact(bake)).y,53,'Authored reference foot used instead of union bottom')
+checks=checks+1;assert(not live:bake('TEST',false,{},3,{image=image,ready=false}),'Pending picture remains uncalibrated')
+checks=checks+1;assert(not live:bake('TEST',false,{},3,{image={}}),'Untagged substitute/native picture remains uncalibrated')
+print('PASS live 1025Dex 1.5.3 picture-contact API and source-foot alignment')

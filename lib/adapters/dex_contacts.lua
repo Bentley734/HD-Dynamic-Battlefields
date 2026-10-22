@@ -35,7 +35,7 @@ return function(mod,identity,lookup,Contact,generation)
      if Ui.picArgs then picSpecies,shiny=Ui.picArgs(b,species)end
      local picture=Ui.battlerPic and Ui.battlerPic(key,b,species)
      local ready=picture and picture.__completeDexBattleLift~=nil
-     local bake,why=lookup:bake(picSpecies,back,mon,3,{shiny=shiny,cloud=false,ready=not not ready})
+     local bake,why=lookup:bake(picSpecies,back,mon,3,{shiny=shiny,cloud=false,ready=not not ready,image=picture and picture.image})
      local base=battle.double and Anim.coords(battle,id)or Coords.battlerCoords(false,id)
      if bake and base then
       local target=Contact.resolve(bake,{x=base.x,y=back and math.min(base.y,80)or base.y,ox=32,oy=32})
@@ -51,13 +51,13 @@ return function(mod,identity,lookup,Contact,generation)
     -- Gen 2's sides are mons; some native versions expose them as battlers.
     if generation==2 and mon and mon.mon then mon=mon.mon end
     if mon then
-     local ready
-     if generation==1 then ready=b.__g9bsFrame~=nil and b.sprite==b.__g9bsFrame
+     local ready,nativeImage
+     if generation==1 then nativeImage=b.sprite;ready=b.__g9bsFrame~=nil and b.sprite==b.__g9bsFrame
      elseif screen and screen.pic then
       local image,trueColor,path=screen:pic(mon,back)
-      ready=image~=nil and trueColor==true and path==nil
+      nativeImage=image;ready=image~=nil and trueColor==true and path==nil
      end
-     local bake,why=lookup:bake(identity(mon.species),back,mon,generation,{cloud=cloud(mon,generation==2 and mon or b),ready=not not ready})
+     local bake,why=lookup:bake(identity(mon.species),back,mon,generation,{cloud=cloud(mon,generation==2 and mon or b),ready=not not ready,image=nativeImage})
      if bake then
       local x,y
       if generation==1 then

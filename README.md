@@ -49,3 +49,12 @@ Please report game version, other mods, map/encounter, window size, day/night se
 Git tracks code, metadata, tools, prompts, artwork checksums and written evidence. Current artwork downloads use commit-pinned repository source files. Historical artwork release packs remain available for older installations. The lightweight base contains an original grassland fallback. No ROM, executable, saves or KIM artwork/code is included.
 
 See [Beta 2 validation and limits](docs/BETA-2.md), [earlier Beta 1 evidence](docs/BETA-1.md), [full specification](docs/DEVELOPMENT-SPECIFICATION.md) and [scope ledger](docs/REQUIREMENTS.md). Older development notes describe intermediate states.
+
+### 1025Dex 1.5.3 / G9 GEN3 support (beta.8)
+
+Supports the new G9 GEN3 artwork selection using 1025Dex's versioned live
+`pictureBake` API. Mound contacts come from the exact image currently displayed,
+including its authored reference foot, body center, mirror and slot geometry.
+Each double-battle ally remains independent; native Pokemon draw calls are not
+modified. The previous audited path for 1025Dex 1.5.2 remains available. Unknown
+versions without the API still keep their existing scenery calibration.
