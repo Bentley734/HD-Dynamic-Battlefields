@@ -1,0 +1,86 @@
+{
+  "runtime": "0.3.95",
+  "1025Dex": "1.5.2",
+  "change_owner": "HD Dynamic Battlefields only",
+  "sprite_positions_changed": false,
+  "original_artwork_changed": false,
+  "registered_species_and_forms": 1389,
+  "base_species": 1025,
+  "registered_forms": 364,
+  "source_sheets": 23253,
+  "source_frames": 528594,
+  "production_layout_checks": 7863984,
+  "complete_production_pixel_bakes": 31608,
+  "source_selections": {
+    "sourceVersion": "1.5.2",
+    "checked": 66672,
+    "counts": {
+      "dbk": 18664,
+      "static": 10802,
+      "bw": 5196,
+      "ee": 28890,
+      "kim": 3120
+    },
+    "failures": [],
+    "missingObservedRequestMappings": [],
+    "scope": "Every production LuaJIT source census plan, including gender/palette/fallback/first-frame selection. Replay the exact raw KIM public species/dex/side/palette requests captured by the production source selector and validate returned record geometry against the independent physical-source catalog. Native renders are separate evidence.",
+    "elapsedSeconds": 0.223
+  },
+  "runtime_geometry_coverage": {
+    "plans": 66672,
+    "registeredSpecies": 1389,
+    "missingGeometry": [],
+    "plansByPack": {
+      "dbk": 18664,
+      "static": 10802,
+      "bw": 5196,
+      "ee": 28890,
+      "kim": 3120
+    },
+    "floaterPlans": 12480,
+    "compactKnownSources": 69796,
+    "compactZeroGapSources": 54621,
+    "compactNonzeroPackSources": 15175,
+    "compactUniqueGapProfiles": 1020,
+    "maximumPackGapPixels": 29,
+    "profileKeys": [
+      "g1front:1:1:0:0",
+      "g1front:1:1:0:1",
+      "g1front:2:1:0:0",
+      "g1front:2:1:0:1",
+      "g1front:3:1:0:0",
+      "g1front:3:1:0:1",
+      "g1back:1:1:0:0",
+      "g1back:1:1:0:1",
+      "g1back:2:1:0:0",
+      "g1back:2:1:0:1",
+      "g1back:3:1:0:0",
+      "g1back:3:1:0:1",
+      "g2back:1:1:0:0",
+      "g2back:1:1:0:1",
+      "g2back:2:1:0:0",
+      "g2back:2:1:0:1",
+      "g2back:3:1:0:0",
+      "g2back:3:1:0:1"
+    ],
+    "physicalSources": 21848,
+    "sourceUnionProfiles": 27680,
+    "genotype": "Production resolution under LuaJIT2.1, matching L\u00d6VE desktop. Pure-art source geometry shared by allthree player views.",
+    "excludes": "Icons, bakedcomposite shadow/cloud/tera. Cloud-on size reservation is audited without treating cloud pixels as body feet."
+  },
+  "reviewed_contact_risk_tiles": 1000,
+  "reviewed_flagged_floaters": 300,
+  "native_gb_cases": {
+    "red": 216,
+    "crystal": 216
+  },
+  "scope": "Exhaustive source/layout checks; targeted native GPU and visual checks. Not a manual in-game inspection of every species/frame or physical Android test.",
+  "metadata_sha256": {
+    "dex_kim_sources.lua": "03d5518af4392fbc5bfa5148e45f809590d51dc4e8608e97c9079857e2decd76",
+    "dex_pack_gaps.lua": "afebb6f6828dc6a415d9eda8e45c59954ec9cf1e64d3d2225f7d2151658e430a",
+    "dex_source_catalog.lua": "f85ac05ede03bb2ec6cbb6be0a3a0be8900e14436fa68fec6aecdd696a39ac12"
+  },
+  "original_source_sha256": "980bc84eeb1b1b4d2d0cb39cb30b2b675f027ea72a6bd91d02e6c03fb3475ed5",
+  "native_gen3_cases": 100,
+  "native_gen3_sprite_draws": 222
+}

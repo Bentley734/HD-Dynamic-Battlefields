@@ -66,8 +66,13 @@ function M.install(mod,G,provider)
    if not result[1]then error(result[2],0)end
    local args={...};local stats=library.stats()
    for _,side in ipairs({'opponent','player'})do
-    local image,x,y,scale,origin=provider.nativeMound(side)
-    if image then
+    local pads=provider.nativeMounds and provider.nativeMounds(side)
+    if not pads then
+     local image,x,y,scale,origin=provider.nativeMound(side)
+     pads=image and{{image=image,x=x,y=y,scale=scale,origin=origin}}or{}
+    end
+    for _,pad in ipairs(pads)do
+     local image,x,y,scale,origin=pad.image,pad.x,pad.y,pad.scale,pad.origin
      local nativeSide=side=='player'and'player'or'enemy'
      library.tag(image,{side=nativeSide,trainer=true,filter='linear',lowPivot={0,0},pivot={0,0}})
      x=x+(tonumber(args[side=='player'and 3 or 2])or 0)

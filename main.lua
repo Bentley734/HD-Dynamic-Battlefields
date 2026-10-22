@@ -16,6 +16,8 @@ return function(mod)
  local frlg=Version.get()=='firered'or Version.get()=='leafgreen'
  local game3=frlg or rse
  local moundMaterials=rse and module('metadata/mound_materials.lua')or nil
+ local speciesMounds=rse and module('metadata/rse_species_mounds.lua')or{}
+ local activeMoundCorrections
  local nativeProfile=rse and module('metadata/native_rse.lua')[Version.get()]or module(frlg and'metadata/native_frlg.lua'or gen2 and'metadata/native_gen2.lua'or'metadata/native_gen1.lua')
  local wideProfile=not game3 and module(gen2 and'metadata/native_gen2_wide.lua'or'metadata/native_gen1_wide.lua')or nil
  local environments=rse and module('lib/environments_rse.lua')(module('metadata/maps/rse.lua'))or gen2 and module('lib/environments_gen2.lua').new(module('metadata/maps/gen2.lua'))or frlg and module('lib/environments_frlg.lua')(module('metadata/maps/frlg.lua'))or module('lib/environments.lua').new(module('metadata/maps/gen1.lua'))
@@ -24,6 +26,9 @@ return function(mod)
  local gen1Context=not game3 and not gen2 and module('lib/adapters/gen1_context.lua')or nil
  local isFishing=gen1Context and gen1Context.install(Battle)or function()return false end
  local speciesCatalog=module('lib/species_catalog.lua').new(mod)
+ local dexProfiles=module('lib/dex_mound_profile.lua').new(mod,module)
+ local dexContacts=module('lib/adapters/dex_contacts.lua')(mod,function(ref)return speciesCatalog:identity(ref)end,
+  dexProfiles,module('lib/mound_contact.lua'),Version.generation())
  mod.exports.getSpeciesChoices=function()return speciesCatalog:refresh(mod.game)end
  mod.exports.speciesIdentity=function(ref)return speciesCatalog:identity(ref)end
  mod.events:on('mods.loaded',function()speciesCatalog:refresh(mod.game)end,-1000)
@@ -254,7 +259,13 @@ return function(mod)
   -- then place scenery at the consumer's existing native contact slots.
   local baseline=assert(scene:layout(v))
   local activeProfile=context and context.double and nativeProfile.double or nativeProfile
-  local grounded,why=Grounding.apply(layout,baseline,presentation=='wide'and wideProfile or activeProfile,nativeFrame,moundMaterials,scene.moundSourcePaths)
+  local replaced=mod.find and(mod:find('1025dex')or mod:find('g9-battle-sprites-gen3')or mod:find('gen3-hd-sprites'))
+  activeMoundCorrections=rse and context and not context.double and not replaced and speciesMounds[context.enemySpecies]or nil
+  local contactProfile=presentation=='wide'and wideProfile or activeProfile
+  local measured,contactReport=dexContacts.resolve(battle,presentation,contactProfile,context and context.screen)
+  if measured then activeMoundCorrections=measured end
+  diagnostics.spriteContacts=contactReport
+  local grounded,why=Grounding.apply(layout,baseline,presentation=='wide'and wideProfile or activeProfile,nativeFrame,moundMaterials,scene.moundSourcePaths,activeMoundCorrections)
   if not grounded then return fallback(why)end
   local assignments=Json.encode(selection:exportAssignments())
   if assignments~=lastAssignments then
@@ -284,18 +295,25 @@ return function(mod)
   return true
  end
  local SpriteOffsets=module('lib/sprite_offsets.lua')
- function provider.nativeMound(side)
+ function provider.nativeMounds(side)
   if not mod.options:get('mounds')or not scene.entry then return end
   local profile=diagnostics.double and nativeProfile.double or nativeProfile
   local viewport={x=0,y=0,width=profile.width,height=profile.height}
   local layout=scene:layout(viewport,loadedAdjustments);local baseline=scene:layout(viewport)
   if not layout or not baseline then return end
-  layout=Grounding.apply(layout,baseline,profile,{x=0,y=0,width=profile.width,height=profile.height},moundMaterials,scene.moundSourcePaths)
-  local mound=layout[side].mound
+  layout=Grounding.apply(layout,baseline,profile,{x=0,y=0,width=profile.width,height=profile.height},moundMaterials,scene.moundSourcePaths,activeMoundCorrections)
   local image=scene.moundPaths and scene.textures[scene.moundPaths[side]]
   if not image then return end
-  local scale=math.min(mound.bounds[1]/image:getWidth(),mound.bounds[2]/image:getHeight())*mound.scale
-  return image,mound.x,mound.y,scale,mound.origin or{.5,.5}
+  local pads={}
+  for _,mound in ipairs(layout[side].mounds or{layout[side].mound})do
+   local scale=math.min(mound.bounds[1]/image:getWidth(),mound.bounds[2]/image:getHeight())*mound.scale
+   pads[#pads+1]={image=image,x=mound.x,y=mound.y,scale=scale,origin=mound.origin or{.5,.5}}
+  end
+  return pads
+ end
+ function provider.nativeMound(side)
+  local pads=provider.nativeMounds(side);local p=pads and pads[1]
+  if p then return p.image,p.x,p.y,p.scale,p.origin end
  end
  function provider.spriteOffset(side,species)
   if not provider.enabled()or not lastLayout or diagnostics.status~='active'then return 0,0 end

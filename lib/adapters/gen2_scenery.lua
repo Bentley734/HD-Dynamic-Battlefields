@@ -5,7 +5,8 @@ function M.install(mod,Screen,G,provider)
  local Chrome=require('src.ui.gen2.Chrome')
  local layers=setmetatable({},{__mode='k'})
  local replay,active=false,0
- local function enabled()return provider.enabled()and not mod.find('kim1025')end
+ -- KIM has no Gen 2 battle stage; its optional sprite source is compatible.
+ local function enabled()return provider.enabled()end
  local function paint(w,h,frame,presentation)
   local depth=G.getStackDepth();G.push('all');G.origin();G.setShader();G.setScissor()
   replay=true

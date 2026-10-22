@@ -13,6 +13,7 @@ return function(mod,identity)
   end
   local terrain=Background.env().TERRAIN
   return{battle=state,kind=state.wild and'wild'or'trainer',map=session.map,mapType=map and map.mapType,
+   double=state.double==true,
    playerSpecies=species(state.player),enemySpecies=species(state.enemy),
    water=state.terrain==terrain.WATER or state.terrain==terrain.POND or state.terrain==terrain.UNDERWATER,
    weather=state.weather,link=state.link or state.multi}

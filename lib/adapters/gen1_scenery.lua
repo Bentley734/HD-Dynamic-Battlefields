@@ -5,11 +5,23 @@ function M.install(mod,Battle,G,provider)
  local Frame=assert(loadstring(assert(mod:read('lib/native_frame.lua'))))()
  local layers=setmetatable({},{__mode='k'})
  local replay=false
+ local function kimStage()
+  if not mod.find('kim1025')then return false end
+  local loader=mod.game and mod.game.mods
+  local bucket=loader and loader.modOptions and loader.modOptions.kim1025
+  if not bucket then
+   local options=require('src.core.SaveData').loadOptions()
+   bucket=options and options.modOptions and options.modOptions.kim1025
+  end
+  -- KIM's public sprite provider also works with its battle stage disabled.
+  -- Its source pack alone must not turn our native scenery insertion off.
+  return not bucket or bucket.battleSystem~=false
+ end
  local function owns()
   if not provider.enabled()then return false end
   -- A compatible Menu Customizer consumes the provider itself. KIM remains
   -- an explicit unsupported coexistence path until its provider is tested.
-  return not mod.find('gen3transparency')and not mod.find('kim1025')
+  return not mod.find('gen3transparency')and not kimStage()
  end
  local clear,draw=G.clear,G.draw
  G.clear=function(...)

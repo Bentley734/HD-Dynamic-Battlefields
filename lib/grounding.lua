@@ -1,7 +1,7 @@
 -- Anchor scenery to an existing native presentation without moving it.
 local M={}
 local function finite(n)return type(n)=='number'and n==n and n~=math.huge and n~=-math.huge end
-function M.apply(layout,baseline,profile,frame,materials,paths)
+function M.apply(layout,baseline,profile,frame,materials,paths,corrections)
  local v=layout.viewport
  if not frame then
   local fit=math.min(v.width/profile.width,v.height/profile.height)
@@ -23,10 +23,25 @@ function M.apply(layout,baseline,profile,frame,materials,paths)
   end
   local materialY=material and material.offset_y or 0
   if not finite(materialY)then return nil,'Invalid mound material offset'end
+  local correction=corrections and corrections[side]
+  local speciesX=correction and correction.x or 0
+  local speciesY=correction and correction.y or 0
+  if not finite(speciesX)or not finite(speciesY)then return nil,'Invalid species mound offset'end
   local userScale=mound.scale/base.scale
-  mound.x,mound.y=frame.x+slot.x*sx+dx,frame.y+(slot.y+materialY)*sy+dy
+  mound.x,mound.y=frame.x+(slot.x+speciesX)*sx+dx,frame.y+(slot.y+materialY+speciesY)*sy+dy
   mound.bounds,mound.scale={slot.width*sx*materialScale,slot.height*sy*materialScale},userScale
   if material and material.origin then mound.origin={material.origin[1],material.origin[2]}end
+  layout[side].mounds=nil
+  if correction and correction.slots then
+   if type(correction.slots)~='table'or #correction.slots==0 then return nil,'Invalid mound contact slots'end
+   local mounds={}
+   for _,contact in ipairs(correction.slots)do
+    if not finite(contact.x)or not finite(contact.y)or not finite(contact.width)or not finite(contact.height)or contact.width<=0 or contact.height<=0 then return nil,'Invalid mound contact slot'end
+    mounds[#mounds+1]={x=frame.x+contact.x*sx+dx,y=frame.y+(contact.y+materialY)*sy+dy,
+     bounds={contact.width*sx*materialScale,contact.height*sy*materialScale},scale=userScale,origin=mound.origin,id=contact.id}
+   end
+   layout[side].mounds=mounds
+  end
  end
  return layout
 end

@@ -45,3 +45,10 @@ assert(hoenn.emerald.double.opponent.width==160 and materialBase.opponent.mound.
 materials.water.origin={.5,2}
 assert(not G.apply(materialLayout,materialBase,hoenn.emerald.double,nil,materials,{opponent='water'}))
 print('PASS data-driven water-islet coverage and surface origin, isolation and invalid material rejection')
+
+local speciesLayout=assert(scene:layout(viewport));local speciesBase=assert(scene:layout(viewport))
+local speciesRules=assert(loadfile(root..'/metadata/rse_species_mounds.lua'))()
+assert(G.apply(speciesLayout,speciesBase,hoenn.emerald,{x=0,y=0,width=240,height=160},nil,nil,speciesRules.METAGROSS))
+assert(speciesLayout.opponent.mound.y==hoenn.emerald.opponent.y-4)
+assert(speciesLayout.player.mound.y==hoenn.emerald.player.y,'Opponent species correction leaked to player')
+print('PASS native opponent species mound correction and player isolation')

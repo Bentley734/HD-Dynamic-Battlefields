@@ -118,12 +118,14 @@ function M.new(graphics, perspective, loadImage, sourceIdentity)
     local mound = self.moundPaths and self.moundPaths[side]
     if mound and options.mounds ~= false then
      local image = self.textures[mound]
-     local width, height = p.mound.bounds[1]*p.mound.scale,p.mound.bounds[2]*p.mound.scale
+     for _,pad in ipairs(p.mounds or{p.mound})do
+     local width, height = pad.bounds[1]*pad.scale,pad.bounds[2]*pad.scale
      local fit = math.min(width/image:getWidth(),height/image:getHeight())
      width,height = image:getWidth()*fit,image:getHeight()*fit
      if tint then g.setColor(tint[1],tint[2],tint[3],tint[4]or 1)else g.setColor(1,1,1,1)end
-     local origin=p.mound.origin
-     g.draw(image,p.mound.x-width*(origin and origin[1]or .5),p.mound.y-height*(origin and origin[2]or .5),0,width/image:getWidth(),height/image:getHeight())
+     local origin=pad.origin
+     g.draw(image,pad.x-width*(origin and origin[1]or .5),pad.y-height*(origin and origin[2]or .5),0,width/image:getWidth(),height/image:getHeight())
+     end
     end
     local sprite = sprites and sprites[side]
     if sprite and sprite.visible ~= false then
