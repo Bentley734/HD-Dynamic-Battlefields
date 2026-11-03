@@ -14,8 +14,27 @@ return function(mod, perspective)
  function b.release(handle) return mod.fetch:release(handle) end
  function b.imagePath(path) return 'mod_cache/'..mod.id..'/'..path end
  function b.compatible(pack)
-  if type(pack.game_version) ~= 'string' then return nil,'Missing runtime compatibility range' end
-  if not Semver.satisfies(Version.engine,pack.game_version) then return nil,'Pack requires gen1recomp '..pack.game_version end
+  local range=pack.game_version
+  if type(range)~='string'or not range:find('%S')then return nil,'Missing runtime compatibility range'end
+  local valid,why=Semver.validRange(range)
+  if not valid then return nil,'Invalid runtime compatibility range: '..tostring(why)end
+  -- Published/cached artwork descriptors retain their original hashes. Apply
+  -- the same minimum-only launcher policy to those older descriptors here.
+  -- Mod dependencies still use the engine's unchanged Semver implementation.
+  local alternatives,rest={},range
+  while true do
+   local head,tail=rest:match('^(.-)||(.*)$');local tokens={}
+   for token in(head or rest):gmatch('%S+')do
+    if token:sub(1,1)~='<'then
+     tokens[#tokens+1]=token:sub(1,1)=='^'and'>='..token:sub(2)or token
+    end
+   end
+   alternatives[#alternatives+1]=#tokens>0 and table.concat(tokens,' ')or'>=0.0.0-0'
+   if not tail then break end
+   rest=tail
+  end
+  local minimum=table.concat(alternatives,' || ')
+  if not Semver.satisfies(Version.engine,minimum)then return nil,'Pack requires gen1recomp '..minimum end
   return true
  end
  function b.validate(pack,read)

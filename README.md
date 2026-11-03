@@ -58,3 +58,5 @@ including its authored reference foot, body center, mirror and slot geometry.
 Each double-battle ally remains independent; native Pokemon draw calls are not
 modified. The previous audited path for 1025Dex 1.5.2 remains available. Unknown
 versions without the API still keep their existing scenery calibration.
+
+Compatibility patch 0.3.0-beta.9: launcher requirement `>=0.3.95`. The previous launcher maximum is removed; game behavior is unchanged.

@@ -3,7 +3,7 @@
   "metadata_schema": 1,
   "id": "battlefields-16-10-hd-one",
   "version": "0.2.0-beta.1",
-  "game_version": ">=0.3.89 <0.4.0",
+  "game_version": ">=0.3.89",
   "aspects": [
     "16:10"
   ],

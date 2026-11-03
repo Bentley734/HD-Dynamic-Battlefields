@@ -106,7 +106,7 @@ def main():
                 info.external_attr = 0o100644 << 16
                 package.writestr(info, data)
         pack = {'schema_version': 1, 'metadata_schema': 1, 'id': identifier,
-                'version': args.version, 'game_version': '>=0.3.88 <0.4.0',
+                'version': args.version, 'game_version': '>=0.3.88',
                 'aspects': [aspect], 'quality': quality, 'variation_profile': profile,
                 'label': f'{aspect} {quality} - ' + ('One variation per area' if profile == 'one' else 'All variations'),
                 'environments': sorted({item['environment'] for item in entries}),

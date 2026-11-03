@@ -40,7 +40,7 @@ def main():
     p.add_argument('--catalog', default='metadata/distribution.lua')
     p.add_argument('--source-commit')
     p.add_argument('--catalog-version', help='Existing source catalog directory, independently versioned from the release')
-    p.add_argument('--game-version', default='>=0.3.89 <0.4.0', help='Runtime compatibility range written to pack descriptors')
+    p.add_argument('--game-version', default='>=0.3.89', help='Runtime compatibility range written to pack descriptors')
     p.add_argument('--output', required=True, type=Path)
     args = p.parse_args()
     if not re.fullmatch(r'[\w.-]+/[\w.-]+', args.repository):
